@@ -71,13 +71,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TencentCloudADP/youtu-agent",
-      "target": "tencentcloudadp/youtu-tip",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TencentCloudADP/youtu-agent",
       "target": "sunnynexus/webthinker",
       "target_type": "repository"
     },
@@ -86,13 +79,6 @@
       "source_file": "README.md",
       "source_repo": "TencentCloudADP/youtu-agent",
       "target": "tencent/youtu-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "TencentCloudADP/youtu-agent",
-      "target": "csjgg/ags-cookbook",
       "target_type": "repository"
     },
     {
@@ -180,7 +166,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:32:55.369290+00:00",
+  "fetched_at": "2026-05-01T14:10:36.982727+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -213,14 +199,14 @@
     "html_url": "https://github.com/TencentCloudADP/youtu-agent",
     "language": "Python",
     "pushed_at": "2026-03-21T07:18:28Z",
-    "stargazers_count": 4537,
+    "stargazers_count": 4538,
     "topics": [
       "agent-framework",
       "agents",
       "openai-agents",
       "python"
     ],
-    "updated_at": "2026-05-01T04:53:55Z"
+    "updated_at": "2026-05-01T09:34:09Z"
   },
   "repo_links": [
     {
@@ -232,16 +218,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "tencent/youtu-agent",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tencentcloudadp/youtu-tip",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "csjgg/ags-cookbook",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

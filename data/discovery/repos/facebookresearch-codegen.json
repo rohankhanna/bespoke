@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:01:56.198603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference implementation of code generation projects from Facebook AI Research. General toolkit to apply machine learning to code, from dataset creation to model training and evaluation. Comes with pretrained models.",
+    "fork": false,
+    "full_name": "facebookresearch/CodeGen",
+    "html_url": "https://github.com/facebookresearch/CodeGen",
+    "language": "Python",
+    "pushed_at": "2026-03-12T18:38:33Z",
+    "stargazers_count": 776,
+    "topics": [],
+    "updated_at": "2026-04-28T09:51:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

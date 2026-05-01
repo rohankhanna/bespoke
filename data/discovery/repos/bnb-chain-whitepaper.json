@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnb-chain/whitepaper",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bnb-chain/whitepaper",
+      "target": "bnbchain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:41:29.278116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BNB Smart Chain",
+    "fork": false,
+    "full_name": "bnb-chain/whitepaper",
+    "html_url": "https://github.com/bnb-chain/whitepaper",
+    "language": null,
+    "pushed_at": "2024-08-20T02:08:54Z",
+    "stargazers_count": 2014,
+    "topics": [
+      "blockchain",
+      "bnb",
+      "bnbchain"
+    ],
+    "updated_at": "2026-04-28T15:17:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "* Version 0.1, 2020/04/17, initial publish.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "* Version 0.1, 2020/04/17, initial publish.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bnbchain"
+    }
+  ]
+}

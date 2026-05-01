@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:39:57.965616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cookbook for Crafting Good Code",
+    "fork": false,
+    "full_name": "Mountchicken/CodeCookbook",
+    "html_url": "https://github.com/Mountchicken/CodeCookbook",
+    "language": null,
+    "pushed_at": "2024-03-19T07:12:52Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2025-09-25T02:37:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -274,6 +274,18 @@
       "source_repo": "theupdateframework/taps",
       "status": "candidate-context",
       "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "welldone-software/why-did-you-render",
+      "status": "candidate-context",
+      "text": "why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "welldone-software/why-did-you-render",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -414,6 +426,12 @@
       "source_repo": "theupdateframework/taps",
       "status": "candidate",
       "text": "* [TAP 1: TAP Purpose and Guidelines](tap1.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "welldone-software/why-did-you-render",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -643,11 +661,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "welldone-software/why-did-you-render"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/query"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

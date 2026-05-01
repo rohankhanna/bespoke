@@ -1,0 +1,395 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.yml"
+    },
+    {
+      "component": "haskell/actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml"
+    },
+    {
+      "component": "rwe/actions-hlint-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml"
+    },
+    {
+      "component": "rwe/actions-hlint-run@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "mstksg/get-package@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml"
+    },
+    {
+      "component": "mstksg/setup-stack@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml"
+    },
+    {
+      "component": "actions/setup-haskell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "protolude/protolude",
+      "target": "sdiehl/protolude",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.yml",
+      "source_repo": "protolude/protolude",
+      "target": "haskell/actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cabal.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cabal.yml",
+      "source_repo": "protolude/protolude",
+      "target": "Cabal CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "protolude/protolude",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "protolude/protolude",
+      "target": "rwe/actions-hlint-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "protolude/protolude",
+      "target": "rwe/actions-hlint-run@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yml",
+      "source_repo": "protolude/protolude",
+      "target": "HLint CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "protolude/protolude",
+      "target": "cachix/install-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "protolude/protolude",
+      "target": "Nix CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "protolude/protolude",
+      "target": "mstksg/get-package@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "protolude/protolude",
+      "target": "mstksg/setup-stack@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "protolude/protolude",
+      "target": "actions/setup-haskell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stack.yml",
+      "source_repo": "protolude/protolude",
+      "target": "Stack CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "alternative-prelude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "haskell-prelude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "partial-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "prelude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "protolude/protolude",
+      "target": "safe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:03:19.738738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6391
+    },
+    {
+      "path": ".github/workflows/cabal.yml",
+      "size": 1196
+    },
+    {
+      "path": ".github/workflows/haskell-ci.yml",
+      "size": 6683
+    },
+    {
+      "path": ".github/workflows/hlint.yml",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/stack.yml",
+      "size": 3974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A sensible starting Prelude template.",
+    "fork": false,
+    "full_name": "protolude/protolude",
+    "html_url": "https://github.com/protolude/protolude",
+    "language": "Haskell",
+    "pushed_at": "2025-05-16T02:15:13Z",
+    "stargazers_count": 402,
+    "topics": [
+      "alternative-prelude",
+      "base",
+      "haskell",
+      "haskell-prelude",
+      "partial-functions",
+      "prelude",
+      "safe"
+    ],
+    "updated_at": "2026-02-23T14:22:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdiehl/protolude",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cabal CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cabal.yml",
+      "term": "Cabal CI"
+    },
+    {
+      "context_snippet": "Haskell-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "term": "Haskell-CI"
+    },
+    {
+      "context_snippet": "HLint CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hlint.yml",
+      "term": "HLint CI"
+    },
+    {
+      "context_snippet": "Nix CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix CI"
+    },
+    {
+      "context_snippet": "Stack CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stack.yml",
+      "term": "Stack CI"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alternative-prelude"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell-prelude"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "partial-functions"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prelude"
+    },
+    {
+      "context_snippet": "Protolude",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safe"
+    }
+  ]
+}

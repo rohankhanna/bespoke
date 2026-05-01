@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Create Hotfix Branch"
+    "Create Hotfix Branch",
+    "Create hotfix branch"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "gchq/koryphe",
       "status": "candidate-context",
       "text": "Create Hotfix Branch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "Create hotfix branch"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "gchq/koryphe",
       "status": "candidate",
       "text": "Create Hotfix Branch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate",
+      "text": "Create hotfix branch"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/create-hotfix-branch.yaml",
       "source_repo": "gchq/koryphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/create-hotfix-branch.yml",
+      "source_repo": "juspay/hyperswitch"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build manual"
+    "Build manual",
+    "Build Manual"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "danmar/cppcheck",
       "status": "candidate-context",
       "text": "Build manual"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek, Ollama, Mistral and OpenAI models remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "Build Manual"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "danmar/cppcheck",
       "status": "candidate",
       "text": "Build manual"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate",
+      "text": "Build Manual"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/buildman.yml",
       "source_repo": "danmar/cppcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build-manual.yml",
+      "source_repo": "Mobile-Artificial-Intelligence/maid"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

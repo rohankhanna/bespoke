@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Draft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate-context",
+      "text": "An ACP bridge to langraph4j and langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate-context",
+      "text": "Release Draft"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate",
+      "text": "Release Draft"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11623,
+      "status": "candidate",
+      "text": "remit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "brochure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Draft",
+  "concept_id": "release-draft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Draft",
+      "sense_id": "release-draft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

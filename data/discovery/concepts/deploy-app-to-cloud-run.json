@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy App to Cloud Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "Deploy App to Cloud Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "Deploy App to Cloud Run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38428,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36625,
+      "status": "candidate",
+      "text": "pale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36463,
+      "status": "candidate",
+      "text": "rack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36376,
+      "status": "candidate",
+      "text": "cause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36376,
+      "status": "candidate",
+      "text": "causing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy App to Cloud Run",
+  "concept_id": "deploy-app-to-cloud-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gcp_app.yml",
+      "source_repo": "BasedHardware/omi"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy App to Cloud Run",
+      "sense_id": "deploy-app-to-cloud-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

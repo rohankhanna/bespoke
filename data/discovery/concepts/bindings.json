@@ -190,6 +190,18 @@
       "source_repo": "JuliaMath/FFTW.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msoos/cryptominisat-rs",
+      "status": "candidate-context",
+      "text": "CryptoMiniSat rust bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat-rs",
+      "status": "candidate-context",
+      "text": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "JuliaMath/FFTW.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat-rs",
+      "status": "candidate",
+      "text": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +499,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "JuliaMath/FFTW.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "msoos/cryptominisat-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

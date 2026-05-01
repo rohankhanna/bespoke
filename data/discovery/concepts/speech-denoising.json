@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "speech-denoising"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "status": "candidate-context",
+      "text": "Official repository of Spiking-FullSubNet, the Intel N-DNS Challenge Algorithmic Track Winner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "status": "candidate-context",
+      "text": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "status": "candidate",
+      "text": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "speech-denoising",
+  "concept_id": "speech-denoising",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haoxiangsnr/spiking-fullsubnet"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech-denoising",
+      "sense_id": "speech-denoising#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

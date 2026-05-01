@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Project COLON-X (Shaping the neXt frontier in intelligent COLONoscopy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040923,
+      "status": "candidate",
+      "text": "intestinal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040886,
+      "status": "candidate",
+      "text": "enteric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040877,
+      "status": "candidate",
+      "text": "gut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040171,
+      "status": "candidate",
+      "text": "stomach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038192,
+      "status": "candidate",
+      "text": "musculoskeletal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gastrointestinal",
+      "sense_id": "gastrointestinal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gastrointestinal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gastrointestinal",
+  "observation_id": "931dd54e8a8b099f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "gastrointestinal",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "ai4colonoscopy/Colon-X",
+  "source_repo_description": "Project COLON-X (Shaping the neXt frontier in intelligent COLONoscopy)"
+}

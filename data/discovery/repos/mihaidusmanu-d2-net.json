@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net",
+      "target": "local-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net",
+      "target": "visual-localization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:37:49.178250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "D2-Net: A Trainable CNN for Joint Description and Detection of Local Features",
+    "fork": false,
+    "full_name": "mihaidusmanu/d2-net",
+    "html_url": "https://github.com/mihaidusmanu/d2-net",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-04-08T08:16:22Z",
+    "stargazers_count": 846,
+    "topics": [
+      "cnn",
+      "cvpr2019",
+      "local-features",
+      "pytorch",
+      "visual-localization"
+    ],
+    "updated_at": "2026-04-21T06:52:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "This repository contains the implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-features"
+    },
+    {
+      "context_snippet": "This repository contains the implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains the implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-localization"
+    }
+  ]
+}

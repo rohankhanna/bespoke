@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "friend"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986727,
+      "status": "candidate",
+      "text": "acquaintance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970760,
+      "status": "candidate",
+      "text": "admirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969535,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966668,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955946,
+      "status": "candidate",
+      "text": "booster"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35044,
+      "status": "candidate",
+      "text": "champion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27035,
+      "status": "candidate",
+      "text": "acquaintance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26042,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13037,
+      "status": "candidate",
+      "text": "protagonist"
+    }
+  ],
+  "canonical_name": "friend",
+  "concept_id": "friend",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "friend",
+      "sense_id": "friend#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

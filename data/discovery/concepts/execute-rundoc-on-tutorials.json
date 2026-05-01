@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "execute rundoc on tutorials"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks",
+      "status": "candidate-context",
+      "text": "Heroku Cloud Native Buildpacks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks",
+      "status": "candidate-context",
+      "text": "execute rundoc on tutorials"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks",
+      "status": "candidate",
+      "text": "execute rundoc on tutorials"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "accession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "accessions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "circulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "mine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "moralizing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "execute rundoc on tutorials",
+  "concept_id": "execute-rundoc-on-tutorials",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/rundoc-pr.yml",
+      "source_repo": "heroku/buildpacks"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "execute rundoc on tutorials",
+      "sense_id": "execute-rundoc-on-tutorials#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

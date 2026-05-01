@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/image_gen_aux",
+      "target": "zhengchen1999/dat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/image_gen_aux",
+      "target": "xavysp/teed",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "huggingface/image_gen_aux"
+}

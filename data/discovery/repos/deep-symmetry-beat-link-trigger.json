@@ -131,28 +131,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/beat-link-trigger",
-      "target": "bobbylight/rsyntaxtextarea",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link-trigger",
-      "target": "bobbylight/rstaui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link-trigger",
-      "target": "kirill-grouchnikov/radiance",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link-trigger",
-      "target": "deep-symmetry/carabiner",
+      "target": "timmolderez/inspector-jay",
       "target_type": "repository"
     },
     {
@@ -282,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:20:31.373427+00:00",
+  "fetched_at": "2026-05-01T12:49:42.483859+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -322,22 +301,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bobbylight/rstaui",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bobbylight/rsyntaxtextarea",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deep-symmetry/carabiner",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kirill-grouchnikov/radiance",
+      "full_name": "timmolderez/inspector-jay",
       "source_file": "README.md"
     }
   ],

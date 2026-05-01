@@ -67,6 +67,30 @@
       "source_repo": "raphw/byte-buddy",
       "status": "candidate-context",
       "text": "Byte Buddy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "status": "candidate-context",
+      "text": "Java library for fetching and parsing rekordbox exports and track analysis files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "status": "candidate-context",
+      "text": "Create library jar"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/electro",
+      "status": "candidate-context",
+      "text": "Java tools for working with musical time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/electro",
+      "status": "candidate-context",
+      "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "raphw/byte-buddy",
       "status": "candidate",
       "text": "Byte Buddy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "status": "candidate",
+      "text": "Create library jar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/electro",
+      "status": "candidate",
+      "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "raphw/byte-buddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/crate-digger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/electro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

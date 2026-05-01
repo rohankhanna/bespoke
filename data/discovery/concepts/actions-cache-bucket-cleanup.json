@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Actions Cache Bucket Cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "Actions Cache Bucket Cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate",
+      "text": "Actions Cache Bucket Cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28349,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28211,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "bath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "revival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "toilette"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Actions Cache Bucket Cleanup",
+  "concept_id": "actions-cache-bucket-cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cache-bucket-cleanup.yaml",
+      "source_repo": "wasmerio/wasmer"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Actions Cache Bucket Cleanup",
+      "sense_id": "actions-cache-bucket-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

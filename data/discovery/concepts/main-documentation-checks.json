@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Main Documentation Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate-context",
+      "text": "Ubuntu Desktop Provision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate-context",
+      "text": "Main Documentation Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate",
+      "text": "Main Documentation Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19261,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19140,
+      "status": "candidate",
+      "text": "references"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19132,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19132,
+      "status": "candidate",
+      "text": "scrutiny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19005,
+      "status": "candidate",
+      "text": "epithelium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main Documentation Checks",
+  "concept_id": "main-documentation-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/automatic-doc-checks.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main Documentation Checks",
+      "sense_id": "main-documentation-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

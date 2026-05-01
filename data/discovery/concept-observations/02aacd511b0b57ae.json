@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PubGrub version solving algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create permanent reference"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create permanent reference"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34429,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18990,
+      "status": "candidate",
+      "text": "burn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17985,
+      "status": "candidate",
+      "text": "dye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17951,
+      "status": "candidate",
+      "text": "det"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17951,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create permanent reference",
+      "sense_id": "create-permanent-reference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-permanent-reference",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-permanent-reference",
+  "observation_id": "02aacd511b0b57ae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Create permanent reference",
+  "source_context_snippet": "Create permanent reference",
+  "source_file": ".github/workflows/permaref.yaml",
+  "source_repo": "astral-sh/pubgrub",
+  "source_repo_description": "PubGrub version solving algorithm implemented in Rust"
+}

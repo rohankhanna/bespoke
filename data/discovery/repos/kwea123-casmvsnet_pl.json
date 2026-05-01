@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "alibaba/cascade-stereo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "kwea123/mvsnet_pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "kwea123/vtuber_unity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "blendedmvs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "cascade-cost-volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "depth-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "dtu-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "mvsnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "target": "tanks-and-temples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:55.184498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7921
+    },
+    {
+      "path": "requirements.txt",
+      "size": 211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching using pytorch-lightning",
+    "fork": false,
+    "full_name": "kwea123/CasMVSNet_pl",
+    "html_url": "https://github.com/kwea123/CasMVSNet_pl",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-16T13:47:27Z",
+    "stargazers_count": 295,
+    "topics": [
+      "3d-reconstruction",
+      "blendedmvs",
+      "cascade-cost-volume",
+      "depth-prediction",
+      "dtu-dataset",
+      "multi-view-stereo",
+      "mvsnet",
+      "pytorch",
+      "pytorch-lightning",
+      "tanks-and-temples"
+    ],
+    "updated_at": "2026-04-24T23:19:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/cascade-stereo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/mvsnet_pl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/vtuber_unity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blendedmvs"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cascade-cost-volume"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtu-dataset"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvsnet"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    },
+    {
+      "context_snippet": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tanks-and-temples"
+    }
+  ]
+}

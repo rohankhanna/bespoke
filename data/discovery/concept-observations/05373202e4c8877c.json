@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Community plugins list, theme list, and releases of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate Plugin Entry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate Plugin Entry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25482,
+      "status": "candidate",
+      "text": "keyway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25482,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25482,
+      "status": "candidate",
+      "text": "prothesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25462,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25462,
+      "status": "candidate",
+      "text": "essay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Plugin Entry",
+      "sense_id": "validate-plugin-entry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-plugin-entry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-plugin-entry",
+  "observation_id": "05373202e4c8877c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Validate Plugin Entry",
+  "source_context_snippet": "Validate Plugin Entry",
+  "source_file": ".github/workflows/validate-plugin-entry.yml",
+  "source_repo": "obsidianmd/obsidian-releases",
+  "source_repo_description": "Community plugins list, theme list, and releases of Obsidian."
+}

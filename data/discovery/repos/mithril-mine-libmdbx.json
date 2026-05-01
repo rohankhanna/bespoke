@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Mithril-mine/libmdbx",
-      "target": "theseyan/lmdbx-zig",
+      "target": "vorot93/libmdbx-rs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Mithril-mine/libmdbx",
-      "target": "snej/nimdbx",
+      "target": "torquem-ch/mdbx-go",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:31:42.405288+00:00",
+  "fetched_at": "2026-05-01T13:38:35.642205+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -110,7 +110,7 @@
     "html_url": "https://github.com/Mithril-mine/libmdbx",
     "language": "C",
     "pushed_at": "2026-04-30T14:01:25Z",
-    "stargazers_count": 1396,
+    "stargazers_count": 1395,
     "topics": [
       "embedded-database",
       "key-value",
@@ -122,7 +122,7 @@
       "storage-engine",
       "transaction"
     ],
-    "updated_at": "2026-04-30T07:21:01Z"
+    "updated_at": "2026-05-01T09:36:42Z"
   },
   "repo_links": [
     {
@@ -137,12 +137,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "snej/nimdbx",
+      "full_name": "torquem-ch/mdbx-go",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "theseyan/lmdbx-zig",
+      "full_name": "vorot93/libmdbx-rs",
       "source_file": "README.md"
     }
   ],

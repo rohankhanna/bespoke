@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahojnnes/local-feature-evaluation",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahojnnes/local-feature-evaluation",
+      "target": "local-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahojnnes/local-feature-evaluation",
+      "target": "reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:47.610451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Comparative Evaluation of Hand-Crafted and Learned Local Features",
+    "fork": false,
+    "full_name": "ahojnnes/local-feature-evaluation",
+    "html_url": "https://github.com/ahojnnes/local-feature-evaluation",
+    "language": "MATLAB",
+    "pushed_at": "2024-01-11T14:39:33Z",
+    "stargazers_count": 232,
+    "topics": [
+      "benchmark",
+      "local-features",
+      "reconstruction"
+    ],
+    "updated_at": "2026-03-08T06:10:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Comparative Evaluation of Hand-Crafted and Learned Local Features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "Comparative Evaluation of Hand-Crafted and Learned Local Features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-features"
+    },
+    {
+      "context_snippet": "Comparative Evaluation of Hand-Crafted and Learned Local Features",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reconstruction"
+    }
+  ]
+}

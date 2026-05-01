@@ -26,7 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/PhiCookBook",
-      "target": "microsoft/generative-ai-for-beginners-dotnet",
+      "target": "microsoft/langchain-for-beginners",
       "target_type": "repository"
     },
     {
@@ -114,7 +114,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:33:17.503581+00:00",
+  "fetched_at": "2026-05-01T14:11:05.557295+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -167,7 +167,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "microsoft/generative-ai-for-beginners-dotnet",
+      "full_name": "microsoft/langchain-for-beginners",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:04:24.915896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1541
+    },
+    {
+      "path": "requirements.txt",
+      "size": 266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Make SkyReels-A2 avialbe in ComfyUI.",
+    "fork": false,
+    "full_name": "Yuan-ManX/ComfyUI-SkyReels-A2",
+    "html_url": "https://github.com/Yuan-ManX/ComfyUI-SkyReels-A2",
+    "language": "Python",
+    "pushed_at": "2025-05-27T04:14:03Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-09-13T07:45:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

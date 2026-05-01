@@ -1,0 +1,359 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-binaries.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-binaries.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "virtual-puppet-project/vpuppr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "emilianavt/openseefacesample",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "rwightman/gen-efficientnet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "tankrant/adaptive-wing-loss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-binaries.yaml",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-binaries.yaml",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "Package using PyInstaller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "detection-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "face-landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "face-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "landmark-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "mobilenetv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "openseeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "unity3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "virtual-youtuber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace",
+      "target": "vtuber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:18.431296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17493
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/create-binaries.yaml",
+      "size": 2421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robust realtime face and facial landmark tracking on CPU with Unity integration",
+    "fork": false,
+    "full_name": "emilianavt/OpenSeeFace",
+    "html_url": "https://github.com/emilianavt/OpenSeeFace",
+    "language": "Python",
+    "pushed_at": "2025-12-28T11:52:30Z",
+    "stargazers_count": 1865,
+    "topics": [
+      "cpu",
+      "csharp",
+      "depth-estimation",
+      "detection-model",
+      "face-detection",
+      "face-landmarks",
+      "face-tracking",
+      "landmark-model",
+      "mobilenetv3",
+      "onnx",
+      "onnxruntime",
+      "openseeface",
+      "python",
+      "pytorch",
+      "tracker",
+      "udp",
+      "unity",
+      "unity3d",
+      "virtual-youtuber",
+      "vtuber"
+    ],
+    "updated_at": "2026-05-01T09:28:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emilianavt/openseefacesample",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/gen-efficientnet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tankrant/adaptive-wing-loss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "virtual-puppet-project/vpuppr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Package using PyInstaller",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-binaries.yaml",
+      "term": "Package using PyInstaller"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-model"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-landmarks"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-tracking"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "landmark-model"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv3"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openseeface"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracker"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity3d"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-youtuber"
+    },
+    {
+      "context_snippet": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vtuber"
+    }
+  ]
+}

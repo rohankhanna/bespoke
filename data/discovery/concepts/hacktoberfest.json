@@ -6745,6 +6745,438 @@
       "source_repo": "Keboo/MaterialDesignInXaml.Examples",
       "status": "candidate-context",
       "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "status": "candidate-context",
+      "text": "My personal website and blog made with Franklin.jl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "status": "candidate-context",
+      "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "Generate a browserslist-stats.json file using data from your Plausible Analytics instance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "Crafty statistical graphics for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate-context",
+      "text": "Tutorials for doing scientific machine learning (SciML) and high-performance differential equation solving with open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate-context",
+      "text": "htop - an interactive process viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/htop-dev/htop/workflows/CI/badge.svg)](https://github.com/htop-dev/htop/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rahsheen/expo-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "Expo template including Redux Toolkit and Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/expo-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "expo-template-redux-typescript \u2014 The Blank project template includes typescript and redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "Clean and minimalist React Native template for a quick start with Redux and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/stylelint-order",
+      "status": "candidate-context",
+      "text": "A plugin pack of order related linting rules for Stylelint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/stylelint-order",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twibiral/obsidian-execute-code",
+      "status": "candidate-context",
+      "text": "Obsidian Plugin to execute code in a note."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twibiral/obsidian-execute-code",
+      "status": "candidate-context",
+      "text": "<div align='right'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate-context",
+      "text": "Deploy your plugin to the WordPress.org repository using GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate-context",
+      "text": "> Deploy your plugin to the WordPress.org repository using GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "wp-cli/dist-archive-command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rake",
+      "status": "candidate-context",
+      "text": "A make-like build utility for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rake",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/hlint-run",
+      "status": "candidate-context",
+      "text": "Reusable GitHub Action to run hlint in a workflow. Use with haskell-actions/hlint-setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-run",
+      "status": "candidate-context",
+      "text": "GitHub Action: Run hlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-actions/hlint-setup",
+      "status": "candidate-context",
+      "text": "Reusable GitHub Action to set up hlint in a workflow. Use with haskell-actions/hlint-run."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-setup",
+      "status": "candidate-context",
+      "text": "GitHub Action: Set up `hlint`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kowainik/summoner",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e \ud83d\udd27 Tool for scaffolding batteries-included production-level Haskell projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/summoner",
+      "status": "candidate-context",
+      "text": "![wizard](https://user-images.githubusercontent.com/8126674/44388234-320aac00-a55a-11e8-879d-5dca68512031.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate-context",
+      "text": "\ud83c\udf09 Experience Nuxt 3 features on existing Nuxt 2 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate-context",
+      "text": "> Reduce the differences with Nuxt 3 and reduce the burden of migration to Nuxt 3."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-devlake-website",
+      "status": "candidate-context",
+      "text": "Apache Devlake Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake-website",
+      "status": "candidate-context",
+      "text": "This project keeps all sources used for building up DevLake's official website which is served at https://devlake.apache.org/."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "A RuboCop extension focused on enforcing Rails best practices and coding conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teamcapybara/capybara",
+      "status": "candidate-context",
+      "text": "Acceptance test framework for web applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teamcapybara/capybara",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/teamcapybara/capybara/actions/workflows/build.yml/badge.svg)](https://github.com/teamcapybara/capybara/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sysadminsmedia/homebox",
+      "status": "candidate-context",
+      "text": "A continuation of HomeBox the inventory and organization system built for the Home User"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sysadminsmedia/homebox",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jd-boyd/python-lzo",
+      "status": "candidate-context",
+      "text": "Python bindings for the LZO data compression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-boyd/python-lzo",
+      "status": "candidate-context",
+      "text": "[![Build and tests](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml/badge.svg)](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate-context",
+      "text": "Thin-wrapper around the mock package for easier use with pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate-context",
+      "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate-context",
+      "text": "A Jupyter kernel for nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate-context",
+      "text": "![logo.svg](logo.svg) Jupyter Nim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tox-dev/filelock",
+      "status": "candidate-context",
+      "text": "A platform-independent file lock for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/filelock",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/filelock)](https://pypi.org/project/filelock/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate-context",
+      "text": "Official s3cmd repo -- Command line tool for managing S3 compatible storage services (including Amazon S3 and CloudFront)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "A small set of extensions to make test assertions more fluent when using CSharpFunctionalExtensions! Wow!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "Helm Plugin - Install Helm Charts straight from Git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Android SDK \ud83d\udc9a  \ud83e\udd16"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-apple",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite SDK for Apple Devices \ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-apple",
+      "status": "candidate-context",
+      "text": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-apple.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Dart SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate-context",
+      "text": "[![pub package](https://img.shields.io/pub/v/dart_appwrite.svg?style=flat-square)](https://pub.dartlang.org/packages/dart_appwrite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Deno SDK \ud83e\udd95"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsspec/gcsfs",
+      "status": "candidate-context",
+      "text": "Pythonic file-system interface for Google Cloud Storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/gcsfs",
+      "status": "candidate-context",
+      "text": "[|Build Status|](https://github.com/fsspec/gcsfs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atsign-foundation/at_app",
+      "status": "candidate-context",
+      "text": "This project is deprecated, see the tutorial linked below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/at_app",
+      "status": "candidate-context",
+      "text": "<a href=\"https://atsign.com#gh-light-mode-only\"><img width=250px src=\"https://atsign.com/wp-content/uploads/2022/05/atsign-logo-horizontal-color2022.svg#gh-light-mode-only\" alt=\"The Atsign Foundation\"></a><a href=\"https://atsign.com#gh-dark-mode-only\"><img width=250px src=\"https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "WPF Ribbon control like in Office"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -10125,6 +10557,222 @@
       "source_repo": "Keboo/MaterialDesignInXaml.Examples",
       "status": "candidate",
       "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "status": "candidate",
+      "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/htop-dev/htop/workflows/CI/badge.svg)](https://github.com/htop-dev/htop/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/expo-template-redux-typescript",
+      "status": "candidate",
+      "text": "expo-template-redux-typescript \u2014 The Blank project template includes typescript and redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/stylelint-order",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twibiral/obsidian-execute-code",
+      "status": "candidate",
+      "text": "<div align='right'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate",
+      "text": "> Deploy your plugin to the WordPress.org repository using GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate",
+      "text": "wp-cli/dist-archive-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rake",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-run",
+      "status": "candidate",
+      "text": "GitHub Action: Run hlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-actions/hlint-setup",
+      "status": "candidate",
+      "text": "GitHub Action: Set up `hlint`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/summoner",
+      "status": "candidate",
+      "text": "![wizard](https://user-images.githubusercontent.com/8126674/44388234-320aac00-a55a-11e8-879d-5dca68512031.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate",
+      "text": "> Reduce the differences with Nuxt 3 and reduce the burden of migration to Nuxt 3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-devlake-website",
+      "status": "candidate",
+      "text": "This project keeps all sources used for building up DevLake's official website which is served at https://devlake.apache.org/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teamcapybara/capybara",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/teamcapybara/capybara/actions/workflows/build.yml/badge.svg)](https://github.com/teamcapybara/capybara/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sysadminsmedia/homebox",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-boyd/python-lzo",
+      "status": "candidate",
+      "text": "[![Build and tests](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml/badge.svg)](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate",
+      "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate",
+      "text": "![logo.svg](logo.svg) Jupyter Nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tox-dev/filelock",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/filelock)](https://pypi.org/project/filelock/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-apple",
+      "status": "candidate",
+      "text": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-apple.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate",
+      "text": "[![pub package](https://img.shields.io/pub/v/dart_appwrite.svg?style=flat-square)](https://pub.dartlang.org/packages/dart_appwrite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/gcsfs",
+      "status": "candidate",
+      "text": "[|Build Status|](https://github.com/fsspec/gcsfs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atsign-foundation/at_app",
+      "status": "candidate",
+      "text": "<a href=\"https://atsign.com#gh-light-mode-only\"><img width=250px src=\"https://atsign.com/wp-content/uploads/2022/05/atsign-logo-horizontal-color2022.svg#gh-light-mode-only\" alt=\"The Atsign Foundation\"></a><a href=\"https://atsign.com#gh-dark-mode-only\"><img width=250px src=\"https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -14998,11 +15646,425 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Keboo/MaterialDesignInXaml.Examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/browserslist-plausible"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GiovineItalia/Gadfly.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "htop-dev/htop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rahsheen/expo-template-redux-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hudochenkov/stylelint-order"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "twibiral/obsidian-execute-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "10up/action-wordpress-plugin-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ruby/rake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-run"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haskell-actions/hlint-setup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kowainik/summoner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "teamcapybara/capybara"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jd-boyd/python-lzo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-mock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aslafy-z/helm-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-apple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fsspec/gcsfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "atsign-foundation/at_app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluentribbon/Fluent.Ribbon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

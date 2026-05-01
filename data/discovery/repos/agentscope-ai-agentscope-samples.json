@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "Manual Build Alias Sandbox Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "target": "Pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:10:18.448350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24422
+    },
+    {
+      "path": ".github/workflows/build_alias_sandbox_image.yml",
+      "size": 8728
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1037
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of ready-to-use Python sample agents built with AgentScope and AgentScope Runtime, covering use cases from CLI tools to full-stack applications.",
+    "fork": false,
+    "full_name": "agentscope-ai/agentscope-samples",
+    "html_url": "https://github.com/agentscope-ai/agentscope-samples",
+    "language": "Python",
+    "pushed_at": "2026-04-10T04:14:44Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-05-01T12:48:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Manual Build Alias Sandbox Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "term": "Manual Build Alias Sandbox Image"
+    },
+    {
+      "context_snippet": "Pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Pre-commit"
+    }
+  ]
+}

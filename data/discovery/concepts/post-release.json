@@ -203,6 +203,18 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate-context",
       "text": "'post release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littlefs-project/littlefs",
+      "status": "candidate-context",
+      "text": "A little fail-safe filesystem designed for microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/littlefs",
+      "status": "candidate-context",
+      "text": "post-release"
     }
   ],
   "candidate_glosses": [
@@ -301,6 +313,12 @@
       "source_repo": "bndtools/bnd",
       "status": "candidate",
       "text": "'post release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/littlefs",
+      "status": "candidate",
+      "text": "post-release"
     }
   ],
   "candidate_related_terms": [
@@ -488,11 +506,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "smithy-lang/smithy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/post-release.yml",
+      "source_repo": "littlefs-project/littlefs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

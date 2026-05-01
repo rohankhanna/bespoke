@@ -1,12 +1,22 @@
 {
   "component": "google-github-actions/upload-cloud-storage@6397bd7208e18d13ba2619ee21b9873edc94427a",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/obs.yml",
       "source_repo": "cri-o/packaging"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/fred"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/rari"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Test AGENT Service"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Facebook Open Switching System\n\nSoftware for controlling network switches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Build & Test AGENT Service"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate",
+      "text": "Build & Test AGENT Service"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43999,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32990,
+      "status": "candidate",
+      "text": "fee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32968,
+      "status": "candidate",
+      "text": "realtor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27654,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27598,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Test AGENT Service",
+  "concept_id": "build-test-agent-service",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/agent.yml",
+      "source_repo": "facebook/fboss"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Test AGENT Service",
+      "sense_id": "build-test-agent-service#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

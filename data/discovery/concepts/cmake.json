@@ -646,6 +646,42 @@
       "source_repo": "sheredom/ubench.h",
       "status": "candidate-context",
       "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rpautrat/homography_est",
+      "status": "candidate-context",
+      "text": "Light-weight library to perform homography estimation with RANSAC from point, line or point-line correspondences"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rpautrat/homography_est",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "C++ and Python library for farm-ng logging format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate-context",
+      "text": "C++ package retrieval"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate-context",
+      "text": "cget"
     }
   ],
   "candidate_glosses": [
@@ -966,6 +1002,24 @@
       "source_repo": "sheredom/ubench.h",
       "status": "candidate",
       "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rpautrat/homography_est",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate",
+      "text": "cget"
     }
   ],
   "candidate_related_terms": [
@@ -1423,11 +1477,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "sheredom/ubench.h"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "rpautrat/homography_est"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-find-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "farm-ng/farm-ng-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pfultz2/cget"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

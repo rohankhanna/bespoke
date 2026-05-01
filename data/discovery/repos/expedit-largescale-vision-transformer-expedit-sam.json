@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:04:29.077309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS2022] This is the official implementation of the paper \"Expediting Large-Scale Vision Transformer for Dense Prediction without Fine-tuning\" for SAM.",
+    "fork": false,
+    "full_name": "Expedit-LargeScale-Vision-Transformer/Expedit-SAM",
+    "html_url": "https://github.com/Expedit-LargeScale-Vision-Transformer/Expedit-SAM",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-29T03:03:47Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-02-05T17:55:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

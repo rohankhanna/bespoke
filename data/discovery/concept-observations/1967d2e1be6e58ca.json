@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u6d88\u606f\u901a\u77e5\u7684 frp server manager plugin \u5b9e\u73b0\uff0c\u8ba9\u4f60\u5bf9\u8fdb\u5165 frps \u7684\u8fde\u63a5\u4e86\u5982\u6307\u638c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045979,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045869,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045867,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045747,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045127,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release",
+      "sense_id": "release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43034,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "liberation"
+    }
+  ],
+  "concept_id": "release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release",
+  "observation_id": "1967d2e1be6e58ca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Release",
+  "source_context_snippet": "Release",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "rainbend/frp-notify",
+  "source_repo_description": "\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u6d88\u606f\u901a\u77e5\u7684 frp server manager plugin \u5b9e\u73b0\uff0c\u8ba9\u4f60\u5bf9\u8fdb\u5165 frps \u7684\u8fde\u63a5\u4e86\u5982\u6307\u638c\u3002"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create permanent reference"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/pubgrub",
+      "status": "candidate-context",
+      "text": "PubGrub version solving algorithm implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/pubgrub",
+      "status": "candidate-context",
+      "text": "Create permanent reference"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/pubgrub",
+      "status": "candidate",
+      "text": "Create permanent reference"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34429,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18990,
+      "status": "candidate",
+      "text": "burn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17985,
+      "status": "candidate",
+      "text": "dye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17951,
+      "status": "candidate",
+      "text": "det"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17951,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create permanent reference",
+  "concept_id": "create-permanent-reference",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/permaref.yaml",
+      "source_repo": "astral-sh/pubgrub"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create permanent reference",
+      "sense_id": "create-permanent-reference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

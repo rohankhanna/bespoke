@@ -112,6 +112,18 @@
       "source_repo": "autowarefoundation/autoware",
       "status": "candidate-context",
       "text": "docker-build-and-push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate-context",
+      "text": "A development-oriented visualization toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate-context",
+      "text": "Docker Build and Push"
     }
   ],
   "candidate_glosses": [
@@ -162,6 +174,12 @@
       "source_repo": "autowarefoundation/autoware",
       "status": "candidate",
       "text": "docker-build-and-push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate",
+      "text": "Docker Build and Push"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/docker-build-and-push.yaml",
       "source_repo": "autowarefoundation/autoware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "agentscope-ai/agentscope-studio"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

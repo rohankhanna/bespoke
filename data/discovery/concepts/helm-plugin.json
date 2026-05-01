@@ -19,6 +19,18 @@
       "source_repo": "helm-unittest/helm-unittest",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "Helm Plugin - Install Helm Charts straight from Git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "helm-unittest/helm-unittest",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/v/release/helm-unittest/helm-unittest)](https://github.com/helm-unittest/helm-unittest/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "helm-unittest/helm-unittest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aslafy-z/helm-git"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bichon \u2013 A lightweight, high-performance Rust email archiver with WebUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014396,
+      "status": "candidate",
+      "text": "apm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982484,
+      "status": "candidate",
+      "text": "courier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019496,
+      "status": "candidate",
+      "text": "imaps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019495,
+      "status": "candidate",
+      "text": "pop3"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019494,
+      "status": "candidate",
+      "text": "webmail"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imap",
+      "sense_id": "imap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "imap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imap",
+  "observation_id": "b3423ce58414b199",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "imap",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "rustmailer/bichon",
+  "source_repo_description": "Bichon \u2013 A lightweight, high-performance Rust email archiver with WebUI"
+}

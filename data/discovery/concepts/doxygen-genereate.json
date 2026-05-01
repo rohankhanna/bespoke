@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Doxygen Genereate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate-context",
+      "text": "Nix language server, based on nix libraries [maintainer=@inclyc,@takeokunn,@Aleksanaa] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate-context",
+      "text": "Doxygen Genereate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate",
+      "text": "Doxygen Genereate"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Doxygen Genereate",
+  "concept_id": "doxygen-genereate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "nix-community/nixd"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doxygen Genereate",
+      "sense_id": "doxygen-genereate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

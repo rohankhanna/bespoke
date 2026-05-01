@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "@builder.io/mitosis-repo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "@builder.io/mitosis-repo"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "solidjs",
+      "sense_id": "solidjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "solidjs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "solidjs",
+  "observation_id": "d92ffc549d410026",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "solidjs",
+  "source_context_snippet": "@builder.io/mitosis-repo",
+  "source_file": null,
+  "source_repo": "BuilderIO/mitosis",
+  "source_repo_description": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+}

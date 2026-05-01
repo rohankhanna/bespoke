@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_issues.yml"
+    },
+    {
+      "component": "pozil/auto-assign-issue@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_assignment.yml"
+    },
+    {
+      "component": "andymckay/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_assignment.yml"
+    },
+    {
+      "component": "andymckay/labeler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove_labels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_assignment.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "pozil/auto-assign-issue@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_assignment.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "andymckay/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_assignment.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "Issue assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove_labels.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "andymckay/labeler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove_labels.yml",
+      "source_repo": "mongodb/bson-rust",
+      "target": "Remove Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust",
+      "target": "bson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust",
+      "target": "mongodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:17.718074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14120
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3456
+    },
+    {
+      "path": ".github/workflows/close_stale_issues.yml",
+      "size": 778
+    },
+    {
+      "path": ".github/workflows/issue_assignment.yml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/remove_labels.yml",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Encoding and decoding support for BSON in Rust",
+    "fork": false,
+    "full_name": "mongodb/bson-rust",
+    "html_url": "https://github.com/mongodb/bson-rust",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T11:18:46Z",
+    "stargazers_count": 457,
+    "topics": [
+      "bson",
+      "json",
+      "mongodb",
+      "rust",
+      "serialization"
+    ],
+    "updated_at": "2026-04-15T18:59:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Issue assignment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_assignment.yml",
+      "term": "Issue assignment"
+    },
+    {
+      "context_snippet": "Remove Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove_labels.yml",
+      "term": "Remove Labels"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bson"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mongodb"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

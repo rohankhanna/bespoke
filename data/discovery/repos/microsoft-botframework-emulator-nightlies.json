@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:55:38.239888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Nightly releases of the Bot Framework Emulator (https://github.com/Microsoft/BotFramework-Emulator)",
+    "fork": false,
+    "full_name": "microsoft/botframework-emulator-nightlies",
+    "html_url": "https://github.com/microsoft/botframework-emulator-nightlies",
+    "language": null,
+    "pushed_at": "2023-10-07T05:58:12Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-01-05T20:26:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

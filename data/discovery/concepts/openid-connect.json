@@ -55,6 +55,30 @@
       "source_repo": "authlib/authlib",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "CloudFoundry User Account and Authentication (UAA) Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "authlib/authlib",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "authlib/authlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/uaa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "authelia/authelia"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

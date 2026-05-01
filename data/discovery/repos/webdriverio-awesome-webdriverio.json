@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "awesome-lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "octokit/request-action@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expense.yml"
+    },
+    {
+      "component": "webdriverio/expense-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expense.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "awslabs/wdio-aws-device-farm-service",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "autonomous-testing/wopee.wdio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "borisosipov/wdio-reportportal-reporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "badisi/wdio-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "awesome-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expense.yml",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "octokit/request-action@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/expense.yml",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "webdriverio/expense-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/expense.yml",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "Expense Contribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:37:03.214384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11755
+    },
+    {
+      "path": "package.json",
+      "size": 683
+    },
+    {
+      "path": ".github/workflows/expense.yml",
+      "size": 1494
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome WebdriverIO resources, libraries and tools",
+    "fork": false,
+    "full_name": "webdriverio/awesome-webdriverio",
+    "html_url": "https://github.com/webdriverio/awesome-webdriverio",
+    "language": null,
+    "pushed_at": "2026-04-20T12:37:16Z",
+    "stargazers_count": 52,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "testing"
+    ],
+    "updated_at": "2026-04-27T19:14:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomous-testing/wopee.wdio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/wdio-aws-device-farm-service",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badisi/wdio-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borisosipov/wdio-reportportal-reporter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Expense Contribution",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/expense.yml",
+      "term": "Expense Contribution"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

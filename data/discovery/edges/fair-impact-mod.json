@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "agroportal/documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "sifrproject/mod-ontology",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "actions/setup-java@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "crazy-max/ghaction-github-pages@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "widoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "ontology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "ontology-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "semantic-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "vocabulary",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "FAIR-IMPACT/MOD"
+}

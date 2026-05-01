@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BertViz: Visualize Attention in Transformer Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19310154,
+      "status": "candidate",
+      "text": "robert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19148306,
+      "status": "candidate",
+      "text": "bondar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18554732,
+      "status": "candidate",
+      "text": "mrs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18156847,
+      "status": "candidate",
+      "text": "penny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9321157,
+      "status": "candidate",
+      "text": "robbi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roberta",
+      "sense_id": "roberta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "roberta",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "roberta",
+  "observation_id": "87b5a19b27866990",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "roberta",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "jessevig/bertviz",
+  "source_repo_description": "BertViz: Visualize Attention in Transformer Models"
+}

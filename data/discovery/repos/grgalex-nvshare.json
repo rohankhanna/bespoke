@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grgalex/nvshare",
+      "target": "nvidia/k8s-device-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grgalex/nvshare",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:50.771810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Practical GPU Sharing Without Memory Size Constraints",
+    "fork": false,
+    "full_name": "grgalex/nvshare",
+    "html_url": "https://github.com/grgalex/nvshare",
+    "language": "C",
+    "pushed_at": "2025-03-28T15:20:34Z",
+    "stargazers_count": 310,
+    "topics": [
+      "gpu",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-30T17:02:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/k8s-device-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`nvshare` is a GPU sharing mechanism that allows multiple processes (or containers running on Kubernetes) to securely run on the same physical GPU concurrently, each having the whole GPU memory available.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

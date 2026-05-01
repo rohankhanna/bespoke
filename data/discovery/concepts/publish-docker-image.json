@@ -381,6 +381,30 @@
       "source_repo": "kalavai-net/kube-watcher",
       "status": "candidate-context",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "GrimoireLab: platform for software development analytics and insights"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +591,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kalavai-net/kube-watcher",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
       "status": "candidate",
       "text": "Publish Docker image"
     }
@@ -1086,11 +1122,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "kalavai-net/kube-watcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "chaoss/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pyupio/safety"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

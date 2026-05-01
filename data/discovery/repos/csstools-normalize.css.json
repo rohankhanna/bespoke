@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csstools/normalize.css",
+      "target": "sindresorhus/modern-normalize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csstools/normalize.css",
+      "target": "adamgruber/opinionate.css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csstools/normalize.css",
+      "target": "mozdevs/cssremedy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csstools/normalize.css",
+      "target": "csstools/sanitize.css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "csstools/normalize.css",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "csstools/normalize.css",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "csstools/normalize.css",
+      "target": "Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csstools/normalize.css",
+      "target": "normalization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:56:48.109786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3132
+    },
+    {
+      "path": "package.json",
+      "size": 894
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cross-browser CSS foundation",
+    "fork": false,
+    "full_name": "csstools/normalize.css",
+    "html_url": "https://github.com/csstools/normalize.css",
+    "language": "HTML",
+    "pushed_at": "2026-03-26T11:25:46Z",
+    "stargazers_count": 653,
+    "topics": [
+      "css",
+      "normalization"
+    ],
+    "updated_at": "2026-04-16T06:11:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamgruber/opinionate.css",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csstools/sanitize.css",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozdevs/cssremedy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/modern-normalize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Pages"
+    },
+    {
+      "context_snippet": "[@csstools/normalize.css] is a CSS library that provides consistent,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalization"
+    }
+  ]
+}

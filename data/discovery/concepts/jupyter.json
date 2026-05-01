@@ -391,6 +391,30 @@
       "source_repo": "letmaik/rawpy-notebooks",
       "status": "candidate-context",
       "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate-context",
+      "text": "Jupyterlab Extensions for the Impatient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate-context",
+      "text": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate-context",
+      "text": "A Jupyter kernel for nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate-context",
+      "text": "![logo.svg](logo.svg) Jupyter Nim"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +609,18 @@
       "source_repo": "letmaik/rawpy-notebooks",
       "status": "candidate",
       "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate",
+      "text": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate",
+      "text": "![logo.svg](logo.svg) Jupyter Nim"
     }
   ],
   "candidate_related_terms": [],
@@ -874,11 +910,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "letmaik/rawpy-notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

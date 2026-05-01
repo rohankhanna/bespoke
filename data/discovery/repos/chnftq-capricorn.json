@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHNFTQ/Capricorn",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHNFTQ/Capricorn",
+      "target": "hic-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CHNFTQ/Capricorn",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:55.264667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Capricorn: Enhancing Hi-C contact matrices for loop detection with a multi-view diffusion approach",
+    "fork": false,
+    "full_name": "CHNFTQ/Capricorn",
+    "html_url": "https://github.com/CHNFTQ/Capricorn",
+    "language": "Python",
+    "pushed_at": "2025-05-14T22:52:49Z",
+    "stargazers_count": 8,
+    "topics": [
+      "diffusion-models",
+      "hic-enhancement",
+      "machine-learning"
+    ],
+    "updated_at": "2025-06-12T10:21:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The python implementation of Capricorn.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "The python implementation of Capricorn.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hic-enhancement"
+    },
+    {
+      "context_snippet": "The python implementation of Capricorn.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

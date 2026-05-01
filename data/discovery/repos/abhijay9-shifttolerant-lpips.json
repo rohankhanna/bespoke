@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "abhijay9/attacking_perceptual_similarity_metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "adobe/antialiased-cnns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "oskyhn/cnns-without-borders",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "full-reference-image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "full-reference-iqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "ml-robustness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "target": "perceptual-similarity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:27.546420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4713
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] We investigated a broad range of neural network elements and developed a robust perceptual similarity metric. Our shift-tolerant perceptual similarity metric (ST-LPIPS) is consistent with human perception and is less susceptible to imperceptible misalignments between two images than existing metrics.",
+    "fork": false,
+    "full_name": "abhijay9/ShiftTolerant-LPIPS",
+    "html_url": "https://github.com/abhijay9/ShiftTolerant-LPIPS",
+    "language": "Python",
+    "pushed_at": "2024-05-21T23:35:28Z",
+    "stargazers_count": 42,
+    "topics": [
+      "full-reference-image-quality-assessment",
+      "full-reference-iqa",
+      "image-quality-assessment",
+      "iqa",
+      "ml-robustness",
+      "perceptual-similarity"
+    ],
+    "updated_at": "2026-01-20T11:17:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhijay9/attacking_perceptual_similarity_metrics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe/antialiased-cnns",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oskyhn/cnns-without-borders",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-reference-image-quality-assessment"
+    },
+    {
+      "context_snippet": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-reference-iqa"
+    },
+    {
+      "context_snippet": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assessment"
+    },
+    {
+      "context_snippet": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-robustness"
+    },
+    {
+      "context_snippet": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceptual-similarity"
+    }
+  ]
+}

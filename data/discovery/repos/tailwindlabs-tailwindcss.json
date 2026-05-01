@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/integration-tests.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yml"
     },
@@ -121,7 +121,7 @@
       "source_file": ".github/workflows/prepare-release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-release.yml"
     },
@@ -141,7 +141,12 @@
       "source_file": ".github/workflows/prepare-release.yml"
     },
     {
-      "component": "actions/setup-node@v6",
+      "component": "mlugg/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-release.yml"
     },
@@ -171,7 +176,7 @@
       "source_file": ".github/workflows/prepare-release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-release.yml"
     },
@@ -216,7 +221,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -236,7 +241,12 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "actions/setup-node@v6",
+      "component": "mlugg/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -266,7 +276,7 @@
       "source_file": ".github/workflows/release.yml"
     },
     {
-      "component": "pnpm/action-setup@v4",
+      "component": "pnpm/action-setup@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
@@ -390,7 +400,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -425,7 +435,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -467,7 +477,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -482,6 +492,20 @@
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
       "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "taiki-e/install-action@v2",
       "target_type": "component"
     },
     {
@@ -530,7 +554,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -545,6 +569,20 @@
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
       "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "taiki-e/install-action@v2",
       "target_type": "component"
     },
     {
@@ -625,7 +663,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:42:28.378742+00:00",
+  "fetched_at": "2026-05-01T12:47:40.940017+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -649,11 +687,11 @@
     },
     {
       "path": ".github/workflows/prepare-release.yml",
-      "size": 11722
+      "size": 12346
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 12675
+      "size": 13109
     }
   ],
   "related_repositories": [],
@@ -665,8 +703,8 @@
     "full_name": "tailwindlabs/tailwindcss",
     "html_url": "https://github.com/tailwindlabs/tailwindcss",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T12:59:44Z",
-    "stargazers_count": 94722,
+    "pushed_at": "2026-05-01T11:29:20Z",
+    "stargazers_count": 94817,
     "topics": [
       "css",
       "css-framework",
@@ -676,7 +714,7 @@
       "tailwindcss",
       "utility-classes"
     ],
-    "updated_at": "2026-04-24T01:28:20Z"
+    "updated_at": "2026-05-01T12:28:49Z"
   },
   "repo_links": [],
   "terms": [

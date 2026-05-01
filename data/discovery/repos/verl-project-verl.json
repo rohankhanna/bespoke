@@ -268,14 +268,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "pat-jj/deepretrieval",
+      "target": "prime-rl/entropy-mechanism-of-rl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "open-tinker/opentinker",
+      "target": "pokee-ai/pokeeresearchoss",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-01T09:32:28.340108+00:00",
+  "fetched_at": "2026-05-01T14:09:47.710134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,9 +584,9 @@
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
     "pushed_at": "2026-04-30T21:49:59Z",
-    "stargazers_count": 21039,
+    "stargazers_count": 21040,
     "topics": [],
-    "updated_at": "2026-05-01T09:10:55Z"
+    "updated_at": "2026-05-01T12:15:17Z"
   },
   "repo_links": [
     {
@@ -601,12 +601,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-tinker/opentinker",
+      "full_name": "pokee-ai/pokeeresearchoss",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pat-jj/deepretrieval",
+      "full_name": "prime-rl/entropy-mechanism-of-rl",
       "source_file": "README.md"
     }
   ],

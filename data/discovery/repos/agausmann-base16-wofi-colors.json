@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:45:24.310073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wofi colors files for Base16 themes",
+    "fork": false,
+    "full_name": "agausmann/base16-wofi-colors",
+    "html_url": "https://github.com/agausmann/base16-wofi-colors",
+    "language": "Mustache",
+    "pushed_at": "2022-04-02T18:16:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-04-02T18:16:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -163,6 +163,18 @@
       "source_repo": "dat-ecosystem-archive/datBase",
       "status": "candidate-context",
       "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/types",
+      "status": "candidate-context",
+      "text": "Typescript definitions for npm registry content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/types",
+      "status": "candidate-context",
+      "text": "Typescript definitions for npm registry endpoints"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "dat-ecosystem-archive/datBase",
       "status": "candidate",
       "text": "[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://dat-ecosystem.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/types",
+      "status": "candidate",
+      "text": "Typescript definitions for npm registry endpoints"
     }
   ],
   "candidate_related_terms": [
@@ -498,11 +516,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/datBase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "npm/types"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

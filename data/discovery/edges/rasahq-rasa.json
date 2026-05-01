@@ -1,0 +1,552 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "rasahq/pytest-sanic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-pr-update.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-pr-update.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "rasahq/update-pr-branch@f7012036a6d5659cfbc37f180716963511e81f95",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-pr-update.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Automatic PR Merger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Gr1N/setup-poetry@15821dc8a61bc630db542ae4baf6a7c19a994844",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Docs Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Gr1N/setup-poetry@15821dc8a61bc630db542ae4baf6a7c19a994844",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "CI Github Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "voxmedia/github-action-slack-notify-build@3665186a8c1a022b28a1dbe0954e73aa9081ea9e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "google-github-actions/auth@e8df18b60c5dd38ba618c121b779307266153fbf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "google-github-actions/get-gke-credentials@894c221960ab1bc16a69902f29f090638cca753f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Gr1N/setup-poetry@15821dc8a61bc630db542ae4baf6a7c19a994844",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/github-script@d7906e4ad0b1822421a7e6a35d5ca353c962f410",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "8398a7/action-slack@fbd6aa58ba854a740e11a35d0df80cb5d12101d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "CI - Model Regression on schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "tczekajlo/find-comment@16228d0f2100e06ea9bf8c0e7fe7287b7c6b531d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "RasaHQ/create-comment@da7b2ec20116674919493bb5894eea70fdaa6486",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "peter-evans/create-or-update-comment@3383acd359705b10cb1eeef05c0e88c056ea4666",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "voxmedia/github-action-slack-notify-build@3665186a8c1a022b28a1dbe0954e73aa9081ea9e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "google-github-actions/auth@e8df18b60c5dd38ba618c121b779307266153fbf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "google-github-actions/get-gke-credentials@894c221960ab1bc16a69902f29f090638cca753f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Gr1N/setup-poetry@15821dc8a61bc630db542ae4baf6a7c19a994844",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/upload-artifact@0b7f8abb1508181956e8e162db84b466c27e18ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "marocchino/sticky-pull-request-comment@f61b6cf21ef2fcc468f4345cdfcc9bda741d2343",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "buildsville/add-remove-label@6008d7bd99d3baeb7c04033584e68f8ec80b198b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "CI - Model Regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "fountainhead/action-wait-for-check@297be350cf8393728ea4d4b39435c7d7ae167c93",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "snok/install-poetry@93ada01c735cc8a383ce0ce2ae205a21c415379b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Gr1N/setup-poetry@48b0f77c8c1b1b19cb962f0f00dff7b4be8f81ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "paambaati/codeclimate-action@b649ad206d2e83dafb9ed130deba698aa1b41d78",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "docker/setup-qemu-action@2b82ce82d56a2a04d2637cd93a637ae1b359c0a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "docker/setup-buildx-action@ecf95283f03858871ff00b787d79c419715afc34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "pypa/gh-action-pypi-publish@c7f29f7adef1a245bd91520e94867e5c6eedddcc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Ilshidur/action-slack@689ad44a9c9092315abd286d0e3a9a74d31ab78a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-batch-updater.yml",
+      "source_repo": "RasaHQ/rasa",
+      "target": "RasaHQ/dependabot-batch-updater@f049cbb0bbd3754bcb5ab154a79f00cd780fc633",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "botkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "chatbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "chatbots-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "conversation-driven-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "conversational-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "conversational-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "conversational-bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "machine-learning-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "mitie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "rasa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa",
+      "target": "spacy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "RasaHQ/rasa"
+}

@@ -123,6 +123,18 @@
       "source_repo": "FiloSottile/hpke",
       "status": "candidate-context",
       "text": "Go tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-go-v2",
+      "status": "candidate-context",
+      "text": "AWS SDK for the Go programming language. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go-v2",
+      "status": "candidate-context",
+      "text": "Go Tests"
     }
   ],
   "candidate_glosses": [
@@ -185,6 +197,12 @@
       "source_repo": "FiloSottile/hpke",
       "status": "candidate",
       "text": "Go tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go-v2",
+      "status": "candidate",
+      "text": "Go Tests"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +306,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "FiloSottile/hpke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go-v2"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

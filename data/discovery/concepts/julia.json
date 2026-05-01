@@ -457,6 +457,138 @@
       "source_repo": "JuliaMath/FFTW.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate-context",
+      "text": "Simple development server with live-reload capability for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "Symbolic expressions, rewriting and simplification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate-context",
+      "text": "Symbolic parser for Julia language term rewriting using REDUCE algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "The Julia compiler frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "Crafty statistical graphics for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate-context",
+      "text": "Tutorials for doing scientific machine learning (SciML) and high-performance differential equation solving with open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate-context",
+      "text": "Documentation and tutorials for the Turing language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGtk/Gtk4.jl",
+      "status": "candidate-context",
+      "text": "Julia package for Gtk4 using GObject introspection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGtk/Gtk4.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaGtk/Gtk4.jl/workflows/CI/badge.svg)](https://github.com/JuliaGtk/Gtk4.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PyCall.jl",
+      "status": "candidate-context",
+      "text": "Package to call Python functions from the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyCall.jl",
+      "status": "candidate-context",
+      "text": "[![Test with system Python](https://github.com/JuliaPy/PyCall.jl/workflows/Test%20with%20system%20Python/badge.svg)](https://github.com/JuliaPy/PyCall.jl/actions?query=workflow%3A%22Test+with+system+Python%22)"
     }
   ],
   "candidate_glosses": [
@@ -687,6 +819,72 @@
       "source_repo": "JuliaMath/FFTW.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaMath/FFTW.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate",
+      "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGtk/Gtk4.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaGtk/Gtk4.jl/workflows/CI/badge.svg)](https://github.com/JuliaGtk/Gtk4.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyCall.jl",
+      "status": "candidate",
+      "text": "[![Test with system Python](https://github.com/JuliaPy/PyCall.jl/workflows/Test%20with%20system%20Python/badge.svg)](https://github.com/JuliaPy/PyCall.jl/actions?query=workflow%3A%22Test+with+system+Python%22)"
     }
   ],
   "candidate_related_terms": [
@@ -976,11 +1174,89 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "JuliaMath/FFTW.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/Reduce.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/JuliaSyntax.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GiovineItalia/Gadfly.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TuringLang/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGtk/Gtk4.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyCall.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "PR Code Security"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/tiberius",
+      "status": "candidate-context",
+      "text": "TDS 7.2+ (Microsoft SQL Server) driver for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/tiberius",
+      "status": "candidate-context",
+      "text": "PR Code Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "PR Code Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/cuid-rust",
+      "status": "candidate-context",
+      "text": "Rust implemention of CUID unique IDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/cuid-rust",
+      "status": "candidate-context",
+      "text": "PR Code Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/tiberius",
+      "status": "candidate",
+      "text": "PR Code Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate",
+      "text": "PR Code Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/cuid-rust",
+      "status": "candidate",
+      "text": "PR Code Security"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19708,
+      "status": "candidate",
+      "text": "fica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "impress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12186,
+      "status": "candidate",
+      "text": "praseodymium"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Code Security",
+  "concept_id": "pr-code-security",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/tiberius"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/ecosystem-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/cuid-rust"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Code Security",
+      "sense_id": "pr-code-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

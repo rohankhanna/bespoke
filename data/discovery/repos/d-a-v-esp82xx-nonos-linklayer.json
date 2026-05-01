@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "pfalcon/esp-open-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "kadamski/esp-lwip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "nekromant/esp8266-frankenstein",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "d-a-v/esp8266-phy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "target": "CMake build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:00.429076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3538
+    },
+    {
+      "path": ".github/workflows/run.yml",
+      "size": 1387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "esp8266 link layer API for new ip stack - applied to lwIP-v2",
+    "fork": false,
+    "full_name": "d-a-v/esp82xx-nonos-linklayer",
+    "html_url": "https://github.com/d-a-v/esp82xx-nonos-linklayer",
+    "language": "C",
+    "pushed_at": "2024-01-10T23:05:06Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2025-12-14T07:39:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d-a-v/esp8266-phy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kadamski/esp-lwip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nekromant/esp8266-frankenstein",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pfalcon/esp-open-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yml",
+      "term": "CMake build"
+    }
+  ]
+}

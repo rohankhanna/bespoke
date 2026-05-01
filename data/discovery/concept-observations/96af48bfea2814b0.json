@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bichon \u2013 A lightweight, high-performance Rust email archiver with WebUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047335,
+      "status": "candidate",
+      "text": "seek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047328,
+      "status": "candidate",
+      "text": "look for"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047228,
+      "status": "candidate",
+      "text": "explore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047214,
+      "status": "candidate",
+      "text": "lookup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043530,
+      "status": "candidate",
+      "text": "research"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "search",
+      "sense_id": "search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18045,
+      "status": "candidate",
+      "text": "seek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18035,
+      "status": "candidate",
+      "text": "explore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12054,
+      "status": "candidate",
+      "text": "research"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11035,
+      "status": "candidate",
+      "text": "searching"
+    }
+  ],
+  "concept_id": "search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "search",
+  "observation_id": "96af48bfea2814b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "search",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "rustmailer/bichon",
+  "source_repo_description": "Bichon \u2013 A lightweight, high-performance Rust email archiver with WebUI"
+}

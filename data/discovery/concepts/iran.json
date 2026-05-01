@@ -19,6 +19,18 @@
       "source_repo": "alexpolonsky/agent-skill-strikeradar",
       "status": "candidate-context",
       "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate-context",
+      "text": "Unified proxy manager for bypassing firewalls - supports Paqet (KCP/raw socket) and GFW-Knocker (violated TCP/QUIC) with dual-backend simultaneous operation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alexpolonsky/agent-skill-strikeradar",
       "status": "candidate",
       "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexpolonsky/agent-skill-strikeradar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SamNet-dev/paqctl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

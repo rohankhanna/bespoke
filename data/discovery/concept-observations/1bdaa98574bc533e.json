@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gan-inversion",
+      "sense_id": "gan-inversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gan-inversion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gan-inversion",
+  "observation_id": "1bdaa98574bc533e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "gan-inversion",
+  "source_context_snippet": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed",
+  "source_file": null,
+  "source_repo": "danielroich/PTI",
+  "source_repo_description": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744"
+}

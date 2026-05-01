@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "@logseq/nbb-logseq",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mldoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "logseq/graph-validator@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/graph-validator",
+      "target": "logseq/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/graph-validator",
+      "target": "logseq/nbb-logseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "logseq/graph-validator",
+      "target": "logseq/logseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "logseq/graph-validator",
+      "target": "@logseq/nbb-logseq",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "logseq/graph-validator",
+      "target": "mldoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/graph-validator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/graph-validator",
+      "target": "logseq/graph-validator@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logseq/graph-validator",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logseq/graph-validator",
+      "target": "logseq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:50:14.729239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8425
+    },
+    {
+      "path": "package.json",
+      "size": 561
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Validate your logseq graphs",
+    "fork": false,
+    "full_name": "logseq/graph-validator",
+    "html_url": "https://github.com/logseq/graph-validator",
+    "language": "Clojure",
+    "pushed_at": "2025-07-16T20:09:59Z",
+    "stargazers_count": 51,
+    "topics": [
+      "github-actions",
+      "logseq",
+      "nbb"
+    ],
+    "updated_at": "2026-02-28T07:12:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logseq/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logseq/logseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logseq/nbb-logseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a [github action](https://github.com/features/actions) to run",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "This is a [github action](https://github.com/features/actions) to run",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logseq"
+    }
+  ]
+}

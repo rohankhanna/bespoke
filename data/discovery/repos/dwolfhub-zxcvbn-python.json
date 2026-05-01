@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "password",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "python-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "python-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "target": "zxcvbn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:57:12.334615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4843
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python implementation of Dropbox's realistic password strength estimator",
+    "fork": false,
+    "full_name": "dwolfhub/zxcvbn-python",
+    "html_url": "https://github.com/dwolfhub/zxcvbn-python",
+    "language": "Python",
+    "pushed_at": "2026-04-13T16:52:27Z",
+    "stargazers_count": 709,
+    "topics": [
+      "password",
+      "python-2",
+      "python-3",
+      "security",
+      "zxcvbn"
+    ],
+    "updated_at": "2026-04-20T20:01:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "|Build Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "password"
+    },
+    {
+      "context_snippet": "|Build Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-2"
+    },
+    {
+      "context_snippet": "|Build Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-3"
+    },
+    {
+      "context_snippet": "|Build Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "|Build Status|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zxcvbn"
+    }
+  ]
+}

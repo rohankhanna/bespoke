@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "nix-community/dream2nix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "astral-sh/pubgrub"
     }
   ]
 }

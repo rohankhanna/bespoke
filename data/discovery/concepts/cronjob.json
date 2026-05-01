@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Cronjob"
+    "Cronjob",
+    "cronjob"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "cargo-bins/cargo-quickinstall",
       "status": "candidate-context",
       "text": "Cronjob"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate-context",
+      "text": "Object-based searching. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate-context",
+      "text": "cronjob"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "cargo-bins/cargo-quickinstall",
       "status": "candidate",
       "text": "Cronjob"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate",
+      "text": "cronjob"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +107,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/cronjob.yml",
       "source_repo": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cronjob.yml",
+      "source_repo": "activerecord-hackery/ransack"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Apps-Js to Cloud RUN"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "Deploy Apps-Js to Cloud RUN"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "Deploy Apps-Js to Cloud RUN"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24698,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24674,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24674,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "blacken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "obscure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Apps-Js to Cloud RUN",
+  "concept_id": "deploy-apps-js-to-cloud-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gcp_apps_js.yml",
+      "source_repo": "BasedHardware/omi"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Apps-Js to Cloud RUN",
+      "sense_id": "deploy-apps-js-to-cloud-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

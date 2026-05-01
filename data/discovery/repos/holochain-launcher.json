@@ -396,13 +396,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "holochain/launcher",
-      "target": "holochain/kangaroo-electron",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "holochain/launcher",
       "target": "holochain/launcher-electron",
       "target_type": "repository"
     },
@@ -967,7 +960,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:32:09.142178+00:00",
+  "fetched_at": "2026-05-01T13:39:10.998606+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1012,11 +1005,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "holochain/cryptographic-autonomy-license",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "holochain/kangaroo-electron",
       "source_file": "README.md"
     },
     {

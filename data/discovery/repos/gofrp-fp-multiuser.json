@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gofrp/fp-multiuser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gofrp/fp-multiuser",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gofrp/fp-multiuser",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:00.954243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2010
+    },
+    {
+      "path": "go.mod",
+      "size": 156
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "frp server plugin to support multiple users.",
+    "fork": false,
+    "full_name": "gofrp/fp-multiuser",
+    "html_url": "https://github.com/gofrp/fp-multiuser",
+    "language": "Go",
+    "pushed_at": "2024-06-11T08:22:12Z",
+    "stargazers_count": 158,
+    "topics": [
+      "frp",
+      "plugin"
+    ],
+    "updated_at": "2026-04-25T22:31:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "frp server plugin to support multiple users for [frp](https://github.com/fatedier/frp).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

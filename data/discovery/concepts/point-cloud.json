@@ -211,6 +211,54 @@
       "source_repo": "cdcseacave/openMVS",
       "status": "candidate-context",
       "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Dynamic Graph CNN for Learning on Point Clouds (DGCNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate-context",
+      "text": "[[\u4e2d\u6587\u7248]](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "status": "candidate-context",
+      "text": "[ICML 2022] Benchmarking and Analyzing Point Cloud Classification under Corruptions https://arxiv.org/abs/2202.03377"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "status": "candidate-context",
+      "text": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "V2AI/Det3D",
+      "status": "candidate-context",
+      "text": "World's first general purpose 3D object detection codebse."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "V2AI/Det3D",
+      "status": "candidate-context",
+      "text": "A general 3D Object Detection codebase in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "status": "candidate-context",
+      "text": "An addon for Blender enabling just-in-time loading and animation of mesh and particle/ point-cloud sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "status": "candidate-context",
+      "text": "![](images/logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +363,30 @@
       "source_repo": "cdcseacave/openMVS",
       "status": "candidate",
       "text": "[![Watch reconstruction](https://i.imgur.com/S4L0E6r.jpeg)](https://sketchfab.com/models/3aedcdd22c31447199c18dd9aec5d952/embed)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u7248]](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "status": "candidate",
+      "text": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "V2AI/Det3D",
+      "status": "candidate",
+      "text": "A general 3D Object Detection codebase in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "status": "candidate",
+      "text": "![](images/logo.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +520,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "cdcseacave/openMVS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jiawei-ren/ModelNet-C"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

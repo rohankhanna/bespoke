@@ -34,6 +34,30 @@
       "source_repo": "gradle/actions",
       "status": "candidate-context",
       "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/RSTAUI",
+      "status": "candidate-context",
+      "text": "A library of common dialogs and UI elements needed by applications embedding text components such as RSyntaxTextArea."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSTAUI",
+      "status": "candidate-context",
+      "text": "Gradle Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate-context",
+      "text": "A syntax highlighting, code folding text editor for Java Swing applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate-context",
+      "text": "Gradle Build"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "gradle/actions",
       "status": "candidate",
       "text": "This repository contains a set of GitHub Actions that are useful for building Gradle projects on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSTAUI",
+      "status": "candidate",
+      "text": "Gradle Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate",
+      "text": "Gradle Build"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +139,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "gradle/actions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "bobbylight/RSTAUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "bobbylight/RSyntaxTextArea"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "bokeh/bokeh",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "bokeh/bokeh",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bokeh/bokeh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

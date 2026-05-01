@@ -57,6 +57,18 @@
       "source_repo": "apple/swift-nio",
       "status": "candidate-context",
       "text": "CMake build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "status": "candidate-context",
+      "text": "esp8266 link layer API for new ip stack - applied to lwIP-v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
+      "status": "candidate-context",
+      "text": "CMake build"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apple/swift-nio",
+      "status": "candidate",
+      "text": "CMake build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer",
       "status": "candidate",
       "text": "CMake build"
     }
@@ -150,11 +168,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/cmake_tests.yml",
       "source_repo": "apple/swift-nio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "d-a-v/esp82xx-nonos-linklayer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

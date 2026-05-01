@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "500tech/angular-tree-component",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "axodox/axocover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "babun/babun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "amsul/pickadate.js",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "pickhardt/maintainers-wanted"
+}

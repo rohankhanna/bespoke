@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/slash-command-dispatch@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "peter-evans/slash-command-dispatch@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "chatops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packaging-algo.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packaging-algo.yml",
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "monai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "monai-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Project-MONAI/research-contributions",
+      "target": "paper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:14.074967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1552
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/chatops.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 3098
+    },
+    {
+      "path": ".github/workflows/packaging-algo.yml",
+      "size": 2623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementations of recent research prototypes/demonstrations using MONAI.",
+    "fork": false,
+    "full_name": "Project-MONAI/research-contributions",
+    "html_url": "https://github.com/Project-MONAI/research-contributions",
+    "language": "Python",
+    "pushed_at": "2025-10-06T22:41:24Z",
+    "stargazers_count": 1203,
+    "topics": [
+      "monai",
+      "monai-components",
+      "paper"
+    ],
+    "updated_at": "2026-04-27T12:24:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "chatops",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatops.yml",
+      "term": "chatops"
+    },
+    {
+      "context_snippet": "integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "integration"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packaging-algo.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monai"
+    },
+    {
+      "context_snippet": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monai-components"
+    },
+    {
+      "context_snippet": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ericmj/decimal",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ericmj/decimal",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:52:42.571132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5263
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Arbitrary precision decimal arithmetic",
+    "fork": false,
+    "full_name": "ericmj/decimal",
+    "html_url": "https://github.com/ericmj/decimal",
+    "language": "Elixir",
+    "pushed_at": "2026-03-04T10:01:43Z",
+    "stargazers_count": 476,
+    "topics": [],
+    "updated_at": "2026-03-26T08:28:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

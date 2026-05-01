@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:41:27.447419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1897
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Booster Robotics SDK aims to provide a simple and easy-to-use interface for developers to control the Booster Robotics products.",
+    "fork": false,
+    "full_name": "BoosterRobotics/booster_robotics_sdk",
+    "html_url": "https://github.com/BoosterRobotics/booster_robotics_sdk",
+    "language": "C++",
+    "pushed_at": "2026-04-20T09:00:56Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-30T15:13:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

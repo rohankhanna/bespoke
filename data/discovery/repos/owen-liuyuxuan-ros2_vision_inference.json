@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:58:50.863652+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "onnx",
+    "description": "unified multi-threading inferencing nodes for monocular 3D object detection, depth prediction and semantic segmentation",
+    "fork": false,
+    "full_name": "Owen-Liuyuxuan/ros2_vision_inference",
+    "html_url": "https://github.com/Owen-Liuyuxuan/ros2_vision_inference",
+    "language": "Python",
+    "pushed_at": "2026-02-18T13:44:26Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-30T05:54:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

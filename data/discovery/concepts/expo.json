@@ -67,6 +67,30 @@
       "source_repo": "ItsWendell/emotion-native-extended",
       "status": "candidate-context",
       "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rahsheen/expo-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "Expo template including Redux Toolkit and Typescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/expo-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "expo-template-redux-typescript \u2014 The Blank project template includes typescript and redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "Official Redux templates for Vite, Create-React-App, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "ItsWendell/emotion-native-extended",
       "status": "candidate",
       "text": "![npm](https://img.shields.io/npm/v/emotion-native-extended?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/expo-template-redux-typescript",
+      "status": "candidate",
+      "text": "expo-template-redux-typescript \u2014 The Blank project template includes typescript and redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +223,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ItsWendell/emotion-native-extended"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rahsheen/expo-template-redux-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/redux-templates"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

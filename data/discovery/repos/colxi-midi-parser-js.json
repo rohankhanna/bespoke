@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colxi/midi-parser-js",
+      "target": "midi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colxi/midi-parser-js",
+      "target": "midi-javascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colxi/midi-parser-js",
+      "target": "midi-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colxi/midi-parser-js",
+      "target": "midi-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colxi/midi-parser-js",
+      "target": "midi-parser-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:55:11.004446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5322
+    },
+    {
+      "path": "package.json",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON Human readable MIDI sequences. Read from ArrayBuffers, Base64 encoded strings, or FileInput Element in Browsers.",
+    "fork": false,
+    "full_name": "colxi/midi-parser-js",
+    "html_url": "https://github.com/colxi/midi-parser-js",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-12T11:28:44Z",
+    "stargazers_count": 240,
+    "topics": [
+      "javascript",
+      "midi",
+      "midi-javascript",
+      "midi-js",
+      "midi-parser",
+      "midi-parser-js"
+    ],
+    "updated_at": "2026-04-13T13:08:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi"
+    },
+    {
+      "context_snippet": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-javascript"
+    },
+    {
+      "context_snippet": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-js"
+    },
+    {
+      "context_snippet": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-parser"
+    },
+    {
+      "context_snippet": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midi-parser-js"
+    }
+  ]
+}

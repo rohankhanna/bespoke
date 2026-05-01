@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:42:00.782557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmark data for d3rlpy",
+    "fork": false,
+    "full_name": "takuseno/d3rlpy-benchmarks",
+    "html_url": "https://github.com/takuseno/d3rlpy-benchmarks",
+    "language": "Python",
+    "pushed_at": "2023-11-28T12:32:33Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-07-17T00:17:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

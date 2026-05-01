@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mononoke Integration Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/sapling",
+      "status": "candidate-context",
+      "text": "A Scalable, User-Friendly Source Control System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/sapling",
+      "status": "candidate-context",
+      "text": "Mononoke Integration Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/sapling",
+      "status": "candidate",
+      "text": "Mononoke Integration Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10304,
+      "status": "candidate",
+      "text": "anime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9865,
+      "status": "candidate",
+      "text": "gnome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9750,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9706,
+      "status": "candidate",
+      "text": "cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9706,
+      "status": "candidate",
+      "text": "kubuntu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mononoke Integration Linux",
+  "concept_id": "mononoke-integration-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mononoke Integration Linux",
+      "sense_id": "mononoke-integration-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

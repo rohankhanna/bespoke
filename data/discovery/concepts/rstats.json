@@ -127,6 +127,18 @@
       "source_repo": "ropensci/tabulapdf",
       "status": "candidate-context",
       "text": "[![R-CMD-check](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ropensci/software-review",
+      "status": "candidate-context",
+      "text": "rOpenSci Software Peer Review. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/software-review",
+      "status": "candidate-context",
+      "text": "![](icon_lettering_color.png)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "ropensci/tabulapdf",
       "status": "candidate",
       "text": "[![R-CMD-check](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ropensci/tabulapdf/actions/workflows/R-CMD-check.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/software-review",
+      "status": "candidate",
+      "text": "![](icon_lettering_color.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ropensci/tabulapdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ropensci/software-review"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appelmar/gdalcubes"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v4",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -412,6 +412,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "microsoft/Generative-AI-for-beginners-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-templates.yml",
+      "source_repo": "pulumi/templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Allison-E/pg-age"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "MindWorkAI/AI-Studio"
     }
   ]
 }

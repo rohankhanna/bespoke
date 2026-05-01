@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-nextjs",
+      "target": "fireship-io/nextjs-basics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-nextjs",
+      "target": "vercel/next-learn-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-nextjs",
+      "target": "hchiam/learning-reactjs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:41:52.352872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Next.js",
+    "fork": false,
+    "full_name": "hchiam/learning-nextjs",
+    "html_url": "https://github.com/hchiam/learning-nextjs",
+    "language": "JavaScript",
+    "pushed_at": "2021-06-27T22:52:13Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-06-27T22:52:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fireship-io/nextjs-basics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-reactjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vercel/next-learn-starter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

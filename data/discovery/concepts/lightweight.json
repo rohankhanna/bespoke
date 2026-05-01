@@ -127,6 +127,18 @@
       "source_repo": "beve-org/beve",
       "status": "candidate-context",
       "text": "Version 1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate-context",
+      "text": "A package that provides registrations and resolves of services and other shite in the fast and lightweight container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "beve-org/beve",
       "status": "candidate",
       "text": "Version 1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -327,11 +345,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

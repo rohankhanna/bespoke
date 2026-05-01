@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "hyparquet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hyparquet-compressors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hyparquet-writer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsdoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyparam/icebird",
+      "target": "hyparam/hyparquet-writer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyparam/icebird",
+      "target": "apache/iceberg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hyparam/icebird",
+      "target": "apache/iceberg-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "hyparquet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "hyparquet-compressors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "hyparquet-writer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "eslint-plugin-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hyparam/icebird",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hyparam/icebird",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "apache-iceberg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "data-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "data-lake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "datalake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "hyparquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "iceberg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/icebird",
+      "target": "parquet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:54:03.415344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6837
+    },
+    {
+      "path": "package.json",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Icebird: JavaScript Iceberg Client",
+    "fork": false,
+    "full_name": "hyparam/icebird",
+    "html_url": "https://github.com/hyparam/icebird",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T05:28:02Z",
+    "stargazers_count": 115,
+    "topics": [
+      "apache-iceberg",
+      "data-engineering",
+      "data-lake",
+      "datalake",
+      "hyparquet",
+      "iceberg",
+      "javascript",
+      "parquet"
+    ],
+    "updated_at": "2026-04-29T05:28:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/iceberg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/iceberg-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyparam/hyparquet-writer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-iceberg"
+    },
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-engineering"
+    },
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-lake"
+    },
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datalake"
+    },
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyparquet"
+    },
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iceberg"
+    },
+    {
+      "context_snippet": "![Iceberg Icebird](icebird.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    }
+  ]
+}

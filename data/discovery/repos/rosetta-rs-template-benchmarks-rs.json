@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rosetta-rs/template-benchmarks-rs",
+      "target": "keats/tera",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rosetta-rs/template-benchmarks-rs",
+      "target": "cobalt-org/liquid-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rosetta-rs/template-benchmarks-rs",
+      "target": "djc/askama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rosetta-rs/template-benchmarks-rs",
+      "target": "kaj/ructe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:49.869238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3545
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Collected benchmarks for templating crates written in Rust",
+    "fork": false,
+    "full_name": "rosetta-rs/template-benchmarks-rs",
+    "html_url": "https://github.com/rosetta-rs/template-benchmarks-rs",
+    "language": "Rust",
+    "pushed_at": "2023-04-25T10:42:28Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-04-09T14:16:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cobalt-org/liquid-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "djc/askama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaj/ructe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keats/tera",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

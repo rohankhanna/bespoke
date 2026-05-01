@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:05:20.566301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10259
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SEED-Story: Multimodal Long Story Generation with Large Language Model",
+    "fork": false,
+    "full_name": "TencentARC/SEED-Story",
+    "html_url": "https://github.com/TencentARC/SEED-Story",
+    "language": "Python",
+    "pushed_at": "2024-10-11T08:44:17Z",
+    "stargazers_count": 883,
+    "topics": [],
+    "updated_at": "2026-04-27T08:58:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

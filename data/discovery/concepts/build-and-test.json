@@ -1436,6 +1436,30 @@
       "source_repo": "cisco/go-hpke",
       "status": "candidate-context",
       "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "westes/flex",
+      "status": "candidate-context",
+      "text": "The Fast Lexical Analyzer - scanner generator for lexing in C and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "westes/flex",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "FSharp implementation of Facebook GraphQL query language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "Build and Test"
     }
   ],
   "candidate_glosses": [
@@ -2162,6 +2186,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cisco/go-hpke",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "westes/flex",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
       "status": "candidate",
       "text": "Build and Test"
     }
@@ -3023,11 +3059,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "cisco/go-hpke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "westes/flex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

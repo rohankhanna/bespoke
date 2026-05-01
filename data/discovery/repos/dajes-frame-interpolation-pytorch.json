@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dajes/frame-interpolation-pytorch",
+      "target": "google-research/frame-interpolation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:11.299063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3342
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of FILM: Frame Interpolation for Large Motion, In ECCV 2022.",
+    "fork": false,
+    "full_name": "dajes/frame-interpolation-pytorch",
+    "html_url": "https://github.com/dajes/frame-interpolation-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-12-24T18:00:58Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-03-28T21:06:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/frame-interpolation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "deserialize typed structures from regex captures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> deserialize named capture groups into typesafe structs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> deserialize named capture groups into typesafe structs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serde",
+      "sense_id": "serde#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serde",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serde",
+  "observation_id": "4710f80c3c17b67a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "serde",
+  "source_context_snippet": "> deserialize named capture groups into typesafe structs",
+  "source_file": null,
+  "source_repo": "softprops/recap",
+  "source_repo_description": "deserialize typed structures from regex captures"
+}

@@ -91,6 +91,42 @@
       "source_repo": "ruby-numo/numo-gnuplot",
       "status": "candidate-context",
       "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "Crafty statistical graphics for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "ruby-numo/numo-gnuplot",
       "status": "candidate",
       "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +274,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ruby-numo/numo-gnuplot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GiovineItalia/Gadfly.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "sigstore/cosign-installer@d58896d6a1865668819e1d91763c7751a165e159",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "chaoss/grimoirelab"
+    }
+  ]
+}

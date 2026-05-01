@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Main Review Companion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "MDN's frontend since late 2025, built with Web Components, Lit, and SSR for a fast, clean documentation experience. Fred = /fr(ont)e(n)d/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "Main Review Companion"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/rari",
+      "status": "candidate-context",
+      "text": "Rari is a Rust-based build system that transforms markdown into structured JSON, powering MDN Web Docs content and translations since 2024."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/rari",
+      "status": "candidate-context",
+      "text": "Main Review Companion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate",
+      "text": "Main Review Companion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/rari",
+      "status": "candidate",
+      "text": "Main Review Companion"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35295,
+      "status": "candidate",
+      "text": "might"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26116,
+      "status": "candidate",
+      "text": "recapitulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26116,
+      "status": "candidate",
+      "text": "rundown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26116,
+      "status": "candidate",
+      "text": "summing-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18865,
+      "status": "candidate",
+      "text": "force"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main Review Companion",
+  "concept_id": "main-review-companion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main-review-companion.yml",
+      "source_repo": "mdn/fred"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main-review-companion.yml",
+      "source_repo": "mdn/rari"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main Review Companion",
+      "sense_id": "main-review-companion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

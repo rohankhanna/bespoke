@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memoavatar/memo",
+      "target": "if-ai/comfyui-if_memoavatar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memoavatar/memo",
+      "target": "camenduru/memo-tost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memoavatar/memo",
+      "target": "camenduru/memo-jupyter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "memoavatar/memo",
+      "target": "fudan-generative-vision/hallo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:02:45.242826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6960
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[TMLR] Memory-Guided Diffusion for Expressive Talking Video Generation",
+    "fork": false,
+    "full_name": "memoavatar/memo",
+    "html_url": "https://github.com/memoavatar/memo",
+    "language": "Python",
+    "pushed_at": "2025-08-06T15:27:37Z",
+    "stargazers_count": 1072,
+    "topics": [],
+    "updated_at": "2026-04-27T11:29:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/memo-jupyter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/memo-tost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudan-generative-vision/hallo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "if-ai/comfyui-if_memoavatar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "opinionated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csstools/sanitize.css",
+      "status": "candidate-context",
+      "text": "A best-practices CSS foundation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/sanitize.css",
+      "status": "candidate-context",
+      "text": "[sanitize.css] is a CSS library that provides consistent, cross-browser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csstools/sanitize.css",
+      "status": "candidate",
+      "text": "[sanitize.css] is a CSS library that provides consistent, cross-browser"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039778,
+      "status": "candidate",
+      "text": "opinionative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038777,
+      "status": "candidate",
+      "text": "self-opinionated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020390,
+      "status": "candidate",
+      "text": "narrow-minded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992788,
+      "status": "candidate",
+      "text": "narrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039909,
+      "status": "candidate",
+      "text": "opiniated"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15043,
+      "status": "candidate",
+      "text": "narrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6029,
+      "status": "candidate",
+      "text": "narrow-minded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "self-opinionated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "opinionative"
+    }
+  ],
+  "canonical_name": "opinionated",
+  "concept_id": "opinionated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "csstools/sanitize.css"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opinionated",
+      "sense_id": "opinionated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

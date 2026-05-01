@@ -1,0 +1,334 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    },
+    {
+      "component": "davesnx/dune-release-action@v0.2.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reasonml/reason",
+      "target": "reasonml/reasonml.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reasonml/reason",
+      "target": "whitequark/ocaml-m17n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/esy-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esy-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "esy CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "reasonml/reason",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "reasonml/reason",
+      "target": "Nix Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "davesnx/dune-release-action@v0.2.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "source_repo": "reasonml/reason",
+      "target": "opam CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasonml/reason",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasonml/reason",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasonml/reason",
+      "target": "reason",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasonml/reason",
+      "target": "reasonml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:51:26.350632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3232
+    },
+    {
+      "path": "package.json",
+      "size": 410
+    },
+    {
+      "path": ".github/workflows/esy-ci.yml",
+      "size": 3338
+    },
+    {
+      "path": ".github/workflows/nix-build.yml",
+      "size": 1750
+    },
+    {
+      "path": ".github/workflows/opam-ci.yml",
+      "size": 3896
+    },
+    {
+      "path": ".github/workflows/print-esy-cache.js",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems",
+    "fork": false,
+    "full_name": "reasonml/reason",
+    "html_url": "https://github.com/reasonml/reason",
+    "language": "OCaml",
+    "pushed_at": "2026-04-01T12:42:26Z",
+    "stargazers_count": 10304,
+    "topics": [
+      "javascript",
+      "ocaml",
+      "programming-language",
+      "reason",
+      "reasonml"
+    ],
+    "updated_at": "2026-04-28T13:36:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reasonml/reasonml.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "whitequark/ocaml-m17n",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "esy CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/esy-ci.yml",
+      "term": "esy CI"
+    },
+    {
+      "context_snippet": "Nix Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "term": "Nix Pipeline"
+    },
+    {
+      "context_snippet": "opam CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam-ci.yml",
+      "term": "opam CI"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reason"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasonml"
+    }
+  ]
+}

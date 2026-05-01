@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hako-mikan/sd-webui-lora-block-weight",
+      "target": "hako-mikan/sd-webui-supermerger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hako-mikan/sd-webui-lora-block-weight",
+      "target": "kohakublueleaf/a1111-sd-webui-locon",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "hako-mikan/sd-webui-lora-block-weight"
+}

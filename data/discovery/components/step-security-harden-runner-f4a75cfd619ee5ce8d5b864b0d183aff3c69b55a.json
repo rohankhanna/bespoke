@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a",
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_linters.yaml",
       "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dominikg/tsconfck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dominikg/tsconfck"
     }
   ]
 }

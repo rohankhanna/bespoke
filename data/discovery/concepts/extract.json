@@ -43,6 +43,18 @@
       "source_repo": "CatchTheTornado/text-extract-api",
       "status": "candidate-context",
       "text": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peerigon/extract-loader",
+      "status": "candidate-context",
+      "text": "webpack loader to extract HTML and CSS from the bundle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peerigon/extract-loader",
+      "status": "candidate-context",
+      "text": "extract-loader"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "CatchTheTornado/text-extract-api",
       "status": "candidate",
       "text": "Convert any image, PDF or Office document to Markdown *text* or JSON structured document with super-high accuracy, including tabular data, numbers or math formulas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peerigon/extract-loader",
+      "status": "candidate",
+      "text": "extract-loader"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "CatchTheTornado/text-extract-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "peerigon/extract-loader"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

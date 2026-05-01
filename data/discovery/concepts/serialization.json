@@ -343,6 +343,42 @@
       "source_repo": "jcrist/msgspec",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate-context",
+      "text": "Java binary serialization and cloning: fast, efficient, automatic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate-context",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate-context",
+      "text": "Encoding and decoding support for BSON in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "A low-level, lightweight protocol buffers implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +549,24 @@
       "source_repo": "jcrist/msgspec",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -810,11 +864,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/pbf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

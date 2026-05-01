@@ -345,6 +345,42 @@
       "source_repo": "ocaml-community/zed",
       "status": "candidate-context",
       "text": "Zed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate-context",
+      "text": "OCaml debug adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate-context",
+      "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasonml/reason",
+      "status": "candidate-context",
+      "text": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasonml/reason",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "status": "candidate-context",
+      "text": "Auto-formatter for OCaml code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -515,6 +551,24 @@
       "source_repo": "ocaml-community/zed",
       "status": "candidate",
       "text": "Zed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate",
+      "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasonml/reason",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -918,11 +972,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ocaml-community/zed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hackwaly/ocamlearlybird"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reasonml/reason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-ppx/ocamlformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

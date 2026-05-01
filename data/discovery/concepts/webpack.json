@@ -562,6 +562,54 @@
       "source_repo": "webpack/sass-loader",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe8 AppSignal for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "- [AppSignal.com website][appsignal]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 On-demand components auto importing for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue-components?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-components)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Access thousands of icons as components on-demand universally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peerigon/extract-loader",
+      "status": "candidate-context",
+      "text": "webpack loader to extract HTML and CSS from the bundle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peerigon/extract-loader",
+      "status": "candidate-context",
+      "text": "extract-loader"
     }
   ],
   "candidate_glosses": [
@@ -840,6 +888,30 @@
       "source_repo": "webpack/sass-loader",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate",
+      "text": "- [AppSignal.com website][appsignal]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue-components?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-components)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peerigon/extract-loader",
+      "status": "candidate",
+      "text": "extract-loader"
     }
   ],
   "candidate_related_terms": [],
@@ -1189,11 +1261,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "webpack/sass-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "webpack/css-minimizer-webpack-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "peerigon/extract-loader"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

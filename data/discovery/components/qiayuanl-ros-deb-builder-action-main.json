@@ -1,0 +1,12 @@
+{
+  "component": "qiayuanl/ros-deb-builder-action@main",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_jazzy.yml",
+      "source_repo": "qiayuanl/unitree_buildfarm"
+    }
+  ]
+}

@@ -101,6 +101,24 @@
       "source_repo": "nicolas-chaulet/torch-points3d",
       "status": "candidate-context",
       "text": "unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "status": "candidate-context",
+      "text": "unittest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "unittest"
     }
   ],
   "candidate_glosses": [
@@ -149,6 +167,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nicolas-chaulet/torch-points3d",
+      "status": "candidate",
+      "text": "unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "status": "candidate",
+      "text": "unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
       "status": "candidate",
       "text": "unittest"
     }
@@ -242,11 +272,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/pythonapp.yml",
       "source_repo": "nicolas-chaulet/torch-points3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

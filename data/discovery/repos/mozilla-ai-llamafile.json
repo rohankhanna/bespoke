@@ -46,21 +46,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "ggml-org/whisper.cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mozilla-ai/llamafile",
       "target": "ggerganov/llama.cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mozilla-ai/llamafile",
-      "target": "jart/cosmopolitan",
       "target_type": "repository"
     },
     {
@@ -153,13 +139,76 @@
       "source_repo": "mozilla-ai/llamafile",
       "target": "Update llama.cpp submodule",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "llama-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "local-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "local-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "local-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "open-source-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "single-file-executable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "speech-to-text",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T18:31:31.698573+00:00",
+  "fetched_at": "2026-05-01T14:54:56.452977+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5100
+      "size": 5533
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -182,7 +231,6 @@
       "size": 2866
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:57.617496+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -192,10 +240,20 @@
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "language": "C++",
-    "pushed_at": "2026-04-17T15:13:24Z",
-    "stargazers_count": 24207,
-    "topics": [],
-    "updated_at": "2026-04-19T12:00:17Z"
+    "pushed_at": "2026-05-01T10:47:19Z",
+    "stargazers_count": 24338,
+    "topics": [
+      "cross-platform",
+      "gguf",
+      "llama-cpp",
+      "local-ai",
+      "local-inference",
+      "local-llm",
+      "open-source-ai",
+      "single-file-executable",
+      "speech-to-text"
+    ],
+    "updated_at": "2026-05-01T14:31:47Z"
   },
   "repo_links": [
     {
@@ -206,16 +264,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ggerganov/whisper.cpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ggml-org/whisper.cpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jart/cosmopolitan",
       "source_file": "README.md"
     }
   ],
@@ -243,6 +291,60 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/update-llama-cpp.yml",
       "term": "Update llama.cpp submodule"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-cpp"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-ai"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-inference"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-llm"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-ai"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file-executable"
+    },
+    {
+      "context_snippet": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
     }
   ]
 }

@@ -1,0 +1,109 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@08e2f20817b15149a52b5b3ebe7de50aff2ba8c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux",
+      "target": "actions/setup-go@6edd4406fa81c3da01a34fa6f6343087c207a568",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux",
+      "target": "golangci/golangci-lint-action@08e2f20817b15149a52b5b3ebe7de50aff2ba8c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux",
+      "target": "actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux",
+      "target": "CI Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:13.520096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1873
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Golang connection multiplexing library",
+    "fork": false,
+    "full_name": "hashicorp/yamux",
+    "html_url": "https://github.com/hashicorp/yamux",
+    "language": "Go",
+    "pushed_at": "2026-03-29T17:52:26Z",
+    "stargazers_count": 2580,
+    "topics": [],
+    "updated_at": "2026-05-01T03:09:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "CI Tests"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "ashvardanian/SmashTable",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate-context",
+      "text": "Symbolic parser for Julia language term rewriting using REDUCE algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ashvardanian/SmashTable",
       "status": "candidate",
       "text": "<h1 align=\"center\">Unexceptionally Consistent Set</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/Reduce.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -431,6 +431,18 @@
       "source_repo": "securego/gosec",
       "status": "candidate-context",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "A RuboCop extension focused on enforcing Rails best practices and coding conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
     }
   ],
   "candidate_glosses": [
@@ -643,6 +655,12 @@
       "source_repo": "securego/gosec",
       "status": "candidate",
       "text": "Inspects source code for security problems by scanning the Go AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
     }
   ],
   "candidate_related_terms": [
@@ -1028,11 +1046,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

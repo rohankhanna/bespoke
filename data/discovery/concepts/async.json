@@ -583,6 +583,18 @@
       "source_repo": "TanStack/pacer",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/squirreling",
+      "status": "candidate-context",
+      "text": "Squirreling Async SQL Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/squirreling",
+      "status": "candidate-context",
+      "text": "![squirreling engine](squirreling.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -873,6 +885,12 @@
       "source_repo": "TanStack/pacer",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/squirreling",
+      "status": "candidate",
+      "text": "![squirreling engine](squirreling.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -1276,11 +1294,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "TanStack/pacer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/squirreling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/query"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

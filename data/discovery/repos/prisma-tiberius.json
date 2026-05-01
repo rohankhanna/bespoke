@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "prisma/.github/.github/workflows/secret_detection.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml"
+    },
+    {
+      "component": "prisma/.github/.github/workflows/code_scanning.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "mbrobbel/rustfmt-check@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "potatoqualitee/psmodulecache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "docker-practice/actions-setup-docker@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "prisma/.github/.github/workflows/secret_detection.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "prisma/.github/.github/workflows/code_scanning.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "PR Code Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "mbrobbel/rustfmt-check@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "potatoqualitee/psmodulecache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "docker-practice/actions-setup-docker@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prisma/tiberius",
+      "target": "Cargo tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:40:25.222286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9991
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4008
+    },
+    {
+      "path": ".github/workflows/pr-code-security.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 6667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TDS 7.2+ (Microsoft SQL Server) driver for Rust",
+    "fork": false,
+    "full_name": "prisma/tiberius",
+    "html_url": "https://github.com/prisma/tiberius",
+    "language": "Rust",
+    "pushed_at": "2026-03-06T12:48:07Z",
+    "stargazers_count": 415,
+    "topics": [],
+    "updated_at": "2026-04-30T03:08:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR Code Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "term": "PR Code Security"
+    },
+    {
+      "context_snippet": "Cargo tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Cargo tests"
+    }
+  ]
+}

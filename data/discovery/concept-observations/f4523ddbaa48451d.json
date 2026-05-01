@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Perl container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Perl applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Perl container images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Perl container images"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042202,
+      "status": "candidate",
+      "text": "reservoir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042069,
+      "status": "candidate",
+      "text": "enclosure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041921,
+      "status": "candidate",
+      "text": "containment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041866,
+      "status": "candidate",
+      "text": "containing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041638,
+      "status": "candidate",
+      "text": "contain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "container",
+      "sense_id": "container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "container",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "container",
+  "observation_id": "f4523ddbaa48451d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "container",
+  "source_context_snippet": "Perl container images",
+  "source_file": null,
+  "source_repo": "sclorg/s2i-perl-container",
+  "source_repo_description": "Perl container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Perl applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+}

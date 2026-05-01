@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "dlss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "dlssg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "optiscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "patching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optiscaler/OptiPatcher",
+      "target": "spoofing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:48.313345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2640
+    },
+    {
+      "path": ".github/workflows/Build.yml",
+      "size": 2307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An ASI Plugin for OptiScaler to expose DLSS/DLSSG inputs without spoofing in supported games.",
+    "fork": false,
+    "full_name": "optiscaler/OptiPatcher",
+    "html_url": "https://github.com/optiscaler/OptiPatcher",
+    "language": "C++",
+    "pushed_at": "2026-04-26T15:38:54Z",
+    "stargazers_count": 256,
+    "topics": [
+      "dlss",
+      "dlssg",
+      "optiscaler",
+      "patching",
+      "spoofing"
+    ],
+    "updated_at": "2026-05-01T04:39:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dlss"
+    },
+    {
+      "context_snippet": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dlssg"
+    },
+    {
+      "context_snippet": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optiscaler"
+    },
+    {
+      "context_snippet": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patching"
+    },
+    {
+      "context_snippet": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spoofing"
+    }
+  ]
+}

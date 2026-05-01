@@ -1,0 +1,543 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2.48.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml"
+    },
+    {
+      "component": "sigoden/install-binary@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce_branch_name.yml"
+    },
+    {
+      "component": "mheap/github-action-required-labels@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "mheap/github-action-required-labels@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/png_only_on_lfs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml"
+    },
+    {
+      "component": "sigoden/install-binary@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_cleanup.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_cleanup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilk/egui",
+      "target": "emilk/eframe_template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilk/egui",
+      "target": "a-liashenko/tinypomodoro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilk/egui",
+      "target": "asny/three-d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emilk/egui",
+      "target": "accesskit/accesskit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "emilk/egui",
+      "target": "taiki-e/install-action@v2.48.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "emilk/egui",
+      "target": "Cargo Shear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui",
+      "target": "sigoden/install-binary@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui",
+      "target": "Deploy web demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce_branch_name.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce_branch_name.yml",
+      "source_repo": "emilk/egui",
+      "target": "PR Branch Name Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "emilk/egui",
+      "target": "mheap/github-action-required-labels@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "emilk/egui",
+      "target": "Pull Request Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "emilk/egui",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_checker.yml",
+      "source_repo": "emilk/egui",
+      "target": "Link checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/png_only_on_lfs.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/png_only_on_lfs.yml",
+      "source_repo": "emilk/egui",
+      "target": "All; .png on git LFS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml",
+      "source_repo": "emilk/egui",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml",
+      "source_repo": "emilk/egui",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml",
+      "source_repo": "emilk/egui",
+      "target": "sigoden/install-binary@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_build.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview_build.yml",
+      "source_repo": "emilk/egui",
+      "target": "Preview Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_cleanup.yml",
+      "source_repo": "emilk/egui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview_cleanup.yml",
+      "source_repo": "emilk/egui",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview_cleanup.yml",
+      "source_repo": "emilk/egui",
+      "target": "Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilk/egui",
+      "target": "egui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilk/egui",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilk/egui",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilk/egui",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilk/egui",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emilk/egui",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:19.641683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25100
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 13051
+    },
+    {
+      "path": ".github/workflows/cargo_shear.yml",
+      "size": 450
+    },
+    {
+      "path": ".github/workflows/deploy_web_demo.yml",
+      "size": 1775
+    },
+    {
+      "path": ".github/workflows/enforce_branch_name.yml",
+      "size": 1633
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "size": 931
+    },
+    {
+      "path": ".github/workflows/link_checker.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/png_only_on_lfs.yml",
+      "size": 1026
+    },
+    {
+      "path": ".github/workflows/preview_build.yml",
+      "size": 2014
+    },
+    {
+      "path": ".github/workflows/preview_cleanup.yml",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+    "fork": false,
+    "full_name": "emilk/egui",
+    "html_url": "https://github.com/emilk/egui",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T13:29:25Z",
+    "stargazers_count": 28913,
+    "topics": [
+      "egui",
+      "game-development",
+      "gamedev",
+      "gui",
+      "imgui",
+      "rust",
+      "wasm"
+    ],
+    "updated_at": "2026-05-01T10:04:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-liashenko/tinypomodoro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accesskit/accesskit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asny/three-d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emilk/eframe_template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cargo Shear",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "term": "Cargo Shear"
+    },
+    {
+      "context_snippet": "Deploy web demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "term": "Deploy web demo"
+    },
+    {
+      "context_snippet": "PR Branch Name Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce_branch_name.yml",
+      "term": "PR Branch Name Check"
+    },
+    {
+      "context_snippet": "Pull Request Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "term": "Pull Request Labels"
+    },
+    {
+      "context_snippet": "Link checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_checker.yml",
+      "term": "Link checker"
+    },
+    {
+      "context_snippet": "All; .png on git LFS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/png_only_on_lfs.yml",
+      "term": "All; .png on git LFS"
+    },
+    {
+      "context_snippet": "Preview Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview_build.yml",
+      "term": "Preview Build"
+    },
+    {
+      "context_snippet": "Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview_cleanup.yml",
+      "term": "Preview Cleanup"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "egui"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

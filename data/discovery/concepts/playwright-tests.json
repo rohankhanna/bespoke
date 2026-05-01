@@ -116,6 +116,18 @@
       "source_repo": "vuejs/router",
       "status": "candidate-context",
       "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate-context",
+      "text": "Asynchronous Distributed Hyperparameter Optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +182,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vuejs/router",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Epistimio/orion",
       "status": "candidate",
       "text": "Playwright Tests"
     }
@@ -311,11 +329,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/playwright.yml",
       "source_repo": "vuejs/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dashboard-src-new-with-playwright.yml",
+      "source_repo": "Epistimio/orion"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

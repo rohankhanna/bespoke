@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alejandro-ao/exa-crewai",
+      "target": "joaomdmoura/crewai",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:10:06.983192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2496
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "alejandro-ao/exa-crewai",
+    "html_url": "https://github.com/alejandro-ao/exa-crewai",
+    "language": "HTML",
+    "pushed_at": "2024-06-11T12:43:20Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-01-13T00:59:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joaomdmoura/crewai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

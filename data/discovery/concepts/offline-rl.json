@@ -31,6 +31,18 @@
       "source_repo": "takuseno/d3rlpy",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate-context",
+      "text": "SCOPE-RL: A python library for offline reinforcement learning, off-policy evaluation, and selection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "takuseno/d3rlpy",
       "status": "candidate",
       "text": "<p align=\"center\"><img align=\"center\" width=\"300px\" src=\"assets/logo.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "takuseno/d3rlpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

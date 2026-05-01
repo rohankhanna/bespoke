@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy a detailed DevEx metrics dashboards, combining DORA and AI adoption to show ROI. gh-devlake is a GitHub CLI extension for deploying and configuring Apache DevLake which is the platform that aggregates all these metrics easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Documentation Sync\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Documentation Sync\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "awkward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "baseball team"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "basketball team"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "caliber"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation Sync",
+      "sense_id": "documentation-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "documentation-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation-sync",
+  "observation_id": "1edb93163c9a1cbf",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Documentation Sync",
+  "source_context_snippet": "\"Documentation Sync\"",
+  "source_file": ".github/workflows/docs-sync.lock.yml",
+  "source_repo": "DevExpGbb/gh-devlake",
+  "source_repo_description": "Deploy a detailed DevEx metrics dashboards, combining DORA and AI adoption to show ROI. gh-devlake is a GitHub CLI extension for deploying and configuring Apache DevLake which is the platform that aggregates all these metrics easily"
+}

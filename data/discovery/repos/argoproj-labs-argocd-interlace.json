@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "sigstore/k8s-manifest-sigstore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "CI-Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "argocd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "in-toto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "sigstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-interlace",
+      "target": "software-supply-chain-security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:35:09.111082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6761
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2342
+    },
+    {
+      "path": "go.mod",
+      "size": 21126
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enabling Software Supply Chain Security Capabilities in ArgoCD",
+    "fork": false,
+    "full_name": "argoproj-labs/argocd-interlace",
+    "html_url": "https://github.com/argoproj-labs/argocd-interlace",
+    "language": "Go",
+    "pushed_at": "2022-11-04T07:55:32Z",
+    "stargazers_count": 92,
+    "topics": [
+      "argocd",
+      "in-toto",
+      "sigstore",
+      "software-supply-chain-security"
+    ],
+    "updated_at": "2025-12-28T08:22:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigstore/k8s-manifest-sigstore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "CI-Lint"
+    },
+    {
+      "context_snippet": "ArgoCD is widely used for enabling CD GitOps. ArgoCD internally builds manifest from source data in Git repository, and auto-sync it with target clusters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argocd"
+    },
+    {
+      "context_snippet": "ArgoCD is widely used for enabling CD GitOps. ArgoCD internally builds manifest from source data in Git repository, and auto-sync it with target clusters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-toto"
+    },
+    {
+      "context_snippet": "ArgoCD is widely used for enabling CD GitOps. ArgoCD internally builds manifest from source data in Git repository, and auto-sync it with target clusters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sigstore"
+    },
+    {
+      "context_snippet": "ArgoCD is widely used for enabling CD GitOps. ArgoCD internally builds manifest from source data in Git repository, and auto-sync it with target clusters.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-supply-chain-security"
+    }
+  ]
+}

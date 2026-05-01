@@ -265,14 +265,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "chyok/ollama-gui",
+      "target": "augustdev/enchanted",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "augustdev/enchanted",
+      "target": "cloudstudio/ollama-laravel",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:26:19.925472+00:00",
+  "fetched_at": "2026-05-01T15:00:51.561357+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-01T08:56:41Z",
-    "stargazers_count": 170465,
+    "pushed_at": "2026-05-01T13:27:16Z",
+    "stargazers_count": 170479,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-01T10:22:40Z"
+    "updated_at": "2026-05-01T14:45:36Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chyok/ollama-gui",
+      "full_name": "cloudstudio/ollama-laravel",
       "source_file": "README.md"
     }
   ],

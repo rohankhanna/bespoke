@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo3",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-generative-vision/hallo3",
+      "target": "fudan-generative-vision/hallo2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:02:42.712890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11559
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Video Diffusion Transformer",
+    "fork": false,
+    "full_name": "fudan-generative-vision/hallo3",
+    "html_url": "https://github.com/fudan-generative-vision/hallo3",
+    "language": "Python",
+    "pushed_at": "2025-03-13T08:34:43Z",
+    "stargazers_count": 1382,
+    "topics": [],
+    "updated_at": "2026-04-22T22:23:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudan-generative-vision/hallo2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

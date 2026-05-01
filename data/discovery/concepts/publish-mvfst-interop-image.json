@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish mvfst interop image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/proxygen",
+      "status": "candidate-context",
+      "text": "A collection of C++ HTTP libraries including an easy to use HTTP server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/proxygen",
+      "status": "candidate-context",
+      "text": "Publish mvfst interop image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/proxygen",
+      "status": "candidate",
+      "text": "Publish mvfst interop image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10627,
+      "status": "candidate",
+      "text": "interoperable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10627,
+      "status": "candidate",
+      "text": "isolation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9958,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9958,
+      "status": "candidate",
+      "text": "printed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9958,
+      "status": "candidate",
+      "text": "prints"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish mvfst interop image",
+  "concept_id": "publish-mvfst-interop-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish_mvfst_interop.yml",
+      "source_repo": "facebook/proxygen"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish mvfst interop image",
+      "sense_id": "publish-mvfst-interop-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

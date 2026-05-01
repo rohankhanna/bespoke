@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementations of recent research prototypes/demonstrations using MONAI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monai-components",
+      "sense_id": "monai-components#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monai-components",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monai-components",
+  "observation_id": "de571ba94e69c68b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "monai-components",
+  "source_context_snippet": "**MONAI Research Contributions** is a platform built to showcase cutting-edge research utilizing MONAI. This enables the community to see MONAI \u201cin action\u201d and researchers to gain visibility for their MONAI-based work. The repository is regularly reviewed and selected contributi\u2026",
+  "source_file": null,
+  "source_repo": "Project-MONAI/research-contributions",
+  "source_repo_description": "Implementations of recent research prototypes/demonstrations using MONAI."
+}

@@ -564,6 +564,18 @@
       "source_repo": "gofiber/contrib",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rake",
+      "status": "candidate-context",
+      "text": "A make-like build utility for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rake",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -834,6 +846,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gofiber/contrib",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rake",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -1155,11 +1173,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/dependabot_automerge.yml",
       "source_repo": "gofiber/contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "ruby/rake"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

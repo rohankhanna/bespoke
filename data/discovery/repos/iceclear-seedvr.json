@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IceClear/SeedVR",
+      "target": "iceclear/seedvr2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IceClear/SeedVR",
+      "target": "bytedance-seed/seedvr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:02:44.253858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2025 Highlight] SeedVR: Seeding Infinity in Diffusion Transformer Towards Generic Video Restoration",
+    "fork": false,
+    "full_name": "IceClear/SeedVR",
+    "html_url": "https://github.com/IceClear/SeedVR",
+    "language": null,
+    "pushed_at": "2025-06-18T17:29:35Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-01-10T22:38:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance-seed/seedvr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iceclear/seedvr2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

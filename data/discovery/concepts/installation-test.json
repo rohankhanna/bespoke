@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Installation Test"
+    "Installation Test",
+    "Installation test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "oumi-ai/oumi",
       "status": "candidate-context",
       "text": "\"Installation Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "TinyNeuralNetwork is an efficient and easy-to-use deep learning model compression framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "Installation test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "oumi-ai/oumi",
       "status": "candidate",
       "text": "\"Installation Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate",
+      "text": "Installation test"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/install_test.yaml",
       "source_repo": "oumi-ai/oumi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

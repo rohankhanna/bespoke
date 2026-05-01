@@ -1629,6 +1629,42 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate-context",
       "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate-context",
+      "text": "Deploy your plugin to the WordPress.org repository using GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate-context",
+      "text": "Encoding and decoding support for BSON in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "status": "candidate-context",
+      "text": "[CVPR2026] Detect Anything via Next Point Prediction "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_glosses": [
@@ -2477,6 +2513,24 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate",
       "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "status": "candidate",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_related_terms": [
@@ -3768,11 +3822,101 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "hacs/integration"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-deploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "mongodb/bson-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "IDEA-Research/Rex-Omni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

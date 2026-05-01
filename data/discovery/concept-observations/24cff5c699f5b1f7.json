@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple and useful implementation of LPIPS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perceptual-similarity",
+      "sense_id": "perceptual-similarity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "perceptual-similarity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "perceptual-similarity",
+  "observation_id": "24cff5c699f5b1f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "perceptual-similarity",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)",
+  "source_file": null,
+  "source_repo": "S-aiueo32/lpips-pytorch",
+  "source_repo_description": "A simple and useful implementation of LPIPS."
+}

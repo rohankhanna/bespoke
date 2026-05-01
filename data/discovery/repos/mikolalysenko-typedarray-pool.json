@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "bit-twiddle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dup",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/typedarray-pool",
+      "target": "bit-twiddle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/typedarray-pool",
+      "target": "dup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/typedarray-pool",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:48:17.949291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2374
+    },
+    {
+      "path": "package.json",
+      "size": 1110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reuse typed arrays",
+    "fork": false,
+    "full_name": "mikolalysenko/typedarray-pool",
+    "html_url": "https://github.com/mikolalysenko/typedarray-pool",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-23T20:18:53Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-13T01:24:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

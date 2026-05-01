@@ -19,6 +19,18 @@
       "source_repo": "RUC-NLPIR/WebThinker",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d Search-o1: Agentic Search-Enhanced Large Reasoning Models [EMNLP 2025]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "RUC-NLPIR/WebThinker",
       "status": "candidate",
       "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

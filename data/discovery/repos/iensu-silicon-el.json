@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iensu/silicon-el",
+      "target": "code-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iensu/silicon-el",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iensu/silicon-el",
+      "target": "silicon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:14.617329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An emacs package for creating images from source code buffers using silicon",
+    "fork": false,
+    "full_name": "iensu/silicon-el",
+    "html_url": "https://github.com/iensu/silicon-el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-02-17T12:05:08Z",
+    "stargazers_count": 18,
+    "topics": [
+      "code-to-image",
+      "emacs",
+      "silicon"
+    ],
+    "updated_at": "2026-01-10T20:46:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A convenience package for creating images of the current source buffer using Silicon <https://github.com/Aloxaf/silicon>. It requires you to have the `silicon` command-line tool installed and preferably on your path. You can specify the path to the executable by setting `silicon\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-to-image"
+    },
+    {
+      "context_snippet": "A convenience package for creating images of the current source buffer using Silicon <https://github.com/Aloxaf/silicon>. It requires you to have the `silicon` command-line tool installed and preferably on your path. You can specify the path to the executable by setting `silicon\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "A convenience package for creating images of the current source buffer using Silicon <https://github.com/Aloxaf/silicon>. It requires you to have the `silicon` command-line tool installed and preferably on your path. You can specify the path to the executable by setting `silicon\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "silicon"
+    }
+  ]
+}

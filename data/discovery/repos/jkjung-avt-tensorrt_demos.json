@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "jkjung-avt/jetson_nano",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "aastanv/trt_object_detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "dongfangduoshou123/yolov3-tensorrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "jkjung-avt/yolov4_crowdhuman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "googlenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "jetson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "modnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "mtcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "ssd-mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "target": "yolov4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:54.300922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TensorRT MODNet, YOLOv4, YOLOv3, SSD, MTCNN, and GoogLeNet",
+    "fork": false,
+    "full_name": "jkjung-avt/tensorrt_demos",
+    "html_url": "https://github.com/jkjung-avt/tensorrt_demos",
+    "language": "Python",
+    "pushed_at": "2025-09-02T01:43:26Z",
+    "stargazers_count": 1792,
+    "topics": [
+      "googlenet",
+      "jetson",
+      "modnet",
+      "mtcnn",
+      "object-detection",
+      "ssd-mobilenet",
+      "tensorrt",
+      "yolov3",
+      "yolov4"
+    ],
+    "updated_at": "2026-04-22T09:29:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aastanv/trt_object_detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dongfangduoshou123/yolov3-tensorrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkjung-avt/jetson_nano",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkjung-avt/yolov4_crowdhuman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "googlenet"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetson"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modnet"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mtcnn"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssd-mobilenet"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    },
+    {
+      "context_snippet": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    }
+  ]
+}

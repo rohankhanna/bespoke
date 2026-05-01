@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/jax-ekf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/jax-ekf",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/jax-ekf",
+      "target": "mypy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:24.561019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 82
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generic EKF, with support for non-Euclidean manifolds",
+    "fork": false,
+    "full_name": "brentyi/jax-ekf",
+    "html_url": "https://github.com/brentyi/jax-ekf",
+    "language": "Python",
+    "pushed_at": "2022-04-06T21:36:44Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-01T19:04:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "mypy"
+    }
+  ]
+}

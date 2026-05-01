@@ -1409,6 +1409,78 @@
       "source_repo": "openwebdocs/mdn-bcd-collector",
       "status": "candidate-context",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oblador/react-native-animatable",
+      "status": "candidate-context",
+      "text": "Standard set of easy to use animations and declarative transitions for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-animatable",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oblador/react-native-vector-image",
+      "status": "candidate-context",
+      "text": "iOS/Android native vector assets generated from SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-vector-image",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webdriver-bidi",
+      "status": "candidate-context",
+      "text": "Bidirectional WebDriver protocol for browser automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webdriver-bidi",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate-context",
+      "text": "Thin-wrapper around the mock package for easier use with pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terrierteam/pyterrier_pisa",
+      "status": "candidate-context",
+      "text": "A Python interface to PISA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrierteam/pyterrier_pisa",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bookcars/bookcars.github.io",
+      "status": "candidate-context",
+      "text": "BookCars official landing page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bookcars/bookcars.github.io",
+      "status": "candidate-context",
+      "text": "deploy"
     }
   ],
   "candidate_glosses": [
@@ -2119,6 +2191,42 @@
       "source_repo": "openwebdocs/mdn-bcd-collector",
       "status": "candidate",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-animatable",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-vector-image",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webdriver-bidi",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terrierteam/pyterrier_pisa",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bookcars/bookcars.github.io",
+      "status": "candidate",
+      "text": "deploy"
     }
   ],
   "candidate_related_terms": [
@@ -3241,11 +3349,131 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "openwebdocs/mdn-bcd-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "CesiumGS/cesium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "oblador/react-native-animatable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "oblador/react-native-vector-image"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "mozilla/cbindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/webdriver-bidi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml.orig",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "pytest-dev/pytest-mock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "terrierteam/pyterrier_pisa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bookcars/bookcars.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "d3/d3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/azure-dev.yml",
+      "source_repo": "Azure-Samples/contoso-creative-writer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

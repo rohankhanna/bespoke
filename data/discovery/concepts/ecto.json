@@ -67,6 +67,18 @@
       "source_repo": "evadne/etso",
       "status": "candidate-context",
       "text": "**Etso** is an [ETS][erlang-ets] adapter, allowing you to use `Ecto` schemas with ETS tables."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "An SQLite3 driver for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "evadne/etso",
       "status": "candidate",
       "text": "**Etso** is an [ETS][erlang-ets] adapter, allowing you to use `Ecto` schemas with ETS tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -192,11 +210,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "evadne/etso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-sqlite/exqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

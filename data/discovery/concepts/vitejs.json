@@ -43,6 +43,18 @@
       "source_repo": "Applelo/unplugin-inject-preload",
       "status": "candidate-context",
       "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Applelo/vite-plugin-inject-preload",
+      "status": "candidate-context",
+      "text": "A Vite plugin for injecting <link rel='preload'> "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/vite-plugin-inject-preload",
+      "status": "candidate-context",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Applelo/unplugin-inject-preload",
       "status": "candidate",
       "text": "[![NPM Version](https://img.shields.io/npm/v/unplugin-inject-preload)](https://www.npmjs.com/package/unplugin-inject-preload) [![jsr](https://img.shields.io/endpoint?url=https%3A%2F%2Fjsr-api.sxzz.moe%2Fbadge%2F%40applelo%2Funplugin-inject-preload)](https://jsr.io/@applelo/unplu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/vite-plugin-inject-preload",
+      "status": "candidate",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Applelo/unplugin-inject-preload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Applelo/vite-plugin-inject-preload"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

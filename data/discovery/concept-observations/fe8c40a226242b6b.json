@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039629,
+      "status": "candidate",
+      "text": "thoroughgoing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037354,
+      "status": "candidate",
+      "text": "thorough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028604,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039946,
+      "status": "candidate",
+      "text": "in-depth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039800,
+      "status": "candidate",
+      "text": "completeness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "exhaustive",
+      "sense_id": "exhaustive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21035,
+      "status": "candidate",
+      "text": "thorough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6028,
+      "status": "candidate",
+      "text": "thoroughgoing"
+    }
+  ],
+  "concept_id": "exhaustive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "exhaustive",
+  "observation_id": "fe8c40a226242b6b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "exhaustive",
+  "source_context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+  "source_file": null,
+  "source_repo": "gvergnaud/ts-pattern",
+  "source_repo_description": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference."
+}

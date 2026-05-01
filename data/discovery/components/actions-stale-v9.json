@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v9",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -492,6 +492,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale_issue_pr_manager.yaml",
       "source_repo": "invertase/melos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-validation-failed.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-deploy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-bot.yml",
+      "source_repo": "BuilderIO/builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closeinactive.yml",
+      "source_repo": "mostlygeek/llama-swap"
     }
   ]
 }

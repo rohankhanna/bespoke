@@ -48,7 +48,7 @@
   "normalized_form": "protocol-buffers",
   "observation_id": "a027039200a95c87",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "protocol-buffers",
   "source_context_snippet": "[![CI](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml/badge.svg)](https://github.com/elixir-protobuf/protobuf/actions/workflows/main.yml)",
   "source_file": null,

@@ -19,6 +19,18 @@
       "source_repo": "jestjs/jest",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek, Ollama, Mistral and OpenAI models remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jestjs/jest",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maid"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

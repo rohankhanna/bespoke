@@ -12,6 +12,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/TeaCache",
       "target": "tencent/hunyuanvideo",
       "target_type": "repository"
     },
@@ -19,14 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ali-vilab/TeaCache",
-      "target": "lldacing/comfyui_patches_ll",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ali-vilab/TeaCache",
-      "target": "mingxiangl/teacache-xdit",
+      "target": "welltop-cn/comfyui-teacache",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:27:17.300668+00:00",
+  "fetched_at": "2026-05-01T15:02:28.209885+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -128,17 +128,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lldacing/comfyui_patches_ll",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mingxiangl/teacache-xdit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "welltop-cn/comfyui-teacache",
       "source_file": "README.md"
     }
   ],

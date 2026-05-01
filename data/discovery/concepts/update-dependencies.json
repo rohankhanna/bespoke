@@ -134,6 +134,18 @@
       "source_repo": "pypa/manylinux",
       "status": "candidate-context",
       "text": "Update dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries, and tests for Vulkan shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "Update dependencies"
     }
   ],
   "candidate_glosses": [
@@ -200,6 +212,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pypa/manylinux",
+      "status": "candidate",
+      "text": "Update dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
       "status": "candidate",
       "text": "Update dependencies"
     }
@@ -419,11 +437,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/autoroll.yml",
+      "source_repo": "google/shaderc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "rust-lang/mdBook"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

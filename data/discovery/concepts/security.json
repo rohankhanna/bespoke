@@ -1468,6 +1468,150 @@
       "source_repo": "suzuki-shunsuke/pinact",
       "status": "candidate-context",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "A Clojure library helping the integration of Keycloak with a Clojure Application + a sample SPA Client and API Server demonstrating the Keycloak integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate-context",
+      "text": "A static analysis security vulnerability scanner for Ruby on Rails applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate-context",
+      "text": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "[![safety](https://cdn.safetycli.com/images/cli_readme_header.png)](https://docs.safetycli.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate-context",
+      "text": "Guard offers a policy-as-code domain-specific language (DSL) to write rules and validate JSON- and YAML-formatted data such as CloudFormation Templates, K8s configurations, and Terraform JSON plans/configurations against those rules. Take this survey to provide feedback about cfn-guard: https://amazonmr.au1.qualtrics.com/jfe/form/SV_bpyzpfoYGGuuUl0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate-context",
+      "text": "**Validate Cloud Environments with Policy-as-Code**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/rattler",
+      "status": "candidate-context",
+      "text": "Rust crates to work with the Conda ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/rattler",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "8 Lessons, Kick-start Your Cybersecurity Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/github/license/microsoft/Security-101)](https://github.com/microsoft/Security-101/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "status": "candidate-context",
+      "text": "Python implementation of Dropbox's realistic password strength estimator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "status": "candidate-context",
+      "text": "|Build Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sethvargo/ratchet",
+      "status": "candidate-context",
+      "text": "A tool for securing CI/CD workflows with version pinning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sethvargo/ratchet",
+      "status": "candidate-context",
+      "text": "![ratchet logo](docs/ratchet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "GitHub Actions linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "status": "candidate-context",
+      "text": "A CLI to create short-lived (8 hours) GitHub App User Access Token for secure local development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghtkn)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate-context",
+      "text": "GitHub Actions to pin GitHub Actions by pinact"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact-action)"
     }
   ],
   "candidate_glosses": [
@@ -2190,6 +2334,78 @@
       "source_repo": "suzuki-shunsuke/pinact",
       "status": "candidate",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate",
+      "text": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate",
+      "text": "[![safety](https://cdn.safetycli.com/images/cli_readme_header.png)](https://docs.safetycli.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate",
+      "text": "**Validate Cloud Environments with Policy-as-Code**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/rattler",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/microsoft/Security-101)](https://github.com/microsoft/Security-101/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwolfhub/zxcvbn-python",
+      "status": "candidate",
+      "text": "|Build Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sethvargo/ratchet",
+      "status": "candidate",
+      "text": "![ratchet logo](docs/ratchet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghtkn)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact-action)"
     }
   ],
   "candidate_related_terms": [
@@ -3217,11 +3433,125 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "suzuki-shunsuke/pinact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "authelia/authelia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pyupio/safety"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/enforce-sha.yml",
+      "source_repo": "conda/rattler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Security-101"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwolfhub/zxcvbn-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sethvargo/ratchet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghalint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghtkn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/pinact-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

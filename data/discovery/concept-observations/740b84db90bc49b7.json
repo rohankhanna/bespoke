@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WPF Ribbon control like in Office"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047057,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044909,
+      "status": "candidate",
+      "text": "laurel wreath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036997,
+      "status": "candidate",
+      "text": "decoration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031051,
+      "status": "candidate",
+      "text": "medallion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030907,
+      "status": "candidate",
+      "text": "medal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ribbon",
+      "sense_id": "ribbon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17071,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11058,
+      "status": "candidate",
+      "text": "palm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7042,
+      "status": "candidate",
+      "text": "medallion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3014,
+      "status": "candidate",
+      "text": "laurel wreath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2039,
+      "status": "candidate",
+      "text": "decoration"
+    }
+  ],
+  "concept_id": "ribbon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ribbon",
+  "observation_id": "740b84db90bc49b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "ribbon",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "fluentribbon/Fluent.Ribbon",
+  "source_repo_description": "WPF Ribbon control like in Office"
+}

@@ -1066,6 +1066,42 @@
       "source_repo": "webpack/sass-loader",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "CloudFoundry User Account and Authentication (UAA) Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deci-AI/super-gradients",
+      "status": "candidate-context",
+      "text": "Easily train or fine-tune SOTA computer vision models with one open source training library. The home of Yolo-NAS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deci-AI/super-gradients",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/node-addon-api",
+      "status": "candidate-context",
+      "text": "Module for using Node-API from C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-addon-api",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -1596,6 +1632,24 @@
       "source_repo": "webpack/sass-loader",
       "status": "candidate",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deci-AI/super-gradients",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-addon-api",
+      "status": "candidate",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_related_terms": [
@@ -2263,11 +2317,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "webpack/sass-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "cloudfoundry/uaa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/css-minimizer-webpack-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dependency_review.yaml",
+      "source_repo": "Deci-AI/super-gradients"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "nodejs/node-addon-api"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

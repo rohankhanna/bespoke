@@ -31,6 +31,18 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate-context",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate-context",
+      "text": "A fast and robust point cloud registration library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "WeikaiTan/Toronto-3D",
       "status": "candidate",
       "text": "[**[Paper]**](https://openaccess.thecvf.com/content_CVPRW_2020/html/w11/Tan_Toronto-3D_A_Large-Scale_Mobile_LiDAR_Dataset_for_Semantic_Segmentation_of_CVPRW_2020_paper.html) [**[Download]**](#download) [**[Results]**](#results) [**[Codes]**](#code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "WeikaiTan/Toronto-3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MIT-SPARK/TEASER-plusplus"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

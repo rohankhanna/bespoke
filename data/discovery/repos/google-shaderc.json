@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoroll.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/shaderc",
+      "target": "khronosgroup/spirv-cross",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/shaderc",
+      "target": "celer/gshaderc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/shaderc",
+      "target": "jpbruyere/shaderc.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/shaderc",
+      "target": "jolifantobambla/shadercl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoroll.yml",
+      "source_repo": "google/shaderc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoroll.yml",
+      "source_repo": "google/shaderc",
+      "target": "Update dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "glslang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "hlsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "shaderc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "spirv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "spirv-cross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/shaderc",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:34.167550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10226
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/autoroll.yml",
+      "size": 2075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of tools, libraries, and tests for Vulkan shader compilation.",
+    "fork": false,
+    "full_name": "google/shaderc",
+    "html_url": "https://github.com/google/shaderc",
+    "language": "C++",
+    "pushed_at": "2026-04-29T01:21:20Z",
+    "stargazers_count": 2135,
+    "topics": [
+      "compiler",
+      "glsl",
+      "glslang",
+      "graphics",
+      "hlsl",
+      "shaderc",
+      "spirv",
+      "spirv-cross",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-30T09:02:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celer/gshaderc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jolifantobambla/shadercl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpbruyere/shaderc.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/spirv-cross",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoroll.yml",
+      "term": "Update dependencies"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glslang"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hlsl"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaderc"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv-cross"
+    },
+    {
+      "context_snippet": "A collection of tools, libraries and tests for shader compilation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

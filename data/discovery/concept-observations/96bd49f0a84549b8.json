@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Infrastructure, containers, and serverless apps to AWS, Azure, GCP, and Kubernetes... all deployed with Pulumi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add issues to project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add issues to project"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17935,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17878,
+      "status": "candidate",
+      "text": "amendment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17878,
+      "status": "candidate",
+      "text": "annex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17878,
+      "status": "candidate",
+      "text": "appendix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17878,
+      "status": "candidate",
+      "text": "cast"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add issues to project",
+      "sense_id": "add-issues-to-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-issues-to-project",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-issues-to-project",
+  "observation_id": "96bd49f0a84549b8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Add issues to project",
+  "source_context_snippet": "Add issues to project",
+  "source_file": ".github/workflows/add-to-project.yaml",
+  "source_repo": "pulumi/examples",
+  "source_repo_description": "Infrastructure, containers, and serverless apps to AWS, Azure, GCP, and Kubernetes... all deployed with Pulumi"
+}

@@ -1,0 +1,469 @@
+{
+  "components": [
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks_pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks_pr.yml"
+    },
+    {
+      "component": "apbard/pytest-benchmark-commenter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks_pr.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/tensordict",
+      "target": "nm512/dreamerv3-torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/tensordict",
+      "target": "nicklashansen/dreamer4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/tensordict",
+      "target": "baidu-baige/loongflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/tensordict",
+      "target": "nanoporetech/medaka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Auto Label PR (File-Based)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "benchmark-action/github-action-benchmark@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Continuous Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks_pr.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks_pr.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks_pr.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "apbard/pytest-benchmark-commenter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks_pr.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Continuous Benchmark (PR)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Build Aarch64 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Build M1 Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Build Windows Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytorch/tensordict",
+      "target": "Generate documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:00:22.840292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8801
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3067
+    },
+    {
+      "path": ".github/workflows/auto-labeler.yml",
+      "size": 1059
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 7875
+    },
+    {
+      "path": ".github/workflows/benchmarks_pr.yml",
+      "size": 6605
+    },
+    {
+      "path": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "size": 1967
+    },
+    {
+      "path": ".github/workflows/build-wheels-linux.yml",
+      "size": 2136
+    },
+    {
+      "path": ".github/workflows/build-wheels-m1.yml",
+      "size": 2081
+    },
+    {
+      "path": ".github/workflows/build-wheels-windows.yml",
+      "size": 2202
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 6054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TensorDict is a pytorch dedicated tensor container.",
+    "fork": false,
+    "full_name": "pytorch/tensordict",
+    "html_url": "https://github.com/pytorch/tensordict",
+    "language": "Python",
+    "pushed_at": "2026-05-01T08:00:45Z",
+    "stargazers_count": 1024,
+    "topics": [],
+    "updated_at": "2026-04-30T21:10:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu-baige/loongflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanoporetech/medaka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicklashansen/dreamer4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nm512/dreamerv3-torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Label PR (File-Based)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-labeler.yml",
+      "term": "Auto Label PR (File-Based)"
+    },
+    {
+      "context_snippet": "Continuous Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Continuous Benchmark"
+    },
+    {
+      "context_snippet": "Continuous Benchmark (PR)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks_pr.yml",
+      "term": "Continuous Benchmark (PR)"
+    },
+    {
+      "context_snippet": "Build Aarch64 Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-aarch64-linux.yml",
+      "term": "Build Aarch64 Linux Wheels"
+    },
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Build M1 Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "term": "Build M1 Wheels"
+    },
+    {
+      "context_snippet": "Build Windows Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "term": "Build Windows Wheels"
+    },
+    {
+      "context_snippet": "Generate documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate documentation"
+    }
+  ]
+}

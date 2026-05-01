@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "appwrite/.github/.github/workflows/autoclose.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "appwrite/sdk-for-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "appwrite/playground-for-deno",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "appwrite/sdk-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "appwrite/.github/.github/workflows/autoclose.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "Auto-close External Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno",
+      "target": "mbaas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:06:50.189603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5145
+    },
+    {
+      "path": ".github/workflows/autoclose.yml",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[READ-ONLY] Official Appwrite Deno SDK \ud83e\udd95",
+    "fork": false,
+    "full_name": "appwrite/sdk-for-deno",
+    "html_url": "https://github.com/appwrite/sdk-for-deno",
+    "language": "TypeScript",
+    "pushed_at": "2025-09-15T23:08:03Z",
+    "stargazers_count": 81,
+    "topics": [
+      "appwrite",
+      "baas",
+      "deno",
+      "hacktoberfest",
+      "mbaas",
+      "sdk"
+    ],
+    "updated_at": "2026-02-25T00:11:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/playground-for-deno",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/sdk-for-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/sdk-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-close External Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "term": "Auto-close External Pull Requests"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mbaas"
+    }
+  ]
+}

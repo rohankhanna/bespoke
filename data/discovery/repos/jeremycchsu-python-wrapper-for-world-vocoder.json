@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
+      "target": "mmorise/world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
+      "target": "jeremycchsu/wsl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
+      "target": "sotelo/world.py",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:08:10.837204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5713
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 193
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python wrapper for the high-quality vocoder \"World\"",
+    "fork": false,
+    "full_name": "JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
+    "html_url": "https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder",
+    "language": "Cython",
+    "pushed_at": "2025-01-21T15:45:00Z",
+    "stargazers_count": 786,
+    "topics": [],
+    "updated_at": "2026-04-23T11:15:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeremycchsu/wsl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmorise/world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sotelo/world.py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -48,7 +48,7 @@
   "normalized_form": "self-assign",
   "observation_id": "7227d4b9a681e70d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Self-assign",
   "source_context_snippet": "Self-assign",
   "source_file": ".github/workflows/self-assign.yaml",

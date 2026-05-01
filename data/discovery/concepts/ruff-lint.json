@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Ruff Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "status": "candidate-context",
+      "text": "Ruff Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "status": "candidate",
+      "text": "Ruff Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10490,
+      "status": "candidate",
+      "text": "ruffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10490,
+      "status": "candidate",
+      "text": "ruffled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10471,
+      "status": "candidate",
+      "text": "jabot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10425,
+      "status": "candidate",
+      "text": "linen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10425,
+      "status": "candidate",
+      "text": "slam"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ruff Lint",
+  "concept_id": "ruff-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "source_repo": "kohya-ss/musubi-tuner"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ruff Lint",
+      "sense_id": "ruff-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:07:08.064315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RWKV in nanoGPT style",
+    "fork": true,
+    "full_name": "BlinkDL/nanoRWKV",
+    "html_url": "https://github.com/BlinkDL/nanoRWKV",
+    "language": "Python",
+    "pushed_at": "2024-06-09T16:50:04Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-02-09T06:52:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

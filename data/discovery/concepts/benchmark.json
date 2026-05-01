@@ -1780,6 +1780,78 @@
       "source_repo": "sheredom/ubench.h",
       "status": "candidate-context",
       "text": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate-context",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate-context",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahojnnes/local-feature-evaluation",
+      "status": "candidate-context",
+      "text": "Comparative Evaluation of Hand-Crafted and Learned Local Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahojnnes/local-feature-evaluation",
+      "status": "candidate-context",
+      "text": "Comparative Evaluation of Hand-Crafted and Learned Local Features"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZHKKKe/PPM",
+      "status": "candidate-context",
+      "text": "A High-Quality Photograpy Portrait Matting Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZHKKKe/PPM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "status": "candidate-context",
+      "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "status": "candidate-context",
+      "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight] VBench - We Evaluate Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate-context",
+      "text": "Couchbase Lite for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -2670,6 +2742,42 @@
       "source_repo": "sheredom/ubench.h",
       "status": "candidate",
       "text": "[![Actions Status](https://github.com/sheredom/ubench.h/workflows/CMake/badge.svg)](https://github.com/sheredom/ubench.h/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahojnnes/local-feature-evaluation",
+      "status": "candidate",
+      "text": "Comparative Evaluation of Hand-Crafted and Learned Local Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZHKKKe/PPM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "status": "candidate",
+      "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate",
+      "text": "Benchmark"
     }
   ],
   "candidate_related_terms": [
@@ -4053,11 +4161,113 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "sheredom/ubench.h"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ahojnnes/local-feature-evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ZHKKKe/PPM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "slinso/goTemplateBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ruby/ruby-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/VBench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "cbl-dart/cbl-dart"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

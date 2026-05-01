@@ -2398,6 +2398,102 @@
       "source_repo": "JodaOrg/joda-time-jsptags",
       "status": "candidate-context",
       "text": "Joda-Time Contributions area - JSP tags"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate-context",
+      "text": "Java binary serialization and cloning: fast, efficient, automatic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate-context",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "CloudFoundry User Account and Authentication (UAA) Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jboss-javassist/javassist",
+      "status": "candidate-context",
+      "text": "Java bytecode engineering toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jboss-javassist/javassist",
+      "status": "candidate-context",
+      "text": "[![Java CI with Maven](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml/badge.svg)](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tushartushar/DesigniteJava",
+      "status": "candidate-context",
+      "text": "Detects smells and computes metrics of Java code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tushartushar/DesigniteJava",
+      "status": "candidate-context",
+      "text": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "status": "candidate-context",
+      "text": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "status": "candidate-context",
+      "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botframework-sdk",
+      "status": "candidate-context",
+      "text": "Bot Framework provides the most comprehensive experience for building conversation applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-sdk",
+      "status": "candidate-context",
+      "text": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Android SDK \ud83d\udc9a  \ud83e\udd16"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -3594,6 +3690,54 @@
       "source_repo": "JodaOrg/joda-time-jsptags",
       "status": "candidate",
       "text": "Joda-Time Contributions area - JSP tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jboss-javassist/javassist",
+      "status": "candidate",
+      "text": "[![Java CI with Maven](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml/badge.svg)](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tushartushar/DesigniteJava",
+      "status": "candidate",
+      "text": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "status": "candidate",
+      "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-sdk",
+      "status": "candidate",
+      "text": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
     }
   ],
   "candidate_related_terms": [
@@ -5355,11 +5499,125 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "JodaOrg/joda-time-jsptags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/uaa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jboss-javassist/javassist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

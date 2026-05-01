@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -121,6 +121,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/elysia-frontend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi"
     }
   ],
   "term": "nextjs"

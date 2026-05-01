@@ -1,7 +1,7 @@
 {
   "component": "actions/create-release@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -762,6 +762,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Aloxaf/silicon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nihui/realsr-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-after-tag.yml",
+      "source_repo": "DioxusLabs/stork"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "wasmerio/wasmer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TagIt.yml",
+      "source_repo": "facebook/proxygen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "farm-ng/farm-ng-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk"
     }
   ]
 }

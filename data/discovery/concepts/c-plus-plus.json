@@ -835,6 +835,42 @@
       "source_repo": "strasdat/Sophus",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Open-source keyboard firmware for Atmel AVR and Arm USB families"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assimp/assimp",
+      "status": "candidate-context",
+      "text": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assimp/assimp",
+      "status": "candidate-context",
+      "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "A large scale non-linear optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1251,6 +1287,24 @@
       "source_repo": "strasdat/Sophus",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate",
+      "text": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assimp/assimp",
+      "status": "candidate",
+      "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate",
+      "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -1888,11 +1942,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "strasdat/Sophus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ceres-solver/ceres-solver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

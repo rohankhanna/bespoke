@@ -43,6 +43,30 @@
       "source_repo": "cvg/glue-factory",
       "status": "candidate-context",
       "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "Joint Deep Matcher for Points and Lines \ud83d\uddbc\ufe0f\ud83d\udca5\ud83d\uddbc\ufe0f (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "Hardnet descriptor model - \"Working hard to know your neighbor's margins:  Local descriptor learning loss\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "cvg/glue-factory",
       "status": "candidate",
       "text": "Glue Factory is CVG's library for training and evaluating deep neural network that extract and match local visual feature. It enables you to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "cvg/glue-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cvg/GlueStick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DagnyT/hardnet"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

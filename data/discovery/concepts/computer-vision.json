@@ -1921,6 +1921,198 @@
       "source_repo": "HavenFeng/photometric_optimization",
       "status": "candidate-context",
       "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "Joint Deep Matcher for Points and Lines \ud83d\uddbc\ufe0f\ud83d\udca5\ud83d\uddbc\ufe0f (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "GSV-Cities: a large-scale dataset for visual place recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "Hardnet descriptor model - \"Working hard to know your neighbor's margins:  Local descriptor learning loss\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate-context",
+      "text": "Source code for \"From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "NIMA: Neural IMage Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Deep Two-View Structure-from-Motion Revisited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "status": "candidate-context",
+      "text": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "status": "candidate-context",
+      "text": "Universal Monocular Metric Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "A large scale non-linear optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "MaskedFace-Net is a dataset of human faces with a correctly and incorrectly worn mask based on the dataset Flickr-Faces-HQ (FFHQ). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "We are building an open database of COVID-19 cases with chest X-ray or CT images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "Project Summary: To build a public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias ([MERS](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome), [SARS](https://en.wikipedia.org/w\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate-context",
+      "text": "Open source lung ultrasound (LUS) data collection initiative for COVID-19."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "status": "candidate-context",
+      "text": "A high-performance general-purpose MRF MAP solver, heavily exploiting SIMD instructions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "status": "candidate-context",
+      "text": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodistill/autodistill-seggpt",
+      "status": "candidate-context",
+      "text": "SegGPT module for use with Autodistill"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill-seggpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "[![Latest version](https://img.shields.io/crates/v/sophus.svg)](https://crates.io/crates/sophus)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "MegaDetector is an AI model that helps conservation folks spend less time doing boring things with camera trap images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
     }
   ],
   "candidate_glosses": [
@@ -2883,6 +3075,102 @@
       "source_repo": "HavenFeng/photometric_optimization",
       "status": "candidate",
       "text": "This repository provides an analysis-by-synthesis framework to fit a textured [FLAME](http://flame.is.tue.mpg.de/) model to an image. FLAME is a lightweight generic 3D head model learned from over 33,000 head scans, but it does not come with an appearance space (see the [scienti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate",
+      "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "status": "candidate",
+      "text": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate",
+      "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate",
+      "text": "Project Summary: To build a public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias ([MERS](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome), [SARS](https://en.wikipedia.org/w\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate",
+      "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "status": "candidate",
+      "text": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill-seggpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/crates/v/sophus.svg)](https://crates.io/crates/sophus)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -4192,11 +4480,191 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "HavenFeng/photometric_optimization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cvg/GlueStick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DagnyT/hardnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "truskovskiyk/nima.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jytime/Deep-SfM-Revisited"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lpiccinelli-eth/UniDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ceres-solver/ceres-solver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ieee8023/covid-chestxray-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-seggpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sophus-vision/sophus-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create a module release from tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/rain",
+      "status": "candidate-context",
+      "text": "A development workflow tool for working with AWS CloudFormation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/rain",
+      "status": "candidate-context",
+      "text": "Create a module release from tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/rain",
+      "status": "candidate",
+      "text": "Create a module release from tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44354,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44354,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43281,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43281,
+      "status": "candidate",
+      "text": "jump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43197,
+      "status": "candidate",
+      "text": "touch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create a module release from tag",
+  "concept_id": "create-a-module-release-from-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/modules.yml",
+      "source_repo": "aws-cloudformation/rain"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create a module release from tag",
+      "sense_id": "create-a-module-release-from-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

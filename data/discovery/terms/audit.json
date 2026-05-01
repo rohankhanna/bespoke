@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -216,6 +216,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "kdn36/arrow-rs-object-store"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "Hiroshiba/voicevox_core"
     }
   ],
   "term": "Audit"

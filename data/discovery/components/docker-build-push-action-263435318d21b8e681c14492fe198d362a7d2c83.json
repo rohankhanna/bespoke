@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-warp-builder-images.yml",
       "source_repo": "NVIDIA/warp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "chaoss/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-hardened.yaml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-rootless.yaml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "sysadminsmedia/homebox"
     }
   ]
 }

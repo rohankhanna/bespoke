@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:04:59.506243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1615
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1599
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal deserialization library for std::backtrace::Backtrace's debug format",
+    "fork": false,
+    "full_name": "yaahc/btparse",
+    "html_url": "https://github.com/yaahc/btparse",
+    "language": "Rust",
+    "pushed_at": "2024-10-31T16:38:20Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-10-28T23:52:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

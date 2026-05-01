@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fern Scribe Documentation Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "The documentation for Fern (kind of meta, eh?)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "Fern Scribe Documentation Assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate",
+      "text": "Fern Scribe Documentation Assistant"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44383,
+      "status": "candidate",
+      "text": "secretary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27854,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27715,
+      "status": "candidate",
+      "text": "keep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27715,
+      "status": "candidate",
+      "text": "keeps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27691,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fern Scribe Documentation Assistant",
+  "concept_id": "fern-scribe-documentation-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/fern-scribe.yml",
+      "source_repo": "fern-api/docs"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fern Scribe Documentation Assistant",
+      "sense_id": "fern-scribe-documentation-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

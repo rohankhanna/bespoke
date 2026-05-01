@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:42:57.567566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6121
+    },
+    {
+      "path": "Dockerfile",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code for pbrt, the renderer described in the third edition of \"Physically Based Rendering: From Theory To Implementation\", by Matt Pharr, Wenzel Jakob, and Greg Humphreys.",
+    "fork": false,
+    "full_name": "mmp/pbrt-v3",
+    "html_url": "https://github.com/mmp/pbrt-v3",
+    "language": "C++",
+    "pushed_at": "2023-09-03T11:38:00Z",
+    "stargazers_count": 5064,
+    "topics": [],
+    "updated_at": "2026-04-29T10:08:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -44,6 +44,18 @@
       "source_repo": "celo-org/developer-tooling",
       "status": "candidate-context",
       "text": "Build containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "Build Containers"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "celo-org/developer-tooling",
       "status": "candidate",
       "text": "Build containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate",
+      "text": "Build Containers"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/containers.yml",
       "source_repo": "celo-org/developer-tooling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/containers.yml",
+      "source_repo": "mostlygeek/llama-swap"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

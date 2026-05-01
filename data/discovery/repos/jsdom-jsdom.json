@@ -253,34 +253,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jsdom/jsdom",
-      "target": "jsdom/.github",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jsdom/jsdom",
-      "target": "acemir/cssom",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jsdom/jsdom",
-      "target": "jsdom/jsdom-devtools-formatter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jsdom/jsdom",
-      "target": "dperini/nwsapi",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jsdom/jsdom",
@@ -638,7 +610,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:41:06.056196+00:00",
+  "fetched_at": "2026-05-01T13:53:50.956992+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -666,8 +638,8 @@
     "full_name": "jsdom/jsdom",
     "html_url": "https://github.com/jsdom/jsdom",
     "language": "JavaScript",
-    "pushed_at": "2026-04-29T06:56:12Z",
-    "stargazers_count": 21563,
+    "pushed_at": "2026-04-30T08:52:21Z",
+    "stargazers_count": 21568,
     "topics": [
       "dom-apis",
       "html",
@@ -675,30 +647,9 @@
       "jsdom",
       "nodejs"
     ],
-    "updated_at": "2026-04-29T18:11:42Z"
+    "updated_at": "2026-05-01T02:30:03Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "acemir/cssom",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dperini/nwsapi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jsdom/.github",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jsdom/jsdom-devtools-formatter",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish",

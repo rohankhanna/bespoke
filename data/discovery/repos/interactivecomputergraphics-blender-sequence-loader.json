@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "nschloe/meshio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "justinfx/fileseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "pythoncharmers/python-future",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "meshes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "particles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "target": "point-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:38.815912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An addon for Blender enabling just-in-time loading and animation of mesh and particle/ point-cloud sequences.",
+    "fork": false,
+    "full_name": "InteractiveComputerGraphics/blender-sequence-loader",
+    "html_url": "https://github.com/InteractiveComputerGraphics/blender-sequence-loader",
+    "language": "Python",
+    "pushed_at": "2026-01-07T14:30:58Z",
+    "stargazers_count": 92,
+    "topics": [
+      "animation",
+      "blender",
+      "meshes",
+      "particles",
+      "point-cloud"
+    ],
+    "updated_at": "2026-04-21T12:00:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinfx/fileseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nschloe/meshio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pythoncharmers/python-future",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](images/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "![](images/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender"
+    },
+    {
+      "context_snippet": "![](images/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meshes"
+    },
+    {
+      "context_snippet": "![](images/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "particles"
+    },
+    {
+      "context_snippet": "![](images/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    }
+  ]
+}

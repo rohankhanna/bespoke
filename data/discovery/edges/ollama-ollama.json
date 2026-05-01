@@ -18,14 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "chyok/ollama-gui",
+      "target": "augustdev/enchanted",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "augustdev/enchanted",
+      "target": "cloudstudio/ollama-laravel",
       "target_type": "repository"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "ollama/ollama"
 }

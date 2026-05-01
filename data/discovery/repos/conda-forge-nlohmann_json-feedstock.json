@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/nlohmann_json-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:39:31.940999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10616
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for nlohmann_json.",
+    "fork": false,
+    "full_name": "conda-forge/nlohmann_json-feedstock",
+    "html_url": "https://github.com/conda-forge/nlohmann_json-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T11:31:59Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-22T11:32:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

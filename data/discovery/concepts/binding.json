@@ -55,6 +55,30 @@
       "source_repo": "PyO3/pyo3",
       "status": "candidate-context",
       "text": "[![actions status](https://img.shields.io/github/actions/workflow/status/PyO3/pyo3/ci.yml?branch=main&logo=github&style=)](https://github.com/PyO3/pyo3/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nimterop/nimterop",
+      "status": "candidate-context",
+      "text": "Nimterop is a Nim package that aims to make C/C++ interop seamless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nimterop/nimterop",
+      "status": "candidate-context",
+      "text": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate-context",
+      "text": "SDL2 binding for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate-context",
+      "text": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "PyO3/pyo3",
       "status": "candidate",
       "text": "[![actions status](https://img.shields.io/github/actions/workflow/status/PyO3/pyo3/ci.yml?branch=main&logo=github&style=)](https://github.com/PyO3/pyo3/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nimterop/nimterop",
+      "status": "candidate",
+      "text": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate",
+      "text": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "PyO3/pyo3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nimterop/nimterop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "veandco/go-sdl2"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

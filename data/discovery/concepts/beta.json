@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "beta"
+    "beta",
+    "Beta"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -33,6 +34,18 @@
       "source_repo": "apple/swift-nio-http2",
       "status": "candidate-context",
       "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate-context",
+      "text": "Unified high-performance Python client for object and file stores."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate-context",
+      "text": "Beta"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +60,12 @@
       "source_repo": "apple/swift-nio-http2",
       "status": "candidate",
       "text": "This project contains HTTP/2 support for Swift projects using [SwiftNIO](https://github.com/apple/swift-nio). To get started, check the [API docs](https://swiftpackageindex.com/apple/swift-nio-http2/main/documentation/niohttp2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate",
+      "text": "Beta"
     }
   ],
   "candidate_related_terms": [
@@ -116,11 +135,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "apple/swift-nio-http2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

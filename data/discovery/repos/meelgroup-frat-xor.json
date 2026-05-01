@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meelgroup/frat-xor",
+      "target": "digama0/frat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:45.797240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1943
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FRAT proof processor with XOR extension",
+    "fork": false,
+    "full_name": "meelgroup/frat-xor",
+    "html_url": "https://github.com/meelgroup/frat-xor",
+    "language": "Assembly",
+    "pushed_at": "2025-08-13T18:51:12Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-08-13T18:51:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digama0/frat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

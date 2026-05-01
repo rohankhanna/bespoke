@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AlexBeauchemin/gobadge",
+      "target": "project/repo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "AlexBeauchemin/gobadge",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "AlexBeauchemin/gobadge",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:55:40.961359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2318
+    },
+    {
+      "path": "go.mod",
+      "size": 241
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Insert coverage badge in your readme with go",
+    "fork": false,
+    "full_name": "AlexBeauchemin/gobadge",
+    "html_url": "https://github.com/AlexBeauchemin/gobadge",
+    "language": "Go",
+    "pushed_at": "2025-01-01T22:24:15Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-07-22T10:00:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project/repo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

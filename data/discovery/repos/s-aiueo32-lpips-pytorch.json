@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "target": "lpips",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "target": "perceptual-metric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "target": "perceptual-similarity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:49.254123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple and useful implementation of LPIPS.",
+    "fork": false,
+    "full_name": "S-aiueo32/lpips-pytorch",
+    "html_url": "https://github.com/S-aiueo32/lpips-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-09-29T16:38:00Z",
+    "stargazers_count": 166,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "lpips",
+      "perceptual-metric",
+      "perceptual-similarity"
+    ],
+    "updated_at": "2026-03-26T12:01:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lpips"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceptual-metric"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceptual-similarity"
+    }
+  ]
+}

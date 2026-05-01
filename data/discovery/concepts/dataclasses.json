@@ -55,6 +55,18 @@
       "source_repo": "lebrice/SimpleParsing",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/lebrice/SimpleParsing/actions/workflows/build.yml/badge.svg) [![PyPI version](https://badge.fury.io/py/simple-parsing.svg)](https://badge.fury.io/py/simple-parsing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jax_dataclasses",
+      "status": "candidate-context",
+      "text": "Pytrees + dataclasses \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jax_dataclasses",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/brentyi/jax_dataclasses/workflows/build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lebrice/SimpleParsing",
       "status": "candidate",
       "text": "![Build Status](https://github.com/lebrice/SimpleParsing/actions/workflows/build.yml/badge.svg) [![PyPI version](https://badge.fury.io/py/simple-parsing.svg)](https://badge.fury.io/py/simple-parsing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jax_dataclasses",
+      "status": "candidate",
+      "text": "![build](https://github.com/brentyi/jax_dataclasses/workflows/build/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "lebrice/SimpleParsing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "brentyi/jax_dataclasses"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

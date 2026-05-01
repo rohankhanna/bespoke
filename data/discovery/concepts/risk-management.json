@@ -19,6 +19,18 @@
       "source_repo": "attack68/rateslib",
       "status": "candidate-context",
       "text": "<div style=\"text-align: center; padding: 2em 0 2em\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "8 Lessons, Kick-start Your Cybersecurity Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/github/license/microsoft/Security-101)](https://github.com/microsoft/Security-101/blob/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "attack68/rateslib",
       "status": "candidate",
       "text": "<div style=\"text-align: center; padding: 2em 0 2em\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/microsoft/Security-101)](https://github.com/microsoft/Security-101/blob/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Security-101"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

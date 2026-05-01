@@ -123,6 +123,30 @@
       "source_repo": "takuseno/d3rlpy",
       "status": "candidate-context",
       "text": "format check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate-context",
+      "text": "Ridiculously fast symbolic expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate-context",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d4rl-atari",
+      "status": "candidate-context",
+      "text": "Datasets for data-driven deep reinforcement learning with Atari (wrapper for datasets released by Google)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d4rl-atari",
+      "status": "candidate-context",
+      "text": "format check"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +207,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "takuseno/d3rlpy",
+      "status": "candidate",
+      "text": "format check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d4rl-atari",
       "status": "candidate",
       "text": "format check"
     }
@@ -288,11 +324,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/format_check.yml",
       "source_repo": "takuseno/d3rlpy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "SymbolicML/DynamicExpressions.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "takuseno/d4rl-atari"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

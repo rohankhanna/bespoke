@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_pr.yml",
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "apache/flink-connector-shared-utils/.github/workflows/ci.yml@ci_utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_pr.yml",
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_pr.yml",
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "Flink Connector Pulsar CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "apache/flink-connector-shared-utils/.github/workflows/ci.yml@ci_utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "Weekly Flink Connector Pulsar CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "datastream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "flink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "pulsar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/flink-connector-pulsar",
+      "target": "table",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "apache/flink-connector-pulsar"
+}

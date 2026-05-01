@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "jtpio/jupyterlab-extension-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "my_name/jupyterlab_myextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "datascience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "jupyterlab-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:34.459316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jupyterlab Extensions for the Impatient",
+    "fork": false,
+    "full_name": "MMesch/labextension_tutorial",
+    "html_url": "https://github.com/MMesch/labextension_tutorial",
+    "language": "TypeScript",
+    "pushed_at": "2023-04-25T07:55:57Z",
+    "stargazers_count": 38,
+    "topics": [
+      "datascience",
+      "jupyter",
+      "jupyterlab",
+      "jupyterlab-extensions",
+      "tutorial"
+    ],
+    "updated_at": "2024-04-03T16:52:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtpio/jupyterlab-extension-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my_name/jupyterlab_myextension",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datascience"
+    },
+    {
+      "context_snippet": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab-extensions"
+    },
+    {
+      "context_snippet": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

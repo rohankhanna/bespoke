@@ -13,46 +13,6 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml"
     },
     {
@@ -299,6 +259,36 @@
       "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml"
+    },
+    {
+      "component": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml"
     }
   ],
   "edges": [
@@ -321,34 +311,6 @@
       "source_file": ".github/workflows/Android.yml",
       "source_repo": "duckdb/duckdb",
       "target": "Android",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "actions/setup-python@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "actions/upload-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "Bundle Static Libraries",
       "target_type": "term"
     },
     {
@@ -485,6 +447,41 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Extensions (all platforms)",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "duckdb/duckdb",
@@ -513,7 +510,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:45:30.325277+00:00",
+  "fetched_at": "2026-05-01T14:56:57.480032+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -524,16 +521,12 @@
       "size": 3066
     },
     {
-      "path": ".github/workflows/BundleStaticLibs.yml",
-      "size": 7931
-    },
-    {
       "path": ".github/workflows/CheckIssueForCodeFormatting.yml",
       "size": 766
     },
     {
       "path": ".github/workflows/CrossVersion.yml",
-      "size": 11471
+      "size": 11565
     },
     {
       "path": ".github/workflows/DockerTests.yml",
@@ -553,7 +546,11 @@
     },
     {
       "path": ".github/workflows/ExtendedTests.yml",
-      "size": 14124
+      "size": 13882
+    },
+    {
+      "path": ".github/workflows/Extensions.yml",
+      "size": 13692
     }
   ],
   "related_repositories": [],
@@ -565,8 +562,8 @@
     "full_name": "duckdb/duckdb",
     "html_url": "https://github.com/duckdb/duckdb",
     "language": "C++",
-    "pushed_at": "2026-04-22T20:32:14Z",
-    "stargazers_count": 37650,
+    "pushed_at": "2026-05-01T14:55:41Z",
+    "stargazers_count": 37872,
     "topics": [
       "analytics",
       "database",
@@ -574,7 +571,7 @@
       "olap",
       "sql"
     ],
-    "updated_at": "2026-04-23T04:12:07Z"
+    "updated_at": "2026-05-01T14:55:45Z"
   },
   "repo_links": [],
   "terms": [
@@ -583,12 +580,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/Android.yml",
       "term": "Android"
-    },
-    {
-      "context_snippet": "Bundle Static Libraries",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "term": "Bundle Static Libraries"
     },
     {
       "context_snippet": "Check Issue for Code Formatting",
@@ -631,6 +622,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/ExtendedTests.yml",
       "term": "ExtendedTests"
+    },
+    {
+      "context_snippet": "Extensions (all platforms)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Extensions.yml",
+      "term": "Extensions (all platforms)"
     },
     {
       "context_snippet": "<div align=\"center\">",

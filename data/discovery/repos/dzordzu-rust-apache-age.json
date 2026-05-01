@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:55:47.791613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2018
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust connector for the Apache AGE",
+    "fork": false,
+    "full_name": "Dzordzu/rust-apache-age",
+    "html_url": "https://github.com/Dzordzu/rust-apache-age",
+    "language": "Rust",
+    "pushed_at": "2026-01-21T07:12:06Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-03T21:13:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

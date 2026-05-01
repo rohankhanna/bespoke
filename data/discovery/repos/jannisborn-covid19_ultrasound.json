@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "8398a7/action-slack@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_build.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "jannisborn/covid19_pocus_ultrasound",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "ninawie/covid-blues",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "8398a7/action-slack@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "covid19-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "lung-ultrasound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "pocus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "target": "ultrasound",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:36.028805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6501
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 814
+    },
+    {
+      "path": ".github/workflows/node_build.yml",
+      "size": 356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open source lung ultrasound (LUS) data collection initiative for COVID-19.",
+    "fork": false,
+    "full_name": "jannisborn/covid19_ultrasound",
+    "html_url": "https://github.com/jannisborn/covid19_ultrasound",
+    "language": "PHP",
+    "pushed_at": "2025-04-18T07:46:14Z",
+    "stargazers_count": 172,
+    "topics": [
+      "computer-vision",
+      "covid-19",
+      "covid19-dataset",
+      "deep-learning",
+      "lung-ultrasound",
+      "machine-learning",
+      "pocus",
+      "ultrasound"
+    ],
+    "updated_at": "2026-04-11T09:13:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jannisborn/covid19_pocus_ultrasound",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninawie/covid-blues",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node_build.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-19"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid19-dataset"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lung-ultrasound"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pocus"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultrasound"
+    }
+  ]
+}

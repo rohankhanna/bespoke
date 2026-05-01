@@ -19,6 +19,18 @@
       "source_repo": "hyparam/hightable",
       "status": "candidate-context",
       "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/virtual",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Headless UI for Virtualizing Large Element Lists in JS/TS, React, Solid, Vue and Svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/virtual",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hyparam/hightable",
       "status": "candidate",
       "text": "![HighTable](hightable.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/virtual",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hyparam/hightable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/virtual"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

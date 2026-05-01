@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:48:15.619794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3535
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An NES emulator written in Rust",
+    "fork": false,
+    "full_name": "koute/pinky",
+    "html_url": "https://github.com/koute/pinky",
+    "language": "Rust",
+    "pushed_at": "2023-11-27T14:30:36Z",
+    "stargazers_count": 800,
+    "topics": [],
+    "updated_at": "2026-02-25T07:30:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

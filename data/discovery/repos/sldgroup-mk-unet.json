@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:05:16.978188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3292
+    },
+    {
+      "path": "requirements.txt",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository of ICCV 2025 CVAMD Oral paper: MK-UNet: Multi-kernel Lightweight CNN for Medical Image Segmentation",
+    "fork": false,
+    "full_name": "SLDGroup/MK-UNet",
+    "html_url": "https://github.com/SLDGroup/MK-UNet",
+    "language": "Python",
+    "pushed_at": "2026-01-12T20:08:54Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-04-16T13:59:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

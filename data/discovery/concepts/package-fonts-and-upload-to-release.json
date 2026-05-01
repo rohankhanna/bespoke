@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package fonts and upload to release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "Package fonts and upload to release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate",
+      "text": "Package fonts and upload to release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36699,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36529,
+      "status": "candidate",
+      "text": "dispatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36529,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32581,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32555,
+      "status": "candidate",
+      "text": "pull"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package fonts and upload to release",
+  "concept_id": "package-fonts-and-upload-to-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenKai"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package fonts and upload to release",
+      "sense_id": "package-fonts-and-upload-to-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

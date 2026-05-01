@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "idea-research/motion-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "ericguo5513/text-to-motion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "chenfengye/motion-latent-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "mael-zys/t2m-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "fftai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "humanoid-robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "text-to-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "unitree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "target": "whole-body-control",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:02.396163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20049
+    },
+    {
+      "path": "requirements.txt",
+      "size": 194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ArXiv 26] FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions",
+    "fork": false,
+    "full_name": "OpenMOSS/FRoM-W1",
+    "html_url": "https://github.com/OpenMOSS/FRoM-W1",
+    "language": "Python",
+    "pushed_at": "2026-02-13T16:01:43Z",
+    "stargazers_count": 155,
+    "topics": [
+      "fftai",
+      "foundation-models",
+      "g1",
+      "h1",
+      "humanoid-robots",
+      "motion-generation",
+      "text-to-motion",
+      "unitree",
+      "whole-body-control"
+    ],
+    "updated_at": "2026-05-01T14:19:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenfengye/motion-latent-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericguo5513/text-to-motion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/motion-x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mael-zys/t2m-gpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fftai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoid-robots"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-motion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unitree"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whole-body-control"
+    }
+  ]
+}

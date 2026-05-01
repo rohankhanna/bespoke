@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "yuanyuanli85/fast_human_pose_estimation_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "coco-keypoints-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "fast-pose-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:10.248133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9274
+    },
+    {
+      "path": "requirements.txt",
+      "size": 179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419",
+    "fork": false,
+    "full_name": "ilovepose/fast-human-pose-estimation.pytorch",
+    "html_url": "https://github.com/ilovepose/fast-human-pose-estimation.pytorch",
+    "language": "Cuda",
+    "pushed_at": "2022-09-16T07:27:38Z",
+    "stargazers_count": 398,
+    "topics": [
+      "coco-keypoints-detection",
+      "deep-learning",
+      "fast-pose-distillation",
+      "human-pose-estimation",
+      "knowledge-distillation",
+      "mpii-dataset",
+      "mscoco-keypoint"
+    ],
+    "updated_at": "2026-01-28T09:04:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanyuanli85/fast_human_pose_estimation_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco-keypoints-detection"
+    },
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-pose-distillation"
+    },
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpii-dataset"
+    },
+    {
+      "context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco-keypoint"
+    }
+  ]
+}

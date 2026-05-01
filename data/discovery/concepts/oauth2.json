@@ -151,6 +151,54 @@
       "source_repo": "better-auth/better-auth",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "A Clojure library helping the integration of Keycloak with a Clojure Application + a sample SPA Client and API Server demonstrating the Keycloak integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "CloudFoundry User Account and Authentication (UAA) Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustmailer/bichon",
+      "status": "candidate-context",
+      "text": "Bichon \u2013 A lightweight, high-performance Rust email archiver with WebUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/bichon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +271,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "better-auth/better-auth",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/bichon",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -328,11 +400,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/uaa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "authelia/authelia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rustmailer/bichon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

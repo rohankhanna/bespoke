@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "speechbrain/benchmarks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "speechbrain/benchmarks",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "speechbrain/benchmarks",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "speechbrain/benchmarks",
+      "target": "SpeechBrain pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:13:36.479917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4676
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 239
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains the SpeechBrain Benchmarks ",
+    "fork": false,
+    "full_name": "speechbrain/benchmarks",
+    "html_url": "https://github.com/speechbrain/benchmarks",
+    "language": "Python",
+    "pushed_at": "2026-02-03T15:10:46Z",
+    "stargazers_count": 140,
+    "topics": [],
+    "updated_at": "2026-04-08T14:23:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "SpeechBrain pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "SpeechBrain pre-commit"
+    }
+  ]
+}

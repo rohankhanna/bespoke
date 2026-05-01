@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CIRCL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CIRCL"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969994,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986714,
+      "status": "candidate",
+      "text": "circular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985139,
+      "status": "candidate",
+      "text": "surrounding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981946,
+      "status": "candidate",
+      "text": "encircling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974105,
+      "status": "candidate",
+      "text": "hovering"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CIRCL",
+      "sense_id": "circl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "circl",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "circl",
+  "observation_id": "a5a0c7df8cffda80",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "CIRCL",
+  "source_context_snippet": "CIRCL",
+  "source_file": ".github/workflows/ci-actions.yml",
+  "source_repo": "cloudflare/circl",
+  "source_repo_description": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+}

@@ -2686,6 +2686,114 @@
       "source_repo": "niuiic/multiple-session.nvim",
       "status": "candidate-context",
       "text": "Provides multi-session management capabilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xuyuanp/yanil",
+      "status": "candidate-context",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xuyuanp/yanil",
+      "status": "candidate-context",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc-git",
+      "status": "candidate-context",
+      "text": "Git integration of coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-git",
+      "status": "candidate-context",
+      "text": "coc-git \u2014 Git extension for coc.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "status": "candidate-context",
+      "text": "A telescope.nvim extension that offers intelligent prioritization when selecting files from your editing history."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "status": "candidate-context",
+      "text": "A [telescope.nvim][] extension that offers intelligent prioritization when"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate-context",
+      "text": "Simple winbar/statusline plugin that shows your current code context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate-context",
+      "text": "A simple statusline/winbar component that uses LSP to show your current code context."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/oil.nvim",
+      "status": "candidate-context",
+      "text": "Neovim file explorer: edit your filesystem like a buffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/oil.nvim",
+      "status": "candidate-context",
+      "text": "A [vim-vinegar](https://github.com/tpope/vim-vinegar) like file explorer that lets you edit your filesystem like a normal Neovim buffer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-lazy.nvim",
+      "status": "candidate-context",
+      "text": ":sloth: A lazy-loading module for rocks.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-lazy.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate-context",
+      "text": "A \"just works\" tree-sitter setup for rocks.nvim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate-context",
+      "text": "Run your tests at the speed of thought"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate-context",
+      "text": "![CI workflow](https://github.com/vim-test/vim-test/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "Mirror of https://codeberg.org/mfussenegger/nvim-dap-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
     }
   ],
   "candidate_glosses": [
@@ -4050,6 +4158,60 @@
       "source_repo": "niuiic/multiple-session.nvim",
       "status": "candidate",
       "text": "Provides multi-session management capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xuyuanp/yanil",
+      "status": "candidate",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-git",
+      "status": "candidate",
+      "text": "coc-git \u2014 Git extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "status": "candidate",
+      "text": "A [telescope.nvim][] extension that offers intelligent prioritization when"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate",
+      "text": "A simple statusline/winbar component that uses LSP to show your current code context."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/oil.nvim",
+      "status": "candidate",
+      "text": "A [vim-vinegar](https://github.com/tpope/vim-vinegar) like file explorer that lets you edit your filesystem like a normal Neovim buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-lazy.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate",
+      "text": "![CI workflow](https://github.com/vim-test/vim-test/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
     }
   ],
   "candidate_related_terms": [],
@@ -6247,11 +6409,239 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "niuiic/multiple-session.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Xuyuanp/yanil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.diff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-frecency.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/oil.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-lazy.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvim-neotest/neotest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vim-test/vim-test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-dap-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

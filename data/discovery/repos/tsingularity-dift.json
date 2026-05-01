@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tsingularity/dift",
+      "target": "davisvideochallenge/davis-2017",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tsingularity/dift",
+      "target": "correspondences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tsingularity/dift",
+      "target": "diffusion-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:51.715564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'23] Emergent Correspondence from Image Diffusion",
+    "fork": false,
+    "full_name": "Tsingularity/dift",
+    "html_url": "https://github.com/Tsingularity/dift",
+    "language": "Python",
+    "pushed_at": "2024-05-14T18:56:31Z",
+    "stargazers_count": 759,
+    "topics": [
+      "correspondences",
+      "diffusion-models"
+    ],
+    "updated_at": "2026-04-17T13:19:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisvideochallenge/davis-2017",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "correspondences"
+    },
+    {
+      "context_snippet": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    }
+  ]
+}

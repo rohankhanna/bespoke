@@ -43,6 +43,18 @@
       "source_repo": "RDFLib/rdflib",
       "status": "candidate-context",
       "text": "![](docs/_static/RDFlib.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "status": "candidate-context",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "status": "candidate-context",
+      "text": "Metadata for Ontology Description and Publication Ontology"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "RDFLib/rdflib",
       "status": "candidate",
       "text": "![](docs/_static/RDFlib.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "status": "candidate",
+      "text": "Metadata for Ontology Description and Publication Ontology"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "RDFLib/rdflib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

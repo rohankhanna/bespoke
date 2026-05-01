@@ -84,7 +84,7 @@
   "normalized_form": "claude-model-check",
   "observation_id": "923704044a8d18e3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Claude Model Check",
   "source_context_snippet": "Claude Model Check",
   "source_file": ".github/workflows/claude-model-check.yml",

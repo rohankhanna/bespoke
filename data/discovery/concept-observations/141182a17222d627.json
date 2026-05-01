@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":black_heart: Create and share beautiful images of your source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009175,
+      "status": "candidate",
+      "text": "gorgeous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009147,
+      "status": "candidate",
+      "text": "sightly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009142,
+      "status": "candidate",
+      "text": "comely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009140,
+      "status": "candidate",
+      "text": "fair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009123,
+      "status": "candidate",
+      "text": "beauteous"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beautiful",
+      "sense_id": "beautiful#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 75019,
+      "status": "candidate",
+      "text": "pulchritudinous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 62038,
+      "status": "candidate",
+      "text": "exquisite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48034,
+      "status": "candidate",
+      "text": "comely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46035,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45033,
+      "status": "candidate",
+      "text": "resplendent"
+    }
+  ],
+  "concept_id": "beautiful",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beautiful",
+  "observation_id": "141182a17222d627",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "beautiful",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "carbon-app/carbon",
+  "source_repo_description": ":black_heart: Create and share beautiful images of your source code"
+}

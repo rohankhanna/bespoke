@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "CI-external-deps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "CI-external-deps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate",
+      "text": "CI-external-deps"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CI-external-deps",
+  "concept_id": "ci-external-deps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/compile_and_run_test_external_deps.yml",
+      "source_repo": "openMVG/openMVG"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI-external-deps",
+      "sense_id": "ci-external-deps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

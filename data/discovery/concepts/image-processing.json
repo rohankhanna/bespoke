@@ -571,6 +571,30 @@
       "source_repo": "letmaik/rawpy-notebooks",
       "status": "candidate-context",
       "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate-context",
+      "text": "Source code for \"From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "status": "candidate-context",
+      "text": "Formula recognition based on LaTeX-OCR and ONNXRuntime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +879,18 @@
       "source_repo": "letmaik/rawpy-notebooks",
       "status": "candidate",
       "text": "A collection of Jupyter/IPython notebooks using [rawpy](https://github.com/letmaik/rawpy)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1246,11 +1282,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test RapidWright Wrapper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate-context",
+      "text": "Build Customized FPGA Implementations for Vivado"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate-context",
+      "text": "Test RapidWright Wrapper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate",
+      "text": "Test RapidWright Wrapper"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11563,
+      "status": "candidate",
+      "text": "enclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11563,
+      "status": "candidate",
+      "text": "envelope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11563,
+      "status": "candidate",
+      "text": "tare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "covering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11384,
+      "status": "candidate",
+      "text": "maharmah"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test RapidWright Wrapper",
+  "concept_id": "test-rapidwright-wrapper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml",
+      "source_repo": "Xilinx/RapidWright"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test RapidWright Wrapper",
+      "sense_id": "test-rapidwright-wrapper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

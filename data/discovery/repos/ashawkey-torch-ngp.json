@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp",
+      "target": "d-nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp",
+      "target": "instant-ngp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp",
+      "target": "tensorf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:25.521721+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A pytorch CUDA extension implementation of instant-ngp (sdf and nerf), with a GUI.",
+    "fork": false,
+    "full_name": "ashawkey/torch-ngp",
+    "html_url": "https://github.com/ashawkey/torch-ngp",
+    "language": "Python",
+    "pushed_at": "2023-11-10T03:06:57Z",
+    "stargazers_count": 2215,
+    "topics": [
+      "d-nerf",
+      "gui",
+      "instant-ngp",
+      "nerf",
+      "pytorch",
+      "real-time",
+      "sdf",
+      "tensorf"
+    ],
+    "updated_at": "2026-04-26T02:25:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d-nerf"
+    },
+    {
+      "context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instant-ngp"
+    },
+    {
+      "context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorf"
+    }
+  ]
+}

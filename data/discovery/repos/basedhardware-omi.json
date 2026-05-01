@@ -1,0 +1,731 @@
+{
+  "components": [
+    {
+      "component": "expo-file-system",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ioredis",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "google-github-actions/deploy-cloudrun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "google-github-actions/deploy-cloudrun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml"
+    },
+    {
+      "component": "google-github-actions/deploy-cloudrun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml"
+    },
+    {
+      "component": "Entelligence-AI/entelligence-pr-reviewer@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entelligence-pr-reviewer.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml"
+    },
+    {
+      "component": "google-github-actions/deploy-cloudrun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_app.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_app.yml"
+    },
+    {
+      "component": "google-github-actions/deploy-cloudrun@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_app.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_apps_js.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_apps_js.yml"
+    },
+    {
+      "component": "google-github-actions/deploy-cloudrun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_apps_js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BasedHardware/omi",
+      "target": "expo-file-system",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "BasedHardware/omi",
+      "target": "ioredis",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BasedHardware/omi",
+      "target": "dotenv-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/deploy-cloudrun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Auto Release Desktop on Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/deploy-cloudrun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Auto Deploy Desktop Backend to Development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/entellegence_issues.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Entelligence-AI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/entelligence-pr-reviewer.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Entelligence-AI/entelligence-pr-reviewer@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/entelligence-pr-reviewer.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/deploy-cloudrun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Deploy Admin Dashboard to Cloud Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_app.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_app.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_app.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/deploy-cloudrun@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp_app.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Deploy App to Cloud Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_apps_js.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_apps_js.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp_apps_js.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "google-github-actions/deploy-cloudrun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp_apps_js.yml",
+      "source_repo": "BasedHardware/omi",
+      "target": "Deploy Apps-Js to Cloud RUN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "friend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "necklace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "personas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "smartglasses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi",
+      "target": "wearable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:10:09.840107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7096
+    },
+    {
+      "path": "package.json",
+      "size": 143
+    },
+    {
+      "path": ".github/workflows/deploy_docs.yml",
+      "size": 1841
+    },
+    {
+      "path": ".github/workflows/desktop_auto_release.yml",
+      "size": 11540
+    },
+    {
+      "path": ".github/workflows/desktop_backend_auto_dev.yml",
+      "size": 2792
+    },
+    {
+      "path": ".github/workflows/entellegence_issues.yml",
+      "size": 2443
+    },
+    {
+      "path": ".github/workflows/entelligence-pr-reviewer.yml",
+      "size": 819
+    },
+    {
+      "path": ".github/workflows/gcp_admin.yml",
+      "size": 5780
+    },
+    {
+      "path": ".github/workflows/gcp_app.yml",
+      "size": 2322
+    },
+    {
+      "path": ".github/workflows/gcp_apps_js.yml",
+      "size": 2878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+    "fork": false,
+    "full_name": "BasedHardware/omi",
+    "html_url": "https://github.com/BasedHardware/omi",
+    "language": "Dart",
+    "pushed_at": "2026-05-01T13:12:57Z",
+    "stargazers_count": 12353,
+    "topics": [
+      "ai",
+      "app",
+      "bci",
+      "c",
+      "flutter",
+      "friend",
+      "mobile",
+      "necklace",
+      "nextjs",
+      "omi",
+      "personas",
+      "python",
+      "smartglasses",
+      "summary",
+      "transcription",
+      "wearable"
+    ],
+    "updated_at": "2026-05-01T14:07:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "term": "Deploy static content to Pages"
+    },
+    {
+      "context_snippet": "Auto Release Desktop on Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "term": "Auto Release Desktop on Main"
+    },
+    {
+      "context_snippet": "Auto Deploy Desktop Backend to Development",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "term": "Auto Deploy Desktop Backend to Development"
+    },
+    {
+      "context_snippet": "Entelligence-AI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/entellegence_issues.yml",
+      "term": "Entelligence-AI"
+    },
+    {
+      "context_snippet": "Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/entelligence-pr-reviewer.yml",
+      "term": "Code Review"
+    },
+    {
+      "context_snippet": "Deploy Admin Dashboard to Cloud Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "term": "Deploy Admin Dashboard to Cloud Run"
+    },
+    {
+      "context_snippet": "Deploy App to Cloud Run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp_app.yml",
+      "term": "Deploy App to Cloud Run"
+    },
+    {
+      "context_snippet": "Deploy Apps-Js to Cloud RUN",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp_apps_js.yml",
+      "term": "Deploy Apps-Js to Cloud RUN"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "friend"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "necklace"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personas"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smartglasses"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "summary"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcription"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wearable"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "thomasloven/hass-browser_mod",
       "status": "candidate-context",
       "text": "Validate with hassfest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuyKh/ims-custom-component",
+      "status": "candidate-context",
+      "text": "The Israel Meteorological Service (IMS) integration component for home assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuyKh/ims-custom-component",
+      "status": "candidate-context",
+      "text": "Validate with hassfest"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "thomasloven/hass-browser_mod",
+      "status": "candidate",
+      "text": "Validate with hassfest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuyKh/ims-custom-component",
       "status": "candidate",
       "text": "Validate with hassfest"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/hassfest.yaml",
       "source_repo": "thomasloven/hass-browser_mod"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/hassfest.yml",
+      "source_repo": "GuyKh/ims-custom-component"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

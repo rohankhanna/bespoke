@@ -112,6 +112,30 @@
       "source_repo": "lightly-ai/lightly-train",
       "status": "candidate-context",
       "text": "Test Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate-context",
+      "text": "SDL2 binding for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate-context",
+      "text": "test-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate-context",
+      "text": "Rapid fuzzy string matching in Python using various string metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate-context",
+      "text": "Test Build"
     }
   ],
   "candidate_glosses": [
@@ -160,6 +184,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lightly-ai/lightly-train",
+      "status": "candidate",
+      "text": "Test Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate",
+      "text": "test-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidfuzz/RapidFuzz",
       "status": "candidate",
       "text": "Test Build"
     }
@@ -271,11 +307,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/test_build.yml",
       "source_repo": "lightly-ai/lightly-train"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "veandco/go-sdl2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/branchbuild.yml",
+      "source_repo": "rapidfuzz/RapidFuzz"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

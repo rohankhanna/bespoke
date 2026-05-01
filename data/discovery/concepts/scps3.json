@@ -31,6 +31,18 @@
       "source_repo": "adamharrison/straightforward-c-project-standard",
       "status": "candidate-context",
       "text": "This document outlines a project structure for C(++) programs and libraries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "status": "candidate-context",
+      "text": "Lite XL with a simplified build process and file structure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "status": "candidate-context",
+      "text": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "adamharrison/straightforward-c-project-standard",
       "status": "candidate",
       "text": "This document outlines a project structure for C(++) programs and libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "status": "candidate",
+      "text": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "adamharrison/straightforward-c-project-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "adamharrison/lite-xl-simplified"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

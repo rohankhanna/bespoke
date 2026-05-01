@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml"
+    },
+    {
+      "component": "jakejarvis/s3-sync-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml"
+    },
+    {
+      "component": "mheap/automatic-approve-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml"
+    },
+    {
+      "component": "anothrNick/github-tag-action@1.62.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_update.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature_branch_update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "jakejarvis/s3-sync-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "Update API Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "mheap/automatic-approve-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "Automatic Approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "anothrNick/github-tag-action@1.62.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "Essential files modified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_builds.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_builds.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_builds.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "CI Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "CLI CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_update.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_update.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "Update develop after master merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "Generate Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature_branch_update.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feature_branch_update.yml",
+      "source_repo": "jackielii/qmk_firmware",
+      "target": "Update feature branches after develop merge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:51:37.244530+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 100
+    },
+    {
+      "path": "requirements.txt",
+      "size": 129
+    },
+    {
+      "path": ".github/workflows/api.yml",
+      "size": 1242
+    },
+    {
+      "path": ".github/workflows/auto_approve.yml",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/auto_tag.yml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/ci_builds.yml",
+      "size": 2308
+    },
+    {
+      "path": ".github/workflows/cli.yml",
+      "size": 589
+    },
+    {
+      "path": ".github/workflows/develop_update.yml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 962
+    },
+    {
+      "path": ".github/workflows/feature_branch_update.yml",
+      "size": 889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+    "fork": true,
+    "full_name": "jackielii/qmk_firmware",
+    "html_url": "https://github.com/jackielii/qmk_firmware",
+    "language": null,
+    "pushed_at": "2026-01-20T17:01:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-04-15T21:28:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update API Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yml",
+      "term": "Update API Data"
+    },
+    {
+      "context_snippet": "Automatic Approve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "term": "Automatic Approve"
+    },
+    {
+      "context_snippet": "Essential files modified",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "term": "Essential files modified"
+    },
+    {
+      "context_snippet": "CI Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_builds.yml",
+      "term": "CI Builds"
+    },
+    {
+      "context_snippet": "CLI CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "term": "CLI CI"
+    },
+    {
+      "context_snippet": "Update develop after master merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_update.yml",
+      "term": "Update develop after master merge"
+    },
+    {
+      "context_snippet": "Generate Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate Docs"
+    },
+    {
+      "context_snippet": "Update feature branches after develop merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feature_branch_update.yml",
+      "term": "Update feature branches after develop merge"
+    }
+  ]
+}

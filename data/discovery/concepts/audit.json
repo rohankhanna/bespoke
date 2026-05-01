@@ -466,6 +466,30 @@
       "source_repo": "kdn36/arrow-rs-object-store",
       "status": "candidate-context",
       "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/types",
+      "status": "candidate-context",
+      "text": "Typescript definitions for npm registry content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/types",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hiroshiba/voicevox_core",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u30b3\u30a2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hiroshiba/voicevox_core",
+      "status": "candidate-context",
+      "text": "audit"
     }
   ],
   "candidate_glosses": [
@@ -694,6 +718,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kdn36/arrow-rs-object-store",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/types",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hiroshiba/voicevox_core",
       "status": "candidate",
       "text": "audit"
     }
@@ -1109,11 +1145,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "kdn36/arrow-rs-object-store"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "Hiroshiba/voicevox_core"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

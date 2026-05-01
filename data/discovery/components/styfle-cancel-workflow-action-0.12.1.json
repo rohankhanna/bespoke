@@ -1,7 +1,7 @@
 {
   "component": "styfle/cancel-workflow-action@0.12.1",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cancel-previous-workflows.yaml",
       "source_repo": "autowarefoundation/autoware_launch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflows.yml",
+      "source_repo": "prisma/ecosystem-tests"
     }
   ]
 }

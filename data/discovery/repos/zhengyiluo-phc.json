@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC",
+      "target": "avatar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC",
+      "target": "humanoid-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC",
+      "target": "humanoid-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC",
+      "target": "isaac-gym",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC",
+      "target": "physics-simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:09.747818+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Implementation of the ICCV 2023 paper:  Perpetual Humanoid Control for Real-time Simulated Avatars",
+    "fork": false,
+    "full_name": "ZhengyiLuo/PHC",
+    "html_url": "https://github.com/ZhengyiLuo/PHC",
+    "language": "Python",
+    "pushed_at": "2025-08-21T18:34:47Z",
+    "stargazers_count": 1235,
+    "topics": [
+      "avatar",
+      "humanoid-control",
+      "humanoid-robot",
+      "isaac-gym",
+      "physics-simulation"
+    ],
+    "updated_at": "2026-04-30T07:34:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avatar"
+    },
+    {
+      "context_snippet": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoid-control"
+    },
+    {
+      "context_snippet": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoid-robot"
+    },
+    {
+      "context_snippet": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isaac-gym"
+    },
+    {
+      "context_snippet": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-simulation"
+    }
+  ]
+}

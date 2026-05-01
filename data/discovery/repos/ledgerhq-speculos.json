@@ -1,0 +1,459 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "DoozyX/clang-format-lint-action@v0.16.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-rebase.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/_get_app_metadata.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "Continuous Integration & Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "Documentation generation & update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "DoozyX/clang-format-lint-action@v0.16.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "codespell-project/actions-codespell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "Fast checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-rebase.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/force-rebase.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "Force rebased",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/_get_app_metadata.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:53:19.160449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3999
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1685
+    },
+    {
+      "path": ".github/workflows/continuous-integration-workflow.yml",
+      "size": 5738
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/fast-checks.yml",
+      "size": 1940
+    },
+    {
+      "path": ".github/workflows/force-rebase.yml",
+      "size": 999
+    },
+    {
+      "path": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "size": 4432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ledger device apps emulator",
+    "fork": false,
+    "full_name": "LedgerHQ/speculos",
+    "html_url": "https://github.com/LedgerHQ/speculos",
+    "language": "C",
+    "pushed_at": "2026-04-28T11:36:59Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-04-23T12:59:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration & Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "term": "Continuous Integration & Deployment"
+    },
+    {
+      "context_snippet": "Documentation generation & update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation generation & update"
+    },
+    {
+      "context_snippet": "Fast checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "term": "Fast checks"
+    },
+    {
+      "context_snippet": "Force rebased",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/force-rebase.yml",
+      "term": "Force rebased"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "drduh/YubiKey-Guide",
       "status": "candidate-context",
       "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "drduh/YubiKey-Guide",
       "status": "candidate",
       "text": "This is a guide to using [YubiKey](https://www.yubico.com/products/identifying-your-yubikey/) as a [smart card](https://security.stackexchange.com/questions/38924/how-does-storing-gpg-ssh-private-keys-on-smart-cards-compare-to-plain-usb-drives) for secure encryption, signature a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "drduh/YubiKey-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "authelia/authelia"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

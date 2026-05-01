@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -123,7 +123,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -165,7 +165,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -180,6 +180,20 @@
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
       "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "taiki-e/install-action@v2",
       "target_type": "component"
     },
     {
@@ -228,7 +242,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
-      "target": "pnpm/action-setup@v4",
+      "target": "pnpm/action-setup@v6",
       "target_type": "component"
     },
     {
@@ -243,6 +257,20 @@
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tailwindlabs/tailwindcss",
       "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss",
+      "target": "taiki-e/install-action@v2",
       "target_type": "component"
     },
     {
@@ -323,6 +351,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "tailwindlabs/tailwindcss"
 }

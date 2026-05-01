@@ -295,6 +295,18 @@
       "source_repo": "ParthaEth/GIF",
       "status": "candidate-context",
       "text": "This is the official implementation for the paper [GIF: Generative Interpretable Faces](https://arxiv.org/abs/2009.00149)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "ParthaEth/GIF",
       "status": "candidate",
       "text": "This is the official implementation for the paper [GIF: Generative Interpretable Faces](https://arxiv.org/abs/2009.00149)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
     }
   ],
   "candidate_related_terms": [],
@@ -676,11 +694,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ParthaEth/GIF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "danielroich/PTI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

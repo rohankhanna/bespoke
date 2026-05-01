@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:13:24.435488+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13705
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jerryuhoo/VTuberTalk",
+    "html_url": "https://github.com/jerryuhoo/VTuberTalk",
+    "language": "Python",
+    "pushed_at": "2022-09-30T19:49:34Z",
+    "stargazers_count": 382,
+    "topics": [],
+    "updated_at": "2026-04-28T15:34:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Project-MONAI/VLM-Radiology-Agent-Framework",
-      "target": "mlmed/torchxrayvision",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-05-01T09:27:02.183045+00:00",
+  "edges": [],
+  "fetched_at": "2026-05-01T14:03:05.100286+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -30,12 +22,6 @@
     "topics": [],
     "updated_at": "2026-04-29T12:27:01Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mlmed/torchxrayvision",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

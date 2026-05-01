@@ -1,0 +1,12 @@
+{
+  "component": "wp-cli/.github/.github/workflows/reusable-check-branch-alias.yml@main",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-branch-alias.yml",
+      "source_repo": "wp-cli/dist-archive-command"
+    }
+  ]
+}

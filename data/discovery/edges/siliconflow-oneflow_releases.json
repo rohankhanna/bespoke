@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "Publish Community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enterprise.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "Publish Enterprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "ncipollo/release-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "Publish pip packages to GH releases",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "siliconflow/oneflow_releases"
+}

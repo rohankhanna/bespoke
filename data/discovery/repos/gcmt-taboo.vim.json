@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gcmt/taboo.vim",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gcmt/taboo.vim",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:54:56.344371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Few utilities for pretty tabs",
+    "fork": false,
+    "full_name": "gcmt/taboo.vim",
+    "html_url": "https://github.com/gcmt/taboo.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-10-17T17:00:42Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2025-12-11T16:09:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

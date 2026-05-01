@@ -57,6 +57,18 @@
       "source_repo": "intelligent-machine-learning/dlrover",
       "status": "candidate-context",
       "text": "code-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elazarl/goproxy",
+      "status": "candidate-context",
+      "text": "An HTTP proxy library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elazarl/goproxy",
+      "status": "candidate-context",
+      "text": "Code Check"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "intelligent-machine-learning/dlrover",
       "status": "candidate",
       "text": "code-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elazarl/goproxy",
+      "status": "candidate",
+      "text": "Code Check"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +186,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "elazarl/goproxy"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

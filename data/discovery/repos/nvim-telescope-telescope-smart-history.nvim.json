@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope-smart-history.nvim",
+      "target": "tami5/sqlite.lua",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:01:41.613761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A history implementation that memorizes prompt input for a specific context",
+    "fork": false,
+    "full_name": "nvim-telescope/telescope-smart-history.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope-smart-history.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-12-15T19:25:54Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2026-01-27T05:21:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tami5/sqlite.lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

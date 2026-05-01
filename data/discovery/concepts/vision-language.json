@@ -223,6 +223,18 @@
       "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
       "status": "candidate-context",
       "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "status": "candidate-context",
+      "text": "Project COLON-X (Shaping the neXt frontier in intelligent COLONoscopy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "AlibabaResearch/AdvancedLiterateMachinery",
       "status": "candidate",
       "text": "The ultimate goal of our research is to build a system that has high-level intelligence, i.e., possessing the abilities to ***read, think and create***, so advanced that it could even surpass human intelligence one day in the future. We name this kind of systems **Advanced Liter\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +574,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "2U1/Phi3-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Phi3-Vision-Finetune"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

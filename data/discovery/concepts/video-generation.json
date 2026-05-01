@@ -511,6 +511,54 @@
       "source_repo": "THUDM/CogKit",
       "status": "candidate-context",
       "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TMElyralab/MuseV",
+      "status": "candidate-context",
+      "text": "MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TMElyralab/MuseV",
+      "status": "candidate-context",
+      "text": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Eyeline-Labs/CineScale",
+      "status": "candidate-context",
+      "text": "Code for CineScale, higher-resolution video generation based on Wan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eyeline-Labs/CineScale",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "status": "candidate-context",
+      "text": "HunyuanCustom: A Multimodal-Driven Architecture for Customized Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "status": "candidate-context",
+      "text": "<!-- ## **HunyuanCustom** -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight] VBench - We Evaluate Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -765,6 +813,30 @@
       "source_repo": "THUDM/CogKit",
       "status": "candidate",
       "text": "CogKit is an open-source project that provides a user-friendly interface for researchers and developers to utilize models from ZhipuAI, currently supports [CogView](https://huggingface.co/collections/THUDM/cogview-67ac3f241eefad2af015669b) (image generation) and [CogVideoX](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TMElyralab/MuseV",
+      "status": "candidate",
+      "text": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eyeline-Labs/CineScale",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "status": "candidate",
+      "text": "<!-- ## **HunyuanCustom** -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1150,71 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "THUDM/CogKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/VBench"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

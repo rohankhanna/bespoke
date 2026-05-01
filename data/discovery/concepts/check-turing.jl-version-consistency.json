@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Turing.jl version consistency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate-context",
+      "text": "Documentation and tutorials for the Turing language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate-context",
+      "text": "Check Turing.jl version consistency"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate",
+      "text": "Check Turing.jl version consistency"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26146,
+      "status": "candidate",
+      "text": "quark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18105,
+      "status": "candidate",
+      "text": "temper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18079,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18079,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18079,
+      "status": "candidate",
+      "text": "hang"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Turing.jl version consistency",
+  "concept_id": "check-turing.jl-version-consistency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/version_check.yml",
+      "source_repo": "TuringLang/docs"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Turing.jl version consistency",
+      "sense_id": "check-turing.jl-version-consistency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

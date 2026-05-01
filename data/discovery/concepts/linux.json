@@ -2128,6 +2128,78 @@
       "source_repo": "knightcrawler25/GLSL-PathTracer",
       "status": "candidate-context",
       "text": "GLSL-PathTracer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate-context",
+      "text": "htop - an interactive process viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/htop-dev/htop/workflows/CI/badge.svg)](https://github.com/htop-dev/htop/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/proxygen",
+      "status": "candidate-context",
+      "text": "A collection of C++ HTTP libraries including an easy to use HTTP server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/proxygen",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "A large scale non-linear optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtl",
+      "status": "candidate-context",
+      "text": "The x template library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtl",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate-context",
+      "text": "C++ package retrieval"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate-context",
+      "text": "cget"
     }
   ],
   "candidate_glosses": [
@@ -3204,6 +3276,42 @@
       "source_repo": "knightcrawler25/GLSL-PathTracer",
       "status": "candidate",
       "text": "GLSL-PathTracer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/htop-dev/htop/workflows/CI/badge.svg)](https://github.com/htop-dev/htop/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/proxygen",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtl",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate",
+      "text": "cget"
     }
   ],
   "candidate_related_terms": [
@@ -4777,11 +4885,95 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "knightcrawler25/GLSL-PathTracer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "htop-dev/htop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "wasmerio/wasmer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/proxygen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "ceres-solver/ceres-solver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pfultz2/cget"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

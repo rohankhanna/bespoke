@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "stable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "stable"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39801112,
+      "status": "candidate",
+      "text": "stabile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731307,
+      "status": "candidate",
+      "text": "unreactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39720018,
+      "status": "candidate",
+      "text": "balanced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700632,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39689882,
+      "status": "candidate",
+      "text": "sound"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "stable",
+      "sense_id": "stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33053,
+      "status": "candidate",
+      "text": "static"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24068,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24062,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22043,
+      "status": "candidate",
+      "text": "steady"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13035,
+      "status": "candidate",
+      "text": "lasting"
+    }
+  ],
+  "concept_id": "stable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stable",
+  "observation_id": "fc98fe8ed42a1861",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "stable",
+  "source_context_snippet": "stable",
+  "source_file": ".github/workflows/stable.yml",
+  "source_repo": "sophus-vision/sophus-rs",
+  "source_repo_description": "2d and 3d geometry for Computer Vision and Robotics "
+}

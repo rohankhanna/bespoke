@@ -103,6 +103,18 @@
       "source_repo": "Azure/co-op-translator",
       "status": "candidate-context",
       "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mingyuliutw/UNIT",
+      "status": "candidate-context",
+      "text": "Unsupervised Image-to-Image Translation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mingyuliutw/UNIT",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Azure/co-op-translator",
       "status": "candidate",
       "text": "_Easily automate and maintain translations for your educational GitHub content across multiple languages as your project evolves._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mingyuliutw/UNIT",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Azure/co-op-translator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mingyuliutw/UNIT"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

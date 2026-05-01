@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:47:50.031273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official application repository of Olares Market",
+    "fork": false,
+    "full_name": "beclab/apps",
+    "html_url": "https://github.com/beclab/apps",
+    "language": "Python",
+    "pushed_at": "2026-04-30T13:19:24Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-30T13:19:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull plugin stats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Community plugins list, theme list, and releases of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Pull plugin stats"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate",
+      "text": "Pull plugin stats"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22686,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22686,
+      "status": "candidate",
+      "text": "unite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22566,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "driver"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull plugin stats",
+  "concept_id": "pull-plugin-stats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull plugin stats",
+      "sense_id": "pull-plugin-stats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

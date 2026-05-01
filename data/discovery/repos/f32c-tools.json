@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f32c/tools",
+      "target": "ecp5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f32c/tools",
+      "target": "f32c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f32c/tools",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "f32c/tools",
+      "target": "jtag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:40:13.161504+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)",
+    "fork": false,
+    "full_name": "f32c/tools",
+    "html_url": "https://github.com/f32c/tools",
+    "language": "C",
+    "pushed_at": "2026-04-20T11:19:32Z",
+    "stargazers_count": 25,
+    "topics": [
+      "ecp5",
+      "f32c",
+      "fpga",
+      "jtag",
+      "spi",
+      "xp2"
+    ],
+    "updated_at": "2026-04-20T11:19:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecp5"
+    },
+    {
+      "context_snippet": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "f32c"
+    },
+    {
+      "context_snippet": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jtag"
+    }
+  ]
+}

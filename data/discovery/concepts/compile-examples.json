@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Compile examples"
+    "Compile examples",
+    "Compile Examples"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "tzapu/WiFiManager",
       "status": "candidate-context",
       "text": "Compile examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Ethernet Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Compile Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Servo Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Compile Examples"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "tzapu/WiFiManager",
       "status": "candidate",
       "text": "Compile examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate",
+      "text": "Compile Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate",
+      "text": "Compile Examples"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/compile_examples.yaml",
       "source_repo": "tzapu/WiFiManager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Servo"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

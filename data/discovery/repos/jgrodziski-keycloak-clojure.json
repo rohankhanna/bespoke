@@ -1,0 +1,217 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "keycloak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "keycloak-clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "oauth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "oauth2-provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "oidc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "oidc-provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "re-frame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "realm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "target": "yada",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:50:22.913352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1878
+    },
+    {
+      "path": "Dockerfile",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Clojure library helping the integration of Keycloak with a Clojure Application + a sample SPA Client and API Server demonstrating the Keycloak integration",
+    "fork": false,
+    "full_name": "jgrodziski/keycloak-clojure",
+    "html_url": "https://github.com/jgrodziski/keycloak-clojure",
+    "language": "Clojure",
+    "pushed_at": "2025-01-27T10:20:36Z",
+    "stargazers_count": 156,
+    "topics": [
+      "authentication",
+      "authorization",
+      "clojure",
+      "iam",
+      "keycloak",
+      "keycloak-clojure",
+      "oauth2",
+      "oauth2-provider",
+      "oidc",
+      "oidc-provider",
+      "re-frame",
+      "realm",
+      "security",
+      "yada"
+    ],
+    "updated_at": "2026-02-14T12:14:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authentication"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keycloak"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keycloak-clojure"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2-provider"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oidc-provider"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-frame"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realm"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "![Keycloak plus Clojure](keycloak-plus-clojure.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yada"
+    }
+  ]
+}

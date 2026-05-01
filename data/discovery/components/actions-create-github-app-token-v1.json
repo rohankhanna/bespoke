@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@v1",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -187,6 +187,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/k8s_apis_sync.yaml",
       "source_repo": "redis/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-pr.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-branch.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-tag.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cypress-tests-runner.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/export-repo-secrets.yml",
+      "source_repo": "pulumi/examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/export-repo-secrets.yml",
+      "source_repo": "pulumi/templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-commit.yml",
+      "source_repo": "BuilderIO/builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-sdks.yml",
+      "source_repo": "BuilderIO/builder"
     }
   ]
 }

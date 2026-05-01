@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justchenhao/BIT_CD",
+      "target": "geozcx/a-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:00:19.485039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch Implementation of \"Remote Sensing Image Change Detection with Transformers\"",
+    "fork": false,
+    "full_name": "justchenhao/BIT_CD",
+    "html_url": "https://github.com/justchenhao/BIT_CD",
+    "language": "Python",
+    "pushed_at": "2021-07-25T10:09:15Z",
+    "stargazers_count": 494,
+    "topics": [],
+    "updated_at": "2026-04-28T16:10:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geozcx/a-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

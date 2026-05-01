@@ -67,6 +67,18 @@
       "source_repo": "oblador/react-native-vector-icons",
       "status": "candidate-context",
       "text": "![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "The iconic font and CSS toolkit. Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "oblador/react-native-vector-icons",
       "status": "candidate",
       "text": "![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -194,11 +212,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "oblador/react-native-vector-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kenangundogan/fontisto"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

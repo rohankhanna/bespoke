@@ -43,6 +43,18 @@
       "source_repo": "kriszyp/alkali",
       "status": "candidate-context",
       "text": "![Alkali](./assets/alkali-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "MDN's frontend since late 2025, built with Web Components, Lit, and SSR for a fast, clean documentation experience. Fred = /fr(ont)e(n)d/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "MDN's next fr(ont)e(n)d."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kriszyp/alkali",
       "status": "candidate",
       "text": "![Alkali](./assets/alkali-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate",
+      "text": "MDN's next fr(ont)e(n)d."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "kriszyp/alkali"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mdn/fred"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

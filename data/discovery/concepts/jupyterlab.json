@@ -175,6 +175,30 @@
       "source_repo": "jupyterlab/extension-template",
       "status": "candidate-context",
       "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-template/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-template/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate-context",
+      "text": "Jupyterlab Extensions for the Impatient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate-context",
+      "text": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/vscode-config-template",
+      "status": "candidate-context",
+      "text": "A copier template for creating the IDE config needed to debug the Python and Typescript code in any Jupyter project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/vscode-config-template",
+      "status": "candidate-context",
+      "text": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "jupyterlab/extension-template",
       "status": "candidate",
       "text": "[![Github Actions Status](https://github.com/jupyterlab/extension-template/workflows/CI/badge.svg)](https://github.com/jupyterlab/extension-template/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate",
+      "text": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/vscode-config-template",
+      "status": "candidate",
+      "text": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +400,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jupyterlab/extension-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jupyterlab/vscode-config-template"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

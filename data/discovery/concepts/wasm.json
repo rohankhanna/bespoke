@@ -755,6 +755,42 @@
       "source_repo": "zalo/mujoco_wasm",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/egui",
+      "status": "candidate-context",
+      "text": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui",
+      "status": "candidate-context",
+      "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "wasm"
     }
   ],
   "candidate_glosses": [
@@ -1135,6 +1171,24 @@
       "source_repo": "zalo/mujoco_wasm",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui",
+      "status": "candidate",
+      "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-emilk/egui-8da0cb?logo=github\" height=\"20\">](https://github.com/emilk/egui)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "wasm"
     }
   ],
   "candidate_related_terms": [
@@ -1712,11 +1766,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "emilk/egui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "wasmerio/wasmer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "sophus-vision/sophus-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

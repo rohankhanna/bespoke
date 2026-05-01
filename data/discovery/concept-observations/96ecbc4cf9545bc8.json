@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redux DevTools extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devtools",
+      "sense_id": "devtools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "devtools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "devtools",
+  "observation_id": "96ecbc4cf9545bc8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "devtools",
+  "source_context_snippet": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f",
+  "source_file": null,
+  "source_repo": "zalmoxisus/redux-devtools-extension",
+  "source_repo_description": "Redux DevTools extension."
+}

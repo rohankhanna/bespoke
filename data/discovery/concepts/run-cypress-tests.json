@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Cypress tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "Run Cypress tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate",
+      "text": "Run Cypress tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26835,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26835,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26774,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11998,
+      "status": "candidate",
+      "text": "cone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11998,
+      "status": "candidate",
+      "text": "cyprus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Cypress tests",
+  "concept_id": "run-cypress-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cypress-tests-runner.yml",
+      "source_repo": "juspay/hyperswitch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Cypress tests",
+      "sense_id": "run-cypress-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

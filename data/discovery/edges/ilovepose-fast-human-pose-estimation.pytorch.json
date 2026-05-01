@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "yuanyuanli85/fast_human_pose_estimation_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "coco-keypoints-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "fast-pose-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "ilovepose/fast-human-pose-estimation.pytorch"
+}

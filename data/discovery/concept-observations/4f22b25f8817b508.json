@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate a browserslist-stats.json file using data from your Plausible Analytics instance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "browserslist",
+      "sense_id": "browserslist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "browserslist",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browserslist",
+  "observation_id": "4f22b25f8817b508",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "browserslist",
+  "source_context_snippet": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)",
+  "source_file": null,
+  "source_repo": "browserslist/browserslist-plausible",
+  "source_repo_description": "Generate a browserslist-stats.json file using data from your Plausible Analytics instance."
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prisma/barrel",
+      "target": "spacekookie/barrel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "prisma/barrel",
+      "target": "rust-db/barrel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:02.456032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2930
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udee2 A database schema migration builder for Rust",
+    "fork": true,
+    "full_name": "prisma/barrel",
+    "html_url": "https://github.com/prisma/barrel",
+    "language": null,
+    "pushed_at": "2021-06-07T08:47:10Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-08-07T00:57:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacekookie/barrel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-db/barrel",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

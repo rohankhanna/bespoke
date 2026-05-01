@@ -283,6 +283,18 @@
       "source_repo": "ahamez/protox",
       "status": "candidate-context",
       "text": "[![Elixir CI](https://github.com/ahamez/protox/actions/workflows/elixir.yml/badge.svg)](https://github.com/ahamez/protox/actions/workflows/elixir.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "A low-level, lightweight protocol buffers implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "ahamez/protox",
       "status": "candidate",
       "text": "[![Elixir CI](https://github.com/ahamez/protox/actions/workflows/elixir.yml/badge.svg)](https://github.com/ahamez/protox/actions/workflows/elixir.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -646,11 +664,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/pbf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

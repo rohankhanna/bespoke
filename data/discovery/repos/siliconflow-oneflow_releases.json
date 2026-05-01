@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "ncipollo/release-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "Publish Community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enterprise.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "Publish Enterprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "ncipollo/release-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "siliconflow/oneflow_releases",
+      "target": "Publish pip packages to GH releases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:44.042404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/community.yml",
+      "size": 946
+    },
+    {
+      "path": ".github/workflows/enterprise.yml",
+      "size": 945
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "siliconflow/oneflow_releases",
+    "html_url": "https://github.com/siliconflow/oneflow_releases",
+    "language": null,
+    "pushed_at": "2024-03-22T04:20:46Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-11-14T12:27:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Community",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community.yml",
+      "term": "Publish Community"
+    },
+    {
+      "context_snippet": "Publish Enterprise",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enterprise.yml",
+      "term": "Publish Enterprise"
+    },
+    {
+      "context_snippet": "Publish pip packages to GH releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish pip packages to GH releases"
+    }
+  ]
+}

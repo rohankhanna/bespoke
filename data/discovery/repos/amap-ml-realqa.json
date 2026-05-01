@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMAP-ML/RealQA",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:31.937319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7526
+    },
+    {
+      "path": "requirements.txt",
+      "size": 335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Next Token Is Enough: Realistic Image Quality and Aesthetic Scoring with Multimodal Large Language Model. ",
+    "fork": false,
+    "full_name": "AMAP-ML/RealQA",
+    "html_url": "https://github.com/AMAP-ML/RealQA",
+    "language": "Python",
+    "pushed_at": "2025-06-30T09:55:16Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-04-21T09:43:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

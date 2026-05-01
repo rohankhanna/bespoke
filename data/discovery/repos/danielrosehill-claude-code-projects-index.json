@@ -11,21 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/air-quality-toolkit-plugin",
+      "target": "danielrosehill/claude-code-linux-notes",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-background-removal-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-ai-model-research-plugin",
+      "target": "danielrosehill/claude-code-mcp-command-generator",
       "target_type": "repository"
     },
     {
@@ -33,6 +26,13 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-code-marketplace",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:14:00.038670+00:00",
+  "fetched_at": "2026-05-01T13:49:05.030870+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,22 +96,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/air-quality-toolkit-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-agent-blueprints",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-ai-model-research-plugin",
+      "full_name": "danielrosehill/claude-code-linux-notes",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-background-removal-plugin",
+      "full_name": "danielrosehill/claude-code-marketplace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-mcp-command-generator",
       "source_file": "README.md"
     }
   ],

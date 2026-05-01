@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:04:27.659522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "from github.com/zllrunning/face-parsing.PyTorch",
+    "fork": false,
+    "full_name": "VisionSystemsInc/face-parsing.PyTorch",
+    "html_url": "https://github.com/VisionSystemsInc/face-parsing.PyTorch",
+    "language": "Python",
+    "pushed_at": "2021-10-05T21:29:45Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-05-24T19:51:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rerun flaky tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "CloudFoundry User Account and Authentication (UAA) Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate-context",
+      "text": "Rerun flaky tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/uaa",
+      "status": "candidate",
+      "text": "Rerun flaky tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18908,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18893,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18866,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18866,
+      "status": "candidate",
+      "text": "short"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18825,
+      "status": "candidate",
+      "text": "ace"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rerun flaky tests",
+  "concept_id": "rerun-flaky-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/rerun-flaky-jobs.yml",
+      "source_repo": "cloudfoundry/uaa"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rerun flaky tests",
+      "sense_id": "rerun-flaky-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -67,6 +67,18 @@
       "source_repo": "ControlzEx/ControlzEx",
       "status": "candidate-context",
       "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "WPF Ribbon control like in Office"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ControlzEx/ControlzEx",
       "status": "candidate",
       "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ControlzEx/ControlzEx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluentribbon/Fluent.Ribbon"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

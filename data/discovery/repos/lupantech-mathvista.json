@@ -1,0 +1,199 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/MathVista",
+      "target": "zou-group/textgrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/MathVista",
+      "target": "openbmb/minicpm-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/MathVista",
+      "target": "openbmb/omnilmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/MathVista",
+      "target": "mlfoundations/visit-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "ai4math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "large-multimadality-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "mathqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:04.188213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52210
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 788
+    },
+    {
+      "path": "requirements.txt",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts ",
+    "fork": false,
+    "full_name": "lupantech/MathVista",
+    "html_url": "https://github.com/lupantech/MathVista",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-09-29T04:46:19Z",
+    "stargazers_count": 358,
+    "topics": [
+      "ai4math",
+      "large-language-models",
+      "large-multimadality-models",
+      "machine-learning",
+      "mathematics",
+      "mathqa",
+      "science",
+      "visual-question-answering"
+    ],
+    "updated_at": "2026-04-17T06:48:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlfoundations/visit-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/minicpm-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/omnilmm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zou-group/textgrad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai4math"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-multimadality-models"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathqa"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    },
+    {
+      "context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/dust3r",
+      "target": "naver/mast3r",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/dust3r",
+      "target": "apple/arkitscenes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/dust3r",
+      "target": "facebookresearch/habitat-sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/dust3r",
+      "target": "lmb-freiburg/robustmvd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:41.797492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24895
+    },
+    {
+      "path": "requirements.txt",
+      "size": 130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DUSt3R: Geometric 3D Vision Made Easy",
+    "fork": false,
+    "full_name": "naver/dust3r",
+    "html_url": "https://github.com/naver/dust3r",
+    "language": "Python",
+    "pushed_at": "2025-09-24T16:32:31Z",
+    "stargazers_count": 7112,
+    "topics": [],
+    "updated_at": "2026-05-01T11:25:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/arkitscenes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/habitat-sim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmb-freiburg/robustmvd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/mast3r",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

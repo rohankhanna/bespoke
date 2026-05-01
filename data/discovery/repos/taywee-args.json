@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Taywee/args",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Taywee/args",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Taywee/args",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Taywee/args",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Taywee/args",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Taywee/args",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Taywee/args",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "args",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "argument-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "command-line-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "command-line-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taywee/args",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:39:22.841922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40600
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "  A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API).",
+    "fork": false,
+    "full_name": "Taywee/args",
+    "html_url": "https://github.com/Taywee/args",
+    "language": "C++",
+    "pushed_at": "2026-04-28T21:21:41Z",
+    "stargazers_count": 1616,
+    "topics": [
+      "args",
+      "argument-parser",
+      "argument-parsing",
+      "cli",
+      "command-line",
+      "command-line-parser",
+      "command-line-parsing",
+      "cpp",
+      "cpp11",
+      "cxx",
+      "library"
+    ],
+    "updated_at": "2026-04-28T21:25:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "args"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parsing"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-parser"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-parsing"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "**This library is considered feature-complete by its creator. It will still",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    }
+  ]
+}

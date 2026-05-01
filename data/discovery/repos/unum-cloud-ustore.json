@@ -186,7 +186,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unum-cloud/UStore",
-      "target": "unum-cloud/udisk",
+      "target": "unum-cloud/ukv",
       "target_type": "repository"
     },
     {
@@ -198,16 +198,16 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "unum-cloud/UStore",
-      "target": "itroyano/ustore-operator",
+      "target": "unum-cloud/ustore-deps",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "unum-cloud/UStore",
-      "target": "unum-cloud/ucsb",
+      "target": "unum-cloud/ustore-deps",
       "target_type": "repository"
     },
     {
@@ -519,7 +519,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:02:41.376273+00:00",
+  "fetched_at": "2026-05-01T12:57:47.013235+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,23 +584,23 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "itroyano/ustore-operator",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "unum-cloud/ucsb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "unum-cloud/ucset",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "unum-cloud/udisk",
+      "full_name": "unum-cloud/ukv",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/ustore-deps",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unum-cloud/ustore-deps",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

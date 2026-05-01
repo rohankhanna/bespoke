@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue and PR Triage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Issue and PR Triage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate",
+      "text": "Issue and PR Triage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "trauma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15306,
+      "status": "candidate",
+      "text": "need"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14427,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14427,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14427,
+      "status": "candidate",
+      "text": "bond rating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue and PR Triage",
+  "concept_id": "issue-and-pr-triage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "wp-cli/dist-archive-command"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue and PR Triage",
+      "sense_id": "issue-and-pr-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

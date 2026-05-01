@@ -110,6 +110,18 @@
       "source_repo": "googleapis/google-api-php-client",
       "status": "candidate-context",
       "text": "Generate Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/tensordict",
+      "status": "candidate-context",
+      "text": "TensorDict is a pytorch dedicated tensor container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tensordict",
+      "status": "candidate-context",
+      "text": "Generate documentation"
     }
   ],
   "candidate_glosses": [
@@ -166,6 +178,12 @@
       "source_repo": "googleapis/google-api-php-client",
       "status": "candidate",
       "text": "Generate Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tensordict",
+      "status": "candidate",
+      "text": "Generate documentation"
     }
   ],
   "candidate_related_terms": [
@@ -311,11 +329,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pytorch/tensordict"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/google-api-php-client"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

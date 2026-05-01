@@ -139,6 +139,18 @@
       "source_repo": "falcoframework/Falco.OpenApi",
       "status": "candidate-context",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "FSharp implementation of Facebook GraphQL query language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql)."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "falcoframework/Falco.OpenApi",
       "status": "candidate",
       "text": "[![NuGet Version](https://img.shields.io/nuget/v/Falco.OpenApi.svg)](https://www.nuget.org/packages/Falco.OpenApi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate",
+      "text": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql)."
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "falcoframework/Falco.OpenApi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

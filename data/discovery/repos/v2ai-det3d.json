@@ -1,0 +1,159 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "V2AI/Det3D",
+      "target": "poodarchu/det3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "3d-object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:02:35.255241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3884
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "World's first general purpose 3D object detection codebse.",
+    "fork": false,
+    "full_name": "V2AI/Det3D",
+    "html_url": "https://github.com/V2AI/Det3D",
+    "language": "Python",
+    "pushed_at": "2023-12-19T10:21:31Z",
+    "stargazers_count": 1557,
+    "topics": [
+      "3d-object-detection",
+      "autonomous-driving",
+      "deep-learning",
+      "kitti",
+      "nuscenes",
+      "object-detection",
+      "point-cloud",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-18T14:15:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "poodarchu/det3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-object-detection"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "A general 3D Object Detection codebase in PyTorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -189,6 +189,42 @@
       "source_repo": "mdn/translated-content",
       "status": "candidate-context",
       "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "MixVPR: Feature Mixing for Visual Place Recognition (WACV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "AnyLoc: Universal Visual Place Recognition (RA-L 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "status": "candidate-context",
+      "text": "Easy localization, theme switching and other for WPF and Avalonia applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -281,6 +317,24 @@
       "source_repo": "mdn/translated-content",
       "status": "candidate",
       "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -449,11 +503,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdn/translated-content"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/MixVPR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AnyLoc/AnyLoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

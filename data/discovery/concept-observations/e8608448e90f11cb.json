@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Symbolic parser for Julia language term rewriting using REDUCE algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031933,
+      "status": "candidate",
+      "text": "cut back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031895,
+      "status": "candidate",
+      "text": "scale down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030960,
+      "status": "candidate",
+      "text": "shrink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030172,
+      "status": "candidate",
+      "text": "trim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030062,
+      "status": "candidate",
+      "text": "quash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reduce",
+      "sense_id": "reduce#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32033,
+      "status": "candidate",
+      "text": "subjugate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31034,
+      "status": "candidate",
+      "text": "subdue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "contract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22041,
+      "status": "candidate",
+      "text": "shrink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20045,
+      "status": "candidate",
+      "text": "quash"
+    }
+  ],
+  "concept_id": "reduce",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reduce",
+  "observation_id": "e8608448e90f11cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "reduce",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "chakravala/Reduce.jl",
+  "source_repo_description": "Symbolic parser for Julia language term rewriting using REDUCE algebra"
+}

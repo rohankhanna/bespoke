@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c42f/tinyformat",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c42f/tinyformat",
+      "target": "minimalistic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "c42f/tinyformat",
+      "target": "printf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:56:11.001397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal, type safe printf replacement library for C++",
+    "fork": false,
+    "full_name": "c42f/tinyformat",
+    "html_url": "https://github.com/c42f/tinyformat",
+    "language": "C++",
+    "pushed_at": "2024-01-31T01:04:58Z",
+    "stargazers_count": 560,
+    "topics": [
+      "cplusplus",
+      "minimalistic",
+      "printf"
+    ],
+    "updated_at": "2026-03-09T16:20:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**tinyformat.h** is a type safe printf replacement library in a single C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "**tinyformat.h** is a type safe printf replacement library in a single C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimalistic"
+    },
+    {
+      "context_snippet": "**tinyformat.h** is a type safe printf replacement library in a single C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "printf"
+    }
+  ]
+}

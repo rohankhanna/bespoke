@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:03:46.279556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46900
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of useful functions for 3D vision & graphics research in Python.",
+    "fork": false,
+    "full_name": "EasternJournalist/utils3d",
+    "html_url": "https://github.com/EasternJournalist/utils3d",
+    "language": "Python",
+    "pushed_at": "2026-04-28T11:56:59Z",
+    "stargazers_count": 273,
+    "topics": [],
+    "updated_at": "2026-04-28T11:57:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

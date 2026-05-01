@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The documentation for Fern (kind of meta, eh?)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docs-as-code",
+      "sense_id": "docs-as-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docs-as-code",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docs-as-code",
+  "observation_id": "a7252d2a56ed7367",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "docs-as-code",
+  "source_context_snippet": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn).",
+  "source_file": null,
+  "source_repo": "fern-api/docs",
+  "source_repo_description": "The documentation for Fern (kind of meta, eh?)"
+}

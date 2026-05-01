@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thomcc/index_vec",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thomcc/index_vec",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thomcc/index_vec",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:41:02.571833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5025
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 608
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rust library offering newtyped indices and vecs that use those indices",
+    "fork": false,
+    "full_name": "thomcc/index_vec",
+    "html_url": "https://github.com/thomcc/index_vec",
+    "language": "Rust",
+    "pushed_at": "2024-08-17T23:54:32Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-14T18:24:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

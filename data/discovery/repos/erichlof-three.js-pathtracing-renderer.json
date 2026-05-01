@@ -1,0 +1,234 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/antigravity-pool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/pathtracedpong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/thesentinel-2nd-look",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/glider-ball-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "global-illumination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "path-tracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "pathtracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "raytracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "three-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "threejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "tracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "webgl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:53.109492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 85105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. Click here for Live Demo: https://erichlof.github.io/THREE.js-PathTracing-Renderer/Geometry_Showcase.html",
+    "fork": false,
+    "full_name": "erichlof/THREE.js-PathTracing-Renderer",
+    "html_url": "https://github.com/erichlof/THREE.js-PathTracing-Renderer",
+    "language": "GLSL",
+    "pushed_at": "2026-04-17T19:32:37Z",
+    "stargazers_count": 2192,
+    "topics": [
+      "global-illumination",
+      "path",
+      "path-tracer",
+      "pathtracing",
+      "ray",
+      "raytracing",
+      "realtime",
+      "three-js",
+      "threejs",
+      "tracer",
+      "tracing",
+      "webgl"
+    ],
+    "updated_at": "2026-04-24T09:29:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erichlof/antigravity-pool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erichlof/glider-ball-3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erichlof/pathtracedpong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erichlof/thesentinel-2nd-look",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "global-illumination"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-tracer"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pathtracing"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracing"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "three-js"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threejs"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracer"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    },
+    {
+      "context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgl"
+    }
+  ]
+}

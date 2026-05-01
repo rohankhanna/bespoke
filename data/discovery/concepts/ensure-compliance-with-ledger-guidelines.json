@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ensure compliance with Ledger guidelines"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate-context",
+      "text": "Boilerplate application for Ledger devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate-context",
+      "text": "Ensure compliance with Ledger guidelines"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate",
+      "text": "Ensure compliance with Ledger guidelines"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27206,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27162,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27135,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27004,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26987,
+      "status": "candidate",
+      "text": "matter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ensure compliance with Ledger guidelines",
+  "concept_id": "ensure-compliance-with-ledger-guidelines",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-boilerplate"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ensure compliance with Ledger guidelines",
+      "sense_id": "ensure-compliance-with-ledger-guidelines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

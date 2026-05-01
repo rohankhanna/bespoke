@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dplasa/FTPClientServer",
+      "target": "nailbuster/esp8266ftpserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dplasa/FTPClientServer",
+      "target": "gallegojm/arduino-ftp-server",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:01.574733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple FTP Server and Client for the esp8266/esp32 with LittleFS and SPIFFS support",
+    "fork": true,
+    "full_name": "dplasa/FTPClientServer",
+    "html_url": "https://github.com/dplasa/FTPClientServer",
+    "language": "C++",
+    "pushed_at": "2024-01-16T11:51:17Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-02-05T17:45:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gallegojm/arduino-ftp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nailbuster/esp8266ftpserver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

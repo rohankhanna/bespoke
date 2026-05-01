@@ -48,7 +48,7 @@
   "normalized_form": "visual-studio",
   "observation_id": "62c8e81d42d7ed50",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "visual-studio",
   "source_context_snippet": "visual-studio",
   "source_file": ".github/workflows/visual-studio.yml",

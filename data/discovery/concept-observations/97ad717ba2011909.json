@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pytorch CUDA extension implementation of instant-ngp (sdf and nerf), with a GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924823,
+      "status": "candidate",
+      "text": "bump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924822,
+      "status": "candidate",
+      "text": "nudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924821,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924820,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924819,
+      "status": "candidate",
+      "text": "jostle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nerf",
+      "sense_id": "nerf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nerf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nerf",
+  "observation_id": "97ad717ba2011909",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "nerf",
+  "source_context_snippet": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics",
+  "source_file": null,
+  "source_repo": "ashawkey/torch-ngp",
+  "source_repo_description": "A pytorch CUDA extension implementation of instant-ngp (sdf and nerf), with a GUI."
+}

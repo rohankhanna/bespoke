@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Razenpok/CSharpFunctionalExtensions.UniTask",
+      "target": "openupm/openupm-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Razenpok/CSharpFunctionalExtensions.UniTask",
+      "target": "xoofx/unitynuget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Razenpok/CSharpFunctionalExtensions.UniTask",
+      "target": "glitchenzo/nugetforunity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:59:19.695562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Razenpok/CSharpFunctionalExtensions.UniTask",
+    "html_url": "https://github.com/Razenpok/CSharpFunctionalExtensions.UniTask",
+    "language": "C#",
+    "pushed_at": "2023-05-14T15:42:45Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-10-17T22:10:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glitchenzo/nugetforunity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openupm/openupm-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xoofx/unitynuget",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

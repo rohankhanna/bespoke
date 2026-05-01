@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-performance data-driven data specification library for Clojure/Script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036333,
+      "status": "candidate",
+      "text": "compulsion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044792,
+      "status": "candidate",
+      "text": "coercive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044617,
+      "status": "candidate",
+      "text": "enforcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044609,
+      "status": "candidate",
+      "text": "imposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044165,
+      "status": "candidate",
+      "text": "forcible"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coercion",
+      "sense_id": "coercion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 49045,
+      "status": "candidate",
+      "text": "compulsion"
+    }
+  ],
+  "concept_id": "coercion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coercion",
+  "observation_id": "7a71322d9ddc6dc7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "coercion",
+  "source_context_snippet": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)",
+  "source_file": null,
+  "source_repo": "metosin/malli",
+  "source_repo_description": "High-performance data-driven data specification library for Clojure/Script."
+}

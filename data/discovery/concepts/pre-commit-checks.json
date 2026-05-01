@@ -111,6 +111,30 @@
       "source_repo": "graphcore/examples-utils",
       "status": "candidate-context",
       "text": "Pre-Commit Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate-context",
+      "text": "A production-ready runtime framework for agent apps with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, full-stack observability, and broad framework compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate-context",
+      "text": "Pre-commit Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate-context",
+      "text": "A development-oriented visualization toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate-context",
+      "text": "Pre-commit Checks"
     }
   ],
   "candidate_glosses": [
@@ -167,6 +191,18 @@
       "source_repo": "graphcore/examples-utils",
       "status": "candidate",
       "text": "Pre-Commit Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate",
+      "text": "Pre-commit Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate",
+      "text": "Pre-commit Checks"
     }
   ],
   "candidate_related_terms": [
@@ -312,11 +348,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope-runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:02:43.544355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] A Large-Scale High-Quality Dataset for Enhancing Human-Centric Video Generation",
+    "fork": false,
+    "full_name": "fudan-generative-vision/OpenHumanVid",
+    "html_url": "https://github.com/fudan-generative-vision/OpenHumanVid",
+    "language": null,
+    "pushed_at": "2025-02-27T09:27:11Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2026-04-22T07:05:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

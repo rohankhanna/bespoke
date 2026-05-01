@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "machile-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/dolma",
+      "status": "candidate-context",
+      "text": "Data and tools for generating and inspecting OLMo pre-training data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/dolma",
+      "status": "candidate-context",
+      "text": "<img alt=\"Dolma's official logo. It's dolma written in yellow, round lowercase letters over a blue background.\" src=\"https://raw.githubusercontent.com/allenai/dolma/main/docs/assets/AI2_Blog_1400x685_2x.webp\" width=\"100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/dolma",
+      "status": "candidate",
+      "text": "<img alt=\"Dolma's official logo. It's dolma written in yellow, round lowercase letters over a blue background.\" src=\"https://raw.githubusercontent.com/allenai/dolma/main/docs/assets/AI2_Blog_1400x685_2x.webp\" width=\"100%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "machile-learning",
+  "concept_id": "machile-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "allenai/dolma"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machile-learning",
+      "sense_id": "machile-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

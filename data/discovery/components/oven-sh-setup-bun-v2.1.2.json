@@ -1,0 +1,27 @@
+{
+  "component": "oven-sh/setup-bun@v2.1.2",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "remotion-dev/remotion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "remotion-dev/remotion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pullfrog.yml",
+      "source_repo": "remotion-dev/remotion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "remotion-dev/remotion"
+    }
+  ]
+}

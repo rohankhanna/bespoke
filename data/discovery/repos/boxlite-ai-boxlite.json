@@ -582,7 +582,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:25:46.014497+00:00",
+  "fetched_at": "2026-05-01T12:58:08.487416+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -634,7 +634,7 @@
     "full_name": "boxlite-ai/boxlite",
     "html_url": "https://github.com/boxlite-ai/boxlite",
     "language": "Rust",
-    "pushed_at": "2026-04-30T15:10:08Z",
+    "pushed_at": "2026-05-01T11:36:26Z",
     "stargazers_count": 1880,
     "topics": [
       "ai-agents",

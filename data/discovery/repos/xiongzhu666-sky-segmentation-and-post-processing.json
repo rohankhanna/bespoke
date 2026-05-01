@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:03:42.578897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "xiongzhu666/Sky-Segmentation-and-Post-processing",
+    "html_url": "https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing",
+    "language": "C++",
+    "pushed_at": "2023-11-22T06:01:43Z",
+    "stargazers_count": 218,
+    "topics": [],
+    "updated_at": "2026-04-30T15:55:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

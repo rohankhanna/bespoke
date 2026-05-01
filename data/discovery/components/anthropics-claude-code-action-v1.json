@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@v1",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -707,6 +707,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-docs.yml",
       "source_repo": "pipecat-ai/pipecat-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "remotion-dev/remotion"
     }
   ]
 }

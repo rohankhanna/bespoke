@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Preview Release",
-    "Preview release"
+    "Preview release",
+    "Preview & Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -128,6 +129,18 @@
       "source_repo": "pmndrs/zustand",
       "status": "candidate-context",
       "text": "Preview Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stackblitz-labs/pkg.pr.new",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ufe0f Continuous (Preview) Releases for your libraries! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stackblitz-labs/pkg.pr.new",
+      "status": "candidate-context",
+      "text": "Preview & Release"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +203,12 @@
       "source_repo": "pmndrs/zustand",
       "status": "candidate",
       "text": "Preview Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stackblitz-labs/pkg.pr.new",
+      "status": "candidate",
+      "text": "Preview & Release"
     }
   ],
   "candidate_related_terms": [
@@ -299,11 +318,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "pmndrs/zustand"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stackblitz-labs/pkg.pr.new"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

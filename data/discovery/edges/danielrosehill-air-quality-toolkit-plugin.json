@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "melizeche/airelibre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "openair-project/openair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "akajiaku11/air-quality-prediction-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "openaq/awesome-air-quality",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin"
+}

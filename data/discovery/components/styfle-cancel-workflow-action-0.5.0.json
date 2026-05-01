@@ -1,0 +1,17 @@
+{
+  "component": "styfle/cancel-workflow-action@0.5.0",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "4itworks/opensource_qwkin_dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate_danger.yaml",
+      "source_repo": "4itworks/opensource_qwkin_dart"
+    }
+  ]
+}

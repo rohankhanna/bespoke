@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/frame-interpolation",
+      "target": "googlestaging/frame-interpolation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/frame-interpolation",
+      "target": "sniklaus/softmax-splatting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation",
+      "target": "forward-warp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation",
+      "target": "frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation",
+      "target": "splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:36.343285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10824
+    },
+    {
+      "path": "requirements.txt",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "FILM: Frame Interpolation for Large Motion, In ECCV 2022.",
+    "fork": false,
+    "full_name": "google-research/frame-interpolation",
+    "html_url": "https://github.com/google-research/frame-interpolation",
+    "language": "Python",
+    "pushed_at": "2024-08-10T01:12:48Z",
+    "stargazers_count": 3122,
+    "topics": [
+      "forward-warp",
+      "frame-interpolation",
+      "optical-flow",
+      "splatting",
+      "video"
+    ],
+    "updated_at": "2026-05-01T08:47:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlestaging/frame-interpolation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sniklaus/softmax-splatting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forward-warp"
+    },
+    {
+      "context_snippet": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frame-interpolation"
+    },
+    {
+      "context_snippet": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "splatting"
+    },
+    {
+      "context_snippet": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

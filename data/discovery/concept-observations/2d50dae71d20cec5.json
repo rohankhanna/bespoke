@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Model-based design and verification for robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Model-Based Design and Verification for Robotics."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Model-Based Design and Verification for Robotics."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050601,
+      "status": "candidate",
+      "text": "pintail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050273,
+      "status": "candidate",
+      "text": "teal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906063,
+      "status": "candidate",
+      "text": "deli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19525966,
+      "status": "candidate",
+      "text": "honor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19490593,
+      "status": "candidate",
+      "text": "honour"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drake",
+      "sense_id": "drake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "drake",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drake",
+  "observation_id": "2d50dae71d20cec5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "drake",
+  "source_context_snippet": "Model-Based Design and Verification for Robotics.",
+  "source_file": null,
+  "source_repo": "RobotLocomotion/drake",
+  "source_repo_description": "Model-based design and verification for robotics."
+}

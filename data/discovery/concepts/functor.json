@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "functor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "Tensor algebra abstract type interoperability setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "Tangent bundle, vector space  and Submanifold definition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030374,
+      "status": "candidate",
+      "text": "contravariant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19793222,
+      "status": "candidate",
+      "text": "forgetful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030765,
+      "status": "candidate",
+      "text": "funct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030764,
+      "status": "candidate",
+      "text": "func"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030763,
+      "status": "candidate",
+      "text": "funster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "functor",
+  "concept_id": "functor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/DirectSum.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "functor",
+      "sense_id": "functor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

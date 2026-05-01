@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml"
+    },
+    {
+      "component": "dorny/test-reporter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "dorny/test-reporter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-version.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "test-version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "actionresult",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "csharpfunctionalextensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "target": "result",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:59:12.233074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16850
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 1627
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4802
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2747
+    },
+    {
+      "path": ".github/workflows/test-version.yml",
+      "size": 3260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Seamlessly map Results from CSharpFunctionalExtensions to HttpResults for cleaner, more fluent Web APIs",
+    "fork": false,
+    "full_name": "co-IT/CSharpFunctionalExtensions.HttpResults",
+    "html_url": "https://github.com/co-IT/CSharpFunctionalExtensions.HttpResults",
+    "language": "C#",
+    "pushed_at": "2026-02-13T16:43:30Z",
+    "stargazers_count": 23,
+    "topics": [
+      "actionresult",
+      "api",
+      "csharp",
+      "csharpfunctionalextensions",
+      "dotnet",
+      "http",
+      "minimal",
+      "nuget",
+      "result"
+    ],
+    "updated_at": "2026-03-05T04:19:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "check"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "\"test-version\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-version.yml",
+      "term": "test-version"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actionresult"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharpfunctionalextensions"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimal"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    },
+    {
+      "context_snippet": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "result"
+    }
+  ]
+}

@@ -36,13 +36,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lite-xl/lite-xl-plugin-manager",
-      "target": "adamharrison/straightforward-c-project-standard",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lite-xl/lite-xl-plugin-manager",
       "target": "adamharrison/lite-xl-plugin-manager",
       "target_type": "repository"
     },
@@ -110,7 +103,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:24:29.781260+00:00",
+  "fetched_at": "2026-05-01T12:55:41.973575+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -148,11 +141,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "adamharrison/lite-xl-plugin-manager",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "adamharrison/straightforward-c-project-standard",
       "source_file": "README.md"
     }
   ],

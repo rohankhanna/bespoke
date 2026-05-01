@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:02:16.239374+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 756
+    },
+    {
+      "path": "requirements.txt",
+      "size": 178
+    },
+    {
+      "path": ".github/workflows/publish_action.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of nodes for ComfyUI that can composite layer and mask to achieve Photoshop like functionality.",
+    "fork": false,
+    "full_name": "chflame163/ComfyUI_LayerStyle",
+    "html_url": "https://github.com/chflame163/ComfyUI_LayerStyle",
+    "language": "Python",
+    "pushed_at": "2026-01-30T06:31:48Z",
+    "stargazers_count": 3009,
+    "topics": [],
+    "updated_at": "2026-04-30T07:18:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

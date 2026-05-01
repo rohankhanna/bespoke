@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/antigravity-pool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/pathtracedpong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/thesentinel-2nd-look",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "erichlof/glider-ball-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "global-illumination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "path-tracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "pathtracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "raytracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "three-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "threejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "tracer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "target": "webgl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "erichlof/THREE.js-PathTracing-Renderer"
+}

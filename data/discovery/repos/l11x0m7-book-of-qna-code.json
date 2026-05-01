@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:45:29.156792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "code collections for the book of qna",
+    "fork": false,
+    "full_name": "l11x0m7/book-of-qna-code",
+    "html_url": "https://github.com/l11x0m7/book-of-qna-code",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-21T22:25:17Z",
+    "stargazers_count": 122,
+    "topics": [],
+    "updated_at": "2026-04-09T15:13:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

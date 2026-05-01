@@ -67,6 +67,18 @@
       "source_repo": "moyangzhan/langchain4j-aideepin",
       "status": "candidate-context",
       "text": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate-context",
+      "text": "An ACP bridge to langraph4j and langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate-context",
+      "text": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "moyangzhan/langchain4j-aideepin",
       "status": "candidate",
       "text": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate",
+      "text": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

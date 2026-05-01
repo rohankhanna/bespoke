@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jcp",
+      "target": "jwks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jcp",
+      "target": "jwkset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jcp",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicahParks/jcp",
+      "target": "proxy-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:53:55.844487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6098
+    },
+    {
+      "path": "Dockerfile",
+      "size": 380
+    },
+    {
+      "path": "go.mod",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A JWK Set client proxy.",
+    "fork": false,
+    "full_name": "MicahParks/jcp",
+    "html_url": "https://github.com/MicahParks/jcp",
+    "language": "Go",
+    "pushed_at": "2024-09-07T13:27:28Z",
+    "stargazers_count": 2,
+    "topics": [
+      "jwk",
+      "jwks",
+      "jwkset",
+      "jwt",
+      "proxy",
+      "proxy-server"
+    ],
+    "updated_at": "2025-01-16T22:40:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwks"
+    },
+    {
+      "context_snippet": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwkset"
+    },
+    {
+      "context_snippet": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-server"
+    }
+  ]
+}

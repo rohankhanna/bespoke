@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MICCAI 2023 code for the paper: Feature-Conditioned Cascaded Video Diffusion Models for Precise Echocardiogram Synthesis. EchoDiffusion is a collection of video diffusion models trained from scratch on the EchoNet-Dynamic dataset with the imagen-pytorch repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011458,
+      "status": "candidate",
+      "text": "television"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990920,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012036,
+      "status": "candidate",
+      "text": "telecasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012035,
+      "status": "candidate",
+      "text": "televised"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video",
+      "sense_id": "video#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16053,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1043,
+      "status": "candidate",
+      "text": "television"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "telecasting"
+    }
+  ],
+  "concept_id": "video",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video",
+  "observation_id": "75fbf78c644db2e1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "video",
+  "source_context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+  "source_file": null,
+  "source_repo": "HReynaud/EchoDiffusion",
+  "source_repo_description": "MICCAI 2023 code for the paper: Feature-Conditioned Cascaded Video Diffusion Models for Precise Echocardiogram Synthesis. EchoDiffusion is a collection of video diffusion models trained from scratch on the EchoNet-Dynamic dataset with the imagen-pytorch repo."
+}

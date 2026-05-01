@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stylegan-human/StyleGAN-Human",
+      "target": "cosmicman-cvpr2024/cosmicman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stylegan-human/StyleGAN-Human",
+      "target": "hzzone/pytorch-openpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stylegan-human/StyleGAN-Human",
+      "target": "unitedhuman/unitedhuman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stylegan-human/StyleGAN-Human",
+      "target": "generalizable-neural-performer/gnr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "stylegan-human/StyleGAN-Human"
+}

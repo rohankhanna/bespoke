@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udfe8 AppSignal for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Create release from tag\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Create release from tag\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31992,
+      "status": "candidate",
+      "text": "have"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31970,
+      "status": "candidate",
+      "text": "stand by"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31932,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31895,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31895,
+      "status": "candidate",
+      "text": "fire escape"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release from tag",
+      "sense_id": "create-release-from-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-release-from-tag",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-release-from-tag",
+  "observation_id": "490c9c19d4aef0af",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Create release from tag",
+  "source_context_snippet": "\"Create release from tag\"",
+  "source_file": ".github/workflows/create_release_from_tag.yml",
+  "source_repo": "appsignal/appsignal-javascript",
+  "source_repo_description": "\ud83d\udfe8 AppSignal for JavaScript"
+}

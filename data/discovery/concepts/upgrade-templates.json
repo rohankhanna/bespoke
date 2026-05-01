@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upgrade templates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/templates",
+      "status": "candidate-context",
+      "text": "Templates used by `pulumi new`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/templates",
+      "status": "candidate-context",
+      "text": "Upgrade templates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/templates",
+      "status": "candidate",
+      "text": "Upgrade templates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "ailey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "architecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10908,
+      "status": "candidate",
+      "text": "aviation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upgrade templates",
+  "concept_id": "upgrade-templates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/update-templates.yml",
+      "source_repo": "pulumi/templates"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upgrade templates",
+      "sense_id": "upgrade-templates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

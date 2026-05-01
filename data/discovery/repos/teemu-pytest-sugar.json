@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "codespaces/new",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "nicoddemus/pytest-rich",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "samuelcolvin/pytest-pretty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "pytest-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "pytest-sugar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:55:25.065762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3650
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1386
+    },
+    {
+      "path": ".github/workflows/build-and-test.yaml",
+      "size": 1797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly)",
+    "fork": false,
+    "full_name": "Teemu/pytest-sugar",
+    "html_url": "https://github.com/Teemu/pytest-sugar",
+    "language": "Python",
+    "pushed_at": "2025-12-12T14:52:24Z",
+    "stargazers_count": 1524,
+    "topics": [
+      "pytest",
+      "pytest-plugin",
+      "pytest-sugar",
+      "python",
+      "testing"
+    ],
+    "updated_at": "2026-04-26T12:32:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/new",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicoddemus/pytest-rich",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samuelcolvin/pytest-pretty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest-plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest-sugar"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

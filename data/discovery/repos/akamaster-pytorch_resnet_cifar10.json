@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "cifar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet-cifar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet110",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet1202",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet44",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet56",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "torchvision-models-cifar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:40.236175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proper implementation of ResNet-s for CIFAR10/100 in pytorch that matches description of the original paper.",
+    "fork": false,
+    "full_name": "akamaster/pytorch_resnet_cifar10",
+    "html_url": "https://github.com/akamaster/pytorch_resnet_cifar10",
+    "language": "Python",
+    "pushed_at": "2024-06-18T20:29:09Z",
+    "stargazers_count": 1359,
+    "topics": [
+      "cifar",
+      "pytorch",
+      "resnet",
+      "resnet-cifar",
+      "resnet110",
+      "resnet1202",
+      "resnet20",
+      "resnet32",
+      "resnet44",
+      "resnet56",
+      "torchvision-models-cifar"
+    ],
+    "updated_at": "2026-04-30T12:51:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cifar"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet-cifar"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet110"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet1202"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet20"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet32"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet44"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet56"
+    },
+    {
+      "context_snippet": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torchvision-models-cifar"
+    }
+  ]
+}

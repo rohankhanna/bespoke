@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:11:10.430312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/ai-powered-notes-winui3-sample",
+    "html_url": "https://github.com/microsoft/ai-powered-notes-winui3-sample",
+    "language": "C#",
+    "pushed_at": "2025-02-22T05:28:42Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-04-20T19:28:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

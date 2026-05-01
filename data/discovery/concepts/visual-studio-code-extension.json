@@ -31,6 +31,18 @@
       "source_repo": "prettier/prettier-vscode",
       "status": "candidate-context",
       "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TravisTheTechie/vscode-write-good",
+      "status": "candidate-context",
+      "text": "Write Good Linter for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TravisTheTechie/vscode-write-good",
+      "status": "candidate-context",
+      "text": "Provides a [write-good](https://github.com/btford/write-good) linter extension for [Visual Studio Code](https://code.visualstudio.com/)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "prettier/prettier-vscode",
       "status": "candidate",
       "text": "[Prettier](https://prettier.io/) is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TravisTheTechie/vscode-write-good",
+      "status": "candidate",
+      "text": "Provides a [write-good](https://github.com/btford/write-good) linter extension for [Visual Studio Code](https://code.visualstudio.com/)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "prettier/prettier-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TravisTheTechie/vscode-write-good"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

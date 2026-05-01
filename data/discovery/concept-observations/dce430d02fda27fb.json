@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-performance data-driven data specification library for Clojure/Script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986288,
+      "status": "candidate",
+      "text": "template"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984811,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976426,
+      "status": "candidate",
+      "text": "shaping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974991,
+      "status": "candidate",
+      "text": "simulated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973200,
+      "status": "candidate",
+      "text": "mock-up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modelling",
+      "sense_id": "modelling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2052,
+      "status": "candidate",
+      "text": "modeling"
+    }
+  ],
+  "concept_id": "modelling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "modelling",
+  "observation_id": "dce430d02fda27fb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "modelling",
+  "source_context_snippet": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)",
+  "source_file": null,
+  "source_repo": "metosin/malli",
+  "source_repo_description": "High-performance data-driven data specification library for Clojure/Script."
+}

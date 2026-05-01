@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library for rust that implements basic sourcemap handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This library implements basic processing of JavaScript sourcemaps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This library implements basic processing of JavaScript sourcemaps."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tag-production",
+      "sense_id": "tag-production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tag-production",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tag-production",
+  "observation_id": "753785e02d3e4eab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "tag-production",
+  "source_context_snippet": "This library implements basic processing of JavaScript sourcemaps.",
+  "source_file": null,
+  "source_repo": "getsentry/rust-sourcemap",
+  "source_repo_description": "A library for rust that implements basic sourcemap handling"
+}

@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "Fern Check"
+    "Fern Check",
+    "fern check",
+    "fern-check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -13,6 +15,30 @@
       "source_repo": "HumanSignal/label-studio-client-generator",
       "status": "candidate-context",
       "text": "'Fern Check'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "Interact with your documents using the power of GPT, 100% privately, no data leaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "fern check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate-context",
+      "text": "Publish beautiful documentation from OpenAPI and markdown (MDX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate-context",
+      "text": "fern-check"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +47,18 @@
       "source_repo": "HumanSignal/label-studio-client-generator",
       "status": "candidate",
       "text": "'Fern Check'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate",
+      "text": "fern check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate",
+      "text": "fern-check"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +108,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/fern_check.yml",
       "source_repo": "HumanSignal/label-studio-client-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/fern-check.yml",
+      "source_repo": "zylon-ai/private-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "fern-api/docs-starter"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

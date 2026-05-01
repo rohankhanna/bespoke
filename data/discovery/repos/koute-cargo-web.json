@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koute/cargo-web",
+      "target": "asmjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koute/cargo-web",
+      "target": "emscripten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koute/cargo-web",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koute/cargo-web",
+      "target": "webasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "koute/cargo-web",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:48:12.353799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11774
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Cargo subcommand for the client-side Web",
+    "fork": false,
+    "full_name": "koute/cargo-web",
+    "html_url": "https://github.com/koute/cargo-web",
+    "language": "Rust",
+    "pushed_at": "2023-11-29T04:25:09Z",
+    "stargazers_count": 1112,
+    "topics": [
+      "asmjs",
+      "emscripten",
+      "rust",
+      "web",
+      "webasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-08T12:13:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asmjs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emscripten"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webasm"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/koute/cargo-web.svg)](https://travis-ci.org/koute/cargo-web)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

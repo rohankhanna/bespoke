@@ -31,6 +31,18 @@
       "source_repo": "Azure-Samples/get-started-with-ai-agents",
       "status": "candidate-context",
       "text": "Deploy to Azure"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "status": "candidate-context",
+      "text": "A simple chat application that integrates Microsoft Entra ID for user authentication. Designed for deployment on Azure Container Apps with the Azure Developer CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "status": "candidate-context",
+      "text": "Deploy to Azure"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure-Samples/get-started-with-ai-agents",
+      "status": "candidate",
+      "text": "Deploy to Azure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
       "status": "candidate",
       "text": "Deploy to Azure"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/azure-dev.yml",
       "source_repo": "Azure-Samples/get-started-with-ai-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

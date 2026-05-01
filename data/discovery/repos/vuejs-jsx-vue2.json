@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "@lerna-lite/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lerna-lite/run",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "vuejs/babel-plugin-transform-vue-jsx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "vuejs/babel-plugin-jsx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "@lerna-lite/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "@lerna-lite/run",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "@vue/conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vuejs/jsx-vue2",
+      "target": "execa",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:53:54.507023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2780
+    },
+    {
+      "path": "package.json",
+      "size": 545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "monorepo for Babel / Vue JSX related packages",
+    "fork": false,
+    "full_name": "vuejs/jsx-vue2",
+    "html_url": "https://github.com/vuejs/jsx-vue2",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-31T08:09:46Z",
+    "stargazers_count": 1479,
+    "topics": [],
+    "updated_at": "2026-04-21T13:16:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuejs/babel-plugin-jsx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuejs/babel-plugin-transform-vue-jsx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

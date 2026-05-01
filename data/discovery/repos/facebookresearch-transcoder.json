@@ -5,18 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "facebookresearch/TransCoder",
-      "target": "facebookresearch/codegen",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebookresearch/TransCoder",
       "target": "fairinternal/transcoder_release",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T10:26:59.462421+00:00",
+  "fetched_at": "2026-05-01T15:01:57.084486+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -38,11 +31,6 @@
     "updated_at": "2026-04-20T18:18:25Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/codegen",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "fairinternal/transcoder_release",

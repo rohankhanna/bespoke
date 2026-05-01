@@ -127,6 +127,42 @@
       "source_repo": "airbnb/visx",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "status": "candidate-context",
+      "text": "\ud83d\udcca \ud83d\udcc8 ECharts wrapper component for Vue 3, 2 and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboll/helmfile",
+      "status": "candidate-context",
+      "text": "Deploy Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboll/helmfile",
+      "status": "candidate-context",
+      "text": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TanStack/react-charts",
+      "status": "candidate-context",
+      "text": "\u269b\ufe0f Simple, immersive & interactive charts for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/react-charts",
+      "status": "candidate-context",
+      "text": "![React Charts Header](https://github.com/TanStack/react-charts/raw/main/media/repo-dark.png)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "airbnb/visx",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboll/helmfile",
+      "status": "candidate",
+      "text": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TanStack/react-charts",
+      "status": "candidate",
+      "text": "![React Charts Header](https://github.com/TanStack/react-charts/raw/main/media/repo-dark.png)"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +352,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "airbnb/visx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ambit-tsai/echarts-for-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "d3/d3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "roboll/helmfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

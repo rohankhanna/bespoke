@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Per-Face Texture Mapping for Production Rendering https://wdas.github.io/ptex"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ptex is a texture mapping system developed by Walt Disney Animation Studios"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ptex is a texture mapping system developed by Walt Disney Animation Studios"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rendering-3d-graphics",
+      "sense_id": "rendering-3d-graphics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rendering-3d-graphics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rendering-3d-graphics",
+  "observation_id": "a5b2bd18feb011aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "rendering-3d-graphics",
+  "source_context_snippet": "Ptex is a texture mapping system developed by Walt Disney Animation Studios",
+  "source_file": null,
+  "source_repo": "wdas/ptex",
+  "source_repo_description": "Per-Face Texture Mapping for Production Rendering https://wdas.github.io/ptex"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -721,6 +721,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ajayd-san/gomanagedocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "htop-dev/htop"
     }
   ],
   "term": "terminal"

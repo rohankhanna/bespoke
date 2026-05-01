@@ -65,13 +65,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SAML-Toolkits/python3-saml",
-      "target": "pypa/sampleproject",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SAML-Toolkits/python3-saml",
       "target": "onelogin/python3-saml",
       "target_type": "repository"
     },
@@ -97,7 +90,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-01T10:33:25.879954+00:00",
+  "fetched_at": "2026-05-01T15:09:52.265621+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -140,11 +133,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "onelogin/python3-saml",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pypa/sampleproject",
       "source_file": "README.md"
     }
   ],

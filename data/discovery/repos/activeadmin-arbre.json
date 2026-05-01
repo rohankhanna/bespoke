@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml"
+    },
+    {
+      "component": "reviewdog/action-actionlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "reviewdog/action-rubocop@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yaml-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yaml-lint.yml"
+    },
+    {
+      "component": "reviewdog/action-yamllint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yaml-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "reviewdog/action-actionlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "GitHub Actions Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "reviewdog/action-rubocop@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "Rubocop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yaml-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yaml-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yaml-lint.yml",
+      "source_repo": "activeadmin/arbre",
+      "target": "reviewdog/action-yamllint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/arbre",
+      "target": "activeadmin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/arbre",
+      "target": "arbre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/arbre",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "activeadmin/arbre",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:52:24.054503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1738
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1962
+    },
+    {
+      "path": ".github/workflows/github-actions-lint.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 1149
+    },
+    {
+      "path": ".github/workflows/yaml-lint.yml",
+      "size": 606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Object Oriented DOM Tree in Ruby",
+    "fork": false,
+    "full_name": "activeadmin/arbre",
+    "html_url": "https://github.com/activeadmin/arbre",
+    "language": "Ruby",
+    "pushed_at": "2026-04-30T16:52:07Z",
+    "stargazers_count": 791,
+    "topics": [
+      "activeadmin",
+      "arbre",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-16T15:26:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Actions Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "term": "GitHub Actions Lint"
+    },
+    {
+      "context_snippet": "Rubocop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "Rubocop"
+    },
+    {
+      "context_snippet": "[Arbre][docs] makes it easy to generate HTML directly in Ruby. This gem was extracted from [Active Admin](https://github.com/activeadmin/activeadmin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activeadmin"
+    },
+    {
+      "context_snippet": "[Arbre][docs] makes it easy to generate HTML directly in Ruby. This gem was extracted from [Active Admin](https://github.com/activeadmin/activeadmin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbre"
+    },
+    {
+      "context_snippet": "[Arbre][docs] makes it easy to generate HTML directly in Ruby. This gem was extracted from [Active Admin](https://github.com/activeadmin/activeadmin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[Arbre][docs] makes it easy to generate HTML directly in Ruby. This gem was extracted from [Active Admin](https://github.com/activeadmin/activeadmin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

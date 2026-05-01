@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "midi-parser-js"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colxi/midi-parser-js",
+      "status": "candidate-context",
+      "text": "JSON Human readable MIDI sequences. Read from ArrayBuffers, Base64 encoded strings, or FileInput Element in Browsers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colxi/midi-parser-js",
+      "status": "candidate-context",
+      "text": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colxi/midi-parser-js",
+      "status": "candidate",
+      "text": "![logo](https://colxi.info/midi-parser-js/docs/logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "midi-parser-js",
+  "concept_id": "midi-parser-js",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "colxi/midi-parser-js"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midi-parser-js",
+      "sense_id": "midi-parser-js#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

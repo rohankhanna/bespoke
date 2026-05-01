@@ -43,6 +43,42 @@
       "source_repo": "mfussenegger/nvim-dap",
       "status": "candidate-context",
       "text": "`nvim-dap` is a Debug Adapter Protocol client implementation for [Neovim][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "Mirror of https://codeberg.org/mfussenegger/nvim-dap-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate-context",
+      "text": "OCaml debug adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate-context",
+      "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svaante/dape",
+      "status": "candidate-context",
+      "text": "Debug Adapter Protocol for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svaante/dape",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "mfussenegger/nvim-dap",
       "status": "candidate",
       "text": "`nvim-dap` is a Debug Adapter Protocol client implementation for [Neovim][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate",
+      "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svaante/dape",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mfussenegger/nvim-dap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-dap-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hackwaly/ocamlearlybird"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "svaante/dape"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

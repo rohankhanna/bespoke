@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build font files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "Build font files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate",
+      "text": "Build font files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34249,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34249,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18308,
+      "status": "candidate",
+      "text": "hint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18306,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18306,
+      "status": "candidate",
+      "text": "compiling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build font files",
+  "concept_id": "build-font-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build font files",
+      "sense_id": "build-font-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -532,6 +532,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mobile.yml",
       "source_repo": "holochain/holochain-wasmer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-pr.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI-push.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-hotfix-tag.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cypress-tests-runner.yml",
+      "source_repo": "juspay/hyperswitch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fulmicoton-dd/datasketches-rust"
     }
   ]
 }

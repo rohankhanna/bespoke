@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:04:21.460049+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 5050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Concat-ID: Towards Universal Identity-Preserving Video Synthesis",
+    "fork": false,
+    "full_name": "ML-GSAI/Concat-ID",
+    "html_url": "https://github.com/ML-GSAI/Concat-ID",
+    "language": "Python",
+    "pushed_at": "2025-05-07T07:38:44Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-04-13T06:53:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

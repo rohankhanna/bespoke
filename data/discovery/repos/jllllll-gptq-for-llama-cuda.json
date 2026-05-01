@@ -1,0 +1,391 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "oobabooga/gptq-for-llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "wapamario63/gptq-for-llama-rocm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "fminference/flexgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "Build ROCm Wheels & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "svenstaro/upload-release-action@2.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "Build Wheels & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "Build ROCm Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "conda-incubator/setup-miniconda@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "target": "Build Wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:14:20.785643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10287
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/build-wheels-release-rocm.yml",
+      "size": 3700
+    },
+    {
+      "path": ".github/workflows/build-wheels-release.yml",
+      "size": 4047
+    },
+    {
+      "path": ".github/workflows/build-wheels-rocm.yml",
+      "size": 2709
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 3054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A combination of Oobabooga's fork and the main cuda branch of GPTQ-for-LLaMa in a package format.",
+    "fork": false,
+    "full_name": "jllllll/GPTQ-for-LLaMa-CUDA",
+    "html_url": "https://github.com/jllllll/GPTQ-for-LLaMa-CUDA",
+    "language": "Python",
+    "pushed_at": "2023-10-06T21:55:14Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-01-09T23:54:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fminference/flexgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/gptq-for-llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wapamario63/gptq-for-llama-rocm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build ROCm Wheels & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "term": "Build ROCm Wheels & Release"
+    },
+    {
+      "context_snippet": "Build Wheels & Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "term": "Build Wheels & Release"
+    },
+    {
+      "context_snippet": "Build ROCm Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "term": "Build ROCm Wheels"
+    },
+    {
+      "context_snippet": "Build Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "term": "Build Wheels"
+    }
+  ]
+}

@@ -199,6 +199,18 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "Mirror of https://codeberg.org/mfussenegger/nvim-dap-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "kahliburke/Kaimon.jl",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +520,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-dap-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

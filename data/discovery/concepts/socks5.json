@@ -19,6 +19,18 @@
       "source_repo": "apernet/hysteria",
       "status": "candidate-context",
       "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate-context",
+      "text": "Unified proxy manager for bypassing firewalls - supports Paqet (KCP/raw socket) and GFW-Knocker (violated TCP/QUIC) with dual-backend simultaneous operation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apernet/hysteria",
       "status": "candidate",
       "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "apernet/hysteria"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SamNet-dev/paqctl"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

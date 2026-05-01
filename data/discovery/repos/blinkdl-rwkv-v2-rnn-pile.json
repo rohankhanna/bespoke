@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:07:08.792437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RWKV-v2-RNN trained on the Pile. See https://github.com/BlinkDL/RWKV-LM for details.",
+    "fork": false,
+    "full_name": "BlinkDL/RWKV-v2-RNN-Pile",
+    "html_url": "https://github.com/BlinkDL/RWKV-v2-RNN-Pile",
+    "language": "Python",
+    "pushed_at": "2022-09-14T13:52:57Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-11-19T11:26:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

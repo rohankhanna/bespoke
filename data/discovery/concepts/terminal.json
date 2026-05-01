@@ -1675,6 +1675,30 @@
       "source_repo": "ajayd-san/gomanagedocker",
       "status": "candidate-context",
       "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate-context",
+      "text": "htop - an interactive process viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/htop-dev/htop/workflows/CI/badge.svg)](https://github.com/htop-dev/htop/actions)"
     }
   ],
   "candidate_glosses": [
@@ -2511,6 +2535,18 @@
       "source_repo": "ajayd-san/gomanagedocker",
       "status": "candidate",
       "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "[![Docs stable](https://img.shields.io/badge/docs-stable-blue.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "htop-dev/htop",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/htop-dev/htop/workflows/CI/badge.svg)](https://github.com/htop-dev/htop/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -3838,11 +3874,89 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "htop-dev/htop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -199,6 +199,18 @@
       "source_repo": "lucidrains/imagen-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./imagen.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate-context",
+      "text": "MinImagen: A minimal implementation of the Imagen text-to-image model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "lucidrains/imagen-pytorch",
       "status": "candidate",
       "text": "<img src=\"./imagen.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +418,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "lucidrains/imagen-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

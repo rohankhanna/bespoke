@@ -139,6 +139,18 @@
       "source_repo": "apernet/hysteria",
       "status": "candidate-context",
       "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "FSharp implementation of Facebook GraphQL query language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql)."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "apernet/hysteria",
       "status": "candidate",
       "text": "[![License][1]][2] [![Release][3]][4] [![Telegram][5]][6] [![Discussions][7]][8]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate",
+      "text": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql)."
     }
   ],
   "candidate_related_terms": [
@@ -360,11 +378,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

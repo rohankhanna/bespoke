@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmml/jpmml-r",
+      "target": "jpmml/r2pmml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-r",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-r",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-r",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:58:50.272270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8798
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java library and command-line application for converting R models to PMML",
+    "fork": false,
+    "full_name": "jpmml/jpmml-r",
+    "html_url": "https://github.com/jpmml/jpmml-r",
+    "language": "Java",
+    "pushed_at": "2026-04-27T10:08:53Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-27T10:09:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpmml/r2pmml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "maven"
+    }
+  ]
+}

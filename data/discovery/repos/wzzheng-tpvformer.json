@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/TPVFormer",
+      "target": "huang-yh/gaussianformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/TPVFormer",
+      "target": "wzzheng/occworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/TPVFormer",
+      "target": "huang-yh/selfocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/TPVFormer",
+      "target": "weiyithu/surroundocc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:57.698790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7764
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] An academic alternative to Tesla's occupancy network for autonomous driving.",
+    "fork": false,
+    "full_name": "wzzheng/TPVFormer",
+    "html_url": "https://github.com/wzzheng/TPVFormer",
+    "language": "Python",
+    "pushed_at": "2024-09-07T04:25:37Z",
+    "stargazers_count": 1344,
+    "topics": [],
+    "updated_at": "2026-04-30T03:33:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huang-yh/gaussianformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huang-yh/selfocc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiyithu/surroundocc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzzheng/occworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

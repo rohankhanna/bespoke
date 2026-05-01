@@ -416,7 +416,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:10:03.060247+00:00",
+  "fetched_at": "2026-05-01T13:44:05.816144+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -452,7 +452,7 @@
     "full_name": "jawah/charset_normalizer",
     "html_url": "https://github.com/jawah/charset_normalizer",
     "language": "Python",
-    "pushed_at": "2026-04-03T04:38:35Z",
+    "pushed_at": "2026-05-01T10:13:42Z",
     "stargazers_count": 768,
     "topics": [
       "chardet",

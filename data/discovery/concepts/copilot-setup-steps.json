@@ -680,6 +680,66 @@
       "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
       "status": "candidate-context",
       "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "status": "candidate-context",
+      "text": "Deploy a detailed DevEx metrics dashboards, combining DORA and AI adoption to show ROI. gh-devlake is a GitHub CLI extension for deploying and configuring Apache DevLake which is the platform that aggregates all these metrics easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sysadminsmedia/homebox",
+      "status": "candidate-context",
+      "text": "A continuation of HomeBox the inventory and organization system built for the Home User"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sysadminsmedia/homebox",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "FSharp implementation of Facebook GraphQL query language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -1016,6 +1076,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/Generative-AI-for-beginners-dotnet",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sysadminsmedia/homebox",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
       "status": "candidate",
       "text": "\"Copilot Setup Steps\""
     }
@@ -1409,11 +1499,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "microsoft/Generative-AI-for-beginners-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/dist-archive-command"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wasmerio/wasmer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "DevExpGbb/gh-devlake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

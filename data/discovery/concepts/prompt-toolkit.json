@@ -43,6 +43,18 @@
       "source_repo": "thunlp/PromptPapers",
       "status": "candidate-context",
       "text": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "A Python module for common interactive command line user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "PythonInquirer"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "thunlp/PromptPapers",
       "status": "candidate",
       "text": "![](https://img.shields.io/github/last-commit/thunlp/PromptPapers?color=green) ![](https://img.shields.io/badge/PaperNumber-65-brightgreen) ![](https://img.shields.io/badge/PRs-Welcome-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate",
+      "text": "PythonInquirer"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

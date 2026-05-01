@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish new generation SDKs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate-context",
+      "text": "Visual Development for React, Vue, Svelte, Qwik, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate-context",
+      "text": "Publish new generation SDKs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate",
+      "text": "Publish new generation SDKs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36243,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35933,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35933,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34206,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012,
+      "status": "candidate",
+      "text": "cards"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish new generation SDKs",
+  "concept_id": "publish-new-generation-sdks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-sdks.yml",
+      "source_repo": "BuilderIO/builder"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish new generation SDKs",
+      "sense_id": "publish-new-generation-sdks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

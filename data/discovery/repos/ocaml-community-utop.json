@@ -23,34 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-community/utop",
-      "target": "bbatsov/neocaml",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-community/utop",
-      "target": "ocaml-community/lambda-term",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-community/utop",
-      "target": "ocaml-community/zed",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-community/utop",
-      "target": "mirage/ocaml-uri",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-dune.yml",
       "source_repo": "ocaml-community/utop",
@@ -93,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T01:11:46.161156+00:00",
+  "fetched_at": "2026-05-01T14:44:52.318306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -122,28 +94,7 @@
     "topics": [],
     "updated_at": "2026-04-30T01:55:29Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bbatsov/neocaml",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mirage/ocaml-uri",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ocaml-community/lambda-term",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ocaml-community/zed",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build on Dune PM",

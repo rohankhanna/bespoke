@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "dryioc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "maui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prism-avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prismavalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prismlibrary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "suess-labs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "suesslabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "uno-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin-forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin-uwp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xeno-innovations",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "DamianSuess/Learn.PrismLibrary"
+}

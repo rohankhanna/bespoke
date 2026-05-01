@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-go-netaddrs.yaml",
       "source_repo": "hashicorp/go-netaddrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automatic-pr-update.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa"
     }
   ]
 }

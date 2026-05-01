@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:39:30.820397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build2 package of the \"Modern C++ JSON\" library.",
+    "fork": false,
+    "full_name": "build2-packaging/nlohmann-json",
+    "html_url": "https://github.com/build2-packaging/nlohmann-json",
+    "language": "C++",
+    "pushed_at": "2025-07-01T17:26:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-01T17:22:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

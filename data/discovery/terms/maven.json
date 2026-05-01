@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -76,6 +76,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "jpmml/jpmml-xgboost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-r"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sparkml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-transpiler"
     }
   ],
   "term": "maven"

@@ -67,6 +67,18 @@
       "source_repo": "vikashplus/robohive",
       "status": "candidate-context",
       "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/ibc",
+      "status": "candidate-context",
+      "text": "Official implementation of Implicit Behavioral Cloning, as described in our CoRL 2021 paper, see more at https://implicitbc.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/ibc",
+      "status": "candidate-context",
+      "text": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "vikashplus/robohive",
       "status": "candidate",
       "text": "<!-- ================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/ibc",
+      "status": "candidate",
+      "text": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +172,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mila-iqia/babyai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-research/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

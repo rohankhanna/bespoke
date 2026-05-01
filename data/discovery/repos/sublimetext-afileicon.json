@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "file-icons/atom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "deathaxe/sublime-a-file-icon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "sublime-text-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "sublime-text-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SublimeText/AFileIcon",
+      "target": "sublime-text-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:55:38.483660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5582
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 134
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sublime Text File-Specific Icons for Improved Visual Grepping",
+    "fork": true,
+    "full_name": "SublimeText/AFileIcon",
+    "html_url": "https://github.com/SublimeText/AFileIcon",
+    "language": "Python",
+    "pushed_at": "2026-04-09T16:42:15Z",
+    "stargazers_count": 281,
+    "topics": [
+      "sublime-text",
+      "sublime-text-icons",
+      "sublime-text-package",
+      "sublime-text-theme"
+    ],
+    "updated_at": "2026-04-09T16:00:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deathaxe/sublime-a-file-icon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "file-icons/atom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![preview][img-logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "![preview][img-logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-icons"
+    },
+    {
+      "context_snippet": "![preview][img-logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-package"
+    },
+    {
+      "context_snippet": "![preview][img-logo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-theme"
+    }
+  ]
+}

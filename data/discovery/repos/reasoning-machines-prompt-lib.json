@@ -2,6 +2,13 @@
   "components": [],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "damnever/pigar.",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib",
@@ -37,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:16:03.431469+00:00",
+  "fetched_at": "2026-05-01T14:48:51.837423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,7 +75,13 @@
     ],
     "updated_at": "2026-04-08T16:51:53Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnever/pigar.",
+      "source_file": "requirements.txt"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "- A library for hassle-free few-shot prompting.",

@@ -1,0 +1,17 @@
+{
+  "component": "suzuki-shunsuke/go-test-full-workflow/.github/workflows/test.yaml@e442a17816baa8a940edc1544cc6e739d870e165",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn"
+    }
+  ]
+}

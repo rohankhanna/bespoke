@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Branch Alias"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Check Branch Alias"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate",
+      "text": "Check Branch Alias"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20395,
+      "status": "candidate",
+      "text": "handle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20363,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20363,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19807,
+      "status": "candidate",
+      "text": "joystick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19807,
+      "status": "candidate",
+      "text": "lever"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Branch Alias",
+  "concept_id": "check-branch-alias",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-branch-alias.yml",
+      "source_repo": "wp-cli/dist-archive-command"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Branch Alias",
+      "sense_id": "check-branch-alias#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

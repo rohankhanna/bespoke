@@ -379,6 +379,30 @@
       "source_repo": "tracyone/program_font",
       "status": "candidate-context",
       "text": "fonts for programmer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "The iconic font and CSS toolkit. Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +591,18 @@
       "source_repo": "tracyone/program_font",
       "status": "candidate",
       "text": "fonts for programmer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate",
+      "text": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08"
     }
   ],
   "candidate_related_terms": [
@@ -862,11 +898,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "belluzj/fantasque-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kenangundogan/fontisto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenKai"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

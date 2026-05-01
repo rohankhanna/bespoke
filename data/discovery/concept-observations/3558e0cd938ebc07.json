@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa5      Make videos programmatically with React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Discord notifications"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Discord notifications"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "clashing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "conflict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "confrontation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10853,
+      "status": "candidate",
+      "text": "contention"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Discord notifications",
+      "sense_id": "discord-notifications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "discord-notifications",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "discord-notifications",
+  "observation_id": "3558e0cd938ebc07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Discord notifications",
+  "source_context_snippet": "Discord notifications",
+  "source_file": ".github/workflows/discord.yml",
+  "source_repo": "remotion-dev/remotion",
+  "source_repo_description": "\ud83c\udfa5      Make videos programmatically with React"
+}

@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateMarkdown.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "nschum/swifthamcrest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updateMarkdown.yml",
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "hamcrest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hamcrest/OCHamcrest",
+      "target": "xctest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:59:05.063662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11079
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3767
+    },
+    {
+      "path": ".github/workflows/updateMarkdown.yml",
+      "size": 800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hamcrest for Objective-C: Powerful, combinable, extensible matchers for verification",
+    "fork": false,
+    "full_name": "hamcrest/OCHamcrest",
+    "html_url": "https://github.com/hamcrest/OCHamcrest",
+    "language": "Objective-C",
+    "pushed_at": "2026-04-18T16:46:17Z",
+    "stargazers_count": 713,
+    "topics": [
+      "hamcrest",
+      "objective-c",
+      "testing",
+      "xctest"
+    ],
+    "updated_at": "2026-04-18T16:46:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nschum/swifthamcrest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![ochamcrest](http://hamcrest.org/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hamcrest"
+    },
+    {
+      "context_snippet": "![ochamcrest](http://hamcrest.org/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "![ochamcrest](http://hamcrest.org/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "![ochamcrest](http://hamcrest.org/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xctest"
+    }
+  ]
+}

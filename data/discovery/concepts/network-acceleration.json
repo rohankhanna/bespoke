@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "network-acceleration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtaci/kcptun",
+      "status": "candidate-context",
+      "text": "Reliable UDP Transmission Optimizer based on KCP: Enhancing network efficiency in poor connectivity environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtaci/kcptun",
+      "status": "candidate-context",
+      "text": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtaci/kcptun",
+      "status": "candidate",
+      "text": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "network-acceleration",
+  "concept_id": "network-acceleration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "network-acceleration",
+      "sense_id": "network-acceleration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

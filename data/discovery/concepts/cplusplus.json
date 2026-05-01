@@ -235,6 +235,30 @@
       "source_repo": "apache/thrift",
       "status": "candidate-context",
       "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c42f/tinyformat",
+      "status": "candidate-context",
+      "text": "Minimal, type safe printf replacement library for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c42f/tinyformat",
+      "status": "candidate-context",
+      "text": "**tinyformat.h** is a type safe printf replacement library in a single C++"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate-context",
+      "text": "C++ package retrieval"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate-context",
+      "text": "cget"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +375,18 @@
       "source_repo": "apache/thrift",
       "status": "candidate",
       "text": "Apache Thrift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c42f/tinyformat",
+      "status": "candidate",
+      "text": "**tinyformat.h** is a type safe printf replacement library in a single C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfultz2/cget",
+      "status": "candidate",
+      "text": "cget"
     }
   ],
   "candidate_related_terms": [],
@@ -604,11 +640,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "c42f/tinyformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pfultz2/cget"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

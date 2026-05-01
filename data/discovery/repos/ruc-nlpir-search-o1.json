@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "target": "aimo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "target": "gpqa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "target": "livecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:10:25.454862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11080
+    },
+    {
+      "path": "requirements.txt",
+      "size": 103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd0d Search-o1: Agentic Search-Enhanced Large Reasoning Models [EMNLP 2025]",
+    "fork": false,
+    "full_name": "RUC-NLPIR/Search-o1",
+    "html_url": "https://github.com/RUC-NLPIR/Search-o1",
+    "language": "Python",
+    "pushed_at": "2025-11-17T08:56:42Z",
+    "stargazers_count": 1216,
+    "topics": [
+      "aimo",
+      "amc",
+      "gpqa",
+      "livecode",
+      "math",
+      "o1",
+      "qwq",
+      "r1",
+      "rag",
+      "reasoning"
+    ],
+    "updated_at": "2026-04-27T07:43:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aimo"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpqa"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livecode"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

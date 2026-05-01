@@ -19,6 +19,18 @@
       "source_repo": "qwertyforce/ambience",
       "status": "candidate-context",
       "text": "reverse image search and similarity search engine <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleClas",
+      "status": "candidate-context",
+      "text": "A treasure chest for visual classification and recognition powered by PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleClas",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "qwertyforce/ambience",
       "status": "candidate",
       "text": "reverse image search and similarity search engine <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleClas",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "qwertyforce/ambience"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

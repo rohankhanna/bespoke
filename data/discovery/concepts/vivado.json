@@ -19,6 +19,18 @@
       "source_repo": "f4pga/prjxray",
       "status": "candidate-context",
       "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate-context",
+      "text": "Build Customized FPGA Implementations for Vivado"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate-context",
+      "text": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "f4pga/prjxray",
       "status": "candidate",
       "text": "[![Documentation Status](https://img.shields.io/readthedocs/prjxray?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff)](http://prjxray.readthedocs.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate",
+      "text": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "f4pga/prjxray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Xilinx/RapidWright"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

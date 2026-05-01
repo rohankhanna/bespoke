@@ -55,6 +55,18 @@
       "source_repo": "superedge/edgeadm",
       "status": "candidate-context",
       "text": "FOSSA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux",
+      "status": "candidate-context",
+      "text": "Successor: https://github.com/fluxcd/flux2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux",
+      "status": "candidate-context",
+      "text": "FOSSA"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "superedge/edgeadm",
+      "status": "candidate",
+      "text": "FOSSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux",
       "status": "candidate",
       "text": "FOSSA"
     }
@@ -177,11 +195,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/fossa.yaml",
       "source_repo": "superedge/edgeadm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "fluxcd/flux"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

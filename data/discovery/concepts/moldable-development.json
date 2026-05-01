@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "moldable-development"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Moldable Live Programming for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate-context",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "moldable-development",
+  "concept_id": "moldable-development",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nextjournal/clerk"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "moldable-development",
+      "sense_id": "moldable-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

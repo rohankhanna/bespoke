@@ -757,6 +757,18 @@
       "source_repo": "ehmicky/preferred-node-version",
       "status": "candidate-context",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "status": "candidate-context",
+      "text": "Learning Bash Scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "status": "candidate-context",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
     }
   ],
   "candidate_glosses": [
@@ -1131,6 +1143,12 @@
       "source_repo": "ehmicky/preferred-node-version",
       "status": "candidate",
       "text": "[![Node](https://img.shields.io/badge/-Node.js-808080?logo=node.js&colorA=404040&logoColor=66cc33)](https://www.npmjs.com/package/preferred-node-version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
     }
   ],
   "candidate_related_terms": [
@@ -1798,11 +1816,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-bash-scripts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

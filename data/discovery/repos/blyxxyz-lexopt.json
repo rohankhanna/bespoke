@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "blyxxyz/lexopt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt",
+      "target": "getopt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:44.565610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6811
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 510
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimalist pedantic command line parser",
+    "fork": false,
+    "full_name": "blyxxyz/lexopt",
+    "html_url": "https://github.com/blyxxyz/lexopt",
+    "language": "Rust",
+    "pushed_at": "2026-02-28T22:40:58Z",
+    "stargazers_count": 387,
+    "topics": [
+      "argument-parser",
+      "command-line",
+      "getopt",
+      "rust"
+    ],
+    "updated_at": "2026-04-16T05:02:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "getopt"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

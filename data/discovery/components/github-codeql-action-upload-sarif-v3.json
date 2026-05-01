@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bicep-audit.yml",
       "source_repo": "Azure-Samples/container-apps-jobs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local"
     }
   ]
 }

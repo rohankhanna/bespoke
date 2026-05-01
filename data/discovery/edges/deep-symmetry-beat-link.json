@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/beat-link-trigger",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/beat-carabiner-java",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/electro",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/crate-digger",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/jar.yml",
       "source_repo": "Deep-Symmetry/beat-link",
@@ -99,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "Deep-Symmetry/beat-link"
 }

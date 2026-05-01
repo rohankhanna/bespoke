@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "Bekaboo/dropbar.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "lumen-oss/rocks-lazy.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yaml",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
     }
   ],
   "term": "Push to Luarocks"

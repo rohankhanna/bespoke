@@ -79,6 +79,18 @@
       "source_repo": "hardcodet/wpf-notifyicon",
       "status": "candidate-context",
       "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate-context",
+      "text": "Modern React UI library \ud83d\udc85\ud83d\udc69\u200d\ud83c\udfa4\ud83c\udf6d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate-context",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "hardcodet/wpf-notifyicon",
       "status": "candidate",
       "text": ":rocket: **This is the new official repository of the Hardcodet WPF NotifyIcon** :rocket:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hardcodet/wpf-notifyicon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "smooth-code/smooth-ui"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

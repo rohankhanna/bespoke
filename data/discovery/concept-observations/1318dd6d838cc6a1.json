@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[READ-ONLY] Official Appwrite SDK for Apple Devices \ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-apple.svg?color=green&style=flat-square)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-apple.svg?color=green&style=flat-square)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "1318dd6d838cc6a1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-apple.svg?color=green&style=flat-square)",
+  "source_file": null,
+  "source_repo": "appwrite/sdk-for-apple",
+  "source_repo_description": "[READ-ONLY] Official Appwrite SDK for Apple Devices \ud83c\udf4e"
+}

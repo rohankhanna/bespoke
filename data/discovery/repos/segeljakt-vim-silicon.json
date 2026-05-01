@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "segeljakt/vim-silicon",
+      "target": "aloxaf/silicon.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:17.023661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin for generating images of source code using https://github.com/Aloxaf/silicon",
+    "fork": false,
+    "full_name": "segeljakt/vim-silicon",
+    "html_url": "https://github.com/segeljakt/vim-silicon",
+    "language": "Vim script",
+    "pushed_at": "2024-02-19T10:04:21Z",
+    "stargazers_count": 414,
+    "topics": [],
+    "updated_at": "2026-03-05T03:23:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aloxaf/silicon.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

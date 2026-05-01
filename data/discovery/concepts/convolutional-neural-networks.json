@@ -127,6 +127,30 @@
       "source_repo": "iduta/iresnet",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filipradenovic/cnnimageretrieval",
+      "status": "candidate-context",
+      "text": "CNN Image Retrieval in MatConvNet: Training and evaluating CNNs for Image Retrieval in MatConvNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/cnnimageretrieval",
+      "status": "candidate-context",
+      "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "Hardnet descriptor model - \"Working hard to know your neighbor's margins:  Local descriptor learning loss\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "iduta/iresnet",
       "status": "candidate",
       "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/cnnimageretrieval",
+      "status": "candidate",
+      "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +334,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "filipradenovic/cnnimageretrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DagnyT/hardnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

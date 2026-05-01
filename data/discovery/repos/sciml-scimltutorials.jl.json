@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "sciml/scimlstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "sciml/scimltutorialsoutput",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "differentialequations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "neural-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "neural-ode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "ordinary-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "partial-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "scientific-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "sciml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "target": "stochastic-differential-equations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:43:09.234499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4774
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tutorials for doing scientific machine learning (SciML) and high-performance differential equation solving with open source software.",
+    "fork": false,
+    "full_name": "SciML/SciMLTutorials.jl",
+    "html_url": "https://github.com/SciML/SciMLTutorials.jl",
+    "language": "CSS",
+    "pushed_at": "2025-12-29T04:05:14Z",
+    "stargazers_count": 739,
+    "topics": [
+      "dae",
+      "dde",
+      "differential-equations",
+      "differentialequations",
+      "hacktoberfest",
+      "julia",
+      "neural-differential-equations",
+      "neural-ode",
+      "ode",
+      "ordinary-differential-equations",
+      "partial-differential-equations",
+      "pde",
+      "python",
+      "r",
+      "scientific-machine-learning",
+      "sciml",
+      "sde",
+      "stochastic-differential-equations"
+    ],
+    "updated_at": "2026-04-23T18:40:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sciml/scimlstyle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sciml/scimltutorialsoutput",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differential-equations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentialequations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-differential-equations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-ode"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ordinary-differential-equations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "partial-differential-equations"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-machine-learning"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sciml"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stochastic-differential-equations"
+    }
+  ]
+}

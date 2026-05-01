@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -542,6 +542,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/end2end_test.yml",
       "source_repo": "lightly-ai/lightly-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-native-tls/rust-native-tls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview.yml",
+      "source_repo": "TuringLang/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TuringLang/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebook/proxygen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/getdeps_mac.yml",
+      "source_repo": "facebook/proxygen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-ci-windows.yml",
+      "source_repo": "mostlygeek/llama-swap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "mostlygeek/llama-swap"
     }
   ]
 }

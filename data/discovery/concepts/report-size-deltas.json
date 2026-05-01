@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Report Size Deltas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Ethernet Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Report Size Deltas"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Servo Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Report Size Deltas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate",
+      "text": "Report Size Deltas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate",
+      "text": "Report Size Deltas"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22497,
+      "status": "candidate",
+      "text": "barometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22440,
+      "status": "candidate",
+      "text": "contrasted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22440,
+      "status": "candidate",
+      "text": "contrasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "asin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "compare"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Report Size Deltas",
+  "concept_id": "report-size-deltas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "source_repo": "arduino-libraries/Ethernet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "source_repo": "arduino-libraries/Servo"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Report Size Deltas",
+      "sense_id": "report-size-deltas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

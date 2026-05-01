@@ -70,6 +70,30 @@
       "source_repo": "libarchive/libarchive",
       "status": "candidate-context",
       "text": "The libarchive project develops a portable, efficient C library that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustmailer/bichon",
+      "status": "candidate-context",
+      "text": "Bichon \u2013 A lightweight, high-performance Rust email archiver with WebUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/bichon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate-context",
+      "text": "Official s3cmd repo -- Command line tool for managing S3 compatible storage services (including Amazon S3 and CloudFront)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "libarchive/libarchive",
       "status": "candidate",
       "text": "The libarchive project develops a portable, efficient C library that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustmailer/bichon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +301,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rustmailer/bichon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

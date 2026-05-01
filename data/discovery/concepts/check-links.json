@@ -142,6 +142,18 @@
       "source_repo": "alrra/browser-logos",
       "status": "candidate-context",
       "text": "Check links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "The documentation for Fern (kind of meta, eh?)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "Check Links"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "alrra/browser-logos",
       "status": "candidate",
       "text": "Check links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate",
+      "text": "Check Links"
     }
   ],
   "candidate_related_terms": [
@@ -373,11 +391,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/check-links.yml",
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "fern-api/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

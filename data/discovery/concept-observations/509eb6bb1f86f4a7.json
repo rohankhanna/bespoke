@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create tag on hotfix branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create tag on hotfix branch"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31864,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31669,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31669,
+      "status": "candidate",
+      "text": "spring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "splash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "splashed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create tag on hotfix branch",
+      "sense_id": "create-tag-on-hotfix-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-tag-on-hotfix-branch",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-tag-on-hotfix-branch",
+  "observation_id": "509eb6bb1f86f4a7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Create tag on hotfix branch",
+  "source_context_snippet": "Create tag on hotfix branch",
+  "source_file": ".github/workflows/create-hotfix-tag.yml",
+  "source_repo": "juspay/hyperswitch",
+  "source_repo_description": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cleanup issue comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cleanup issue comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21167,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21167,
+      "status": "candidate",
+      "text": "epa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21167,
+      "status": "candidate",
+      "text": "vac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20434,
+      "status": "candidate",
+      "text": "fourth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20208,
+      "status": "candidate",
+      "text": "discussion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup issue comment",
+      "sense_id": "cleanup-issue-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cleanup-issue-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cleanup-issue-comment",
+  "observation_id": "d0e8f227be5d007c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Cleanup issue comment",
+  "source_context_snippet": "Cleanup issue comment",
+  "source_file": ".github/workflows/issue-cleanup.yml",
+  "source_repo": "mui/material-ui",
+  "source_repo_description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+}

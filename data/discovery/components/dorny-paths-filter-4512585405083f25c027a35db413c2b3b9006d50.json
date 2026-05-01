@@ -1,0 +1,17 @@
+{
+  "component": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa"
+    }
+  ]
+}

@@ -43,6 +43,30 @@
       "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
       "status": "candidate-context",
       "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "status": "candidate-context",
+      "text": "Official pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "status": "candidate-context",
+      "text": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "status": "candidate-context",
+      "text": "The project is an official implement of our ECCV2018 paper  \"Simple Baselines for Human Pose Estimation and Tracking(https://arxiv.org/abs/1804.06208)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "status": "candidate-context",
+      "text": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch",
       "status": "candidate",
       "text": "- [2021/04/12] Welcome to check out our recent work on bottom-up pose estimation (CVPR 2021) [HRNet-DEKR](https://github.com/HRNet/DEKR)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "status": "candidate",
+      "text": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "status": "candidate",
+      "text": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "leoxiaobin/deep-high-resolution-net.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/human-pose-estimation.pytorch"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -193,6 +193,30 @@
       "source_repo": "ikatyang/tree-sitter-markdown",
       "status": "candidate-context",
       "text": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate-context",
+      "text": "A \"just works\" tree-sitter setup for rocks.nvim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nimterop/nimterop",
+      "status": "candidate-context",
+      "text": "Nimterop is a Nim package that aims to make C/C++ interop seamless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nimterop/nimterop",
+      "status": "candidate-context",
+      "text": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +315,18 @@
       "source_repo": "ikatyang/tree-sitter-markdown",
       "status": "candidate",
       "text": "[![npm](https://img.shields.io/npm/v/tree-sitter-markdown.svg)](https://www.npmjs.com/package/tree-sitter-markdown)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nimterop/nimterop",
+      "status": "candidate",
+      "text": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +460,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ikatyang/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nimterop/nimterop"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

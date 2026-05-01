@@ -1,7 +1,7 @@
 {
   "component": "actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-latest.yml",
       "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huggingface/xet-core"
     }
   ]
 }

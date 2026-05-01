@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v3",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -242,6 +242,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/module_appservice_publish_imageservice.yaml",
       "source_repo": "beclab/Olares"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman"
     }
   ]
 }

@@ -139,6 +139,18 @@
       "source_repo": "ilyachur/gtest-vim",
       "status": "candidate-context",
       "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alixdehghani/echarts-for-angular",
+      "status": "candidate-context",
+      "text": "Angular Directive for Apache ECharts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixdehghani/echarts-for-angular",
+      "status": "candidate-context",
+      "text": "Greetings"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ilyachur/gtest-vim",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixdehghani/echarts-for-angular",
       "status": "candidate",
       "text": "Greetings"
     }
@@ -346,11 +364,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "alixdehghani/echarts-for-angular"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

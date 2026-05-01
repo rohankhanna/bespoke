@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conservationtechlab/animl-py",
+      "target": "conservationtechlab/animl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:58.759824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7933
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Animl comprises a variety of machine learning tools for analyzing ecological data. This Python package includes a set of functions to classify subjects within camera trap field data and can handle both images and videos. ",
+    "fork": false,
+    "full_name": "conservationtechlab/animl-py",
+    "html_url": "https://github.com/conservationtechlab/animl-py",
+    "language": "Python",
+    "pushed_at": "2026-04-30T21:07:14Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-03-26T23:13:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conservationtechlab/animl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

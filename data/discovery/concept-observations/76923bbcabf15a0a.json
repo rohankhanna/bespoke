@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f Moldable Live Programming for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028695,
+      "status": "candidate",
+      "text": "notebook computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048556,
+      "status": "candidate",
+      "text": "scrapbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048255,
+      "status": "candidate",
+      "text": "booklet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048032,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048026,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notebook",
+      "sense_id": "notebook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "notebook computer"
+    }
+  ],
+  "concept_id": "notebook",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notebook",
+  "observation_id": "76923bbcabf15a0a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "notebook",
+  "source_context_snippet": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)",
+  "source_file": null,
+  "source_repo": "nextjournal/clerk",
+  "source_repo_description": "\u26a1\ufe0f Moldable Live Programming for Clojure"
+}

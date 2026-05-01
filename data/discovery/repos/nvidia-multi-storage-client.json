@@ -1,0 +1,491 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Beta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default_branch.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:05:25.649052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4399
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 631
+    },
+    {
+      "path": ".github/workflows/.beta.yml",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/.github_pages.yml",
+      "size": 2382
+    },
+    {
+      "path": ".github/workflows/.production.yml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/.pypi.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/.source.yml",
+      "size": 8164
+    },
+    {
+      "path": ".github/workflows/default_branch.yml",
+      "size": 604
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1091
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified high-performance Python client for object and file stores.",
+    "fork": false,
+    "full_name": "NVIDIA/multi-storage-client",
+    "html_url": "https://github.com/NVIDIA/multi-storage-client",
+    "language": "Python",
+    "pushed_at": "2026-05-01T04:49:11Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-05-01T04:49:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Beta",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.beta.yml",
+      "term": "Beta"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "Production",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.production.yml",
+      "term": "Production"
+    },
+    {
+      "context_snippet": "PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.pypi.yml",
+      "term": "PyPI"
+    },
+    {
+      "context_snippet": "Source",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.source.yml",
+      "term": "Source"
+    },
+    {
+      "context_snippet": "Default Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default_branch.yml",
+      "term": "Default Branch"
+    },
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-multimadality-models",
+      "sense_id": "large-multimadality-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "large-multimadality-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "large-multimadality-models",
+  "observation_id": "f9890fbfc2a39fb7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "large-multimadality-models",
+  "source_context_snippet": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)",
+  "source_file": null,
+  "source_repo": "lupantech/MathVista",
+  "source_repo_description": "MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts "
+}

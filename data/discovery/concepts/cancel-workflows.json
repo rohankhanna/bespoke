@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "cancel workflows"
+    "cancel workflows",
+    "Cancel Workflows"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "espnet/espnet",
       "status": "candidate-context",
       "text": "cancel workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "Cancel Workflows"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "espnet/espnet",
       "status": "candidate",
       "text": "cancel workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate",
+      "text": "Cancel Workflows"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cancel_workflows.yml",
       "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cancel-workflows.yml",
+      "source_repo": "prisma/ecosystem-tests"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

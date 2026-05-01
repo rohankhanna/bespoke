@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Code Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Code Security"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19708,
+      "status": "candidate",
+      "text": "fica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "impress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19671,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12186,
+      "status": "candidate",
+      "text": "praseodymium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Code Security",
+      "sense_id": "pr-code-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-code-security",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-code-security",
+  "observation_id": "bfd97d7910d8471f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "PR Code Security",
+  "source_context_snippet": "PR Code Security",
+  "source_file": ".github/workflows/pr-code-security.yml",
+  "source_repo": "prisma/ecosystem-tests",
+  "source_repo_description": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more."
+}

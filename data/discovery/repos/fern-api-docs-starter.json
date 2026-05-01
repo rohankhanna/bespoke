@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "fern-api/setup-fern-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "fern-api/setup-fern-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v2.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "fern-api/setup-fern-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "fern-api/setup-fern-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "fern-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "fern-api/setup-fern-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "thollander/actions-comment-pull-request@v2.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "Preview Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "fern-api/setup-fern-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs-starter",
+      "target": "publish-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs-starter",
+      "target": "api-rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs-starter",
+      "target": "get-started",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs-starter",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs-starter",
+      "target": "openapi-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs-starter",
+      "target": "swagger-documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:00.528845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3205
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 322
+    },
+    {
+      "path": ".github/workflows/preview-docs.yml",
+      "size": 2927
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Publish beautiful documentation from OpenAPI and markdown (MDX)",
+    "fork": false,
+    "full_name": "fern-api/docs-starter",
+    "html_url": "https://github.com/fern-api/docs-starter",
+    "language": "MDX",
+    "pushed_at": "2026-04-29T15:24:39Z",
+    "stargazers_count": 38,
+    "topics": [
+      "api-rest",
+      "get-started",
+      "markdown",
+      "mdx",
+      "openapi-documentation",
+      "swagger-documentation"
+    ],
+    "updated_at": "2026-03-25T02:05:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "fern-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "fern-check"
+    },
+    {
+      "context_snippet": "Preview Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "term": "Preview Docs"
+    },
+    {
+      "context_snippet": "publish-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "publish-docs"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-rest"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "get-started"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-documentation"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger-documentation"
+    }
+  ]
+}

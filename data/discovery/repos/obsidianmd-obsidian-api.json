@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "@types/codemirror",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@codemirror/state",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@codemirror/view",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "obsidianmd/obsidian-api",
+      "target": "obsidianmd/obsidian-sample-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "obsidianmd/obsidian-api",
+      "target": "@types/codemirror",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "obsidianmd/obsidian-api",
+      "target": "moment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "obsidianmd/obsidian-api",
+      "target": "@codemirror/state",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "obsidianmd/obsidian-api",
+      "target": "@codemirror/view",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:50:33.797842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3053
+    },
+    {
+      "path": "package.json",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Type definitions for the latest Obsidian API.",
+    "fork": false,
+    "full_name": "obsidianmd/obsidian-api",
+    "html_url": "https://github.com/obsidianmd/obsidian-api",
+    "language": null,
+    "pushed_at": "2026-02-23T22:38:14Z",
+    "stargazers_count": 2201,
+    "topics": [],
+    "updated_at": "2026-04-30T10:46:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "obsidianmd/obsidian-sample-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

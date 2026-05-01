@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roboll/helmfile",
+      "target": "helmfile/helmfile.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "roboll/helmfile",
+      "target": "jkroepke/helm-secrets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "roboll/helmfile",
+      "target": "hypnoglow/helm-s3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "roboll/helmfile",
+      "target": "aslafy-z/helm-git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboll/helmfile",
+      "target": "chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboll/helmfile",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roboll/helmfile",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:04:14.170295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 315
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2835
+    },
+    {
+      "path": "go.mod",
+      "size": 6973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deploy Kubernetes Helm Charts",
+    "fork": false,
+    "full_name": "roboll/helmfile",
+    "html_url": "https://github.com/roboll/helmfile",
+    "language": "Go",
+    "pushed_at": "2023-04-27T03:45:59Z",
+    "stargazers_count": 4041,
+    "topics": [
+      "chart",
+      "helm",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-17T22:45:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helmfile/helmfile.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aslafy-z/helm-git",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hypnoglow/helm-s3",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jkroepke/helm-secrets",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart"
+    },
+    {
+      "context_snippet": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

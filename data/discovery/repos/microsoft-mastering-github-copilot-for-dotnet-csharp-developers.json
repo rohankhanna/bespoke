@@ -1,0 +1,336 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "csharp-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github-copilot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github-copilot-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github-copilot-for-azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github-copilot-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "github-copilot-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "labs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "tutorial-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "tutorial-exercises",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "tutorials",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:19.750629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13665
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Master GitHub Copilot for C#/.NET development via this curriculum! Learn AI-driven paired programming, optimize your workflow, and write cleaner, faster code.",
+    "fork": false,
+    "full_name": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+    "html_url": "https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+    "language": "C#",
+    "pushed_at": "2025-10-24T08:53:05Z",
+    "stargazers_count": 369,
+    "topics": [
+      "copilot",
+      "csharp",
+      "csharp-code",
+      "dotnet",
+      "github",
+      "github-copilot",
+      "github-copilot-chat",
+      "github-copilot-for-azure",
+      "github-copilot-free",
+      "github-copilot-training",
+      "lab",
+      "labs",
+      "microsoft",
+      "tutorial",
+      "tutorial-code",
+      "tutorial-exercises",
+      "tutorials",
+      "visual-studio-code",
+      "vscode"
+    ],
+    "updated_at": "2026-05-01T12:46:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp-code"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-chat"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-for-azure"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-free"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-training"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labs"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial-code"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial-exercises"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

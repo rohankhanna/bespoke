@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "iconify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Access thousands of icons as components on-demand universally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023550,
+      "status": "candidate",
+      "text": "iconicize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023549,
+      "status": "candidate",
+      "text": "iconise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023548,
+      "status": "candidate",
+      "text": "iconize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023547,
+      "status": "candidate",
+      "text": "thingify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023546,
+      "status": "candidate",
+      "text": "ionicize"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "iconify",
+  "concept_id": "iconify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iconify",
+      "sense_id": "iconify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

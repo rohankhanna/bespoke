@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy your plugin to the WordPress.org repository using GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Deploy your plugin to the WordPress.org repository using GitHub Actions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Deploy your plugin to the WordPress.org repository using GitHub Actions."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021902,
+      "status": "candidate",
+      "text": "blog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021965,
+      "status": "candidate",
+      "text": "mastodon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021964,
+      "status": "candidate",
+      "text": "moodle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021963,
+      "status": "candidate",
+      "text": "mysqler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021962,
+      "status": "candidate",
+      "text": "mainspace"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wordpress",
+      "sense_id": "wordpress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wordpress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wordpress",
+  "observation_id": "86e95332a0cf0234",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "wordpress",
+  "source_context_snippet": "> Deploy your plugin to the WordPress.org repository using GitHub Actions.",
+  "source_file": null,
+  "source_repo": "10up/action-wordpress-plugin-deploy",
+  "source_repo_description": "Deploy your plugin to the WordPress.org repository using GitHub Actions"
+}

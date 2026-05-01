@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "franklin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "julialang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "target": "portfolio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:59.896486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "My personal website and blog made with Franklin.jl.",
+    "fork": false,
+    "full_name": "abhishalya/abhishalya.github.io",
+    "html_url": "https://github.com/abhishalya/abhishalya.github.io",
+    "language": "HTML",
+    "pushed_at": "2021-10-18T04:32:54Z",
+    "stargazers_count": 4,
+    "topics": [
+      "blog",
+      "franklin",
+      "hacktoberfest",
+      "julialang",
+      "portfolio"
+    ],
+    "updated_at": "2023-02-05T09:01:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog"
+    },
+    {
+      "context_snippet": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "franklin"
+    },
+    {
+      "context_snippet": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    },
+    {
+      "context_snippet": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio"
+    }
+  ]
+}

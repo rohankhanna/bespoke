@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cloning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate-context",
+      "text": "Java binary serialization and cloning: fast, efficient, automatic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate-context",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EsotericSoftware/kryo",
+      "status": "candidate",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019610,
+      "status": "candidate",
+      "text": "copying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019363,
+      "status": "candidate",
+      "text": "replication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005071,
+      "status": "candidate",
+      "text": "photocopying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946441,
+      "status": "candidate",
+      "text": "isolation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861553,
+      "status": "candidate",
+      "text": "reproducing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cloning",
+  "concept_id": "cloning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloning",
+      "sense_id": "cloning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

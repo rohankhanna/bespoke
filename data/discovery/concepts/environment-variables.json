@@ -67,6 +67,18 @@
       "source_repo": "mrsteele/dotenv-webpack",
       "status": "candidate-context",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theskumar/python-dotenv",
+      "status": "candidate-context",
+      "text": "Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theskumar/python-dotenv",
+      "status": "candidate-context",
+      "text": "[![Build Status][build_status_badge]][build_status_link]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "mrsteele/dotenv-webpack",
       "status": "candidate",
       "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theskumar/python-dotenv",
+      "status": "candidate",
+      "text": "[![Build Status][build_status_badge]][build_status_link]"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mrsteele/dotenv-webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "theskumar/python-dotenv"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

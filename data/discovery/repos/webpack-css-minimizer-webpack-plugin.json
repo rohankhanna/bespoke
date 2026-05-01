@@ -266,21 +266,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "webpack/css-minimizer-webpack-plugin",
-      "target": "nmfr/optimize-css-assets-webpack-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webpack/css-minimizer-webpack-plugin",
       "target": "jakubpawlowicz/clean-css",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webpack/css-minimizer-webpack-plugin",
-      "target": "parcel-bundler/lightningcss",
       "target_type": "repository"
     },
     {
@@ -676,7 +662,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:47:41.177491+00:00",
+  "fetched_at": "2026-05-01T13:40:41.226837+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -719,16 +705,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "jakubpawlowicz/clean-css",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nmfr/optimize-css-assets-webpack-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "parcel-bundler/lightningcss",
       "source_file": "README.md"
     }
   ],

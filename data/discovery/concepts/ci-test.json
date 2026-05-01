@@ -82,6 +82,18 @@
       "source_repo": "Azure/karpenter-provider-azure",
       "status": "candidate-context",
       "text": "CI-TEST"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "We are building an open database of COVID-19 cases with chest X-ray or CT images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "CI Test"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "Azure/karpenter-provider-azure",
       "status": "candidate",
       "text": "CI-TEST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate",
+      "text": "CI Test"
     }
   ],
   "candidate_related_terms": [
@@ -234,11 +252,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/ci-test.yml",
       "source_repo": "Azure/karpenter-provider-azure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ieee8023/covid-chestxray-dataset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci-test.yaml",
+      "source_repo": "aws/karpenter-provider-aws"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

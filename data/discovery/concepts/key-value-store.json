@@ -115,6 +115,18 @@
       "source_repo": "snej/nimdbx",
       "status": "candidate-context",
       "text": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate-context",
+      "text": "A simple, fast and versatile Datalog database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"datalevin logo\""
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "snej/nimdbx",
       "status": "candidate",
       "text": "**April 2023:** In light of statements made by Leonid Yuriev in the [libmdx README](https://abf.io/erthink/libmdbx/blob/master/README.md), I'm abandoning this project and archiving the repo. Namely:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"datalevin logo\""
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

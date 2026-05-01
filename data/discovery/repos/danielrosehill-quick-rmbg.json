@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "target": "background-removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "target": "rembg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:24.768532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5547
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dolphin action for KDE Plasma to quickly invoke RMBG for background removal with support for two-pass and infinite-pass operation modes",
+    "fork": false,
+    "full_name": "danielrosehill/Quick-RMBG",
+    "html_url": "https://github.com/danielrosehill/Quick-RMBG",
+    "language": "Python",
+    "pushed_at": "2025-12-27T12:16:38Z",
+    "stargazers_count": 0,
+    "topics": [
+      "background-removal",
+      "generative-ai",
+      "image-editing",
+      "rembg"
+    ],
+    "updated_at": "2025-12-27T12:17:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt text](banners/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-removal"
+    },
+    {
+      "context_snippet": "![alt text](banners/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "![alt text](banners/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "![alt text](banners/1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rembg"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "nuxt/.github/.github/workflows/needs-reproduction.yml@main",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-labelled.yml",
+      "source_repo": "nuxt/bridge"
+    }
+  ]
+}

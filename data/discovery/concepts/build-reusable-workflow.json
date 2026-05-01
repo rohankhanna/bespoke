@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Build Reusable Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "MDN's frontend since late 2025, built with Web Components, Lit, and SSR for a fast, clean documentation experience. Fred = /fr(ont)e(n)d/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "Build Reusable Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/rari",
+      "status": "candidate-context",
+      "text": "Rari is a Rust-based build system that transforms markdown into structured JSON, powering MDN Web Docs content and translations since 2024."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/rari",
+      "status": "candidate-context",
+      "text": "Build Reusable Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate",
+      "text": "Build Reusable Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/rari",
+      "status": "candidate",
+      "text": "Build Reusable Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29586,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23558,
+      "status": "candidate",
+      "text": "tote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18931,
+      "status": "candidate",
+      "text": "generic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "accumulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "architecture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Reusable Workflow",
+  "concept_id": "build-reusable-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/fred"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Reusable Workflow",
+      "sense_id": "build-reusable-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

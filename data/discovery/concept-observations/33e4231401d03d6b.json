@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lite XL with a simplified build process and file structure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014870,
+      "status": "candidate",
+      "text": "chp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014352,
+      "status": "candidate",
+      "text": "cpa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014093,
+      "status": "candidate",
+      "text": "gwp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014024,
+      "status": "candidate",
+      "text": "sdc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013979,
+      "status": "candidate",
+      "text": "cac"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scps",
+      "sense_id": "scps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scps",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scps",
+  "observation_id": "33e4231401d03d6b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "scps",
+  "source_context_snippet": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build",
+  "source_file": null,
+  "source_repo": "adamharrison/lite-xl-simplified",
+  "source_repo_description": "Lite XL with a simplified build process and file structure."
+}

@@ -19,6 +19,18 @@
       "source_repo": "2KAbhishek/tdo",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "2KAbhishek/tdo",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/tdo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haiwen/seafile"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

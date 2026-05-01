@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Elixir stdlib tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatyouhide/stream_data",
+      "status": "candidate-context",
+      "text": "Data generation and property-based testing for Elixir. \ud83d\udd2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatyouhide/stream_data",
+      "status": "candidate-context",
+      "text": "Elixir stdlib tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatyouhide/stream_data",
+      "status": "candidate",
+      "text": "Elixir stdlib tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11311,
+      "status": "candidate",
+      "text": "nostrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11126,
+      "status": "candidate",
+      "text": "alchemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11126,
+      "status": "candidate",
+      "text": "phial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10940,
+      "status": "candidate",
+      "text": "black belt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10940,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Elixir stdlib tests",
+  "concept_id": "elixir-stdlib-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stdlib.yml",
+      "source_repo": "whatyouhide/stream_data"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Elixir stdlib tests",
+      "sense_id": "elixir-stdlib-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

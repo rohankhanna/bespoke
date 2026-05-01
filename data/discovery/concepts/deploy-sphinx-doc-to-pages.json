@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Sphinx Doc to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Deploy Sphinx Doc to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate",
+      "text": "Deploy Sphinx Doc to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17777,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17777,
+      "status": "candidate",
+      "text": "folio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17777,
+      "status": "candidate",
+      "text": "octavo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17760,
+      "status": "candidate",
+      "text": "fly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17743,
+      "status": "candidate",
+      "text": "lectern"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Sphinx Doc to Pages",
+  "concept_id": "deploy-sphinx-doc-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/sphinx-doc.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Sphinx Doc to Pages",
+      "sense_id": "deploy-sphinx-doc-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

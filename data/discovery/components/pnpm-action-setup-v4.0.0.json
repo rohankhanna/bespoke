@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v4.0.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/typecheck.yml",
       "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml",
+      "source_repo": "prisma/ecosystem-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "source_repo": "prisma/ecosystem-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "source_repo": "prisma/ecosystem-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests"
     }
   ]
 }

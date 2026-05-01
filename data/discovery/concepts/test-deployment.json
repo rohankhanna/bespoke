@@ -56,6 +56,18 @@
       "source_repo": "meta-pytorch/captum",
       "status": "candidate-context",
       "text": "Test deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Facebook Open Switching System\n\nSoftware for controlling network switches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Test deployment"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "meta-pytorch/captum",
+      "status": "candidate",
+      "text": "Test deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
       "status": "candidate",
       "text": "Test deployment"
     }
@@ -161,11 +179,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/test-website-deploy.yml",
       "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml",
+      "source_repo": "facebook/fboss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

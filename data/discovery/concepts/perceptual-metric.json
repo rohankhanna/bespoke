@@ -19,6 +19,18 @@
       "source_repo": "richzhang/PerceptualSimilarity",
       "status": "candidate-context",
       "text": "**The Unreasonable Effectiveness of Deep Features as a Perceptual Metric**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "status": "candidate-context",
+      "text": "A simple and useful implementation of LPIPS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "richzhang/PerceptualSimilarity",
       "status": "candidate",
       "text": "**The Unreasonable Effectiveness of Deep Features as a Perceptual Metric**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "S-aiueo32/lpips-pytorch",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/S-aiueo32/lpips-pytorch.svg?style=svg)](https://circleci.com/gh/S-aiueo32/lpips-pytorch) ![](https://img.shields.io/badge/LPIPS%20ver.-0.1-brightgreen)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "richzhang/PerceptualSimilarity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "S-aiueo32/lpips-pytorch"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

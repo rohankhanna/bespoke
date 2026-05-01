@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "performance tracking"
+    "performance tracking",
+    "Performance Tracking"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "aviatesk/JET.jl",
       "status": "candidate-context",
       "text": "performance tracking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular/angular-cli",
+      "status": "candidate-context",
+      "text": "CLI tool for Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/angular-cli",
+      "status": "candidate-context",
+      "text": "Performance Tracking"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "aviatesk/JET.jl",
       "status": "candidate",
       "text": "performance tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/angular-cli",
+      "status": "candidate",
+      "text": "Performance Tracking"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "aviatesk/JET.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "angular/angular-cli"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

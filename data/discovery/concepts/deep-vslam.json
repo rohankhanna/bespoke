@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deep-vslam"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jianxff/droid_metric",
+      "status": "candidate-context",
+      "text": "run DROID-SLAM with Metric3D to improve monocular performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jianxff/droid_metric",
+      "status": "candidate-context",
+      "text": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jianxff/droid_metric",
+      "status": "candidate",
+      "text": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deep-vslam",
+  "concept_id": "deep-vslam",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Jianxff/droid_metric"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-vslam",
+      "sense_id": "deep-vslam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

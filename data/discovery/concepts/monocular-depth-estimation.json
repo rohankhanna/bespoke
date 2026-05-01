@@ -175,6 +175,30 @@
       "source_repo": "microsoft/MoGe",
       "status": "candidate-context",
       "text": "MoGe is a powerful model for recovering 3D geometry from monocular open-domain images, including metric point maps, metric depth maps, normal maps and camera FOV. ***Check our websites ([MoGe-1](https://wangrc.site/MoGePage), [MoGe-2](https://wangrc.site/MoGe2Page)) for videos a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "The code and data of DiverseDepth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "status": "candidate-context",
+      "text": "Monocular Depth Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "status": "candidate-context",
+      "text": "[NEW] Training codes have been uploaded!"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "microsoft/MoGe",
       "status": "candidate",
       "text": "MoGe is a powerful model for recovering 3D geometry from monocular open-domain images, including metric point maps, metric depth maps, normal maps and camera FOV. ***Check our websites ([MoGe-1](https://wangrc.site/MoGePage), [MoGe-2](https://wangrc.site/MoGe2Page)) for videos a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "status": "candidate",
+      "text": "[NEW] Training codes have been uploaded!"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +388,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "microsoft/MoGe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

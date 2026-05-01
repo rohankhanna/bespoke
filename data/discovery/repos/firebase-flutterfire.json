@@ -641,13 +641,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "firebase/flutterfire",
-      "target": "invertase/melos",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "firebase/flutterfire",
       "target": "firebaseextended/flutterfire",
       "target_type": "repository"
     },
@@ -1170,7 +1163,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:32:43.227209+00:00",
+  "fetched_at": "2026-05-01T15:08:39.665385+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1230,17 +1223,12 @@
       "flutter",
       "google"
     ],
-    "updated_at": "2026-05-01T05:48:08Z"
+    "updated_at": "2026-05-01T14:24:38Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "firebaseextended/flutterfire",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "invertase/melos",
       "source_file": "README.md"
     }
   ],

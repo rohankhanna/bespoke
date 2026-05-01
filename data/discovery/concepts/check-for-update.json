@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "check-for-update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "check-for-update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate",
+      "text": "check-for-update"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "check-for-update",
+  "concept_id": "check-for-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-for-update",
+      "sense_id": "check-for-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

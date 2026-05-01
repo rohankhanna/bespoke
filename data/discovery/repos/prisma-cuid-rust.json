@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "prisma/.github/.github/workflows/secret_detection.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml"
+    },
+    {
+      "component": "prisma/.github/.github/workflows/code_scanning.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "prisma/.github/.github/workflows/secret_detection.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "prisma/.github/.github/workflows/code_scanning.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/cuid-rust",
+      "target": "PR Code Security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:04.054049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1540
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 257
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1981
+    },
+    {
+      "path": ".github/workflows/pr-code-security.yml",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust implemention of CUID unique IDs",
+    "fork": true,
+    "full_name": "prisma/cuid-rust",
+    "html_url": "https://github.com/prisma/cuid-rust",
+    "language": "Rust",
+    "pushed_at": "2026-04-02T06:41:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-02T06:41:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR Code Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "term": "PR Code Security"
+    }
+  ]
+}

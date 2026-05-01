@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "wp-cli/dist-archive-command"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "wp-cli/dist-archive-command"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926207,
+      "status": "candidate",
+      "text": "file away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965556,
+      "status": "candidate",
+      "text": "archival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29965457,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964572,
+      "status": "candidate",
+      "text": "record-keeping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956088,
+      "status": "candidate",
+      "text": "registry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "archive",
+      "sense_id": "archive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5035,
+      "status": "candidate",
+      "text": "archives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4017,
+      "status": "candidate",
+      "text": "file away"
+    }
+  ],
+  "concept_id": "archive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "archive",
+  "observation_id": "e3ef79219e5368c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "archive",
+  "source_context_snippet": "wp-cli/dist-archive-command",
+  "source_file": null,
+  "source_repo": "wp-cli/dist-archive-command",
+  "source_repo_description": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+}

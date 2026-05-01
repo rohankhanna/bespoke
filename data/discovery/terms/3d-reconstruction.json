@@ -1,61 +1,26 @@
 {
-  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "soubhiksanyal/FLAME_PyTorch"
+      "source_repo": "kwea123/CasMVSNet_pl"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "soubhiksanyal/now_evaluation"
+      "source_repo": "MIT-SPARK/TEASER-plusplus"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "TimoBolkart/TF_FLAME"
+      "source_repo": "lpiccinelli-eth/UniDepth"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "YvanYin/Metric3D"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "niessner/Matterport"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "microsoft/MoGe"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "kwea123/ngp_pl"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "cdcseacave/openMVS"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "mapillary/OpenSfM"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nmoehrle/mvs-texturing"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "Rubikplayer/flame-fitting"
+      "source_repo": "openMVG/openMVG"
     }
   ],
   "term": "3d-reconstruction"

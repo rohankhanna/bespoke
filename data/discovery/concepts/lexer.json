@@ -43,6 +43,18 @@
       "source_repo": "maciejhirsz/logos",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "westes/flex",
+      "status": "candidate-context",
+      "text": "The Fast Lexical Analyzer - scanner generator for lexing in C and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "westes/flex",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/westes/flex/actions/workflows/build.yml/badge.svg)](https://github.com/westes/flex/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "maciejhirsz/logos",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/maciejhirsz/logos/master/logos.svg?sanitize=true\" alt=\"Logos logo\" width=\"250\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "westes/flex",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/westes/flex/actions/workflows/build.yml/badge.svg)](https://github.com/westes/flex/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "maciejhirsz/logos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "westes/flex"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

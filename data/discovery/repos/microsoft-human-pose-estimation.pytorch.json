@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "mks0601/tf-simplehumanpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "paddlepaddle/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "coco-keypoints-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "mpii-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/human-pose-estimation.pytorch",
+      "target": "mscoco-keypoint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:24.904050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11560
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The project is an official implement of our ECCV2018 paper  \"Simple Baselines for Human Pose Estimation and Tracking(https://arxiv.org/abs/1804.06208)\"",
+    "fork": false,
+    "full_name": "microsoft/human-pose-estimation.pytorch",
+    "html_url": "https://github.com/microsoft/human-pose-estimation.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-11-28T19:11:04Z",
+    "stargazers_count": 3006,
+    "topics": [
+      "coco-keypoints-detection",
+      "deep-learning",
+      "human-pose-estimation",
+      "mpii-dataset",
+      "mscoco-keypoint"
+    ],
+    "updated_at": "2026-04-22T15:56:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mks0601/tf-simplehumanpose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco-keypoints-detection"
+    },
+    {
+      "context_snippet": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mpii-dataset"
+    },
+    {
+      "context_snippet": "- Our new work [High-Resolution Representations for Labeling Pixels and Regions](https://arxiv.org/abs/1904.04514) is available at [HRNet](https://github.com/HRNet). Our HRNet has been applied to a wide range of vision tasks, such as [image classification](https://github.com/HRN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mscoco-keypoint"
+    }
+  ]
+}

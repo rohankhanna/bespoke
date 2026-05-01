@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:01:27.182046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code and information for the ECCV 2018 paper: Gokaslan et al., 'Improving Shape Deformation in Unsupervised Image-to-Image Translation'",
+    "fork": false,
+    "full_name": "brownvc/ganimorph",
+    "html_url": "https://github.com/brownvc/ganimorph",
+    "language": "Python",
+    "pushed_at": "2021-09-01T21:27:27Z",
+    "stargazers_count": 121,
+    "topics": [],
+    "updated_at": "2026-01-23T14:28:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

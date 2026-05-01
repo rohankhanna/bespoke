@@ -31,6 +31,18 @@
       "source_repo": "microsoft/DialoGPT",
       "status": "candidate-context",
       "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/dolma",
+      "status": "candidate-context",
+      "text": "Data and tools for generating and inspecting OLMo pre-training data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/dolma",
+      "status": "candidate-context",
+      "text": "<img alt=\"Dolma's official logo. It's dolma written in yellow, round lowercase letters over a blue background.\" src=\"https://raw.githubusercontent.com/allenai/dolma/main/docs/assets/AI2_Blog_1400x685_2x.webp\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "microsoft/DialoGPT",
       "status": "candidate",
       "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/dolma",
+      "status": "candidate",
+      "text": "<img alt=\"Dolma's official logo. It's dolma written in yellow, round lowercase letters over a blue background.\" src=\"https://raw.githubusercontent.com/allenai/dolma/main/docs/assets/AI2_Blog_1400x685_2x.webp\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "microsoft/DialoGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "allenai/dolma"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

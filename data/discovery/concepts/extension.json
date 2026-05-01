@@ -193,6 +193,30 @@
       "source_repo": "FelikZ/ctrlp-py-matcher",
       "status": "candidate-context",
       "text": "ctrlp-py-matcher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "The iconic font and CSS toolkit. Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate-context",
+      "text": "Redux DevTools extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +315,18 @@
       "source_repo": "FelikZ/ctrlp-py-matcher",
       "status": "candidate",
       "text": "ctrlp-py-matcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +628,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kenangundogan/fontisto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zalmoxisus/redux-devtools-extension"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

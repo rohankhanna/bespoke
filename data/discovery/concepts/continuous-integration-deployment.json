@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Continuous Integration & Deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate-context",
+      "text": "Ledger device apps emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate-context",
+      "text": "Continuous Integration & Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate",
+      "text": "Continuous Integration & Deployment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18358,
+      "status": "candidate",
+      "text": "compatible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18337,
+      "status": "candidate",
+      "text": "accumulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18337,
+      "status": "candidate",
+      "text": "continuity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18337,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18337,
+      "status": "candidate",
+      "text": "evolution"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Continuous Integration & Deployment",
+  "concept_id": "continuous-integration-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Integration & Deployment",
+      "sense_id": "continuous-integration-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

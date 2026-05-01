@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "@types/echarts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "echarts",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "que-etc/resize-observer-polyfill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "@types/echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "echarts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "echarts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ambit-tsai/echarts-for-vue",
+      "target": "vue3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:33.868288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5343
+    },
+    {
+      "path": "package.json",
+      "size": 1026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcca \ud83d\udcc8 ECharts wrapper component for Vue 3, 2 and TypeScript",
+    "fork": false,
+    "full_name": "ambit-tsai/echarts-for-vue",
+    "html_url": "https://github.com/ambit-tsai/echarts-for-vue",
+    "language": "JavaScript",
+    "pushed_at": "2021-06-08T13:00:53Z",
+    "stargazers_count": 83,
+    "topics": [
+      "chart",
+      "echarts",
+      "ts",
+      "typescript",
+      "vue",
+      "vue3"
+    ],
+    "updated_at": "2026-01-08T09:31:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "que-etc/resize-observer-polyfill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echarts"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue3"
+    }
+  ]
+}

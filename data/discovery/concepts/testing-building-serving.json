@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Testing, building, serving"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "(Deprecated) Home of the MDN live code editor interactive examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "Testing, building, serving"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate",
+      "text": "Testing, building, serving"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35215,
+      "status": "candidate",
+      "text": "probative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33948,
+      "status": "candidate",
+      "text": "hall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33921,
+      "status": "candidate",
+      "text": "memorial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25688,
+      "status": "candidate",
+      "text": "guardhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25688,
+      "status": "candidate",
+      "text": "pantheon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Testing, building, serving",
+  "concept_id": "testing-building-serving",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mdn/interactive-examples"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Testing, building, serving",
+      "sense_id": "testing-building-serving#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

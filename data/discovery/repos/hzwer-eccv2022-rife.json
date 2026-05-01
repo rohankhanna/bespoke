@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hzwer/ECCV2022-RIFE",
-      "target": "hzwer/practical-rife",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hzwer/ECCV2022-RIFE",
       "target": "baowenbo/memc-net",
       "target_type": "repository"
     },
@@ -27,6 +20,13 @@
       "source_file": "README.md",
       "source_repo": "hzwer/ECCV2022-RIFE",
       "target": "coldog2333/pytoflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hzwer/ECCV2022-RIFE",
+      "target": "junheum/bmbc",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:28:20.957108+00:00",
+  "fetched_at": "2026-05-01T14:04:38.992324+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -86,7 +86,7 @@
     "html_url": "https://github.com/hzwer/ECCV2022-RIFE",
     "language": "Python",
     "pushed_at": "2025-09-10T06:32:03Z",
-    "stargazers_count": 5407,
+    "stargazers_count": 5408,
     "topics": [
       "aigc",
       "computer-vision",
@@ -94,7 +94,7 @@
       "slomo-filter",
       "video-interpolation"
     ],
-    "updated_at": "2026-04-30T22:00:51Z"
+    "updated_at": "2026-05-01T11:16:23Z"
   },
   "repo_links": [
     {
@@ -114,7 +114,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hzwer/practical-rife",
+      "full_name": "junheum/bmbc",
       "source_file": "README.md"
     }
   ],

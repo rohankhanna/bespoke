@@ -201,6 +201,66 @@
       "source_repo": "mdn/yari",
       "status": "candidate-context",
       "text": "auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/devtools",
+      "status": "candidate-context",
+      "text": "Debugging WebDriver tests in real-time with support for WebdriverIO and Nightwatch JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/devtools",
+      "status": "candidate-context",
+      "text": "Auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate-context",
+      "text": "Perl container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Perl applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate-context",
+      "text": "Auto Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "(Deprecated) Home of the MDN live code editor interactive examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "MDN's frontend since late 2025, built with Web Components, Lit, and SSR for a fast, clean documentation experience. Fred = /fr(ont)e(n)d/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/rari",
+      "status": "candidate-context",
+      "text": "Rari is a Rust-based build system that transforms markdown into structured JSON, powering MDN Web Docs content and translations since 2024."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/rari",
+      "status": "candidate-context",
+      "text": "auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mdn/yari",
+      "status": "candidate",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/devtools",
+      "status": "candidate",
+      "text": "Auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate",
+      "text": "Auto Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate",
+      "text": "auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/rari",
       "status": "candidate",
       "text": "auto-merge"
     }
@@ -450,11 +540,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "mdn/yari"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "webdriverio/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-perl-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/interactive-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/fred"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/rari"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

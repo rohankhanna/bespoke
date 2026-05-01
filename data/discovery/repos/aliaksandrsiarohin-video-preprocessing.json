@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:04:25.780140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4694
+    },
+    {
+      "path": "requirements.txt",
+      "size": 562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "AliaksandrSiarohin/video-preprocessing",
+    "html_url": "https://github.com/AliaksandrSiarohin/video-preprocessing",
+    "language": "Python",
+    "pushed_at": "2022-12-08T01:51:53Z",
+    "stargazers_count": 542,
+    "topics": [],
+    "updated_at": "2026-04-29T03:16:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

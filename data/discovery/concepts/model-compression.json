@@ -79,6 +79,30 @@
       "source_repo": "Zhen-Dong/HAWQ",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "TinyNeuralNetwork is an efficient and easy-to-use deep learning model compression framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "Zhen-Dong/HAWQ",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Zhen-Dong/HAWQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

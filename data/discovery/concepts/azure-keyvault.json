@@ -19,6 +19,18 @@
       "source_repo": "Azure/reliable-web-app-pattern-dotnet",
       "status": "candidate-context",
       "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "status": "candidate-context",
+      "text": "An Argo CD plugin to retrieve secrets from Secret Management tools and inject them into Kubernetes secrets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "status": "candidate-context",
+      "text": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Azure/reliable-web-app-pattern-dotnet",
       "status": "candidate",
       "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "status": "candidate",
+      "text": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Azure/reliable-web-app-pattern-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

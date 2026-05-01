@@ -247,6 +247,18 @@
       "source_repo": "aidenybai/react-scan",
       "status": "candidate-context",
       "text": "React Scan automatically detects performance issues in your React app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wdas/ptex",
+      "status": "candidate-context",
+      "text": "Per-Face Texture Mapping for Production Rendering https://wdas.github.io/ptex"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wdas/ptex",
+      "status": "candidate-context",
+      "text": "Ptex is a texture mapping system developed by Walt Disney Animation Studios"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "aidenybai/react-scan",
       "status": "candidate",
       "text": "React Scan automatically detects performance issues in your React app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wdas/ptex",
+      "status": "candidate",
+      "text": "Ptex is a texture mapping system developed by Walt Disney Animation Studios"
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +610,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aidenybai/react-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "wdas/ptex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

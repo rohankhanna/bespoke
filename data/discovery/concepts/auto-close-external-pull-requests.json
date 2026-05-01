@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Auto-close External Pull Requests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Android SDK \ud83d\udc9a  \ud83e\udd16"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-apple",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite SDK for Apple Devices \ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-apple",
+      "status": "candidate-context",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Dart SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate-context",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Deno SDK \ud83e\udd95"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "Auto-close External Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-apple",
+      "status": "candidate",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate",
+      "text": "Auto-close External Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate",
+      "text": "Auto-close External Pull Requests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18124,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "appearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "boxing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-close External Pull Requests",
+  "concept_id": "auto-close-external-pull-requests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-apple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-deno"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-close External Pull Requests",
+      "sense_id": "auto-close-external-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "Xotl/cool-github-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "Xotl/cool-github-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "Create library jar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "beats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "rhythm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/electro",
+      "target": "tempo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:49:15.780025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2966
+    },
+    {
+      "path": ".github/workflows/jar.yml",
+      "size": 2940
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java tools for working with musical time",
+    "fork": false,
+    "full_name": "Deep-Symmetry/electro",
+    "html_url": "https://github.com/Deep-Symmetry/electro",
+    "language": "Java",
+    "pushed_at": "2023-04-23T04:23:50Z",
+    "stargazers_count": 3,
+    "topics": [
+      "beats",
+      "java-library",
+      "rhythm",
+      "tempo"
+    ],
+    "updated_at": "2026-03-14T09:34:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "term": "Create library jar"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beats"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhythm"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tempo"
+    }
+  ]
+}

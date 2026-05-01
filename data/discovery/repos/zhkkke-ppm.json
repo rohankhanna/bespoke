@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZHKKKe/PPM",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZHKKKe/PPM",
+      "target": "portrait-matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:58.958245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A High-Quality Photograpy Portrait Matting Benchmark",
+    "fork": false,
+    "full_name": "ZHKKKe/PPM",
+    "html_url": "https://github.com/ZHKKKe/PPM",
+    "language": null,
+    "pushed_at": "2023-02-01T08:23:56Z",
+    "stargazers_count": 102,
+    "topics": [
+      "benchmark",
+      "portrait-matting"
+    ],
+    "updated_at": "2026-03-09T04:26:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portrait-matting"
+    }
+  ]
+}

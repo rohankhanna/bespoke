@@ -145,6 +145,18 @@
       "source_repo": "ipfs/ipfs-check",
       "status": "candidate-context",
       "text": "Create and publish a Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Create and publish a Docker image"
     }
   ],
   "candidate_glosses": [
@@ -211,6 +223,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/ipfs-check",
+      "status": "candidate",
+      "text": "Create and publish a Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
       "status": "candidate",
       "text": "Create and publish a Docker image"
     }
@@ -532,11 +550,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy-image-arm.yml",
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy-image.yml",
+      "source_repo": "zhayujie/CowAgent"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

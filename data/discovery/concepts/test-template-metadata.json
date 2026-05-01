@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test template metadata"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/templates",
+      "status": "candidate-context",
+      "text": "Templates used by `pulumi new`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/templates",
+      "status": "candidate-context",
+      "text": "Test template metadata"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/templates",
+      "status": "candidate",
+      "text": "Test template metadata"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23687,
+      "status": "candidate",
+      "text": "match"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23687,
+      "status": "candidate",
+      "text": "matched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22642,
+      "status": "candidate",
+      "text": "paragon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19687,
+      "status": "candidate",
+      "text": "specification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18336,
+      "status": "candidate",
+      "text": "descriptor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test template metadata",
+  "concept_id": "test-template-metadata",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-metadata.yml",
+      "source_repo": "pulumi/templates"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test template metadata",
+      "sense_id": "test-template-metadata#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

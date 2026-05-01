@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InterDigitalInc/HRFAE",
+      "target": "vadimkantorov/caffemodel2pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:47.843408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementation for paper High Resolution Face Age Editing",
+    "fork": false,
+    "full_name": "InterDigitalInc/HRFAE",
+    "html_url": "https://github.com/InterDigitalInc/HRFAE",
+    "language": "Python",
+    "pushed_at": "2023-01-12T08:26:12Z",
+    "stargazers_count": 309,
+    "topics": [],
+    "updated_at": "2026-04-22T20:02:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vadimkantorov/caffemodel2pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

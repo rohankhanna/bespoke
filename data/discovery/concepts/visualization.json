@@ -535,6 +535,42 @@
       "source_repo": "airbnb/visx",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Moldable Live Programming for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate-context",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "BertViz: Visualize Attention in Transformer Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +837,24 @@
       "source_repo": "airbnb/visx",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "<a href=\"https://opencollective.com/plotsjl/donate\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1153,11 +1207,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "airbnb/visx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nextjournal/clerk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/echarts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jessevig/bertviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "d3/d3"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow-max",
+      "target": "brunchboy/afterglow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/afterglow-max",
+      "target": "brunchboy/afterglow-max",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:49:09.854153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A package for hosting Afterglow inside Cycling \u201874\u2019s Max.",
+    "fork": false,
+    "full_name": "Deep-Symmetry/afterglow-max",
+    "html_url": "https://github.com/Deep-Symmetry/afterglow-max",
+    "language": "Max",
+    "pushed_at": "2024-11-11T02:17:53Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-11-24T09:29:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/afterglow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brunchboy/afterglow-max",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

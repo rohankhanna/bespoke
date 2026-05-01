@@ -84,7 +84,7 @@
   "normalized_form": "deploy-pages",
   "observation_id": "9a40c65eda8c53dd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Deploy Pages",
   "source_context_snippet": "Deploy Pages",
   "source_file": ".github/workflows/pages.yml",

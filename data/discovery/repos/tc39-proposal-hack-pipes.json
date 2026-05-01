@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "js-choi/proposal-smart-pipelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "js-choi/proposal-hack-pipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "tc39/proposal-do-expressions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "ramda/ramda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes",
+      "target": "tc39",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:23.926510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29773
+    },
+    {
+      "path": "package.json",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Old specification for Hack pipes in JavaScript. Please go to the new specification.",
+    "fork": false,
+    "full_name": "tc39/proposal-hack-pipes",
+    "html_url": "https://github.com/tc39/proposal-hack-pipes",
+    "language": "HTML",
+    "pushed_at": "2021-09-15T15:00:22Z",
+    "stargazers_count": 88,
+    "topics": [
+      "javascript",
+      "pipeline",
+      "proposal",
+      "tc39"
+    ],
+    "updated_at": "2024-01-27T15:42:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-hack-pipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-smart-pipelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ramda/ramda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-do-expressions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ECMAScript Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    },
+    {
+      "context_snippet": "ECMAScript Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    },
+    {
+      "context_snippet": "ECMAScript Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tc39"
+    }
+  ]
+}

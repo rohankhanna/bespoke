@@ -520,6 +520,30 @@
       "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core/branch/master/graph/badge.svg?token=ZukGAUDLwH)](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core) [![Hex](https://img.shields.io/hexpm/v/telemetry_metrics_prometheus_core.sv\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "GrimoireLab: platform for software development analytics and insights"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tushartushar/DesigniteJava",
+      "status": "candidate-context",
+      "text": "Detects smells and computes metrics of Java code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tushartushar/DesigniteJava",
+      "status": "candidate-context",
+      "text": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics."
     }
   ],
   "candidate_glosses": [
@@ -780,6 +804,18 @@
       "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core/branch/master/graph/badge.svg?token=ZukGAUDLwH)](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core) [![Hex](https://img.shields.io/hexpm/v/telemetry_metrics_prometheus_core.sv\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate",
+      "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tushartushar/DesigniteJava",
+      "status": "candidate",
+      "text": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics."
     }
   ],
   "candidate_related_terms": [
@@ -1249,11 +1285,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/metrics.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

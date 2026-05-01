@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "state-tree"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "immerjs/immer",
+      "status": "candidate-context",
+      "text": "Create the next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "immerjs/immer",
+      "status": "candidate-context",
+      "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "immerjs/immer",
+      "status": "candidate",
+      "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "state-tree",
+  "concept_id": "state-tree",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "immerjs/immer"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "state-tree",
+      "sense_id": "state-tree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

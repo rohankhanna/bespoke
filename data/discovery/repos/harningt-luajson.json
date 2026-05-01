@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:02:52.411290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON parser/encoder for Lua Parses JSON using LPEG for speed and flexibility. Depending on parser/encoder options, various values are preserved as best as possible.",
+    "fork": false,
+    "full_name": "harningt/luajson",
+    "html_url": "https://github.com/harningt/luajson",
+    "language": "Lua",
+    "pushed_at": "2023-10-10T22:57:06Z",
+    "stargazers_count": 254,
+    "topics": [],
+    "updated_at": "2026-04-16T03:11:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

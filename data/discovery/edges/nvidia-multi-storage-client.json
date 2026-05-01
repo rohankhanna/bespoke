@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Beta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default_branch.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Default Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "NVIDIA/multi-storage-client"
+}

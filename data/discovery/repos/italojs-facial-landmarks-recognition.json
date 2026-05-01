@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:36:48.636357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 158
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "italojs/facial-landmarks-recognition",
+    "html_url": "https://github.com/italojs/facial-landmarks-recognition",
+    "language": "Python",
+    "pushed_at": "2025-04-08T14:17:43Z",
+    "stargazers_count": 173,
+    "topics": [],
+    "updated_at": "2026-01-28T12:48:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

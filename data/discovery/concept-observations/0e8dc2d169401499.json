@@ -84,7 +84,7 @@
   "normalized_form": "verify-action-pins",
   "observation_id": "0e8dc2d169401499",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Verify Action Pins",
   "source_context_snippet": "Verify Action Pins",
   "source_file": ".github/workflows/verify-action-pins.yml",

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-cli",
+      "target": "microsoft/botframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-cli",
+      "target": "microsoft/botbuilder-tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:37.587029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "CLI Tools for the Microsoft Bot Framework",
+    "fork": false,
+    "full_name": "microsoft/botframework-cli",
+    "html_url": "https://github.com/microsoft/botframework-cli",
+    "language": "TypeScript",
+    "pushed_at": "2024-12-10T13:32:21Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2026-04-16T14:39:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

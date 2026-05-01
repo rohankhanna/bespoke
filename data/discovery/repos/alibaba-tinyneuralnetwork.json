@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml"
+    },
+    {
+      "component": "al-cheb/configure-pagefile-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "al-cheb/configure-pagefile-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "pierotofy/set-swap-space@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "Full tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "Installation test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "Unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "model-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "post-training-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "target": "quantization-aware-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:43.511184+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3522
+    },
+    {
+      "path": "Dockerfile",
+      "size": 613
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2188
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    },
+    {
+      "path": ".github/workflows/full-test.yml",
+      "size": 2703
+    },
+    {
+      "path": ".github/workflows/smoke-test.yml",
+      "size": 875
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 4282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TinyNeuralNetwork is an efficient and easy-to-use deep learning model compression framework.",
+    "fork": false,
+    "full_name": "alibaba/TinyNeuralNetwork",
+    "html_url": "https://github.com/alibaba/TinyNeuralNetwork",
+    "language": "Python",
+    "pushed_at": "2026-03-03T08:02:36Z",
+    "stargazers_count": 877,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "model-compression",
+      "model-converter",
+      "post-training-quantization",
+      "pruning",
+      "pytorch",
+      "quantization-aware-training"
+    ],
+    "updated_at": "2026-04-27T11:52:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Full tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-test.yml",
+      "term": "Full tests"
+    },
+    {
+      "context_snippet": "Installation test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "term": "Installation test"
+    },
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "Unit tests"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-converter"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training-quantization"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruning"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization-aware-training"
+    }
+  ]
+}

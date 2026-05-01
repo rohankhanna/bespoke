@@ -455,6 +455,54 @@
       "source_repo": "open-tinker/OpenTinker",
       "status": "candidate-context",
       "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/jmp",
+      "status": "candidate-context",
+      "text": "JMP is a Mixed Precision library for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jmp",
+      "status": "candidate-context",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate-context",
+      "text": "Thin-wrapper around the mock package for easier use with pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate-context",
+      "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate-context",
+      "text": "a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate-context",
+      "text": "A Collection of BM25 Algorithms in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate-context",
+      "text": "pytest"
     }
   ],
   "candidate_glosses": [
@@ -679,6 +727,30 @@
       "source_repo": "open-tinker/OpenTinker",
       "status": "candidate",
       "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jmp",
+      "status": "candidate",
+      "text": "pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-mock",
+      "status": "candidate",
+      "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate",
+      "text": "pytest"
     }
   ],
   "candidate_related_terms": [
@@ -1154,11 +1226,71 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-mock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "verbiiyo/rigl-torch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "dorianbrown/rank_bm25"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

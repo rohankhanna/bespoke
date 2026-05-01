@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/reactive",
+      "target": "reactiveui/reactiveui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:28.788493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Reactive Extensions for .NET",
+    "fork": false,
+    "full_name": "dotnet/reactive",
+    "html_url": "https://github.com/dotnet/reactive",
+    "language": "C#",
+    "pushed_at": "2026-05-01T07:09:16Z",
+    "stargazers_count": 7149,
+    "topics": [],
+    "updated_at": "2026-04-30T20:40:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reactiveui/reactiveui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/tamago-example",
+      "target": "usbarmory/go-boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/tamago-example",
+      "target": "firecracker-microvm/firectl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:43:42.052620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18824
+    },
+    {
+      "path": "go.mod",
+      "size": 5107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TamaGo - example application",
+    "fork": false,
+    "full_name": "usbarmory/tamago-example",
+    "html_url": "https://github.com/usbarmory/tamago-example",
+    "language": "Go",
+    "pushed_at": "2026-04-28T14:16:35Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-04-30T23:01:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firecracker-microvm/firectl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/go-boot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

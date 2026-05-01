@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "target": "image-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "target": "image-quality-assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "target": "picture-quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:20.637422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9185
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code for \"From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality\"",
+    "fork": false,
+    "full_name": "baidut/PaQ-2-PiQ",
+    "html_url": "https://github.com/baidut/PaQ-2-PiQ",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-02T15:02:10Z",
+    "stargazers_count": 105,
+    "topics": [
+      "computer-vision",
+      "image-processing",
+      "image-quality",
+      "image-quality-assessment",
+      "picture-quality"
+    ],
+    "updated_at": "2026-04-07T12:40:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-quality-assessment"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "picture-quality"
+    }
+  ]
+}

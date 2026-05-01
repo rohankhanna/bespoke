@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standard set of easy to use animations and declarative transitions for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Declarative transitions and animations for React Native"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Declarative transitions and animations for React Native"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039230,
+      "status": "candidate",
+      "text": "changeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037534,
+      "status": "candidate",
+      "text": "conversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989084,
+      "status": "candidate",
+      "text": "modulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929706,
+      "status": "candidate",
+      "text": "passage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039363,
+      "status": "candidate",
+      "text": "segue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transition",
+      "sense_id": "transition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9073,
+      "status": "candidate",
+      "text": "conversion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7054,
+      "status": "candidate",
+      "text": "modulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "changeover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "passage"
+    }
+  ],
+  "concept_id": "transition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transition",
+  "observation_id": "932b2c41fd1b9222",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "transition",
+  "source_context_snippet": "Declarative transitions and animations for React Native",
+  "source_file": null,
+  "source_repo": "oblador/react-native-animatable",
+  "source_repo_description": "Standard set of easy to use animations and declarative transitions for React Native"
+}

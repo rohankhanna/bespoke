@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:59:02.787928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1924
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-16T13:43:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-16T13:43:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

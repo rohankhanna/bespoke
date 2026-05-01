@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Successor: https://github.com/fluxcd/flux2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rebase"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rebase"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771929,
+      "status": "candidate",
+      "text": "rebottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771928,
+      "status": "candidate",
+      "text": "reboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771927,
+      "status": "candidate",
+      "text": "retrocline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771926,
+      "status": "candidate",
+      "text": "rebevel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19771925,
+      "status": "candidate",
+      "text": "replank"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rebase",
+      "sense_id": "rebase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rebase",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rebase",
+  "observation_id": "662f5179ee8e9231",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "rebase",
+  "source_context_snippet": "rebase",
+  "source_file": ".github/workflows/rebase.yaml",
+  "source_repo": "fluxcd/flux",
+  "source_repo_description": "Successor: https://github.com/fluxcd/flux2"
+}

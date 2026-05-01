@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_source.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_source.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testrunner.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testrunner.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_source.yml",
+      "source_repo": "mozman/svgwrite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_source.yml",
+      "source_repo": "mozman/svgwrite",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_source.yml",
+      "source_repo": "mozman/svgwrite",
+      "target": "PyPI source deployer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testrunner.yml",
+      "source_repo": "mozman/svgwrite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testrunner.yml",
+      "source_repo": "mozman/svgwrite",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testrunner.yml",
+      "source_repo": "mozman/svgwrite",
+      "target": "Testrunner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:42.343954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1075
+    },
+    {
+      "path": ".github/workflows/deploy_source.yml",
+      "size": 706
+    },
+    {
+      "path": ".github/workflows/testrunner.yml",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python Package to write SVG files (UNMAINTAINED)",
+    "fork": false,
+    "full_name": "mozman/svgwrite",
+    "html_url": "https://github.com/mozman/svgwrite",
+    "language": "Python",
+    "pushed_at": "2024-02-24T09:36:27Z",
+    "stargazers_count": 577,
+    "topics": [],
+    "updated_at": "2026-03-16T14:46:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PyPI source deployer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_source.yml",
+      "term": "PyPI source deployer"
+    },
+    {
+      "context_snippet": "Testrunner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testrunner.yml",
+      "term": "Testrunner"
+    }
+  ]
+}

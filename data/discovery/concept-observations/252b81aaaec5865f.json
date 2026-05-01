@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redux DevTools extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988531,
+      "status": "candidate",
+      "text": "vetting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924509,
+      "status": "candidate",
+      "text": "cleanup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923781,
+      "status": "candidate",
+      "text": "cleaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923603,
+      "status": "candidate",
+      "text": "clean-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29905503,
+      "status": "candidate",
+      "text": "purging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "debug",
+      "sense_id": "debug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "debug",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "debug",
+  "observation_id": "252b81aaaec5865f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "debug",
+  "source_context_snippet": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f",
+  "source_file": null,
+  "source_repo": "zalmoxisus/redux-devtools-extension",
+  "source_repo_description": "Redux DevTools extension."
+}

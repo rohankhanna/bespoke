@@ -475,6 +475,30 @@
       "source_repo": "reproto/reproto",
       "status": "candidate-context",
       "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate-context",
+      "text": "Nix language server, based on nix libraries [maintainer=@inclyc,@takeokunn,@Aleksanaa] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate-context",
+      "text": "Simple winbar/statusline plugin that shows your current code context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate-context",
+      "text": "A simple statusline/winbar component that uses LSP to show your current code context."
     }
   ],
   "candidate_glosses": [
@@ -711,6 +735,18 @@
       "source_repo": "reproto/reproto",
       "status": "candidate",
       "text": "[![Build Status][github-badge]][github-action]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate",
+      "text": "A simple statusline/winbar component that uses LSP to show your current code context."
     }
   ],
   "candidate_related_terms": [],
@@ -1270,11 +1306,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

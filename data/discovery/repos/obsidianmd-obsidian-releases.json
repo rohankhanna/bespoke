@@ -1,0 +1,350 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-validation-failed.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Pull plugin stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skip.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Skip on comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-validation-failed.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-validation-failed.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Close stale PRs with failed validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Close stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Validate Plugin Entry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-theme-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "Validate Theme Entry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsidianmd/obsidian-releases",
+      "target": "obsidian-md",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:50:36.547759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5031
+    },
+    {
+      "path": "package.json",
+      "size": 172
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/plugin-stat.yml",
+      "size": 3757
+    },
+    {
+      "path": ".github/workflows/skip.yml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/stale-validation-failed.yml",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 911
+    },
+    {
+      "path": ".github/workflows/validate-plugin-entry.yml",
+      "size": 18942
+    },
+    {
+      "path": ".github/workflows/validate-theme-entry.yml",
+      "size": 14656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community plugins list, theme list, and releases of Obsidian.",
+    "fork": false,
+    "full_name": "obsidianmd/obsidian-releases",
+    "html_url": "https://github.com/obsidianmd/obsidian-releases",
+    "language": null,
+    "pushed_at": "2026-05-01T00:52:16Z",
+    "stargazers_count": 17248,
+    "topics": [
+      "obsidian",
+      "obsidian-md"
+    ],
+    "updated_at": "2026-05-01T12:33:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    },
+    {
+      "context_snippet": "Pull plugin stats",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "term": "Pull plugin stats"
+    },
+    {
+      "context_snippet": "\"Skip on comment\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skip.yml",
+      "term": "Skip on comment"
+    },
+    {
+      "context_snippet": "'Close stale PRs with failed validation'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-validation-failed.yml",
+      "term": "Close stale PRs with failed validation"
+    },
+    {
+      "context_snippet": "'Close stale PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale PRs"
+    },
+    {
+      "context_snippet": "Validate Plugin Entry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "term": "Validate Plugin Entry"
+    },
+    {
+      "context_snippet": "Validate Theme Entry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-theme-entry.yml",
+      "term": "Validate Theme Entry"
+    },
+    {
+      "context_snippet": "This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "This repo is used for hosting public releases of Obsidian, as well as our community plugins & themes directories.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/archive.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "Archive Issues and Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "Reference Implementation tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghpages.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "Update Editor's Copy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "Publish New Draft Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "martinthomson/i-d-template@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems",
+      "target": "Update Generated Files",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "cfrg/draft-irtf-cfrg-concrete-hybrid-kems"
+}

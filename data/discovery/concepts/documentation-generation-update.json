@@ -31,6 +31,30 @@
       "source_repo": "LedgerHQ/ledger-secure-sdk",
       "status": "candidate-context",
       "text": "Documentation generation & update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate-context",
+      "text": "Ledger device apps emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate-context",
+      "text": "Documentation generation & update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate-context",
+      "text": "Small wrapper around Speculos, LedgerWallet & LedgerComm to ease instrumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate-context",
+      "text": "Documentation generation & update"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate",
+      "text": "Documentation generation & update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate",
+      "text": "Documentation generation & update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ragger",
       "status": "candidate",
       "text": "Documentation generation & update"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "LedgerHQ/ledger-secure-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate-context",
+      "text": "Modern React UI library \ud83d\udc85\ud83d\udc69\u200d\ud83c\udfa4\ud83c\udf6d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate-context",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate",
       "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "ant-design/ant-design"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "smooth-code/smooth-ui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ARISE-Initiative/robomimic",
+      "target": "arise-initiative/robosuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ARISE-Initiative/robomimic",
+      "target": "arise-initiative/robosuite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:14.091632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5448
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "robomimic: A Modular Framework for Robot Learning from Demonstration",
+    "fork": false,
+    "full_name": "ARISE-Initiative/robomimic",
+    "html_url": "https://github.com/ARISE-Initiative/robomimic",
+    "language": "Python",
+    "pushed_at": "2026-02-05T19:40:44Z",
+    "stargazers_count": 1403,
+    "topics": [],
+    "updated_at": "2026-04-30T03:16:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arise-initiative/robosuite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arise-initiative/robosuite",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/optix_advanced_samples",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/optix_advanced_samples",
+      "target": "optix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:58.261039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Set of advanced samples for the NVIDIA OptiX Ray Tracing Engine.",
+    "fork": false,
+    "full_name": "nvpro-samples/optix_advanced_samples",
+    "html_url": "https://github.com/nvpro-samples/optix_advanced_samples",
+    "language": "C",
+    "pushed_at": "2021-11-02T15:39:31Z",
+    "stargazers_count": 459,
+    "topics": [
+      "nvidia",
+      "optix"
+    ],
+    "updated_at": "2026-04-28T08:35:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "OptiX Advanced Samples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "OptiX Advanced Samples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optix"
+    }
+  ]
+}

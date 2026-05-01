@@ -739,6 +739,30 @@
       "source_repo": "red-data-tools/pycall.rb",
       "status": "candidate-context",
       "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "gensim \u2013 Topic Modelling in Python"
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1131,18 @@
       "source_repo": "red-data-tools/pycall.rb",
       "status": "candidate",
       "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate",
+      "text": "gensim \u2013 Topic Modelling in Python"
     }
   ],
   "candidate_related_terms": [],
@@ -1618,11 +1654,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

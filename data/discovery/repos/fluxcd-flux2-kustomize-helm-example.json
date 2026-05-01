@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "fluxcd/flux2/action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "fluxcd/flux-schema/actions/setup@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "fluxcd/flux-schema/actions/validate@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "controlplaneio-fluxcd/flux-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "fluxcd/flux2/action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "e2e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "fluxcd/flux2/action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "fluxcd/flux-schema/actions/setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "fluxcd/flux-schema/actions/validate@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "flux2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "fluxcd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "gitops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "target": "kustomize",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:46:00.677811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16053
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 2168
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 788
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm.",
+    "fork": false,
+    "full_name": "fluxcd/flux2-kustomize-helm-example",
+    "html_url": "https://github.com/fluxcd/flux2-kustomize-helm-example",
+    "language": "Shell",
+    "pushed_at": "2026-04-28T09:46:22Z",
+    "stargazers_count": 1259,
+    "topics": [
+      "example",
+      "flux2",
+      "fluxcd",
+      "gitops",
+      "helm",
+      "kubernetes",
+      "kustomize"
+    ],
+    "updated_at": "2026-04-30T20:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "controlplaneio-fluxcd/flux-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "e2e",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "e2e"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "example"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux2"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluxcd"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kustomize"
+    }
+  ]
+}

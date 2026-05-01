@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "generate-release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "Interact with your documents using the power of GPT, 100% privately, no data leaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "generate-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate",
+      "text": "generate-release"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "generate-release",
+  "concept_id": "generate-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/generate-release.yml",
+      "source_repo": "zylon-ai/private-gpt"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "generate-release",
+      "sense_id": "generate-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

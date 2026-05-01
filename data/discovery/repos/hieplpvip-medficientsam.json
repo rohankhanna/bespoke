@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hieplpvip/medficientsam",
+      "target": "bowang-lab/medsam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:41.473572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient Segment Anything in Medical Images",
+    "fork": false,
+    "full_name": "hieplpvip/medficientsam",
+    "html_url": "https://github.com/hieplpvip/medficientsam",
+    "language": "Python",
+    "pushed_at": "2024-07-27T19:08:54Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-08T08:24:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bowang-lab/medsam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

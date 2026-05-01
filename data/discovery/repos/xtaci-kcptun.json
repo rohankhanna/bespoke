@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "forward-error-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "multiplex-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "network-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "quantum-permutation-pad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "quantum-resistant-cryptosystems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "reed-solomon-codes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "reliable-udp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "secure-tunnel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtaci/kcptun",
+      "target": "shannon-coding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:14.536727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Reliable UDP Transmission Optimizer based on KCP: Enhancing network efficiency in poor connectivity environments.",
+    "fork": false,
+    "full_name": "xtaci/kcptun",
+    "html_url": "https://github.com/xtaci/kcptun",
+    "language": null,
+    "pushed_at": "2026-04-08T08:11:31Z",
+    "stargazers_count": 14403,
+    "topics": [
+      "forward-error-correction",
+      "multiplex-networks",
+      "network-acceleration",
+      "quantum-permutation-pad",
+      "quantum-resistant-cryptosystems",
+      "reed-solomon-codes",
+      "reliable-udp",
+      "secure-tunnel",
+      "shannon-coding"
+    ],
+    "updated_at": "2026-04-30T09:52:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "forward-error-correction"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplex-networks"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-acceleration"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantum-permutation-pad"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantum-resistant-cryptosystems"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reed-solomon-codes"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reliable-udp"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secure-tunnel"
+    },
+    {
+      "context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shannon-coding"
+    }
+  ]
+}

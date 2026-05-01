@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "codespell-project/actions-codespell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "s3tools/s3cmd",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd",
+      "target": "backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd",
+      "target": "s3cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd",
+      "target": "storage-service",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:57:06.773095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15439
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official s3cmd repo -- Command line tool for managing S3 compatible storage services (including Amazon S3 and CloudFront).",
+    "fork": false,
+    "full_name": "s3tools/s3cmd",
+    "html_url": "https://github.com/s3tools/s3cmd",
+    "language": "Python",
+    "pushed_at": "2025-10-22T23:26:17Z",
+    "stargazers_count": 4880,
+    "topics": [
+      "backup",
+      "cli",
+      "hacktoberfest",
+      "python",
+      "s3",
+      "s3cmd",
+      "storage-service"
+    ],
+    "updated_at": "2026-04-29T09:47:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "s3cmd"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage-service"
+    }
+  ]
+}

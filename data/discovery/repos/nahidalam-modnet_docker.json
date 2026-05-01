@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nahidalam/modnet_docker",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nahidalam/modnet_docker",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:57.683836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 816
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dockerized container for MODNet - a Real-Time Portrait Matting solution ",
+    "fork": false,
+    "full_name": "nahidalam/modnet_docker",
+    "html_url": "https://github.com/nahidalam/modnet_docker",
+    "language": "Python",
+    "pushed_at": "2023-03-27T22:35:40Z",
+    "stargazers_count": 13,
+    "topics": [
+      "deep-learning",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2025-08-01T02:26:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/nahidalam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/nahidalam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

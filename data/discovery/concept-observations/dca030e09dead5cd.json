@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AlpineJS integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39847974,
+      "status": "candidate",
+      "text": "state of matter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39826966,
+      "status": "candidate",
+      "text": "land"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39755848,
+      "status": "candidate",
+      "text": "country"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39751438,
+      "status": "candidate",
+      "text": "express"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39750492,
+      "status": "candidate",
+      "text": "province"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "state",
+      "sense_id": "state#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30054,
+      "status": "candidate",
+      "text": "express"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24056,
+      "status": "candidate",
+      "text": "tell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20073,
+      "status": "candidate",
+      "text": "land"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17044,
+      "status": "candidate",
+      "text": "submit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9016,
+      "status": "candidate",
+      "text": "res publica"
+    }
+  ],
+  "concept_id": "state",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "state",
+  "observation_id": "dca030e09dead5cd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "state",
+  "source_context_snippet": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\"",
+  "source_file": null,
+  "source_repo": "nanostores/alpine",
+  "source_repo_description": "AlpineJS integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores"
+}

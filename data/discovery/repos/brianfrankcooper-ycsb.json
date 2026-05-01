@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brianfrankcooper/YCSB",
+      "target": "hdrhistogram/hdrhistogram",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:57:39.637581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yahoo! Cloud Serving Benchmark",
+    "fork": false,
+    "full_name": "brianfrankcooper/YCSB",
+    "html_url": "https://github.com/brianfrankcooper/YCSB",
+    "language": "Java",
+    "pushed_at": "2026-04-15T15:08:44Z",
+    "stargazers_count": 5205,
+    "topics": [],
+    "updated_at": "2026-04-29T05:59:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hdrhistogram/hdrhistogram",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

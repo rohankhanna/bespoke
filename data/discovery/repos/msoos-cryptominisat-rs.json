@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "msoos/cryptominisat-rs",
+      "target": "storyyeller/cryptominisat-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msoos/cryptominisat-rs",
+      "target": "bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msoos/cryptominisat-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msoos/cryptominisat-rs",
+      "target": "satisfiability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:49.880043+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CryptoMiniSat rust bindings",
+    "fork": true,
+    "full_name": "msoos/cryptominisat-rs",
+    "html_url": "https://github.com/msoos/cryptominisat-rs",
+    "language": "Rust",
+    "pushed_at": "2024-03-03T04:00:21Z",
+    "stargazers_count": 0,
+    "topics": [
+      "bindings",
+      "cnf",
+      "rust",
+      "satisfiability"
+    ],
+    "updated_at": "2020-12-15T20:50:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "storyyeller/cryptominisat-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bindings"
+    },
+    {
+      "context_snippet": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "satisfiability"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-arduino.yml"
+    },
+    {
+      "component": "arduino/arduino-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-arduino.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml"
+    },
+    {
+      "component": "arduino/compile-sketches@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml"
+    },
+    {
+      "component": "arduino/report-size-deltas@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report-size-deltas.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "carlosperate/download-file-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "carlosperate/download-file-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "arduino/arduino-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Check Arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "arduino/compile-sketches@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Compile Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "arduino/report-size-deltas@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Report Size Deltas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Spell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "carlosperate/download-file-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Sync Labels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:49.501078+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/check-arduino.yml",
+      "size": 761
+    },
+    {
+      "path": ".github/workflows/compile-examples.yml",
+      "size": 4440
+    },
+    {
+      "path": ".github/workflows/report-size-deltas.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/spell-check.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/sync-labels.yml",
+      "size": 4676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ethernet Library for Arduino",
+    "fork": false,
+    "full_name": "arduino-libraries/Ethernet",
+    "html_url": "https://github.com/arduino-libraries/Ethernet",
+    "language": "C++",
+    "pushed_at": "2026-03-16T17:29:15Z",
+    "stargazers_count": 278,
+    "topics": [],
+    "updated_at": "2026-03-18T15:21:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Arduino",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "term": "Check Arduino"
+    },
+    {
+      "context_snippet": "Compile Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "term": "Compile Examples"
+    },
+    {
+      "context_snippet": "Report Size Deltas",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "term": "Report Size Deltas"
+    },
+    {
+      "context_snippet": "Spell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check.yml",
+      "term": "Spell Check"
+    },
+    {
+      "context_snippet": "Sync Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "term": "Sync Labels"
+    }
+  ]
+}

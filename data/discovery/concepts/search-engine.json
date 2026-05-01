@@ -163,6 +163,18 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate-context",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate-context",
+      "text": "PISA: Performant Indexes and Search for Academia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pisa-engine/pisa"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

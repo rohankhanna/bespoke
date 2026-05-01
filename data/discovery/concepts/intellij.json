@@ -91,6 +91,18 @@
       "source_repo": "JetBrains/intellij-platform-gradle-plugin",
       "status": "candidate-context",
       "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate-context",
+      "text": "IntelliJ plugin for continuous OpenAPI linting using the Spectral OpenAPI linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "JetBrains/intellij-platform-gradle-plugin",
       "status": "candidate",
       "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate",
+      "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SchwarzIT/spectral-intellij-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

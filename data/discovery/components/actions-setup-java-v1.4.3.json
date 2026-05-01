@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-java@v1.4.3",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD"
+    }
+  ]
+}

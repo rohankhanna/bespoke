@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "document-management"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "document-management",
+  "concept_id": "document-management",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haiwen/seafile"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "document-management",
+      "sense_id": "document-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

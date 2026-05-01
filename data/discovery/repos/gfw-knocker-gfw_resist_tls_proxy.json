@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_tls_proxy",
+      "target": "ali-frh/cfuzzy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_tls_proxy",
+      "target": "0x00452/gfw_resist_tls_proxy-c-sharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_tls_proxy",
+      "target": "filtershekanha/tlsfragmenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GFW-knocker/gfw_resist_tls_proxy",
+      "target": "gfw-knocker/gfw_resist_https_proxy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:06.238525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "knock up GFW sni detection in tls client hello ",
+    "fork": false,
+    "full_name": "GFW-knocker/gfw_resist_tls_proxy",
+    "html_url": "https://github.com/GFW-knocker/gfw_resist_tls_proxy",
+    "language": "Python",
+    "pushed_at": "2024-01-16T08:24:12Z",
+    "stargazers_count": 1711,
+    "topics": [],
+    "updated_at": "2026-05-01T01:38:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x00452/gfw_resist_tls_proxy-c-sharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-frh/cfuzzy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filtershekanha/tlsfragmenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gfw-knocker/gfw_resist_https_proxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

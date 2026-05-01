@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:39:54.158710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "scicode-bench/submissions",
+    "html_url": "https://github.com/scicode-bench/submissions",
+    "language": null,
+    "pushed_at": "2024-07-12T17:45:59Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-09-18T08:44:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

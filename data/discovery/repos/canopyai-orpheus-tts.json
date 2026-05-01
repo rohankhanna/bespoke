@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "canopyai/Orpheus-TTS",
+      "target": "isaiahbjork/orpheus-tts-local",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "canopyai/Orpheus-TTS",
+      "target": "lex-au/orpheus-fastapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "canopyai/Orpheus-TTS",
+      "target": "saganaki22/orpheustts-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "canopyai/Orpheus-TTS",
+      "target": "realtime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:04:19.441206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Towards Human-Sounding Speech",
+    "fork": false,
+    "full_name": "canopyai/Orpheus-TTS",
+    "html_url": "https://github.com/canopyai/Orpheus-TTS",
+    "language": "Python",
+    "pushed_at": "2025-12-05T19:01:02Z",
+    "stargazers_count": 6117,
+    "topics": [
+      "llm",
+      "realtime",
+      "tts"
+    ],
+    "updated_at": "2026-05-01T14:59:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isaiahbjork/orpheus-tts-local",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lex-au/orpheus-fastapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saganaki22/orpheustts-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [5/2025] We've partnered with [Baseten](https://www.baseten.co/blog/canopy-labs-selects-baseten-as-preferred-inference-provider-for-orpheus-tts-model) to bring highly optimized inference to Orpheus at fp8 (more performant) and fp16 (full fidelity) inference. See code and docs \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    }
+  ]
+}

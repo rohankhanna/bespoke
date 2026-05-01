@@ -259,6 +259,30 @@
       "source_repo": "Azure/reliable-web-app-pattern-dotnet",
       "status": "candidate-context",
       "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate-context",
+      "text": "Master GitHub Copilot for C#/.NET development via this curriculum! Learn AI-driven paired programming, optimize your workflow, and write cleaner, faster code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate-context",
+      "text": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate-context",
+      "text": "A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate-context",
+      "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "Azure/reliable-web-app-pattern-dotnet",
       "status": "candidate",
       "text": "> :mega: **Got feedback?** Fill out [this survey](https://aka.ms/eap/rwa/dotnet/survey) to help us shape the future of Enterprise App Patterns and understand whether we're focusing on the business goals and features important to you. [Microsoft Privacy Statement](https://go.micr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate",
+      "text": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate",
+      "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
     }
   ],
   "candidate_related_terms": [
@@ -639,11 +675,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Azure/reliable-web-app-pattern-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

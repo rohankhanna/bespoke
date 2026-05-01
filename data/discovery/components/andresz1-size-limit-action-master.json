@@ -1,0 +1,12 @@
+{
+  "component": "andresz1/size-limit-action@master",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "browserslist/browserslist-useragent-regexp"
+    }
+  ]
+}

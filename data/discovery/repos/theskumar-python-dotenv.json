@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "dynaconf/dynaconf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "joke2k/django-environ",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "hbnetwork/python-decouple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "jezdez/django-configurations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "theskumar/python-dotenv",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theskumar/python-dotenv",
+      "target": "12-factor-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theskumar/python-dotenv",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theskumar/python-dotenv",
+      "target": "devops-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theskumar/python-dotenv",
+      "target": "dotenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theskumar/python-dotenv",
+      "target": "environment-variables",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:29.791235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7962
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1172
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles.",
+    "fork": false,
+    "full_name": "theskumar/python-dotenv",
+    "html_url": "https://github.com/theskumar/python-dotenv",
+    "language": "Python",
+    "pushed_at": "2026-04-19T19:39:11Z",
+    "stargazers_count": 8750,
+    "topics": [
+      "12-factor-app",
+      "configuration",
+      "devops-tools",
+      "dotenv",
+      "env",
+      "environment-variables",
+      "python"
+    ],
+    "updated_at": "2026-04-29T21:12:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dynaconf/dynaconf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hbnetwork/python-decouple",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jezdez/django-configurations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joke2k/django-environ",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "[![Build Status][build_status_badge]][build_status_link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "12-factor-app"
+    },
+    {
+      "context_snippet": "[![Build Status][build_status_badge]][build_status_link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "[![Build Status][build_status_badge]][build_status_link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops-tools"
+    },
+    {
+      "context_snippet": "[![Build Status][build_status_badge]][build_status_link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotenv"
+    },
+    {
+      "context_snippet": "[![Build Status][build_status_badge]][build_status_link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment-variables"
+    }
+  ]
+}

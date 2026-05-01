@@ -103,6 +103,30 @@
       "source_repo": "deezer/spleeter",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "Collection of robot models compatible with gym-ignition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "status": "candidate-context",
+      "text": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "status": "candidate-context",
+      "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "deezer/spleeter",
       "status": "candidate",
       "text": "<img src=\"https://github.com/deezer/spleeter/raw/master/images/spleeter_logo.png\" height=\"80\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "status": "candidate",
+      "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
     }
   ],
   "candidate_related_terms": [
@@ -286,11 +322,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "deezer/spleeter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gym-ignition-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

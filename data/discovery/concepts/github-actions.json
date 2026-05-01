@@ -875,6 +875,66 @@
       "source_repo": "suzuki-shunsuke/pinact",
       "status": "candidate-context",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/graph-validator",
+      "status": "candidate-context",
+      "text": "Validate your logseq graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/graph-validator",
+      "status": "candidate-context",
+      "text": "This is a [github action](https://github.com/features/actions) to run"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate-context",
+      "text": "Deploy your plugin to the WordPress.org repository using GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate-context",
+      "text": "> Deploy your plugin to the WordPress.org repository using GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/setup-pixi",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up pixi :octocat: \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/setup-pixi",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "GitHub Actions linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate-context",
+      "text": "GitHub Actions to pin GitHub Actions by pinact"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact-action)"
     }
   ],
   "candidate_glosses": [
@@ -1315,6 +1375,36 @@
       "source_repo": "suzuki-shunsuke/pinact",
       "status": "candidate",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/graph-validator",
+      "status": "candidate",
+      "text": "This is a [github action](https://github.com/features/actions) to run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "10up/action-wordpress-plugin-deploy",
+      "status": "candidate",
+      "text": "> Deploy your plugin to the WordPress.org repository using GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/setup-pixi",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/pinact-action)"
     }
   ],
   "candidate_related_terms": [
@@ -1898,11 +1988,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "suzuki-shunsuke/pinact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "logseq/graph-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "10up/action-wordpress-plugin-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/setup-pixi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghalint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/pinact-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

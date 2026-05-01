@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:55:39.680725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1923
+    },
+    {
+      "path": "go.mod",
+      "size": 111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spaghetti: a dependency analysis tool for Go packages",
+    "fork": false,
+    "full_name": "adonovan/spaghetti",
+    "html_url": "https://github.com/adonovan/spaghetti",
+    "language": "Go",
+    "pushed_at": "2023-05-19T04:09:44Z",
+    "stargazers_count": 765,
+    "topics": [],
+    "updated_at": "2026-04-23T23:34:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

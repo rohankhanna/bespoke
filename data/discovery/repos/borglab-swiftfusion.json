@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borglab/SwiftFusion",
+      "target": "tensorflow/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borglab/SwiftFusion",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borglab/SwiftFusion",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borglab/SwiftFusion",
+      "target": "Standard Testset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:19.499556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8904
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "borglab/SwiftFusion",
+    "html_url": "https://github.com/borglab/SwiftFusion",
+    "language": "Swift",
+    "pushed_at": "2022-12-18T21:24:57Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-03-11T01:50:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Standard Testset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Standard Testset"
+    }
+  ]
+}

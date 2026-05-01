@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:33:59.426066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python implementation of MatLab imresize function",
+    "fork": false,
+    "full_name": "fatheral/matlab_imresize",
+    "html_url": "https://github.com/fatheral/matlab_imresize",
+    "language": "Python",
+    "pushed_at": "2021-08-31T13:41:12Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2026-03-30T07:52:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

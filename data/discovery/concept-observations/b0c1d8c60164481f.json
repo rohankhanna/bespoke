@@ -84,7 +84,7 @@
   "normalized_form": "pre-merge-checks",
   "observation_id": "b0c1d8c60164481f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Pre Merge Checks",
   "source_context_snippet": "Pre Merge Checks",
   "source_file": ".github/workflows/pre-merge.yaml",

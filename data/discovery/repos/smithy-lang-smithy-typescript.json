@@ -301,20 +301,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "smithy-lang/smithy-typescript",
-      "target": "smithy-lang/smithy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "smithy-lang/smithy-typescript",
-      "target": "smithy-lang/smithy-examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "smithy-lang/smithy-typescript",
       "target": "awslabs/smithy",
       "target_type": "repository"
     },
@@ -655,7 +641,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T10:28:55.116617+00:00",
+  "fetched_at": "2026-05-01T14:52:58.876818+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -695,25 +681,15 @@
     "full_name": "smithy-lang/smithy-typescript",
     "html_url": "https://github.com/smithy-lang/smithy-typescript",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T00:52:56Z",
+    "pushed_at": "2026-05-01T14:52:22Z",
     "stargazers_count": 313,
     "topics": [],
-    "updated_at": "2026-04-29T23:39:03Z"
+    "updated_at": "2026-04-30T20:12:49Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "awslabs/smithy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "smithy-lang/smithy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "smithy-lang/smithy-examples",
       "source_file": "README.md"
     }
   ],

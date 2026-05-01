@@ -1,12 +1,37 @@
 {
   "component": "DeterminateSystems/determinate-nix-action@v3",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.beta.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.production.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.source.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
     }
   ]
 }

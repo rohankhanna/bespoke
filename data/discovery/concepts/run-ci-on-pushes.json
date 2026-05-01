@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run CI on Pushes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DioxusLabs/stork",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0e Impossibly fast web search, made for static sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/stork",
+      "status": "candidate-context",
+      "text": "\"Run CI on Pushes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DioxusLabs/stork",
+      "status": "candidate",
+      "text": "\"Run CI on Pushes\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16304,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13984,
+      "status": "candidate",
+      "text": "pram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13743,
+      "status": "candidate",
+      "text": "blade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13315,
+      "status": "candidate",
+      "text": "aback"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run CI on Pushes",
+  "concept_id": "run-ci-on-pushes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci-on-push.yml",
+      "source_repo": "DioxusLabs/stork"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run CI on Pushes",
+      "sense_id": "run-ci-on-pushes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

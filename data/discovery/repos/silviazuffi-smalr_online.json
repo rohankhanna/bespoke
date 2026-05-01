@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "silviazuffi/smalr_online",
+      "target": "silviazuffi/smalst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "silviazuffi/smalr_online",
+      "target": "mpi-is/mesh.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "silviazuffi/smalr_online",
+      "target": "benjiebob/smalify",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:11:25.856706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "silviazuffi/smalr_online",
+    "html_url": "https://github.com/silviazuffi/smalr_online",
+    "language": "Python",
+    "pushed_at": "2022-08-03T09:10:05Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2025-12-15T18:27:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjiebob/smalify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpi-is/mesh.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "silviazuffi/smalst",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

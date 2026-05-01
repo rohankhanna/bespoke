@@ -163,6 +163,42 @@
       "source_repo": "vuejs/router",
       "status": "candidate-context",
       "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 On-demand components auto importing for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Access thousands of icons as components on-demand universally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/devtools",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Browser devtools extension for debugging Vue.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/devtools",
+      "status": "candidate-context",
+      "text": "Publish Any Commit"
     }
   ],
   "candidate_glosses": [
@@ -241,6 +277,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vuejs/router",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate",
+      "text": "Publish Any Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/devtools",
       "status": "candidate",
       "text": "Publish Any Commit"
     }
@@ -394,11 +448,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pkg.pr.new.yml",
       "source_repo": "vuejs/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release-commit.yml",
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/relese-commit.yml",
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release-commit.yml",
+      "source_repo": "vuejs/devtools"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

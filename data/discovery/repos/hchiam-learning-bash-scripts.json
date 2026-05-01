@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "target": "hchiam/learning-dependency-cruiser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "target": "hchiam/learning-https-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "target": "hchiam/hchiam.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "target": "hchiam/learning-gh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-bash-scripts",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-bash-scripts",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:41:49.236535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13372
+    },
+    {
+      "path": "package.json",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning Bash Scripts",
+    "fork": false,
+    "full_name": "hchiam/learning-bash-scripts",
+    "html_url": "https://github.com/hchiam/learning-bash-scripts",
+    "language": "Shell",
+    "pushed_at": "2026-03-24T21:40:04Z",
+    "stargazers_count": 1,
+    "topics": [
+      "bash",
+      "shell"
+    ],
+    "updated_at": "2026-03-24T21:40:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/hchiam.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-dependency-cruiser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-gh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-https-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

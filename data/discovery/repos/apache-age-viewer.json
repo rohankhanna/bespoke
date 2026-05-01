@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/age-viewer",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "apache/age-viewer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "apache/age-viewer",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "apache/age-viewer",
+      "target": "AGEViewer build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "age-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "graph-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "graphdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "multi-model-dbms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/age-viewer",
+      "target": "postgresql-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:44.613251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3825
+    },
+    {
+      "path": "Dockerfile",
+      "size": 129
+    },
+    {
+      "path": "package.json",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 621
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graph database optimized for fast analysis and real-time data processing. It is provided as an extension to PostgreSQL.",
+    "fork": false,
+    "full_name": "apache/age-viewer",
+    "html_url": "https://github.com/apache/age-viewer",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-08T07:35:53Z",
+    "stargazers_count": 363,
+    "topics": [
+      "age-database",
+      "analytics",
+      "graph-database",
+      "graphdb",
+      "multi-model-dbms",
+      "postgresql",
+      "postgresql-extension"
+    ],
+    "updated_at": "2026-04-23T20:58:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AGEViewer build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "AGEViewer build"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "age-database"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-database"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphdb"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-model-dbms"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-extension"
+    }
+  ]
+}

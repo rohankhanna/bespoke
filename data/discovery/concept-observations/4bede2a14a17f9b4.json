@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gensim \u2013 Topic Modelling in Python"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gensim \u2013 Topic Modelling in Python"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "word-similarity",
+      "sense_id": "word-similarity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "word-similarity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "word-similarity",
+  "observation_id": "4bede2a14a17f9b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "word-similarity",
+  "source_context_snippet": "gensim \u2013 Topic Modelling in Python",
+  "source_file": null,
+  "source_repo": "piskvorky/gensim",
+  "source_repo_description": "Topic Modelling for Humans"
+}

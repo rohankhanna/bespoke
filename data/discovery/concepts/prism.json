@@ -67,6 +67,54 @@
       "source_repo": "PrismLibrary/Prism-Samples-Wpf",
       "status": "candidate-context",
       "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate-context",
+      "text": "A package that provides registrations and resolves of services and other shite in the fast and lightweight container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "status": "candidate-context",
+      "text": "Easy localization, theme switching and other for WPF and Avalonia applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "status": "candidate-context",
+      "text": "Sample project using Prism.Avalonia with Prism's Modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "status": "candidate-context",
+      "text": "Sample project using Prism.Avalonia with Prism's Modules"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "status": "candidate-context",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "status": "candidate-context",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "PrismLibrary/Prism-Samples-Wpf",
       "status": "candidate",
       "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "status": "candidate",
+      "text": "Sample project using Prism.Avalonia with Prism's Modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "status": "candidate",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +252,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "PrismLibrary/Prism-Samples-Wpf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MorganRO8/Lucys_Labyrinth",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MorganRO8/Lucys_Labyrinth",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MorganRO8/Lucys_Labyrinth",
+      "target": "sfml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:03:12.250811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A game made for a school project, dedicated to my daughter.",
+    "fork": false,
+    "full_name": "MorganRO8/Lucys_Labyrinth",
+    "html_url": "https://github.com/MorganRO8/Lucys_Labyrinth",
+    "language": "C++",
+    "pushed_at": "2024-04-09T15:00:15Z",
+    "stargazers_count": 198,
+    "topics": [
+      "game",
+      "llamacpp",
+      "llm",
+      "sfml"
+    ],
+    "updated_at": "2026-05-01T13:12:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A game made for a school project, dedicated to my daughter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "A game made for a school project, dedicated to my daughter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "A game made for a school project, dedicated to my daughter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sfml"
+    }
+  ]
+}

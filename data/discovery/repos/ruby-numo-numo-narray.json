@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ruby-numo/numo-narray",
-      "target": "ruby-numo/numo-gsl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruby-numo/numo-narray",
       "target": "ruby-numo/numo-fftw",
       "target_type": "repository"
     },
@@ -46,13 +39,6 @@
       "source_file": "README.md",
       "source_repo": "ruby-numo/numo-narray",
       "target": "ruby-numo/numo-ffte",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruby-numo/numo-narray",
-      "target": "ruby-numo/numo-gnuplot",
       "target_type": "repository"
     },
     {
@@ -112,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T07:27:01.961705+00:00",
+  "fetched_at": "2026-05-01T15:05:16.101984+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -152,16 +138,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ruby-numo/numo-fftw",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ruby-numo/numo-gnuplot",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ruby-numo/numo-gsl",
       "source_file": "README.md"
     }
   ],

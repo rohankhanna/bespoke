@@ -246,20 +246,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rescript-lang/rescript",
-      "target": "rescript-lang/rescript-vscode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rescript-lang/rescript",
-      "target": "rescript-lang/vim-rescript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rescript-lang/rescript",
       "target": "rescript-association/rescript-lang.org",
       "target_type": "repository"
     },
@@ -488,7 +474,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T02:53:24.556068+00:00",
+  "fetched_at": "2026-05-01T14:51:22.457667+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -524,7 +510,7 @@
     "full_name": "rescript-lang/rescript",
     "html_url": "https://github.com/rescript-lang/rescript",
     "language": "ReScript",
-    "pushed_at": "2026-04-29T01:26:14Z",
+    "pushed_at": "2026-05-01T11:13:55Z",
     "stargazers_count": 7372,
     "topics": [
       "altjs",
@@ -538,16 +524,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rescript-association/rescript-lang.org",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rescript-lang/rescript-vscode",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rescript-lang/vim-rescript",
       "source_file": "README.md"
     }
   ],

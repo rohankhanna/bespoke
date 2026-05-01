@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:48:30.456957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16001
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u8fd9\u662f\u4e00\u4e2a\u9488\u5bf9ECharts2.x\u7248\u672c\u7684Java\u7c7b\u5e93\uff0c\u5b9e\u73b0\u4e86\u6240\u6709ECharts\u4e2d\u7684Json\u7ed3\u6784\u5bf9\u5e94\u7684Java\u5bf9\u8c61\uff0c\u5e76\u4e14\u53ef\u4ee5\u5f88\u65b9\u4fbf\u7684\u521b\u5efaOption,Series\u7b49",
+    "fork": false,
+    "full_name": "abel533/ECharts",
+    "html_url": "https://github.com/abel533/ECharts",
+    "language": "Java",
+    "pushed_at": "2021-08-09T07:26:13Z",
+    "stargazers_count": 1104,
+    "topics": [],
+    "updated_at": "2026-04-27T09:04:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

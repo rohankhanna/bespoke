@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jbwang1997/BboxToolkit",
+      "target": "captain-whu/dota_devkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:09:56.918704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BboxToolkit is a tiny library of special bounding boxes.",
+    "fork": false,
+    "full_name": "jbwang1997/BboxToolkit",
+    "html_url": "https://github.com/jbwang1997/BboxToolkit",
+    "language": "Python",
+    "pushed_at": "2022-09-11T02:47:15Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-03-07T07:51:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "captain-whu/dota_devkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

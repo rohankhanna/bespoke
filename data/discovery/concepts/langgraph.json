@@ -91,6 +91,18 @@
       "source_repo": "imfangs/langgraph4j-deep-researcher",
       "status": "candidate-context",
       "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate-context",
+      "text": "A production-ready runtime framework for agent apps with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, full-stack observability, and broad framework compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "imfangs/langgraph4j-deep-researcher",
       "status": "candidate",
       "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +262,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "langgraph4j/langgraph4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentscope-ai/agentscope-runtime"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

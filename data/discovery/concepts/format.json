@@ -371,6 +371,78 @@
       "source_repo": "pipecat-ai/pipecat-examples",
       "status": "candidate-context",
       "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Community plugins list, theme list, and releases of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "C++ and Python library for farm-ng logging format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "A low-level, lightweight protocol buffers implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_glosses": [
@@ -553,6 +625,42 @@
       "source_repo": "pipecat-ai/pipecat-examples",
       "status": "candidate",
       "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1069,11 +1177,65 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/format.yaml",
       "source_repo": "pipecat-ai/pipecat-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "farm-ng/farm-ng-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "sophus-vision/sophus-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/pbf"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

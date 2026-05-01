@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notify on Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/elysia-frontend",
+      "status": "candidate-context",
+      "text": "Frontend Repository for Elysia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/elysia-frontend",
+      "status": "candidate-context",
+      "text": "Notify on Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/elysia-frontend",
+      "status": "candidate",
+      "text": "Notify on Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12791,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "acquaint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "admonish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "advertise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11770,
+      "status": "candidate",
+      "text": "advise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notify on Release",
+  "concept_id": "notify-on-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/notify-backend.yml",
+      "source_repo": "weaviate/elysia-frontend"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify on Release",
+      "sense_id": "notify-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

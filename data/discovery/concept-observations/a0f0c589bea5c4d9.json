@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AlpineJS integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nanostores",
+      "sense_id": "nanostores#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nanostores",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nanostores",
+  "observation_id": "a0f0c589bea5c4d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "nanostores",
+  "source_context_snippet": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\"",
+  "source_file": null,
+  "source_repo": "nanostores/alpine",
+  "source_repo_description": "AlpineJS integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores"
+}

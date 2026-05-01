@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mincer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "taptapship/wiredep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "sass-eyeglass/eyeglass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "sferik/rails_admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "nodeca/mincer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "mincer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "twbs/bootstrap-sass",
+      "target": "ejs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:07.838671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12346
+    },
+    {
+      "path": "package.json",
+      "size": 999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Sass port of Bootstrap 2 and 3.",
+    "fork": false,
+    "full_name": "twbs/bootstrap-sass",
+    "html_url": "https://github.com/twbs/bootstrap-sass",
+    "language": "SCSS",
+    "pushed_at": "2026-01-03T08:04:35Z",
+    "stargazers_count": 12506,
+    "topics": [],
+    "updated_at": "2026-04-29T15:50:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodeca/mincer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sass-eyeglass/eyeglass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sferik/rails_admin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taptapship/wiredep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

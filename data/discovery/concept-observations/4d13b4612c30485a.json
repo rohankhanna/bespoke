@@ -48,7 +48,7 @@
   "normalized_form": "librdkafka",
   "observation_id": "4d13b4612c30485a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "librdkafka",
   "source_context_snippet": "[![Build Status](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_ubuntu_x86_64_gnu.yml/badge.svg)](https://github.com/karafka/rdkafka-ruby/actions/workflows/ci_linux_x86_64_gnu.yml)",
   "source_file": null,

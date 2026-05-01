@@ -43,6 +43,30 @@
       "source_repo": "catppuccin/vim",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a3chron/gith",
+      "status": "candidate-context",
+      "text": "A TUI git helper (catppuccin theme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a3chron/gith",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catppuccin/.github",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc4 Soothing pastel default community health files for GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/.github",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "catppuccin/vim",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a3chron/gith",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catppuccin/.github",
       "status": "candidate",
       "text": "<h3 align=\"center\">"
     }
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "catppuccin/vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "a3chron/gith"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "catppuccin/.github"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

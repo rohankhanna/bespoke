@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-webrtc",
+      "target": "webdevsimplified/zoom-clone-with-webrtc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-webrtc",
+      "target": "peers/peerjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-webrtc",
+      "target": "fireship-io/webrtc-firebase-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-webrtc",
+      "target": "rameshvarun/netplayjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/learning-webrtc",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:41:43.648013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2681
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning WebRTC",
+    "fork": false,
+    "full_name": "hchiam/learning-webrtc",
+    "html_url": "https://github.com/hchiam/learning-webrtc",
+    "language": "HTML",
+    "pushed_at": "2024-11-21T18:57:56Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-21T18:58:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fireship-io/webrtc-firebase-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peers/peerjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rameshvarun/netplayjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webdevsimplified/zoom-clone-with-webrtc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

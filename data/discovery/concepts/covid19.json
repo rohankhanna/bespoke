@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "covid19"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "MaskedFace-Net is a dataset of human faces with a correctly and incorrectly worn mask based on the dataset Flickr-Faces-HQ (FFHQ). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "covid19",
+  "concept_id": "covid19",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "covid19",
+      "sense_id": "covid19#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

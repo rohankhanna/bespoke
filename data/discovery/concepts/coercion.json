@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "coercion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/malli",
+      "status": "candidate-context",
+      "text": "High-performance data-driven data specification library for Clojure/Script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/malli",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/malli",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036333,
+      "status": "candidate",
+      "text": "compulsion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044792,
+      "status": "candidate",
+      "text": "coercive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044617,
+      "status": "candidate",
+      "text": "enforcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044609,
+      "status": "candidate",
+      "text": "imposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044165,
+      "status": "candidate",
+      "text": "forcible"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 49045,
+      "status": "candidate",
+      "text": "compulsion"
+    }
+  ],
+  "canonical_name": "coercion",
+  "concept_id": "coercion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "metosin/malli"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coercion",
+      "sense_id": "coercion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

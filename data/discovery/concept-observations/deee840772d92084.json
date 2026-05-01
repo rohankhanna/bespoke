@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939017,
+      "status": "candidate",
+      "text": "optical prism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939016,
+      "status": "candidate",
+      "text": "angle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924791,
+      "status": "candidate",
+      "text": "prismatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29912110,
+      "status": "candidate",
+      "text": "lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910203,
+      "status": "candidate",
+      "text": "light"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prism",
+      "sense_id": "prism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "optical prism"
+    }
+  ],
+  "concept_id": "prism",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prism",
+  "observation_id": "deee840772d92084",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "prism",
+  "source_context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+  "source_file": null,
+  "source_repo": "DamianSuess/Learn.PrismLibrary",
+  "source_repo_description": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+}

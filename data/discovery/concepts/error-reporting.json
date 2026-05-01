@@ -31,6 +31,18 @@
       "source_repo": "googleapis/nodejs-error-reporting",
       "status": "candidate-context",
       "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe8 AppSignal for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "- [AppSignal.com website][appsignal]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "googleapis/nodejs-error-reporting",
       "status": "candidate",
       "text": "**_THIS REPOSITORY IS DEPRECATED. ALL OF ITS CONTENT AND HISTORY HAS BEEN MOVED TO [GOOGLE-CLOUD-NODE](https://github.com/googleapis/google-cloud-node/tree/main/packages/handwritten)_**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate",
+      "text": "- [AppSignal.com website][appsignal]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "googleapis/nodejs-error-reporting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-javascript"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

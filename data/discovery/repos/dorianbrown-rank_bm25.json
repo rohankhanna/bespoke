@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "amenra/retriv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "bm25",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dorianbrown/rank_bm25",
+      "target": "ranking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:50:22.630298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3224
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 626
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Collection of BM25 Algorithms in Python",
+    "fork": false,
+    "full_name": "dorianbrown/rank_bm25",
+    "html_url": "https://github.com/dorianbrown/rank_bm25",
+    "language": "Python",
+    "pushed_at": "2024-10-08T13:22:29Z",
+    "stargazers_count": 1348,
+    "topics": [
+      "algorithm",
+      "bm25",
+      "information-retrieval",
+      "ranking"
+    ],
+    "updated_at": "2026-04-29T23:40:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amenra/retriv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bm25"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ranking"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:37:46.115733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch pre-trained model for real-time interest point detection, description, and sparse tracking (https://arxiv.org/abs/1712.07629)",
+    "fork": false,
+    "full_name": "magicleap/SuperPointPretrainedNetwork",
+    "html_url": "https://github.com/magicleap/SuperPointPretrainedNetwork",
+    "language": "Python",
+    "pushed_at": "2022-07-24T18:56:31Z",
+    "stargazers_count": 2165,
+    "topics": [],
+    "updated_at": "2026-04-30T02:03:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

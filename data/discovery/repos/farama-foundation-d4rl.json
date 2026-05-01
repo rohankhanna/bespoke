@@ -5,21 +5,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Farama-Foundation/D4RL",
-      "target": "farama-foundation/gymnasium-robotics",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/D4RL",
-      "target": "farama-foundation/minari",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Farama-Foundation/D4RL",
       "target": "farama-foundation/d4rl_evaluations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/D4RL",
+      "target": "maximecb/gym-minigrid",
       "target_type": "repository"
     },
     {
@@ -30,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-30T15:54:34.243376+00:00",
+  "fetched_at": "2026-05-01T14:42:00.076871+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,9 +40,9 @@
     "html_url": "https://github.com/Farama-Foundation/D4RL",
     "language": "Python",
     "pushed_at": "2024-11-18T16:40:39Z",
-    "stargazers_count": 1673,
+    "stargazers_count": 1674,
     "topics": [],
-    "updated_at": "2026-04-27T06:16:41Z"
+    "updated_at": "2026-05-01T14:23:00Z"
   },
   "repo_links": [
     {
@@ -59,17 +52,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "farama-foundation/gymnasium-robotics",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "farama-foundation/minari",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "google-research/relay-policy-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maximecb/gym-minigrid",
       "source_file": "README.md"
     }
   ],

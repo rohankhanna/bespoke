@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -716,6 +716,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/git-hygiene.yml",
       "source_repo": "aws/aws-sdk-pandas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "10up/action-wordpress-plugin-deploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "mongodb/bson-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "IDEA-Research/Rex-Omni"
     }
   ],
   "term": "Close stale issues"

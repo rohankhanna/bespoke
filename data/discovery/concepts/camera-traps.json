@@ -31,6 +31,30 @@
       "source_repo": "microsoft/CameraTraps",
       "status": "candidate-context",
       "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "MegaDetector is an AI model that helps conservation folks spend less time doing boring things with camera trap images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tnc-ca-geo/animl-api",
+      "status": "candidate-context",
+      "text": "Backend for https://animl.camera"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tnc-ca-geo/animl-api",
+      "status": "candidate-context",
+      "text": "An AWS Lambda-based, GraphQl interface for performing CRUD operations on camera"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "microsoft/CameraTraps",
       "status": "candidate",
       "text": "![image](https://zenodo.org/records/15376499/files/Pytorch_Banner_transparentbk.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tnc-ca-geo/animl-api",
+      "status": "candidate",
+      "text": "An AWS Lambda-based, GraphQl interface for performing CRUD operations on camera"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "microsoft/CameraTraps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tnc-ca-geo/animl-api"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

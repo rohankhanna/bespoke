@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/scaffold-package-command",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-branch-alias.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-check-branch-alias.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-branch-alias.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Check Branch Alias",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-code-quality.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-quality.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Code Quality Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "ramsey/composer-install@65e4f84970763564f46a70b8a54b90d033b3bdda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-issue-triage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Issue and PR Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manage-labels.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-manage-labels.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manage-labels.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Manage Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-readme.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-regenerate-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-readme.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Regenerate README file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-testing.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-new-contributors.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli/.github/.github/workflows/reusable-welcome-new-contributors.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-new-contributors.yml",
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "Welcome New Contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wordpress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command",
+      "target": "wp-cli",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "wp-cli/dist-archive-command"
+}

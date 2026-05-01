@@ -139,6 +139,42 @@
       "source_repo": "vkhorikov/CSharpFunctionalExtensions",
       "status": "candidate-context",
       "text": "\ufeff# Functional Extensions for C&#35;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "status": "candidate-context",
+      "text": "the minimal grammar, high performance JavaScript pattern matching implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "status": "candidate-context",
+      "text": "babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-function-helpers",
+      "status": "candidate-context",
+      "text": "A withdrawn proposal for standardizing some useful, popular helper functions into JavaScript\u2019s Function object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-helpers",
+      "status": "candidate-context",
+      "text": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "A small set of extensions to make test assertions more fluent when using CSharpFunctionalExtensions! Wow!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "vkhorikov/CSharpFunctionalExtensions",
       "status": "candidate",
       "text": "\ufeff# Functional Extensions for C&#35;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "status": "candidate",
+      "text": "babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-helpers",
+      "status": "candidate",
+      "text": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "vkhorikov/CSharpFunctionalExtensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

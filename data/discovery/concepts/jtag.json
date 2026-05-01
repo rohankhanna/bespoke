@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "jtag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f32c/tools",
+      "status": "candidate-context",
+      "text": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/tools",
+      "status": "candidate-context",
+      "text": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/tools",
+      "status": "candidate",
+      "text": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "physical verification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "jedec memory standards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "hardware verification language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "functional verification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "standard test data format"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jtag",
+  "concept_id": "jtag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f32c/tools"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jtag",
+      "sense_id": "jtag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

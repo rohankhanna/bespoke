@@ -43,6 +43,18 @@
       "source_repo": "schell/steeloverseer",
       "status": "candidate-context",
       "text": "Haskell-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protolude/protolude",
+      "status": "candidate-context",
+      "text": "A sensible starting Prelude template."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protolude/protolude",
+      "status": "candidate-context",
+      "text": "Haskell-CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "schell/steeloverseer",
+      "status": "candidate",
+      "text": "Haskell-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protolude/protolude",
       "status": "candidate",
       "text": "Haskell-CI"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/haskell-ci.yml",
       "source_repo": "schell/steeloverseer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "protolude/protolude"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

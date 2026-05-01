@@ -167,6 +167,48 @@
       "source_repo": "yoshoku/numo-linalg-alt",
       "status": "candidate-context",
       "text": "rubocop"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "A RuboCop extension focused on enforcing Rails best practices and coding conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeadmin/arbre",
+      "status": "candidate-context",
+      "text": "An Object Oriented DOM Tree in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/arbre",
+      "status": "candidate-context",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/inherited_resources",
+      "status": "candidate-context",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate-context",
+      "text": "Object-based searching. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate-context",
+      "text": "rubocop"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +287,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "yoshoku/numo-linalg-alt",
+      "status": "candidate",
+      "text": "rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/arbre",
+      "status": "candidate",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/inherited_resources",
+      "status": "candidate",
+      "text": "Rubocop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activerecord-hackery/ransack",
       "status": "candidate",
       "text": "rubocop"
     }
@@ -350,11 +416,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/rubocop.yml",
       "source_repo": "yoshoku/numo-linalg-alt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/arbre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activeadmin/inherited_resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "activerecord-hackery/ransack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

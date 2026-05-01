@@ -1,0 +1,22 @@
+{
+  "component": "lukka/run-cmake@v3",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inno_setup",
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sanitizer.yml",
+      "source_repo": "assimp/assimp"
+    }
+  ]
+}

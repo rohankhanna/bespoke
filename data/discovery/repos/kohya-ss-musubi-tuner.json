@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "sdbds/sageattention-for-windows.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "sdbds/sageattention-for-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "source_repo": "kohya-ss/musubi-tuner",
+      "target": "Ruff Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:47.610489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15870
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5869
+    },
+    {
+      "path": ".github/workflows/ruff-lint.yml",
+      "size": 1023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kohya-ss/musubi-tuner",
+    "html_url": "https://github.com/kohya-ss/musubi-tuner",
+    "language": "Python",
+    "pushed_at": "2026-04-20T00:35:25Z",
+    "stargazers_count": 1813,
+    "topics": [],
+    "updated_at": "2026-05-01T10:22:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdbds/sageattention-for-windows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdbds/sageattention-for-windows.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruff Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff-lint.yml",
+      "term": "Ruff Lint"
+    }
+  ]
+}

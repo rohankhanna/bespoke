@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Go binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xxxserxxx/gotop",
+      "status": "candidate-context",
+      "text": "A terminal based graphical activity monitor inspired by gtop and vtop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxxserxxx/gotop",
+      "status": "candidate-context",
+      "text": "Build Go binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xxxserxxx/gotop",
+      "status": "candidate",
+      "text": "Build Go binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23289,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23289,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22921,
+      "status": "candidate",
+      "text": "scale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22921,
+      "status": "candidate",
+      "text": "two"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14899,
+      "status": "candidate",
+      "text": "ioi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Go binaries",
+  "concept_id": "build-go-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xxxserxxx/gotop"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Go binaries",
+      "sense_id": "build-go-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

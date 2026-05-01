@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/nvdiffrec",
+      "target": "nvidiagameworks/kaolin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/nvdiffrec",
+      "target": "nv-tlabs/flexicubes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/nvdiffrec",
+      "target": "vork/ethiopianhead",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/nvdiffrec",
+      "target": "vork/moldgoldcape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/nvdiffrec",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/nvdiffrec",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:32.541137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code for the CVPR 2022 (oral) paper \"Extracting Triangular 3D Models, Materials, and Lighting From Images\".",
+    "fork": false,
+    "full_name": "NVlabs/nvdiffrec",
+    "html_url": "https://github.com/NVlabs/nvdiffrec",
+    "language": "Python",
+    "pushed_at": "2024-05-02T11:08:55Z",
+    "stargazers_count": 2285,
+    "topics": [
+      "deep-learning",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-30T11:54:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nv-tlabs/flexicubes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidiagameworks/kaolin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vork/ethiopianhead",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vork/moldgoldcape",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Teaser image](https://nvlabs.github.io/nvdiffrec/assets/system.JPG \"Teaser image\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Teaser image](https://nvlabs.github.io/nvdiffrec/assets/system.JPG \"Teaser image\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

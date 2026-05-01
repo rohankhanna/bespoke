@@ -1,7 +1,7 @@
 {
   "component": "cachix/install-nix-action@v31",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -457,6 +457,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-flake-lock.yml",
       "source_repo": "ocamllabs/vscode-ocaml-platform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/treefmt.yml",
+      "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "reasonml/reason"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "melange-re/melange"
     }
   ]
 }

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hic-enhancement"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHNFTQ/Capricorn",
+      "status": "candidate-context",
+      "text": "Capricorn: Enhancing Hi-C contact matrices for loop detection with a multi-view diffusion approach"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHNFTQ/Capricorn",
+      "status": "candidate-context",
+      "text": "The python implementation of Capricorn."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHNFTQ/Capricorn",
+      "status": "candidate",
+      "text": "The python implementation of Capricorn."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hic-enhancement",
+  "concept_id": "hic-enhancement",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CHNFTQ/Capricorn"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hic-enhancement",
+      "sense_id": "hic-enhancement#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

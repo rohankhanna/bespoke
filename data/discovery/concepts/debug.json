@@ -178,6 +178,18 @@
       "source_repo": "jsdom/jsdom-devtools-formatter",
       "status": "candidate-context",
       "text": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate-context",
+      "text": "Redux DevTools extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "jsdom/jsdom-devtools-formatter",
       "status": "candidate",
       "text": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -487,11 +505,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zalmoxisus/redux-devtools-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

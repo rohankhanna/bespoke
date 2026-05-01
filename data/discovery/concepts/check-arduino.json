@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check Arduino"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Ethernet Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Check Arduino"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Servo Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Check Arduino"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate",
+      "text": "Check Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate",
+      "text": "Check Arduino"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "addition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Arduino",
+  "concept_id": "check-arduino",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Servo"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Arduino",
+      "sense_id": "check-arduino#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

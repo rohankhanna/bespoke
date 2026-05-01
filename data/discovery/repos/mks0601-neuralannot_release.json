@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:36:00.197599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "3D Pseudo-GTs of \"NeuralAnnot: Neural Annotator for 3D Human Mesh Training Sets\", CVPRW 2022 Oral.",
+    "fork": false,
+    "full_name": "mks0601/NeuralAnnot_RELEASE",
+    "html_url": "https://github.com/mks0601/NeuralAnnot_RELEASE",
+    "language": "Python",
+    "pushed_at": "2024-07-10T03:48:20Z",
+    "stargazers_count": 194,
+    "topics": [],
+    "updated_at": "2026-03-28T12:55:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

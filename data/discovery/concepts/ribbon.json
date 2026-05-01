@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "ribbon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "WPF Ribbon control like in Office"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047057,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044909,
+      "status": "candidate",
+      "text": "laurel wreath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036997,
+      "status": "candidate",
+      "text": "decoration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031051,
+      "status": "candidate",
+      "text": "medallion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030907,
+      "status": "candidate",
+      "text": "medal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17071,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11058,
+      "status": "candidate",
+      "text": "palm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7042,
+      "status": "candidate",
+      "text": "medallion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3014,
+      "status": "candidate",
+      "text": "laurel wreath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2039,
+      "status": "candidate",
+      "text": "decoration"
+    }
+  ],
+  "canonical_name": "ribbon",
+  "concept_id": "ribbon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluentribbon/Fluent.Ribbon"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ribbon",
+      "sense_id": "ribbon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Label by Vendor Name"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Facebook Open Switching System\n\nSoftware for controlling network switches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Auto Label by Vendor Name"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate",
+      "text": "Auto Label by Vendor Name"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47015,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36789,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36015,
+      "status": "candidate",
+      "text": "labeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36015,
+      "status": "candidate",
+      "text": "labelled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35625,
+      "status": "candidate",
+      "text": "olds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Label by Vendor Name",
+  "concept_id": "auto-label-by-vendor-name",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-label-vendor.yml",
+      "source_repo": "facebook/fboss"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Label by Vendor Name",
+      "sense_id": "auto-label-by-vendor-name#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

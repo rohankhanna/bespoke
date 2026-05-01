@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stylegan2-ada-pytorch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stylegan2-ada-pytorch",
+  "concept_id": "stylegan2-ada-pytorch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "danielroich/PTI"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylegan2-ada-pytorch",
+      "sense_id": "stylegan2-ada-pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

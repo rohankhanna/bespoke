@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "local-inference"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "Distribute and run LLMs with a single file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate",
+      "text": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "local-inference",
+  "concept_id": "local-inference",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "local-inference",
+      "sense_id": "local-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

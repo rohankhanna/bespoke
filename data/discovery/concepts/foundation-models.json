@@ -259,6 +259,30 @@
       "source_repo": "InternRobotics/Aether",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baaivision/Uni3D",
+      "status": "candidate-context",
+      "text": "[ICLR'24 Spotlight] Uni3D: 3D Visual Representation from BAAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baaivision/Uni3D",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "status": "candidate-context",
+      "text": "[ArXiv 26] FRoM-W1: Towards General Humanoid Whole-Body Control with Language Instructions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/FRoM-W1",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -385,6 +409,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "InternRobotics/Aether",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baaivision/Uni3D",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/FRoM-W1",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -616,11 +652,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "baaivision/Uni3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/FRoM-W1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

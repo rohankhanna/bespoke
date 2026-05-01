@@ -82,6 +82,18 @@
       "source_repo": "aiidateam/archive-path",
       "status": "candidate-context",
       "text": "[![Build Status][ci-badge]][ci-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "wp-cli/dist-archive-command"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "aiidateam/archive-path",
       "status": "candidate",
       "text": "[![Build Status][ci-badge]][ci-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate",
+      "text": "wp-cli/dist-archive-command"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aiidateam/archive-path"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "wp-cli/dist-archive-command"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

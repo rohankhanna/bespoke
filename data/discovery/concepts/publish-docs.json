@@ -2,7 +2,8 @@
   "aliases": [
     "Publish Docs",
     "publish docs",
-    "Publish docs"
+    "Publish docs",
+    "publish-docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -279,6 +280,42 @@
       "source_repo": "HumanSignal/label-studio-client-generator",
       "status": "candidate-context",
       "text": "\"Publish Docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "Interact with your documents using the power of GPT, 100% privately, no data leaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "publish docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "The documentation for Fern (kind of meta, eh?)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate-context",
+      "text": "Publish beautiful documentation from OpenAPI and markdown (MDX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate-context",
+      "text": "publish-docs"
     }
   ],
   "candidate_glosses": [
@@ -419,6 +456,24 @@
       "source_repo": "HumanSignal/label-studio-client-generator",
       "status": "candidate",
       "text": "\"Publish Docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate",
+      "text": "publish docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate",
+      "text": "publish-docs"
     }
   ],
   "candidate_related_terms": [
@@ -684,11 +739,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish_docs.yml",
       "source_repo": "HumanSignal/label-studio-client-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "zylon-ai/private-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs-starter"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

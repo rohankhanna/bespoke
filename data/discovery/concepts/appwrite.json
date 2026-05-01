@@ -19,6 +19,42 @@
       "source_repo": "appwrite/appwrite",
       "status": "candidate-context",
       "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Android SDK \ud83d\udc9a  \ud83e\udd16"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Dart SDK \ud83d\udc99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate-context",
+      "text": "[![pub package](https://img.shields.io/pub/v/dart_appwrite.svg?style=flat-square)](https://pub.dartlang.org/packages/dart_appwrite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Deno SDK \ud83e\udd95"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "appwrite/appwrite",
       "status": "candidate",
       "text": "<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/55a81268-4ecc-46cd-bdf5-73f7e8662fee\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-dart",
+      "status": "candidate",
+      "text": "[![pub package](https://img.shields.io/pub/v/dart_appwrite.svg?style=flat-square)](https://pub.dartlang.org/packages/dart_appwrite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

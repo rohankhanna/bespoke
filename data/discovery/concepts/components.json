@@ -103,6 +103,42 @@
       "source_repo": "priceline/design-system",
       "status": "candidate-context",
       "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate-context",
+      "text": ":atom_symbol: React primitive UI components built with styled-system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate-context",
+      "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate-context",
+      "text": "Building modern, elegant and fast Swing applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate-context",
+      "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 On-demand components auto importing for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue-components?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-components)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "priceline/design-system",
       "status": "candidate",
       "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate",
+      "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate",
+      "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue-components?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-components)"
     }
   ],
   "candidate_related_terms": [
@@ -286,11 +340,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

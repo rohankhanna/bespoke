@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -44,6 +46,18 @@
       "source_repo": "optuna/optuna-examples",
       "status": "candidate-context",
       "text": "base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protolude/protolude",
+      "status": "candidate-context",
+      "text": "A sensible starting Prelude template."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protolude/protolude",
+      "status": "candidate-context",
+      "text": "Protolude"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +78,12 @@
       "source_repo": "optuna/optuna-examples",
       "status": "candidate",
       "text": "base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protolude/protolude",
+      "status": "candidate",
+      "text": "Protolude"
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +181,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/base.yml",
       "source_repo": "optuna/optuna-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "protolude/protolude"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

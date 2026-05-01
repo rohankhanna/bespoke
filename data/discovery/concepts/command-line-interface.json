@@ -19,6 +19,18 @@
       "source_repo": "gitui-org/gitui",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "A Python module for common interactive command line user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "PythonInquirer"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gitui-org/gitui",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate",
+      "text": "PythonInquirer"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

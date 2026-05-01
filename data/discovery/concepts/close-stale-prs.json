@@ -93,6 +93,30 @@
       "source_repo": "luau-lang/rfcs",
       "status": "candidate-context",
       "text": "'Close stale PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Community plugins list, theme list, and releases of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "'Close stale PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "The documentation for Fern (kind of meta, eh?)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "'Close stale PRs'"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "luau-lang/rfcs",
+      "status": "candidate",
+      "text": "'Close stale PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate",
+      "text": "'Close stale PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
       "status": "candidate",
       "text": "'Close stale PRs'"
     }
@@ -228,11 +264,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/close-stale-prs.yml",
       "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "fern-api/docs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

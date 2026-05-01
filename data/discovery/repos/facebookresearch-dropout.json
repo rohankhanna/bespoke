@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/dropout",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:59.326581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code release for \"Dropout Reduces Underfitting\"",
+    "fork": false,
+    "full_name": "facebookresearch/dropout",
+    "html_url": "https://github.com/facebookresearch/dropout",
+    "language": "Python",
+    "pushed_at": "2023-05-06T08:27:34Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-02-19T19:18:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

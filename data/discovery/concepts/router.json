@@ -151,6 +151,30 @@
       "source_repo": "TanStack/router",
       "status": "candidate-context",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "northox/openbsd-apu2",
+      "status": "candidate-context",
+      "text": "Configuration files to setup PC Engines' APU as a WIFI router running OpenBSD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "northox/openbsd-apu2",
+      "status": "candidate-context",
+      "text": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vue-router",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 The official router for Vue 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-router",
+      "status": "candidate-context",
+      "text": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "TanStack/router",
       "status": "candidate",
       "text": "<img src=\"https://static.scarf.sh/a.png?x-pxid=d988eb79-b0fc-4a2b-8514-6a1ab932d188\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "northox/openbsd-apu2",
+      "status": "candidate",
+      "text": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vue-router",
+      "status": "candidate",
+      "text": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life."
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +388,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "TanStack/router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "northox/openbsd-apu2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vue-router"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

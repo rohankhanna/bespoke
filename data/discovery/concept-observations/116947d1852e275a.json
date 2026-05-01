@@ -84,7 +84,7 @@
   "normalized_form": "tests-nvm-install-with-set--e",
   "observation_id": "116947d1852e275a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Tests: nvm install with set -e",
   "source_context_snippet": "'Tests: nvm install with set -e'",
   "source_file": ".github/workflows/nvm-install-test.yml",

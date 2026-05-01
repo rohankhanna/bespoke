@@ -43,6 +43,18 @@
       "source_repo": "fannheyward/coc-sql",
       "status": "candidate-context",
       "text": "SQL extension for coc.nvim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fannheyward/coc-marketplace",
+      "status": "candidate-context",
+      "text": "coc.nvim extensions marketplace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fannheyward/coc-marketplace",
+      "status": "candidate-context",
+      "text": "[coc.nvim][1] extensions marketplace."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "fannheyward/coc-sql",
       "status": "candidate",
       "text": "SQL extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fannheyward/coc-marketplace",
+      "status": "candidate",
+      "text": "[coc.nvim][1] extensions marketplace."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "fannheyward/coc-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fannheyward/coc-marketplace"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

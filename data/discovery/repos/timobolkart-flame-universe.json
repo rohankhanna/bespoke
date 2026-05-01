@@ -1,0 +1,219 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "evelynfan/faceformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "evonneng/learning2listen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "conallwang/mega",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "filby89/spectre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "3d-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "3d-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "face-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "facial-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "flame-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "head-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "morphable-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "target": "statistical-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:11:26.526181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Summary of publicly available ressources such as code, datasets, and scientific papers for the FLAME 3D head model",
+    "fork": false,
+    "full_name": "TimoBolkart/FLAME-Universe",
+    "html_url": "https://github.com/TimoBolkart/FLAME-Universe",
+    "language": null,
+    "pushed_at": "2026-03-03T16:22:45Z",
+    "stargazers_count": 671,
+    "topics": [
+      "3d-mesh",
+      "3d-models",
+      "face",
+      "face-models",
+      "facial-expression",
+      "flame",
+      "flame-model",
+      "head-model",
+      "morphable-model",
+      "statistical-models"
+    ],
+    "updated_at": "2026-04-27T02:49:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conallwang/mega",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evelynfan/faceformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evonneng/learning2listen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filby89/spectre",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mesh"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-models"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-models"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facial-expression"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-model"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "head-model"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphable-model"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistical-models"
+    }
+  ]
+}

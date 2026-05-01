@@ -115,6 +115,30 @@
       "source_repo": "LPengYang/FreeDrag",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "status": "candidate-context",
+      "text": "Dolphin action for KDE Plasma to quickly invoke RMBG for background removal with support for two-pass and infinite-pass operation modes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "status": "candidate-context",
+      "text": "![alt text](banners/1.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "LPengYang/FreeDrag",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "status": "candidate",
+      "text": "![alt text](banners/1.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Quick-RMBG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "danielroich/PTI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

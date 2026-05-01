@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy web demo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/egui",
+      "status": "candidate-context",
+      "text": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui",
+      "status": "candidate-context",
+      "text": "Deploy web demo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui",
+      "status": "candidate",
+      "text": "Deploy web demo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21129,
+      "status": "candidate",
+      "text": "wire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21108,
+      "status": "candidate",
+      "text": "speak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy web demo",
+  "concept_id": "deploy-web-demo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy_web_demo.yml",
+      "source_repo": "emilk/egui"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy web demo",
+      "sense_id": "deploy-web-demo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-publish.yml",
       "source_repo": "Kong/insomnia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "chaoss/grimoirelab"
     }
   ]
 }

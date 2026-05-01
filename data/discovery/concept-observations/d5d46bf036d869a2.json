@@ -120,7 +120,7 @@
   "normalized_form": "shovel",
   "observation_id": "d5d46bf036d869a2",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "shovel",
   "source_context_snippet": "`shovel bucket add sysinternals` or using URL `shovel bucket add sysinternals 'https://github.com/shovel-org/Sysinternals-Bucket.git'`",
   "source_file": null,

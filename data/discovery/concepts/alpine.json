@@ -94,6 +94,18 @@
       "source_repo": "dwyl/learn-alpine.js",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanostores/alpine",
+      "status": "candidate-context",
+      "text": "AlpineJS integration for Nano Stores, a tiny state manager with many atomic tree-shakable stores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanostores/alpine",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\""
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "dwyl/learn-alpine.js",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanostores/alpine",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"92\" height=\"92\" title=\"Nano Stores logo\""
     }
   ],
   "candidate_related_terms": [
@@ -231,11 +249,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "dwyl/learn-alpine.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nanostores/alpine"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

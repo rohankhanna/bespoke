@@ -1943,6 +1943,114 @@
       "source_repo": "PrismLibrary/Prism-Documentation",
       "status": "candidate-context",
       "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "  A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "probot/probot",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 A framework for building GitHub Apps to automate and improve your workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probot/probot",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "The documentation for Fern (kind of meta, eh?)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate-context",
+      "text": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/fannypack",
+      "status": "candidate-context",
+      "text": "Tools for training PyTorch models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/fannypack",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate-context",
+      "text": "Source code of Spring AI Alibaba official website. \ud83d\udcda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate-context",
+      "text": "The official documentation website for the Spring AI Alibaba project, built with Docusaurus."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate-context",
+      "text": "Couchbase Lite for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -2917,6 +3025,60 @@
       "source_repo": "PrismLibrary/Prism-Documentation",
       "status": "candidate",
       "text": "This is the official repository for the [Prism](https://github.com/PrismLibrary/Prism) project documentation and the raw content of the docs [website](http://prismlibrary.github.io/docs/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "probot/probot",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs",
+      "status": "candidate",
+      "text": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/fannypack",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate",
+      "text": "The official documentation website for the Spring AI Alibaba project, built with Docusaurus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate",
+      "text": "Docs"
     }
   ],
   "candidate_related_terms": [
@@ -4482,11 +4644,119 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "PrismLibrary/Prism-Documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Taywee/args"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "probot/probot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fern-api/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "brentyi/fannypack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sophus-vision/sophus-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "spring-ai-alibaba/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "cbl-dart/cbl-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

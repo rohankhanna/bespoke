@@ -115,6 +115,18 @@
       "source_repo": "exponentially/extreme",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erlef/website",
+      "status": "candidate-context",
+      "text": "Erlang Ecosystem Foundation Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/website",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/erlef/website/workflows/test/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "exponentially/extreme",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/exponentially/extreme/actions/workflows/test.yml/badge.svg)](https://github.com/exponentially/extreme/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/website",
+      "status": "candidate",
+      "text": "![CI](https://github.com/erlef/website/workflows/test/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "erlef/website"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

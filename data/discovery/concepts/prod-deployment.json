@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prod Deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "(Deprecated) Home of the MDN live code editor interactive examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "Prod Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate",
+      "text": "Prod Deployment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "poke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "spur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "spurring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "spurs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prod Deployment",
+  "concept_id": "prod-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/prod-deploy.yml",
+      "source_repo": "mdn/interactive-examples"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prod Deployment",
+      "sense_id": "prod-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

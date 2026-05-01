@@ -84,7 +84,7 @@
   "normalized_form": "publish-package-to-npmjs",
   "observation_id": "3f1a07b78802988f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Publish Package to npmjs",
   "source_context_snippet": "Publish Package to npmjs",
   "source_file": ".github/workflows/publish.yml",

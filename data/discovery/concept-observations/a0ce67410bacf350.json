@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fast-pose-distillation",
+      "sense_id": "fast-pose-distillation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fast-pose-distillation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fast-pose-distillation",
+  "observation_id": "a0ce67410bacf350",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "fast-pose-distillation",
+  "source_context_snippet": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html).",
+  "source_file": null,
+  "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+  "source_repo_description": "Official pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+}

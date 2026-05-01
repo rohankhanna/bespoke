@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/CogVideo",
-      "target": "thudm/cogkit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/CogVideo",
       "target": "a-r-r-o-w/cogvideox-factory",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "zai-org/CogVideo",
       "target": "aigc-apps/cogvideox-fun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVideo",
+      "target": "thudm/cogvideo",
       "target_type": "repository"
     },
     {
@@ -64,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "zai-org/CogVideo"
 }

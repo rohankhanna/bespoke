@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple Multi Person Tracker implementation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "people-tracker",
+      "sense_id": "people-tracker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "people-tracker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "people-tracker",
+  "observation_id": "111e913e5d12d8da",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "people-tracker",
+  "source_context_snippet": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and",
+  "source_file": null,
+  "source_repo": "mkocabas/multi-person-tracker",
+  "source_repo_description": "Simple Multi Person Tracker implementation in PyTorch"
+}

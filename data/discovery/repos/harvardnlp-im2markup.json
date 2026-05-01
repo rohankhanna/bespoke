@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harvardnlp/im2markup",
+      "target": "harvardnlp/seq2seq-attn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:50.994248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural model for converting Image-to-Markup (by Yuntian Deng yuntiandeng.com)",
+    "fork": false,
+    "full_name": "harvardnlp/im2markup",
+    "html_url": "https://github.com/harvardnlp/im2markup",
+    "language": "Lua",
+    "pushed_at": "2023-10-27T13:42:36Z",
+    "stargazers_count": 1257,
+    "topics": [],
+    "updated_at": "2026-04-07T10:51:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harvardnlp/seq2seq-attn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

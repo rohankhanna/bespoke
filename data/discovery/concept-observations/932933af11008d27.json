@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A production-ready runtime framework for agent apps with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, full-stack observability, and broad framework compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Manual Build Sandbox Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Manual Build Sandbox Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31689,
+      "status": "candidate",
+      "text": "perception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31672,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27873,
+      "status": "candidate",
+      "text": "sandpile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27804,
+      "status": "candidate",
+      "text": "cage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27804,
+      "status": "candidate",
+      "text": "park"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Build Sandbox Image",
+      "sense_id": "manual-build-sandbox-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "manual-build-sandbox-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manual-build-sandbox-image",
+  "observation_id": "932933af11008d27",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Manual Build Sandbox Image",
+  "source_context_snippet": "Manual Build Sandbox Image",
+  "source_file": ".github/workflows/build_sandbox_image.yml",
+  "source_repo": "agentscope-ai/agentscope-runtime",
+  "source_repo_description": "A production-ready runtime framework for agent apps with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, full-stack observability, and broad framework compatibility."
+}

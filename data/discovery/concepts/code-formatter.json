@@ -118,6 +118,18 @@
       "source_repo": "weavejester/cljfmt",
       "status": "candidate-context",
       "text": "cljfmt is a tool for detecting and fixing formatting errors in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "A RuboCop extension focused on enforcing Rails best practices and coding conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "weavejester/cljfmt",
       "status": "candidate",
       "text": "cljfmt is a tool for detecting and fixing formatting errors in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
     }
   ],
   "candidate_related_terms": [
@@ -277,11 +295,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "weavejester/cljfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-rails"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

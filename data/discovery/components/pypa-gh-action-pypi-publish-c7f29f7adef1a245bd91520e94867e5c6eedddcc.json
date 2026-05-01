@@ -1,0 +1,12 @@
+{
+  "component": "pypa/gh-action-pypi-publish@c7f29f7adef1a245bd91520e94867e5c6eedddcc",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa"
+    }
+  ]
+}

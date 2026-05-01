@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/barlowtwins",
+      "target": "igorsusmelj/barlowtwins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/barlowtwins",
+      "target": "yaohungt/barlow-twins-hsic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/barlowtwins",
+      "target": "sayakpaul/barlow-twins-tf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/barlowtwins",
+      "target": "neerajwagh/eeg-self-supervision",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:13:27.734344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyTorch implementation of Barlow Twins.",
+    "fork": false,
+    "full_name": "facebookresearch/barlowtwins",
+    "html_url": "https://github.com/facebookresearch/barlowtwins",
+    "language": "Python",
+    "pushed_at": "2022-03-03T02:59:31Z",
+    "stargazers_count": 1007,
+    "topics": [],
+    "updated_at": "2026-04-26T23:30:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "igorsusmelj/barlowtwins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neerajwagh/eeg-self-supervision",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sayakpaul/barlow-twins-tf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaohungt/barlow-twins-hsic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

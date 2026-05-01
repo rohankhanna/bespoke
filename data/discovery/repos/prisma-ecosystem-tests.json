@@ -1,0 +1,658 @@
+{
+  "components": [
+    {
+      "component": "arg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fetch-retry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-diff",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antfu/ni",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-clouds.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-clouds.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml"
+    },
+    {
+      "component": "nick-invision/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "Ana06/get-changed-files@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "nick-invision/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml"
+    },
+    {
+      "component": "prisma/.github/.github/workflows/secret_detection.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml"
+    },
+    {
+      "component": "prisma/.github/.github/workflows/code_scanning.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "arg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "fetch-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "jest-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "@antfu/ni",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflows.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-workflows.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "Cancel Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "pnpm/action-setup@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "check-for-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "pnpm/action-setup@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "test and lint test suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-clouds.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-clouds.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "Cleanup Left Over Cloud Resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "pnpm/action-setup@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "nick-invision/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "failing-weekly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "pnpm/action-setup@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "invoke-platforms-lambda-function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "Ana06/get-changed-files@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "pnpm/action-setup@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "nick-invision/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "optional-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "prisma/.github/.github/workflows/secret_detection.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "prisma/.github/.github/workflows/code_scanning.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "source_repo": "prisma/ecosystem-tests",
+      "target": "PR Code Security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:46:47.046739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6465
+    },
+    {
+      "path": "package.json",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/cancel-workflows.yml",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/check-for-update.yaml",
+      "size": 2710
+    },
+    {
+      "path": ".github/workflows/check-test-suite-coverage.yaml",
+      "size": 864
+    },
+    {
+      "path": ".github/workflows/cleanup-clouds.yaml",
+      "size": 1785
+    },
+    {
+      "path": ".github/workflows/failing-weekly.yaml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/optional-test.yaml",
+      "size": 3199
+    },
+    {
+      "path": ".github/workflows/pr-code-security.yml",
+      "size": 315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more.",
+    "fork": false,
+    "full_name": "prisma/ecosystem-tests",
+    "html_url": "https://github.com/prisma/ecosystem-tests",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-28T15:22:54Z",
+    "stargazers_count": 218,
+    "topics": [],
+    "updated_at": "2026-04-28T15:43:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cancel Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-workflows.yml",
+      "term": "Cancel Workflows"
+    },
+    {
+      "context_snippet": "check-for-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-update.yaml",
+      "term": "check-for-update"
+    },
+    {
+      "context_snippet": "test and lint test suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-test-suite-coverage.yaml",
+      "term": "test and lint test suite"
+    },
+    {
+      "context_snippet": "Cleanup Left Over Cloud Resources",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-clouds.yaml",
+      "term": "Cleanup Left Over Cloud Resources"
+    },
+    {
+      "context_snippet": "failing-weekly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failing-weekly.yaml",
+      "term": "failing-weekly"
+    },
+    {
+      "context_snippet": "invoke-platforms-lambda-function",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/invoke-platforms-lambda-function.yml",
+      "term": "invoke-platforms-lambda-function"
+    },
+    {
+      "context_snippet": "optional-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optional-test.yaml",
+      "term": "optional-test"
+    },
+    {
+      "context_snippet": "PR Code Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-security.yml",
+      "term": "PR Code Security"
+    }
+  ]
+}

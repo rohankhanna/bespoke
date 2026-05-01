@@ -43,6 +43,18 @@
       "source_repo": "ControlzEx/ControlzEx",
       "status": "candidate-context",
       "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "The iconic font and CSS toolkit. Fontisto gives you scalable vector icons that can instantly be customized: size, color, drop shadow and anything that can be done with the power of CSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ControlzEx/ControlzEx",
       "status": "candidate",
       "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kenangundogan/fontisto",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ControlzEx/ControlzEx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kenangundogan/fontisto"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

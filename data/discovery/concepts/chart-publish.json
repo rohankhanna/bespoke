@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "chart-publish"
+    "chart-publish",
+    "Chart Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "opencost/opencost-helm-chart",
       "status": "candidate-context",
       "text": "chart-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Argo CD RBAC Management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "Chart Publish"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "opencost/opencost-helm-chart",
       "status": "candidate",
       "text": "chart-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate",
+      "text": "Chart Publish"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "card"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10600,
+      "status": "candidate",
+      "text": "charting"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "chart-publish",
   "concept_id": "chart-publish",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "opencost/opencost-helm-chart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-chart.yaml",
+      "source_repo": "argoproj-labs/argocd-rbac-operator"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

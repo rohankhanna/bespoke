@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@7df0ce34898d659f95c0c4a09eaa8d4e32ee64db",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "nodejs/node-addon-api"
+    }
+  ]
+}

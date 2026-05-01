@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v4",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autogen.yml",
       "source_repo": "krivahtoo/silicon.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-metadata.yml",
+      "source_repo": "pulumi/templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller"
     }
   ]
 }

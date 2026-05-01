@@ -15,13 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SAML-Toolkits/python-saml",
-      "target": "pypa/sampleproject",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "SAML-Toolkits/python-saml",
@@ -29,7 +22,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-01T10:33:24.438800+00:00",
+  "fetched_at": "2026-05-01T15:09:50.749544+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -62,11 +55,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "distributedweaknessfiling/dwf-database-artifacts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pypa/sampleproject",
       "source_file": "README.md"
     }
   ],

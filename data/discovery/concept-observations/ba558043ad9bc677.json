@@ -84,7 +84,7 @@
   "normalized_form": "draft-on-synchronize",
   "observation_id": "ba558043ad9bc677",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Draft on Synchronize",
   "source_context_snippet": "Draft on Synchronize",
   "source_file": ".github/workflows/DraftMe.yml",

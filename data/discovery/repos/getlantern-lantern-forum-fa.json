@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-fa",
+      "target": "getlantern/lantern-forum-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-fa",
+      "target": "getlantern/lantern-forum-ukraine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-fa",
+      "target": "getlantern/lantern-forum-uae",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:04.848372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "getlantern/lantern-forum-fa",
+    "html_url": "https://github.com/getlantern/lantern-forum-fa",
+    "language": null,
+    "pushed_at": "2024-11-01T18:31:03Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-09-02T15:14:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-ru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-uae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-ukraine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "manusa/actions-setup-minikube@5d9440a1b535e8b4f541eaac559681a9022df29d",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "pulumi/examples"
+    }
+  ]
+}

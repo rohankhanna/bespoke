@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "target": "Rename package according to repo name",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:05.695356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/rename.yml",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DO NOT FORK, CLICK ON \"Use this template\"",
+    "fork": false,
+    "full_name": "qiayuanl/legged_template_controller",
+    "html_url": "https://github.com/qiayuanl/legged_template_controller",
+    "language": "C++",
+    "pushed_at": "2025-03-07T23:45:14Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-02-04T11:15:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rename package according to repo name",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rename.yml",
+      "term": "Rename package according to repo name"
+    }
+  ]
+}

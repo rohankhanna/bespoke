@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Fast Lexical Analyzer - scanner generator for lexing in C and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/westes/flex/actions/workflows/build.yml/badge.svg)](https://github.com/westes/flex/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/westes/flex/actions/workflows/build.yml/badge.svg)](https://github.com/westes/flex/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036818,
+      "status": "candidate",
+      "text": "flexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034939,
+      "status": "candidate",
+      "text": "bending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034684,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018361,
+      "status": "candidate",
+      "text": "flection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954118,
+      "status": "candidate",
+      "text": "inflection"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flex",
+      "sense_id": "flex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19043,
+      "status": "candidate",
+      "text": "inflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17053,
+      "status": "candidate",
+      "text": "bend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "flection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3037,
+      "status": "candidate",
+      "text": "flexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "bending"
+    }
+  ],
+  "concept_id": "flex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flex",
+  "observation_id": "373634acfbbb2809",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "flex",
+  "source_context_snippet": "[![Build Status](https://github.com/westes/flex/actions/workflows/build.yml/badge.svg)](https://github.com/westes/flex/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "westes/flex",
+  "source_repo_description": "The Fast Lexical Analyzer - scanner generator for lexing in C and C++"
+}

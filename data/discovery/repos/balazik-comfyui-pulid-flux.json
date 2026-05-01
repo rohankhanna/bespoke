@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "balazik/ComfyUI-PuLID-Flux",
+      "target": "city96/comfyui-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "balazik/ComfyUI-PuLID-Flux",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:51.129177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4175
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PuLID-Flux ComfyUI implementation",
+    "fork": false,
+    "full_name": "balazik/ComfyUI-PuLID-Flux",
+    "html_url": "https://github.com/balazik/ComfyUI-PuLID-Flux",
+    "language": "Python",
+    "pushed_at": "2024-10-03T18:38:32Z",
+    "stargazers_count": 707,
+    "topics": [],
+    "updated_at": "2026-04-09T10:37:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "city96/comfyui-gguf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "vkhorikov/CSharpFunctionalExtensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions"
     }
   ],
   "term": "functional-programming"

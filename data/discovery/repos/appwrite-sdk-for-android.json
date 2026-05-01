@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "appwrite/.github/.github/workflows/autoclose.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "appwrite/playground-for-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "appwrite/sdk-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "appwrite/.github/.github/workflows/autoclose.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "Auto-close External Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "Publish to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "firebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:06:39.434943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11251
+    },
+    {
+      "path": ".github/workflows/autoclose.yml",
+      "size": 264
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[READ-ONLY] Official Appwrite Android SDK \ud83d\udc9a  \ud83e\udd16",
+    "fork": false,
+    "full_name": "appwrite/sdk-for-android",
+    "html_url": "https://github.com/appwrite/sdk-for-android",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-28T05:52:10Z",
+    "stargazers_count": 154,
+    "topics": [
+      "android",
+      "android-library",
+      "appwrite",
+      "baas",
+      "firebase",
+      "hacktoberfest",
+      "java",
+      "kotlin",
+      "sdk"
+    ],
+    "updated_at": "2026-04-27T08:42:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/playground-for-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/sdk-generator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-close External Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "term": "Auto-close External Pull Requests"
+    },
+    {
+      "context_snippet": "Publish to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Maven Central"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firebase"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

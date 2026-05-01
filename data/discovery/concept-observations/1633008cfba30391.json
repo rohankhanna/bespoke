@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Actions Cache Bucket Cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Actions Cache Bucket Cleanup"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28349,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28211,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "bath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "revival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "toilette"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Actions Cache Bucket Cleanup",
+      "sense_id": "actions-cache-bucket-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "actions-cache-bucket-cleanup",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "actions-cache-bucket-cleanup",
+  "observation_id": "1633008cfba30391",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Actions Cache Bucket Cleanup",
+  "source_context_snippet": "Actions Cache Bucket Cleanup",
+  "source_file": ".github/workflows/cache-bucket-cleanup.yaml",
+  "source_repo": "wasmerio/wasmer",
+  "source_repo_description": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+}

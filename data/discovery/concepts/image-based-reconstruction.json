@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "image-based-reconstruction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate-context",
+      "text": "The Multi-View Environment: End-to-end image-based reconstruction (SfM, MVS, surface reconstruction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "image-based-reconstruction",
+  "concept_id": "image-based-reconstruction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-based-reconstruction",
+      "sense_id": "image-based-reconstruction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

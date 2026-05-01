@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "Create library jar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "pioneer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "target": "rekordbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:49:13.262346+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/jar.yml",
+      "size": 2483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java library for fetching and parsing rekordbox exports and track analysis files.",
+    "fork": false,
+    "full_name": "Deep-Symmetry/crate-digger",
+    "html_url": "https://github.com/Deep-Symmetry/crate-digger",
+    "language": "Java",
+    "pushed_at": "2026-03-13T15:43:49Z",
+    "stargazers_count": 209,
+    "topics": [
+      "java-library",
+      "network",
+      "pioneer",
+      "rekordbox"
+    ],
+    "updated_at": "2026-04-30T15:10:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "term": "Create library jar"
+    },
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    },
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pioneer"
+    },
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rekordbox"
+    }
+  ]
+}

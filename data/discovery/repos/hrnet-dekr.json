@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/DEKR",
+      "target": "jeff-sjtu/crowdpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HRNet/DEKR",
+      "target": "hrnet/higherhrnet-human-pose-estimation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:22.655440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13900
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is an official implementation of our CVPR 2021 paper \"Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression\" (https://arxiv.org/abs/2104.02300)",
+    "fork": false,
+    "full_name": "HRNet/DEKR",
+    "html_url": "https://github.com/HRNet/DEKR",
+    "language": "Python",
+    "pushed_at": "2022-01-04T02:23:09Z",
+    "stargazers_count": 464,
+    "topics": [],
+    "updated_at": "2026-04-16T23:16:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrnet/higherhrnet-human-pose-estimation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeff-sjtu/crowdpose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

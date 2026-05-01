@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v2.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "agroportal/documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "sifrproject/mod-ontology",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "actions/setup-java@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "crazy-max/ghaction-github-pages@v2.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/widoco.yaml",
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "widoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "ontology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "ontology-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "semantic-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD",
+      "target": "vocabulary",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:13.110474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3768
+    },
+    {
+      "path": ".github/workflows/widoco.yaml",
+      "size": 1523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Metadata for Ontology Description and Publication Ontology",
+    "fork": false,
+    "full_name": "FAIR-IMPACT/MOD",
+    "html_url": "https://github.com/FAIR-IMPACT/MOD",
+    "language": null,
+    "pushed_at": "2025-12-22T10:03:25Z",
+    "stargazers_count": 36,
+    "topics": [
+      "metadata",
+      "ontology",
+      "ontology-engineering",
+      "semantic",
+      "semantic-web",
+      "vocabulary"
+    ],
+    "updated_at": "2026-04-01T20:47:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agroportal/documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sifrproject/mod-ontology",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "widoco",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/widoco.yaml",
+      "term": "widoco"
+    },
+    {
+      "context_snippet": "Metadata for Ontology Description and Publication Ontology",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metadata"
+    },
+    {
+      "context_snippet": "Metadata for Ontology Description and Publication Ontology",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ontology"
+    },
+    {
+      "context_snippet": "Metadata for Ontology Description and Publication Ontology",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ontology-engineering"
+    },
+    {
+      "context_snippet": "Metadata for Ontology Description and Publication Ontology",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic"
+    },
+    {
+      "context_snippet": "Metadata for Ontology Description and Publication Ontology",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-web"
+    },
+    {
+      "context_snippet": "Metadata for Ontology Description and Publication Ontology",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocabulary"
+    }
+  ]
+}

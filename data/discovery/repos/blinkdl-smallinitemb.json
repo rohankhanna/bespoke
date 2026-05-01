@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:07:09.487661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LayerNorm(SmallInit(Embedding)) in a Transformer to improve convergence",
+    "fork": false,
+    "full_name": "BlinkDL/SmallInitEmb",
+    "html_url": "https://github.com/BlinkDL/SmallInitEmb",
+    "language": "Python",
+    "pushed_at": "2022-02-21T10:45:18Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2025-11-19T11:26:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prismavalonia",
+      "sense_id": "prismavalonia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prismavalonia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prismavalonia",
+  "observation_id": "f8af473c04c4f4ca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "prismavalonia",
+  "source_context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+  "source_file": null,
+  "source_repo": "DamianSuess/Learn.PrismLibrary",
+  "source_repo_description": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+}

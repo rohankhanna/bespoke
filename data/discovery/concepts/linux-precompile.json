@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "linux-precompile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "An SQLite3 driver for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "linux-precompile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate",
+      "text": "linux-precompile"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "linux-precompile",
+  "concept_id": "linux-precompile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/linux-precompile.yml",
+      "source_repo": "elixir-sqlite/exqlite"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "linux-precompile",
+      "sense_id": "linux-precompile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

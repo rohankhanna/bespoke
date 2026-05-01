@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:39:50.614644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cocos/cocos-example-projects",
+    "html_url": "https://github.com/cocos/cocos-example-projects",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-19T08:39:35Z",
+    "stargazers_count": 569,
+    "topics": [],
+    "updated_at": "2026-04-16T16:49:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

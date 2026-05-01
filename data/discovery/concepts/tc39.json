@@ -67,6 +67,30 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate-context",
       "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-function-helpers",
+      "status": "candidate-context",
+      "text": "A withdrawn proposal for standardizing some useful, popular helper functions into JavaScript\u2019s Function object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-helpers",
+      "status": "candidate-context",
+      "text": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "status": "candidate-context",
+      "text": "Old specification for Hack pipes in JavaScript. Please go to the new specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "status": "candidate-context",
+      "text": "ECMAScript Proposal. J. S. Choi, 2021."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate",
       "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-function-helpers",
+      "status": "candidate",
+      "text": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "status": "candidate",
+      "text": "ECMAScript Proposal. J. S. Choi, 2021."
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +214,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-source-phase-imports"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

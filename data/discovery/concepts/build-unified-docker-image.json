@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Unified Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "Build Unified Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate",
+      "text": "Build Unified Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22102,
+      "status": "candidate",
+      "text": "ark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18079,
+      "status": "candidate",
+      "text": "montage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17986,
+      "status": "candidate",
+      "text": "architectural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17986,
+      "status": "candidate",
+      "text": "integrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17931,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Unified Docker Image",
+  "concept_id": "build-unified-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/unified-docker.yml",
+      "source_repo": "mostlygeek/llama-swap"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Unified Docker Image",
+      "sense_id": "build-unified-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

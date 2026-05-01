@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcda Stand-alone library of threejs examples designed to run without transpilation in node & browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Version](https://img.shields.io/npm/v/three-stdlib?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/three-stdlib)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/three-stdlib?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/three-stdlib)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006482,
+      "status": "candidate",
+      "text": "extraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9971535,
+      "status": "candidate",
+      "text": "generalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9960679,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9959961,
+      "status": "candidate",
+      "text": "abstractedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "notions"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abstractions",
+      "sense_id": "abstractions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abstractions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abstractions",
+  "observation_id": "398127e9e2dcd731",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "abstractions",
+  "source_context_snippet": "[![Version](https://img.shields.io/npm/v/three-stdlib?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/three-stdlib)",
+  "source_file": null,
+  "source_repo": "pmndrs/three-stdlib",
+  "source_repo_description": "\ud83d\udcda Stand-alone library of threejs examples designed to run without transpilation in node & browser"
+}

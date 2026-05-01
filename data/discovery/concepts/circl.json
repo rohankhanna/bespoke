@@ -1,0 +1,121 @@
+{
+  "aliases": [
+    "CIRCL",
+    "circl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "CIRCL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate",
+      "text": "CIRCL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969994,
+      "status": "candidate",
+      "text": "moving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986714,
+      "status": "candidate",
+      "text": "circular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985139,
+      "status": "candidate",
+      "text": "surrounding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981946,
+      "status": "candidate",
+      "text": "encircling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974105,
+      "status": "candidate",
+      "text": "hovering"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CIRCL",
+  "concept_id": "circl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/circl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CIRCL",
+      "sense_id": "circl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

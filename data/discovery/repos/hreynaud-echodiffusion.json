@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "hreynaud/echonet-synthetic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "hreynaud/stylegan-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "universome/stylegan-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "hreynaud/imagen-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "cardiac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "ultrasound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:58.518472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14132
+    },
+    {
+      "path": "requirements.txt",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MICCAI 2023 code for the paper: Feature-Conditioned Cascaded Video Diffusion Models for Precise Echocardiogram Synthesis. EchoDiffusion is a collection of video diffusion models trained from scratch on the EchoNet-Dynamic dataset with the imagen-pytorch repo.",
+    "fork": false,
+    "full_name": "HReynaud/EchoDiffusion",
+    "html_url": "https://github.com/HReynaud/EchoDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-10-29T20:13:59Z",
+    "stargazers_count": 75,
+    "topics": [
+      "cardiac",
+      "deep-learning",
+      "diffusion",
+      "medical-imaging",
+      "simulation",
+      "ultrasound",
+      "video"
+    ],
+    "updated_at": "2026-03-20T05:08:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hreynaud/echonet-synthetic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hreynaud/stylegan-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universome/stylegan-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hreynaud/imagen-pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cardiac"
+    },
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultrasound"
+    },
+    {
+      "context_snippet": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

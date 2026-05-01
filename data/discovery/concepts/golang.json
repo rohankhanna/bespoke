@@ -4019,6 +4019,126 @@
       "source_repo": "gost-dom/browser",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for managing Argo CD clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Argo CD RBAC Management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj-labs/argocd-rbac-operator)](https://goreportcard.com/report/github.com/argoproj-labs/argocd-rbac-operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlwaysNur/bookbank",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa7 The audiobook and podcast media server solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlwaysNur/bookbank",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bookbank</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "The Single Sign-On Multi-Factor portal for web apps, now OpenID Certified\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rainbend/frp-notify",
+      "status": "candidate-context",
+      "text": "\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u6d88\u606f\u901a\u77e5\u7684 frp server manager plugin \u5b9e\u73b0\uff0c\u8ba9\u4f60\u5bf9\u8fdb\u5165 frps \u7684\u8fde\u63a5\u4e86\u5982\u6307\u638c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainbend/frp-notify",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/arugal/frp-notify/workflows/Build/badge.svg?branch=master)](https://github.com/arugal/frp-notify/actions?query=branch%3Amaster+event%3Apush+workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "status": "candidate-context",
+      "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "status": "candidate-context",
+      "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/fasttemplate",
+      "status": "candidate-context",
+      "text": "Simple and fast template engine for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasttemplate",
+      "status": "candidate-context",
+      "text": "fasttemplate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-go-v2",
+      "status": "candidate-context",
+      "text": "AWS SDK for the Go programming language. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go-v2",
+      "status": "candidate-context",
+      "text": "[![Go Build status](https://github.com/aws/aws-sdk-go-v2/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/aws-sdk-go-v2/actions/workflows/go.yml)[![Codegen Build status](https://github.com/aws/aws-sdk-go-v2/actions/workflows/codegen.yml/badge.svg?branch=ma\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "![llama-swap header image](docs/assets/hero3.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
     }
   ],
   "candidate_glosses": [
@@ -6037,6 +6157,66 @@
       "source_repo": "gost-dom/browser",
       "status": "candidate",
       "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj-labs/argocd-rbac-operator)](https://goreportcard.com/report/github.com/argoproj-labs/argocd-rbac-operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlwaysNur/bookbank",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bookbank</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "authelia/authelia",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainbend/frp-notify",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/arugal/frp-notify/workflows/Build/badge.svg?branch=master)](https://github.com/arugal/frp-notify/actions?query=branch%3Amaster+event%3Apush+workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "status": "candidate",
+      "text": "comparing the performance of different template engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasttemplate",
+      "status": "candidate",
+      "text": "fasttemplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-go-v2",
+      "status": "candidate",
+      "text": "[![Go Build status](https://github.com/aws/aws-sdk-go-v2/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aws/aws-sdk-go-v2/actions/workflows/go.yml)[![Codegen Build status](https://github.com/aws/aws-sdk-go-v2/actions/workflows/codegen.yml/badge.svg?branch=ma\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate",
+      "text": "![llama-swap header image](docs/assets/hero3.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -8498,11 +8678,125 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "gost-dom/browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-rbac-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AlwaysNur/bookbank"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "authelia/authelia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "slinso/goTemplateBenchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "valyala/fasttemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-go-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mostlygeek/llama-swap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/circl"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

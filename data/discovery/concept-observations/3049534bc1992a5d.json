@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Vite plugin for injecting <link rel='preload'> "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vite-plugin",
+      "sense_id": "vite-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vite-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vite-plugin",
+  "observation_id": "3049534bc1992a5d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "vite-plugin",
+  "source_context_snippet": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload).",
+  "source_file": null,
+  "source_repo": "Applelo/vite-plugin-inject-preload",
+  "source_repo_description": "A Vite plugin for injecting <link rel='preload'> "
+}

@@ -1,7 +1,7 @@
 {
   "component": "jakejarvis/s3-sync-action@master",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-and-deploy.yml",
       "source_repo": "mattgodbolt/jsbeeb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "jackielii/qmk_firmware"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware"
     }
   ]
 }

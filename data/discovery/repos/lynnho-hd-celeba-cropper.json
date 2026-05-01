@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LynnHo/HD-CelebA-Cropper",
+      "target": "dmaniry/deepiqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LynnHo/HD-CelebA-Cropper",
+      "target": "celeba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LynnHo/HD-CelebA-Cropper",
+      "target": "hd-celeba",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:00.342068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "To obtain high resolution face images from CelebA",
+    "fork": false,
+    "full_name": "LynnHo/HD-CelebA-Cropper",
+    "html_url": "https://github.com/LynnHo/HD-CelebA-Cropper",
+    "language": "Python",
+    "pushed_at": "2024-10-22T11:24:23Z",
+    "stargazers_count": 175,
+    "topics": [
+      "celeba",
+      "hd-celeba"
+    ],
+    "updated_at": "2026-02-27T09:59:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmaniry/deepiqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset provides an aligned set `img_align_celeba.zip`. However, the size of each aligned image is **218x178**, so the faces cropped from such images would be even smaller!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "celeba"
+    },
+    {
+      "context_snippet": "[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset provides an aligned set `img_align_celeba.zip`. However, the size of each aligned image is **218x178**, so the faces cropped from such images would be even smaller!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hd-celeba"
+    }
+  ]
+}

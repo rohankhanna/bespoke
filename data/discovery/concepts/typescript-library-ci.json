@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Typescript Library CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate-context",
+      "text": "Guard offers a policy-as-code domain-specific language (DSL) to write rules and validate JSON- and YAML-formatted data such as CloudFormation Templates, K8s configurations, and Terraform JSON plans/configurations against those rules. Take this survey to provide feedback about cfn-guard: https://amazonmr.au1.qualtrics.com/jfe/form/SV_bpyzpfoYGGuuUl0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate-context",
+      "text": "Typescript Library CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate",
+      "text": "Typescript Library CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22796,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15818,
+      "status": "candidate",
+      "text": "typewriter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14786,
+      "status": "candidate",
+      "text": "mrd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14786,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14786,
+      "status": "candidate",
+      "text": "subscript"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Typescript Library CI",
+  "concept_id": "typescript-library-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/typescript_library.yml",
+      "source_repo": "aws-cloudformation/cloudformation-guard"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typescript Library CI",
+      "sense_id": "typescript-library-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

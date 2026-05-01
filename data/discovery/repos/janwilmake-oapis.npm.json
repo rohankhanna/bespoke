@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "@cloudflare/workers-types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@gera2ld/tarjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/tar-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "janwilmake/oapis.npm",
+      "target": "janwilmake/oapis.cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis.npm",
+      "target": "@cloudflare/workers-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis.npm",
+      "target": "@gera2ld/tarjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis.npm",
+      "target": "tar-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "janwilmake/oapis.npm",
+      "target": "@types/tar-stream",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:46.221955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2228
+    },
+    {
+      "path": "package.json",
+      "size": 219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Attempt at making a package manager for auto-generated OpenAPI SDKs",
+    "fork": false,
+    "full_name": "janwilmake/oapis.npm",
+    "html_url": "https://github.com/janwilmake/oapis.npm",
+    "language": "TypeScript",
+    "pushed_at": "2025-03-19T09:59:06Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-14T18:58:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janwilmake/oapis.cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

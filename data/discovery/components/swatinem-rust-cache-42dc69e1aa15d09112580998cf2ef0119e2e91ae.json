@@ -1,0 +1,12 @@
+{
+  "component": "Swatinem/rust-cache@42dc69e1aa15d09112580998cf2ef0119e2e91ae",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "getsentry/rust-sourcemap"
+    }
+  ]
+}

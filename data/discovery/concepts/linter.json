@@ -1463,6 +1463,66 @@
       "source_repo": "spring-ai-alibaba/Lynxe",
       "status": "candidate-context",
       "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TravisTheTechie/vscode-write-good",
+      "status": "candidate-context",
+      "text": "Write Good Linter for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TravisTheTechie/vscode-write-good",
+      "status": "candidate-context",
+      "text": "Provides a [write-good](https://github.com/btford/write-good) linter extension for [Visual Studio Code](https://code.visualstudio.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "A RuboCop extension focused on enforcing Rails best practices and coding conventions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate-context",
+      "text": "IntelliJ plugin for continuous OpenAPI linting using the Spectral OpenAPI linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate-context",
+      "text": "Source code of Spring AI Alibaba official website. \ud83d\udcda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate-context",
+      "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "GitHub Actions linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)"
     }
   ],
   "candidate_glosses": [
@@ -2191,6 +2251,36 @@
       "source_repo": "spring-ai-alibaba/Lynxe",
       "status": "candidate",
       "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TravisTheTechie/vscode-write-good",
+      "status": "candidate",
+      "text": "Provides a [write-good](https://github.com/btford/write-good) linter extension for [Visual Studio Code](https://code.visualstudio.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-rails",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-rails.svg)](https://badge.fury.io/rb/rubocop-rails)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate",
+      "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate",
+      "text": "\ud83d\udc40 Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)"
     }
   ],
   "candidate_related_terms": [
@@ -3536,11 +3626,119 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/linter.yml",
       "source_repo": "spring-ai-alibaba/Lynxe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TravisTheTechie/vscode-write-good"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AtomLinter/linter-write-good"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SchwarzIT/spectral-intellij-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "spring-ai-alibaba/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghalint"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

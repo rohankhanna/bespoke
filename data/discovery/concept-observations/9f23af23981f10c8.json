@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979176,
+      "status": "candidate",
+      "text": "lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980792,
+      "status": "candidate",
+      "text": "mental lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980791,
+      "status": "candidate",
+      "text": "glossary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979850,
+      "status": "candidate",
+      "text": "dictionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979495,
+      "status": "candidate",
+      "text": "terminology"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vocabulary",
+      "sense_id": "vocabulary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27042,
+      "status": "candidate",
+      "text": "lexicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6010,
+      "status": "candidate",
+      "text": "mental lexicon"
+    }
+  ],
+  "concept_id": "vocabulary",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vocabulary",
+  "observation_id": "9f23af23981f10c8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "vocabulary",
+  "source_context_snippet": "Metadata for Ontology Description and Publication Ontology",
+  "source_file": null,
+  "source_repo": "FAIR-IMPACT/MOD",
+  "source_repo_description": "Metadata for Ontology Description and Publication Ontology"
+}

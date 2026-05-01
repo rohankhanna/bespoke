@@ -130,6 +130,18 @@
       "source_repo": "danger/danger",
       "status": "candidate-context",
       "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "Code Review"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +198,12 @@
       "source_repo": "danger/danger",
       "status": "candidate",
       "text": "[![License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/orta/danger/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "Code Review"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +337,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/code-review.yml",
       "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/code-review.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/entelligence-pr-reviewer.yml",
+      "source_repo": "BasedHardware/omi"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

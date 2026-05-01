@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "datanucleus/type-converter-kryo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "altoo-ag/akka-kryo-serialization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "apache/incubator-dubbo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "alibaba/session-compatible-fast-serializer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-workflow.yml",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-workflow.yml",
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "PR Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "cloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "kryo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EsotericSoftware/kryo",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:58:46.970486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 76296
+    },
+    {
+      "path": ".github/workflows/ci-workflow.yml",
+      "size": 1934
+    },
+    {
+      "path": ".github/workflows/pr-workflow.yml",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java binary serialization and cloning: fast, efficient, automatic",
+    "fork": false,
+    "full_name": "EsotericSoftware/kryo",
+    "html_url": "https://github.com/EsotericSoftware/kryo",
+    "language": "HTML",
+    "pushed_at": "2026-04-27T13:35:24Z",
+    "stargazers_count": 6516,
+    "topics": [
+      "cloning",
+      "java",
+      "kryo",
+      "serialization"
+    ],
+    "updated_at": "2026-04-29T11:41:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/session-compatible-fast-serializer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altoo-ag/akka-kryo-serialization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-dubbo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datanucleus/type-converter-kryo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-workflow.yml",
+      "term": "PR Build"
+    },
+    {
+      "context_snippet": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloning"
+    },
+    {
+      "context_snippet": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kryo"
+    },
+    {
+      "context_snippet": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

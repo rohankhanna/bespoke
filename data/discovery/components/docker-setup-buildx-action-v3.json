@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1892,6 +1892,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "Azure/co-op-translator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-release.yml",
+      "source_repo": "zylon-ai/private-gpt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration-workflow.yml",
+      "source_repo": "LedgerHQ/speculos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "AlwaysNur/bookbank"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pyupio/safety"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/desktop_auto_release.yml",
+      "source_repo": "BasedHardware/omi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/desktop_backend_auto_dev.yml",
+      "source_repo": "BasedHardware/omi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_alias_sandbox_image.yml",
+      "source_repo": "agentscope-ai/agentscope-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml.backup",
+      "source_repo": "unclecode/crawl4ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yml.disabled",
+      "source_repo": "unclecode/crawl4ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rustmailer/bichon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esy/esy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unified-docker.yml",
+      "source_repo": "mostlygeek/llama-swap"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ensure triage label is present"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "Ensure triage label is present"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate",
+      "text": "Ensure triage label is present"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33681,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33391,
+      "status": "candidate",
+      "text": "sire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33369,
+      "status": "candidate",
+      "text": "talon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33213,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33190,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ensure triage label is present",
+  "concept_id": "ensure-triage-label-is-present",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ensure-triage-label.yml",
+      "source_repo": "mui/material-ui"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ensure triage label is present",
+      "sense_id": "ensure-triage-label-is-present#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

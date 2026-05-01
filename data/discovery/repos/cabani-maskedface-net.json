@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "covid19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "covid19-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "face-mask-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "mask-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "masked-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net",
+      "target": "maskedface-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:26.665187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MaskedFace-Net is a dataset of human faces with a correctly and incorrectly worn mask based on the dataset Flickr-Faces-HQ (FFHQ). ",
+    "fork": false,
+    "full_name": "cabani/MaskedFace-Net",
+    "html_url": "https://github.com/cabani/MaskedFace-Net",
+    "language": null,
+    "pushed_at": "2024-12-09T15:34:15Z",
+    "stargazers_count": 384,
+    "topics": [
+      "computer-vision",
+      "covid-19",
+      "covid19",
+      "covid19-data",
+      "dataset",
+      "face-detection",
+      "face-mask-detection",
+      "face-recognition",
+      "mask-detection",
+      "masked-face",
+      "maskedface-net"
+    ],
+    "updated_at": "2026-03-26T11:06:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-19"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid19"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid19-data"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-mask-detection"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mask-detection"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "masked-face"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maskedface-net"
+    }
+  ]
+}

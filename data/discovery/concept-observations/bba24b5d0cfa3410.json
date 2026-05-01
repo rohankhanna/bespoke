@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892196,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892182,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891606,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789457,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39661453,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "font",
+      "sense_id": "font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25096,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "fount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "baptismal font"
+    }
+  ],
+  "concept_id": "font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "font",
+  "observation_id": "bba24b5d0cfa3410",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "font",
+  "source_context_snippet": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08",
+  "source_file": null,
+  "source_repo": "lxgw/LxgwWenKai",
+  "source_repo_description": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  "
+}

@@ -55,6 +55,18 @@
       "source_repo": "golang-standards/project-layout",
       "status": "candidate-context",
       "text": "Translations:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kowainik/summoner",
+      "status": "candidate-context",
+      "text": "\ud83d\udd2e \ud83d\udd27 Tool for scaffolding batteries-included production-level Haskell projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/summoner",
+      "status": "candidate-context",
+      "text": "![wizard](https://user-images.githubusercontent.com/8126674/44388234-320aac00-a55a-11e8-879d-5dca68512031.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "golang-standards/project-layout",
       "status": "candidate",
       "text": "Translations:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kowainik/summoner",
+      "status": "candidate",
+      "text": "![wizard](https://user-images.githubusercontent.com/8126674/44388234-320aac00-a55a-11e8-879d-5dca68512031.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "golang-standards/project-layout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kowainik/summoner"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

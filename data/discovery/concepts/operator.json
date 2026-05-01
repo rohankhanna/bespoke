@@ -175,6 +175,30 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate-context",
       "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for managing Argo CD clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Argo CD RBAC Management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj-labs/argocd-rbac-operator)](https://goreportcard.com/report/github.com/argoproj-labs/argocd-rbac-operator)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate",
       "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/argoproj-labs/argocd-rbac-operator)](https://goreportcard.com/report/github.com/argoproj-labs/argocd-rbac-operator)"
     }
   ],
   "candidate_related_terms": [
@@ -428,11 +464,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-rbac-operator"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AnyLoc: Universal Visual Place Recognition (RA-L 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998665,
+      "status": "candidate",
+      "text": "government"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029771,
+      "status": "candidate",
+      "text": "ministers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029769,
+      "status": "candidate",
+      "text": "vladimir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029768,
+      "status": "candidate",
+      "text": "vladislav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029767,
+      "status": "candidate",
+      "text": "svevlad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vlad",
+      "sense_id": "vlad#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vlad",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vlad",
+  "observation_id": "38c1cfaeabbe9716",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "vlad",
+  "source_context_snippet": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)",
+  "source_file": null,
+  "source_repo": "AnyLoc/AnyLoc",
+  "source_repo_description": "AnyLoc: Universal Visual Place Recognition (RA-L 2023)"
+}

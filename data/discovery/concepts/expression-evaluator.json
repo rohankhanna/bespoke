@@ -43,6 +43,18 @@
       "source_repo": "jonschlinkert/eval-estree-expression",
       "status": "candidate-context",
       "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate-context",
+      "text": "Ridiculously fast symbolic expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "jonschlinkert/eval-estree-expression",
       "status": "candidate",
       "text": "> Safely evaluate JavaScript (estree) expressions, sync and async."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "expr-lang/expr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SymbolicML/DynamicExpressions.jl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

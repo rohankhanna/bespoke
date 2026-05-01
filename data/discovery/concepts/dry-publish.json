@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dry-publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/engines-wrapper",
+      "status": "candidate-context",
+      "text": "\ud83c\udf2f @prisma/engines-version npm package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/engines-wrapper",
+      "status": "candidate-context",
+      "text": "dry-publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/engines-wrapper",
+      "status": "candidate",
+      "text": "dry-publish"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dry-publish",
+  "concept_id": "dry-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dry-publish.yml",
+      "source_repo": "prisma/engines-wrapper"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dry-publish",
+      "sense_id": "dry-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -331,6 +331,30 @@
       "source_repo": "krivahtoo/silicon.nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate-context",
+      "text": "Simple winbar/statusline plugin that shows your current code context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate-context",
+      "text": "A simple statusline/winbar component that uses LSP to show your current code context."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/oil.nvim",
+      "status": "candidate-context",
+      "text": "Neovim file explorer: edit your filesystem like a buffer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/oil.nvim",
+      "status": "candidate-context",
+      "text": "A [vim-vinegar](https://github.com/tpope/vim-vinegar) like file explorer that lets you edit your filesystem like a normal Neovim buffer."
     }
   ],
   "candidate_glosses": [
@@ -501,6 +525,18 @@
       "source_repo": "krivahtoo/silicon.nvim",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SmiteshP/nvim-navic",
+      "status": "candidate",
+      "text": "A simple statusline/winbar component that uses LSP to show your current code context."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/oil.nvim",
+      "status": "candidate",
+      "text": "A [vim-vinegar](https://github.com/tpope/vim-vinegar) like file explorer that lets you edit your filesystem like a normal Neovim buffer."
     }
   ],
   "candidate_related_terms": [],
@@ -754,11 +790,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "krivahtoo/silicon.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/oil.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "asmvik/skhd",
-      "target": "jackielii/skhd.zig",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-04-30T20:03:56.835930+00:00",
+  "edges": [],
+  "fetched_at": "2026-05-01T13:51:41.407555+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -26,16 +18,10 @@
     "html_url": "https://github.com/asmvik/skhd",
     "language": "C",
     "pushed_at": "2025-12-09T23:24:45Z",
-    "stargazers_count": 7939,
+    "stargazers_count": 7940,
     "topics": [],
-    "updated_at": "2026-04-30T03:16:35Z"
+    "updated_at": "2026-05-01T08:10:12Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jackielii/skhd.zig",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

@@ -1,0 +1,85 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ROCm/rocMLIR",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ROCm/rocMLIR",
+      "target": "rocMLIR GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov-report.yml",
+      "source_repo": "ROCm/rocMLIR",
+      "target": "Codecov Report",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:49:59.384459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3691
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 61
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3869
+    },
+    {
+      "path": ".github/workflows/codecov-report.yml",
+      "size": 6999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": null,
+    "fork": false,
+    "full_name": "ROCm/rocMLIR",
+    "html_url": "https://github.com/ROCm/rocMLIR",
+    "language": "MLIR",
+    "pushed_at": "2026-05-01T14:20:52Z",
+    "stargazers_count": 177,
+    "topics": [],
+    "updated_at": "2026-04-30T08:40:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "rocMLIR GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "rocMLIR GitHub Actions"
+    },
+    {
+      "context_snippet": "Codecov Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov-report.yml",
+      "term": "Codecov Report"
+    }
+  ]
+}

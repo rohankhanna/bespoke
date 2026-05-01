@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.8.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AgentOps-AI/Jaiqu",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AgentOps-AI/Jaiqu",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AgentOps-AI/Jaiqu",
+      "target": "pypa/gh-action-pypi-publish@v1.8.11",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:10:06.032942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6507
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1131
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically reformat any JSON into any schema with AI",
+    "fork": false,
+    "full_name": "AgentOps-AI/Jaiqu",
+    "html_url": "https://github.com/AgentOps-AI/Jaiqu",
+    "language": "Python",
+    "pushed_at": "2025-03-14T23:48:21Z",
+    "stargazers_count": 341,
+    "topics": [],
+    "updated_at": "2026-03-20T23:18:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

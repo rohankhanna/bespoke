@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "advanced-security/filter-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "eclipsefdn/iot.eclipse.org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "eclipse-cyclonedds/cyclonedds-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "eclipse-cyclonedds/cyclonedds-cxx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "advanced-security/filter-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "source_repo": "eclipse-cyclonedds/cyclonedds",
+      "target": "MISRA regressions check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:21.478780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22449
+    },
+    {
+      "path": ".github/workflows/misra-regressions-check.yml",
+      "size": 3173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Eclipse Cyclone DDS project",
+    "fork": false,
+    "full_name": "eclipse-cyclonedds/cyclonedds",
+    "html_url": "https://github.com/eclipse-cyclonedds/cyclonedds",
+    "language": "C",
+    "pushed_at": "2026-04-30T08:56:28Z",
+    "stargazers_count": 1255,
+    "topics": [
+      "dds"
+    ],
+    "updated_at": "2026-05-01T10:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse-cyclonedds/cyclonedds-cxx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse-cyclonedds/cyclonedds-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipsefdn/iot.eclipse.org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"MISRA regressions check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misra-regressions-check.yml",
+      "term": "MISRA regressions check"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "activeadmin/activeadmin",
       "status": "candidate-context",
       "text": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activeadmin/arbre",
+      "status": "candidate-context",
+      "text": "An Object Oriented DOM Tree in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/arbre",
+      "status": "candidate-context",
+      "text": "[Arbre][docs] makes it easy to generate HTML directly in Ruby. This gem was extracted from [Active Admin](https://github.com/activeadmin/activeadmin)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "activeadmin/activeadmin",
       "status": "candidate",
       "text": "[Active Admin](https://activeadmin.info) is a Ruby on Rails framework for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activeadmin/arbre",
+      "status": "candidate",
+      "text": "[Arbre][docs] makes it easy to generate HTML directly in Ruby. This gem was extracted from [Active Admin](https://github.com/activeadmin/activeadmin)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "activeadmin/arbre"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

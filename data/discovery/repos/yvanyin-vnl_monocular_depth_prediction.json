@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "target": "mrharicot/monodepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "target": "depth-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "target": "single-image-depth-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:58:48.327814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monocular Depth Prediction",
+    "fork": false,
+    "full_name": "YvanYin/VNL_Monocular_Depth_Prediction",
+    "html_url": "https://github.com/YvanYin/VNL_Monocular_Depth_Prediction",
+    "language": "Python",
+    "pushed_at": "2024-03-27T10:46:16Z",
+    "stargazers_count": 470,
+    "topics": [
+      "depth-prediction",
+      "monocular-depth-estimation",
+      "single-image-depth-prediction"
+    ],
+    "updated_at": "2026-01-13T02:41:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrharicot/monodepth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[NEW] Training codes have been uploaded!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    },
+    {
+      "context_snippet": "[NEW] Training codes have been uploaded!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "[NEW] Training codes have been uploaded!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-depth-prediction"
+    }
+  ]
+}

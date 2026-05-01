@@ -551,7 +551,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:12:26.724489+00:00",
+  "fetched_at": "2026-05-01T13:46:04.103816+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -599,13 +599,13 @@
     "full_name": "jupyter-server/jupyter_server",
     "html_url": "https://github.com/jupyter-server/jupyter_server",
     "language": "Python",
-    "pushed_at": "2026-05-01T05:29:52Z",
+    "pushed_at": "2026-05-01T12:16:21Z",
     "stargazers_count": 558,
     "topics": [
       "jupyter",
       "server"
     ],
-    "updated_at": "2026-05-01T05:29:57Z"
+    "updated_at": "2026-05-01T11:57:03Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-ru",
+      "target": "getlantern/lantern-forum-ukraine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-ru",
+      "target": "getlantern/lantern-forum-uae",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:05.573118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lantern forum for Russian users",
+    "fork": false,
+    "full_name": "getlantern/lantern-forum-ru",
+    "html_url": "https://github.com/getlantern/lantern-forum-ru",
+    "language": null,
+    "pushed_at": "2024-11-01T18:30:06Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-11-01T18:30:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-uae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-ukraine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

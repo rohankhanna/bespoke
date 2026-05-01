@@ -1132,6 +1132,66 @@
       "source_repo": "csstree/stylelint-validator",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-sample-plugin",
+      "status": "candidate-context",
+      "text": "Template for Obsidian community plugins with build configuration and development best practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-sample-plugin",
+      "status": "candidate-context",
+      "text": "This is a sample plugin for Obsidian (https://obsidian.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xuyuanp/yanil",
+      "status": "candidate-context",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xuyuanp/yanil",
+      "status": "candidate-context",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinca/vim-qfreplace",
+      "status": "candidate-context",
+      "text": "Perform the replacement in quickfix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-qfreplace",
+      "status": "candidate-context",
+      "text": "Perform the replacement in quickfix."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofrp/fp-multiuser",
+      "status": "candidate-context",
+      "text": "frp server plugin to support multiple users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofrp/fp-multiuser",
+      "status": "candidate-context",
+      "text": "frp server plugin to support multiple users for [frp](https://github.com/fatedier/frp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate-context",
+      "text": "IntelliJ plugin for continuous OpenAPI linting using the Spectral OpenAPI linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1698,6 +1758,36 @@
       "source_repo": "csstree/stylelint-validator",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-sample-plugin",
+      "status": "candidate",
+      "text": "This is a sample plugin for Obsidian (https://obsidian.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xuyuanp/yanil",
+      "status": "candidate",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-qfreplace",
+      "status": "candidate",
+      "text": "Perform the replacement in quickfix."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofrp/fp-multiuser",
+      "status": "candidate",
+      "text": "frp server plugin to support multiple users for [frp](https://github.com/fatedier/frp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SchwarzIT/spectral-intellij-plugin",
+      "status": "candidate",
+      "text": "![Build](https://github.com/SchwarzIT/spectral-intellij-plugin/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -2461,11 +2551,77 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "csstree/stylelint-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "obsidianmd/obsidian-sample-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Xuyuanp/yanil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "thinca/vim-qfreplace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gofrp/fp-multiuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SchwarzIT/spectral-intellij-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

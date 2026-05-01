@@ -26,27 +26,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "f4pga/prjxray",
-      "target": "kijewski/pyjson5",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "f4pga/prjxray",
-      "target": "f4pga/prjxray-db",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "f4pga/prjxray",
-      "target": "wking/signed-off-by",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "f4pga/prjxray",
       "target": "probot/dco",
       "target_type": "repository"
     },
@@ -163,7 +142,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:46:25.858767+00:00",
+  "fetched_at": "2026-05-01T13:39:52.496979+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,22 +191,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "f4pga/prjxray-db",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kijewski/pyjson5",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "probot/dco",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wking/signed-off-by",
       "source_file": "README.md"
     }
   ],

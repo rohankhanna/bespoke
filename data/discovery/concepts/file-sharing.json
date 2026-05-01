@@ -31,6 +31,18 @@
       "source_repo": "openssh/openssh-portable",
       "status": "candidate-context",
       "text": "[![C/C++ CI](../../actions/workflows/c-cpp.yml/badge.svg)](../../actions/workflows/c-cpp.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "openssh/openssh-portable",
       "status": "candidate",
       "text": "[![C/C++ CI](../../actions/workflows/c-cpp.yml/badge.svg)](../../actions/workflows/c-cpp.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "openssh/openssh-portable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haiwen/seafile"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

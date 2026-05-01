@@ -3,7 +3,8 @@
     "github-release",
     "Github Release",
     "GitHub Release",
-    "GitHub release"
+    "GitHub release",
+    "github release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -84,6 +85,30 @@
       "source_repo": "vuejs/composition-api",
       "status": "candidate-context",
       "text": "Github Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate-context",
+      "text": "Boilerplate application for Ledger devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate-context",
+      "text": "GitHub release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredly/reason-language-server",
+      "status": "candidate-context",
+      "text": "A language server for reason, in reason"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredly/reason-language-server",
+      "status": "candidate-context",
+      "text": "github release"
     }
   ],
   "candidate_glosses": [
@@ -128,6 +153,18 @@
       "source_repo": "vuejs/composition-api",
       "status": "candidate",
       "text": "Github Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate",
+      "text": "GitHub release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredly/reason-language-server",
+      "status": "candidate",
+      "text": "github release"
     }
   ],
   "candidate_related_terms": [
@@ -213,11 +250,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "vuejs/composition-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LedgerHQ/app-boilerplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jaredly/reason-language-server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

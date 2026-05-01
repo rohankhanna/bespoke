@@ -31,6 +31,18 @@
       "source_repo": "Alexandre-Delplanque/HerdNet",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexandre-Delplanque/HerdNet/blob/main/notebooks/demo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "MegaDetector is an AI model that helps conservation folks spend less time doing boring things with camera trap images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Alexandre-Delplanque/HerdNet",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alexandre-Delplanque/HerdNet/blob/main/notebooks/demo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Alexandre-Delplanque/HerdNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

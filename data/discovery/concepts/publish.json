@@ -2626,6 +2626,114 @@
       "source_repo": "pipecat-ai/pipecat-cli",
       "status": "candidate-context",
       "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/np",
+      "status": "candidate-context",
+      "text": "A better `npm publish`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/np",
+      "status": "candidate-context",
+      "text": "np \u2014 A better `npm publish`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/argh",
+      "status": "candidate-context",
+      "text": "Rust derive-based argument parsing optimized for code size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/argh",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yahoo/serialize-javascript",
+      "status": "candidate-context",
+      "text": "Serialize JavaScript to a superset of JSON that includes regular expressions and functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yahoo/serialize-javascript",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/kangaroo-electron",
+      "status": "candidate-context",
+      "text": "Bundle your holochain app a a standalone electron app with a built-in conductor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/kangaroo-electron",
+      "status": "candidate-context",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holochain/launcher-tauri",
+      "status": "candidate-context",
+      "text": "Desktop launcher to install and use Holochain apps locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/launcher-tauri",
+      "status": "candidate-context",
+      "text": "\"publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate-context",
+      "text": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate-context",
+      "text": "Install and run applications packaged with conda in isolated environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "status": "candidate-context",
+      "text": "Code analyzers for CSharpFunctionalExtensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate-context",
+      "text": "Seamlessly map Results from CSharpFunctionalExtensions to HttpResults for cleaner, more fluent Web APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -3954,6 +4062,60 @@
       "source_repo": "pipecat-ai/pipecat-cli",
       "status": "candidate",
       "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/np",
+      "status": "candidate",
+      "text": "np \u2014 A better `npm publish`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/argh",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yahoo/serialize-javascript",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/kangaroo-electron",
+      "status": "candidate",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holochain/launcher-tauri",
+      "status": "candidate",
+      "text": "\"publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate",
+      "text": "Publish"
     }
   ],
   "candidate_related_terms": [
@@ -6217,11 +6379,191 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "pipecat-ai/pipecat-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/np"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/argh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yahoo/serialize-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mattpocock/ts-reset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-gcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/kangaroo-electron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher-tauri"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "BuilderIO/mitosis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jsdom/jsdom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mariusvniekerk/condax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -952,6 +952,54 @@
       "source_repo": "http-kit/http-kit",
       "status": "candidate-context",
       "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "A Clojure library helping the integration of Keycloak with a Clojure Application + a sample SPA Client and API Server demonstrating the Keycloak integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/malli",
+      "status": "candidate-context",
+      "text": "High-performance data-driven data specification library for Clojure/Script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/malli",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Moldable Live Programming for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate-context",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojurephant/clojurephant-tooling",
+      "status": "candidate-context",
+      "text": "Clojure wrapper to the Gradle tooling API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/clojurephant-tooling",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -1428,6 +1476,30 @@
       "source_repo": "http-kit/http-kit",
       "status": "candidate",
       "text": "<span><img src=\"http-kit-logo.png\" alt=\"http-kit\" width=\"140\"/></span>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/malli",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextjournal/clerk",
+      "status": "candidate",
+      "text": "![Clerk: Local-First Notebooks for Clojure](https://cdn.nextjournal.com/data/QmQfj66AwEThMukaNiAcvKuBxTo1oF8XYmUH8ewbG8aXqy?filename=Clerk-GitHub.png&content-type=image/png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/clojurephant-tooling",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -2155,11 +2227,77 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "http-kit/http-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "metosin/malli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nextjournal/clerk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clojurephant/clojurephant-tooling"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

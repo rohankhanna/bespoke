@@ -55,6 +55,18 @@
       "source_repo": "dbfixtures/pytest-postgresql",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate-context",
+      "text": "a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "dbfixtures/pytest-postgresql",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/dbfixtures/pytest-postgresql/main/logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

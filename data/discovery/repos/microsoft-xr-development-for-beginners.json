@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-static-web-apps-ashy-plant-023e6671e.yml"
+    },
+    {
+      "component": "Azure/static-web-apps-deploy@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-static-web-apps-ashy-plant-023e6671e.yml"
+    },
+    {
+      "component": "Azure/static-web-apps-deploy@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-static-web-apps-ashy-plant-023e6671e.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-static-web-apps-ashy-plant-023e6671e.yml",
+      "source_repo": "microsoft/xr-development-for-beginners",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-static-web-apps-ashy-plant-023e6671e.yml",
+      "source_repo": "microsoft/xr-development-for-beginners",
+      "target": "Azure/static-web-apps-deploy@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:17.614911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9862
+    },
+    {
+      "path": ".github/workflows/azure-static-web-apps-ashy-plant-023e6671e.yml",
+      "size": 1801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Spatial Computing Cloud Advocacy Curriculum",
+    "fork": false,
+    "full_name": "microsoft/xr-development-for-beginners",
+    "html_url": "https://github.com/microsoft/xr-development-for-beginners",
+    "language": "Vue",
+    "pushed_at": "2023-07-19T12:48:20Z",
+    "stargazers_count": 562,
+    "topics": [],
+    "updated_at": "2026-04-10T00:45:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

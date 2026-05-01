@@ -262,6 +262,66 @@
       "source_repo": "connectrpc/examples-es",
       "status": "candidate-context",
       "text": "examples-es"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate-context",
+      "text": "Visual Development for React, Vue, Svelte, Qwik, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate-context",
+      "text": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate-context",
+      "text": "@builder.io/mitosis-repo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alixdehghani/echarts-for-angular",
+      "status": "candidate-context",
+      "text": "Angular Directive for Apache ECharts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixdehghani/echarts-for-angular",
+      "status": "candidate-context",
+      "text": "Angular directive for [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular/angular-cli",
+      "status": "candidate-context",
+      "text": "CLI tool for Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/angular-cli",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe8 AppSignal for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "- [AppSignal.com website][appsignal]"
     }
   ],
   "candidate_glosses": [
@@ -396,6 +456,36 @@
       "source_repo": "connectrpc/examples-es",
       "status": "candidate",
       "text": "examples-es"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate",
+      "text": "@builder.io/mitosis-repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alixdehghani/echarts-for-angular",
+      "status": "candidate",
+      "text": "Angular directive for [Apache ECharts (incubating)](https://github.com/apache/incubator-echarts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/angular-cli",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate",
+      "text": "- [AppSignal.com website][appsignal]"
     }
   ],
   "candidate_related_terms": [
@@ -607,11 +697,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "connectrpc/examples-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BuilderIO/builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BuilderIO/mitosis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "alixdehghani/echarts-for-angular"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "angular/angular-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-javascript"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

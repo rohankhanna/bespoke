@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create the next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928267,
+      "status": "candidate",
+      "text": "changeless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928783,
+      "status": "candidate",
+      "text": "unchangeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928695,
+      "status": "candidate",
+      "text": "static"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928671,
+      "status": "candidate",
+      "text": "irremovable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928642,
+      "status": "candidate",
+      "text": "unshakeable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "immutables",
+      "sense_id": "immutables#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "immutables",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "immutables",
+  "observation_id": "3ac5b91cdb440704",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "immutables",
+  "source_context_snippet": "immer \u2014 Create your next immutable state by mutating the current one",
+  "source_file": null,
+  "source_repo": "immerjs/immer",
+  "source_repo_description": "Create the next immutable state by mutating the current one"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "package.json workflow for native development with Reason/OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Build nix package\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Build nix package\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20442,
+      "status": "candidate",
+      "text": "ectomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "frail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20311,
+      "status": "candidate",
+      "text": "abolish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20311,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20311,
+      "status": "candidate",
+      "text": "rove"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build nix package",
+      "sense_id": "build-nix-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-nix-package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-nix-package",
+  "observation_id": "219152d6eb91ce6f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Build nix package",
+  "source_context_snippet": "\"Build nix package\"",
+  "source_file": ".github/workflows/nix.yml",
+  "source_repo": "esy/esy",
+  "source_repo_description": "package.json workflow for native development with Reason/OCaml"
+}

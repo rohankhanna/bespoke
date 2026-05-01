@@ -1774,6 +1774,72 @@
       "source_repo": "mdn/translated-content",
       "status": "candidate-context",
       "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate-context",
+      "text": "Simple development server with live-reload capability for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "Symbolic expressions, rewriting and simplification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate-context",
+      "text": "Ridiculously fast symbolic expressions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cocos/cocos-docs",
+      "status": "candidate-context",
+      "text": "Manual docs content for Cocos Creator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-docs",
+      "status": "candidate-context",
+      "text": "- Cocos Creator User Manual: [https://docs.cocos.com](https://docs.cocos.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast, secure, lightweight containers based on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-Innovator/DocParser",
+      "status": "candidate-context",
+      "text": "documentation"
     }
   ],
   "candidate_glosses": [
@@ -2682,6 +2748,42 @@
       "source_repo": "mdn/translated-content",
       "status": "candidate",
       "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SymbolicML/DynamicExpressions.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cocos/cocos-docs",
+      "status": "candidate",
+      "text": "- Cocos Creator User Manual: [https://docs.cocos.com](https://docs.cocos.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasmerio/wasmer",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alpha-Innovator/DocParser",
+      "status": "candidate",
+      "text": "documentation"
     }
   ],
   "candidate_related_terms": [
@@ -3954,11 +4056,107 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdn/translated-content"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "SymbolicML/DynamicExpressions.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "wasmerio/wasmer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Alpha-Innovator/DocParser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

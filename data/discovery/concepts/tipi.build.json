@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tipi.build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "status": "candidate-context",
+      "text": "A high-performance general-purpose MRF MAP solver, heavily exploiting SIMD instructions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "status": "candidate-context",
+      "text": "tipi.build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "status": "candidate",
+      "text": "tipi.build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tipi.build",
+  "concept_id": "tipi.build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tipi.yml",
+      "source_repo": "dthuerck/mapmap_cpu"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tipi.build",
+      "sense_id": "tipi.build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

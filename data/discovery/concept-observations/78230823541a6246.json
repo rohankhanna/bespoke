@@ -84,7 +84,7 @@
   "normalized_form": "ubuntu-sycl",
   "observation_id": "78230823541a6246",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Ubuntu SYCL",
   "source_context_snippet": "Ubuntu SYCL",
   "source_file": ".github/workflows/ubuntu-sycl.yml",

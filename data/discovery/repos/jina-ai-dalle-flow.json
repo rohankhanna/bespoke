@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "jina-ai/dalle-flow",
-      "target": "patil-suraj/vqgan-jax",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "jina-ai/dalle-flow",
@@ -93,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:09:27.394738+00:00",
+  "fetched_at": "2026-05-01T15:14:32.049999+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -118,7 +111,7 @@
     "html_url": "https://github.com/jina-ai/dalle-flow",
     "language": "Python",
     "pushed_at": "2023-05-16T09:54:02Z",
-    "stargazers_count": 2833,
+    "stargazers_count": 2832,
     "topics": [
       "dalle",
       "dalle-mega",
@@ -131,7 +124,7 @@
       "openai",
       "swinir"
     ],
-    "updated_at": "2026-04-22T00:11:20Z"
+    "updated_at": "2026-05-01T13:46:52Z"
   },
   "repo_links": [
     {
@@ -148,11 +141,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "jina-ai/jina",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "patil-suraj/vqgan-jax",
-      "source_file": "requirements.txt"
     }
   ],
   "terms": [

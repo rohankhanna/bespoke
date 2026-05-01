@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multiple-view-geometry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "OpenMVG (open Multiple View Geometry)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate",
+      "text": "OpenMVG (open Multiple View Geometry)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multiple-view-geometry",
+  "concept_id": "multiple-view-geometry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiple-view-geometry",
+      "sense_id": "multiple-view-geometry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,196 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "botbuildercommunity/botbuilder-community-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "botbuildercommunity/botbuilder-community-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "howdyai/botkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "botbuildercommunity/botbuilder-community-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "azure-bot-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "bot-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "microsoft-bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:33.911536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Bot Framework provides the most comprehensive experience for building conversation applications.",
+    "fork": false,
+    "full_name": "microsoft/botframework-sdk",
+    "html_url": "https://github.com/microsoft/botframework-sdk",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-29T17:45:58Z",
+    "stargazers_count": 7803,
+    "topics": [
+      "azure-bot-service",
+      "bot",
+      "bot-builder",
+      "bot-framework",
+      "csharp",
+      "dotnetcore",
+      "java",
+      "javascript",
+      "microsoft-bot-framework",
+      "nodejs",
+      "python",
+      "sdk",
+      "typescript"
+    ],
+    "updated_at": "2026-04-30T10:31:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "howdyai/botkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-bot-service"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-builder"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnetcore"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-bot-framework"
+    },
+    {
+      "context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

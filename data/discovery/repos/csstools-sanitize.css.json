@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csstools/sanitize.css",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csstools/sanitize.css",
+      "target": "stylelint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csstools/sanitize.css",
+      "target": "normalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csstools/sanitize.css",
+      "target": "opinionated",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:56:49.632964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9809
+    },
+    {
+      "path": "package.json",
+      "size": 1339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A best-practices CSS foundation",
+    "fork": false,
+    "full_name": "csstools/sanitize.css",
+    "html_url": "https://github.com/csstools/sanitize.css",
+    "language": "CSS",
+    "pushed_at": "2026-03-26T11:31:36Z",
+    "stargazers_count": 5292,
+    "topics": [
+      "css",
+      "normalization",
+      "opinionated"
+    ],
+    "updated_at": "2026-04-30T20:53:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[sanitize.css] is a CSS library that provides consistent, cross-browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalization"
+    },
+    {
+      "context_snippet": "[sanitize.css] is a CSS library that provides consistent, cross-browser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opinionated"
+    }
+  ]
+}

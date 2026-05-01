@@ -48,7 +48,7 @@
   "normalized_form": "release-npm-packages",
   "observation_id": "6463249bdf362e08",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T07:00:14.271058+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "release-npm-packages",
   "source_context_snippet": "release-npm-packages",
   "source_file": ".github/workflows/release-npm-packages.yml",

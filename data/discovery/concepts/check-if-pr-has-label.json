@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check if PR has label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "Check if PR has label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate",
+      "text": "Check if PR has label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48710,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48710,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45196,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44087,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34596,
+      "status": "candidate",
+      "text": "bridle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check if PR has label",
+  "concept_id": "check-if-pr-has-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-if-pr-has-label.yml",
+      "source_repo": "mui/material-ui"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check if PR has label",
+      "sense_id": "check-if-pr-has-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -295,6 +295,18 @@
       "source_repo": "Solido/awesome-flutter",
       "status": "candidate-context",
       "text": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "Solido/awesome-flutter",
       "status": "candidate",
       "text": "[<img src=\"https://user-images.githubusercontent.com/1295961/45949308-cbb2f680-bffb-11e8-8054-28c35ed6d132.png\" align=\"center\" width=\"850\">](https://flutter.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +682,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "Solido/awesome-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

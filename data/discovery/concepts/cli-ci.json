@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "cli-ci"
+    "cli-ci",
+    "CLI CI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "Azure/azure-dev",
       "status": "candidate-context",
       "text": "cli-ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackielii/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Open-source keyboard firmware for Atmel AVR and Arm USB families"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackielii/qmk_firmware",
+      "status": "candidate-context",
+      "text": "CLI CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Open-source keyboard firmware for Atmel AVR and Arm USB families"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "CLI CI"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +52,43 @@
       "source_repo": "Azure/azure-dev",
       "status": "candidate",
       "text": "cli-ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackielii/qmk_firmware",
+      "status": "candidate",
+      "text": "CLI CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate",
+      "text": "CLI CI"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4774,
+      "status": "candidate",
+      "text": "ilc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4554,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4554,
+      "status": "candidate",
+      "text": "cde"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "cli-ci",
   "concept_id": "cli-ci",
@@ -40,11 +99,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/cli-ci.yml",
       "source_repo": "Azure/azure-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "jackielii/qmk_firmware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "qmk/qmk_firmware"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

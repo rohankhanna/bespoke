@@ -36,28 +36,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "standardrb/lint_roller",
+      "target": "standardrb/standard-sorbet",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "standardrb/standard-rails",
+      "target": "standardrb/standard-ruby-action",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standardrb/standard",
-      "target": "standardrb/standard-performance",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "standardrb/standard",
-      "target": "standardrb/standard-custom",
+      "target": "testdouble/standard",
       "target_type": "repository"
     },
     {
@@ -145,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:49:53.282532+00:00",
+  "fetched_at": "2026-05-01T14:52:40.044930+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -170,34 +163,29 @@
     "html_url": "https://github.com/standardrb/standard",
     "language": "Ruby",
     "pushed_at": "2026-04-21T01:32:31Z",
-    "stargazers_count": 2892,
+    "stargazers_count": 2893,
     "topics": [
       "formatter",
       "linter",
       "rubocop",
       "ruby"
     ],
-    "updated_at": "2026-04-30T11:30:31Z"
+    "updated_at": "2026-05-01T00:04:17Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standardrb/lint_roller",
+      "full_name": "standardrb/standard-ruby-action",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standardrb/standard-custom",
+      "full_name": "standardrb/standard-sorbet",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standardrb/standard-performance",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "standardrb/standard-rails",
+      "full_name": "testdouble/standard",
       "source_file": "README.md"
     }
   ],

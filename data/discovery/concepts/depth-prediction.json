@@ -19,6 +19,42 @@
       "source_repo": "aim-uofa/AdelaiDepth",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rDLZBtiUgsFJrrL-xOgTVWxj6PMK9swq?usp=sharing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "The code and data of DiverseDepth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "status": "candidate-context",
+      "text": "Monocular Depth Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "status": "candidate-context",
+      "text": "[NEW] Training codes have been uploaded!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate-context",
+      "text": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "aim-uofa/AdelaiDepth",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rDLZBtiUgsFJrrL-xOgTVWxj6PMK9swq?usp=sharing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction",
+      "status": "candidate",
+      "text": "[NEW] Training codes have been uploaded!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aim-uofa/AdelaiDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/VNL_Monocular_Depth_Prediction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

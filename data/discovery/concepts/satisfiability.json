@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "satisfiability"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msoos/cryptominisat-rs",
+      "status": "candidate-context",
+      "text": "CryptoMiniSat rust bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat-rs",
+      "status": "candidate-context",
+      "text": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msoos/cryptominisat-rs",
+      "status": "candidate",
+      "text": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19805540,
+      "status": "candidate",
+      "text": "satisfactoriness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19805539,
+      "status": "candidate",
+      "text": "satisfyingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19805538,
+      "status": "candidate",
+      "text": "unsatisfiability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19805537,
+      "status": "candidate",
+      "text": "satiability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19805536,
+      "status": "candidate",
+      "text": "satisfiedness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "satisfiability",
+  "concept_id": "satisfiability",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "msoos/cryptominisat-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "satisfiability",
+      "sense_id": "satisfiability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

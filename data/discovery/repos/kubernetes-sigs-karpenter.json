@@ -113,21 +113,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "aws/karpenter-provider-aws",
+      "target": "cloudpilot-ai/karpenter-provider-alibabacloud",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "azure/karpenter-provider-azure",
+      "target": "exoscale/karpenter-provider-exoscale",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "bizflycloud/karpenter-provider-bizflycloud",
+      "target": "cloudpilot-ai/karpenter-provider-gcp",
       "target_type": "repository"
     },
     {
@@ -306,7 +306,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:28:35.616129+00:00",
+  "fetched_at": "2026-05-01T15:04:03.550287+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -371,17 +371,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aws/karpenter-provider-aws",
+      "full_name": "cloudpilot-ai/karpenter-provider-alibabacloud",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "azure/karpenter-provider-azure",
+      "full_name": "cloudpilot-ai/karpenter-provider-gcp",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bizflycloud/karpenter-provider-bizflycloud",
+      "full_name": "exoscale/karpenter-provider-exoscale",
       "source_file": "README.md"
     }
   ],

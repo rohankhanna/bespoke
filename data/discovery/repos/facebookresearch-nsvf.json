@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/NSVF",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "facebookresearch/NSVF",
+      "target": "multipath/fairseq-stable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "facebookresearch/NSVF",
+      "target": "multipath/lpips-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:28.453970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11071
+    },
+    {
+      "path": "requirements.txt",
+      "size": 323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Open source code for the paper of Neural Sparse Voxel Fields.",
+    "fork": false,
+    "full_name": "facebookresearch/NSVF",
+    "html_url": "https://github.com/facebookresearch/NSVF",
+    "language": "Python",
+    "pushed_at": "2023-07-06T22:01:38Z",
+    "stargazers_count": 818,
+    "topics": [],
+    "updated_at": "2026-03-30T12:11:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multipath/fairseq-stable",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multipath/lpips-pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

@@ -1,12 +1,17 @@
 {
   "component": "haskell-actions/hlint-setup@fe9cd1cd1af94a23900c06738e73f6ddb092966a",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/static-checks.yaml",
       "source_repo": "mihaimaruseac/hindent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "haskell-actions/hlint-run"
     }
   ]
 }

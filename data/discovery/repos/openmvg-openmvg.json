@@ -1,0 +1,287 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_and_run_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_and_run_test_external_deps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi_compile_and_run_test.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi_compile_and_run_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_and_run_test.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_and_run_test_external_deps.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile_and_run_test_external_deps.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "CI-external-deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi_compile_and_run_test.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi_compile_and_run_test.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "prefix-dev/setup-pixi@v0.8.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi_compile_and_run_test.yml",
+      "source_repo": "openMVG/openMVG",
+      "target": "CI - pixi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "drone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "multiple-view-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "openmvg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "photogrammetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:45.165955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6519
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1366
+    },
+    {
+      "path": ".github/workflows/compile_and_run_test.yml",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/compile_and_run_test_external_deps.yml",
+      "size": 2093
+    },
+    {
+      "path": ".github/workflows/pixi_compile_and_run_test.yml",
+      "size": 814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.",
+    "fork": false,
+    "full_name": "openMVG/openMVG",
+    "html_url": "https://github.com/openMVG/openMVG",
+    "language": "C++",
+    "pushed_at": "2025-12-17T00:44:42Z",
+    "stargazers_count": 6390,
+    "topics": [
+      "3d-reconstruction",
+      "computer-vision",
+      "drone",
+      "geometry",
+      "multiple-view-geometry",
+      "openmvg",
+      "photogrammetry",
+      "sfm",
+      "structure-from-motion"
+    ],
+    "updated_at": "2026-05-01T10:37:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "CI-external-deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile_and_run_test_external_deps.yml",
+      "term": "CI-external-deps"
+    },
+    {
+      "context_snippet": "CI - pixi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi_compile_and_run_test.yml",
+      "term": "CI - pixi"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drone"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiple-view-geometry"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmvg"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photogrammetry"
+    },
+    {
+      "context_snippet": "OpenMVG (open Multiple View Geometry)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    }
+  ]
+}

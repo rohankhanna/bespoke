@@ -43,6 +43,18 @@
       "source_repo": "heroku/buildpacks-deb-packages",
       "status": "candidate-context",
       "text": "[![CI][ci-badge]][ci-link] [![Registry][registry-badge]][registry-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks",
+      "status": "candidate-context",
+      "text": "Heroku Cloud Native Buildpacks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "heroku/buildpacks-deb-packages",
       "status": "candidate",
       "text": "[![CI][ci-badge]][ci-link] [![Registry][registry-badge]][registry-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "heroku/buildpacks-deb-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

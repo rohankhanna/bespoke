@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "chflame163/ComfyUI_LayerStyle"
+}

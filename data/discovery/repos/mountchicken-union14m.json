@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mountchicken/Union14M",
+      "target": "mountchicken/efficient-deep-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M",
+      "target": "mmocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M",
+      "target": "scene-text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M",
+      "target": "self-supervised",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M",
+      "target": "union14m",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:39:59.434310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] Code base for Revisiting Scene Text Recognition: A Data Perspective",
+    "fork": false,
+    "full_name": "Mountchicken/Union14M",
+    "html_url": "https://github.com/Mountchicken/Union14M",
+    "language": "Python",
+    "pushed_at": "2023-11-01T08:52:33Z",
+    "stargazers_count": 204,
+    "topics": [
+      "dataset",
+      "mae",
+      "mmocr",
+      "scene-text-recognition",
+      "self-supervised",
+      "union14m"
+    ],
+    "updated_at": "2026-03-31T09:31:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mountchicken/efficient-deep-learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmocr"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-recognition"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "union14m"
+    }
+  ]
+}

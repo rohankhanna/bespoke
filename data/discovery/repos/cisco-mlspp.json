@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cisco/mlspp",
+      "target": "mlswg/mls-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml",
+      "source_repo": "cisco/mlspp",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml",
+      "source_repo": "cisco/mlspp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yml",
+      "source_repo": "cisco/mlspp",
+      "target": "jidicula/clang-format-action@v4.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_ci.yml",
+      "source_repo": "cisco/mlspp",
+      "target": "MLSPP CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:10.390407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2905
+    },
+    {
+      "path": ".github/workflows/main_ci.yml",
+      "size": 4662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Messaging Layer Security",
+    "fork": false,
+    "full_name": "cisco/mlspp",
+    "html_url": "https://github.com/cisco/mlspp",
+    "language": "C++",
+    "pushed_at": "2026-04-13T19:29:45Z",
+    "stargazers_count": 140,
+    "topics": [],
+    "updated_at": "2026-04-15T19:39:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlswg/mls-protocol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MLSPP CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_ci.yml",
+      "term": "MLSPP CI"
+    }
+  ]
+}

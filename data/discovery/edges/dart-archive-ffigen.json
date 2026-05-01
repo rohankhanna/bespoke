@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-archive/ffigen",
+      "target": "dart-lang/native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-archive/ffigen",
+      "target": "dart-lang/ffigen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/ffigen",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/ffigen",
+      "target": "dart-lang/setup-dart@b64355ae6ca0b5d484f0106a033dd1388965d06d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/ffigen",
+      "target": "coverallsapp/github-action@3dfc5567390f6fa9267c0ee9c251e4c8c3f18949",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/ffigen",
+      "target": "subosito/flutter-action@2783a3f08e1baf891508463f8c6653c258246225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/ffigen",
+      "target": "Dart CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "dart-archive/ffigen"
+}

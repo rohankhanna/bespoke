@@ -1,7 +1,7 @@
 {
   "component": "geekyeggo/delete-artifact@v6",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post_weekly_release.yaml",
       "source_repo": "ARM-software/astc-encoder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Servo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware"
     }
   ]
 }

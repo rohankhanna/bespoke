@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Admin Dashboard to Cloud Run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "Deploy Admin Dashboard to Cloud Run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "Deploy Admin Dashboard to Cloud Run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49860,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37418,
+      "status": "candidate",
+      "text": "ship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37418,
+      "status": "candidate",
+      "text": "shipped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35746,
+      "status": "candidate",
+      "text": "hire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35746,
+      "status": "candidate",
+      "text": "impose"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Admin Dashboard to Cloud Run",
+  "concept_id": "deploy-admin-dashboard-to-cloud-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gcp_admin.yml",
+      "source_repo": "BasedHardware/omi"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Admin Dashboard to Cloud Run",
+      "sense_id": "deploy-admin-dashboard-to-cloud-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

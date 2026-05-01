@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:09:58.303029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression (AAAI 2020)",
+    "fork": false,
+    "full_name": "Zzh-tju/DIoU-SSD-pytorch",
+    "html_url": "https://github.com/Zzh-tju/DIoU-SSD-pytorch",
+    "language": "Python",
+    "pushed_at": "2021-10-21T21:16:01Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-02-06T07:44:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:51:33.985907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the home of O'Reilly's Clojure Cookbook - http://clojure-cookbook.com",
+    "fork": false,
+    "full_name": "clojure-cookbook/clojure-cookbook",
+    "html_url": "https://github.com/clojure-cookbook/clojure-cookbook",
+    "language": "Clojure",
+    "pushed_at": "2024-01-12T10:11:30Z",
+    "stargazers_count": 2614,
+    "topics": [],
+    "updated_at": "2026-04-27T07:48:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

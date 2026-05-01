@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "biscuit-colorscheme/biscuit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "arcticicestudio/nord",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "caro401/royal-velvet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "akifyss/obsidian-border",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnubisNekhet/AnuPpuccin",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:02:07.125195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Personal theme for Obsidian",
+    "fork": false,
+    "full_name": "AnubisNekhet/AnuPpuccin",
+    "html_url": "https://github.com/AnubisNekhet/AnuPpuccin",
+    "language": "CSS",
+    "pushed_at": "2024-12-01T10:45:56Z",
+    "stargazers_count": 3190,
+    "topics": [
+      "obsidian",
+      "obsidian-md",
+      "theme"
+    ],
+    "updated_at": "2026-05-01T06:47:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akifyss/obsidian-border",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arcticicestudio/nord",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biscuit-colorscheme/biscuit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caro401/royal-velvet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">AnuPpuccin</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">AnuPpuccin</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">AnuPpuccin</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

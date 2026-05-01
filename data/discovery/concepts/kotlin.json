@@ -535,6 +535,30 @@
       "source_repo": "Heapy/awesome-kotlin",
       "status": "candidate-context",
       "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate-context",
+      "text": "Building modern, elegant and fast Swing applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate-context",
+      "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Android SDK \ud83d\udc9a  \ud83e\udd16"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate-context",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +825,18 @@
       "source_repo": "Heapy/awesome-kotlin",
       "status": "candidate",
       "text": "A curated list of awesome Kotlin related stuff inspired by awesome-java. :octocat:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate",
+      "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate",
+      "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
     }
   ],
   "candidate_related_terms": [
@@ -1162,11 +1198,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-android"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

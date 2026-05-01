@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:08:05.096998+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1149
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 88
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monotonic Alignment Search",
+    "fork": false,
+    "full_name": "resemble-ai/monotonic_align",
+    "html_url": "https://github.com/resemble-ai/monotonic_align",
+    "language": "Cython",
+    "pushed_at": "2025-06-09T11:04:09Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-02-10T08:32:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

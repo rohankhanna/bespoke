@@ -55,6 +55,18 @@
       "source_repo": "curl/curl",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmotz/trystero",
+      "status": "candidate-context",
+      "text": "\u2728\ud83e\udd1d\u2728 Build instant multiplayer webapps, no server required \u2014 Magic WebRTC matchmaking over BitTorrent, Nostr, MQTT, IPFS, Supabase, and Firebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmotz/trystero",
+      "status": "candidate-context",
+      "text": "**Build instant multiplayer web apps, no server required**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "curl/curl",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmotz/trystero",
+      "status": "candidate",
+      "text": "**Build instant multiplayer web apps, no server required**"
     }
   ],
   "candidate_related_terms": [
@@ -286,11 +304,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "eclipse-paho/paho.mqtt.testing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dmotz/trystero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.testing"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

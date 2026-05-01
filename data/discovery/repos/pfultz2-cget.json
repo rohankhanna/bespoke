@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget",
+      "target": "styfle/cancel-workflow-action@0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget",
+      "target": "jwlawson/actions-setup-cmake@v1.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget",
+      "target": "cget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "cget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "cmake-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "crossplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "pkgconfig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfultz2/cget",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:50:01.408603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1627
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/tox.yml",
+      "size": 1813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ package retrieval",
+    "fork": false,
+    "full_name": "pfultz2/cget",
+    "html_url": "https://github.com/pfultz2/cget",
+    "language": "Python",
+    "pushed_at": "2026-04-03T21:45:17Z",
+    "stargazers_count": 460,
+    "topics": [
+      "c",
+      "cget",
+      "cmake",
+      "cmake-packages",
+      "cplusplus",
+      "cpp",
+      "crossplatform",
+      "dependency-manager",
+      "linux",
+      "osx",
+      "package-manager",
+      "pkgconfig",
+      "windows"
+    ],
+    "updated_at": "2026-04-21T08:42:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yml",
+      "term": "cget"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cget"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-packages"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crossplatform"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pkgconfig"
+    },
+    {
+      "context_snippet": "cget",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

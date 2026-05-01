@@ -131,21 +131,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "google/paxml",
+      "target": "logicalclocks/rondb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "intel/pcm",
+      "target": "michaeleisel/zippyjson",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "gerrymanoim/libpy_simdjson",
+      "target": "luizperes/simdjson_nodejs",
       "target_type": "repository"
     },
     {
@@ -492,7 +492,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:03:29.118613+00:00",
+  "fetched_at": "2026-05-01T15:05:04.031475+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -544,8 +544,8 @@
     "full_name": "simdjson/simdjson",
     "html_url": "https://github.com/simdjson/simdjson",
     "language": "C++",
-    "pushed_at": "2026-04-29T17:05:45Z",
-    "stargazers_count": 23703,
+    "pushed_at": "2026-05-01T01:59:38Z",
+    "stargazers_count": 23710,
     "topics": [
       "aarch64",
       "arm64",
@@ -568,7 +568,7 @@
       "vs2019",
       "x64"
     ],
-    "updated_at": "2026-04-30T13:57:02Z"
+    "updated_at": "2026-05-01T12:51:42Z"
   },
   "repo_links": [
     {
@@ -578,17 +578,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "gerrymanoim/libpy_simdjson",
+      "full_name": "logicalclocks/rondb",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "google/paxml",
+      "full_name": "luizperes/simdjson_nodejs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "intel/pcm",
+      "full_name": "michaeleisel/zippyjson",
       "source_file": "README.md"
     }
   ],

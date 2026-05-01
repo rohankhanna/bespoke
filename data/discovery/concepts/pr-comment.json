@@ -34,6 +34,18 @@
       "source_repo": "NVIDIA-NeMo/RL",
       "status": "candidate-context",
       "text": "\"PR Comment\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "PR Comment"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "NVIDIA-NeMo/RL",
       "status": "candidate",
       "text": "\"PR Comment\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate",
+      "text": "PR Comment"
     }
   ],
   "candidate_related_terms": [
@@ -109,11 +127,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/_pr_comment.yml",
       "source_repo": "NVIDIA-NeMo/RL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "pyupio/safety"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "mkkellogg/GaussianSplats3D",
       "status": "candidate-context",
       "text": "Three.js-based implemetation of a renderer for [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), a technique for generating 3D scenes from 2D images. Their project is CUDA-based and needs to run natively on\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate-context",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. Click here for Live Demo: https://erichlof.github.io/THREE.js-PathTracing-Renderer/Geometry_Showcase.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate-context",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mkkellogg/GaussianSplats3D",
       "status": "candidate",
       "text": "Three.js-based implemetation of a renderer for [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), a technique for generating 3D scenes from 2D images. Their project is CUDA-based and needs to run natively on\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mkkellogg/GaussianSplats3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

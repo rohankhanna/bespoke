@@ -115,6 +115,54 @@
       "source_repo": "naver/kapture",
       "status": "candidate-context",
       "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "GSV-Cities: a large-scale dataset for visual place recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "AnyLoc: Universal Visual Place Recognition (RA-L 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filipradenovic/cnnimageretrieval",
+      "status": "candidate-context",
+      "text": "CNN Image Retrieval in MatConvNet: Training and evaluating CNNs for Image Retrieval in MatConvNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/cnnimageretrieval",
+      "status": "candidate-context",
+      "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "Hardnet descriptor model - \"Working hard to know your neighbor's margins:  Local descriptor learning loss\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "naver/kapture",
       "status": "candidate",
       "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate",
+      "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filipradenovic/cnnimageretrieval",
+      "status": "candidate",
+      "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +304,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "naver/kapture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AnyLoc/AnyLoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "filipradenovic/cnnimageretrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DagnyT/hardnet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

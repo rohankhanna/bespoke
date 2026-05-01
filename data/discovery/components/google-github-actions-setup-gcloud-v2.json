@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/setup-gcloud@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "redis/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-templates.yml",
+      "source_repo": "pulumi/templates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prod-deploy.yml",
+      "source_repo": "mdn/interactive-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stage-deploy.yml",
+      "source_repo": "mdn/interactive-examples"
     }
   ]
 }

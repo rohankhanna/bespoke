@@ -805,6 +805,30 @@
       "source_repo": "adelarsq/falco_graphql_sample",
       "status": "candidate-context",
       "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": " \ud83d\ude80 Ready-to-run Prisma example projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "FSharp implementation of Facebook GraphQL query language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate-context",
+      "text": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql)."
     }
   ],
   "candidate_glosses": [
@@ -1209,6 +1233,18 @@
       "source_repo": "adelarsq/falco_graphql_sample",
       "status": "candidate",
       "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "status": "candidate",
+      "text": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql)."
     }
   ],
   "candidate_related_terms": [
@@ -1906,11 +1942,83 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "adelarsq/falco_graphql_sample"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/query"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

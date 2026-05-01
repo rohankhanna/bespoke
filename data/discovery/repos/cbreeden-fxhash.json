@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:56:27.488286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2795
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast, non-secure, hashing algorithm derived from an internal hasher in FireFox.",
+    "fork": false,
+    "full_name": "cbreeden/fxhash",
+    "html_url": "https://github.com/cbreeden/fxhash",
+    "language": "Rust",
+    "pushed_at": "2024-01-03T20:33:46Z",
+    "stargazers_count": 285,
+    "topics": [],
+    "updated_at": "2026-04-29T14:55:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

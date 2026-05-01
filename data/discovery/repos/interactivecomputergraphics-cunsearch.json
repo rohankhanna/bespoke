@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/cuNSearch",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/cuNSearch",
+      "target": "neighborhood-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:43.318261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius.",
+    "fork": false,
+    "full_name": "InteractiveComputerGraphics/cuNSearch",
+    "html_url": "https://github.com/InteractiveComputerGraphics/cuNSearch",
+    "language": "Cuda",
+    "pushed_at": "2024-05-05T09:22:46Z",
+    "stargazers_count": 108,
+    "topics": [
+      "cuda",
+      "neighborhood-search"
+    ],
+    "updated_at": "2026-04-19T13:00:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius. Suitable for many applications, e.g. neighborhood search for SPH fluid simulations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius. Suitable for many applications, e.g. neighborhood search for SPH fluid simulations.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neighborhood-search"
+    }
+  ]
+}

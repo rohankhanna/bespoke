@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/go-autofix-action@2a159c8f21af356c29ee26d76821b5c15956c1d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/go-release-workflow/.github/workflows/release.yaml@4db55f2aeaca166b2655fa4a80658df1050dc203",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/go-test-full-workflow/.github/workflows/test.yaml@e442a17816baa8a940edc1544cc6e739d870e165",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "lintnet-modules/ghalint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "szksh-lab/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "suzuki-shunsuke/go-autofix-action@2a159c8f21af356c29ee26d76821b5c15956c1d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "Check if all commits are signed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "suzuki-shunsuke/go-release-workflow/.github/workflows/release.yaml@4db55f2aeaca166b2655fa4a80658df1050dc203",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "suzuki-shunsuke/go-test-full-workflow/.github/workflows/test.yaml@e442a17816baa8a940edc1544cc6e739d870e165",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:03:39.502615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8873
+    },
+    {
+      "path": "go.mod",
+      "size": 1417
+    },
+    {
+      "path": ".github/workflows/actionlint.yaml",
+      "size": 282
+    },
+    {
+      "path": ".github/workflows/autofix.yaml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/check-commit-signing.yaml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/workflow_call_test.yaml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Actions linter",
+    "fork": false,
+    "full_name": "suzuki-shunsuke/ghalint",
+    "html_url": "https://github.com/suzuki-shunsuke/ghalint",
+    "language": "Go",
+    "pushed_at": "2026-05-01T12:44:30Z",
+    "stargazers_count": 238,
+    "topics": [
+      "cli",
+      "github-actions",
+      "linter",
+      "oss",
+      "security"
+    ],
+    "updated_at": "2026-05-01T12:44:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintnet-modules/ghalint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "szksh-lab/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actionlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "term": "actionlint"
+    },
+    {
+      "context_snippet": "autofix.ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "term": "autofix.ci"
+    },
+    {
+      "context_snippet": "Check if all commits are signed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "term": "Check if all commits are signed"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghalint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

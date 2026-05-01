@@ -43,6 +43,18 @@
       "source_repo": "Rhoban/onshape-to-robot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "Collection of robot models compatible with gym-ignition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Rhoban/onshape-to-robot",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "Rhoban/onshape-to-robot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gym-ignition-models"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

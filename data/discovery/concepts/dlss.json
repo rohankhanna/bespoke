@@ -31,6 +31,18 @@
       "source_repo": "optiscaler/OptiScaler",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optiscaler/OptiPatcher",
+      "status": "candidate-context",
+      "text": "An ASI Plugin for OptiScaler to expose DLSS/DLSSG inputs without spoofing in supported games."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optiscaler/OptiPatcher",
+      "status": "candidate-context",
+      "text": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "optiscaler/OptiScaler",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optiscaler/OptiPatcher",
+      "status": "candidate",
+      "text": "An **ASI Plugin for OptiScaler** for exposing DLSS/DLSS-FG inputs without spoofing in **supported games**."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "optiscaler/OptiScaler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "optiscaler/OptiPatcher"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "seangwright/typescript-functional-extensions",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/typescript-functional-extensions.png)](https://nodei.co/npm/typescript-functional-extensions/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "A small set of extensions to make test assertions more fluent when using CSharpFunctionalExtensions! Wow!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "seangwright/typescript-functional-extensions",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/typescript-functional-extensions.png)](https://nodei.co/npm/typescript-functional-extensions/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "seangwright/typescript-functional-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

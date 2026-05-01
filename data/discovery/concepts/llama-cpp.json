@@ -67,6 +67,30 @@
       "source_repo": "mdrokz/rust-llama.cpp",
       "status": "candidate-context",
       "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "Distribute and run LLMs with a single file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek, Ollama, Mistral and OpenAI models remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "mdrokz/rust-llama.cpp",
       "status": "candidate",
       "text": "[![Docs](https://docs.rs/llama_cpp_rs/badge.svg)](https://docs.rs/llama_cpp_rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate",
+      "text": "<img src=\"docs/images/llamafile-640x640.png\" width=\"320\" height=\"320\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdrokz/rust-llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maid"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

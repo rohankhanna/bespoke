@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:42:44.538453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "More advanced Taichi examples ",
+    "fork": false,
+    "full_name": "taichi-dev/advanced_examples",
+    "html_url": "https://github.com/taichi-dev/advanced_examples",
+    "language": "Python",
+    "pushed_at": "2021-06-16T12:59:48Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-01-02T06:32:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

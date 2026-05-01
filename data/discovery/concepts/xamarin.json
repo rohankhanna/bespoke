@@ -43,6 +43,18 @@
       "source_repo": "PrismLibrary/Prism-Samples-Forms",
       "status": "candidate-context",
       "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "status": "candidate-context",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "status": "candidate-context",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "PrismLibrary/Prism-Samples-Forms",
       "status": "candidate",
       "text": "Samples that demonstrate how to use various Prism features with Xamarin.Forms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "status": "candidate",
+      "text": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "PrismLibrary/Prism-Samples-Forms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

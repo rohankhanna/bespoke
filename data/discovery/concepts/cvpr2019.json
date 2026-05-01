@@ -79,6 +79,18 @@
       "source_repo": "hassony2/obman_train",
       "status": "candidate-context",
       "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate-context",
+      "text": "D2-Net: A Trainable CNN for Joint Description and Detection of Local Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation of the following paper:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "hassony2/obman_train",
       "status": "candidate",
       "text": "Yana Hasson, G\u00fcl Varol, Dimitris Tzionas, Igor Kalevatykh, Michael J. Black, Ivan Laptev, Cordelia Schmid, CVPR 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate",
+      "text": "This repository contains the implementation of the following paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "hassony2/obman_train"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

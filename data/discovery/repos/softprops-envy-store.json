@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/envy-store",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/envy-store",
+      "target": "aws-parameter-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/envy-store",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/envy-store",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/envy-store",
+      "target": "configuration-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "softprops/envy-store",
+      "target": "secret-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:52:05.636491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3723
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfea deserialize AWS Parameter Store values into type safe structs",
+    "fork": false,
+    "full_name": "softprops/envy-store",
+    "html_url": "https://github.com/softprops/envy-store",
+    "language": "Rust",
+    "pushed_at": "2021-07-22T10:14:45Z",
+    "stargazers_count": 42,
+    "topics": [
+      "aws",
+      "aws-lambda",
+      "aws-parameter-store",
+      "config",
+      "configuration",
+      "configuration-management",
+      "secret-management"
+    ],
+    "updated_at": "2025-04-03T18:34:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-parameter-store"
+    },
+    {
+      "context_snippet": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-management"
+    },
+    {
+      "context_snippet": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret-management"
+    }
+  ]
+}

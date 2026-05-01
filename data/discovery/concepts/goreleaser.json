@@ -633,6 +633,30 @@
       "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amanbolat/zederr",
+      "status": "candidate-context",
+      "text": "Standardized errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amanbolat/zederr",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -939,6 +963,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "GoogleCloudPlatform/docker-credential-gcr",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amanbolat/zederr",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mostlygeek/llama-swap",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -1296,11 +1332,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "amanbolat/zederr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mostlygeek/llama-swap"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

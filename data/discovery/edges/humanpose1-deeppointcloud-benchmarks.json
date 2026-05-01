@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "chrischoy/fcgf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "jia-research-lab/pointgroup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "mit-han-lab/pvcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "nilsjpwerner/autodocstring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker_push.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "DockerPublish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_publish.yaml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "humanpose1/deeppointcloud-benchmarks",
+      "target": "unittest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "humanpose1/deeppointcloud-benchmarks"
+}

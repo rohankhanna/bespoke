@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-en",
+      "target": "getlantern/lantern-forum-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-en",
+      "target": "getlantern/lantern-forum-ukraine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-en",
+      "target": "getlantern/lantern-forum-fa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-en",
+      "target": "getlantern/lantern-forum-uae",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "getlantern/lantern-forum-en"
+}

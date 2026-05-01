@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003347,
+      "status": "candidate",
+      "text": "million instructions per second"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003345,
+      "status": "candidate",
+      "text": "powerpc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003344,
+      "status": "candidate",
+      "text": "i386"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003343,
+      "status": "candidate",
+      "text": "netbsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003342,
+      "status": "candidate",
+      "text": "armel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mips",
+      "sense_id": "mips#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "million instructions per second"
+    }
+  ],
+  "concept_id": "mips",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mips",
+  "observation_id": "cadad7df1df13a3f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "mips",
+  "source_context_snippet": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which",
+  "source_file": null,
+  "source_repo": "f32c/f32c",
+  "source_repo_description": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+}

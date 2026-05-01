@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update API"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logux/client",
+      "status": "candidate-context",
+      "text": "Logux base components to build web client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logux/client",
+      "status": "candidate-context",
+      "text": "Update API"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logux/client",
+      "status": "candidate",
+      "text": "Update API"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11108,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11108,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11108,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11015,
+      "status": "candidate",
+      "text": "cio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11015,
+      "status": "candidate",
+      "text": "film"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update API",
+  "concept_id": "update-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "logux/client"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update API",
+      "sense_id": "update-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

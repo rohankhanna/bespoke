@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-cn",
+      "target": "getlantern/lantern-forum-en",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-cn",
+      "target": "getlantern/lantern-forum-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-cn",
+      "target": "getlantern/lantern-forum-fa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getlantern/lantern-forum-cn",
+      "target": "getlantern/lantern-forum-uae",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:03.434597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lantern discussion forum for Chinese users",
+    "fork": false,
+    "full_name": "getlantern/lantern-forum-cn",
+    "html_url": "https://github.com/getlantern/lantern-forum-cn",
+    "language": null,
+    "pushed_at": "2025-12-24T15:48:17Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-10T23:03:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-en",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-fa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-ru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getlantern/lantern-forum-uae",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A copier template for creating the IDE config needed to debug the Python and Typescript code in any Jupyter project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jupyterlab",
+      "sense_id": "jupyterlab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jupyterlab",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jupyterlab",
+  "observation_id": "b3fa4331ecf2efcd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "jupyterlab",
+  "source_context_snippet": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating",
+  "source_file": null,
+  "source_repo": "jupyterlab/vscode-config-template",
+  "source_repo_description": "A copier template for creating the IDE config needed to debug the Python and Typescript code in any Jupyter project"
+}

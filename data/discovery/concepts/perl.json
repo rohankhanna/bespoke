@@ -43,6 +43,18 @@
       "source_repo": "bookingcom/perl-Net-Kafka",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate-context",
+      "text": "Perl container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Perl applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate-context",
+      "text": "Perl container images"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "bookingcom/perl-Net-Kafka",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/bookingcom/perl-Net-Kafka.svg?branch=master)](https://travis-ci.com/bookingcom/perl-Net-Kafka)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-perl-container",
+      "status": "candidate",
+      "text": "Perl container images"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "bookingcom/perl-Net-Kafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

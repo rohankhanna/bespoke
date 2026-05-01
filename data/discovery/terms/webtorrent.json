@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "webtorrent/ut_metadata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmotz/trystero"
     }
   ],
   "term": "webtorrent"

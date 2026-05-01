@@ -135,6 +135,18 @@
       "source_repo": "af-74413592/DeepWerewolf",
       "status": "candidate-context",
       "text": "PyPI Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "C++ and Python library for farm-ng logging format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "PyPI Release"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +213,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "af-74413592/DeepWerewolf",
+      "status": "candidate",
+      "text": "PyPI Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
       "status": "candidate",
       "text": "PyPI Release"
     }
@@ -324,11 +342,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/pypi-release.yml",
       "source_repo": "af-74413592/DeepWerewolf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "farm-ng/farm-ng-core"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

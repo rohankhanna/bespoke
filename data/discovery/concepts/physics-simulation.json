@@ -103,6 +103,18 @@
       "source_repo": "erizmr/SPH_Taichi",
       "status": "candidate-context",
       "text": "A high-performance implementation of Smooth Particle Hydrodynamics (SPH) simulator in [Taichi](https://github.com/taichi-dev/taichi). (working in progress)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhengyiLuo/PHC",
+      "status": "candidate-context",
+      "text": "Official Implementation of the ICCV 2023 paper:  Perpetual Humanoid Control for Real-time Simulated Avatars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhengyiLuo/PHC",
+      "status": "candidate-context",
+      "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "erizmr/SPH_Taichi",
       "status": "candidate",
       "text": "A high-performance implementation of Smooth Particle Hydrodynamics (SPH) simulator in [Taichi](https://github.com/taichi-dev/taichi). (working in progress)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhengyiLuo/PHC",
+      "status": "candidate",
+      "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "erizmr/SPH_Taichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "simonfuhrmann/mve",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "simonfuhrmann/mve",
+      "target": "MVE GitHub Actions CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve",
+      "target": "image-based-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve",
+      "target": "multi-view-stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve",
+      "target": "surface-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:55.698284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3059
+    },
+    {
+      "path": "Dockerfile",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Multi-View Environment: End-to-end image-based reconstruction (SfM, MVS, surface reconstruction)",
+    "fork": false,
+    "full_name": "simonfuhrmann/mve",
+    "html_url": "https://github.com/simonfuhrmann/mve",
+    "language": "C++",
+    "pushed_at": "2025-11-03T22:29:02Z",
+    "stargazers_count": 1054,
+    "topics": [
+      "image-based-reconstruction",
+      "multi-view-stereo",
+      "mvs",
+      "sfm",
+      "structure-from-motion",
+      "surface-reconstruction"
+    ],
+    "updated_at": "2026-04-17T14:28:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MVE GitHub Actions CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "MVE GitHub Actions CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-based-reconstruction"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-stereo"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surface-reconstruction"
+    }
+  ]
+}

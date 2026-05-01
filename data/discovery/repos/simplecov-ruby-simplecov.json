@@ -1,0 +1,407 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "rubygems/release-gem@6317d8d1f7e28c24d28f6eff169ea854948bd9f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stable.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unstable.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unstable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "simplecov-ruby/simplecov-html",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "test-unit/test-unit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "codeclimate-community/simplecov_json_formatter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "danmayer/coverband",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "ruby/setup-ruby@4c56a21280b36d862b5fc31348f463d60bdc55d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "rubygems/release-gem@6317d8d1f7e28c24d28f6eff169ea854948bd9f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "Push Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "typecheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unstable.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unstable.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unstable.yml",
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "unstable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "coverage-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "coverage-report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simplecov-ruby/simplecov",
+      "target": "test-coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:37:22.898837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36601
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 273
+    },
+    {
+      "path": ".github/workflows/push_gem.yml",
+      "size": 876
+    },
+    {
+      "path": ".github/workflows/stable.yml",
+      "size": 1201
+    },
+    {
+      "path": ".github/workflows/typecheck.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/unstable.yml",
+      "size": 1048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites",
+    "fork": false,
+    "full_name": "simplecov-ruby/simplecov",
+    "html_url": "https://github.com/simplecov-ruby/simplecov",
+    "language": "Ruby",
+    "pushed_at": "2026-04-28T14:37:14Z",
+    "stargazers_count": 4886,
+    "topics": [
+      "code-quality",
+      "coverage",
+      "coverage-library",
+      "coverage-report",
+      "rails",
+      "ruby",
+      "test-coverage"
+    ],
+    "updated_at": "2026-04-29T23:14:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codeclimate-community/simplecov_json_formatter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danmayer/coverband",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simplecov-ruby/simplecov-html",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "test-unit/test-unit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "Push Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_gem.yml",
+      "term": "Push Gem"
+    },
+    {
+      "context_snippet": "stable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stable.yml",
+      "term": "stable"
+    },
+    {
+      "context_snippet": "typecheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typecheck.yml",
+      "term": "typecheck"
+    },
+    {
+      "context_snippet": "unstable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unstable.yml",
+      "term": "unstable"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage-library"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage-report"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "SimpleCov [![Gem Version](https://badge.fury.io/rb/simplecov.svg)](https://badge.fury.io/rb/simplecov) [![Build Status](https://github.com/simplecov-ruby/simplecov/workflows/stable/badge.svg?branch=main)][Continuous Integration] [![Maintainability](https://api.codeclimate.com/v1\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-coverage"
+    }
+  ]
+}

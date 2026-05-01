@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-mongodb"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": " \ud83d\ude80 Ready-to-run Prisma example projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": "test-mongodb"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate",
+      "text": "test-mongodb"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-mongodb",
+  "concept_id": "test-mongodb",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-mongodb.yaml",
+      "source_repo": "prisma/prisma-examples"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-mongodb",
+      "sense_id": "test-mongodb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

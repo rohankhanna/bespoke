@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Ingestion Client Binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "status": "candidate-context",
+      "text": "Sample code for the Microsoft Cognitive Services Speech SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "status": "candidate-context",
+      "text": "Build Ingestion Client Binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "status": "candidate",
+      "text": "Build Ingestion Client Binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21495,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21495,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17501,
+      "status": "candidate",
+      "text": "bodybuilder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17372,
+      "status": "candidate",
+      "text": "baler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17372,
+      "status": "candidate",
+      "text": "muster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Ingestion Client Binaries",
+  "concept_id": "build-ingestion-client-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Ingestion Client Binaries",
+      "sense_id": "build-ingestion-client-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

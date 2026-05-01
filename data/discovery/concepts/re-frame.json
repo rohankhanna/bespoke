@@ -91,6 +91,18 @@
       "source_repo": "baskeboler/cljs-karaoke-client",
       "status": "candidate-context",
       "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "A Clojure library helping the integration of Keycloak with a Clojure Application + a sample SPA Client and API Server demonstrating the Keycloak integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate-context",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "baskeboler/cljs-karaoke-client",
       "status": "candidate",
       "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgrodziski/keycloak-clojure",
+      "status": "candidate",
+      "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "day8/re-frame-10x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jgrodziski/keycloak-clojure"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

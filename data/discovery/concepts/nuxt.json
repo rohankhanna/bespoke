@@ -127,6 +127,36 @@
       "source_repo": "anolilab/unplugin-favicons",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate-context",
+      "text": "\ud83c\udf09 Experience Nuxt 3 features on existing Nuxt 2 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate-context",
+      "text": "> Reduce the differences with Nuxt 3 and reduce the burden of migration to Nuxt 3."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Access thousands of icons as components on-demand universally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
+      "status": "candidate-context",
+      "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +219,24 @@
       "source_repo": "anolilab/unplugin-favicons",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate",
+      "text": "> Reduce the differences with Nuxt 3 and reduce the burden of migration to Nuxt 3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
+      "status": "candidate",
+      "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +316,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "pocojang/nuxt-realworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nuxt-modules/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pocojang/nuxt-realworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gurvancampion/nuxt-electron-trpc-prisma"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

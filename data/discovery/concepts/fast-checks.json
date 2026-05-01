@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Fast checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate-context",
+      "text": "Ledger device apps emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate-context",
+      "text": "Fast checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate-context",
+      "text": "Small wrapper around Speculos, LedgerWallet & LedgerComm to ease instrumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate-context",
+      "text": "Fast checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/speculos",
+      "status": "candidate",
+      "text": "Fast checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate",
+      "text": "Fast checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12114,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12114,
+      "status": "candidate",
+      "text": "sticks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12114,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12114,
+      "status": "candidate",
+      "text": "stops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11772,
+      "status": "candidate",
+      "text": "book"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fast checks",
+  "concept_id": "fast-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/speculos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/ragger"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fast checks",
+      "sense_id": "fast-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

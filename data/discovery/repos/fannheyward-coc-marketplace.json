@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "coc.nvim",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fannheyward/coc-marketplace",
+      "target": "coc.nvim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fannheyward/coc-marketplace",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fannheyward/coc-marketplace",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fannheyward/coc-marketplace",
+      "target": "coc-nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:00:37.430085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 905
+    },
+    {
+      "path": "package.json",
+      "size": 977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "coc.nvim extensions marketplace",
+    "fork": false,
+    "full_name": "fannheyward/coc-marketplace",
+    "html_url": "https://github.com/fannheyward/coc-marketplace",
+    "language": "TypeScript",
+    "pushed_at": "2025-02-10T23:27:12Z",
+    "stargazers_count": 351,
+    "topics": [
+      "coc",
+      "coc-nvim"
+    ],
+    "updated_at": "2026-04-18T04:36:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[coc.nvim][1] extensions marketplace.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coc-nvim"
+    }
+  ]
+}

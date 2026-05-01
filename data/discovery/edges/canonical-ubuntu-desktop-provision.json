@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "canonical/ubuntu-desktop-provision-screenshots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automatic-doc-checks.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "canonical/documentation-workflows/.github/workflows/documentation-checks.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/automatic-doc-checks.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "Main Documentation Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-snap-label.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "Check snap label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "asdf-vm/actions/install@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "bluefireteam/melos-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "canonical/desktop-engineering/gh-actions/common/dpkg-install-speedup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "canonical/desktop-engineering/gh-actions/go/code-sanity@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "tiobe/tics-github-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osv.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@f8115f2f28022984d4e8070d2f0f85abcf6f3458",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osv.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@f8115f2f28022984d4e8070d2f0f85abcf6f3458",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osv.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "OSV-Scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-release.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snap-release.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snap-release.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "target": "Release Snaps",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "canonical/ubuntu-desktop-provision"
+}

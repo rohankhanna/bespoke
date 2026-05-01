@@ -19,6 +19,18 @@
       "source_repo": "kowainik/relude",
       "status": "candidate-context",
       "text": "![Logo](https://user-images.githubusercontent.com/8126674/67678250-9d8eab80-f99f-11e9-96ca-27883ceeefa6.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protolude/protolude",
+      "status": "candidate-context",
+      "text": "A sensible starting Prelude template."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protolude/protolude",
+      "status": "candidate-context",
+      "text": "Protolude"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kowainik/relude",
       "status": "candidate",
       "text": "![Logo](https://user-images.githubusercontent.com/8126674/67678250-9d8eab80-f99f-11e9-96ca-27883ceeefa6.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protolude/protolude",
+      "status": "candidate",
+      "text": "Protolude"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kowainik/relude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "protolude/protolude"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

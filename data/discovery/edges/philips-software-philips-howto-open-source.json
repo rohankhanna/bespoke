@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philips-software/philips-howto-open-source",
+      "target": "guidelines",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "philips-software/philips-howto-open-source"
+}

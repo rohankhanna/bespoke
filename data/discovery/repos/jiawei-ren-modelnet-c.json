@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "ldkong1205/pointcloud-c",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "cvmi-lab/paconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "dogyoonlee/rsmix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "mlvlab/pointwolf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "3dvision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiawei-ren/ModelNet-C",
+      "target": "robustness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:02:21.325729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4961
+    },
+    {
+      "path": "requirements.txt",
+      "size": 345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2022] Benchmarking and Analyzing Point Cloud Classification under Corruptions https://arxiv.org/abs/2202.03377",
+    "fork": false,
+    "full_name": "jiawei-ren/ModelNet-C",
+    "html_url": "https://github.com/jiawei-ren/ModelNet-C",
+    "language": "Python",
+    "pushed_at": "2024-06-11T10:13:54Z",
+    "stargazers_count": 63,
+    "topics": [
+      "3dvision",
+      "point-cloud",
+      "robustness"
+    ],
+    "updated_at": "2025-12-09T02:51:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvmi-lab/paconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dogyoonlee/rsmix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldkong1205/pointcloud-c",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlvlab/pointwolf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dvision"
+    },
+    {
+      "context_snippet": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robustness"
+    }
+  ]
+}

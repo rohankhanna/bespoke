@@ -46,13 +46,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jxddk/prettier-plugin-nginx",
-      "target": "openresty/lua-nginx-module",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jxddk/prettier-plugin-nginx",
       "target": "joedeandev/prettier-plugin-nginx",
       "target_type": "repository"
     },
@@ -134,7 +127,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:13:29.271673+00:00",
+  "fetched_at": "2026-05-01T14:47:08.254167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -171,11 +164,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "joedeandev/prettier-plugin-nginx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openresty/lua-nginx-module",
       "source_file": "README.md"
     },
     {

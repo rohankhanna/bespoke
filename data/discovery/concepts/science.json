@@ -103,6 +103,18 @@
       "source_repo": "opensim-org/opensim-core",
       "status": "candidate-context",
       "text": "<!-- OpenSim Logo -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate-context",
+      "text": "MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate-context",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "opensim-org/opensim-core",
       "status": "candidate",
       "text": "<!-- OpenSim Logo -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
     }
   ],
   "candidate_related_terms": [
@@ -266,11 +284,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "opensim-org/opensim-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

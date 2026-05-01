@@ -1,0 +1,12 @@
+{
+  "component": "humbletim/setup-vulkan-sdk@v1.2.0",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2"
+    }
+  ]
+}

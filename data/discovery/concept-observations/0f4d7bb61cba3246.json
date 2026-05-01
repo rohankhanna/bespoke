@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mixed-precision",
+      "sense_id": "mixed-precision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mixed-precision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mixed-precision",
+  "observation_id": "0f4d7bb61cba3246",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "mixed-precision",
+  "source_context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+  "source_file": null,
+  "source_repo": "Zhen-Dong/BitPack",
+  "source_repo_description": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models."
+}

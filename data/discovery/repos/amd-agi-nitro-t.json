@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AMD-AGI/Nitro-T",
-      "target": "sonyresearch/micro_diffusion",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-05-01T10:34:01.276329+00:00",
+  "edges": [],
+  "fetched_at": "2026-05-01T15:10:30.446639+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -34,12 +26,6 @@
     "topics": [],
     "updated_at": "2026-04-28T15:08:32Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sonyresearch/micro_diffusion",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

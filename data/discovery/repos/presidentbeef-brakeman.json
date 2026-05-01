@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "guard/guard-brakeman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman",
+      "target": "docker-hub-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "brakeman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "security-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "security-vulnerability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:42:08.269685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6833
+    },
+    {
+      "path": "Dockerfile",
+      "size": 627
+    },
+    {
+      "path": ".github/workflows/docker-hub-push.yml",
+      "size": 833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A static analysis security vulnerability scanner for Ruby on Rails applications",
+    "fork": false,
+    "full_name": "presidentbeef/brakeman",
+    "html_url": "https://github.com/presidentbeef/brakeman",
+    "language": "Ruby",
+    "pushed_at": "2026-04-24T17:25:44Z",
+    "stargazers_count": 7228,
+    "topics": [
+      "brakeman",
+      "rails",
+      "ruby",
+      "security",
+      "security-audit",
+      "security-tools",
+      "security-vulnerability",
+      "static-analysis",
+      "vulnerabilities"
+    ],
+    "updated_at": "2026-05-01T00:04:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guard/guard-brakeman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker-hub-push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "term": "docker-hub-push"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brakeman"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-audit"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-vulnerability"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    }
+  ]
+}

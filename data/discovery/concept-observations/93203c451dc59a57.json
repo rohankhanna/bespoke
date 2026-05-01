@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository contains the SpeechBrain Benchmarks "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SpeechBrain pre-commit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SpeechBrain pre-commit"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SpeechBrain pre-commit",
+      "sense_id": "speechbrain-pre-commit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "speechbrain-pre-commit",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speechbrain-pre-commit",
+  "observation_id": "93203c451dc59a57",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "SpeechBrain pre-commit",
+  "source_context_snippet": "SpeechBrain pre-commit",
+  "source_file": ".github/workflows/pre-commit.yml",
+  "source_repo": "speechbrain/benchmarks",
+  "source_repo_description": "This repository contains the SpeechBrain Benchmarks "
+}

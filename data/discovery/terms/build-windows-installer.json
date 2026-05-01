@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/windows_installer.yml",
       "source_repo": "danielgatis/rembg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/inno_setup",
+      "source_repo": "assimp/assimp"
     }
   ],
   "term": "Build Windows Installer"

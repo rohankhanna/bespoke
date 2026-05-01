@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "azure/CLI@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "microsoft/security-devops-action@preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "Validate bicep scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "Azure/setup-azd@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure-dev.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "Deploy to Azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-check.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-check.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local"
+}

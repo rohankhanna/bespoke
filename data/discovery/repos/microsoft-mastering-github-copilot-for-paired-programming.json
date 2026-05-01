@@ -1,0 +1,324 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "microsoft/mastering-github-copilot-for-peer-programming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github-copilot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github-copilot-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github-copilot-for-azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github-copilot-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "github-copilot-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "labs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "tutorial-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "tutorial-exercises",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:26.484090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11765
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource.",
+    "fork": false,
+    "full_name": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+    "html_url": "https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+    "language": "Python",
+    "pushed_at": "2026-04-08T18:40:59Z",
+    "stargazers_count": 7847,
+    "topics": [
+      "copilot",
+      "csharp",
+      "dotnet",
+      "github",
+      "github-copilot",
+      "github-copilot-chat",
+      "github-copilot-for-azure",
+      "github-copilot-free",
+      "github-copilot-training",
+      "javascript",
+      "lab",
+      "labs",
+      "microsoft",
+      "python",
+      "sql",
+      "tutorial",
+      "tutorial-code",
+      "tutorial-exercises",
+      "visual-studio-code",
+      "vscode"
+    ],
+    "updated_at": "2026-05-01T14:43:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mastering-github-copilot-for-peer-programming",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-chat"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-for-azure"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-free"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-copilot-training"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labs"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial-code"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial-exercises"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    },
+    {
+      "context_snippet": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "cadindustries/container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "unitycontainer/container",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "dependency-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "target": "registration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:29.473194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A package that provides registrations and resolves of services and other shite in the fast and lightweight container.",
+    "fork": false,
+    "full_name": "CrackAndDie/Abdrakov.Container",
+    "html_url": "https://github.com/CrackAndDie/Abdrakov.Container",
+    "language": "C#",
+    "pushed_at": "2024-01-18T10:57:08Z",
+    "stargazers_count": 0,
+    "topics": [
+      "containers",
+      "dependency-injection",
+      "fast",
+      "lightweight",
+      "prism",
+      "registration"
+    ],
+    "updated_at": "2024-02-17T07:23:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cadindustries/container",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitycontainer/container",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-injection"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registration"
+    }
+  ]
+}

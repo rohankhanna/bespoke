@@ -112,20 +112,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "quickwit-oss/tantivy",
-      "target": "rustmailer/bichon",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "quickwit-oss/tantivy",
-      "target": "fulmicoton-dd/datasketches-rust",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "quickwit-oss/tantivy",
@@ -273,7 +259,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:13:55.830941+00:00",
+  "fetched_at": "2026-05-01T14:47:34.627155+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -327,16 +313,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "lindera-morphology/lindera-tantivy",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rustmailer/bichon",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fulmicoton-dd/datasketches-rust",
-      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

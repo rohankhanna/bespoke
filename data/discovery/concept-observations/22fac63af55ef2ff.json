@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udea6 The official router for Vue 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20051174,
+      "status": "candidate",
+      "text": "routing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014248,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974174,
+      "status": "candidate",
+      "text": "route"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19962726,
+      "status": "candidate",
+      "text": "adapter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948036,
+      "status": "candidate",
+      "text": "hub"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "router",
+      "sense_id": "router#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "router",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "router",
+  "observation_id": "22fac63af55ef2ff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "router",
+  "source_context_snippet": "> This is vue-router 3.0 which works only with Vue 2.0. and both have reached end of life.",
+  "source_file": null,
+  "source_repo": "vuejs/vue-router",
+  "source_repo_description": "\ud83d\udea6 The official router for Vue 2"
+}

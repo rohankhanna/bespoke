@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:39:13.114172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 2669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small, portable implementation of the C11 threads API",
+    "fork": false,
+    "full_name": "tinycthread/tinycthread",
+    "html_url": "https://github.com/tinycthread/tinycthread",
+    "language": "C",
+    "pushed_at": "2023-12-30T20:21:41Z",
+    "stargazers_count": 1031,
+    "topics": [],
+    "updated_at": "2026-04-30T22:34:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

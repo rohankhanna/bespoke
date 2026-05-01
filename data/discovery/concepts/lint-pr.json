@@ -297,6 +297,18 @@
       "source_repo": "spring-ai-alibaba/DataAgent",
       "status": "candidate-context",
       "text": "\ud83e\udd14 Lint PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/rattler",
+      "status": "candidate-context",
+      "text": "Rust crates to work with the Conda ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/rattler",
+      "status": "candidate-context",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_glosses": [
@@ -443,6 +455,12 @@
       "source_repo": "spring-ai-alibaba/DataAgent",
       "status": "candidate",
       "text": "\ud83e\udd14 Lint PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/rattler",
+      "status": "candidate",
+      "text": "\"Lint PR\""
     }
   ],
   "candidate_related_terms": [
@@ -666,11 +684,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/lint-pr-title.yml",
       "source_repo": "spring-ai-alibaba/DataAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/lint-pr.yml",
+      "source_repo": "conda/rattler"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

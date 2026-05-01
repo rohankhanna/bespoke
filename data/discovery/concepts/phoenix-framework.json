@@ -127,6 +127,18 @@
       "source_repo": "brainlid/langchain_demo",
       "status": "candidate-context",
       "text": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erlef/website",
+      "status": "candidate-context",
+      "text": "Erlang Ecosystem Foundation Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/website",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/erlef/website/workflows/test/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "brainlid/langchain_demo",
       "status": "candidate",
       "text": "This project is a demonstration example using the [Elixir LangChain](https://github.com/brainlid/langchain) library and [Phoenix LiveView](https://www.phoenixframework.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/website",
+      "status": "candidate",
+      "text": "![CI](https://github.com/erlef/website/workflows/test/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +352,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "erlef/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

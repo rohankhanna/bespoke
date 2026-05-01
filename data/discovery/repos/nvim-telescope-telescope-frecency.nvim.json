@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mrcjkb/lua-typecheck-action@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lunarmodules/luacheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "kyazdani42/nvim-web-devicons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "mrcjkb/lua-typecheck-action@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "lunarmodules/luacheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-telescope/telescope-frecency.nvim",
+      "target": "telescope-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:01:39.512249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4738
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A telescope.nvim extension that offers intelligent prioritization when selecting files from your editing history.",
+    "fork": false,
+    "full_name": "nvim-telescope/telescope-frecency.nvim",
+    "html_url": "https://github.com/nvim-telescope/telescope-frecency.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-11-08T09:40:03Z",
+    "stargazers_count": 915,
+    "topics": [
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "telescope-extension"
+    ],
+    "updated_at": "2026-04-15T05:17:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-web-devicons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A [telescope.nvim][] extension that offers intelligent prioritization when",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A [telescope.nvim][] extension that offers intelligent prioritization when",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "A [telescope.nvim][] extension that offers intelligent prioritization when",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "A [telescope.nvim][] extension that offers intelligent prioritization when",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telescope-extension"
+    }
+  ]
+}

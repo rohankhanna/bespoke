@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Snaps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate-context",
+      "text": "Ubuntu Desktop Provision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate-context",
+      "text": "Release Snaps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate",
+      "text": "Release Snaps"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14827,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14827,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14341,
+      "status": "candidate",
+      "text": "undo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14100,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14100,
+      "status": "candidate",
+      "text": "click"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Snaps",
+  "concept_id": "release-snaps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/snap-release.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Snaps",
+      "sense_id": "release-snaps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,18 @@
       "source_repo": "autonomousvision/sdfstudio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate-context",
+      "text": "The Multi-View Environment: End-to-end image-based reconstruction (SfM, MVS, surface reconstruction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "autonomousvision/sdfstudio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/sdfstudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

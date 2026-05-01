@@ -394,6 +394,42 @@
       "source_repo": "apache/incubator-devlake",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "status": "candidate-context",
+      "text": "Deploy a detailed DevEx metrics dashboards, combining DORA and AI adoption to show ROI. gh-devlake is a GitHub CLI extension for deploying and configuring Apache DevLake which is the platform that aggregates all these metrics easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/research-contributions",
+      "status": "candidate-context",
+      "text": "Implementations of recent research prototypes/demonstrations using MONAI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/research-contributions",
+      "status": "candidate-context",
+      "text": "integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "formtastic/formtastic",
+      "status": "candidate-context",
+      "text": "A Rails form builder plugin with semantically rich and accessible markup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formtastic/formtastic",
+      "status": "candidate-context",
+      "text": "integration"
     }
   ],
   "candidate_glosses": [
@@ -588,6 +624,24 @@
       "source_repo": "apache/incubator-devlake",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/research-contributions",
+      "status": "candidate",
+      "text": "integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "formtastic/formtastic",
+      "status": "candidate",
+      "text": "integration"
     }
   ],
   "candidate_related_terms": [
@@ -935,11 +989,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "DevExpGbb/gh-devlake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Project-MONAI/research-contributions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "formtastic/formtastic"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

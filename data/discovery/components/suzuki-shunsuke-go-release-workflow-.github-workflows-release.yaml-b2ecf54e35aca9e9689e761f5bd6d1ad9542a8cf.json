@@ -1,0 +1,12 @@
+{
+  "component": "suzuki-shunsuke/go-release-workflow/.github/workflows/release.yaml@b2ecf54e35aca9e9689e761f5bd6d1ad9542a8cf",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn"
+    }
+  ]
+}

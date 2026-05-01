@@ -1535,6 +1535,66 @@
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webdriver-bidi",
+      "status": "candidate-context",
+      "text": "Bidirectional WebDriver protocol for browser automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webdriver-bidi",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate-context",
+      "text": "A neural network training interface based on PyTorch, with a focus on flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "status": "candidate-context",
+      "text": "A collection of ready-to-use Python sample agents built with AgentScope and AgentScope Runtime, covering use cases from CLI tools to full-stack applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate-context",
+      "text": "Install and run applications packaged with conda in isolated environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -2309,6 +2369,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webdriver-bidi",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-samples",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariusvniekerk/condax",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -3440,11 +3530,95 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "w3c/webdriver-bidi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "zhijian-liu/torchpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/agentscope-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "shapely/shapely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "mariusvniekerk/condax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -85,6 +85,48 @@
       "source_repo": "valtyr/prisma-kysely",
       "status": "candidate-context",
       "text": "![Prisma Kysely](assets/logo-hero.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": " \ud83d\ude80 Ready-to-run Prisma example projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/engines-wrapper",
+      "status": "candidate-context",
+      "text": "\ud83c\udf2f @prisma/engines-version npm package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/engines-wrapper",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
+      "status": "candidate-context",
+      "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notiz-dev/prisma-dbml-generator",
+      "status": "candidate-context",
+      "text": "Prisma DBML Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notiz-dev/prisma-dbml-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">prisma-dbml-generator</h1>"
     }
   ],
   "candidate_glosses": [
@@ -129,6 +171,30 @@
       "source_repo": "valtyr/prisma-kysely",
       "status": "candidate",
       "text": "![Prisma Kysely](assets/logo-hero.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/engines-wrapper",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
+      "status": "candidate",
+      "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notiz-dev/prisma-dbml-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">prisma-dbml-generator</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +280,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "valtyr/prisma-kysely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "prisma/engines-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gurvancampion/nuxt-electron-trpc-prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "notiz-dev/prisma-dbml-generator"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

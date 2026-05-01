@@ -211,6 +211,42 @@
       "source_repo": "pmndrs/react-three-fiber",
       "status": "candidate-context",
       "text": "react-three-fiber--root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oblador/react-native-animatable",
+      "status": "candidate-context",
+      "text": "Standard set of easy to use animations and declarative transitions for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-animatable",
+      "status": "candidate-context",
+      "text": "Declarative transitions and animations for React Native"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate-context",
+      "text": "Building modern, elegant and fast Swing applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate-context",
+      "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "status": "candidate-context",
+      "text": "An addon for Blender enabling just-in-time loading and animation of mesh and particle/ point-cloud sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "status": "candidate-context",
+      "text": "![](images/logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "pmndrs/react-three-fiber",
       "status": "candidate",
       "text": "react-three-fiber--root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oblador/react-native-animatable",
+      "status": "candidate",
+      "text": "Declarative transitions and animations for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "status": "candidate",
+      "text": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
+      "status": "candidate",
+      "text": "![](images/logo.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -496,11 +550,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "pmndrs/react-three-fiber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "oblador/react-native-animatable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/blender-sequence-loader"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

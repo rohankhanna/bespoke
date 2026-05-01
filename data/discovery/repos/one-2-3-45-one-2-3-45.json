@@ -1,0 +1,158 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "dustinpro/dustinpro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "sudo-ai-3d/zero123plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "3d-shape-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "generalizable-nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "mesh-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "multi-view-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "target": "nerf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:40.295200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8742
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2023] Official code of \"One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization\"",
+    "fork": false,
+    "full_name": "One-2-3-45/One-2-3-45",
+    "html_url": "https://github.com/One-2-3-45/One-2-3-45",
+    "language": "Python",
+    "pushed_at": "2024-04-20T23:15:25Z",
+    "stargazers_count": 1720,
+    "topics": [
+      "3d",
+      "3d-generation",
+      "3d-shape-generation",
+      "aigc",
+      "generalizable-nerf",
+      "mesh-generation",
+      "multi-view-reconstruction",
+      "nerf"
+    ],
+    "updated_at": "2026-04-30T11:57:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dustinpro/dustinpro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sudo-ai-3d/zero123plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-shape-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalizable-nerf"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    }
+  ]
+}

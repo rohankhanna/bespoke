@@ -47,6 +47,18 @@
       "source_repo": "electron-userland/electron-builder",
       "status": "candidate-context",
       "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "Helm Plugin - Install Helm Charts straight from Git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "auto-update"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +79,12 @@
       "source_repo": "electron-userland/electron-builder",
       "status": "candidate",
       "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate",
+      "text": "auto-update"
     }
   ],
   "candidate_related_terms": [
@@ -176,11 +194,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/auto-update.yml",
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "aslafy-z/helm-git"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

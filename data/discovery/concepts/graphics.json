@@ -487,6 +487,54 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate-context",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "Crafty statistical graphics for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries, and tests for Vulkan shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries and tests for shader compilation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyMesh/PyMesh",
+      "status": "candidate-context",
+      "text": "Geometry Processing Library for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyMesh/PyMesh",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "10 differentiable physical simulators built with Taichi differentiable programming (DiffTaichi, ICLR 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +777,30 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate",
+      "text": "A collection of tools, libraries and tests for shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyMesh/PyMesh",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1040,11 +1112,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GiovineItalia/Gadfly.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

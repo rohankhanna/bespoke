@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "adafruit/adafruit_sensor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "adafruit/adafruit_pm25aqi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:47.264834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2753
+    },
+    {
+      "path": ".github/workflows/githubci.yml",
+      "size": 751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Arduino Library for BME280 sensors",
+    "fork": false,
+    "full_name": "adafruit/Adafruit_BME280_Library",
+    "html_url": "https://github.com/adafruit/Adafruit_BME280_Library",
+    "language": "C++",
+    "pushed_at": "2025-04-30T13:36:05Z",
+    "stargazers_count": 387,
+    "topics": [
+      "arduino-library"
+    ],
+    "updated_at": "2026-04-27T20:20:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adafruit/adafruit_pm25aqi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adafruit/adafruit_sensor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Arduino Library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "term": "Arduino Library CI"
+    },
+    {
+      "context_snippet": "<a href=\"http://www.adafruit.com/products/2652\"><img src=\"./assets/board.jpg\" width=\"500\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arduino-library"
+    }
+  ]
+}

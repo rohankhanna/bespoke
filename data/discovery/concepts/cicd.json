@@ -262,6 +262,30 @@
       "source_repo": "jenkinsci/jenkins",
       "status": "candidate-context",
       "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "Safety checks Python dependencies for known security vulnerabilities and suggests the proper remediations for vulnerabilities detected."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate-context",
+      "text": "[![safety](https://cdn.safetycli.com/images/cli_readme_header.png)](https://docs.safetycli.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sethvargo/ratchet",
+      "status": "candidate-context",
+      "text": "A tool for securing CI/CD workflows with version pinning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sethvargo/ratchet",
+      "status": "candidate-context",
+      "text": "![ratchet logo](docs/ratchet.png)"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +414,18 @@
       "source_repo": "jenkinsci/jenkins",
       "status": "candidate",
       "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyupio/safety",
+      "status": "candidate",
+      "text": "[![safety](https://cdn.safetycli.com/images/cli_readme_header.png)](https://docs.safetycli.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sethvargo/ratchet",
+      "status": "candidate",
+      "text": "![ratchet logo](docs/ratchet.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -589,11 +625,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pyupio/safety"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sethvargo/ratchet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

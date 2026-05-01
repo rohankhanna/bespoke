@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "PrismLibrary/Prism-Samples-Wpf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary"
     }
   ],
   "term": "prism"

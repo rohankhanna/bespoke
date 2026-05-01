@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/awesome-taichi",
+      "target": "amesingflank/taichi.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/awesome-taichi",
+      "target": "amamiyarenn/taichicourses1hw1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/awesome-taichi",
+      "target": "0xrabbyte/voxel-challenge-2022",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/awesome-taichi",
+      "target": "0xzhang/bruce-lee-voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "taichi-dev/awesome-taichi"
+}

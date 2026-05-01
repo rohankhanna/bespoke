@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "convnext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "ct-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "medical-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "medical-image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "mednext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "mri-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MIC-DKFZ/MedNeXt",
+      "target": "unet-image-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:09.525814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[MICCAI 2023] MedNeXt is a fully ConvNeXt architecture for 3D medical image segmentation.",
+    "fork": false,
+    "full_name": "MIC-DKFZ/MedNeXt",
+    "html_url": "https://github.com/MIC-DKFZ/MedNeXt",
+    "language": "Python",
+    "pushed_at": "2024-11-02T14:50:19Z",
+    "stargazers_count": 504,
+    "topics": [
+      "convnext",
+      "ct-segmentation",
+      "medical-ai",
+      "medical-image-analysis",
+      "medical-image-segmentation",
+      "medical-imaging",
+      "mednext",
+      "mri-segmentation",
+      "transformers",
+      "unet-image-segmentation"
+    ],
+    "updated_at": "2026-04-30T04:03:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convnext"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ct-segmentation"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-ai"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-analysis"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mednext"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mri-segmentation"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "Copyright \u00a9 German Cancer Research Center (DKFZ), [Division of Medical Image Computing (MIC)](https://www.dkfz.de/en/mic/index.php). Please make sure that your usage of this code is in compliance with the [code license](https://github.com/MIC-DKFZ/MedNeXt/blob/main/LICENSE).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unet-image-segmentation"
+    }
+  ]
+}

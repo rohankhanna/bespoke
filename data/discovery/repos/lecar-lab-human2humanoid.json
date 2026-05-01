@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "dmbots/dm-j4310-2ec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "jeff-sjtu/hybrik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "toruowo/hato",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "zhengyiluo/smplsim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:01.373079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25310
+    },
+    {
+      "path": "requirements.txt",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IROS 2024] Learning Human-to-Humanoid Real-Time Whole-Body Teleoperation.                    [CoRL 2024] OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning",
+    "fork": false,
+    "full_name": "LeCAR-Lab/human2humanoid",
+    "html_url": "https://github.com/LeCAR-Lab/human2humanoid",
+    "language": "Python",
+    "pushed_at": "2025-02-21T06:58:48Z",
+    "stargazers_count": 992,
+    "topics": [],
+    "updated_at": "2026-04-28T11:32:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmbots/dm-j4310-2ec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeff-sjtu/hybrik",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "toruowo/hato",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengyiluo/smplsim",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

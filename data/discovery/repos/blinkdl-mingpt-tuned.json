@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/minGPT-tuned",
+      "target": "karpathy/char-rnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/minGPT-tuned",
+      "target": "openai/gpt-3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:07.249396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A *tuned* minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training",
+    "fork": true,
+    "full_name": "BlinkDL/minGPT-tuned",
+    "html_url": "https://github.com/BlinkDL/minGPT-tuned",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-08-09T06:42:13Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-01-21T17:00:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/char-rnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gpt-3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

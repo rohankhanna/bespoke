@@ -1,0 +1,109 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "wdas/ptex",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wdas/ptex",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wdas/ptex",
+      "target": "rendering-3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wdas/ptex",
+      "target": "texture-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wdas/ptex",
+      "target": "textures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:37:29.096755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2757
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Per-Face Texture Mapping for Production Rendering https://wdas.github.io/ptex",
+    "fork": false,
+    "full_name": "wdas/ptex",
+    "html_url": "https://github.com/wdas/ptex",
+    "language": "C",
+    "pushed_at": "2026-04-11T02:00:42Z",
+    "stargazers_count": 731,
+    "topics": [
+      "cpp",
+      "rendering",
+      "rendering-3d-graphics",
+      "texture-mapping",
+      "textures"
+    ],
+    "updated_at": "2026-04-26T15:42:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ptex is a texture mapping system developed by Walt Disney Animation Studios",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "Ptex is a texture mapping system developed by Walt Disney Animation Studios",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering-3d-graphics"
+    },
+    {
+      "context_snippet": "Ptex is a texture mapping system developed by Walt Disney Animation Studios",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture-mapping"
+    },
+    {
+      "context_snippet": "Ptex is a texture mapping system developed by Walt Disney Animation Studios",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textures"
+    }
+  ]
+}

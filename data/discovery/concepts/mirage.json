@@ -34,6 +34,18 @@
       "source_repo": "ocaml/dune",
       "status": "candidate-context",
       "text": "Mirage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayu-theme/vscode-ayu",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8\ud83d\udd8c Modern, bright color theme for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayu-theme/vscode-ayu",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "ocaml/dune",
       "status": "candidate",
       "text": "Mirage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayu-theme/vscode-ayu",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/mirage.yml",
       "source_repo": "ocaml/dune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ayu-theme/vscode-ayu"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

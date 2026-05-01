@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Summary of publicly available ressources such as code, datasets, and scientific papers for the FLAME 3D head model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "facial-expression",
+      "sense_id": "facial-expression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "facial-expression",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "facial-expression",
+  "observation_id": "fe0a3f168572c2e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "facial-expression",
+  "source_context_snippet": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>",
+  "source_file": null,
+  "source_repo": "TimoBolkart/FLAME-Universe",
+  "source_repo_description": "Summary of publicly available ressources such as code, datasets, and scientific papers for the FLAME 3D head model"
+}

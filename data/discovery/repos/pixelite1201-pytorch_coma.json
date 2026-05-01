@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:11:17.041736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2630
+    },
+    {
+      "path": "requirements.txt",
+      "size": 642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "pixelite1201/pytorch_coma",
+    "html_url": "https://github.com/pixelite1201/pytorch_coma",
+    "language": "Python",
+    "pushed_at": "2023-08-21T13:03:51Z",
+    "stargazers_count": 204,
+    "topics": [],
+    "updated_at": "2026-03-18T06:20:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

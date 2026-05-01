@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:48:12.145410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 651
+    },
+    {
+      "path": "go.mod",
+      "size": 266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provides packet processing capabilities for Go",
+    "fork": false,
+    "full_name": "google/gopacket",
+    "html_url": "https://github.com/google/gopacket",
+    "language": "Go",
+    "pushed_at": "2025-03-19T23:47:36Z",
+    "stargazers_count": 6775,
+    "topics": [],
+    "updated_at": "2026-04-27T06:37:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

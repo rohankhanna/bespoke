@@ -19,6 +19,18 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate-context",
       "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate-context",
+      "text": "MinImagen: A minimal implementation of the Imagen text-to-image model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
       "status": "candidate",
       "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

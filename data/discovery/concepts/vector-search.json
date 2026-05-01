@@ -337,6 +337,30 @@
       "source_repo": "qdrant/fastembed",
       "status": "candidate-context",
       "text": "FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate-context",
+      "text": "Weaviate vector database \u2013 examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate-context",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate-context",
+      "text": "Couchbase Lite for Dart and Flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/cbl-dart/cbl-dart/actions/workflows/ci.yaml/badge.svg)](https://github.com/cbl-dart/cbl-dart/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -507,6 +531,18 @@
       "source_repo": "qdrant/fastembed",
       "status": "candidate",
       "text": "FastEmbed is a lightweight, fast, Python library built for embedding generation. We [support popular text models](https://qdrant.github.io/fastembed/examples/Supported_Models/). Please [open a GitHub issue](https://github.com/qdrant/fastembed/issues/new) if you want us to add a \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbl-dart/cbl-dart",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/cbl-dart/cbl-dart/actions/workflows/ci.yaml/badge.svg)](https://github.com/cbl-dart/cbl-dart/actions/workflows/ci.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -778,11 +814,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cbl-dart/cbl-dart"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

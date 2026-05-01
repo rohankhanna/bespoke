@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MASILab/3DUX-Net",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:08.451653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4259
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MASILab/3DUX-Net",
+    "html_url": "https://github.com/MASILab/3DUX-Net",
+    "language": "Python",
+    "pushed_at": "2023-06-01T19:27:29Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-04-27T07:14:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

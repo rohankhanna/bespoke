@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jiro4989/setup-nim-action@v1.3.62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotag.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "butlerlogic/action-autotag@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotag.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "Check and update tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "actions/cache@v3.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "jiro4989/setup-nim-action@v1.3.62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "stisa/jupyternim",
+      "target": "Build jupyternim, check display.nim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim",
+      "target": "jupyter-kernel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim",
+      "target": "jupyter-kernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim",
+      "target": "nteract",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:29.033366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6912
+    },
+    {
+      "path": ".github/workflows/autotag.yml",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Jupyter kernel for nim",
+    "fork": false,
+    "full_name": "stisa/jupyternim",
+    "html_url": "https://github.com/stisa/jupyternim",
+    "language": "Nim",
+    "pushed_at": "2022-12-30T22:29:00Z",
+    "stargazers_count": 170,
+    "topics": [
+      "hacktoberfest",
+      "ipython",
+      "jupyter",
+      "jupyter-kernel",
+      "jupyter-kernels",
+      "nim",
+      "nteract"
+    ],
+    "updated_at": "2026-04-07T03:05:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check and update tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotag.yml",
+      "term": "Check and update tag"
+    },
+    {
+      "context_snippet": "Build jupyternim, check display.nim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build jupyternim, check display.nim"
+    },
+    {
+      "context_snippet": "![logo.svg](logo.svg) Jupyter Nim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![logo.svg](logo.svg) Jupyter Nim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "![logo.svg](logo.svg) Jupyter Nim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "![logo.svg](logo.svg) Jupyter Nim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-kernel"
+    },
+    {
+      "context_snippet": "![logo.svg](logo.svg) Jupyter Nim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-kernels"
+    },
+    {
+      "context_snippet": "![logo.svg](logo.svg) Jupyter Nim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nteract"
+    }
+  ]
+}

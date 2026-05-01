@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "yfeng95/DECA",
-      "target": "1adrianb/face-alignment",
+      "target": "cydonia999/vggface2-pytorch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "yfeng95/DECA",
-      "target": "cleardusk/3ddfa_v2",
+      "target": "havenfeng/trust",
       "target_type": "repository"
     },
     {
@@ -72,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:16:24.521994+00:00",
+  "fetched_at": "2026-05-01T15:11:22.659357+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -97,7 +97,7 @@
     "html_url": "https://github.com/yfeng95/DECA",
     "language": "Python",
     "pushed_at": "2023-07-23T11:15:26Z",
-    "stargazers_count": 2478,
+    "stargazers_count": 2482,
     "topics": [
       "3d",
       "alignment",
@@ -107,7 +107,7 @@
       "model",
       "reconstruction"
     ],
-    "updated_at": "2026-04-23T19:07:22Z"
+    "updated_at": "2026-04-30T01:31:13Z"
   },
   "repo_links": [
     {
@@ -117,17 +117,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "1adrianb/face-alignment",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "anhttran/extreme_3d_faces",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cleardusk/3ddfa_v2",
+      "full_name": "cydonia999/vggface2-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "havenfeng/trust",
       "source_file": "README.md"
     }
   ],

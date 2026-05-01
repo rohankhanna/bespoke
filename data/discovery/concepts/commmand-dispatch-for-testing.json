@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Commmand dispatch for testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/templates",
+      "status": "candidate-context",
+      "text": "Templates used by `pulumi new`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/templates",
+      "status": "candidate-context",
+      "text": "Commmand dispatch for testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/templates",
+      "status": "candidate",
+      "text": "Commmand dispatch for testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10700,
+      "status": "candidate",
+      "text": "assassinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10700,
+      "status": "candidate",
+      "text": "center"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10700,
+      "status": "candidate",
+      "text": "mission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10700,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10700,
+      "status": "candidate",
+      "text": "send"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Commmand dispatch for testing",
+  "concept_id": "commmand-dispatch-for-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/templates"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commmand dispatch for testing",
+      "sense_id": "commmand-dispatch-for-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

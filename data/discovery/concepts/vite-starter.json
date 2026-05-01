@@ -31,6 +31,30 @@
       "source_repo": "frandiox/vitesse-ssr-template",
       "status": "candidate-context",
       "text": "> Vue + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu-collective/vitesse",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated Vite + Vue Starter Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vitesse",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vitessedge-template",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated Vite Starter Template with SSR in Cloudflare Workers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitessedge-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "frandiox/vitesse-ssr-template",
       "status": "candidate",
       "text": "> Vue + Vite + SSR template based on [@antfu](https://github.com/antfu)'s [Vitesse](https://github.com/antfu/vitesse) with [`vite-ssr`](https://github.com/frandiox/vite-ssr)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vitesse",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitessedge-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "frandiox/vitesse-ssr-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vitessedge-template"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "shibing624/similarities",
       "status": "candidate-context",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate-context",
+      "text": "A Collection of BM25 Algorithms in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "shibing624/similarities",
       "status": "candidate",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "shibing624/similarities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dorianbrown/rank_bm25"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

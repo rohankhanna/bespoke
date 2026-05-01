@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/DIoU-pytorch-detectron",
+      "target": "generalized-iou/detectron.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zzh-tju/DIoU-pytorch-detectron",
+      "target": "roytseng-tw/detectron.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:09:57.639955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression (AAAI 2020)",
+    "fork": false,
+    "full_name": "Zzh-tju/DIoU-pytorch-detectron",
+    "html_url": "https://github.com/Zzh-tju/DIoU-pytorch-detectron",
+    "language": "Python",
+    "pushed_at": "2021-10-21T21:14:40Z",
+    "stargazers_count": 88,
+    "topics": [],
+    "updated_at": "2024-11-01T01:50:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "generalized-iou/detectron.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roytseng-tw/detectron.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

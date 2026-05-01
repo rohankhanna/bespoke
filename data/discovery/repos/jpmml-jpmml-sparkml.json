@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sparkml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sparkml",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-sparkml",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:58:51.694853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8457
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java library and command-line application for converting Apache Spark ML pipelines to PMML",
+    "fork": false,
+    "full_name": "jpmml/jpmml-sparkml",
+    "html_url": "https://github.com/jpmml/jpmml-sparkml",
+    "language": "Java",
+    "pushed_at": "2026-04-11T07:38:31Z",
+    "stargazers_count": 271,
+    "topics": [],
+    "updated_at": "2026-04-11T07:38:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "maven"
+    }
+  ]
+}

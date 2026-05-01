@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A neural network training interface based on PyTorch, with a focus on flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "f85d4ded0a7cfcb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility.",
+  "source_file": null,
+  "source_repo": "zhijian-liu/torchpack",
+  "source_repo_description": "A neural network training interface based on PyTorch, with a focus on flexibility"
+}

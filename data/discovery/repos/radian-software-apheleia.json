@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatters.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/apheleia",
+      "target": "python/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/apheleia",
+      "target": "proofit404/blacken",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/apheleia",
+      "target": "prettier/prettier-emacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/apheleia",
+      "target": "radian-software/contributor-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatters.yml",
+      "source_repo": "radian-software/apheleia",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatters.yml",
+      "source_repo": "radian-software/apheleia",
+      "target": "Changed formatters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "radian-software/apheleia",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "radian-software/apheleia",
+      "target": "Tests and linters",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:43:01.654519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15322
+    },
+    {
+      "path": "Dockerfile",
+      "size": 169
+    },
+    {
+      "path": ".github/workflows/formatters.yml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf37 Run code formatter on buffer contents without moving point, using RCS patches and dynamic programming.",
+    "fork": false,
+    "full_name": "radian-software/apheleia",
+    "html_url": "https://github.com/radian-software/apheleia",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-27T22:40:39Z",
+    "stargazers_count": 753,
+    "topics": [],
+    "updated_at": "2026-04-28T17:44:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prettier/prettier-emacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proofit404/blacken",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/black",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radian-software/contributor-guide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Changed formatters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatters.yml",
+      "term": "Changed formatters"
+    },
+    {
+      "context_snippet": "Tests and linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Tests and linters"
+    }
+  ]
+}

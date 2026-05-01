@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytrees + dataclasses \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![build](https://github.com/brentyi/jax_dataclasses/workflows/build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![build](https://github.com/brentyi/jax_dataclasses/workflows/build/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dataclasses",
+      "sense_id": "dataclasses#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dataclasses",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dataclasses",
+  "observation_id": "a5bca9d94812a9ce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "dataclasses",
+  "source_context_snippet": "![build](https://github.com/brentyi/jax_dataclasses/workflows/build/badge.svg)",
+  "source_file": null,
+  "source_repo": "brentyi/jax_dataclasses",
+  "source_repo_description": "Pytrees + dataclasses \u2764\ufe0f"
+}

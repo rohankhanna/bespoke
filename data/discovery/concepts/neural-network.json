@@ -703,6 +703,54 @@
       "source_repo": "google/nerfies",
       "status": "candidate-context",
       "text": "This is the code for Nerfies: Deformable Neural Radiance Fields."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "BertViz: Visualize Attention in Transformer Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "NIMA: Neural IMage Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "A lightweight library for PyTorch training tools and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "gensim \u2013 Topic Modelling in Python"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1101,30 @@
       "source_repo": "google/nerfies",
       "status": "candidate",
       "text": "This is the code for Nerfies: Deformable Neural Radiance Fields."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate",
+      "text": "gensim \u2013 Topic Modelling in Python"
     }
   ],
   "candidate_related_terms": [],
@@ -1498,11 +1570,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chelsea0x3b/dfdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jessevig/bertviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "truskovskiyk/nima.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -191,28 +191,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "mindworkai/ai-studio",
+      "target": "ngxson/wllama",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "mobile-artificial-intelligence/maid",
+      "target": "netdur/llama_cpp_dart",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "mostlygeek/llama-swap",
+      "target": "mozilla-ocho/llamafile",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "morganro8/lucys_labyrinth",
+      "target": "nat/openplayground",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:27:59.771989+00:00",
+  "fetched_at": "2026-05-01T15:03:31.581749+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,32 +485,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-01T05:49:56Z",
-    "stargazers_count": 107707,
+    "pushed_at": "2026-05-01T14:55:02Z",
+    "stargazers_count": 107753,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-01T10:25:29Z"
+    "updated_at": "2026-05-01T15:00:52Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mindworkai/ai-studio",
+      "full_name": "mozilla-ocho/llamafile",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mobile-artificial-intelligence/maid",
+      "full_name": "nat/openplayground",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "morganro8/lucys_labyrinth",
+      "full_name": "netdur/llama_cpp_dart",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mostlygeek/llama-swap",
+      "full_name": "ngxson/wllama",
       "source_file": "README.md"
     }
   ],

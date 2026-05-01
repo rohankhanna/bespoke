@@ -223,6 +223,42 @@
       "source_repo": "Phantom-video/Phantom",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D",
+      "status": "candidate-context",
+      "text": "(ICCV 2023) official repository for \"Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Official code of \"One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight] VBench - We Evaluate Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "Phantom-video/Phantom",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -520,11 +574,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/VBench"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -70,7 +70,7 @@
   "normalized_form": "macos-arm64",
   "observation_id": "eb5277c19452f73a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "macOS ARM64",
   "source_context_snippet": "macOS ARM64",
   "source_file": ".github/workflows/build_wheels_macos_m1.yml",

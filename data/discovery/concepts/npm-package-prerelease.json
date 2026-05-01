@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "npm Package Prerelease"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "Clean and minimalist React Native template for a quick start with Redux and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "npm Package Prerelease"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate",
+      "text": "npm Package Prerelease"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "screening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "assembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "cartridge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "npm Package Prerelease",
+  "concept_id": "npm-package-prerelease",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "npm Package Prerelease",
+      "sense_id": "npm-package-prerelease#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "s-weigand/setup-conda@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "red-data-tools/numpy.rb",
+      "target": "mrkn/pycall.rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "red-data-tools/numpy.rb",
+      "target": "mrkn/numpy.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/numpy.rb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/numpy.rb",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/numpy.rb",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/numpy.rb",
+      "target": "s-weigand/setup-conda@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:04:57.096020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1402
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Numpy wrapper for Ruby",
+    "fork": false,
+    "full_name": "red-data-tools/numpy.rb",
+    "html_url": "https://github.com/red-data-tools/numpy.rb",
+    "language": "Ruby",
+    "pushed_at": "2023-11-26T16:42:50Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2025-10-01T22:19:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkn/numpy.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkn/pycall.rb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

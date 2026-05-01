@@ -167,6 +167,18 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate-context",
       "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate-context",
+      "text": "Buildkite configuration files for Base Julia CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate-context",
+      "text": "ShellCheck"
     }
   ],
   "candidate_glosses": [
@@ -247,6 +259,12 @@
       "source_repo": "hadolint/hadolint",
       "status": "candidate",
       "text": "[![GPL-3 licensed][license-img]][license]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate",
+      "text": "ShellCheck"
     }
   ],
   "candidate_related_terms": [],
@@ -332,11 +350,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "hadolint/hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "JuliaCI/julia-buildkite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

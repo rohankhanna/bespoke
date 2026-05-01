@@ -67,6 +67,18 @@
       "source_repo": "electron-userland/electron-builder",
       "status": "candidate-context",
       "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/wpf",
+      "status": "candidate-context",
+      "text": "WPF is a .NET Core UI framework for building Windows desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/wpf",
+      "status": "candidate-context",
+      "text": "\ufeff# Windows Presentation Foundation (WPF)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "electron-userland/electron-builder",
       "status": "candidate",
       "text": "A complete solution to package and build a ready for distribution [Electron](https://electronjs.org), [Proton Native](https://proton-native.js.org/) app for macOS, Windows and Linux with \u201cauto update\u201d support out of the box. \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/wpf",
+      "status": "candidate",
+      "text": "\ufeff# Windows Presentation Foundation (WPF)"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/wpf"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

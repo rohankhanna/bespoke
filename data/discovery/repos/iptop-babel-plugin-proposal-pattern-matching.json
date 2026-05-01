@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "@babel/generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "@babel/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "@babel/preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "babel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "babel-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "target": "pattern-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:17.656498+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the minimal grammar, high performance JavaScript pattern matching implementation",
+    "fork": false,
+    "full_name": "iptop/babel-plugin-proposal-pattern-matching",
+    "html_url": "https://github.com/iptop/babel-plugin-proposal-pattern-matching",
+    "language": "JavaScript",
+    "pushed_at": "2022-08-24T03:46:35Z",
+    "stargazers_count": 50,
+    "topics": [
+      "babel",
+      "babel-plugin",
+      "functional-programming",
+      "javascript",
+      "pattern-matching"
+    ],
+    "updated_at": "2026-03-28T17:40:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "babel-plugin-proposal-pattern-matching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel"
+    },
+    {
+      "context_snippet": "babel-plugin-proposal-pattern-matching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-plugin"
+    },
+    {
+      "context_snippet": "babel-plugin-proposal-pattern-matching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "babel-plugin-proposal-pattern-matching",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern-matching"
+    }
+  ]
+}

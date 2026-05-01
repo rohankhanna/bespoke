@@ -55,6 +55,18 @@
       "source_repo": "caoxiemeihao/electron-vite-samples",
       "status": "candidate-context",
       "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "An SQLite3 driver for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "caoxiemeihao/electron-vite-samples",
       "status": "candidate",
       "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +214,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "caoxiemeihao/electron-vite-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-sqlite/exqlite"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

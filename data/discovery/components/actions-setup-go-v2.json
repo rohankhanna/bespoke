@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v2",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -762,6 +762,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "GoogleCloudPlatform/docker-credential-gcr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fluxcd/flux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "fluxcd/flux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "benbjohnson/ego"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "benbjohnson/ego"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "aws/aws-sdk-go-v2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aws/aws-sdk-go-v2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "aws/aws-sdk-go-v2"
     }
   ]
 }

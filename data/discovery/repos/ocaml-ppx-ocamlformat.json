@@ -1,0 +1,332 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml"
+    },
+    {
+      "component": "ocaml-dune/setup-dune@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mingw64.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mingw64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mingw64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-others.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-others.yml"
+    },
+    {
+      "component": "tarides/changelog-check-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-check.yml"
+    },
+    {
+      "component": "tarides/pr-number-action@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-number.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "ocaml-dune/setup-dune@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dune.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "Build on Dune PM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/upload-artifact@v4.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "Build on Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mingw64.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mingw64.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mingw64.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mingw64.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "Build mingw64 binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-others.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-others.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-others.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "Build on other platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-check.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "tarides/changelog-check-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-check.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "Changelog check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-number.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "tarides/pr-number-action@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-number.yml",
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "PR number update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ocaml-ppx/ocamlformat",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:51:32.823652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4328
+    },
+    {
+      "path": ".github/workflows/build-dune.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 3289
+    },
+    {
+      "path": ".github/workflows/build-mingw64.yml",
+      "size": 2344
+    },
+    {
+      "path": ".github/workflows/build-others.yml",
+      "size": 949
+    },
+    {
+      "path": ".github/workflows/changelog-check.yml",
+      "size": 282
+    },
+    {
+      "path": ".github/workflows/pr-number.yml",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Auto-formatter for OCaml code",
+    "fork": false,
+    "full_name": "ocaml-ppx/ocamlformat",
+    "html_url": "https://github.com/ocaml-ppx/ocamlformat",
+    "language": "OCaml",
+    "pushed_at": "2026-04-30T10:17:04Z",
+    "stargazers_count": 714,
+    "topics": [
+      "ocaml"
+    ],
+    "updated_at": "2026-04-30T10:17:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build on Dune PM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dune.yml",
+      "term": "Build on Dune PM"
+    },
+    {
+      "context_snippet": "Build on Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build on Linux"
+    },
+    {
+      "context_snippet": "Build mingw64 binary",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mingw64.yml",
+      "term": "Build mingw64 binary"
+    },
+    {
+      "context_snippet": "Build on other platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-others.yml",
+      "term": "Build on other platforms"
+    },
+    {
+      "context_snippet": "Changelog check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-check.yml",
+      "term": "Changelog check"
+    },
+    {
+      "context_snippet": "PR number update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-number.yml",
+      "term": "PR number update"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-older-versions-build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate-context",
+      "text": "SDL2 binding for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate-context",
+      "text": "test-older-versions-build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "veandco/go-sdl2",
+      "status": "candidate",
+      "text": "test-older-versions-build"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-older-versions-build",
+  "concept_id": "test-older-versions-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-old-versions-build.yml",
+      "source_repo": "veandco/go-sdl2"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-older-versions-build",
+      "sense_id": "test-older-versions-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

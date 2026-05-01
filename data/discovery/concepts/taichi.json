@@ -19,12 +19,30 @@
       "source_repo": "taichi-dev/taichi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "10 differentiable physical simulators built with Taichi differentiable programming (DiffTaichi, ICLR 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "taichi-dev/taichi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "taichi-dev/taichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

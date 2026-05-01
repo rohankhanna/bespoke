@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Datasets for data-driven deep reinforcement learning with Atari (wrapper for datasets released by Google)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-driven-reinforcement-learning",
+      "sense_id": "data-driven-reinforcement-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-driven-reinforcement-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-driven-reinforcement-learning",
+  "observation_id": "47385a987587998b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "data-driven-reinforcement-learning",
+  "source_context_snippet": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)",
+  "source_file": null,
+  "source_repo": "takuseno/d4rl-atari",
+  "source_repo_description": "Datasets for data-driven deep reinforcement learning with Atari (wrapper for datasets released by Google)"
+}

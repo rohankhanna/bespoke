@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulvarol/surreal",
+      "target": "gulvarol/surreact",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulvarol/surreal",
+      "target": "torch/distro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulvarol/surreal",
+      "target": "soumith/matio-ffi.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gulvarol/surreal",
+      "target": "soumith/imagenet-multigpu.torch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:18.326919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning from Synthetic Humans, CVPR 2017",
+    "fork": false,
+    "full_name": "gulvarol/surreal",
+    "html_url": "https://github.com/gulvarol/surreal",
+    "language": "Lua",
+    "pushed_at": "2021-06-04T14:05:45Z",
+    "stargazers_count": 614,
+    "topics": [],
+    "updated_at": "2026-04-19T19:41:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gulvarol/surreact",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soumith/imagenet-multigpu.torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soumith/matio-ffi.torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torch/distro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

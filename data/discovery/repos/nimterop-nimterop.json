@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nimterop/nimterop",
+      "target": "nim-lang/nimble",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nimterop/nimterop",
+      "target": "genotrance/nimarchive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nimterop/nimterop",
+      "target": "nim-lang/c2nim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nimterop/nimterop",
+      "target": "genotrance/nimgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nimterop/nimterop",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nimterop/nimterop",
+      "target": "interop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nimterop/nimterop",
+      "target": "tree-sitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nimterop/nimterop",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:38:38.692647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nimterop is a Nim package that aims to make C/C++ interop seamless",
+    "fork": false,
+    "full_name": "nimterop/nimterop",
+    "html_url": "https://github.com/nimterop/nimterop",
+    "language": "Nim",
+    "pushed_at": "2023-04-03T18:20:41Z",
+    "stargazers_count": 372,
+    "topics": [
+      "binding",
+      "interop",
+      "nim",
+      "tree-sitter",
+      "wrapper"
+    ],
+    "updated_at": "2026-04-15T16:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/nimarchive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genotrance/nimgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nim-lang/c2nim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nim-lang/nimble",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interop"
+    },
+    {
+      "context_snippet": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    },
+    {
+      "context_snippet": "[![Chat on Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/nimterop/Lobby)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

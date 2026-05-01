@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cargo Shear"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/egui",
+      "status": "candidate-context",
+      "text": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui",
+      "status": "candidate-context",
+      "text": "Cargo Shear"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/egui",
+      "status": "candidate",
+      "text": "Cargo Shear"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12107,
+      "status": "candidate",
+      "text": "fleece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "dod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "sheared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10914,
+      "status": "candidate",
+      "text": "charge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cargo Shear",
+  "concept_id": "cargo-shear",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cargo_shear.yml",
+      "source_repo": "emilk/egui"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cargo Shear",
+      "sense_id": "cargo-shear#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

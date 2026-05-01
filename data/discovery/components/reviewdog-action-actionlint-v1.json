@@ -1,7 +1,7 @@
 {
   "component": "reviewdog/action-actionlint@v1",
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/github-actions-lint.yml",
       "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/arbre"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-lint.yml",
+      "source_repo": "activeadmin/inherited_resources"
     }
   ]
 }

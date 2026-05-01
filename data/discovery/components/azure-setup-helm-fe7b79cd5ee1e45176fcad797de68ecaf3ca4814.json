@@ -1,0 +1,12 @@
+{
+  "component": "azure/setup-helm@fe7b79cd5ee1e45176fcad797de68ecaf3ca4814",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-chart.yaml",
+      "source_repo": "argoproj-labs/argocd-rbac-operator"
+    }
+  ]
+}

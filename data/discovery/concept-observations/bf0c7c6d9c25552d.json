@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CloudFoundry User Account and Authentication (UAA) Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oauth2",
+      "sense_id": "oauth2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "oauth2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "oauth2",
+  "observation_id": "bf0c7c6d9c25552d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "oauth2",
+  "source_context_snippet": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)",
+  "source_file": null,
+  "source_repo": "cloudfoundry/uaa",
+  "source_repo_description": "CloudFoundry User Account and Authentication (UAA) Server"
+}

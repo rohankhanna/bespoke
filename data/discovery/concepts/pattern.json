@@ -43,6 +43,18 @@
       "source_repo": "ardalis/GuardClauses",
       "status": "candidate-context",
       "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ardalis/GuardClauses",
       "status": "candidate",
       "text": "![logo](media/logotype%201024.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ardalis/GuardClauses"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

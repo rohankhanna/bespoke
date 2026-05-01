@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "file-sync",
+      "sense_id": "file-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-sync",
+  "observation_id": "a0131210176e4c4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "file-sync",
+  "source_context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+  "source_file": null,
+  "source_repo": "haiwen/seafile",
+  "source_repo_description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+}

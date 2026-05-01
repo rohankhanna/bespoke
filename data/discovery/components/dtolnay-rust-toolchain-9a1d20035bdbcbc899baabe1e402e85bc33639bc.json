@@ -1,0 +1,17 @@
+{
+  "component": "dtolnay/rust-toolchain@9a1d20035bdbcbc899baabe1e402e85bc33639bc",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "source_repo": "mdn/rari"
+    }
+  ]
+}

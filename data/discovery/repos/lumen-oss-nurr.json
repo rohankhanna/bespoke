@@ -16,7 +16,7 @@
       "source_file": ".github/workflows/pr.yml"
     },
     {
-      "component": "cachix/install-nix-action@v27",
+      "component": "cachix/install-nix-action@v31",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml"
     },
@@ -236,7 +236,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "lumen-oss/nurr",
-      "target": "cachix/install-nix-action@v27",
+      "target": "cachix/install-nix-action@v31",
       "target_type": "component"
     },
     {
@@ -499,7 +499,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:42:28.539363+00:00",
+  "fetched_at": "2026-05-01T13:02:56.745435+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -515,7 +515,7 @@
     },
     {
       "path": ".github/workflows/pr.yml",
-      "size": 3120
+      "size": 3195
     },
     {
       "path": ".github/workflows/publish-dev.yml",
@@ -543,14 +543,14 @@
     "full_name": "lumen-oss/nurr",
     "html_url": "https://github.com/lumen-oss/nurr",
     "language": "Lua",
-    "pushed_at": "2026-04-06T23:31:21Z",
+    "pushed_at": "2026-05-01T04:36:41Z",
     "stargazers_count": 42,
     "topics": [
       "luarocks",
       "neovim",
       "plugin-repo"
     ],
-    "updated_at": "2026-04-06T23:31:26Z"
+    "updated_at": "2026-05-01T04:36:41Z"
   },
   "repo_links": [
     {

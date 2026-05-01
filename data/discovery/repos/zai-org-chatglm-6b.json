@@ -26,11 +26,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/ChatGLM-6B",
-      "target": "thudm/chatglm-6b",
+      "target": "initialencounter/glm-bot",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T10:26:39.371779+00:00",
+  "fetched_at": "2026-05-01T15:01:34.899609+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,9 +51,9 @@
     "html_url": "https://github.com/zai-org/ChatGLM-6B",
     "language": "Python",
     "pushed_at": "2024-06-27T04:05:25Z",
-    "stargazers_count": 41136,
+    "stargazers_count": 41137,
     "topics": [],
-    "updated_at": "2026-05-01T10:24:51Z"
+    "updated_at": "2026-05-01T12:44:49Z"
   },
   "repo_links": [
     {
@@ -68,12 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "l15y/wenda",
+      "full_name": "initialencounter/glm-bot",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "thudm/chatglm-6b",
+      "full_name": "l15y/wenda",
       "source_file": "README.md"
     }
   ],

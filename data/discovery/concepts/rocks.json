@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rocks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate-context",
+      "text": "A \"just works\" tree-sitter setup for rocks.nvim!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895020,
+      "status": "candidate",
+      "text": "stone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39830203,
+      "status": "candidate",
+      "text": "careen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39810682,
+      "status": "candidate",
+      "text": "cradle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39806215,
+      "status": "candidate",
+      "text": "rock candy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39768863,
+      "status": "candidate",
+      "text": "tilt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rocks",
+  "concept_id": "rocks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rocks",
+      "sense_id": "rocks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "full-reference-iqa"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] We investigated a broad range of neural network elements and developed a robust perceptual similarity metric. Our shift-tolerant perceptual similarity metric (ST-LPIPS) is consistent with human perception and is less susceptible to imperceptible misalignments between two images than existing metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "status": "candidate-context",
+      "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "status": "candidate",
+      "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "full-reference-iqa",
+  "concept_id": "full-reference-iqa",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "full-reference-iqa",
+      "sense_id": "full-reference-iqa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,247 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "jaez1205/ps_nbi2k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "qinwang-ai/polypsalign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "debeshjha/polypdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "dashishi/ldpolypvideo-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "ai-healthcare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "clinical-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "colonoscopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "gastrointestinal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "multimodal-benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "multimodal-colonoscopy-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "multimodal-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "polyp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:17.699043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Project COLON-X (Shaping the neXt frontier in intelligent COLONoscopy)",
+    "fork": false,
+    "full_name": "ai4colonoscopy/Colon-X",
+    "html_url": "https://github.com/ai4colonoscopy/Colon-X",
+    "language": "Python",
+    "pushed_at": "2026-04-13T23:26:27Z",
+    "stargazers_count": 20,
+    "topics": [
+      "ai-healthcare",
+      "clinical-reasoning",
+      "colonoscopy",
+      "deepseek-r1",
+      "gastrointestinal",
+      "multimodal-benchmarks",
+      "multimodal-colonoscopy-analysis",
+      "multimodal-large-language-models",
+      "multimodal-reasoning",
+      "polyp",
+      "qwen",
+      "vision-language"
+    ],
+    "updated_at": "2026-04-15T20:01:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dashishi/ldpolypvideo-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "debeshjha/polypdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaez1205/ps_nbi2k",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qinwang-ai/polypsalign",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-healthcare"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clinical-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colonoscopy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek-r1"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gastrointestinal"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-benchmarks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-colonoscopy-analysis"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-reasoning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

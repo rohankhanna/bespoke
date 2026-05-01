@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earlephilhower/bearssl-esp8266",
+      "target": "elliptic-curve-diffie-hellman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earlephilhower/bearssl-esp8266",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earlephilhower/bearssl-esp8266",
+      "target": "esp8266-arduino",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:02.274824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 6333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Port of https://bearssl.org BearSSL to ESP8266",
+    "fork": false,
+    "full_name": "earlephilhower/bearssl-esp8266",
+    "html_url": "https://github.com/earlephilhower/bearssl-esp8266",
+    "language": "C",
+    "pushed_at": "2024-09-23T18:32:47Z",
+    "stargazers_count": 50,
+    "topics": [
+      "elliptic-curve-diffie-hellman",
+      "esp8266",
+      "esp8266-arduino",
+      "rsa",
+      "ssl",
+      "tls"
+    ],
+    "updated_at": "2025-05-23T10:22:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The most up-to-date documentation is supposed to be available on the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elliptic-curve-diffie-hellman"
+    },
+    {
+      "context_snippet": "The most up-to-date documentation is supposed to be available on the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266"
+    },
+    {
+      "context_snippet": "The most up-to-date documentation is supposed to be available on the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266-arduino"
+    }
+  ]
+}

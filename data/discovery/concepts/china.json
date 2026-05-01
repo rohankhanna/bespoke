@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "china"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate-context",
+      "text": "Unified proxy manager for bypassing firewalls - supports Paqet (KCP/raw socket) and GFW-Knocker (violated TCP/QUIC) with dual-backend simultaneous operation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate-context",
+      "text": "```"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamNet-dev/paqctl",
+      "status": "candidate",
+      "text": "```"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39756564,
+      "status": "candidate",
+      "text": "mainland china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39756493,
+      "status": "candidate",
+      "text": "republic of china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39754387,
+      "status": "candidate",
+      "text": "taiwan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39754100,
+      "status": "candidate",
+      "text": "red china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39753551,
+      "status": "candidate",
+      "text": "communist china"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "communist china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "formosa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "mainland china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "nationalist china"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "prc"
+    }
+  ],
+  "canonical_name": "china",
+  "concept_id": "china",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SamNet-dev/paqctl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "china",
+      "sense_id": "china#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

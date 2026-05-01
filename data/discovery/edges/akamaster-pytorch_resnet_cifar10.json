@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "cifar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet-cifar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet110",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet1202",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet44",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "resnet56",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "target": "torchvision-models-cifar",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "akamaster/pytorch_resnet_cifar10"
+}

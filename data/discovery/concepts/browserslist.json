@@ -43,6 +43,30 @@
       "source_repo": "browserslist/map-to-chrome",
       "status": "candidate-context",
       "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "Generate a browserslist-stats.json file using data from your Plausible Analytics instance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kilian/electron-to-chromium",
+      "status": "candidate-context",
+      "text": "Provides a list of electron-to-chromium version mappings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilian/electron-to-chromium",
+      "status": "candidate-context",
+      "text": "- \ud83d\udcbb [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "browserslist/map-to-chrome",
       "status": "candidate",
       "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kilian/electron-to-chromium",
+      "status": "candidate",
+      "text": "- \ud83d\udcbb [Polypane](https://polypane.app) - Develop responsive websites and apps twice as fast on multiple screens at once"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/browserslist-plausible"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/browserslist-ga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Kilian/electron-to-chromium"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf09 Experience Nuxt 3 features on existing Nuxt 2 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "needs port upstream"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "needs port upstream"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23120,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "shall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22587,
+      "status": "candidate",
+      "text": "anticipate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "needs port upstream",
+      "sense_id": "needs-port-upstream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "needs-port-upstream",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "needs-port-upstream",
+  "observation_id": "18e4defe2a68030b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "needs port upstream",
+  "source_context_snippet": "needs port upstream",
+  "source_file": ".github/workflows/needs-port-upstream.yml",
+  "source_repo": "nuxt/bridge",
+  "source_repo_description": "\ud83c\udf09 Experience Nuxt 3 features on existing Nuxt 2 projects"
+}

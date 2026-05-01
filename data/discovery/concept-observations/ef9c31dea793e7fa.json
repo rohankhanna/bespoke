@@ -84,7 +84,7 @@
   "normalized_form": "update-notice-year",
   "observation_id": "ef9c31dea793e7fa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Update NOTICE year",
   "source_context_snippet": "Update NOTICE year",
   "source_file": ".github/workflows/update-notice-year.yml",

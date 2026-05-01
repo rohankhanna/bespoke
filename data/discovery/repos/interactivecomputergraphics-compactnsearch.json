@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "interactivecomputergraphics/positionbaseddynamics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "build-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "build-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "neighborhood-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/CompactNSearch",
+      "target": "openmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:41.486864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5524
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 299
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++ library to compute neighborhood information for point clouds within a fixed radius. Suitable for many applications, e.g. neighborhood search for SPH fluid simulations.",
+    "fork": false,
+    "full_name": "InteractiveComputerGraphics/CompactNSearch",
+    "html_url": "https://github.com/InteractiveComputerGraphics/CompactNSearch",
+    "language": "C++",
+    "pushed_at": "2025-09-11T10:47:21Z",
+    "stargazers_count": 175,
+    "topics": [
+      "neighborhood-search",
+      "openmp"
+    ],
+    "updated_at": "2026-04-20T06:49:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactivecomputergraphics/positionbaseddynamics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "build-linux"
+    },
+    {
+      "context_snippet": "build-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "build-windows"
+    },
+    {
+      "context_snippet": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/CompactNSearch/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/CompactNSearch/workflows/build-windows/badge.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neighborhood-search"
+    },
+    {
+      "context_snippet": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/CompactNSearch/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/CompactNSearch/workflows/build-windows/badge.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    }
+  ]
+}

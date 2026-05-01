@@ -55,6 +55,18 @@
       "source_repo": "MajicDesigns/MD_Parola",
       "status": "candidate-context",
       "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "status": "candidate-context",
+      "text": "Arduino Library for BME280 sensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "status": "candidate-context",
+      "text": "<a href=\"http://www.adafruit.com/products/2652\"><img src=\"./assets/board.jpg\" width=\"500\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "MajicDesigns/MD_Parola",
       "status": "candidate",
       "text": "[![arduino-library-badge](https://www.ardu-badge.com/badge/MD_Parola.svg?)](https://www.ardu-badge.com/MD_Parola)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "status": "candidate",
+      "text": "<a href=\"http://www.adafruit.com/products/2652\"><img src=\"./assets/board.jpg\" width=\"500\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "MajicDesigns/MD_Parola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BME280_Library"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

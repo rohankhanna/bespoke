@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -957,6 +957,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-pr-validation.yml",
       "source_repo": "apache/pulsar-client-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package-conda.yml",
+      "source_repo": "siliconflow/nexeval"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Alpha-Innovator/DocParser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "Alpha-Innovator/DocParser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "AgentOps-AI/Jaiqu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "farm-ng/farm-ng-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-release.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA"
     }
   ]
 }

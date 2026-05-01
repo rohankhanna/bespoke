@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV 2022] We investigated a broad range of neural network elements and developed a robust perceptual similarity metric. Our shift-tolerant perceptual similarity metric (ST-LPIPS) is consistent with human perception and is less susceptible to imperceptible misalignments between two images than existing metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ml-robustness",
+      "sense_id": "ml-robustness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ml-robustness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ml-robustness",
+  "observation_id": "15d43f3a708cd0fa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "ml-robustness",
+  "source_context_snippet": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch).",
+  "source_file": null,
+  "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+  "source_repo_description": "[ECCV 2022] We investigated a broad range of neural network elements and developed a robust perceptual similarity metric. Our shift-tolerant perceptual similarity metric (ST-LPIPS) is consistent with human perception and is less susceptible to imperceptible misalignments between two images than existing metrics."
+}

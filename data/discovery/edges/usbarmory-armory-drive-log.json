@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_lint.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_lint.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaves_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaves_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "transparency-dev/serverless-log/deploy/github/log/leaf_validator@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "transparency-dev/serverless-log/deploy/github/log/sequence_and_integrate@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "usbarmory/armory-drive-log"
+}

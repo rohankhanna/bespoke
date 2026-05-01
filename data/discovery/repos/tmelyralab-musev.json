@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseV",
+      "target": "chaojie/comfyui-musev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseV",
+      "target": "tmelyralab/controlnet_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseV",
+      "target": "tmelyralab/mmcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "TMElyralab/MuseV",
+      "target": "tmelyralab/controlnet_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV",
+      "target": "human-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV",
+      "target": "image2video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV",
+      "target": "infinite-length",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV",
+      "target": "musev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseV",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:31.131335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23043
+    },
+    {
+      "path": "Dockerfile",
+      "size": 517
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+    "fork": false,
+    "full_name": "TMElyralab/MuseV",
+    "html_url": "https://github.com/TMElyralab/MuseV",
+    "language": "Python",
+    "pushed_at": "2024-06-28T04:21:48Z",
+    "stargazers_count": 2837,
+    "topics": [
+      "diffusion",
+      "human-video-generation",
+      "image2video",
+      "infinite-length",
+      "musev",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-30T16:40:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaojie/comfyui-musev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/controlnet_aux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/mmcm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmelyralab/controlnet_aux",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-video-generation"
+    },
+    {
+      "context_snippet": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2video"
+    },
+    {
+      "context_snippet": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infinite-length"
+    },
+    {
+      "context_snippet": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musev"
+    },
+    {
+      "context_snippet": "<font size=5>MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

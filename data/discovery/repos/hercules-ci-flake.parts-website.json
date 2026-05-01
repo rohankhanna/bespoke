@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:51:48.472459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deployment of the https://flake.parts website",
+    "fork": false,
+    "full_name": "hercules-ci/flake.parts-website",
+    "html_url": "https://github.com/hercules-ci/flake.parts-website",
+    "language": "Nix",
+    "pushed_at": "2026-05-01T08:49:03Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-05-01T08:49:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

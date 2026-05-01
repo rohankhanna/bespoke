@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "plausible"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "Generate a browserslist-stats.json file using data from your Plausible Analytics instance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/browserslist-plausible)](https://npmjs.org/package/browserslist-plausible)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010386,
+      "status": "candidate",
+      "text": "likely"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010245,
+      "status": "candidate",
+      "text": "probable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009019,
+      "status": "candidate",
+      "text": "verisimilar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008990,
+      "status": "candidate",
+      "text": "presumed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008923,
+      "status": "candidate",
+      "text": "presumptive"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42034,
+      "status": "candidate",
+      "text": "glib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18047,
+      "status": "candidate",
+      "text": "slick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16061,
+      "status": "candidate",
+      "text": "pat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12036,
+      "status": "candidate",
+      "text": "probable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "credible"
+    }
+  ],
+  "canonical_name": "plausible",
+  "concept_id": "plausible",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/browserslist-plausible"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plausible",
+      "sense_id": "plausible#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

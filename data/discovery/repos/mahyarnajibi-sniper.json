@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahyarnajibi/SNIPER",
+      "target": "mahyarnajibi/ssh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "mahyarnajibi/SNIPER",
+      "target": "halhenke/docker-sniper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:13.644312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16593
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1232
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SNIPER / AutoFocus is an efficient multi-scale object detection training / inference algorithm",
+    "fork": false,
+    "full_name": "mahyarnajibi/SNIPER",
+    "html_url": "https://github.com/mahyarnajibi/SNIPER",
+    "language": "Python",
+    "pushed_at": "2021-08-22T01:17:53Z",
+    "stargazers_count": 2690,
+    "topics": [],
+    "updated_at": "2026-04-24T14:06:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahyarnajibi/ssh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halhenke/docker-sniper",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

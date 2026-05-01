@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "Publish Firefox Addon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keeweb/keeweb-connect",
+      "status": "candidate-context",
+      "text": "Browser extension for KeeWeb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb-connect",
+      "status": "candidate-context",
+      "text": "Publish Firefox Addon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keeweb/keeweb-connect",
+      "status": "candidate",
+      "text": "Publish Firefox Addon"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14464,
+      "status": "candidate",
+      "text": "opera"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Firefox Addon",
+  "concept_id": "publish-firefox-addon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish-firefox.yml",
+      "source_repo": "keeweb/keeweb-connect"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Firefox Addon",
+      "sense_id": "publish-firefox-addon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

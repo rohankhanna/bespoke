@@ -19,6 +19,18 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate-context",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate-context",
+      "text": "Utility for embedding code snippets into markdown documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate-context",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bazelbuild/bazel",
       "status": "candidate",
       "text": "*{Fast, Correct} - Choose two*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/bazel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zakhenry/embedme"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

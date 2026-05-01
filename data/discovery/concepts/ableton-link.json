@@ -31,6 +31,18 @@
       "source_repo": "Deep-Symmetry/beat-link-trigger",
       "status": "candidate-context",
       "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/carabiner",
+      "status": "candidate-context",
+      "text": "A loose connector for interacting with Ableton Link"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/carabiner",
+      "status": "candidate-context",
+      "text": "<image align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Deep-Symmetry/beat-link-trigger",
       "status": "candidate",
       "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/carabiner",
+      "status": "candidate",
+      "text": "<image align=\"right\" width=\"150\" src=\"doc/assets/carabiner.png\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/carabiner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

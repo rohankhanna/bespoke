@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-or-update-comment@3383acd359705b10cb1eeef05c0e88c056ea4666",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-model-regression.yml",
+      "source_repo": "RasaHQ/rasa"
+    }
+  ]
+}

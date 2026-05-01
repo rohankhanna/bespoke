@@ -106,6 +106,90 @@
       "source_repo": "Humans-of-Julia/Bibliography.jl",
       "status": "candidate-context",
       "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "Symbolic expressions, rewriting and simplification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate-context",
+      "text": "Internal format and rules for managing Bibliography in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate-context",
+      "text": "Parser for bibliographic formats, including BibTeX, in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate-context",
+      "text": "A black-box generator for static websites oriented toward academics and personal web-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/eframe_template",
+      "status": "candidate-context",
+      "text": "The easy way to make a Rust app with a GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/eframe_template",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Ethernet Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Servo Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Spell Check"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +238,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/eframe_template",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
       "status": "candidate",
       "text": "Spell Check"
     }
@@ -288,11 +414,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "vlajos/misspell-fixer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "Humans-of-Julia/BibInternal.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "Humans-of-Julia/BibParser.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "emilk/eframe_template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Servo"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

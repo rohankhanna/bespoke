@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "fable-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "bazingatechnologies/fsharp.data.graphql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "bazingatechnologies/fsharp.data.graphql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "fable-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ci.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ci.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-ci.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "publish to GitHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "publish to NuGet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "made-by-ukrainians",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL",
+      "target": "relay",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:59:02.220446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19519
+    },
+    {
+      "path": "package.json",
+      "size": 786
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1388
+    },
+    {
+      "path": ".github/workflows/publish-ci.yml",
+      "size": 6114
+    },
+    {
+      "path": ".github/workflows/publish-release.yml",
+      "size": 7049
+    },
+    {
+      "path": ".github/workflows/pull-request.yml",
+      "size": 1256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "FSharp implementation of Facebook GraphQL query language.",
+    "fork": false,
+    "full_name": "fsprojects/FSharp.Data.GraphQL",
+    "html_url": "https://github.com/fsprojects/FSharp.Data.GraphQL",
+    "language": "F#",
+    "pushed_at": "2026-04-20T00:16:49Z",
+    "stargazers_count": 407,
+    "topics": [
+      "fsharp",
+      "graphql",
+      "made-by-ukrainians",
+      "react",
+      "relay"
+    ],
+    "updated_at": "2026-04-20T00:16:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazingatechnologies/fsharp.data.graphql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazingatechnologies/fsharp.data.graphql",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "publish to GitHub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-ci.yml",
+      "term": "publish to GitHub"
+    },
+    {
+      "context_snippet": "publish to NuGet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "term": "publish to NuGet"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "made-by-ukrainians"
+    },
+    {
+      "context_snippet": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "F# implementation of Facebook [GraphQL query language specification](https://facebook.github.io/graphql).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "relay"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. Click here for Live Demo: https://erichlof.github.io/THREE.js-PathTracing-Renderer/Geometry_Showcase.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29943486,
+      "status": "candidate",
+      "text": "tracer bullet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014816,
+      "status": "candidate",
+      "text": "comparator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19987995,
+      "status": "candidate",
+      "text": "marker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986530,
+      "status": "candidate",
+      "text": "tracing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982353,
+      "status": "candidate",
+      "text": "beacon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tracer",
+      "sense_id": "tracer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "tracer bullet"
+    }
+  ],
+  "concept_id": "tracer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tracer",
+  "observation_id": "e20fd29812be0de4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "tracer",
+  "source_context_snippet": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>",
+  "source_file": null,
+  "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+  "source_repo_description": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. Click here for Live Demo: https://erichlof.github.io/THREE.js-PathTracing-Renderer/Geometry_Showcase.html"
+}

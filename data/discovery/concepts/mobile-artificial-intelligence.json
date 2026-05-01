@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mobile-artificial-intelligence"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "Maid is a free and open source application for interfacing with llama.cpp models locally, and with Anthropic, DeepSeek, Ollama, Mistral and OpenAI models remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id = \"top\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mobile-Artificial-Intelligence/maid",
+      "status": "candidate",
+      "text": "<div align=\"center\" id = \"top\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mobile-artificial-intelligence",
+  "concept_id": "mobile-artificial-intelligence",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Mobile-Artificial-Intelligence/maid"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobile-artificial-intelligence",
+      "sense_id": "mobile-artificial-intelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

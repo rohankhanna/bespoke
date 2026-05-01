@@ -55,6 +55,54 @@
       "source_repo": "naver/kapture",
       "status": "candidate-context",
       "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Deep Two-View Structure-from-Motion Revisited"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "status": "candidate-context",
+      "text": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "A large scale non-linear optimization library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate-context",
+      "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate-context",
+      "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate-context",
+      "text": "The Multi-View Environment: End-to-end image-based reconstruction (SfM, MVS, surface reconstruction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "naver/kapture",
       "status": "candidate",
       "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "status": "candidate",
+      "text": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ceres-solver/ceres-solver",
+      "status": "candidate",
+      "text": "[![Android](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml/badge.svg)](https://github.com/ceres-solver/ceres-solver/actions/workflows/android.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openMVG/openMVG",
+      "status": "candidate",
+      "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonfuhrmann/mve",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml/badge.svg)](https://github.com/simonfuhrmann/mve/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +184,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "naver/kapture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jytime/Deep-SfM-Revisited"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ceres-solver/ceres-solver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "openMVG/openMVG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "simonfuhrmann/mve"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

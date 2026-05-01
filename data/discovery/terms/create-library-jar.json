@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/jar.yml",
       "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/crate-digger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/electro"
     }
   ],
   "term": "Create library jar"

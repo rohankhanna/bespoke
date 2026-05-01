@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "500tech/angular-tree-component",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "axodox/axocover",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "babun/babun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pickhardt/maintainers-wanted",
+      "target": "amsul/pickadate.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:59:20.263633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of projects looking for new lead maintainers, either abandoned or just looking for someone else to lead.",
+    "fork": false,
+    "full_name": "pickhardt/maintainers-wanted",
+    "html_url": "https://github.com/pickhardt/maintainers-wanted",
+    "language": null,
+    "pushed_at": "2024-10-19T20:42:07Z",
+    "stargazers_count": 482,
+    "topics": [],
+    "updated_at": "2026-04-29T22:32:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "500tech/angular-tree-component",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amsul/pickadate.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axodox/axocover",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babun/babun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PISA: Performant Indexes and Search for Academia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Trunk"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Trunk"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049698,
+      "status": "candidate",
+      "text": "tree trunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049452,
+      "status": "candidate",
+      "text": "bole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980630,
+      "status": "candidate",
+      "text": "proboscis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963065,
+      "status": "candidate",
+      "text": "torso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934890,
+      "status": "candidate",
+      "text": "boot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trunk",
+      "sense_id": "trunk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14076,
+      "status": "candidate",
+      "text": "body"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12079,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7042,
+      "status": "candidate",
+      "text": "torso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4047,
+      "status": "candidate",
+      "text": "proboscis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "tree trunk"
+    }
+  ],
+  "concept_id": "trunk",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trunk",
+  "observation_id": "28d1f1e920ba32d0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Trunk",
+  "source_context_snippet": "Trunk",
+  "source_file": ".github/workflows/trunk.yml",
+  "source_repo": "pisa-engine/pisa",
+  "source_repo_description": "PISA: Performant Indexes and Search for Academia"
+}

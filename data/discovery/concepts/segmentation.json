@@ -457,6 +457,42 @@
       "source_repo": "mit-han-lab/efficientvit",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Dynamic Graph CNN for Learning on Point Clouds (DGCNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate-context",
+      "text": "[[\u4e2d\u6587\u7248]](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "megvii-research/PETR",
+      "status": "candidate-context",
+      "text": "[ECCV2022] PETR: Position Embedding Transformation for Multi-View 3D Object Detection & [ICCV2023] PETRv2: A Unified Framework for 3D Perception from Multi-Camera Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/PETR",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.05625)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "status": "candidate-context",
+      "text": "Deep face segmentation in extremely hard conditions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "status": "candidate-context",
+      "text": "![alt text](https://yuvalnirkin.github.io/assets/img/projects/face_segmentation/face_segmentation_teaser.jpg \"Samples\")"
     }
   ],
   "candidate_glosses": [
@@ -687,6 +723,24 @@
       "source_repo": "mit-han-lab/efficientvit",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u7248]](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "megvii-research/PETR",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.05625)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "status": "candidate",
+      "text": "![alt text](https://yuvalnirkin.github.io/assets/img/projects/face_segmentation/face_segmentation_teaser.jpg \"Samples\")"
     }
   ],
   "candidate_related_terms": [
@@ -1096,11 +1150,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/PETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YuvalNirkin/face_segmentation"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

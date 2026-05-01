@@ -31,6 +31,18 @@
       "source_repo": "researchmm/PEN-Net-for-Inpainting",
       "status": "candidate-context",
       "text": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shepnerd/inpainting_gmcnn",
+      "status": "candidate-context",
+      "text": "Image Inpainting via Generative Multi-column Convolutional Neural Networks, NeurIPS2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shepnerd/inpainting_gmcnn",
+      "status": "candidate-context",
+      "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "researchmm/PEN-Net-for-Inpainting",
       "status": "candidate",
       "text": "![PEN-Net](https://github.com/researchmm/PEN-Net-for-Inpainting/blob/master/docs/PEN-Net.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shepnerd/inpainting_gmcnn",
+      "status": "candidate",
+      "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "shepnerd/inpainting_gmcnn"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

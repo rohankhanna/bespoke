@@ -95,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:10:29.733618+00:00",
+  "fetched_at": "2026-05-01T14:43:23.462208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,13 +120,13 @@
     "html_url": "https://github.com/google-deepmind/acme",
     "language": "Python",
     "pushed_at": "2026-04-08T13:25:21Z",
-    "stargazers_count": 3980,
+    "stargazers_count": 3981,
     "topics": [
       "agents",
       "reinforcement-learning",
       "research"
     ],
-    "updated_at": "2026-05-01T03:52:43Z"
+    "updated_at": "2026-05-01T14:19:55Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "tibdex/backport@e2ffd4c5a70730dfd19046859dfaf366e3de6466",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast_forward.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "juliaci/rootfs-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "juliaci/base-buildkite-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "tibdex/backport@e2ffd4c5a70730dfd19046859dfaf366e3de6466",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast_forward.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast_forward.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "Fast Forward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "ShellCheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_upload_logic.yml",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "target": "Test Upload Logic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:42:32.951418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/fast_forward.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/test_upload_logic.yml",
+      "size": 2927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Buildkite configuration files for Base Julia CI",
+    "fork": false,
+    "full_name": "JuliaCI/julia-buildkite",
+    "html_url": "https://github.com/JuliaCI/julia-buildkite",
+    "language": "Julia",
+    "pushed_at": "2026-04-20T22:02:48Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-20T22:02:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaci/base-buildkite-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaci/rootfs-images",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "Fast Forward",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast_forward.yml",
+      "term": "Fast Forward"
+    },
+    {
+      "context_snippet": "ShellCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "term": "ShellCheck"
+    },
+    {
+      "context_snippet": "Test Upload Logic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_upload_logic.yml",
+      "term": "Test Upload Logic"
+    }
+  ]
+}

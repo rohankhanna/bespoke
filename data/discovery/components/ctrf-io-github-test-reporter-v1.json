@@ -1,0 +1,12 @@
+{
+  "component": "ctrf-io/github-test-reporter@v1",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
+    }
+  ]
+}

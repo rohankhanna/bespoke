@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "insights"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "GrimoireLab: platform for software development analytics and insights"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate",
+      "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028769,
+      "status": "candidate",
+      "text": "perceptivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028724,
+      "status": "candidate",
+      "text": "perceptiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026019,
+      "status": "candidate",
+      "text": "brainstorm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015334,
+      "status": "candidate",
+      "text": "sixth sense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978992,
+      "status": "candidate",
+      "text": "penetration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "insights",
+  "concept_id": "insights",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "insights",
+      "sense_id": "insights#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

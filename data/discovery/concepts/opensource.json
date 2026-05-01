@@ -151,6 +151,18 @@
       "source_repo": "ozkriff/awesome-quads",
       "status": "candidate-context",
       "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "ozkriff/awesome-quads",
       "status": "candidate",
       "text": "A curated list of links to miniquad/macroquad-related code & resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +556,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

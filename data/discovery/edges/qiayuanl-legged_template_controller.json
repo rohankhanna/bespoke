@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "target": "Rename package according to repo name",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "qiayuanl/legged_template_controller"
+}

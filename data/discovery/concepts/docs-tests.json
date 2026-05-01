@@ -31,6 +31,18 @@
       "source_repo": "cloudfoundry/cloud_controller_ng",
       "status": "candidate-context",
       "text": "Docs Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate-context",
+      "text": "Docs Tests"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudfoundry/cloud_controller_ng",
+      "status": "candidate",
+      "text": "Docs Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RasaHQ/rasa",
       "status": "candidate",
       "text": "Docs Tests"
     }
@@ -142,11 +160,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci-docs-tests.yml",
+      "source_repo": "RasaHQ/rasa"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

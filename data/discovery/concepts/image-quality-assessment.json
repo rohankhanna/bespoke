@@ -91,6 +91,30 @@
       "source_repo": "dingkeyan93/IQA-optimization",
       "status": "candidate-context",
       "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate-context",
+      "text": "Source code for \"From Patches to Pictures (PaQ-2-PiQ): Mapping the Perceptual Space of Picture Quality\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] We investigated a broad range of neural network elements and developed a robust perceptual similarity metric. Our shift-tolerant perceptual similarity metric (ST-LPIPS) is consistent with human perception and is less susceptible to imperceptible misalignments between two images than existing metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "status": "candidate-context",
+      "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "dingkeyan93/IQA-optimization",
       "status": "candidate",
       "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidut/PaQ-2-PiQ",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS",
+      "status": "candidate",
+      "text": "[2023 Aug] Added ST-LPIPS to [PyTorch Toolbox for Image Quality Assessment](https://github.com/chaofengc/IQA-PyTorch)."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dingkeyan93/IQA-optimization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "baidut/PaQ-2-PiQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "abhijay9/ShiftTolerant-LPIPS"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

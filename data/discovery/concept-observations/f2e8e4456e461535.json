@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Metadata for Ontology Description and Publication Ontology"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ontology-engineering",
+      "sense_id": "ontology-engineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ontology-engineering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ontology-engineering",
+  "observation_id": "f2e8e4456e461535",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "ontology-engineering",
+  "source_context_snippet": "Metadata for Ontology Description and Publication Ontology",
+  "source_file": null,
+  "source_repo": "FAIR-IMPACT/MOD",
+  "source_repo_description": "Metadata for Ontology Description and Publication Ontology"
+}

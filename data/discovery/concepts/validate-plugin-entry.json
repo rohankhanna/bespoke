@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Plugin Entry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Community plugins list, theme list, and releases of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate-context",
+      "text": "Validate Plugin Entry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidianmd/obsidian-releases",
+      "status": "candidate",
+      "text": "Validate Plugin Entry"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25482,
+      "status": "candidate",
+      "text": "keyway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25482,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25482,
+      "status": "candidate",
+      "text": "prothesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25462,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25462,
+      "status": "candidate",
+      "text": "essay"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Plugin Entry",
+  "concept_id": "validate-plugin-entry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Plugin Entry",
+      "sense_id": "validate-plugin-entry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

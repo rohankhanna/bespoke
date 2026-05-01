@@ -91,6 +91,18 @@
       "source_repo": "confluentinc/confluent-kafka-dotnet",
       "status": "candidate-context",
       "text": "Confluent's .NET Client for Apache Kafka\u00ae"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate-context",
+      "text": "Seamlessly map Results from CSharpFunctionalExtensions to HttpResults for cleaner, more fluent Web APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate-context",
+      "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "confluentinc/confluent-kafka-dotnet",
       "status": "candidate",
       "text": "Confluent's .NET Client for Apache Kafka\u00ae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate",
+      "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "confluentinc/confluent-kafka-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

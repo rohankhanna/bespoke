@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "adafruit/adafruit_sensor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "adafruit/adafruit_pm25aqi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/githubci.yml",
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "Arduino Library CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adafruit/Adafruit_BME280_Library",
+      "target": "arduino-library",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "adafruit/Adafruit_BME280_Library"
+}

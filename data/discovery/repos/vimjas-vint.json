@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "Vimjas/vint",
-      "target": "vim-jp/vim-vimlparser",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Vimjas/vint",
@@ -67,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:28:15.491144+00:00",
+  "fetched_at": "2026-05-01T13:00:30.188802+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -100,11 +93,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "kuniwak/vint",
-      "source_file": "README.rst"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vim-jp/vim-vimlparser",
       "source_file": "README.rst"
     }
   ],

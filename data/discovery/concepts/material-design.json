@@ -91,6 +91,18 @@
       "source_repo": "Keboo/MaterialDesignInXaml.Examples",
       "status": "candidate-context",
       "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "<!-- #host-reference -->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "Keboo/MaterialDesignInXaml.Examples",
       "status": "candidate",
       "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate",
+      "text": "<!-- #host-reference -->"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Keboo/MaterialDesignInXaml.Examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

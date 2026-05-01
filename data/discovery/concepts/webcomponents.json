@@ -19,6 +19,18 @@
       "source_repo": "adobe/spectrum-web-components",
       "status": "candidate-context",
       "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate-context",
+      "text": "Visual Development for React, Vue, Svelte, Qwik, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adobe/spectrum-web-components",
       "status": "candidate",
       "text": "This is the monorepo for Spectrum Web Components (SWC), a library of [web components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) implementing Adobe's [Spectrum design system](https://spectrum.adobe.com/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/builder",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "adobe/spectrum-web-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BuilderIO/builder"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

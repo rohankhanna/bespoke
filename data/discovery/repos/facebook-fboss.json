@@ -1,0 +1,424 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-vendor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro_image_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-centos-docker-image.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-centos-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-debian-docker-image.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-debian-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Build & Test AGENT Service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-vendor.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-vendor.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Auto Label by Vendor Name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/distro_image_build.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distro_image_build.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Distro Image Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-centos-docker-image.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-centos-docker-image.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-debian-docker-image.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-debian-docker-image.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fboss2-cli.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fboss2-cli.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Build & Test fboss2 CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fsdb.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fsdb.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Build & Test FSDB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml",
+      "source_repo": "facebook/fboss",
+      "target": "Test deployment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:41:46.360269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3404
+    },
+    {
+      "path": ".github/workflows/agent.yml",
+      "size": 3101
+    },
+    {
+      "path": ".github/workflows/auto-label-vendor.yml",
+      "size": 1704
+    },
+    {
+      "path": ".github/workflows/distro_image_build.yml",
+      "size": 703
+    },
+    {
+      "path": ".github/workflows/export-centos-docker-image.yml",
+      "size": 1137
+    },
+    {
+      "path": ".github/workflows/export-debian-docker-image.yml",
+      "size": 1137
+    },
+    {
+      "path": ".github/workflows/fboss2-cli.yml",
+      "size": 3427
+    },
+    {
+      "path": ".github/workflows/fsdb.yml",
+      "size": 3815
+    },
+    {
+      "path": ".github/workflows/github-pages-deploy.yml",
+      "size": 1431
+    },
+    {
+      "path": ".github/workflows/github-pages-test-deploy.yml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Facebook Open Switching System\n\nSoftware for controlling network switches.",
+    "fork": false,
+    "full_name": "facebook/fboss",
+    "html_url": "https://github.com/facebook/fboss",
+    "language": "C++",
+    "pushed_at": "2026-05-01T13:33:12Z",
+    "stargazers_count": 964,
+    "topics": [],
+    "updated_at": "2026-05-01T13:33:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build & Test AGENT Service",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent.yml",
+      "term": "Build & Test AGENT Service"
+    },
+    {
+      "context_snippet": "Auto Label by Vendor Name",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-vendor.yml",
+      "term": "Auto Label by Vendor Name"
+    },
+    {
+      "context_snippet": "Distro Image Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distro_image_build.yml",
+      "term": "Distro Image Build"
+    },
+    {
+      "context_snippet": "Build & Test fboss2 CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fboss2-cli.yml",
+      "term": "Build & Test fboss2 CLI"
+    },
+    {
+      "context_snippet": "Build & Test FSDB",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fsdb.yml",
+      "term": "Build & Test FSDB"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Test deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages-test-deploy.yml",
+      "term": "Test deployment"
+    }
+  ]
+}

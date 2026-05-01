@@ -202,6 +202,18 @@
       "source_repo": "prontolabs/pronto",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Linters"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +312,12 @@
       "source_repo": "prontolabs/pronto",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/pronto.svg)](http://badge.fury.io/rb/pronto)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate",
+      "text": "Linters"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +469,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "prontolabs/pronto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

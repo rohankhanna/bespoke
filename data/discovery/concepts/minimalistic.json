@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "minimalistic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c42f/tinyformat",
+      "status": "candidate-context",
+      "text": "Minimal, type safe printf replacement library for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c42f/tinyformat",
+      "status": "candidate-context",
+      "text": "**tinyformat.h** is a type safe printf replacement library in a single C++"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c42f/tinyformat",
+      "status": "candidate",
+      "text": "**tinyformat.h** is a type safe printf replacement library in a single C++"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996078,
+      "status": "candidate",
+      "text": "minimalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996077,
+      "status": "candidate",
+      "text": "minimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996076,
+      "status": "candidate",
+      "text": "bare-bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996075,
+      "status": "candidate",
+      "text": "ultraminimalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996074,
+      "status": "candidate",
+      "text": "bare"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "minimalistic",
+  "concept_id": "minimalistic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "c42f/tinyformat"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minimalistic",
+      "sense_id": "minimalistic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

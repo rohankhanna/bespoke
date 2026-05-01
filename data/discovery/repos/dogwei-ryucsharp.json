@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:56:10.219360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RyuCsharp",
+    "fork": false,
+    "full_name": "Dogwei/RyuCsharp",
+    "html_url": "https://github.com/Dogwei/RyuCsharp",
+    "language": "C#",
+    "pushed_at": "2023-09-28T01:11:46Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2024-12-31T12:07:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

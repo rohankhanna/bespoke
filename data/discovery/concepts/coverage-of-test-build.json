@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Coverage of Test Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate-context",
+      "text": "Rapid fuzzy string matching in Python using various string metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate-context",
+      "text": "Coverage of Test Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate",
+      "text": "Coverage of Test Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18533,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18493,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18462,
+      "status": "candidate",
+      "text": "bare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18462,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18462,
+      "status": "candidate",
+      "text": "covers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Coverage of Test Build",
+  "concept_id": "coverage-of-test-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "rapidfuzz/RapidFuzz"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coverage of Test Build",
+      "sense_id": "coverage-of-test-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

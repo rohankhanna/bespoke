@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "lattice"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f32c/f32c",
+      "status": "candidate-context",
+      "text": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/f32c",
+      "status": "candidate-context",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/f32c",
+      "status": "candidate",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39854913,
+      "status": "candidate",
+      "text": "latticework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852872,
+      "status": "candidate",
+      "text": "grille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851680,
+      "status": "candidate",
+      "text": "fretwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848004,
+      "status": "candidate",
+      "text": "wicket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843580,
+      "status": "candidate",
+      "text": "mesh"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "grille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2042,
+      "status": "candidate",
+      "text": "wicket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "latticework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "fretwork"
+    }
+  ],
+  "canonical_name": "lattice",
+  "concept_id": "lattice",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f32c/f32c"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lattice",
+      "sense_id": "lattice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

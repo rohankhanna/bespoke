@@ -103,6 +103,18 @@
       "source_repo": "Keboo/MaterialDesignInXaml.Examples",
       "status": "candidate-context",
       "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "WPF Ribbon control like in Office"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Keboo/MaterialDesignInXaml.Examples",
       "status": "candidate",
       "text": "If you are just getting started, take a look at these [5 steps for getting started with MDIX](https://intellitect.com/getting-started-material-design-in-xaml/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Keboo/MaterialDesignInXaml.Examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluentribbon/Fluent.Ribbon"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

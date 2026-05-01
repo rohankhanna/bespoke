@@ -49,6 +49,42 @@
       "source_repo": "Humans-of-Julia/Bibliography.jl",
       "status": "candidate-context",
       "text": "Register Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate-context",
+      "text": "Internal format and rules for managing Bibliography in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate-context",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate-context",
+      "text": "Parser for bibliographic formats, including BibTeX, in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate-context",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate-context",
+      "text": "A black-box generator for static websites oriented toward academics and personal web-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate-context",
+      "text": "Register Package"
     }
   ],
   "candidate_glosses": [
@@ -73,6 +109,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Humans-of-Julia/Bibliography.jl",
+      "status": "candidate",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate",
+      "text": "Register Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
       "status": "candidate",
       "text": "Register Package"
     }
@@ -142,11 +196,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/register.yml",
       "source_repo": "Humans-of-Julia/Bibliography.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "Humans-of-Julia/BibInternal.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "Humans-of-Julia/BibParser.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

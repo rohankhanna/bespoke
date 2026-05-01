@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:05:31.066123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5107
+    },
+    {
+      "path": "requirements.txt",
+      "size": 197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automated Model Design and Benchmarking of 3D Deep Learning Models for COVID-19 Detection with Chest CT Scans",
+    "fork": true,
+    "full_name": "HKBU-HPML/CovidNet3D",
+    "html_url": "https://github.com/HKBU-HPML/CovidNet3D",
+    "language": "Python",
+    "pushed_at": "2021-05-19T07:16:07Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-05-19T07:16:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

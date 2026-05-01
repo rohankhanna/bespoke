@@ -103,6 +103,18 @@
       "source_repo": "gothinkster/vue-realworld-example-app",
       "status": "candidate-context",
       "text": "[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe8 AppSignal for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate-context",
+      "text": "- [AppSignal.com website][appsignal]"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "gothinkster/vue-realworld-example-app",
       "status": "candidate",
       "text": "[![RealWorld Frontend](https://img.shields.io/badge/realworld-frontend-%23783578.svg)](http://realworld.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-javascript",
+      "status": "candidate",
+      "text": "- [AppSignal.com website][appsignal]"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-javascript"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

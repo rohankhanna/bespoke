@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boschresearch/DroidCalib",
+      "target": "princeton-vl/droid-slam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boschresearch/DroidCalib",
+      "target": "paper-resource",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:00.873989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "boschresearch/DroidCalib",
+    "html_url": "https://github.com/boschresearch/DroidCalib",
+    "language": "Python",
+    "pushed_at": "2024-01-16T16:23:44Z",
+    "stargazers_count": 99,
+    "topics": [
+      "paper-resource"
+    ],
+    "updated_at": "2026-04-29T08:34:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-vl/droid-slam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code for the ICCV 2023 paper \"Deep geometry-aware camera self-calibration from video\" by Annika Hagemann, Moritz Knorr and Christoph Stiller.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper-resource"
+    }
+  ]
+}

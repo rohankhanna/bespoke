@@ -91,6 +91,18 @@
       "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
       "status": "candidate-context",
       "text": "![front_figur](./assets/front_figure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradyz/cross_view_transformers",
+      "status": "candidate-context",
+      "text": "Cross-view Transformers for real-time Map-view Semantic Segmentation (CVPR 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradyz/cross_view_transformers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"docs/assets/teaser.jpg\" width=\"65%\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "hongsukchoi/3DCrowdNet_RELEASE",
       "status": "candidate",
       "text": "![front_figur](./assets/front_figure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradyz/cross_view_transformers",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"docs/assets/teaser.jpg\" width=\"65%\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bradyz/cross_view_transformers"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

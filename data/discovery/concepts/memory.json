@@ -151,6 +151,18 @@
       "source_repo": "streamich/memfs",
       "status": "candidate-context",
       "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "streamich/memfs",
       "status": "candidate",
       "text": "[![][npm-badge]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +466,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-agent"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

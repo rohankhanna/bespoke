@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS'23] Emergent Correspondence from Image Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\"."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diffusion-models",
+      "sense_id": "diffusion-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diffusion-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diffusion-models",
+  "observation_id": "bb4e3fa6bac7dae5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "diffusion-models",
+  "source_context_snippet": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\".",
+  "source_file": null,
+  "source_repo": "Tsingularity/dift",
+  "source_repo_description": "[NeurIPS'23] Emergent Correspondence from Image Diffusion"
+}

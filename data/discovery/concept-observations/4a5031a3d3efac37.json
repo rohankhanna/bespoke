@@ -84,7 +84,7 @@
   "normalized_form": "validate-marketplace",
   "observation_id": "4a5031a3d3efac37",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Validate Marketplace",
   "source_context_snippet": "Validate Marketplace",
   "source_file": ".github/workflows/validate-marketplace.yml",

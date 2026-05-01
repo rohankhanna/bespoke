@@ -43,6 +43,18 @@
       "source_repo": "kwea123/ngp_pl",
       "status": "candidate-context",
       "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashawkey/torch-ngp",
+      "status": "candidate-context",
+      "text": "A pytorch CUDA extension implementation of instant-ngp (sdf and nerf), with a GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/torch-ngp",
+      "status": "candidate-context",
+      "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kwea123/ngp_pl",
       "status": "candidate",
       "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/torch-ngp",
+      "status": "candidate",
+      "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kwea123/ngp_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

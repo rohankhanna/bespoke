@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "xxxserxxx/actions/golang-build@v2.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "xxxserxxx/actions/golang-build@v2.2.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "exrook/drawille-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "jdkeke142/lingo-toml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "kortemy/lingo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "cjbassi/ytop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "xxxserxxx/actions/golang-build@v2.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "Build Go binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "xxxserxxx/actions/golang-build@v2.2.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "marvinpinto/action-automatic-releases@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "xxxserxxx/gotop",
+      "target": "Create pre-release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:45:18.643885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13678
+    },
+    {
+      "path": "go.mod",
+      "size": 2112
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 548
+    },
+    {
+      "path": ".github/workflows/prerelease.yml",
+      "size": 1088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A terminal based graphical activity monitor inspired by gtop and vtop",
+    "fork": true,
+    "full_name": "xxxserxxx/gotop",
+    "html_url": "https://github.com/xxxserxxx/gotop",
+    "language": "Go",
+    "pushed_at": "2025-09-27T20:22:34Z",
+    "stargazers_count": 3060,
+    "topics": [],
+    "updated_at": "2026-04-25T23:07:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjbassi/ytop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exrook/drawille-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdkeke142/lingo-toml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kortemy/lingo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Go binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Go binaries"
+    },
+    {
+      "context_snippet": "Create pre-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prerelease.yml",
+      "term": "Create pre-release"
+    }
+  ]
+}

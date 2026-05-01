@@ -163,6 +163,30 @@
       "source_repo": "dimitrinicolas/postcss-import-ext-glob",
       "status": "candidate-context",
       "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss-import",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to inline at-import rules content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-import",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/postcss-import)](https://github.com/postcss/postcss-import/blob/master/CHANGELOG.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/postcss-styled-syntax",
+      "status": "candidate-context",
+      "text": "PostCSS syntax for CSS-in-JS like styled-components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-styled-syntax",
+      "status": "candidate-context",
+      "text": "PostCSS syntax for template literals CSS-in-JS (e. g. styled-components, Emotion). It was built to be used as [Stylelint] custom syntax or with [PostCSS] plugins."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "dimitrinicolas/postcss-import-ext-glob",
       "status": "candidate",
       "text": "A [PostCSS][postcss] v8 plugin to extend [postcss-import][postcss-import] path"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-import",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/postcss-import)](https://github.com/postcss/postcss-import/blob/master/CHANGELOG.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/postcss-styled-syntax",
+      "status": "candidate",
+      "text": "PostCSS syntax for template literals CSS-in-JS (e. g. styled-components, Emotion). It was built to be used as [Stylelint] custom syntax or with [PostCSS] plugins."
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +400,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dimitrinicolas/postcss-import-ext-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "postcss/postcss-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hudochenkov/postcss-styled-syntax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cssnano/cssnano"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

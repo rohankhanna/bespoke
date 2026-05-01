@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995698,
+      "status": "candidate",
+      "text": "conspicuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988690,
+      "status": "candidate",
+      "text": "obvious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984635,
+      "status": "candidate",
+      "text": "faced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005142,
+      "status": "candidate",
+      "text": "high-profile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004479,
+      "status": "candidate",
+      "text": "distinguished"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "featured",
+      "sense_id": "featured#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 109038,
+      "status": "candidate",
+      "text": "conspicuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31038,
+      "status": "candidate",
+      "text": "obvious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3034,
+      "status": "candidate",
+      "text": "faced"
+    }
+  ],
+  "concept_id": "featured",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "featured",
+  "observation_id": "4621806f11946233",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "featured",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "juspay/hyperswitch",
+  "source_repo_description": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+}

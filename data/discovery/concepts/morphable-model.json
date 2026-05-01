@@ -79,6 +79,18 @@
       "source_repo": "Rubikplayer/flame-fitting",
       "status": "candidate-context",
       "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "status": "candidate-context",
+      "text": "Summary of publicly available ressources such as code, datasets, and scientific papers for the FLAME 3D head model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Rubikplayer/flame-fitting",
       "status": "candidate",
       "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TimoBolkart/FLAME-Universe",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">:fire: FLAME Universe :fire:</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Rubikplayer/flame-fitting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TimoBolkart/FLAME-Universe"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

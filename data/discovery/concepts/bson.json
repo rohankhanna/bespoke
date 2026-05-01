@@ -43,6 +43,18 @@
       "source_repo": "michel-kraemer/bson4jackson",
       "status": "candidate-context",
       "text": "This library adds support for [BSON](https://bsonspec.org) to the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate-context",
+      "text": "Encoding and decoding support for BSON in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "michel-kraemer/bson4jackson",
       "status": "candidate",
       "text": "This library adds support for [BSON](https://bsonspec.org) to the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mongodb/bson-rust",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/bson.svg)](https://crates.io/crates/bson)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "michel-kraemer/bson4jackson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mongodb/bson-rust"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

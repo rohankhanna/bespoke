@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:09:59.257898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "darknet with GIoU",
+    "fork": false,
+    "full_name": "generalized-iou/g-darknet",
+    "html_url": "https://github.com/generalized-iou/g-darknet",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-19T10:28:48Z",
+    "stargazers_count": 307,
+    "topics": [],
+    "updated_at": "2026-01-30T13:42:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

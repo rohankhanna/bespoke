@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "swhl/convertlatexocrtoonnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "swhl/processlatexformulatools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml",
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "equation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "im2text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "img2latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "latex-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "math-formula",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "math-formula-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "math-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/RapidLaTeXOCR",
+      "target": "onnxruntime",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:06:00.586789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4556
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    },
+    {
+      "path": ".github/workflows/gen_whl_to_pypi.yml",
+      "size": 1306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Formula recognition based on LaTeX-OCR and ONNXRuntime.",
+    "fork": false,
+    "full_name": "RapidAI/RapidLaTeXOCR",
+    "html_url": "https://github.com/RapidAI/RapidLaTeXOCR",
+    "language": "Python",
+    "pushed_at": "2024-11-03T14:41:54Z",
+    "stargazers_count": 384,
+    "topics": [
+      "equation",
+      "im2text",
+      "image-processing",
+      "img2latex",
+      "latex",
+      "latex-ocr",
+      "math-formula",
+      "math-formula-recognition",
+      "math-ocr",
+      "ocr",
+      "onnxruntime",
+      "python"
+    ],
+    "updated_at": "2026-04-30T00:58:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swhl/convertlatexocrtoonnx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swhl/processlatexformulatools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "equation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "im2text"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2latex"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex-ocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-formula"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-formula-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math-ocr"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "ilammy/msvc-dev-cmd@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -717,6 +717,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-multi.yml",
       "source_repo": "oneapi-src/level-zero"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.binaries.yml",
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "wasmerio/wasmer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inno_setup",
+      "source_repo": "assimp/assimp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "pfultz2/cget"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "elixir-sqlite/exqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-precompile.yml",
+      "source_repo": "elixir-sqlite/exqlite"
     }
   ]
 }

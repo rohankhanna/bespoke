@@ -19,6 +19,18 @@
       "source_repo": "spring-ai-alibaba/examples",
       "status": "candidate-context",
       "text": "> Spring AI Alibaba Repo: https://github.com/alibaba/spring-ai-alibaba"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate-context",
+      "text": "Source code of Spring AI Alibaba official website. \ud83d\udcda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate-context",
+      "text": "The official documentation website for the Spring AI Alibaba project, built with Docusaurus."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "spring-ai-alibaba/examples",
       "status": "candidate",
       "text": "> Spring AI Alibaba Repo: https://github.com/alibaba/spring-ai-alibaba"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-ai-alibaba/website",
+      "status": "candidate",
+      "text": "The official documentation website for the Spring AI Alibaba project, built with Docusaurus."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "spring-ai-alibaba/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "spring-ai-alibaba/website"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

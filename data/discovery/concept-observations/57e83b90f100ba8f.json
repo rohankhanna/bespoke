@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bot Framework provides the most comprehensive experience for building conversation applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "57e83b90f100ba8f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
+  "source_file": null,
+  "source_repo": "microsoft/botframework-sdk",
+  "source_repo_description": "Bot Framework provides the most comprehensive experience for building conversation applications."
+}

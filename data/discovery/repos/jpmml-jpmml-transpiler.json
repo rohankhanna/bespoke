@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-transpiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-transpiler",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jpmml/jpmml-transpiler",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:59:00.496231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8339
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java Transpiler (Translator + Compiler) API for PMML",
+    "fork": false,
+    "full_name": "jpmml/jpmml-transpiler",
+    "html_url": "https://github.com/jpmml/jpmml-transpiler",
+    "language": "Java",
+    "pushed_at": "2026-02-04T09:46:59Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-02-04T09:47:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "maven"
+    }
+  ]
+}

@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/echarts",
-      "target": "ecomfe/awesome-echarts",
+      "target": "ecomfe/zrender",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/echarts",
-      "target": "ecomfe/echarts-gl",
+      "target": "ecomfe/echarts-wordcloud",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/echarts",
-      "target": "ecomfe/echarts-liquidfill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/echarts",
-      "target": "ecomfe/echarts-stat",
+      "target": "ecomfe/vue-echarts",
       "target_type": "repository"
     },
     {
@@ -505,6 +498,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "apache/echarts"
 }

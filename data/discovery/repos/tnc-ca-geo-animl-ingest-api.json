@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tnc-ca-geo/animl-ingest-api",
+      "target": "tnc-ca-geo/exif-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:45:03.327610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight API for accepting Image Payloads from some camera manufactueres",
+    "fork": false,
+    "full_name": "tnc-ca-geo/animl-ingest-api",
+    "html_url": "https://github.com/tnc-ca-geo/animl-ingest-api",
+    "language": "TypeScript",
+    "pushed_at": "2025-07-03T21:52:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-03T21:52:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tnc-ca-geo/exif-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

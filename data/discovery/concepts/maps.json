@@ -55,6 +55,30 @@
       "source_repo": "mapbox/mapbox-maps-ios",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-js",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-js",
+      "status": "candidate-context",
+      "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/projects",
+      "status": "candidate-context",
+      "text": "A list of awesome open source projects Volodymyr Agafonkin is involved in."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/projects",
+      "status": "candidate-context",
+      "text": "A list of open source projects I created, maintain or actively contribute to. [![](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "mapbox/mapbox-maps-ios",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-ios)](https://cla-assistant.io/mapbox/mapbox-maps-ios)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-js",
+      "status": "candidate",
+      "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/projects",
+      "status": "candidate",
+      "text": "A list of open source projects I created, maintain or actively contribute to. [![](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "mapbox/mapbox-maps-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mourner/projects"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

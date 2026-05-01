@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain-X0",
+      "target": "flagopen/robobrain2.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagOpen/RoboBrain-X0",
+      "target": "tanhuajie/reason-rft",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:38:27.713194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "FlagOpen/RoboBrain-X0",
+    "html_url": "https://github.com/FlagOpen/RoboBrain-X0",
+    "language": "Python",
+    "pushed_at": "2025-10-27T04:25:24Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-04-24T06:20:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/robobrain2.0",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tanhuajie/reason-rft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

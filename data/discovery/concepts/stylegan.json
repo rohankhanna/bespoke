@@ -31,6 +31,18 @@
       "source_repo": "yuval-alaluf/SAM",
       "status": "candidate-context",
       "text": "> The task of age transformation illustrates the change of an individual's appearance over time. Accurately modeling this complex transformation over an input facial image is extremely challenging as it requires making convincing and possibly large changes to facial features and\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate-context",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "yuval-alaluf/SAM",
       "status": "candidate",
       "text": "> The task of age transformation illustrates the change of an individual's appearance over time. Accurately modeling this complex transformation over an input facial image is extremely challenging as it requires making convincing and possibly large changes to facial features and\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroich/PTI",
+      "status": "candidate",
+      "text": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "danielroich/PTI"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

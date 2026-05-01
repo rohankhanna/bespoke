@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "nielsrogge/tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "layoutlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:11:15.490350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38400
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains demos I made with the Transformers library by HuggingFace.",
+    "fork": false,
+    "full_name": "NielsRogge/Transformers-Tutorials",
+    "html_url": "https://github.com/NielsRogge/Transformers-Tutorials",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-20T12:36:38Z",
+    "stargazers_count": 11612,
+    "topics": [
+      "bert",
+      "gpt-2",
+      "layoutlm",
+      "pytorch",
+      "transformers",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-05-01T09:52:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nielsrogge/tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Hi there!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "Hi there!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "Hi there!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layoutlm"
+    },
+    {
+      "context_snippet": "Hi there!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Hi there!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "Hi there!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

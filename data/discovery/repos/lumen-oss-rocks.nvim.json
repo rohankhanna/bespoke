@@ -121,21 +121,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
-      "target": "lumen-oss/rocks-lazy.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/rocks.nvim",
-      "target": "lumen-oss/rocks-treesitter.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/rocks.nvim",
-      "target": "topics/rocks-nvim",
+      "target": "vhyrro/luarocks.nvim",
       "target_type": "repository"
     },
     {
@@ -384,7 +370,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:29:52.382011+00:00",
+  "fetched_at": "2026-05-01T13:02:47.310385+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -450,17 +436,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lumen-oss/rocks-lazy.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lumen-oss/rocks-treesitter.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "topics/rocks-nvim",
+      "full_name": "vhyrro/luarocks.nvim",
       "source_file": "README.md"
     }
   ],

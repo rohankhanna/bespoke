@@ -115,6 +115,30 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate-context",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shiinamiyuki/akari_render",
+      "status": "candidate-context",
+      "text": "High Performance CPU/GPU Physically Based Renderer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shiinamiyuki/akari_render",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Archived</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate-context",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. Click here for Live Demo: https://erichlof.github.io/THREE.js-PathTracing-Renderer/Geometry_Showcase.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate-context",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shiinamiyuki/akari_render",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Archived</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +304,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "shiinamiyuki/akari_render"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

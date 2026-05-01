@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/argh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/argh",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/argh",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "google/argh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "google/argh",
+      "target": "Argh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "argh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "arguments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "positional-arguments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "rust-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/argh",
+      "target": "subcommands",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:51.259152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6275
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1187
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust derive-based argument parsing optimized for code size",
+    "fork": false,
+    "full_name": "google/argh",
+    "html_url": "https://github.com/google/argh",
+    "language": "Rust",
+    "pushed_at": "2026-03-16T21:41:11Z",
+    "stargazers_count": 1906,
+    "topics": [
+      "argh",
+      "argument-parser",
+      "arguments",
+      "positional-arguments",
+      "rust",
+      "rust-library",
+      "subcommands"
+    ],
+    "updated_at": "2026-05-01T03:58:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Argh",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Argh"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argh"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arguments"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positional-arguments"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    },
+    {
+      "context_snippet": "**Argh is an opinionated Derive-based argument parser optimized for code size**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subcommands"
+    }
+  ]
+}

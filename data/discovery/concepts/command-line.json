@@ -925,6 +925,42 @@
       "source_repo": "ankitpokhrel/shopctl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "  A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "**This library is considered feature-complete by its creator. It will still"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate-context",
+      "text": "Minimalist pedantic command line parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "A Python module for common interactive command line user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "PythonInquirer"
     }
   ],
   "candidate_glosses": [
@@ -1383,6 +1419,24 @@
       "source_repo": "ankitpokhrel/shopctl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate",
+      "text": "**This library is considered feature-complete by its creator. It will still"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate",
+      "text": "PythonInquirer"
     }
   ],
   "candidate_related_terms": [
@@ -1962,11 +2016,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Taywee/args"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem/dat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

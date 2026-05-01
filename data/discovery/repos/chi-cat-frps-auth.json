@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chi-cat/frps-auth",
+      "target": "xujiajun/nutsdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chi-cat/frps-auth",
+      "target": "dev-lluo/frps-auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chi-cat/frps-auth",
+      "target": "dev-lluo/frp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:59.716626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2003
+    },
+    {
+      "path": "go.mod",
+      "size": 245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "frps\u7b80\u5355\u6388\u6743",
+    "fork": false,
+    "full_name": "chi-cat/frps-auth",
+    "html_url": "https://github.com/chi-cat/frps-auth",
+    "language": "Go",
+    "pushed_at": "2022-10-23T11:14:19Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-03-10T07:15:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dev-lluo/frp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dev-lluo/frps-auth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xujiajun/nutsdb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

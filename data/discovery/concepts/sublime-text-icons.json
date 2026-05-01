@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sublime-text-icons"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SublimeText/AFileIcon",
+      "status": "candidate-context",
+      "text": "Sublime Text File-Specific Icons for Improved Visual Grepping"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeText/AFileIcon",
+      "status": "candidate-context",
+      "text": "![preview][img-logo]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeText/AFileIcon",
+      "status": "candidate",
+      "text": "![preview][img-logo]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sublime-text-icons",
+  "concept_id": "sublime-text-icons",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "SublimeText/AFileIcon"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublime-text-icons",
+      "sense_id": "sublime-text-icons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "needs port upstream"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate-context",
+      "text": "\ud83c\udf09 Experience Nuxt 3 features on existing Nuxt 2 projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate-context",
+      "text": "needs port upstream"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/bridge",
+      "status": "candidate",
+      "text": "needs port upstream"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23120,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22746,
+      "status": "candidate",
+      "text": "shall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22587,
+      "status": "candidate",
+      "text": "anticipate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "needs port upstream",
+  "concept_id": "needs-port-upstream",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/needs-port-upstream.yml",
+      "source_repo": "nuxt/bridge"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "needs port upstream",
+      "sense_id": "needs-port-upstream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

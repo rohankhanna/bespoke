@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:00:26.518963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 99
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Temurin 21 binaries",
+    "fork": false,
+    "full_name": "adoptium/temurin21-binaries",
+    "html_url": "https://github.com/adoptium/temurin21-binaries",
+    "language": null,
+    "pushed_at": "2026-04-25T02:09:54Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-04-28T03:02:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

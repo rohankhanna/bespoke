@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nix Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nix Pipeline"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10793,
+      "status": "candidate",
+      "text": "scrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10744,
+      "status": "candidate",
+      "text": "scotch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10744,
+      "status": "candidate",
+      "text": "veto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10585,
+      "status": "candidate",
+      "text": "agonic line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10585,
+      "status": "candidate",
+      "text": "asymptote"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nix Pipeline",
+      "sense_id": "nix-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nix-pipeline",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nix-pipeline",
+  "observation_id": "619b2312d04536e0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Nix Pipeline",
+  "source_context_snippet": "Nix Pipeline",
+  "source_file": ".github/workflows/nix-build.yml",
+  "source_repo": "reasonml/reason",
+  "source_repo_description": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems"
+}

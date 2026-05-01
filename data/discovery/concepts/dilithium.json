@@ -13,6 +13,18 @@
       "source_repo": "pq-crystals/dilithium",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "pq-crystals/dilithium",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/pq-crystals/dilithium.svg?branch=master)](https://travis-ci.org/pq-crystals/dilithium) [![Coverage Status](https://coveralls.io/repos/github/pq-crystals/dilithium/badge.svg?branch=master)](https://coveralls.io/github/pq-crystals/dilithium?b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "pq-crystals/dilithium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/circl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:45:39.450562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the Lynis Software Development Kit (SDK), to help creating custom tests and improve code quality.",
+    "fork": false,
+    "full_name": "CISOfy/lynis-sdk",
+    "html_url": "https://github.com/CISOfy/lynis-sdk",
+    "language": "Shell",
+    "pushed_at": "2025-10-23T12:05:45Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-01-29T11:28:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

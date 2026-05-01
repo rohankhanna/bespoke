@@ -9,13 +9,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PoseLib/PoseLib",
-      "target": "tsattler/ransaclib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "PoseLib/PoseLib",
       "target": "poselib/posebench",
@@ -71,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "PoseLib/PoseLib"
 }

@@ -19,6 +19,18 @@
       "source_repo": "priceline/design-system",
       "status": "candidate-context",
       "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate-context",
+      "text": ":atom_symbol: React primitive UI components built with styled-system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate-context",
+      "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "priceline/design-system",
       "status": "candidate",
       "text": "![Node.js CI](https://github.com/priceline/design-system/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate",
+      "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "priceline/design-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

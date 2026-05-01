@@ -84,7 +84,7 @@
   "normalized_form": "secret-leaks",
   "observation_id": "c1834efc37eee8fa",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Secret Leaks",
   "source_context_snippet": "Secret Leaks",
   "source_file": ".github/workflows/trufflehog.yml",

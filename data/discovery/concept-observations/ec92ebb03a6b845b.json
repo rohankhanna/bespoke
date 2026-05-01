@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Package to call Python functions from the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Test with system Python](https://github.com/JuliaPy/PyCall.jl/workflows/Test%20with%20system%20Python/badge.svg)](https://github.com/JuliaPy/PyCall.jl/actions?query=workflow%3A%22Test+with+system+Python%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Test with system Python](https://github.com/JuliaPy/PyCall.jl/workflows/Test%20with%20system%20Python/badge.svg)](https://github.com/JuliaPy/PyCall.jl/actions?query=workflow%3A%22Test+with+system+Python%22)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29830315,
+      "status": "candidate",
+      "text": "interop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29786368,
+      "status": "candidate",
+      "text": "interworking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29783896,
+      "status": "candidate",
+      "text": "interaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29782930,
+      "status": "candidate",
+      "text": "compatibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29781299,
+      "status": "candidate",
+      "text": "synergy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interoperability",
+      "sense_id": "interoperability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interoperability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interoperability",
+  "observation_id": "ec92ebb03a6b845b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "interoperability",
+  "source_context_snippet": "[![Test with system Python](https://github.com/JuliaPy/PyCall.jl/workflows/Test%20with%20system%20Python/badge.svg)](https://github.com/JuliaPy/PyCall.jl/actions?query=workflow%3A%22Test+with+system+Python%22)",
+  "source_file": null,
+  "source_repo": "JuliaPy/PyCall.jl",
+  "source_repo_description": "Package to call Python functions from the Julia language"
+}

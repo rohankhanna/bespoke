@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "exhaustive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039629,
+      "status": "candidate",
+      "text": "thoroughgoing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037354,
+      "status": "candidate",
+      "text": "thorough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028604,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039946,
+      "status": "candidate",
+      "text": "in-depth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039800,
+      "status": "candidate",
+      "text": "completeness"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "complete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21035,
+      "status": "candidate",
+      "text": "thorough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6028,
+      "status": "candidate",
+      "text": "thoroughgoing"
+    }
+  ],
+  "canonical_name": "exhaustive",
+  "concept_id": "exhaustive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "exhaustive",
+      "sense_id": "exhaustive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

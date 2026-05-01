@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "target": "huangying-zhan/kitti-odom-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jytime/Deep-SfM-Revisited",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:40.058894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3397
+    },
+    {
+      "path": "requirements.txt",
+      "size": 204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2021] Deep Two-View Structure-from-Motion Revisited",
+    "fork": false,
+    "full_name": "jytime/Deep-SfM-Revisited",
+    "html_url": "https://github.com/jytime/Deep-SfM-Revisited",
+    "language": "Python",
+    "pushed_at": "2024-04-23T23:30:17Z",
+    "stargazers_count": 188,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "structure-from-motion"
+    ],
+    "updated_at": "2026-04-17T03:34:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huangying-zhan/kitti-odom-eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository provides the code for our CVPR 2021 paper [Deep Two-View Structure-from-Motion Revisited](https://arxiv.org/abs/2104.00556).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    }
+  ]
+}

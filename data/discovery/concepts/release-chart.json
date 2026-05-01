@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Chart"
+    "Release Chart",
+    "release-chart"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "dunglas/mercure",
       "status": "candidate-context",
       "text": "Release Chart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux",
+      "status": "candidate-context",
+      "text": "Successor: https://github.com/fluxcd/flux2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux",
+      "status": "candidate-context",
+      "text": "release-chart"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "dunglas/mercure",
       "status": "candidate",
       "text": "Release Chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux",
+      "status": "candidate",
+      "text": "release-chart"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/cd-chart.yml",
       "source_repo": "dunglas/mercure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/chart-release.yml",
+      "source_repo": "fluxcd/flux"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml"
+    },
+    {
+      "component": "actions/stale@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-stale-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "azure-samples/cognitive-services-voice-assistant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "microsoft/cognitive-services-speech-sdk-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "microsoft/cognitive-services-speech-sdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "azure-samples/speech-service-actions-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "irongut/CodeCoverageSummary@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "Build Ingestion Client Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-stale-issues.yml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "actions/stale@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-stale-issues.yml",
+      "source_repo": "Azure-Samples/cognitive-services-speech-sdk",
+      "target": "label-stale-issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:31.836815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19612
+    },
+    {
+      "path": ".github/workflows/ingestion_client.yaml",
+      "size": 7828
+    },
+    {
+      "path": ".github/workflows/label-stale-issues.yml",
+      "size": 10524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample code for the Microsoft Cognitive Services Speech SDK",
+    "fork": false,
+    "full_name": "Azure-Samples/cognitive-services-speech-sdk",
+    "html_url": "https://github.com/Azure-Samples/cognitive-services-speech-sdk",
+    "language": "C#",
+    "pushed_at": "2026-04-20T17:35:53Z",
+    "stargazers_count": 3423,
+    "topics": [],
+    "updated_at": "2026-05-01T10:26:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/cognitive-services-voice-assistant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/speech-service-actions-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cognitive-services-speech-sdk-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cognitive-services-speech-sdk-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Ingestion Client Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ingestion_client.yaml",
+      "term": "Build Ingestion Client Binaries"
+    },
+    {
+      "context_snippet": "label-stale-issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-stale-issues.yml",
+      "term": "label-stale-issues"
+    }
+  ]
+}

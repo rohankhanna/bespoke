@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "olkb"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Open-source keyboard firmware for Atmel AVR and Arm USB families"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate",
+      "text": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "olkb",
+  "concept_id": "olkb",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "olkb",
+      "sense_id": "olkb#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

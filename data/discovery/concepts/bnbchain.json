@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bnbchain"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/whitepaper",
+      "status": "candidate-context",
+      "text": "BNB Smart Chain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/whitepaper",
+      "status": "candidate-context",
+      "text": "* Version 0.1, 2020/04/17, initial publish."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/whitepaper",
+      "status": "candidate",
+      "text": "* Version 0.1, 2020/04/17, initial publish."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bnbchain",
+  "concept_id": "bnbchain",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bnb-chain/whitepaper"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bnbchain",
+      "sense_id": "bnbchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

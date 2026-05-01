@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "webpack loader to extract HTML and CSS from the bundle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "extract-loader"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "extract-loader"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "extract-text-webpack-plugin",
+      "sense_id": "extract-text-webpack-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "extract-text-webpack-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "extract-text-webpack-plugin",
+  "observation_id": "8e92b2946b154b85",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "extract-text-webpack-plugin",
+  "source_context_snippet": "extract-loader",
+  "source_file": null,
+  "source_repo": "peerigon/extract-loader",
+  "source_repo_description": "webpack loader to extract HTML and CSS from the bundle"
+}

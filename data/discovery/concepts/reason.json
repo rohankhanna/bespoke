@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "reason"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasonml/reason",
+      "status": "candidate-context",
+      "text": "Simple, fast & type safe code that leverages the JavaScript & OCaml ecosystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasonml/reason",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasonml/reason",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://reasonml.github.io/img/reason.svg\" alt=\"logo\" width=\"316\" /></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991259,
+      "status": "candidate",
+      "text": "cause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989752,
+      "status": "candidate",
+      "text": "rationality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988698,
+      "status": "candidate",
+      "text": "understanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988540,
+      "status": "candidate",
+      "text": "reasonableness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986488,
+      "status": "candidate",
+      "text": "intellect"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39041,
+      "status": "candidate",
+      "text": "understanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23074,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22058,
+      "status": "candidate",
+      "text": "cause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13045,
+      "status": "candidate",
+      "text": "intellect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "conclude"
+    }
+  ],
+  "canonical_name": "reason",
+  "concept_id": "reason",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reasonml/reason"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reason",
+      "sense_id": "reason#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

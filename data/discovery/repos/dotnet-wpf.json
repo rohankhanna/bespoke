@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backportPRs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locker.yml"
+    },
+    {
+      "component": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/wpf",
+      "target": "dotnet/winforms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/wpf",
+      "target": "dotnet/wpf-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backportPRs.yml",
+      "source_repo": "dotnet/wpf",
+      "target": "dotnet/arcade/.github/workflows/backport-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backportPRs.yml",
+      "source_repo": "dotnet/wpf",
+      "target": "Backport PR to branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/locker.yml",
+      "source_repo": "dotnet/wpf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dotnet/wpf",
+      "target": "dotnet/arcade/.github/workflows/inter-branch-merge-base.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dotnet/wpf",
+      "target": "Inter-branch merge workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/wpf",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/wpf",
+      "target": "help-wanted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:09:23.030581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5983
+    },
+    {
+      "path": ".github/workflows/backportPRs.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/locker.yml",
+      "size": 1002
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WPF is a .NET Core UI framework for building Windows desktop applications.",
+    "fork": false,
+    "full_name": "dotnet/wpf",
+    "html_url": "https://github.com/dotnet/wpf",
+    "language": "C#",
+    "pushed_at": "2026-05-01T05:01:51Z",
+    "stargazers_count": 7626,
+    "topics": [
+      "dotnet",
+      "help-wanted",
+      "wpf"
+    ],
+    "updated_at": "2026-04-30T19:19:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/winforms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/wpf-test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport PR to branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backportPRs.yml",
+      "term": "Backport PR to branch"
+    },
+    {
+      "context_snippet": "Inter-branch merge workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Inter-branch merge workflow"
+    },
+    {
+      "context_snippet": "\ufeff# Windows Presentation Foundation (WPF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "\ufeff# Windows Presentation Foundation (WPF)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "help-wanted"
+    }
+  ]
+}

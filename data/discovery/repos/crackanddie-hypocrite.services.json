@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "apache/logging-log4net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "flexible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "loosely-coupled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "mvvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Hypocrite.Services",
+      "target": "theme-switcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:31.665305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easy localization, theme switching and other for WPF and Avalonia applications.",
+    "fork": false,
+    "full_name": "CrackAndDie/Hypocrite.Services",
+    "html_url": "https://github.com/CrackAndDie/Hypocrite.Services",
+    "language": "C#",
+    "pushed_at": "2025-07-17T11:55:04Z",
+    "stargazers_count": 7,
+    "topics": [
+      "avalonia",
+      "flexible",
+      "localization",
+      "logging",
+      "loosely-coupled",
+      "mvvm",
+      "prism",
+      "theme-switcher",
+      "wpf"
+    ],
+    "updated_at": "2026-01-03T14:49:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/logging-log4net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avalonia"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flexible"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loosely-coupled"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvvm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme-switcher"
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "@babel/preset-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "lint & typescript check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "npm Package Prerelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "npm Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "boilerplate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "redux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "redux-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:48:03.680332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2431
+    },
+    {
+      "path": "package.json",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/npm-publish-prerelease.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "size": 533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clean and minimalist React Native template for a quick start with Redux and TypeScript.",
+    "fork": false,
+    "full_name": "rahsheen/react-native-template-redux-typescript",
+    "html_url": "https://github.com/rahsheen/react-native-template-redux-typescript",
+    "language": "Java",
+    "pushed_at": "2023-12-15T11:38:46Z",
+    "stargazers_count": 84,
+    "topics": [
+      "boilerplate",
+      "hacktoberfest",
+      "react",
+      "react-native",
+      "redux",
+      "redux-toolkit",
+      "template",
+      "typescript"
+    ],
+    "updated_at": "2026-04-22T15:18:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "lint & typescript check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint & typescript check"
+    },
+    {
+      "context_snippet": "npm Package Prerelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish-prerelease.yml",
+      "term": "npm Package Prerelease"
+    },
+    {
+      "context_snippet": "npm Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "term": "npm Package"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boilerplate"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux-toolkit"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

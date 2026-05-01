@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:45:40.130466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Qubes Security Pack",
+    "fork": false,
+    "full_name": "QubesOS/qubes-secpack",
+    "html_url": "https://github.com/QubesOS/qubes-secpack",
+    "language": "Python",
+    "pushed_at": "2026-04-18T21:32:00Z",
+    "stargazers_count": 542,
+    "topics": [],
+    "updated_at": "2026-04-21T12:18:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

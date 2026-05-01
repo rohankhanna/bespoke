@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "JS bindings CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/rattler",
+      "status": "candidate-context",
+      "text": "Rust crates to work with the Conda ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/rattler",
+      "status": "candidate-context",
+      "text": "JS bindings CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/rattler",
+      "status": "candidate",
+      "text": "JS bindings CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10268,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10268,
+      "status": "candidate",
+      "text": "eagle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10268,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10268,
+      "status": "candidate",
+      "text": "insert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10268,
+      "status": "candidate",
+      "text": "pamphlet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "JS bindings CI",
+  "concept_id": "js-bindings-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/js-bindings.yml",
+      "source_repo": "conda/rattler"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JS bindings CI",
+      "sense_id": "js-bindings-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

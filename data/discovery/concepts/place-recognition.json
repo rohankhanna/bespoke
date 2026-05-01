@@ -43,6 +43,30 @@
       "source_repo": "gmberton/VPR-methods-evaluation",
       "status": "candidate-context",
       "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "MixVPR: Feature Mixing for Visual Place Recognition (WACV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "AnyLoc: Universal Visual Place Recognition (RA-L 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "gmberton/VPR-methods-evaluation",
       "status": "candidate",
       "text": "This repo allows you to easily test almost any SOTA VPR model within a minute."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "gmberton/VPR-methods-evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/MixVPR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AnyLoc/AnyLoc"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

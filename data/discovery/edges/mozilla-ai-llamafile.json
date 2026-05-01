@@ -4,21 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mozilla-ai/llamafile",
-      "target": "ggml-org/whisper.cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mozilla-ai/llamafile",
       "target": "ggerganov/llama.cpp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mozilla-ai/llamafile",
-      "target": "jart/cosmopolitan",
       "target_type": "repository"
     },
     {
@@ -111,8 +97,71 @@
       "source_repo": "mozilla-ai/llamafile",
       "target": "Update llama.cpp submodule",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "llama-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "local-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "local-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "local-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "open-source-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "single-file-executable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "speech-to-text",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T18:30:26.389736+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "mozilla-ai/llamafile"
 }

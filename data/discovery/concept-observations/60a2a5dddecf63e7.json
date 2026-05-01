@@ -84,7 +84,7 @@
   "normalized_form": "move-pr-to-draft",
   "observation_id": "60a2a5dddecf63e7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Move PR to Draft",
   "source_context_snippet": "Move PR to Draft",
   "source_file": ".github/workflows/DraftPR.yml",

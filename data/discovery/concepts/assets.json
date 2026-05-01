@@ -58,6 +58,18 @@
       "source_repo": "phoenixframework/phoenix",
       "status": "candidate-context",
       "text": "Assets"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assimp/assimp",
+      "status": "candidate-context",
+      "text": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assimp/assimp",
+      "status": "candidate-context",
+      "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "phoenixframework/phoenix",
       "status": "candidate",
       "text": "Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assimp/assimp",
+      "status": "candidate",
+      "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -157,11 +175,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/assets.yml",
       "source_repo": "phoenixframework/phoenix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "assimp/assimp"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

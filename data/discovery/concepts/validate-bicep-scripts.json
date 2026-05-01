@@ -55,6 +55,18 @@
       "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
       "status": "candidate-context",
       "text": "Validate bicep scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "status": "candidate-context",
+      "text": "A simple chat application that integrates Microsoft Entra ID for user authentication. Designed for deployment on Azure Container Apps with the Azure Developer CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
+      "status": "candidate-context",
+      "text": "Validate bicep scripts"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs",
+      "status": "candidate",
+      "text": "Validate bicep scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local",
       "status": "candidate",
       "text": "Validate bicep scripts"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/azure-bicep-validate.yaml",
       "source_repo": "Azure-Samples/openai-chat-frontend-vanillajs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/azure-bicep-validate.yaml",
+      "source_repo": "Azure-Samples/openai-chat-app-entra-auth-local"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

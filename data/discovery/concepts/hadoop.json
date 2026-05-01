@@ -67,6 +67,18 @@
       "source_repo": "apache/ignite",
       "status": "candidate-context",
       "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "apache/ignite",
       "status": "candidate",
       "text": "<a href=\"https://ignite.apache.org/\"><img src=\"https://github.com/apache/ignite-website/blob/master/assets/images/apache_ignite_logo.svg\" hspace=\"20\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "apache/ignite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-3"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -91,6 +91,18 @@
       "source_repo": "source-foundry/Hack",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate-context",
+      "text": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "source-foundry/Hack",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/source-foundry/hack.svg?style=flat)](https://github.com/source-foundry/Hack/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai",
+      "status": "candidate",
+      "text": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08"
     }
   ],
   "candidate_related_terms": [
@@ -242,11 +260,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "source-foundry/Hack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenKai"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

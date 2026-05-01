@@ -306,28 +306,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/echarts",
-      "target": "ecomfe/awesome-echarts",
+      "target": "ecomfe/zrender",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/echarts",
-      "target": "ecomfe/echarts-gl",
+      "target": "ecomfe/echarts-wordcloud",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apache/echarts",
-      "target": "ecomfe/echarts-liquidfill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/echarts",
-      "target": "ecomfe/echarts-stat",
+      "target": "ecomfe/vue-echarts",
       "target_type": "repository"
     },
     {
@@ -807,7 +800,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:58:28.534313+00:00",
+  "fetched_at": "2026-05-01T13:48:40.192419+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -860,7 +853,7 @@
     "html_url": "https://github.com/apache/echarts",
     "language": "TypeScript",
     "pushed_at": "2026-04-29T20:33:59Z",
-    "stargazers_count": 66246,
+    "stargazers_count": 66252,
     "topics": [
       "apache",
       "canvas",
@@ -872,27 +865,22 @@
       "svg",
       "visualization"
     ],
-    "updated_at": "2026-04-30T18:17:59Z"
+    "updated_at": "2026-05-01T12:47:23Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ecomfe/awesome-echarts",
+      "full_name": "ecomfe/echarts-wordcloud",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ecomfe/echarts-gl",
+      "full_name": "ecomfe/vue-echarts",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ecomfe/echarts-liquidfill",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ecomfe/echarts-stat",
+      "full_name": "ecomfe/zrender",
       "source_file": "README.md"
     }
   ],

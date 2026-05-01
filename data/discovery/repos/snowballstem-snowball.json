@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1.7.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mlugg/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "hendrikmuhs/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "dart-lang/setup-dart@v1.7.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runtime-tests.yml",
+      "source_repo": "snowballstem/snowball",
+      "target": "Runtime tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:50:11.341405+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3566
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10012
+    },
+    {
+      "path": ".github/workflows/runtime-tests.yml",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Snowball compiler and stemming algorithms",
+    "fork": false,
+    "full_name": "snowballstem/snowball",
+    "html_url": "https://github.com/snowballstem/snowball",
+    "language": "C",
+    "pushed_at": "2026-05-01T09:05:39Z",
+    "stargazers_count": 853,
+    "topics": [],
+    "updated_at": "2026-05-01T09:05:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Runtime tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runtime-tests.yml",
+      "term": "Runtime tests"
+    }
+  ]
+}

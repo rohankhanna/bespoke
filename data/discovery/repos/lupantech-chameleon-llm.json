@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/chameleon-llm",
+      "target": "lupantech/promptpg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/chameleon-llm",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/chameleon-llm",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lupantech/chameleon-llm",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:02.048336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17245
+    },
+    {
+      "path": "requirements.txt",
+      "size": 124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Codes for \"Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models\".",
+    "fork": false,
+    "full_name": "lupantech/chameleon-llm",
+    "html_url": "https://github.com/lupantech/chameleon-llm",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-23T03:36:42Z",
+    "stargazers_count": 1139,
+    "topics": [
+      "ai",
+      "chatgpt",
+      "gpt-4",
+      "llm",
+      "openai",
+      "python",
+      "tool"
+    ],
+    "updated_at": "2026-04-11T21:46:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lupantech/promptpg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

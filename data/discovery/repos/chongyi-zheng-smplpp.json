@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "quantstack/xtensor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "yeecy/smplpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "graphics-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "human-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "shape-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "target": "smpl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:07.975898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ Implementation of SMPL: A Skinned Multi-Person Linear Model",
+    "fork": false,
+    "full_name": "chongyi-zheng/SMPLpp",
+    "html_url": "https://github.com/chongyi-zheng/SMPLpp",
+    "language": "C++",
+    "pushed_at": "2022-11-18T21:17:55Z",
+    "stargazers_count": 283,
+    "topics": [
+      "cpp",
+      "graphics-3d",
+      "human-modeling",
+      "pose-estimation",
+      "shape-detection",
+      "smpl"
+    ],
+    "updated_at": "2026-04-24T18:40:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quantstack/xtensor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeecy/smplpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-3d"
+    },
+    {
+      "context_snippet": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-modeling"
+    },
+    {
+      "context_snippet": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shape-detection"
+    },
+    {
+      "context_snippet": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl"
+    }
+  ]
+}

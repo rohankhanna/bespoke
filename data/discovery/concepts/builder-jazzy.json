@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Builder Jazzy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qiayuanl/unitree_buildfarm",
+      "status": "candidate-context",
+      "text": "Builder Jazzy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qiayuanl/unitree_buildfarm",
+      "status": "candidate",
+      "text": "Builder Jazzy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10652,
+      "status": "candidate",
+      "text": "papaveraceous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10541,
+      "status": "candidate",
+      "text": "glad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10529,
+      "status": "candidate",
+      "text": "strut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "dave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10473,
+      "status": "candidate",
+      "text": "lena"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Builder Jazzy",
+  "concept_id": "builder-jazzy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build_jazzy.yml",
+      "source_repo": "qiayuanl/unitree_buildfarm"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Builder Jazzy",
+      "sense_id": "builder-jazzy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

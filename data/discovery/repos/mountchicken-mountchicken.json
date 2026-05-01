@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mountchicken/Mountchicken",
+      "target": "idea-research/rex-thinker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mountchicken/Mountchicken",
+      "target": "idea-research/chatrex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mountchicken/Mountchicken",
+      "target": "mountchicken/resophy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mountchicken/Mountchicken",
+      "target": "hciilab/scene-text-recognition-recommendations",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:39:58.771936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Mountchicken/Mountchicken",
+    "html_url": "https://github.com/Mountchicken/Mountchicken",
+    "language": null,
+    "pushed_at": "2026-01-13T05:05:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-13T05:05:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hciilab/scene-text-recognition-recommendations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/chatrex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/rex-thinker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mountchicken/resophy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

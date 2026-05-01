@@ -45,6 +45,30 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate-context",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate-context",
+      "text": "Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate-context",
+      "text": "stable"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "stable"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +89,18 @@
       "source_repo": "matrix-org/matrix-appservice-slack",
       "status": "candidate",
       "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate",
+      "text": "stable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "stable"
     }
   ],
   "candidate_related_terms": [
@@ -162,11 +198,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "sophus-vision/sophus-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

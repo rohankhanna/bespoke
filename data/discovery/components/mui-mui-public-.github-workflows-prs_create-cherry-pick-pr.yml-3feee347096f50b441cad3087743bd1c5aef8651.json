@@ -1,0 +1,12 @@
+{
+  "component": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-cherry-pick-pr.yml",
+      "source_repo": "mui/material-ui"
+    }
+  ]
+}

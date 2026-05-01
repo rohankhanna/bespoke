@@ -61,20 +61,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "datalab-to/surya",
-      "target": "htr-united/tapuscorpus",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "datalab-to/surya",
-      "target": "mit-han-lab/efficientvit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "datalab-to/surya",
       "target": "vikparuchuri/surya",
@@ -179,7 +165,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:14:58.474975+00:00",
+  "fetched_at": "2026-05-01T13:49:39.723931+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -225,16 +211,6 @@
     "updated_at": "2026-04-30T21:03:47Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "htr-united/tapuscorpus",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/efficientvit",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "vikparuchuri/surya",

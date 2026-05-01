@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim",
+      "target": "continuous-integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:11.368813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 260
+    },
+    {
+      "path": ".github/workflows/continuous_integration.yml",
+      "size": 2594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recipe for building OpenSim 4.4+ conda packages",
+    "fork": false,
+    "full_name": "opensim-org/conda-opensim",
+    "html_url": "https://github.com/opensim-org/conda-opensim",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-23T19:51:23Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-02-26T20:00:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "continuous-integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "term": "continuous-integration"
+    }
+  ]
+}

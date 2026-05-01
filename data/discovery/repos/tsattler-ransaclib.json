@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsattler/RansacLib",
+      "target": "vlarsson/poselib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsattler/RansacLib",
+      "target": "tsattler/vps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tsattler/RansacLib",
+      "target": "vlarsson/radialpose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:58.058920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template-based implementation of RANSAC and its variants in C++",
+    "fork": false,
+    "full_name": "tsattler/RansacLib",
+    "html_url": "https://github.com/tsattler/RansacLib",
+    "language": "C++",
+    "pushed_at": "2023-08-31T15:25:26Z",
+    "stargazers_count": 383,
+    "topics": [],
+    "updated_at": "2026-03-31T13:50:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsattler/vps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vlarsson/poselib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vlarsson/radialpose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

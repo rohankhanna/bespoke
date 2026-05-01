@@ -84,7 +84,7 @@
   "normalized_form": "claude-link-review",
   "observation_id": "25c224bef170a323",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Claude Link Review",
   "source_context_snippet": "Claude Link Review",
   "source_file": ".github/workflows/claude-link-review.yml",

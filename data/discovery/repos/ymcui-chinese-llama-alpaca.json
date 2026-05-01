@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "imartinez/privategpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "alpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "alpaca-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "llama-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "pre-trained-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:45:48.039382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22995
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b+\u672c\u5730CPU/GPU\u8bad\u7ec3\u90e8\u7f72 (Chinese LLaMA & Alpaca LLMs)",
+    "fork": false,
+    "full_name": "ymcui/Chinese-LLaMA-Alpaca",
+    "html_url": "https://github.com/ymcui/Chinese-LLaMA-Alpaca",
+    "language": "Python",
+    "pushed_at": "2026-04-19T00:58:05Z",
+    "stargazers_count": 18947,
+    "topics": [
+      "alpaca",
+      "alpaca-2",
+      "large-language-models",
+      "llama",
+      "llama-2",
+      "llm",
+      "lora",
+      "nlp",
+      "plm",
+      "pre-trained-language-models",
+      "quantization"
+    ],
+    "updated_at": "2026-04-29T14:22:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imartinez/privategpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca-2"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-2"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-language-models"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

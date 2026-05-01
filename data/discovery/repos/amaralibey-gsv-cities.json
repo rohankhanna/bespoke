@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "image-based-localisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "metric-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "visual-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities",
+      "target": "visual-place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:38:00.229178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8015
+    },
+    {
+      "path": "requirements.txt",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GSV-Cities: a large-scale dataset for visual place recognition",
+    "fork": false,
+    "full_name": "amaralibey/gsv-cities",
+    "html_url": "https://github.com/amaralibey/gsv-cities",
+    "language": "Python",
+    "pushed_at": "2024-07-03T07:13:16Z",
+    "stargazers_count": 134,
+    "topics": [
+      "computer-vision",
+      "dataset",
+      "deep-learning",
+      "image-based-localisation",
+      "image-retrieval",
+      "metric-learning",
+      "visual-localization",
+      "visual-place-recognition"
+    ],
+    "updated_at": "2026-04-28T14:08:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-based-localisation"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-learning"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-localization"
+    },
+    {
+      "context_snippet": "Official repo for *Neurocomputing 2022* paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-place-recognition"
+    }
+  ]
+}

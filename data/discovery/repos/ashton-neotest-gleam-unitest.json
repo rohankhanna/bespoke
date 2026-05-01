@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "maxdeviant/unitest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "gleam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "gleam-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "neotest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "neotest-adapter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "test-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:37:10.253085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neotest adapter for unitest test runner of Gleam lang",
+    "fork": false,
+    "full_name": "ashton/neotest-gleam-unitest",
+    "html_url": "https://github.com/ashton/neotest-gleam-unitest",
+    "language": "Lua",
+    "pushed_at": "2026-04-09T20:27:40Z",
+    "stargazers_count": 0,
+    "topics": [
+      "gleam",
+      "gleam-lang",
+      "neotest",
+      "neotest-adapter",
+      "test",
+      "test-automation",
+      "testing",
+      "testing-tools"
+    ],
+    "updated_at": "2026-04-09T20:42:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxdeviant/unitest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gleam"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gleam-lang"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neotest-adapter"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-automation"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

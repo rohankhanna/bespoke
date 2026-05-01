@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:46:53.308125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Presskit for Prisma",
+    "fork": false,
+    "full_name": "prisma/presskit",
+    "html_url": "https://github.com/prisma/presskit",
+    "language": null,
+    "pushed_at": "2025-06-12T13:27:23Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-12-05T09:20:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

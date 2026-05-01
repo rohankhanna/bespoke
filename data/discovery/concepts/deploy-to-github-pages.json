@@ -332,6 +332,66 @@
       "source_repo": "microsoft/generative-ai-with-javascript",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Facebook Open Switching System\n\nSoftware for controlling network switches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "C++ and Python library for farm-ng logging format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esy/esy",
+      "status": "candidate-context",
+      "text": "package.json workflow for native development with Reason/OCaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esy/esy",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate-context",
+      "text": "Object-based searching. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "8 Lessons, Kick-start Your Cybersecurity Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -500,6 +560,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/fboss",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "farm-ng/farm-ng-core",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esy/esy",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "activerecord-hackery/ransack",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -779,11 +869,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "microsoft/generative-ai-with-javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/github-pages-deploy.yml",
+      "source_repo": "facebook/fboss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "farm-ng/farm-ng-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "esy/esy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "activerecord-hackery/ransack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "microsoft/Security-101"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

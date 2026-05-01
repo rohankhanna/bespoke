@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "arduino uno"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "opencores"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "fritzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "marlin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "open-source hardware"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arduino",
+      "sense_id": "arduino#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arduino",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arduino",
+  "observation_id": "f0d246935aeab8f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "arduino",
+  "source_context_snippet": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which",
+  "source_file": null,
+  "source_repo": "f32c/f32c",
+  "source_repo_description": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+}

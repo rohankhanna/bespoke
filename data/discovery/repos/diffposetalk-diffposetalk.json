@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiffPoseTalk/DiffPoseTalk",
+      "target": "3d-facial-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiffPoseTalk/DiffPoseTalk",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiffPoseTalk/DiffPoseTalk",
+      "target": "facial-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiffPoseTalk/DiffPoseTalk",
+      "target": "speech-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DiffPoseTalk/DiffPoseTalk",
+      "target": "talking-head",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:11.988505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DiffPoseTalk: Speech-Driven Stylistic 3D Facial Animation and Head Pose Generation via Diffusion Models",
+    "fork": false,
+    "full_name": "DiffPoseTalk/DiffPoseTalk",
+    "html_url": "https://github.com/DiffPoseTalk/DiffPoseTalk",
+    "language": "Python",
+    "pushed_at": "2025-03-11T09:57:06Z",
+    "stargazers_count": 350,
+    "topics": [
+      "3d-facial-animation",
+      "diffusion-models",
+      "facial-animation",
+      "speech-driven",
+      "talking-head"
+    ],
+    "updated_at": "2026-04-17T09:08:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-facial-animation"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facial-animation"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-driven"
+    },
+    {
+      "context_snippet": "<a href='https://arxiv.org/abs/2310.00434/'><img alt=\"arXiv\" src=\"https://img.shields.io/badge/arXiv-2310.00434-red?link=https%3A%2F%2Farxiv.org%2Fabs%2F2310.00434\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-head"
+    }
+  ]
+}

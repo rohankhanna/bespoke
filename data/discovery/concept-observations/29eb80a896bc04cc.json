@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ed25519",
+      "sense_id": "ed25519#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ed25519",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ed25519",
+  "observation_id": "29eb80a896bc04cc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "ed25519",
+  "source_context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+  "source_file": null,
+  "source_repo": "cloudflare/circl",
+  "source_repo_description": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+}

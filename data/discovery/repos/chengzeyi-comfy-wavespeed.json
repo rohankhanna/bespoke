@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzeyi/Comfy-WaveSpeed",
+      "target": "wasasquatch/freeu_advanced",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chengzeyi/Comfy-WaveSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chengzeyi/Comfy-WaveSpeed",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chengzeyi/Comfy-WaveSpeed",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:52.361309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6495
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/publish_action.yml",
+      "size": 556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "https://wavespeed.ai/ [WIP] The all in one inference optimization solution for ComfyUI, universal, flexible, and fast.",
+    "fork": false,
+    "full_name": "chengzeyi/Comfy-WaveSpeed",
+    "html_url": "https://github.com/chengzeyi/Comfy-WaveSpeed",
+    "language": "Python",
+    "pushed_at": "2025-08-02T14:24:30Z",
+    "stargazers_count": 1229,
+    "topics": [],
+    "updated_at": "2026-04-30T04:30:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wasasquatch/freeu_advanced",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

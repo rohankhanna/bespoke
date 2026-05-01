@@ -715,6 +715,18 @@
       "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
       "status": "candidate-context",
       "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "status": "candidate-context",
+      "text": "A curated list of awesome WebdriverIO resources, libraries and tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1065,6 +1077,12 @@
       "source_repo": "chaofengc/Awesome-Image-Quality-Assessment",
       "status": "candidate",
       "text": "A comprehensive collection of IQA papers, datasets and codes. We also provide PyTorch implementations of mainstream metrics in [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1510,11 +1528,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chaofengc/Awesome-Image-Quality-Assessment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/awesome-webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/vscode-config-template",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyterlab/vscode-config-template",
+      "target": "jupyterlab/maintainer-tools/.github/actions/base-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/vscode-config-template",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/vscode-config-template",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:40.541479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2017
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A copier template for creating the IDE config needed to debug the Python and Typescript code in any Jupyter project",
+    "fork": false,
+    "full_name": "jupyterlab/vscode-config-template",
+    "html_url": "https://github.com/jupyterlab/vscode-config-template",
+    "language": "Dockerfile",
+    "pushed_at": "2023-07-11T13:47:52Z",
+    "stargazers_count": 8,
+    "topics": [
+      "jupyterlab",
+      "template"
+    ],
+    "updated_at": "2024-08-15T15:59:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "A [copier](https://copier.readthedocs.io/en/stable/) template for creating",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

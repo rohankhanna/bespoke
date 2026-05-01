@@ -1,0 +1,433 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "Build and test the operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "Generated code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "Validation, verifications, and lints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "Publish latest operator build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "argocd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "kubernetes-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-operator",
+      "target": "operator-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:35:13.147225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1310
+    },
+    {
+      "path": "Dockerfile",
+      "size": 928
+    },
+    {
+      "path": "go.mod",
+      "size": 12775
+    },
+    {
+      "path": ".github/workflows/ci-build.yaml",
+      "size": 6549
+    },
+    {
+      "path": ".github/workflows/codegen.yaml",
+      "size": 1713
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 1418
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Kubernetes operator for managing Argo CD clusters.",
+    "fork": false,
+    "full_name": "argoproj-labs/argocd-operator",
+    "html_url": "https://github.com/argoproj-labs/argocd-operator",
+    "language": "Go",
+    "pushed_at": "2026-05-01T03:04:15Z",
+    "stargazers_count": 859,
+    "topics": [
+      "argocd",
+      "go",
+      "golang",
+      "kubernetes",
+      "kubernetes-operator",
+      "openshift",
+      "operator",
+      "operator-sdk"
+    ],
+    "updated_at": "2026-05-01T03:04:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test the operator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "term": "Build and test the operator"
+    },
+    {
+      "context_snippet": "Generated code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yaml",
+      "term": "Generated code"
+    },
+    {
+      "context_snippet": "\"Validation, verifications, and lints\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Validation, verifications, and lints"
+    },
+    {
+      "context_snippet": "Publish latest operator build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish latest operator build"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argocd"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operator"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/argoproj-labs/argocd-operator.svg?branch=master)](https://travis-ci.org/argoproj-labs/argocd-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator-sdk"
+    }
+  ]
+}

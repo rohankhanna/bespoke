@@ -271,6 +271,42 @@
       "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "Collection of robot models compatible with gym-ignition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "10 differentiable physical simulators built with Taichi differentiable programming (DiffTaichi, ICLR 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "status": "candidate-context",
+      "text": "MICCAI 2023 code for the paper: Feature-Conditioned Cascaded Video Diffusion Models for Precise Echocardiogram Synthesis. EchoDiffusion is a collection of video diffusion models trained from scratch on the EchoNet-Dynamic dataset with the imagen-pytorch repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +441,24 @@
       "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/InteractiveComputerGraphics/SPlisHSPlasH/master/doc/images/logo.jpg\" width=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "status": "candidate",
+      "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +724,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "InteractiveComputerGraphics/SPlisHSPlasH"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gym-ignition-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

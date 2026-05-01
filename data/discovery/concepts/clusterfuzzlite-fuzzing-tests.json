@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ClusterFuzzLite fuzzing tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate-context",
+      "text": "Boilerplate application for Ledger devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite fuzzing tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "status": "candidate",
+      "text": "ClusterFuzzLite fuzzing tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "fuzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "kiwi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ClusterFuzzLite fuzzing tests",
+  "concept_id": "clusterfuzzlite-fuzzing-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/clusterfuzzlite.yml",
+      "source_repo": "LedgerHQ/app-boilerplate"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClusterFuzzLite fuzzing tests",
+      "sense_id": "clusterfuzzlite-fuzzing-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

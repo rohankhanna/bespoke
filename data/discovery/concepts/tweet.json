@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "tweet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-app/carbon",
+      "status": "candidate-context",
+      "text": ":black_heart: Create and share beautiful images of your source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-app/carbon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-app/carbon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39550318,
+      "status": "candidate",
+      "text": "twitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39546194,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39492229,
+      "status": "candidate",
+      "text": "pinch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39482905,
+      "status": "candidate",
+      "text": "twinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39480209,
+      "status": "candidate",
+      "text": "vellicate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39034,
+      "status": "candidate",
+      "text": "twinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26026,
+      "status": "candidate",
+      "text": "vellicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21054,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17048,
+      "status": "candidate",
+      "text": "pinch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9042,
+      "status": "candidate",
+      "text": "twitch"
+    }
+  ],
+  "canonical_name": "tweet",
+  "concept_id": "tweet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "carbon-app/carbon"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tweet",
+      "sense_id": "tweet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -835,6 +835,30 @@
       "source_repo": "hadolint/language-docker",
       "status": "candidate-context",
       "text": "[![Build Status][actions-img]][actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "The Julia compiler frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akoumjian/datefinder",
+      "status": "candidate-context",
+      "text": "Find dates inside text using Python and get back datetime objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoumjian/datefinder",
+      "status": "candidate-context",
+      "text": "datefinder - extract dates from text"
     }
   ],
   "candidate_glosses": [
@@ -1251,6 +1275,18 @@
       "source_repo": "hadolint/language-docker",
       "status": "candidate",
       "text": "[![Build Status][actions-img]][actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoumjian/datefinder",
+      "status": "candidate",
+      "text": "datefinder - extract dates from text"
     }
   ],
   "candidate_related_terms": [
@@ -1744,11 +1780,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hadolint/language-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/JuliaSyntax.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "akoumjian/datefinder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

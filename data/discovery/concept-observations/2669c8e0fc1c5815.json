@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "gumroad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "creator economy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "skimlinks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "openweb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "bandzoogle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "patreon",
+      "sense_id": "patreon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "patreon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "patreon",
+  "observation_id": "2669c8e0fc1c5815",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "patreon",
+  "source_context_snippet": "FROM gcc:1.5.1.0 RUN apt-get update \\ apt-get install --no-install-recommends -y ninja-build cmake zlib1g-dev WORKDIR /app COPY . . RUN mkdir build && cd build && \\ cmake -G 'Ninja' \\ -DCMAKE_BUILD_TYPE=Release \\ -DASSIMP_BUILD_ASSIMP_TOOLS=ON \\ .. && \\ ninja -j4 && ninja instal\u2026",
+  "source_file": null,
+  "source_repo": "assimp/assimp",
+  "source_repo_description": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure. "
+}

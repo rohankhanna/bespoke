@@ -247,6 +247,54 @@
       "source_repo": "valyala/quicktemplate",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sipin/gorazor",
+      "status": "candidate-context",
+      "text": "Razor view engine for go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sipin/gorazor",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/sipin/gorazor?v=1)](https://goreportcard.com/report/github.com/sipin/gorazor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "valyala/fasttemplate",
+      "status": "candidate-context",
+      "text": "Simple and fast template engine for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasttemplate",
+      "status": "candidate-context",
+      "text": "fasttemplate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "A low-level, lightweight protocol buffers implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate-context",
+      "text": "A package that provides registrations and resolves of services and other shite in the fast and lightweight container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +417,30 @@
       "source_repo": "valyala/quicktemplate",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/valyala/quicktemplate.svg)](https://travis-ci.org/valyala/quicktemplate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sipin/gorazor",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/sipin/gorazor?v=1)](https://goreportcard.com/report/github.com/sipin/gorazor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "valyala/fasttemplate",
+      "status": "candidate",
+      "text": "fasttemplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrackAndDie/Abdrakov.Container",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -586,11 +658,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "valyala/quicktemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sipin/gorazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "valyala/fasttemplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/pbf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CrackAndDie/Abdrakov.Container"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

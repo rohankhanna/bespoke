@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackwaly/ocamlearlybird",
+      "target": "debug-adapter-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackwaly/ocamlearlybird",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackwaly/ocamlearlybird",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:47.368747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3213
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OCaml debug adapter",
+    "fork": false,
+    "full_name": "hackwaly/ocamlearlybird",
+    "html_url": "https://github.com/hackwaly/ocamlearlybird",
+    "language": "OCaml",
+    "pushed_at": "2026-04-25T08:25:57Z",
+    "stargazers_count": 235,
+    "topics": [
+      "debug-adapter-protocol",
+      "debugger",
+      "ocaml"
+    ],
+    "updated_at": "2026-04-27T21:53:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug-adapter-protocol"
+    },
+    {
+      "context_snippet": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

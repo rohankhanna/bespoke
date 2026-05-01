@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "@builder.io/mitosis-repo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "@builder.io/mitosis-repo"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045820,
+      "status": "candidate",
+      "text": "declaratory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044497,
+      "status": "candidate",
+      "text": "indicative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041315,
+      "status": "candidate",
+      "text": "asserting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037332,
+      "status": "candidate",
+      "text": "indicative mood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046073,
+      "status": "candidate",
+      "text": "common mood"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "declarative",
+      "sense_id": "declarative#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8034,
+      "status": "candidate",
+      "text": "indicative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7018,
+      "status": "candidate",
+      "text": "asserting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3026,
+      "status": "candidate",
+      "text": "declaratory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2013,
+      "status": "candidate",
+      "text": "indicative mood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1011,
+      "status": "candidate",
+      "text": "declarative mood"
+    }
+  ],
+  "concept_id": "declarative",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "declarative",
+  "observation_id": "11e2eef5de6e9bdb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "declarative",
+  "source_context_snippet": "@builder.io/mitosis-repo",
+  "source_file": null,
+  "source_repo": "BuilderIO/mitosis",
+  "source_repo_description": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+}

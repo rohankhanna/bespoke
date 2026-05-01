@@ -147,6 +147,18 @@
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
       "status": "candidate-context",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aifoundry-org/riscv-gnu-toolchain",
+      "status": "candidate-context",
+      "text": "GNU toolchain for RISC-V, including GCC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aifoundry-org/riscv-gnu-toolchain",
+      "status": "candidate-context",
+      "text": "Nightly Release"
     }
   ],
   "candidate_glosses": [
@@ -219,6 +231,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aifoundry-org/riscv-gnu-toolchain",
       "status": "candidate",
       "text": "Nightly Release"
     }
@@ -378,11 +396,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/release_nightly.yml",
       "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release_nightly.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/nightly-release.yaml",
+      "source_repo": "aifoundry-org/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/nightly_release.yml",
+      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -175,6 +175,42 @@
       "source_repo": "f4pga/prjxray-db",
       "status": "candidate-context",
       "text": "[TOC]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate-context",
+      "text": "Build Customized FPGA Implementations for Vivado"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate-context",
+      "text": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f32c/f32c",
+      "status": "candidate-context",
+      "text": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/f32c",
+      "status": "candidate-context",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "f32c/tools",
+      "status": "candidate-context",
+      "text": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/tools",
+      "status": "candidate-context",
+      "text": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "f4pga/prjxray-db",
       "status": "candidate",
       "text": "[TOC]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xilinx/RapidWright",
+      "status": "candidate",
+      "text": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/f32c",
+      "status": "candidate",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "f32c/tools",
+      "status": "candidate",
+      "text": "ULX2S / ULX3S FPGA JTAG programmer & tools (Lattice XP2 / ECP5)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +442,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "f4pga/prjxray-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f4pga/prjxray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Xilinx/RapidWright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f32c/f32c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f32c/tools"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

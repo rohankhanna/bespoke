@@ -43,6 +43,18 @@
       "source_repo": "csstree/stylelint-validator",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hudochenkov/stylelint-order",
+      "status": "candidate-context",
+      "text": "A plugin pack of order related linting rules for Stylelint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/stylelint-order",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "csstree/stylelint-validator",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/stylelint-csstree-validator.svg)](https://www.npmjs.com/package/stylelint-csstree-validator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hudochenkov/stylelint-order",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-img]][npm] [![npm downloads last month][npm-downloads-img]][npm]"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +142,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "csstree/stylelint-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hudochenkov/stylelint-order"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

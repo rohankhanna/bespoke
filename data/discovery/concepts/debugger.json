@@ -259,6 +259,30 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "Mirror of https://codeberg.org/mfussenegger/nvim-dap-python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate-context",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate-context",
+      "text": "OCaml debug adapter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate-context",
+      "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "winsiderss/systeminformer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nvim-dap-python",
+      "status": "candidate",
+      "text": "An extension for [nvim-dap][1] providing default configurations for python and methods to debug individual test methods or classes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackwaly/ocamlearlybird",
+      "status": "candidate",
+      "text": "[![ci workflow status](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml/badge.svg)](https://github.com/hackwaly/ocamlearlybird/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +634,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nvim-dap-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hackwaly/ocamlearlybird"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

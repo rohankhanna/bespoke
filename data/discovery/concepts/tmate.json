@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tmate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "commercialhaskell/stack",
+      "status": "candidate-context",
+      "text": "The Haskell Tool Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commercialhaskell/stack",
+      "status": "candidate-context",
+      "text": "tmate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commercialhaskell/stack",
+      "status": "candidate",
+      "text": "tmate"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tmate",
+  "concept_id": "tmate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tmate.yml",
+      "source_repo": "commercialhaskell/stack"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tmate",
+      "sense_id": "tmate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

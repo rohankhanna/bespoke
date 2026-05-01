@@ -90,7 +90,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "sveltejs/devalue",
-      "target": "knorpelsenf/oson",
+      "target": "marcello3d/node-tosource",
       "target_type": "repository"
     },
     {
@@ -206,11 +206,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:51:34.161833+00:00",
+  "fetched_at": "2026-05-01T12:46:11.488608+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6362
+      "size": 6896
     },
     {
       "path": "package.json",
@@ -234,10 +234,10 @@
     "full_name": "sveltejs/devalue",
     "html_url": "https://github.com/sveltejs/devalue",
     "language": "JavaScript",
-    "pushed_at": "2026-04-29T18:06:03Z",
-    "stargazers_count": 2730,
+    "pushed_at": "2026-04-30T21:47:01Z",
+    "stargazers_count": 2729,
     "topics": [],
-    "updated_at": "2026-04-30T05:49:13Z"
+    "updated_at": "2026-05-01T04:11:13Z"
   },
   "repo_links": [
     {
@@ -257,7 +257,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "knorpelsenf/oson",
+      "full_name": "marcello3d/node-tosource",
       "source_file": "README.md"
     }
   ],

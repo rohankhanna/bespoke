@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "code-smells",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "design-smells",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "object-oriented-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tushartushar/DesigniteJava",
+      "target": "technical-debt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:48:38.560134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3421
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Detects smells and computes metrics of Java code",
+    "fork": false,
+    "full_name": "tushartushar/DesigniteJava",
+    "html_url": "https://github.com/tushartushar/DesigniteJava",
+    "language": "Java",
+    "pushed_at": "2025-03-21T21:41:00Z",
+    "stargazers_count": 191,
+    "topics": [
+      "code-smells",
+      "design-smells",
+      "java",
+      "metrics",
+      "object-oriented-metrics",
+      "technical-debt"
+    ],
+    "updated_at": "2026-04-12T06:01:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-smells"
+    },
+    {
+      "context_snippet": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-smells"
+    },
+    {
+      "context_snippet": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-oriented-metrics"
+    },
+    {
+      "context_snippet": "DesigniteJava is a code quality assessment tool for code written in Java. It detects numerous design and implementation smells. It also computes many commonly used object-oriented metrics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technical-debt"
+    }
+  ]
+}

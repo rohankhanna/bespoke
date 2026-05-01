@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:53:39.428393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "P-H-C/phc-string-format",
+    "html_url": "https://github.com/P-H-C/phc-string-format",
+    "language": "C",
+    "pushed_at": "2025-01-22T14:27:29Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-04-13T23:56:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

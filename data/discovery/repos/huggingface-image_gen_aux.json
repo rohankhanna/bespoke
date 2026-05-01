@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/image_gen_aux",
+      "target": "zhengchen1999/dat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/image_gen_aux",
+      "target": "xavysp/teed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:10.427882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2452
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Set of auxiliary tools to use with image and video generation libaries. Mainly created to be used with diffusers",
+    "fork": false,
+    "full_name": "huggingface/image_gen_aux",
+    "html_url": "https://github.com/huggingface/image_gen_aux",
+    "language": "Python",
+    "pushed_at": "2026-02-17T19:17:23Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-04-02T01:02:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xavysp/teed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengchen1999/dat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

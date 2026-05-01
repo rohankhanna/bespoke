@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos/awesome-cocos",
+      "target": "cocos/cocos-example-cartoon-vegetation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos/awesome-cocos",
+      "target": "cocos/cocos-example-dark-slash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos/awesome-cocos",
+      "target": "cocos-creator/cocos-tutorial-hot-update",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cocos/awesome-cocos",
+      "target": "cocos/cocos-example-ball",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:39:48.013999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a1\ufe0f Delightful Cocos Creator show cases, utilities, documents and more!",
+    "fork": false,
+    "full_name": "cocos/awesome-cocos",
+    "html_url": "https://github.com/cocos/awesome-cocos",
+    "language": null,
+    "pushed_at": "2024-07-15T22:05:18Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-04-25T03:14:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos-creator/cocos-tutorial-hot-update",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos/cocos-example-ball",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos/cocos-example-cartoon-vegetation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocos/cocos-example-dark-slash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

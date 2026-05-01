@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -772,6 +772,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-triage.lock.yml",
       "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ensure-triage-label.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-cleanup.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-gatekeeper.yml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/advice.yml",
+      "source_repo": "mlflow/mlflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approval.yml",
+      "source_repo": "mlflow/mlflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "mlflow/mlflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "mlflow/mlflow"
     }
   ]
 }

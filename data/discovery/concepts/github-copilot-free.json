@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "github-copilot-free"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate-context",
+      "text": "Master GitHub Copilot for C#/.NET development via this curriculum! Learn AI-driven paired programming, optimize your workflow, and write cleaner, faster code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate-context",
+      "text": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate-context",
+      "text": "A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate-context",
+      "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate",
+      "text": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate",
+      "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "github-copilot-free",
+  "concept_id": "github-copilot-free",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-copilot-free",
+      "sense_id": "github-copilot-free#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -802,6 +802,30 @@
       "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core/branch/master/graph/badge.svg?token=ZukGAUDLwH)](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core) [![Hex](https://img.shields.io/hexpm/v/telemetry_metrics_prometheus_core.sv\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "An SQLite3 driver for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatyouhide/stream_data",
+      "status": "candidate-context",
+      "text": "Data generation and property-based testing for Elixir. \ud83d\udd2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatyouhide/stream_data",
+      "status": "candidate-context",
+      "text": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)"
     }
   ],
   "candidate_glosses": [
@@ -1200,6 +1224,18 @@
       "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core/branch/master/graph/badge.svg?token=ZukGAUDLwH)](https://codecov.io/gh/beam-telemetry/telemetry_metrics_prometheus_core) [![Hex](https://img.shields.io/hexpm/v/telemetry_metrics_prometheus_core.sv\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elixir-sqlite/exqlite",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatyouhide/stream_data",
+      "status": "candidate",
+      "text": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)"
     }
   ],
   "candidate_related_terms": [
@@ -1765,11 +1801,71 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "beam-telemetry/telemetry_metrics_prometheus_core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-sqlite/exqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "whatyouhide/stream_data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

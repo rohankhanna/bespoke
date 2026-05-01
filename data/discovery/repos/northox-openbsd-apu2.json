@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "northox/openbsd-apu2",
+      "target": "elad/openbsd-apu2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "northox/openbsd-apu2",
+      "target": "openbsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "northox/openbsd-apu2",
+      "target": "router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "northox/openbsd-apu2",
+      "target": "wifi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:45:46.557583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Configuration files to setup PC Engines' APU as a WIFI router running OpenBSD",
+    "fork": false,
+    "full_name": "northox/openbsd-apu2",
+    "html_url": "https://github.com/northox/openbsd-apu2",
+    "language": "Shell",
+    "pushed_at": "2022-12-24T00:11:03Z",
+    "stargazers_count": 52,
+    "topics": [
+      "apu",
+      "openbsd",
+      "router",
+      "wifi"
+    ],
+    "updated_at": "2025-10-25T12:52:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elad/openbsd-apu2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openbsd"
+    },
+    {
+      "context_snippet": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    },
+    {
+      "context_snippet": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wifi"
+    }
+  ]
+}

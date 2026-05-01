@@ -1,0 +1,368 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "pires/go-proxyproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "Code Scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "argo-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "argocd-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "aws-secrets-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "azure-keyvault",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "gcp-secret-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "gitops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "secret-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "secrets-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argoproj-labs/argocd-vault-plugin",
+      "target": "vault",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:35:25.218123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2153
+    },
+    {
+      "path": "Dockerfile",
+      "size": 133
+    },
+    {
+      "path": "go.mod",
+      "size": 18835
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Argo CD plugin to retrieve secrets from Secret Management tools and inject them into Kubernetes secrets",
+    "fork": false,
+    "full_name": "argoproj-labs/argocd-vault-plugin",
+    "html_url": "https://github.com/argoproj-labs/argocd-vault-plugin",
+    "language": "Go",
+    "pushed_at": "2024-12-18T18:24:47Z",
+    "stargazers_count": 963,
+    "topics": [
+      "argo-cd",
+      "argocd-plugin",
+      "aws-secrets-manager",
+      "azure-keyvault",
+      "gcp-secret-manager",
+      "gitops",
+      "kubernetes",
+      "secret-management",
+      "secrets-manager",
+      "vault"
+    ],
+    "updated_at": "2026-05-01T08:30:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pires/go-proxyproto",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Code Scanning\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Code Scanning"
+    },
+    {
+      "context_snippet": "Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "term": "Pipeline"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argo-cd"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argocd-plugin"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-secrets-manager"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-keyvault"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcp-secret-manager"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitops"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret-management"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets-manager"
+    },
+    {
+      "context_snippet": "![Pipeline](https://github.com/argoproj-labs/argocd-vault-plugin/workflows/Pipeline/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vault"
+    }
+  ]
+}

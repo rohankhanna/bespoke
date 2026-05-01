@@ -139,6 +139,18 @@
       "source_repo": "iduta/iresnet",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate-context",
+      "text": "Proper implementation of ResNet-s for CIFAR10/100 in pytorch that matches description of the original paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate-context",
+      "text": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet."
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "iduta/iresnet",
       "status": "candidate",
       "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate",
+      "text": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet."
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "iduta/iresnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

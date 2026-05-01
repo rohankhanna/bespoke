@@ -39,7 +39,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "lumen-oss/nurr",
-      "target": "cachix/install-nix-action@v27",
+      "target": "cachix/install-nix-action@v31",
       "target_type": "component"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "lumen-oss/nurr"
 }

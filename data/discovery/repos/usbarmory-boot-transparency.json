@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:43:41.141673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5945
+    },
+    {
+      "path": "go.mod",
+      "size": 971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go library which enables interaction with transparency ecosystems for boot loading operations",
+    "fork": false,
+    "full_name": "usbarmory/boot-transparency",
+    "html_url": "https://github.com/usbarmory/boot-transparency",
+    "language": "Go",
+    "pushed_at": "2026-04-21T10:18:08Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-21T10:18:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

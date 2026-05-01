@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangxy/PASD",
+      "target": "cswry/seesr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangxy/PASD",
+      "target": "dreamoving/phantom",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:32.886498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11241
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV2024] Pixel-Aware Stable Diffusion for Realistic Image Super-Resolution and Personalized Stylization",
+    "fork": false,
+    "full_name": "yangxy/PASD",
+    "html_url": "https://github.com/yangxy/PASD",
+    "language": "Python",
+    "pushed_at": "2024-09-23T02:58:40Z",
+    "stargazers_count": 1019,
+    "topics": [],
+    "updated_at": "2026-04-30T11:28:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cswry/seesr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dreamoving/phantom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

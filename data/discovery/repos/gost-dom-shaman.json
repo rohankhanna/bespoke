@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gost-dom/shaman",
+      "target": "gost-dom/project-harmony",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:12:57.729954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6326
+    },
+    {
+      "path": "go.mod",
+      "size": 1008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provide high-level DOM interaction",
+    "fork": false,
+    "full_name": "gost-dom/shaman",
+    "html_url": "https://github.com/gost-dom/shaman",
+    "language": "Go",
+    "pushed_at": "2026-03-18T11:14:27Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-18T11:14:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gost-dom/project-harmony",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

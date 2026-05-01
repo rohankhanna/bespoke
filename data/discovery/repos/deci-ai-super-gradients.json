@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closing_inactive_issues"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yaml"
+    },
+    {
+      "component": "actions/dependency-review-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closing_inactive_issues",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closing_inactive_issues",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yaml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_review.yaml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "actions/dependency-review-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_review.yaml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests_rc.yaml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "Release Candidate Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests_release.yaml",
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "Release Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Deci-AI/super-gradients",
+      "target": "dependency-graph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:16.013438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39093
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 492
+    },
+    {
+      "path": "requirements.txt",
+      "size": 928
+    },
+    {
+      "path": ".github/workflows/closing_inactive_issues",
+      "size": 704
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2634
+    },
+    {
+      "path": ".github/workflows/dependency_review.yaml",
+      "size": 295
+    },
+    {
+      "path": ".github/workflows/integration_tests_rc.yaml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/integration_tests_release.yaml",
+      "size": 663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily train or fine-tune SOTA computer vision models with one open source training library. The home of Yolo-NAS.",
+    "fork": false,
+    "full_name": "Deci-AI/super-gradients",
+    "html_url": "https://github.com/Deci-AI/super-gradients",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-24T12:31:01Z",
+    "stargazers_count": 5026,
+    "topics": [
+      "dependency-graph"
+    ],
+    "updated_at": "2026-05-01T03:50:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closing_inactive_issues",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_review.yaml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "'Release Candidate Integration Tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests_rc.yaml",
+      "term": "Release Candidate Integration Tests"
+    },
+    {
+      "context_snippet": "'Release Integration Tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests_release.yaml",
+      "term": "Release Integration Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\" markdown=\"1\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-graph"
+    }
+  ]
+}

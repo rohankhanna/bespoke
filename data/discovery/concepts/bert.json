@@ -475,6 +475,42 @@
       "source_repo": "ymcui/PERT",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587**](https://github.com/ymcui/PERT) | [**English**](https://github.com/ymcui/PERT/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "BertViz: Visualize Attention in Transformer Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate-context",
+      "text": "This repository contains demos I made with the Transformers library by HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate-context",
+      "text": "Hi there!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitYCC/g2pW",
+      "status": "candidate-context",
+      "text": "Chinese Mandarin Grapheme-to-Phoneme Converter. \u4e2d\u6587\u8f49\u6ce8\u97f3\u6216\u62fc\u97f3 (INTERSPEECH 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitYCC/g2pW",
+      "status": "candidate-context",
+      "text": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +747,24 @@
       "source_repo": "ymcui/PERT",
       "status": "candidate",
       "text": "[**\u4e2d\u6587**](https://github.com/ymcui/PERT) | [**English**](https://github.com/ymcui/PERT/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate",
+      "text": "Hi there!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitYCC/g2pW",
+      "status": "candidate",
+      "text": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -1042,11 +1096,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ymcui/PERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jessevig/bertviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GitYCC/g2pW"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

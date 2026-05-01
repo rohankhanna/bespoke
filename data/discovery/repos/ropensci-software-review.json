@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-pandoc@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r-dependencies@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ropensci/software-review",
+      "target": "ropensci/software-review-meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ropensci/software-review",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ropensci/software-review",
+      "target": "r-lib/actions/setup-pandoc@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ropensci/software-review",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ropensci/software-review",
+      "target": "r-lib/actions/setup-r-dependencies@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ropensci/software-review",
+      "target": "Render README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ropensci/software-review",
+      "target": "peer-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ropensci/software-review",
+      "target": "peer-reviews",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ropensci/software-review",
+      "target": "r-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ropensci/software-review",
+      "target": "rstats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ropensci/software-review",
+      "target": "software-quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:08:52.373244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25195
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "rOpenSci Software Peer Review. ",
+    "fork": false,
+    "full_name": "ropensci/software-review",
+    "html_url": "https://github.com/ropensci/software-review",
+    "language": "R",
+    "pushed_at": "2026-05-01T13:20:56Z",
+    "stargazers_count": 336,
+    "topics": [
+      "peer-review",
+      "peer-reviews",
+      "r",
+      "r-packages",
+      "rstats",
+      "software-quality"
+    ],
+    "updated_at": "2026-05-01T13:21:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ropensci/software-review-meta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Render README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Render README"
+    },
+    {
+      "context_snippet": "![](icon_lettering_color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peer-review"
+    },
+    {
+      "context_snippet": "![](icon_lettering_color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peer-reviews"
+    },
+    {
+      "context_snippet": "![](icon_lettering_color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-packages"
+    },
+    {
+      "context_snippet": "![](icon_lettering_color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    },
+    {
+      "context_snippet": "![](icon_lettering_color.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-quality"
+    }
+  ]
+}

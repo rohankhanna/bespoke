@@ -118,6 +118,12 @@
       "source_repo": "Quick/Quick",
       "status": "candidate-context",
       "text": "Danger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4itworks/opensource_qwkin_dart",
+      "status": "candidate-context",
+      "text": "\"Danger\""
     }
   ],
   "candidate_glosses": [
@@ -174,6 +180,12 @@
       "source_repo": "Quick/Quick",
       "status": "candidate",
       "text": "Danger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4itworks/opensource_qwkin_dart",
+      "status": "candidate",
+      "text": "\"Danger\""
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +316,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/danger.yml",
       "source_repo": "Quick/Quick"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/validate_danger.yaml",
+      "source_repo": "4itworks/opensource_qwkin_dart"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

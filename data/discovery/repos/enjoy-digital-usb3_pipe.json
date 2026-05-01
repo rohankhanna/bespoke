@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/usb3_pipe",
+      "target": "enjoy-digital/daisho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enjoy-digital/usb3_pipe",
+      "target": "enjoy-digital/litex-acorn-baseboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/usb3_pipe",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/usb3_pipe",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/usb3_pipe",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:42.188588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5311
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1862
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "USB3 PIPE interface for Xilinx 7-Series",
+    "fork": false,
+    "full_name": "enjoy-digital/usb3_pipe",
+    "html_url": "https://github.com/enjoy-digital/usb3_pipe",
+    "language": "Verilog",
+    "pushed_at": "2026-04-03T09:30:49Z",
+    "stargazers_count": 255,
+    "topics": [],
+    "updated_at": "2026-04-29T14:21:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/daisho",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enjoy-digital/litex-acorn-baseboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

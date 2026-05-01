@@ -91,6 +91,30 @@
       "source_repo": "ipython/ipykernel",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "A Python module for common interactive command line user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate-context",
+      "text": "PythonInquirer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate-context",
+      "text": "A Jupyter kernel for nim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate-context",
+      "text": "![logo.svg](logo.svg) Jupyter Nim"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "ipython/ipykernel",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)](https://github.com/ipython/ipykernel/actions/workflows/ci.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CITGuru/PyInquirer",
+      "status": "candidate",
+      "text": "PythonInquirer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stisa/jupyternim",
+      "status": "candidate",
+      "text": "![logo.svg](logo.svg) Jupyter Nim"
     }
   ],
   "candidate_related_terms": [
@@ -213,11 +249,29 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "ipython/ipykernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "stisa/jupyternim"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcca \ud83d\udcc8 ECharts wrapper component for Vue 3, 2 and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vue3",
+      "sense_id": "vue3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vue3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vue3",
+  "observation_id": "982e5234ea1c27ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "vue3",
+  "source_context_snippet": "[\u7b80\u4f53\u4e2d\u6587](https://gitee.com/ambit/echarts-for-vue) | English",
+  "source_file": null,
+  "source_repo": "ambit-tsai/echarts-for-vue",
+  "source_repo_description": "\ud83d\udcca \ud83d\udcc8 ECharts wrapper component for Vue 3, 2 and TypeScript"
+}

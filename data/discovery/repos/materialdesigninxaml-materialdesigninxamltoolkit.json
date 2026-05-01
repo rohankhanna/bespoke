@@ -146,28 +146,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-      "target": "mahapps/mahapps.metro",
+      "target": "materialdesigninxaml/motionlist",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-      "target": "keboo/materialdesigninxaml.examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-      "target": "controlzex/controlzex",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
-      "target": "ignacemaes/materialskin",
+      "target": "spiegelp/materialdesignextensions",
       "target_type": "repository"
     },
     {
@@ -402,7 +388,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:04:07.236922+00:00",
+  "fetched_at": "2026-05-01T15:09:16.734738+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -455,7 +441,7 @@
     "html_url": "https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit",
     "language": "C#",
     "pushed_at": "2026-05-01T07:31:54Z",
-    "stargazers_count": 16128,
+    "stargazers_count": 16130,
     "topics": [
       "c-sharp",
       "design",
@@ -468,27 +454,17 @@
       "wpf",
       "xaml"
     ],
-    "updated_at": "2026-05-01T07:43:27Z"
+    "updated_at": "2026-05-01T09:21:37Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "controlzex/controlzex",
+      "full_name": "materialdesigninxaml/motionlist",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ignacemaes/materialskin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "keboo/materialdesigninxaml.examples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mahapps/mahapps.metro",
+      "full_name": "spiegelp/materialdesignextensions",
       "source_file": "README.md"
     }
   ],

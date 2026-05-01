@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ssd-mobilenet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "status": "candidate-context",
+      "text": "TensorRT MODNet, YOLOv4, YOLOv3, SSD, MTCNN, and GoogLeNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "status": "candidate-context",
+      "text": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jkjung-avt/tensorrt_demos",
+      "status": "candidate",
+      "text": "This repo is a collection of examples demonstrating how to optimize Caffe/TensorFlow/DarkNet/PyTorch models with TensorRT."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ssd-mobilenet",
+  "concept_id": "ssd-mobilenet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jkjung-avt/tensorrt_demos"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ssd-mobilenet",
+      "sense_id": "ssd-mobilenet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

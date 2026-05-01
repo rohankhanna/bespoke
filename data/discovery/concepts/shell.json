@@ -1081,6 +1081,18 @@
       "source_repo": "ControlzEx/ControlzEx",
       "status": "candidate-context",
       "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "status": "candidate-context",
+      "text": "Learning Bash Scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "status": "candidate-context",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
     }
   ],
   "candidate_glosses": [
@@ -1617,6 +1629,12 @@
       "source_repo": "ControlzEx/ControlzEx",
       "status": "candidate",
       "text": "\ufeff<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-bash-scripts",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
     }
   ],
   "candidate_related_terms": [
@@ -2566,11 +2584,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ControlzEx/ControlzEx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-bash-scripts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

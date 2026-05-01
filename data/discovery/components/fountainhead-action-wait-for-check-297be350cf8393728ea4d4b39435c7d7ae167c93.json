@@ -1,0 +1,12 @@
+{
+  "component": "fountainhead/action-wait-for-check@297be350cf8393728ea4d4b39435c7d7ae167c93",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa"
+    }
+  ]
+}

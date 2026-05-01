@@ -651,6 +651,102 @@
       "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
       "status": "candidate-context",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "GSV-Cities: a large-scale dataset for visual place recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "The code and data of DiverseDepth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate-context",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate-context",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "MaskedFace-Net is a dataset of human faces with a correctly and incorrectly worn mask based on the dataset Flickr-Faces-HQ (FFHQ). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "We are building an open database of COVID-19 cases with chest X-ray or CT images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "Project Summary: To build a public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias ([MERS](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome), [SARS](https://en.wikipedia.org/w\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mountchicken/Union14M",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Code base for Revisiting Scene Text Recognition: A Data Perspective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Union14M",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "takuseno/d4rl-atari",
+      "status": "candidate-context",
+      "text": "Datasets for data-driven deep reinforcement learning with Atari (wrapper for datasets released by Google)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d4rl-atari",
+      "status": "candidate-context",
+      "text": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "[CVPR2024 Highlight] VBench - We Evaluate Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate-context",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -977,6 +1073,54 @@
       "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction",
       "status": "candidate",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate",
+      "text": "Official repo for *Neurocomputing 2022* paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate",
+      "text": "Project Summary: To build a public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias ([MERS](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome), [SARS](https://en.wikipedia.org/w\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Union14M",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "takuseno/d4rl-atari",
+      "status": "candidate",
+      "text": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vchitect/VBench",
+      "status": "candidate",
+      "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -1362,11 +1506,65 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "CVPR2023-3D-Occupancy-Prediction/CVPR2023-3D-Occupancy-Prediction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ieee8023/covid-chestxray-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "takuseno/d4rl-atari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Vchitect/VBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

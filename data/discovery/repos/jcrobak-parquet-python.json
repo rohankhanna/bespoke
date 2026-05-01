@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "jcrobak/parquet-python",
+      "target": "parquet/parquet-compatibility",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:53:57.579261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "python implementation of the parquet columnar file format.",
+    "fork": false,
+    "full_name": "jcrobak/parquet-python",
+    "html_url": "https://github.com/jcrobak/parquet-python",
+    "language": "Python",
+    "pushed_at": "2021-10-26T04:40:11Z",
+    "stargazers_count": 360,
+    "topics": [],
+    "updated_at": "2026-03-22T20:30:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parquet/parquet-compatibility",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "3d-representation-learning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baaivision/Uni3D",
+      "status": "candidate-context",
+      "text": "[ICLR'24 Spotlight] Uni3D: 3D Visual Representation from BAAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baaivision/Uni3D",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baaivision/Uni3D",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "3d-representation-learning",
+  "concept_id": "3d-representation-learning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "baaivision/Uni3D"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-representation-learning",
+      "sense_id": "3d-representation-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

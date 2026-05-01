@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:48:25.677211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u9879\u76ee\u7684\u8be6\u7ec6\u7528\u4f8b \u96c6\u5408 \u65b9\u4fbf\u5feb\u901f\u5b66\u4e60\u548c\u4e86\u89e3 \u9879\u76ee\u80fd\u505a\u4ec0\u4e48\uff0c\u5177\u4f53\u600e\u4e48\u505a",
+    "fork": false,
+    "full_name": "talk-flow/Lynxe-public-usecase",
+    "html_url": "https://github.com/talk-flow/Lynxe-public-usecase",
+    "language": null,
+    "pushed_at": "2025-12-15T03:11:26Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-06T07:09:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

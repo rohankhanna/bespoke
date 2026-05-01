@@ -423,7 +423,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T05:13:35.750727+00:00",
+  "fetched_at": "2026-05-01T12:37:52.966525+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -475,8 +475,8 @@
     "full_name": "fastapi/typer",
     "html_url": "https://github.com/fastapi/typer",
     "language": "Python",
-    "pushed_at": "2026-04-29T10:27:10Z",
-    "stargazers_count": 19311,
+    "pushed_at": "2026-04-30T19:31:56Z",
+    "stargazers_count": 19325,
     "topics": [
       "cli",
       "click",
@@ -487,7 +487,7 @@
       "typehints",
       "typer"
     ],
-    "updated_at": "2026-04-29T23:24:43Z"
+    "updated_at": "2026-05-01T12:07:44Z"
   },
   "repo_links": [],
   "terms": [

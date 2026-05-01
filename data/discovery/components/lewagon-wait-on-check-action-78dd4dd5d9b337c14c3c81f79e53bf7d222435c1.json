@@ -1,0 +1,12 @@
+{
+  "component": "lewagon/wait-on-check-action@78dd4dd5d9b337c14c3c81f79e53bf7d222435c1",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "ruby/rake"
+    }
+  ]
+}

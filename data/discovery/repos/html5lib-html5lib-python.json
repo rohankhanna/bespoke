@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tox.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tox.yml",
+      "source_repo": "html5lib/html5lib-python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tox.yml",
+      "source_repo": "html5lib/html5lib-python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:16.818592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4218
+    },
+    {
+      "path": "requirements.txt",
+      "size": 22
+    },
+    {
+      "path": ".github/workflows/python-tox.yml",
+      "size": 2229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standards-compliant library for parsing and serializing HTML documents and fragments in Python",
+    "fork": false,
+    "full_name": "html5lib/html5lib-python",
+    "html_url": "https://github.com/html5lib/html5lib-python",
+    "language": "Python",
+    "pushed_at": "2026-04-21T20:44:04Z",
+    "stargazers_count": 1220,
+    "topics": [],
+    "updated_at": "2026-04-28T08:09:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

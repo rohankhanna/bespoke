@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/.github",
+      "target": "catppuccin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/.github",
+      "target": "github-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/.github",
+      "target": "health-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/.github",
+      "target": "meta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "catppuccin/.github",
+      "target": "organization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:02:08.478246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcc4 Soothing pastel default community health files for GitHub",
+    "fork": false,
+    "full_name": "catppuccin/.github",
+    "html_url": "https://github.com/catppuccin/.github",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-27T08:44:06Z",
+    "stargazers_count": 13,
+    "topics": [
+      "catppuccin",
+      "github-config",
+      "health-files",
+      "meta",
+      "organization"
+    ],
+    "updated_at": "2026-04-27T08:44:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catppuccin"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-config"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "health-files"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "organization"
+    }
+  ]
+}

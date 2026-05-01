@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielroich/PTI",
+      "target": "orpatashnik/styleclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielroich/PTI",
+      "target": "omertov/encoder4editing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielroich/PTI",
+      "target": "genforce/interfacegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielroich/PTI",
+      "target": "harskish/ganspace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielroich/PTI",
+      "target": "gan-inversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielroich/PTI",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielroich/PTI",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielroich/PTI",
+      "target": "stylegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielroich/PTI",
+      "target": "stylegan2-ada-pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:58.108692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Implementation for \"Pivotal Tuning for Latent-based editing of Real Images\" (ACM TOG 2022) https://arxiv.org/abs/2106.05744",
+    "fork": false,
+    "full_name": "danielroich/PTI",
+    "html_url": "https://github.com/danielroich/PTI",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-01T08:59:46Z",
+    "stargazers_count": 930,
+    "topics": [
+      "gan-inversion",
+      "generative-adversarial-network",
+      "image-editing",
+      "stylegan",
+      "stylegan2-ada-pytorch"
+    ],
+    "updated_at": "2026-04-24T05:04:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genforce/interfacegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harskish/ganspace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omertov/encoder4editing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orpatashnik/styleclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gan-inversion"
+    },
+    {
+      "context_snippet": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    },
+    {
+      "context_snippet": "<!-- > Recently, a surge of advanced facial editing techniques have been proposed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan2-ada-pytorch"
+    }
+  ]
+}

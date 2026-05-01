@@ -1,0 +1,286 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edenfs_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "EdenFS Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edenscm-libs.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edenscm-libs.yml",
+      "source_repo": "facebook/sapling",
+      "target": "EdenSCM Rust Libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/delete-package-versions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manylinux_2_34.yml",
+      "source_repo": "facebook/sapling",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mononoke-integration_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "Mononoke Integration Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "dtolnay/rust-toolchain@1.91",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mononoke_linux.yml",
+      "source_repo": "facebook/sapling",
+      "target": "Mononoke Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "dtolnay/rust-toolchain@1.91",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mononoke_mac.yml",
+      "source_repo": "facebook/sapling",
+      "target": "Mononoke Mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewstack.dev-deploy.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewstack.dev-deploy.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewstack.dev-deploy.yml",
+      "source_repo": "facebook/sapling",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sapling-addons.yml",
+      "source_repo": "facebook/sapling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "facebook/sapling"
+}

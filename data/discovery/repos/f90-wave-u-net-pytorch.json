@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T15:13:16.916265+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5918
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Improved Wave-U-Net implemented in Pytorch",
+    "fork": false,
+    "full_name": "f90/Wave-U-Net-Pytorch",
+    "html_url": "https://github.com/f90/Wave-U-Net-Pytorch",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:58:25Z",
+    "stargazers_count": 376,
+    "topics": [],
+    "updated_at": "2026-04-30T14:43:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

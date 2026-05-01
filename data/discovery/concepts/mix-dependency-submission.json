@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mix Dependency Submission"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erlef/website",
+      "status": "candidate-context",
+      "text": "Erlang Ecosystem Foundation Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/website",
+      "status": "candidate-context",
+      "text": "\"Mix Dependency Submission\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erlef/website",
+      "status": "candidate",
+      "text": "\"Mix Dependency Submission\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18605,
+      "status": "candidate",
+      "text": "salad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18521,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18503,
+      "status": "candidate",
+      "text": "amalgamate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18503,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18503,
+      "status": "candidate",
+      "text": "ruffle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mix Dependency Submission",
+  "concept_id": "mix-dependency-submission",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mix-dependency-submission.yml",
+      "source_repo": "erlef/website"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mix Dependency Submission",
+      "sense_id": "mix-dependency-submission#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

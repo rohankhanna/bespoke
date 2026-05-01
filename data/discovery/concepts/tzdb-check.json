@@ -19,12 +19,30 @@
       "source_repo": "JodaOrg/joda-time",
       "status": "candidate-context",
       "text": "TZDB check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThreeTen/threetenbp",
+      "status": "candidate-context",
+      "text": "Backport of functionality based on JSR-310 to Java SE 6 and 7. This is NOT an implementation of JSR-310."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThreeTen/threetenbp",
+      "status": "candidate-context",
+      "text": "TZDB check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "JodaOrg/joda-time",
+      "status": "candidate",
+      "text": "TZDB check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThreeTen/threetenbp",
       "status": "candidate",
       "text": "TZDB check"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/tzdbupdate.yml",
       "source_repo": "JodaOrg/joda-time"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tzdbupdate.yml",
+      "source_repo": "ThreeTen/threetenbp"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

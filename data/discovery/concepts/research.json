@@ -175,6 +175,42 @@
       "source_repo": "RUC-NLPIR/WebThinker",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/MVDream",
+      "status": "candidate-context",
+      "text": "Multi-view Diffusion for 3D Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/MVDream",
+      "status": "candidate-context",
+      "text": "Yichun Shi, Peng Wang, Jianglong Ye, Long Mai, Kejie Li, Xiao Yang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate-context",
+      "text": "SCOPE-RL: A python library for offline reinforcement learning, off-policy evaluation, and selection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate-context",
+      "text": "Asynchronous Distributed Hyperparameter Optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate-context",
+      "text": "*****"
     }
   ],
   "candidate_glosses": [
@@ -267,6 +303,24 @@
       "source_repo": "RUC-NLPIR/WebThinker",
       "status": "candidate",
       "text": "<h1 align=\"center\"> \ud83c\udf10 WebThinker: Empowering Large Reasoning Models with Deep Research Capability</a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/MVDream",
+      "status": "candidate",
+      "text": "Yichun Shi, Peng Wang, Jianglong Ye, Long Mai, Kejie Li, Xiao Yang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate",
+      "text": "*****"
     }
   ],
   "candidate_related_terms": [
@@ -477,11 +531,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/MVDream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Epistimio/orion"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

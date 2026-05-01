@@ -91,6 +91,18 @@
       "source_repo": "IceClear/LDM-SRtuning",
       "status": "candidate-context",
       "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StyleTTS2",
+      "status": "candidate-context",
+      "text": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS2",
+      "status": "candidate-context",
+      "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "IceClear/LDM-SRtuning",
       "status": "candidate",
       "text": "This repo is used as an example for training and finetuning [latent-diffusion](https://github.com/CompVis/latent-diffusion) used as the baseline in [StableSR](https://github.com/IceClear/StableSR)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS2",
+      "status": "candidate",
+      "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +238,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StyleTTS2"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

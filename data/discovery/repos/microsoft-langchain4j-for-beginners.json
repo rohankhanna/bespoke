@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/LangChain4j-for-Beginners",
+      "target": "microsoft/langchain-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/LangChain4j-for-Beginners",
+      "target": "microsoft/mcp-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/LangChain4j-for-Beginners",
+      "target": "microsoft/security-101",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/LangChain4j-for-Beginners",
+      "target": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:01.338099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A course for AI applications with LangChain4j from simple chat to AI agents.",
+    "fork": false,
+    "full_name": "microsoft/LangChain4j-for-Beginners",
+    "html_url": "https://github.com/microsoft/LangChain4j-for-Beginners",
+    "language": "Java",
+    "pushed_at": "2026-05-01T07:41:42Z",
+    "stargazers_count": 318,
+    "topics": [],
+    "updated_at": "2026-05-01T07:41:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/langchain-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mcp-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/security-101",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

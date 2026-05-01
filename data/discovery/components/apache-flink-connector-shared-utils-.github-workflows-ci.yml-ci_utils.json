@@ -1,0 +1,17 @@
+{
+  "component": "apache/flink-connector-shared-utils/.github/workflows/ci.yml@ci_utils",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_pr.yml",
+      "source_repo": "apache/flink-connector-pulsar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "apache/flink-connector-pulsar"
+    }
+  ]
+}

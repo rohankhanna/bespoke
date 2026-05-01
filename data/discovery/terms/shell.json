@@ -1,41 +1,16 @@
 {
-  "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "git-quick-stats/git-quick-stats"
+      "source_repo": "fastapi/typer"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "nvm-sh/nvm"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nodenv/nodenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ehmicky/node-version-alias"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ehmicky/normalize-node-version"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ehmicky/preferred-node-version"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ehmicky/get-node-cli"
+      "source_repo": "hchiam/learning-bash-scripts"
     },
     {
       "discovered_via": "repo-topic",
@@ -55,22 +30,17 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "hyperupcall/autoenv"
+      "source_repo": "git-quick-stats/git-quick-stats"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "CISOfy/lynis"
+      "source_repo": "nvm-sh/nvm"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "rbenv/rbenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "ControlzEx/ControlzEx"
+      "source_repo": "nodenv/nodenv"
     }
   ],
   "term": "shell"

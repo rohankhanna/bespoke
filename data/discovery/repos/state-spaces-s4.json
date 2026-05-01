@@ -60,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T15:07:14.010006+00:00",
+  "fetched_at": "2026-05-01T14:07:11.039144+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/state-spaces/s4",
     "language": "Jupyter Notebook",
     "pushed_at": "2024-07-17T17:04:39Z",
-    "stargazers_count": 2890,
+    "stargazers_count": 2889,
     "topics": [
       "pytorch",
       "sequence-models",
       "state-space-models"
     ],
-    "updated_at": "2026-04-29T22:29:02Z"
+    "updated_at": "2026-04-30T22:51:49Z"
   },
   "repo_links": [],
   "terms": [

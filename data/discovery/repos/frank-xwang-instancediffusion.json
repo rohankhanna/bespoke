@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frank-xwang/InstanceDiffusion",
+      "target": "gokyeongryeol/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frank-xwang/InstanceDiffusion",
+      "target": "logtd/comfyui-instancediffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:37:22.940275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17428
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Code release for \"InstanceDiffusion: Instance-level Control for Image Generation\"",
+    "fork": false,
+    "full_name": "frank-xwang/InstanceDiffusion",
+    "html_url": "https://github.com/frank-xwang/InstanceDiffusion",
+    "language": "Python",
+    "pushed_at": "2025-06-17T16:56:31Z",
+    "stargazers_count": 614,
+    "topics": [],
+    "updated_at": "2026-04-29T15:36:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gokyeongryeol/diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logtd/comfyui-instancediffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

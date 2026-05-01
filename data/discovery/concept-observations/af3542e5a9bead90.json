@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICML 2022] Benchmarking and Analyzing Point Cloud Classification under Corruptions https://arxiv.org/abs/2202.03377"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017249,
+      "status": "candidate",
+      "text": "lustiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39759785,
+      "status": "candidate",
+      "text": "hardiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041613,
+      "status": "candidate",
+      "text": "strong"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041327,
+      "status": "candidate",
+      "text": "strength"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040719,
+      "status": "candidate",
+      "text": "toughness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robustness",
+      "sense_id": "robustness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2033,
+      "status": "candidate",
+      "text": "hardiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "lustiness"
+    }
+  ],
+  "concept_id": "robustness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "robustness",
+  "observation_id": "af3542e5a9bead90",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "robustness",
+  "source_context_snippet": ":warning: This repo has been integrated into our new benchmark [PointCloud-C](https://github.com/ldkong1205/PointCloud-C)! Please checkout [PointCloud-C](https://github.com/ldkong1205/PointCloud-C) for any future updates!",
+  "source_file": null,
+  "source_repo": "jiawei-ren/ModelNet-C",
+  "source_repo_description": "[ICML 2022] Benchmarking and Analyzing Point Cloud Classification under Corruptions https://arxiv.org/abs/2202.03377"
+}

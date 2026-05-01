@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jianxff/droid_metric",
+      "target": "deep-vslam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jianxff/droid_metric",
+      "target": "metric-depth-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:58:49.807466+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "run DROID-SLAM with Metric3D to improve monocular performance",
+    "fork": false,
+    "full_name": "Jianxff/droid_metric",
+    "html_url": "https://github.com/Jianxff/droid_metric",
+    "language": "Python",
+    "pushed_at": "2024-10-03T11:55:04Z",
+    "stargazers_count": 181,
+    "topics": [
+      "deep-vslam",
+      "metric-depth-estimation"
+    ],
+    "updated_at": "2026-03-23T12:31:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-vslam"
+    },
+    {
+      "context_snippet": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-depth-estimation"
+    }
+  ]
+}

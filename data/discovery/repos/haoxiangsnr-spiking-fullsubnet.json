@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "haoxiangsnr/intelneuromorphicdnschallenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "haoxiangsnr/audiozen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "neuromorphic-audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "neuromorphic-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "noise-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "speech-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haoxiangsnr/spiking-fullsubnet",
+      "target": "speech-enhancement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:13:25.392569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12725
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "refactor/27-Jan-2026",
+    "description": "Official repository of Spiking-FullSubNet, the Intel N-DNS Challenge Algorithmic Track Winner.",
+    "fork": false,
+    "full_name": "haoxiangsnr/spiking-fullsubnet",
+    "html_url": "https://github.com/haoxiangsnr/spiking-fullsubnet",
+    "language": "Python",
+    "pushed_at": "2026-01-28T09:16:21Z",
+    "stargazers_count": 136,
+    "topics": [
+      "neuromorphic-audio-processing",
+      "neuromorphic-computing",
+      "noise-reduction",
+      "speech-denoising",
+      "speech-enhancement"
+    ],
+    "updated_at": "2026-04-25T22:07:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoxiangsnr/intelneuromorphicdnschallenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoxiangsnr/audiozen",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuromorphic-audio-processing"
+    },
+    {
+      "context_snippet": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuromorphic-computing"
+    },
+    {
+      "context_snippet": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "noise-reduction"
+    },
+    {
+      "context_snippet": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-denoising"
+    },
+    {
+      "context_snippet": "Spiking-FullSubNet is the 1st Place Winner solution of the Intel N-DNS Challenge (Track 1: Algorithmic). This repository serves as the official implementation of our paper: \"Toward Ultralow-Power Neuromorphic Speech Enhancement With Spiking-FullSubNet\" (IEEE TNNLS, 2025).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-enhancement"
+    }
+  ]
+}

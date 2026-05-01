@@ -479,6 +479,54 @@
       "source_repo": "antoniusnaumann/cargo-swift",
       "status": "candidate-context",
       "text": "Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate-context",
+      "text": "Weaviate vector database \u2013 examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate-context",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pmndrs/three-stdlib",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda Stand-alone library of threejs examples designed to run without transpilation in node & browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/three-stdlib",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/three-stdlib?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/three-stdlib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": " \ud83d\ude80 Ready-to-run Prisma example projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "(Deprecated) Home of the MDN live code editor interactive examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -715,6 +763,30 @@
       "source_repo": "antoniusnaumann/cargo-swift",
       "status": "candidate",
       "text": "Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pmndrs/three-stdlib",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/three-stdlib?style=flat&colorA=000000&colorB=000000)](https://npmjs.com/package/three-stdlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/prisma-examples",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/interactive-examples",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -1117,11 +1189,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pmndrs/three-stdlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "prisma/prisma-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mdn/interactive-examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jeremycw/httpserver.h",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "jeremycw/httpserver.h",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:55:46.673972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5850
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Single header library for writing non-blocking HTTP servers in C",
+    "fork": false,
+    "full_name": "jeremycw/httpserver.h",
+    "html_url": "https://github.com/jeremycw/httpserver.h",
+    "language": "C",
+    "pushed_at": "2026-04-26T20:55:19Z",
+    "stargazers_count": 1906,
+    "topics": [],
+    "updated_at": "2026-04-30T01:47:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

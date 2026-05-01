@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nv-tlabs/GET3D",
+      "target": "nvidiagameworks/kaolin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:57.382826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "nv-tlabs/GET3D",
+    "html_url": "https://github.com/nv-tlabs/GET3D",
+    "language": "Python",
+    "pushed_at": "2024-09-27T15:54:44Z",
+    "stargazers_count": 4431,
+    "topics": [],
+    "updated_at": "2026-04-24T03:53:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidiagameworks/kaolin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

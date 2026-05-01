@@ -19,12 +19,30 @@
       "source_repo": "google/zx",
       "status": "candidate-context",
       "text": "OSV-Scanner"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate-context",
+      "text": "Ubuntu Desktop Provision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canonical/ubuntu-desktop-provision",
+      "status": "candidate-context",
+      "text": "OSV-Scanner"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "google/zx",
+      "status": "candidate",
+      "text": "OSV-Scanner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "canonical/ubuntu-desktop-provision",
       "status": "candidate",
       "text": "OSV-Scanner"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/osv.yml",
       "source_repo": "google/zx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/osv.yaml",
+      "source_repo": "canonical/ubuntu-desktop-provision"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -104,6 +104,18 @@
       "source_repo": "pycontribs/jira",
       "status": "candidate-context",
       "text": "tox"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenKMIP/PyKMIP",
+      "status": "candidate-context",
+      "text": "A Python implementation of the KMIP specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenKMIP/PyKMIP",
+      "status": "candidate-context",
+      "text": "tox"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pycontribs/jira",
+      "status": "candidate",
+      "text": "tox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenKMIP/PyKMIP",
       "status": "candidate",
       "text": "tox"
     }
@@ -317,11 +335,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/tox.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "OpenKMIP/PyKMIP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tensor algebra abstract type interoperability setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "applied-category-theory",
+      "sense_id": "applied-category-theory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "applied-category-theory",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "applied-category-theory",
+  "observation_id": "bda97e83fb8f9628",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "applied-category-theory",
+  "source_context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+  "source_file": null,
+  "source_repo": "chakravala/AbstractTensors.jl",
+  "source_repo_description": "Tensor algebra abstract type interoperability setup"
+}

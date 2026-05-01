@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "EdenSCM Rust Libraries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/sapling",
+      "status": "candidate-context",
+      "text": "A Scalable, User-Friendly Source Control System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/sapling",
+      "status": "candidate-context",
+      "text": "EdenSCM Rust Libraries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/sapling",
+      "status": "candidate",
+      "text": "EdenSCM Rust Libraries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10456,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10394,
+      "status": "candidate",
+      "text": "accession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10394,
+      "status": "candidate",
+      "text": "accessions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10394,
+      "status": "candidate",
+      "text": "bind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10394,
+      "status": "candidate",
+      "text": "broken"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "EdenSCM Rust Libraries",
+  "concept_id": "edenscm-rust-libraries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/edenscm-libs.yml",
+      "source_repo": "facebook/sapling"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "EdenSCM Rust Libraries",
+      "sense_id": "edenscm-rust-libraries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

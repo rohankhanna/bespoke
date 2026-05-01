@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cargo Shear"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cargo Shear"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12107,
+      "status": "candidate",
+      "text": "fleece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "dod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "sheared"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10985,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10914,
+      "status": "candidate",
+      "text": "charge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cargo Shear",
+      "sense_id": "cargo-shear#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cargo-shear",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cargo-shear",
+  "observation_id": "297e8052af06c33d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Cargo Shear",
+  "source_context_snippet": "Cargo Shear",
+  "source_file": ".github/workflows/cargo_shear.yml",
+  "source_repo": "emilk/egui",
+  "source_repo_description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native"
+}

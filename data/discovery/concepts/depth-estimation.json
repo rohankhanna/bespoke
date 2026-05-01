@@ -127,6 +127,42 @@
       "source_repo": "isl-org/ZoeDepth",
       "status": "candidate-context",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "Robust realtime face and facial landmark tracking on CPU with Unity integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "The code and data of DiverseDepth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate-context",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "status": "candidate-context",
+      "text": "Universal Monocular Metric Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "isl-org/ZoeDepth",
       "status": "candidate",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate",
+      "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YvanYin/DiverseDepth",
+      "status": "candidate",
+      "text": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +310,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "isl-org/ZoeDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lpiccinelli-eth/UniDepth"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranchlai/sound_classification",
+      "target": "qiuqiangkong/audioset_tagging_cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranchlai/sound_classification",
+      "target": "karolpiczak/esc-50",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranchlai/sound_classification",
+      "target": "paddlepaddle/models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:13:34.871279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1728
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pretrained sound classification models on esc-50. acc=0.937",
+    "fork": false,
+    "full_name": "ranchlai/sound_classification",
+    "html_url": "https://github.com/ranchlai/sound_classification",
+    "language": "Python",
+    "pushed_at": "2021-08-25T10:35:30Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-11-26T15:53:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karolpiczak/esc-50",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qiuqiangkong/audioset_tagging_cnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/ibc",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/ibc",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/ibc",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:43:14.814151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Official implementation of Implicit Behavioral Cloning, as described in our CoRL 2021 paper, see more at https://implicitbc.github.io/",
+    "fork": false,
+    "full_name": "google-research/ibc",
+    "html_url": "https://github.com/google-research/ibc",
+    "language": "Python",
+    "pushed_at": "2024-01-25T16:50:18Z",
+    "stargazers_count": 379,
+    "topics": [
+      "deep-learning",
+      "imitation-learning",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-27T11:04:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

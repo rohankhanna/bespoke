@@ -19,6 +19,18 @@
       "source_repo": "ArrowLuo/CLIP4Clip",
       "status": "candidate-context",
       "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate-context",
+      "text": "A Collection of BM25 Algorithms in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ArrowLuo/CLIP4Clip",
       "status": "candidate",
       "text": "(**July 28, 2021**) Add ViT-B/16 with an extra `--pretrained_clip_name`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorianbrown/rank_bm25",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/dorianbrown/rank_bm25/workflows/pytest/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ArrowLuo/CLIP4Clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dorianbrown/rank_bm25"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

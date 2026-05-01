@@ -1,0 +1,402 @@
+{
+  "components": [
+    {
+      "component": "@docusaurus/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@docusaurus/plugin-content-docs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@docusaurus/preset-classic",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@easyops-cn/docusaurus-search-local",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mdx-js/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/line-clamp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clsx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mdx-mermaid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mermaid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-gap-properties",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prism-react-renderer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rehype-katex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-math",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-schedule.yaml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "@docusaurus/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "@docusaurus/plugin-content-docs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "@docusaurus/preset-classic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "@easyops-cn/docusaurus-search-local",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "@mdx-js/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "@tailwindcss/line-clamp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "clsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "mdx-mermaid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "mermaid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "postcss-gap-properties",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "prism-react-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "rehype-katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "remark-math",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-schedule.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-schedule.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "Check links daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "actions/setup-node@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "Production workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "actions/setup-node@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_ci.yaml",
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "Build and check links in PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "devlake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/incubator-devlake-website",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:41:19.225638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2446
+    },
+    {
+      "path": "package.json",
+      "size": 1295
+    },
+    {
+      "path": ".github/workflows/link-schedule.yaml",
+      "size": 3301
+    },
+    {
+      "path": ".github/workflows/main_ci.yaml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/pr_ci.yaml",
+      "size": 2226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Devlake Website",
+    "fork": false,
+    "full_name": "apache/incubator-devlake-website",
+    "html_url": "https://github.com/apache/incubator-devlake-website",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-23T14:31:00Z",
+    "stargazers_count": 43,
+    "topics": [
+      "devlake",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-25T16:06:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check links daily",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-schedule.yaml",
+      "term": "Check links daily"
+    },
+    {
+      "context_snippet": "Production workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_ci.yaml",
+      "term": "Production workflow"
+    },
+    {
+      "context_snippet": "Build and check links in PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_ci.yaml",
+      "term": "Build and check links in PRs"
+    },
+    {
+      "context_snippet": "This project keeps all sources used for building up DevLake's official website which is served at https://devlake.apache.org/.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devlake"
+    },
+    {
+      "context_snippet": "This project keeps all sources used for building up DevLake's official website which is served at https://devlake.apache.org/.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

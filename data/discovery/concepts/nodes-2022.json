@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nodes-2022"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Accenture/Cymple",
+      "status": "candidate-context",
+      "text": "Cymple - a productivity tool for creating Cypher queries in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Accenture/Cymple",
+      "status": "candidate-context",
+      "text": "A productivity tool for creating Cypher queries in Python."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Accenture/Cymple",
+      "status": "candidate",
+      "text": "A productivity tool for creating Cypher queries in Python."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nodes-2022",
+  "concept_id": "nodes-2022",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Accenture/Cymple"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodes-2022",
+      "sense_id": "nodes-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

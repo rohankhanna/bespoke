@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@696b757ee8f3742e68b261173b9eeeb96306a57f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "amanbolat/zederr",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "amanbolat/zederr",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "amanbolat/zederr",
+      "target": "goreleaser/goreleaser-action@696b757ee8f3742e68b261173b9eeeb96306a57f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "amanbolat/zederr",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:55:42.927214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6350
+    },
+    {
+      "path": "go.mod",
+      "size": 1112
+    },
+    {
+      "path": ".github/workflows/goreleaser.yaml",
+      "size": 642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standardized errors",
+    "fork": false,
+    "full_name": "amanbolat/zederr",
+    "html_url": "https://github.com/amanbolat/zederr",
+    "language": "Go",
+    "pushed_at": "2024-07-01T01:51:37Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-03-06T22:37:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "term": "goreleaser"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rpautrat/homography_est",
+      "target": "tsattler/ransaclib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "rpautrat/homography_est",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "rpautrat/homography_est",
+      "target": "CMake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:37:47.395598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1527
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Light-weight library to perform homography estimation with RANSAC from point, line or point-line correspondences",
+    "fork": false,
+    "full_name": "rpautrat/homography_est",
+    "html_url": "https://github.com/rpautrat/homography_est",
+    "language": "C++",
+    "pushed_at": "2025-05-02T07:55:11Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-03-09T23:57:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsattler/ransaclib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    }
+  ]
+}

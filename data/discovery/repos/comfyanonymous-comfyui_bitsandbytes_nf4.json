@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "comfyanonymous/ComfyUI_bitsandbytes_NF4",
+      "target": "ltdrdata/comfyui-manager",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:02:14.920083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 864
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "comfyanonymous/ComfyUI_bitsandbytes_NF4",
+    "html_url": "https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4",
+    "language": "Python",
+    "pushed_at": "2024-08-16T18:06:10Z",
+    "stargazers_count": 424,
+    "topics": [],
+    "updated_at": "2026-04-28T10:36:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ltdrdata/comfyui-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

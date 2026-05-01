@@ -77,7 +77,7 @@
   "normalized_form": "automatically-fix-typos",
   "observation_id": "7ed978fb62b9d835",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Automatically fix typos",
   "source_context_snippet": "Automatically fix typos",
   "source_file": ".github/workflows/fix-typos.yml",

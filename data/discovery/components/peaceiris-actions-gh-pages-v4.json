@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v4",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -467,6 +467,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/sphinx_docs.yml",
       "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "nix-community/nixd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/speculos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewstack.dev-deploy.yml",
+      "source_repo": "facebook/sapling"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theskumar/python-dotenv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cookbook.yml",
+      "source_repo": "agentscope-ai/agentscope-runtime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "bookcars/bookcars.github.io"
     }
   ]
 }

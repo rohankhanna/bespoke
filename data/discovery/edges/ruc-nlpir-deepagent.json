@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "rapidapi/toolbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "ruc-nlpir/arpo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "ruc-nlpir/hira",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "ruc-nlpir/search-o1",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "RUC-NLPIR/DeepAgent"
+}

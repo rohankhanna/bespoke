@@ -1,0 +1,12 @@
+{
+  "component": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb"
+    }
+  ]
+}

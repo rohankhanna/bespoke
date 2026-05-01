@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-libcurl-static"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/idevicerestore",
+      "status": "candidate-context",
+      "text": "Restore/upgrade firmware of iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/idevicerestore",
+      "status": "candidate-context",
+      "text": "build-libcurl-static"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/idevicerestore",
+      "status": "candidate",
+      "text": "build-libcurl-static"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-libcurl-static",
+  "concept_id": "build-libcurl-static",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/curl.yml",
+      "source_repo": "libimobiledevice/idevicerestore"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-libcurl-static",
+      "sense_id": "build-libcurl-static#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

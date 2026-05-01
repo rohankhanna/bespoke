@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rundoc-pr.yml",
+      "source_repo": "heroku/buildpacks"
+    }
+  ],
+  "term": "execute rundoc on tutorials"
+}

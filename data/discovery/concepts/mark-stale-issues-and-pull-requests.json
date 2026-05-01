@@ -559,6 +559,54 @@
       "source_repo": "firebase/FirebaseUI-Flutter",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "Interact with your documents using the power of GPT, 100% privately, no data leaks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styleguidist/react-docgen-typescript",
+      "status": "candidate-context",
+      "text": "A simple parser for react properties defined in typescript instead of propTypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-docgen-typescript",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate-context",
+      "text": "A development-oriented visualization toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b+\u672c\u5730CPU/GPU\u8bad\u7ec3\u90e8\u7f72 (Chinese LLaMA & Alpaca LLMs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -841,6 +889,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "firebase/FirebaseUI-Flutter",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zylon-ai/private-gpt",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-docgen-typescript",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-studio",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -1270,11 +1342,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "firebase/FirebaseUI-Flutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "zylon-ai/private-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "styleguidist/react-docgen-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "agentscope-ai/agentscope-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

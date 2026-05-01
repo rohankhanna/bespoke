@@ -43,6 +43,18 @@
       "source_repo": "chaisql/chai",
       "status": "candidate-context",
       "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate-context",
+      "text": "A simple, fast and versatile Datalog database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"datalevin logo\""
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "chaisql/chai",
       "status": "candidate",
       "text": "ChaiSQL is a modern embedded SQL database, written in pure Go, with a PostgreSQL-inspired API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"datalevin logo\""
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

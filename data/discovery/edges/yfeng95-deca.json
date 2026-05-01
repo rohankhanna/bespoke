@@ -11,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "yfeng95/DECA",
-      "target": "1adrianb/face-alignment",
+      "target": "cydonia999/vggface2-pytorch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "yfeng95/DECA",
-      "target": "cleardusk/3ddfa_v2",
+      "target": "havenfeng/trust",
       "target_type": "repository"
     },
     {
@@ -71,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "yfeng95/DECA"
 }

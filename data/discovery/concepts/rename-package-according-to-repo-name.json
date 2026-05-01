@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rename package according to repo name"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "status": "candidate-context",
+      "text": "DO NOT FORK, CLICK ON \"Use this template\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "status": "candidate-context",
+      "text": "Rename package according to repo name"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qiayuanl/legged_template_controller",
+      "status": "candidate",
+      "text": "Rename package according to repo name"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37025,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34374,
+      "status": "candidate",
+      "text": "clas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34042,
+      "status": "candidate",
+      "text": "sets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33874,
+      "status": "candidate",
+      "text": "oost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33874,
+      "status": "candidate",
+      "text": "post"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rename package according to repo name",
+  "concept_id": "rename-package-according-to-repo-name",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/rename.yml",
+      "source_repo": "qiayuanl/legged_template_controller"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rename package according to repo name",
+      "sense_id": "rename-package-according-to-repo-name#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

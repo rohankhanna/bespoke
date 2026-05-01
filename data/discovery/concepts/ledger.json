@@ -19,6 +19,18 @@
       "source_repo": "ethers-io/ext-signer-ledger",
       "status": "candidate-context",
       "text": "Ethers: LedgerSigner"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate-context",
+      "text": "Small wrapper around Speculos, LedgerWallet & LedgerComm to ease instrumentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/LedgerHQ/ragger/branch/master/graph/badge.svg)](https://codecov.io/gh/LedgerHQ/ragger)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ethers-io/ext-signer-ledger",
       "status": "candidate",
       "text": "Ethers: LedgerSigner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LedgerHQ/ragger",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/LedgerHQ/ragger/branch/master/graph/badge.svg)](https://codecov.io/gh/LedgerHQ/ragger)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ethers-io/ext-signer-ledger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "LedgerHQ/ragger"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

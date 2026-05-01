@@ -367,6 +367,78 @@
       "source_repo": "caoxiemeihao/electron-vite-samples",
       "status": "candidate-context",
       "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "Official Redux templates for Vite, Create-React-App, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Applelo/vite-plugin-inject-preload",
+      "status": "candidate-context",
+      "text": "A Vite plugin for injecting <link rel='preload'> "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/vite-plugin-inject-preload",
+      "status": "candidate-context",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu-collective/vitesse",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated Vite + Vue Starter Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vitesse",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frandiox/vitessedge-template",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Opinionated Vite Starter Template with SSR in Cloudflare Workers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitessedge-template",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf2 On-demand components auto importing for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue-components?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-components)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Access thousands of icons as components on-demand universally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +621,42 @@
       "source_repo": "caoxiemeihao/electron-vite-samples",
       "status": "candidate",
       "text": "\u6b64\u4ed3\u5e93\u4e3a [electron-vite](https://github.com/electron-vite) \u7ec4\u7ec7\u7684\u6700\u4f73\u5b9e\u8df5\u65b9\u6848\u5408\u96c6\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Applelo/vite-plugin-inject-preload",
+      "status": "candidate",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vitesse",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frandiox/vitessedge-template",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-components",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-vue-components?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-vue-components)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-icons",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-icons?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-icons)"
     }
   ],
   "candidate_related_terms": [
@@ -802,11 +910,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "caoxiemeihao/electron-vite-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/redux-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Applelo/vite-plugin-inject-preload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "frandiox/vitessedge-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

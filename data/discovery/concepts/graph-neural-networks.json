@@ -151,6 +151,18 @@
       "source_repo": "chaitjo/learning-tsp",
       "status": "candidate-context",
       "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "Joint Deep Matcher for Points and Lines \ud83d\uddbc\ufe0f\ud83d\udca5\ud83d\uddbc\ufe0f (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "chaitjo/learning-tsp",
       "status": "candidate",
       "text": "This repository contains code for the paper [**\"Learning TSP Requires Rethinking Generalization\"**](https://arxiv.org/abs/2006.07054) by Chaitanya K. Joshi, Quentin Cappart, Louis-Martin Rousseau, Thomas Laurent, accepted to the **27th International Conference on Principles and \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -394,11 +412,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cvg/GlueStick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":black_heart: Create and share beautiful images of your source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39550318,
+      "status": "candidate",
+      "text": "twitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39546194,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39492229,
+      "status": "candidate",
+      "text": "pinch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39482905,
+      "status": "candidate",
+      "text": "twinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39480209,
+      "status": "candidate",
+      "text": "vellicate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tweet",
+      "sense_id": "tweet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39034,
+      "status": "candidate",
+      "text": "twinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26026,
+      "status": "candidate",
+      "text": "vellicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21054,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17048,
+      "status": "candidate",
+      "text": "pinch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9042,
+      "status": "candidate",
+      "text": "twitch"
+    }
+  ],
+  "concept_id": "tweet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tweet",
+  "observation_id": "30e8438b2bb07e9e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "tweet",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "carbon-app/carbon",
+  "source_repo_description": ":black_heart: Create and share beautiful images of your source code"
+}

@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usbarmory/usbarmory-debian-base_image",
+      "target": "usbarmory/armory-ums",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "usbarmory/usbarmory-debian-base_image",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "usbarmory/usbarmory-debian-base_image",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "usbarmory/usbarmory-debian-base_image",
+      "target": "Build-All",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:43:36.693829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5560
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1496
+    },
+    {
+      "path": ".github/workflows/build-all.yml",
+      "size": 3652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "USB armory Debian base image",
+    "fork": false,
+    "full_name": "usbarmory/usbarmory-debian-base_image",
+    "html_url": "https://github.com/usbarmory/usbarmory-debian-base_image",
+    "language": "Makefile",
+    "pushed_at": "2026-04-13T11:48:06Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-04-13T10:03:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usbarmory/armory-ums",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build-All",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "term": "Build-All"
+    }
+  ]
+}

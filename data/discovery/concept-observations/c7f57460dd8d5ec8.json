@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An ACP bridge to langraph4j and langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "langchain4j",
+      "sense_id": "langchain4j#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "langchain4j",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "langchain4j",
+  "observation_id": "c7f57460dd8d5ec8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "langchain4j",
+  "source_context_snippet": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)",
+  "source_file": null,
+  "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+  "source_repo_description": "An ACP bridge to langraph4j and langchain4j"
+}

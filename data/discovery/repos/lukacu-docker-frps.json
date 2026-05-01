@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukacu/docker-frps",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:02.183712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3888
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker container for a FRP server",
+    "fork": false,
+    "full_name": "lukacu/docker-frps",
+    "html_url": "https://github.com/lukacu/docker-frps",
+    "language": "Go",
+    "pushed_at": "2025-12-05T21:13:55Z",
+    "stargazers_count": 24,
+    "topics": [
+      "docker",
+      "frp"
+    ],
+    "updated_at": "2026-01-14T17:39:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker container for FRP server.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

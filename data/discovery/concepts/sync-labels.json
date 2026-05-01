@@ -92,6 +92,30 @@
       "source_repo": "argoproj-labs/hera",
       "status": "candidate-context",
       "text": "Sync labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Ethernet Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate-context",
+      "text": "Sync Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Servo Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate-context",
+      "text": "Sync Labels"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +160,18 @@
       "source_repo": "argoproj-labs/hera",
       "status": "candidate",
       "text": "Sync labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Ethernet",
+      "status": "candidate",
+      "text": "Sync Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arduino-libraries/Servo",
+      "status": "candidate",
+      "text": "Sync Labels"
     }
   ],
   "candidate_related_terms": [
@@ -251,11 +287,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/labels.yml",
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Servo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - Model Regression on schedule"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate-context",
+      "text": "CI - Model Regression on schedule"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate",
+      "text": "CI - Model Regression on schedule"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21932,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21303,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20841,
+      "status": "candidate",
+      "text": "ebb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20841,
+      "status": "candidate",
+      "text": "regress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20700,
+      "status": "candidate",
+      "text": "decline"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - Model Regression on schedule",
+  "concept_id": "ci---model-regression-on-schedule",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci-model-regression-on-schedule.yml",
+      "source_repo": "RasaHQ/rasa"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Model Regression on schedule",
+      "sense_id": "ci---model-regression-on-schedule#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,209 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "chakravala/directsum.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "juliaarrays/staticarrays.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "applied-category-theory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "category-theory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "compositionality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "functor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "manifold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "manifolds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "tensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "tensor-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "target": "type-system",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:42:35.766556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9017
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tensor algebra abstract type interoperability setup",
+    "fork": false,
+    "full_name": "chakravala/AbstractTensors.jl",
+    "html_url": "https://github.com/chakravala/AbstractTensors.jl",
+    "language": "Julia",
+    "pushed_at": "2025-09-03T23:45:44Z",
+    "stargazers_count": 44,
+    "topics": [
+      "applied-category-theory",
+      "category-theory",
+      "compositionality",
+      "functor",
+      "linear-algebra",
+      "manifold",
+      "manifolds",
+      "math",
+      "tensor",
+      "tensor-algebra",
+      "type-system"
+    ],
+    "updated_at": "2025-12-05T19:17:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chakravala/directsum.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaarrays/staticarrays.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "applied-category-theory"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "category-theory"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compositionality"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functor"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifold"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifolds"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor-algebra"
+    },
+    {
+      "context_snippet": "*Tensor algebra abstract type interoperability with vector bundle parameter*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-system"
+    }
+  ]
+}

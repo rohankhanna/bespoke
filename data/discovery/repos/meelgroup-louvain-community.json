@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meelgroup/louvain-community",
+      "target": "jlguillaume/louvain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "meelgroup/louvain-community",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "meelgroup/louvain-community",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meelgroup/louvain-community",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meelgroup/louvain-community",
+      "target": "graph-algorithms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:39:46.863484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3597
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Louvain Community Detection Library",
+    "fork": false,
+    "full_name": "meelgroup/louvain-community",
+    "html_url": "https://github.com/meelgroup/louvain-community",
+    "language": "C++",
+    "pushed_at": "2026-04-01T22:22:47Z",
+    "stargazers_count": 2,
+    "topics": [
+      "graph",
+      "graph-algorithms"
+    ],
+    "updated_at": "2026-04-01T22:22:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlguillaume/louvain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](http://www.gnu.org/licenses/lgpl-3.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-algorithms"
+    }
+  ]
+}

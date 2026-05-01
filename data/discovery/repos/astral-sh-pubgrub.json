@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/permaref.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pubgrub.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pubgrub.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-version-ranges.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-version-ranges.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "sdispater/mixology",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "moonrepo/setup-rust@abb2d32350334249b178c401e5ec5836e0cd88d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "Benchmarks (CodSpeed)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "Deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/permaref.yaml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/permaref.yaml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "Create permanent reference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pubgrub.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pubgrub.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pubgrub.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "Publish pubgrub to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-version-ranges.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-version-ranges.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-version-ranges.yml",
+      "source_repo": "astral-sh/pubgrub",
+      "target": "Publish version-ranges to crates.io",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:49:19.993140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5096
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1646
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/deploy_documentation.yml",
+      "size": 836
+    },
+    {
+      "path": ".github/workflows/permaref.yaml",
+      "size": 1356
+    },
+    {
+      "path": ".github/workflows/publish-pubgrub.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/publish-version-ranges.yml",
+      "size": 532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PubGrub version solving algorithm implemented in Rust",
+    "fork": true,
+    "full_name": "astral-sh/pubgrub",
+    "html_url": "https://github.com/astral-sh/pubgrub",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T00:24:40Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-09T14:51:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sdispater/mixology",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmarks (CodSpeed)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmarks (CodSpeed)"
+    },
+    {
+      "context_snippet": "Deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_documentation.yml",
+      "term": "Deploy documentation"
+    },
+    {
+      "context_snippet": "Create permanent reference",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/permaref.yaml",
+      "term": "Create permanent reference"
+    },
+    {
+      "context_snippet": "Publish pubgrub to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pubgrub.yml",
+      "term": "Publish pubgrub to crates.io"
+    },
+    {
+      "context_snippet": "Publish version-ranges to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-version-ranges.yml",
+      "term": "Publish version-ranges to crates.io"
+    }
+  ]
+}

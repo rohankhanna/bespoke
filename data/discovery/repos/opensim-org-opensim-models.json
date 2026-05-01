@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:42:05.150379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SimTK OpenSim models (.osim) and related example files that are distributed with OpenSim.",
+    "fork": false,
+    "full_name": "opensim-org/opensim-models",
+    "html_url": "https://github.com/opensim-org/opensim-models",
+    "language": "HTML",
+    "pushed_at": "2025-11-05T17:05:51Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-04-29T11:19:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

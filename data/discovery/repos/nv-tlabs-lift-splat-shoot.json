@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:05:48.126810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lift, Splat, Shoot: Encoding Images from Arbitrary Camera Rigs by Implicitly Unprojecting to 3D (ECCV 2020)",
+    "fork": false,
+    "full_name": "nv-tlabs/lift-splat-shoot",
+    "html_url": "https://github.com/nv-tlabs/lift-splat-shoot",
+    "language": "Python",
+    "pushed_at": "2024-10-15T01:41:09Z",
+    "stargazers_count": 1333,
+    "topics": [],
+    "updated_at": "2026-04-28T08:57:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

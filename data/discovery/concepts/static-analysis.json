@@ -677,6 +677,30 @@
       "source_repo": "jemalloc/jemalloc",
       "status": "candidate-context",
       "text": "'Static Analysis'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/sarif-tutorials",
+      "status": "candidate-context",
+      "text": "User-friendly documentation for the SARIF file format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/sarif-tutorials",
+      "status": "candidate-context",
+      "text": "SARIF, the Static Analysis Results Interchange Format, defines a standard format for the output of static analysis tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate-context",
+      "text": "A static analysis security vulnerability scanner for Ruby on Rails applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate-context",
+      "text": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)"
     }
   ],
   "candidate_glosses": [
@@ -1009,6 +1033,18 @@
       "source_repo": "jemalloc/jemalloc",
       "status": "candidate",
       "text": "'Static Analysis'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/sarif-tutorials",
+      "status": "candidate",
+      "text": "SARIF, the Static Analysis Results Interchange Format, defines a standard format for the output of static analysis tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate",
+      "text": "[![Brakeman Logo](http://brakemanscanner.org/images/logo_medium.png)](http://brakemanscanner.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -1508,11 +1544,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/static_analysis.yaml",
       "source_repo": "jemalloc/jemalloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/sarif-tutorials"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "presidentbeef/brakeman"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

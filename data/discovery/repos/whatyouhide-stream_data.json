@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "clojure/test.check",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "alfert/propcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "proper-testing/proper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdlib.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stdlib.yml",
+      "source_repo": "whatyouhide/stream_data",
+      "target": "Elixir stdlib tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatyouhide/stream_data",
+      "target": "data-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatyouhide/stream_data",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatyouhide/stream_data",
+      "target": "property-based-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatyouhide/stream_data",
+      "target": "property-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatyouhide/stream_data",
+      "target": "quickcheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:53:47.611257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5589
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2025
+    },
+    {
+      "path": ".github/workflows/stdlib.yml",
+      "size": 2386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data generation and property-based testing for Elixir. \ud83d\udd2e",
+    "fork": false,
+    "full_name": "whatyouhide/stream_data",
+    "html_url": "https://github.com/whatyouhide/stream_data",
+    "language": "Elixir",
+    "pushed_at": "2026-03-09T08:28:40Z",
+    "stargazers_count": 938,
+    "topics": [
+      "data-generation",
+      "elixir",
+      "property-based-testing",
+      "property-testing",
+      "quickcheck"
+    ],
+    "updated_at": "2026-04-22T02:27:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alfert/propcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/test.check",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proper-testing/proper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Elixir stdlib tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stdlib.yml",
+      "term": "Elixir stdlib tests"
+    },
+    {
+      "context_snippet": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-generation"
+    },
+    {
+      "context_snippet": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "property-based-testing"
+    },
+    {
+      "context_snippet": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "property-testing"
+    },
+    {
+      "context_snippet": "[![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/stream_data)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quickcheck"
+    }
+  ]
+}

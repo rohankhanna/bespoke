@@ -19,12 +19,66 @@
       "source_repo": "suzuki-shunsuke/pinact",
       "status": "candidate-context",
       "text": "Check if all commits are signed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "GitHub Actions linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate-context",
+      "text": "Check if all commits are signed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "status": "candidate-context",
+      "text": "A CLI to create short-lived (8 hours) GitHub App User Access Token for secure local development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "status": "candidate-context",
+      "text": "Check if all commits are signed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate-context",
+      "text": "GitHub Actions to pin GitHub Actions by pinact"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact-action",
+      "status": "candidate-context",
+      "text": "Check if all commits are signed"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "suzuki-shunsuke/pinact",
+      "status": "candidate",
+      "text": "Check if all commits are signed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghalint",
+      "status": "candidate",
+      "text": "Check if all commits are signed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "status": "candidate",
+      "text": "Check if all commits are signed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "suzuki-shunsuke/pinact-action",
       "status": "candidate",
       "text": "Check if all commits are signed"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/check-commit-signing.yaml",
       "source_repo": "suzuki-shunsuke/pinact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/ghalint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/pinact-action"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

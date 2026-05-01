@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "elixir-makeup/makeup",
-      "target": "elixir-makeup/makeup_elixir",
+      "target": "elixir-makeup/makeup_erlang",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "elixir-makeup/makeup",
-      "target": "elixir-makeup/makeup_c",
+      "target": "elixir-makeup/makeup_html",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "elixir-makeup/makeup",
-      "target": "elixir-makeup/makeup_diff",
+      "target": "elixir-makeup/makeup_json",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "elixir-makeup/makeup",
-      "target": "elixir-makeup/makeup_eex",
+      "target": "elixir-makeup/makeup_syntect",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "elixir-makeup/makeup"
 }

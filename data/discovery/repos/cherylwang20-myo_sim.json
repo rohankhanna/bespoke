@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cherylwang20/myo_sim",
+      "target": "facebookresearch/myosuite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:05.888249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Musculoskeletal Models in MuJoCo",
+    "fork": true,
+    "full_name": "cherylwang20/myo_sim",
+    "html_url": "https://github.com/cherylwang20/myo_sim",
+    "language": "Python",
+    "pushed_at": "2025-08-22T02:31:45Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-02-27T00:06:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/myosuite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:07:33.827397+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mesh tools.",
+    "fork": false,
+    "full_name": "ashawkey/cubvh",
+    "html_url": "https://github.com/ashawkey/cubvh",
+    "language": "C++",
+    "pushed_at": "2026-01-27T14:20:05Z",
+    "stargazers_count": 287,
+    "topics": [],
+    "updated_at": "2026-04-20T14:16:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

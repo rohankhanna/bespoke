@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-custom-data",
+      "target": "microsoft/vscode-html-languageservice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-custom-data",
+      "target": "octref/vscode-mavo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:03:25.237137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation and sample for using VS Code custom data format",
+    "fork": false,
+    "full_name": "microsoft/vscode-custom-data",
+    "html_url": "https://github.com/microsoft/vscode-custom-data",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-18T16:57:03Z",
+    "stargazers_count": 238,
+    "topics": [],
+    "updated_at": "2026-04-03T13:33:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-html-languageservice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octref/vscode-mavo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

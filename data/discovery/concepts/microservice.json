@@ -163,6 +163,18 @@
       "source_repo": "CyanAsterisk/FreeCar",
       "status": "candidate-context",
       "text": "![FreeCar](img/FreeCar.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recap-utr/nlp-service",
+      "status": "candidate-context",
+      "text": "NLP microservice for computing embeddings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recap-utr/nlp-service",
+      "status": "candidate-context",
+      "text": "The goal of this project is to provide a [gRPC](https://grpc.io) server for resource-heavy NLP tasks&mdash;for instance, computing vectors/embeddings for words or sentences."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "CyanAsterisk/FreeCar",
       "status": "candidate",
       "text": "![FreeCar](img/FreeCar.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recap-utr/nlp-service",
+      "status": "candidate",
+      "text": "The goal of this project is to provide a [gRPC](https://grpc.io) server for resource-heavy NLP tasks&mdash;for instance, computing vectors/embeddings for words or sentences."
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "recap-utr/nlp-service"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

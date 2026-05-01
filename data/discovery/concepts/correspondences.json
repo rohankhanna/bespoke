@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "correspondences"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tsingularity/dift",
+      "status": "candidate-context",
+      "text": "[NeurIPS'23] Emergent Correspondence from Image Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tsingularity/dift",
+      "status": "candidate-context",
+      "text": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tsingularity/dift",
+      "status": "candidate",
+      "text": "This repository contains code for our NeurIPS 2023 paper \"Emergent Correspondence from Image Diffusion\"."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014677,
+      "status": "candidate",
+      "text": "commensurateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014090,
+      "status": "candidate",
+      "text": "parallelism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014040,
+      "status": "candidate",
+      "text": "proportionateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004931,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10002651,
+      "status": "candidate",
+      "text": "agreement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "correspondences",
+  "concept_id": "correspondences",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Tsingularity/dift"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "correspondences",
+      "sense_id": "correspondences#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

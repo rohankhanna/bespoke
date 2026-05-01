@@ -55,6 +55,18 @@
       "source_repo": "prisma/prisma",
       "status": "candidate-context",
       "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Accenture/Cymple",
+      "status": "candidate-context",
+      "text": "Cymple - a productivity tool for creating Cypher queries in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Accenture/Cymple",
+      "status": "candidate-context",
+      "text": "A productivity tool for creating Cypher queries in Python."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "prisma/prisma",
       "status": "candidate",
       "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Accenture/Cymple",
+      "status": "candidate",
+      "text": "A productivity tool for creating Cypher queries in Python."
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "prisma/prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Accenture/Cymple"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

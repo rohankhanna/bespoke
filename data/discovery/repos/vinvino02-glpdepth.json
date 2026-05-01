@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:05:42.136023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5300
+    },
+    {
+      "path": "requirements.txt",
+      "size": 137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLPDepth PyTorch Implementation: Global-Local Path Networks for Monocular Depth Estimation with Vertical CutDepth",
+    "fork": false,
+    "full_name": "vinvino02/GLPDepth",
+    "html_url": "https://github.com/vinvino02/GLPDepth",
+    "language": "Python",
+    "pushed_at": "2024-03-08T01:03:36Z",
+    "stargazers_count": 198,
+    "topics": [],
+    "updated_at": "2026-04-17T03:34:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

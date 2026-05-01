@@ -340,6 +340,30 @@
       "source_repo": "RDFLib/pyLODE",
       "status": "candidate-context",
       "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/jmp",
+      "status": "candidate-context",
+      "text": "JMP is a Mixed Precision library for JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jmp",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate-context",
+      "text": "Unified high-performance Python client for object and file stores."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate-context",
+      "text": "PyPI"
     }
   ],
   "candidate_glosses": [
@@ -510,6 +534,18 @@
       "source_repo": "RDFLib/pyLODE",
       "status": "candidate",
       "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/jmp",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate",
+      "text": "PyPI"
     }
   ],
   "candidate_related_terms": [],
@@ -907,11 +943,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "RDFLib/pyLODE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/.pypi.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

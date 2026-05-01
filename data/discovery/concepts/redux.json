@@ -121,6 +121,54 @@
       "source_repo": "microsoft/BotFramework-Emulator",
       "status": "candidate-context",
       "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "Clean and minimalist React Native template for a quick start with Redux and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "Official Redux templates for Vite, Create-React-App, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "immerjs/immer",
+      "status": "candidate-context",
+      "text": "Create the next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "immerjs/immer",
+      "status": "candidate-context",
+      "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate-context",
+      "text": "Redux DevTools extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +231,30 @@
       "source_repo": "microsoft/BotFramework-Emulator",
       "status": "candidate",
       "text": "**Bot Framework Emulator being retired in favor of Agents Playground**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "immerjs/immer",
+      "status": "candidate",
+      "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zalmoxisus/redux-devtools-extension",
+      "status": "candidate",
+      "text": "\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f\ud83d\udea8\ud83d\udea8\ud83d\udea8\u26a0\ufe0f\u26a0\ufe0f\u26a0\ufe0f"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +394,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "microsoft/BotFramework-Emulator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/redux-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "immerjs/immer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zalmoxisus/redux-devtools-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

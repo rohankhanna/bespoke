@@ -1271,6 +1271,102 @@
       "source_repo": "gost-dom/browser",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzymejs/react-shallow-renderer",
+      "status": "candidate-context",
+      "text": "Shallow rendering for React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/react-shallow-renderer",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/enzymejs/react-shallow-renderer/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Create a distribution .zip or .tar.gz based on a plugin or theme's .distignore file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hamcrest/OCHamcrest",
+      "status": "candidate-context",
+      "text": "Hamcrest for Objective-C: Powerful, combinable, extensible matchers for verification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hamcrest/OCHamcrest",
+      "status": "candidate-context",
+      "text": "![ochamcrest](http://hamcrest.org/images/logo.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "status": "candidate-context",
+      "text": "A curated list of awesome WebdriverIO resources, libraries and tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "status": "candidate-context",
+      "text": "Neotest adapter for unitest test runner of Gleam lang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "status": "candidate-context",
+      "text": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate-context",
+      "text": "Run your tests at the speed of thought"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate-context",
+      "text": "![CI workflow](https://github.com/vim-test/vim-test/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate-context",
+      "text": "a plugin for py.test that changes the default look and feel of py.test (e.g. progressbar, show tests that fail instantly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "A small set of extensions to make test assertions more fluent when using CSharpFunctionalExtensions! Wow!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate-context",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
     }
   ],
   "candidate_glosses": [
@@ -1903,6 +1999,54 @@
       "source_repo": "gost-dom/browser",
       "status": "candidate",
       "text": "<h1 align=\"center\"><img src=\"https://avatars.githubusercontent.com/u/196428063?s=50&v=4\" alt=\"logo\" /><br />Gost-DOM<br /><span font-size=\"0.05em\">A headless browser for Go</span></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/react-shallow-renderer",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/enzymejs/react-shallow-renderer/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wp-cli/dist-archive-command",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hamcrest/OCHamcrest",
+      "status": "candidate",
+      "text": "![ochamcrest](http://hamcrest.org/images/logo.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webdriverio/awesome-webdriverio",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashton/neotest-gleam-unitest",
+      "status": "candidate",
+      "text": "A [Gleam](https://gleam.run/) adapter for the [Neotest](https://github.com/nvim-neotest/neotest) framework, built for projects using [unitest](https://github.com/maxdeviant/unitest) as the test runner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate",
+      "text": "![CI workflow](https://github.com/vim-test/vim-test/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Teemu/pytest-sugar",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions",
+      "status": "candidate",
+      "text": "- [![NuGet Package](https://img.shields.io/nuget/v/CSharpFunctionalExtensions.FluentAssertions.svg)](https://www.nuget.org/packages/CSharpFunctionalExtensions.FluentAssertions) **CSharpFunctionalExtensions.FluentAssertions**"
     }
   ],
   "candidate_related_terms": [
@@ -2775,11 +2919,95 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "gost-dom/browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "wp-cli/dist-archive-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hamcrest/OCHamcrest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "webdriverio/awesome-webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashton/neotest-gleam-unitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vim-test/vim-test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Teemu/pytest-sugar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NitroDevs/CSharpFunctionalExtensions.FluentAssertions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

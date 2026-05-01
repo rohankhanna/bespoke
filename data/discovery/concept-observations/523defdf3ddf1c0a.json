@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Boilerplate application for Ledger devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Misspellings checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Misspellings checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16664,
+      "status": "candidate",
+      "text": "emend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15714,
+      "status": "candidate",
+      "text": "proofread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14804,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14804,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14804,
+      "status": "candidate",
+      "text": "proofed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Misspellings checks",
+      "sense_id": "misspellings-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "misspellings-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "misspellings-checks",
+  "observation_id": "523defdf3ddf1c0a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Misspellings checks",
+  "source_context_snippet": "Misspellings checks",
+  "source_file": ".github/workflows/misspellings_checks.yml",
+  "source_repo": "LedgerHQ/app-boilerplate",
+  "source_repo_description": "Boilerplate application for Ledger devices"
+}

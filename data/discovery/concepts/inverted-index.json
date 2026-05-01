@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "inverted-index"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate-context",
+      "text": "PISA: Performant Indexes and Search for Academia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "inverted-index",
+  "concept_id": "inverted-index",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pisa-engine/pisa"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inverted-index",
+      "sense_id": "inverted-index#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

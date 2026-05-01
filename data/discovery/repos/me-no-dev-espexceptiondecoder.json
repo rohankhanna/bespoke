@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "me-no-dev/EspExceptionDecoder",
+      "target": "electronicsguy/esp8266",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "me-no-dev/EspExceptionDecoder",
+      "target": "littleyoda/espstacktracedecoder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:03.836994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Exception Stack Trace Decoder for ESP8266 and ESP32",
+    "fork": false,
+    "full_name": "me-no-dev/EspExceptionDecoder",
+    "html_url": "https://github.com/me-no-dev/EspExceptionDecoder",
+    "language": "Java",
+    "pushed_at": "2023-04-08T01:21:51Z",
+    "stargazers_count": 1136,
+    "topics": [],
+    "updated_at": "2026-04-21T20:30:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "electronicsguy/esp8266",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littleyoda/espstacktracedecoder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

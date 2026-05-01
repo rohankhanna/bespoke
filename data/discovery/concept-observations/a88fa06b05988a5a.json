@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Backend for https://animl.camera"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An AWS Lambda-based, GraphQl interface for performing CRUD operations on camera"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An AWS Lambda-based, GraphQl interface for performing CRUD operations on camera"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "camera-traps",
+      "sense_id": "camera-traps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "camera-traps",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "camera-traps",
+  "observation_id": "a88fa06b05988a5a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "camera-traps",
+  "source_context_snippet": "An AWS Lambda-based, GraphQl interface for performing CRUD operations on camera",
+  "source_file": null,
+  "source_repo": "tnc-ca-geo/animl-api",
+  "source_repo_description": "Backend for https://animl.camera"
+}

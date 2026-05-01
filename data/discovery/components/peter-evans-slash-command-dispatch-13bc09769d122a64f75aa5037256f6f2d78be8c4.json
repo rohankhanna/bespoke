@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/slash-command-dispatch@13bc09769d122a64f75aa5037256f6f2d78be8c4",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/slash_dispatch.yml",
       "source_repo": "pymc-devs/pymc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/command-dispatch.yml",
+      "source_repo": "pulumi/examples"
     }
   ]
 }

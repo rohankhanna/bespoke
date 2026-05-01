@@ -415,6 +415,30 @@
       "source_repo": "hahnyuan/PB-LLM",
       "status": "candidate-context",
       "text": "**[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Qiang Wu, [Zhen Dong](https://dong-zhen.com/)** (* Equal Contribution)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587LLaMA&Alpaca\u5927\u8bed\u8a00\u6a21\u578b+\u672c\u5730CPU/GPU\u8bad\u7ec3\u90e8\u7f72 (Chinese LLaMA & Alpaca LLMs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "status": "candidate-context",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +645,18 @@
       "source_repo": "hahnyuan/PB-LLM",
       "status": "candidate",
       "text": "**[Yuzhang Shang*](https://42shawn.github.io/), [Zhihang Yuan*](http://hahnyuan.com/), Qiang Wu, [Zhen Dong](https://dong-zhen.com/)** (* Equal Contribution)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1140,11 +1176,59 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-LLaMA-Alpaca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

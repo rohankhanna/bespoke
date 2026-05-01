@@ -1063,6 +1063,42 @@
       "source_repo": "LeCAR-Lab/ASAP",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "A lightweight library for PyTorch training tools and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate-context",
+      "text": "SCOPE-RL: A python library for offline reinforcement learning, off-policy evaluation, and selection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/ibc",
+      "status": "candidate-context",
+      "text": "Official implementation of Implicit Behavioral Cloning, as described in our CoRL 2021 paper, see more at https://implicitbc.github.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/ibc",
+      "status": "candidate-context",
+      "text": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:"
     }
   ],
   "candidate_glosses": [
@@ -1593,6 +1629,24 @@
       "source_repo": "LeCAR-Lab/ASAP",
       "status": "candidate",
       "text": "<h1 align=\"center\"> ASAP: Aligning Simulation and Real-World Physics for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/ibc",
+      "status": "candidate",
+      "text": "This codebase contains the official implementation of the *Implicit Behavioral Cloning (IBC)* algorithm from our paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -2314,11 +2368,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-research/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

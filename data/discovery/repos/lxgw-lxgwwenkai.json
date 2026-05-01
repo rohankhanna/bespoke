@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_submodule.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_submodule.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "catharsisfonts/ysabeau",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "buttaiwan/iansui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "buernia/zhudou-sans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "des-magmeta/plankai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "Build font files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "Bump fontinfo version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "Package fonts and upload to release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_submodule.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_submodule.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_submodule.yaml",
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "Update submodule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenKai",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:54.181477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14447
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 1725
+    },
+    {
+      "path": ".github/workflows/bump_version.yaml",
+      "size": 1794
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1242
+    },
+    {
+      "path": ".github/workflows/update_submodule.yaml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An unprofessional open-source Chinese font derived from Fontworks' Klee One. \u4e00\u6b3e\u975e\u4e13\u4e1a\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\uff0c\u57fa\u4e8e FONTWORKS \u51fa\u54c1\u5b57\u4f53 Klee One \u884d\u751f\u3002  ",
+    "fork": false,
+    "full_name": "lxgw/LxgwWenKai",
+    "html_url": "https://github.com/lxgw/LxgwWenKai",
+    "language": "Shell",
+    "pushed_at": "2026-03-17T15:15:14Z",
+    "stargazers_count": 24091,
+    "topics": [
+      "cjk",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-01T12:22:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buernia/zhudou-sans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buttaiwan/iansui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "catharsisfonts/ysabeau",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "des-magmeta/plankai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build font files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build font files"
+    },
+    {
+      "context_snippet": "Bump fontinfo version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "term": "Bump fontinfo version"
+    },
+    {
+      "context_snippet": "Package fonts and upload to release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Package fonts and upload to release"
+    },
+    {
+      "context_snippet": "Update submodule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_submodule.yaml",
+      "term": "Update submodule"
+    },
+    {
+      "context_snippet": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "> \u4e0d\u7ea0\u6b63\u4e86\uff0c\u60a8\u89c9\u5f97\u8fd9\u4e2a\u5b57\u4f53\u53eb\u4ec0\u4e48\u5c31\u662f\u4ec0\u4e48\u5427\uff08",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

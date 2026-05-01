@@ -19,6 +19,18 @@
       "source_repo": "RcppCore/Rcpp",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ropensci/software-review",
+      "status": "candidate-context",
+      "text": "rOpenSci Software Peer Review. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/software-review",
+      "status": "candidate-context",
+      "text": "![](icon_lettering_color.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "RcppCore/Rcpp",
       "status": "candidate",
       "text": "[![CI](https://github.com/RcppCore/Rcpp/workflows/ci/badge.svg)](https://github.com/RcppCore/Rcpp/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ropensci/software-review",
+      "status": "candidate",
+      "text": "![](icon_lettering_color.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "RcppCore/Rcpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ropensci/software-review"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

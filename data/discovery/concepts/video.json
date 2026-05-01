@@ -499,6 +499,42 @@
       "source_repo": "hongsukchoi/TCMR_RELEASE",
       "status": "candidate-context",
       "text": "| Qualtitative result | Paper teaser video |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "remotion-dev/remotion",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa5      Make videos programmatically with React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/remotion",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/frame-interpolation",
+      "status": "candidate-context",
+      "text": "FILM: Frame Interpolation for Large Motion, In ECCV 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/frame-interpolation",
+      "status": "candidate-context",
+      "text": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "status": "candidate-context",
+      "text": "MICCAI 2023 code for the paper: Feature-Conditioned Cascaded Video Diffusion Models for Precise Echocardiogram Synthesis. EchoDiffusion is a collection of video diffusion models trained from scratch on the EchoNet-Dynamic dataset with the imagen-pytorch repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "status": "candidate-context",
+      "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +783,24 @@
       "source_repo": "hongsukchoi/TCMR_RELEASE",
       "status": "candidate",
       "text": "| Qualtitative result | Paper teaser video |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "remotion-dev/remotion",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/frame-interpolation",
+      "status": "candidate",
+      "text": "The official Tensorflow 2 implementation of our high quality frame interpolation neural network. We present a unified single-network approach that doesn't use additional pre-trained networks, like optical flow or depth, and yet achieve state-of-the-art results. We use a multi-sc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HReynaud/EchoDiffusion",
+      "status": "candidate",
+      "text": "\u2b50\ufe0f **NEW** \u2b50\ufe0f: **Check our new [latent video diffusion repository](https://github.com/HReynaud/EchoNet-Synthetic)! It's faster and requires much less ressources while having better temporal consistency !**"
     }
   ],
   "candidate_related_terms": [
@@ -1105,11 +1159,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/remotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "HReynaud/EchoDiffusion"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

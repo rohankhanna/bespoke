@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lifeiteng/vall-e",
-      "target": "lifeiteng/lifeiteng.github.com",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "lifeiteng/vall-e",
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:30:09.572135+00:00",
+  "fetched_at": "2026-05-01T15:05:30.579601+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -88,11 +81,6 @@
     "updated_at": "2026-05-01T08:09:17Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lifeiteng/lifeiteng.github.com",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lifeiteng/valle",

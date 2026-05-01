@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Restore/upgrade firmware of iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*A command-line application to restore firmware files to iOS devices.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*A command-line application to restore firmware files to iOS devices.*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996917,
+      "status": "candidate",
+      "text": "reinstate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996793,
+      "status": "candidate",
+      "text": "reestablish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996756,
+      "status": "candidate",
+      "text": "restitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996715,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996401,
+      "status": "candidate",
+      "text": "repair"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "restore",
+      "sense_id": "restore#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "mend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14054,
+      "status": "candidate",
+      "text": "repair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "reinstate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11020,
+      "status": "candidate",
+      "text": "restitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9069,
+      "status": "candidate",
+      "text": "fix"
+    }
+  ],
+  "concept_id": "restore",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "restore",
+  "observation_id": "d68b6098873b1dc2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "restore",
+  "source_context_snippet": "*A command-line application to restore firmware files to iOS devices.*",
+  "source_file": null,
+  "source_repo": "libimobiledevice/idevicerestore",
+  "source_repo_description": "Restore/upgrade firmware of iOS devices"
+}

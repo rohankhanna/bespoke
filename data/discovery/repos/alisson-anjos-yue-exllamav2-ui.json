@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alisson-anjos/YuE-exllamav2-UI",
+      "target": "sgsdxzy/yue-exllamav2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:37:31.730679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15508
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2965
+    },
+    {
+      "path": "requirements.txt",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "alisson-anjos/YuE-exllamav2-UI",
+    "html_url": "https://github.com/alisson-anjos/YuE-exllamav2-UI",
+    "language": "Python",
+    "pushed_at": "2025-02-09T19:01:30Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-26T00:49:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sgsdxzy/yue-exllamav2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

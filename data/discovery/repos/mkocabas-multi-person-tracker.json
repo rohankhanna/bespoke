@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mkocabas/multi-person-tracker",
+      "target": "mkocabas/yolov3-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/multi-person-tracker",
+      "target": "multi-person-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/multi-person-tracker",
+      "target": "object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/multi-person-tracker",
+      "target": "people-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/multi-person-tracker",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/multi-person-tracker",
+      "target": "sort",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:07.460972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1880
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple Multi Person Tracker implementation in PyTorch",
+    "fork": false,
+    "full_name": "mkocabas/multi-person-tracker",
+    "html_url": "https://github.com/mkocabas/multi-person-tracker",
+    "language": "Python",
+    "pushed_at": "2022-08-09T18:59:14Z",
+    "stargazers_count": 164,
+    "topics": [
+      "multi-person-tracking",
+      "object-tracking",
+      "people-tracker",
+      "pytorch",
+      "sort"
+    ],
+    "updated_at": "2026-04-04T10:29:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/yolov3-pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-person-tracking"
+    },
+    {
+      "context_snippet": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-tracking"
+    },
+    {
+      "context_snippet": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "people-tracker"
+    },
+    {
+      "context_snippet": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sort"
+    }
+  ]
+}

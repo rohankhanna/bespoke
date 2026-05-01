@@ -91,6 +91,18 @@
       "source_repo": "gatsbyjs/gatsby",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "status": "candidate-context",
+      "text": "My personal website and blog made with Franklin.jl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "status": "candidate-context",
+      "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "gatsbyjs/gatsby",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhishalya/abhishalya.github.io",
+      "status": "candidate",
+      "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +280,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "abhishalya/abhishalya.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

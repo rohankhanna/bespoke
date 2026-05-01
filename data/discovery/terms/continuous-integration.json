@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -986,6 +986,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "elixir-makeup/makeup_diff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/continous-integration.yml",
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/continuous_integration.yml",
+      "source_repo": "opensim-org/conda-opensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "4itworks/opensource_qwkin_dart"
     }
   ],
   "term": "Continuous Integration"

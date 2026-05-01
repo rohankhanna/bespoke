@@ -1,0 +1,505 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@v0.57.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@v0.57.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@v0.57.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "github/gh-aw/actions/setup@v0.57.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "cli/gh-extension-precompile@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "github/gh-aw/actions/setup@v0.57.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "Documentation Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-sync.md",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "Documentation Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "cli/gh-extension-precompile@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "devlake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "dora-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "gbb-ip-atlas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "gh-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevExpGbb/gh-devlake",
+      "target": "ghec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:41:23.589000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12914
+    },
+    {
+      "path": "go.mod",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/docs-sync.lock.yml",
+      "size": 61730
+    },
+    {
+      "path": ".github/workflows/docs-sync.md",
+      "size": 3816
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 5571
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deploy a detailed DevEx metrics dashboards, combining DORA and AI adoption to show ROI. gh-devlake is a GitHub CLI extension for deploying and configuring Apache DevLake which is the platform that aggregates all these metrics easily",
+    "fork": false,
+    "full_name": "DevExpGbb/gh-devlake",
+    "html_url": "https://github.com/DevExpGbb/gh-devlake",
+    "language": "Go",
+    "pushed_at": "2026-04-28T20:20:00Z",
+    "stargazers_count": 17,
+    "topics": [
+      "devlake",
+      "dora-metrics",
+      "gbb-ip-atlas",
+      "gh-extension",
+      "ghec"
+    ],
+    "updated_at": "2026-04-06T09:55:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copilot Setup Steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "\"Documentation Sync\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-sync.lock.yml",
+      "term": "Documentation Sync"
+    },
+    {
+      "context_snippet": "Documentation Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-sync.md",
+      "term": "Documentation Sync"
+    },
+    {
+      "context_snippet": "Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "A [GitHub CLI extension](https://cli.github.com/manual/gh_extension) that deploys, configures, and monitors [Apache DevLake](https://github.com/apache/incubator-devlake) from the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devlake"
+    },
+    {
+      "context_snippet": "A [GitHub CLI extension](https://cli.github.com/manual/gh_extension) that deploys, configures, and monitors [Apache DevLake](https://github.com/apache/incubator-devlake) from the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dora-metrics"
+    },
+    {
+      "context_snippet": "A [GitHub CLI extension](https://cli.github.com/manual/gh_extension) that deploys, configures, and monitors [Apache DevLake](https://github.com/apache/incubator-devlake) from the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gbb-ip-atlas"
+    },
+    {
+      "context_snippet": "A [GitHub CLI extension](https://cli.github.com/manual/gh_extension) that deploys, configures, and monitors [Apache DevLake](https://github.com/apache/incubator-devlake) from the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gh-extension"
+    },
+    {
+      "context_snippet": "A [GitHub CLI extension](https://cli.github.com/manual/gh_extension) that deploys, configures, and monitors [Apache DevLake](https://github.com/apache/incubator-devlake) from the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghec"
+    }
+  ]
+}

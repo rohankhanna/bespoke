@@ -991,6 +991,42 @@
       "source_repo": "mdn/markdown",
       "status": "candidate-context",
       "text": "MDN Web Docs tool to convert HTML to Markdown."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate-context",
+      "text": "Utility for embedding code snippets into markdown documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate-context",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate-context",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate-context",
+      "text": "Publish beautiful documentation from OpenAPI and markdown (MDX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -1485,6 +1521,24 @@
       "source_repo": "mdn/markdown",
       "status": "candidate",
       "text": "MDN Web Docs tool to convert HTML to Markdown."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haiwen/seafile",
+      "status": "candidate",
+      "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fern-api/docs-starter",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [
@@ -2176,11 +2230,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdn/markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zakhenry/embedme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "haiwen/seafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fern-api/docs-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

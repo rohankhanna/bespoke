@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A telescope.nvim extension that offers intelligent prioritization when selecting files from your editing history."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [telescope.nvim][] extension that offers intelligent prioritization when"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [telescope.nvim][] extension that offers intelligent prioritization when"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "telescope-extension",
+      "sense_id": "telescope-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "telescope-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "telescope-extension",
+  "observation_id": "35c2bb3e5a71bce1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "telescope-extension",
+  "source_context_snippet": "A [telescope.nvim][] extension that offers intelligent prioritization when",
+  "source_file": null,
+  "source_repo": "nvim-telescope/telescope-frecency.nvim",
+  "source_repo_description": "A telescope.nvim extension that offers intelligent prioritization when selecting files from your editing history."
+}

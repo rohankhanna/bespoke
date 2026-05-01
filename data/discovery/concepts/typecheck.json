@@ -58,6 +58,18 @@
       "source_repo": "facebook/pyrefly",
       "status": "candidate-context",
       "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate-context",
+      "text": "Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate-context",
+      "text": "typecheck"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "facebook/pyrefly",
       "status": "candidate",
       "text": "[![pyrefly](https://img.shields.io/endpoint?url=https://pyrefly.org/badge.json)](https://github.com/facebook/pyrefly)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate",
+      "text": "typecheck"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "facebook/pyrefly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "simplecov-ruby/simplecov"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

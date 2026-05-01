@@ -463,6 +463,78 @@
       "source_repo": "real-stanford/diffusion_policy",
       "status": "candidate-context",
       "text": "[[Project page]](https://diffusion-policy.cs.columbia.edu/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "AnyLoc: Universal Visual Place Recognition (RA-L 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate-context",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate-context",
+      "text": "A fast and robust point cloud registration library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "Collection of robot models compatible with gym-ignition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate-context",
+      "text": "Model-based design and verification for robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate-context",
+      "text": "Model-Based Design and Verification for Robotics."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "[![Latest version](https://img.shields.io/crates/v/sophus.svg)](https://crates.io/crates/sophus)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "10 differentiable physical simulators built with Taichi differentiable programming (DiffTaichi, ICLR 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +765,42 @@
       "source_repo": "real-stanford/diffusion_policy",
       "status": "candidate",
       "text": "[[Project page]](https://diffusion-policy.cs.columbia.edu/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnyLoc/AnyLoc",
+      "status": "candidate",
+      "text": "[![License: BSD-3](https://img.shields.io/badge/License-BSD--3-yellow.svg?style=flat-square)](https://opensource.org/license/BSD-3-clause/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gym-ignition-models",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate",
+      "text": "Model-Based Design and Verification for Robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/crates/v/sophus.svg)](https://crates.io/crates/sophus)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/difftaichi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1018,11 +1126,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "real-stanford/diffusion_policy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AnyLoc/AnyLoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MIT-SPARK/TEASER-plusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gym-ignition-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RobotLocomotion/drake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sophus-vision/sophus-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Utility for embedding code snippets into markdown documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-language",
+      "sense_id": "multi-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multi-language",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multi-language",
+  "observation_id": "9abfc7c9e83de3e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "multi-language",
+  "source_context_snippet": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>",
+  "source_file": null,
+  "source_repo": "zakhenry/embedme",
+  "source_repo_description": "Utility for embedding code snippets into markdown documents"
+}

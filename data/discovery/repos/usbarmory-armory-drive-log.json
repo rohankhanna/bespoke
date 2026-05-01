@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaves_pr.yaml"
+    },
+    {
+      "component": "transparency-dev/serverless-log/deploy/github/log/leaf_validator@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaves_pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml"
+    },
+    {
+      "component": "transparency-dev/serverless-log/deploy/github/log/sequence_and_integrate@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_lint.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_lint.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golang_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaves_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaves_pr.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "transparency-dev/serverless-log/deploy/github/log/leaf_validator@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "transparency-dev/serverless-log/deploy/github/log/sequence_and_integrate@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_to_master.yaml",
+      "source_repo": "usbarmory/armory-drive-log",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:43:44.127131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 562
+    },
+    {
+      "path": "go.mod",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/golang_lint.yaml",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/golang_pr.yaml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/leaves_pr.yaml",
+      "size": 1098
+    },
+    {
+      "path": ".github/workflows/push_to_master.yaml",
+      "size": 879
+    },
+    {
+      "path": ".github/workflows/signature_validation.sh",
+      "size": 467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "armory-drive transparency log",
+    "fork": false,
+    "full_name": "usbarmory/armory-drive-log",
+    "html_url": "https://github.com/usbarmory/armory-drive-log",
+    "language": "Go",
+    "pushed_at": "2025-08-28T08:24:03Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-28T08:06:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

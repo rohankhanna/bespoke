@@ -19,12 +19,30 @@
       "source_repo": "pytorch/rl",
       "status": "candidate-context",
       "text": "Continuous Benchmark (PR)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/tensordict",
+      "status": "candidate-context",
+      "text": "TensorDict is a pytorch dedicated tensor container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tensordict",
+      "status": "candidate-context",
+      "text": "Continuous Benchmark (PR)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pytorch/rl",
+      "status": "candidate",
+      "text": "Continuous Benchmark (PR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tensordict",
       "status": "candidate",
       "text": "Continuous Benchmark (PR)"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/benchmarks_pr.yml",
       "source_repo": "pytorch/rl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/benchmarks_pr.yml",
+      "source_repo": "pytorch/tensordict"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:16.712240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3399
+    },
+    {
+      "path": "requirements.txt",
+      "size": 177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for CineScale, higher-resolution video generation based on Wan",
+    "fork": false,
+    "full_name": "Eyeline-Labs/CineScale",
+    "html_url": "https://github.com/Eyeline-Labs/CineScale",
+    "language": "Python",
+    "pushed_at": "2025-08-25T17:04:23Z",
+    "stargazers_count": 185,
+    "topics": [
+      "diffusion",
+      "diffusion-models",
+      "generative-ai",
+      "generative-model",
+      "video-generation"
+    ],
+    "updated_at": "2026-03-04T03:16:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

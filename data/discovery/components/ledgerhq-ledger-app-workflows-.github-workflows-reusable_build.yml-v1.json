@@ -1,12 +1,27 @@
 {
   "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-workflow.yml",
       "source_repo": "spacemeshos/app-spacemesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable_ragger_tests_latest_speculos.yml",
+      "source_repo": "LedgerHQ/speculos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-boilerplate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger"
     }
   ]
 }

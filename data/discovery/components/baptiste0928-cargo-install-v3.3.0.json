@@ -1,0 +1,12 @@
+{
+  "component": "baptiste0928/cargo-install@v3.3.0",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cypress-tests-runner.yml",
+      "source_repo": "juspay/hyperswitch"
+    }
+  ]
+}

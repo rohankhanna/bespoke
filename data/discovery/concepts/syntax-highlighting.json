@@ -187,6 +187,18 @@
       "source_repo": "nordtheme/nord",
       "status": "candidate-context",
       "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate-context",
+      "text": "A syntax highlighting, code folding text editor for Java Swing applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate-context",
+      "text": "![Java Build](https://github.com/bobbylight/RSyntaxTextArea/actions/workflows/gradle.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "nordtheme/nord",
       "status": "candidate",
       "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate",
+      "text": "![Java Build](https://github.com/bobbylight/RSyntaxTextArea/actions/workflows/gradle.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +454,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bobbylight/RSyntaxTextArea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

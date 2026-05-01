@@ -187,6 +187,18 @@
       "source_repo": "piomin/spring-ai-showcase",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "status": "candidate-context",
+      "text": "Project COLON-X (Shaping the neXt frontier in intelligent COLONoscopy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "piomin/spring-ai-showcase",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/piomin/spring-ai-showcase.svg?style=svg)](https://circleci.com/gh/piomin/spring-ai-showcase)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4colonoscopy/Colon-X",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +442,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "piomin/spring-ai-showcase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ai4colonoscopy/Colon-X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

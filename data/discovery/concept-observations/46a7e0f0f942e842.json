@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39854913,
+      "status": "candidate",
+      "text": "latticework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852872,
+      "status": "candidate",
+      "text": "grille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851680,
+      "status": "candidate",
+      "text": "fretwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848004,
+      "status": "candidate",
+      "text": "wicket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843580,
+      "status": "candidate",
+      "text": "mesh"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lattice",
+      "sense_id": "lattice#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "grille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2042,
+      "status": "candidate",
+      "text": "wicket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "latticework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "fretwork"
+    }
+  ],
+  "concept_id": "lattice",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lattice",
+  "observation_id": "46a7e0f0f942e842",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "lattice",
+  "source_context_snippet": "[f32c](/rtl/cpu/README.md) is a retargetable, scalar, pipelined, 32-bit processor core which",
+  "source_file": null,
+  "source_repo": "f32c/f32c",
+  "source_repo_description": "A 32-bit MIPS / RISC-V core & SoC, 1.55 DMIPS/MHz, 2.96 CM/Mhz"
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BookCars official landing page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "lighthouse"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "lighthouse"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015118,
+      "status": "candidate",
+      "text": "pharos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980620,
+      "status": "candidate",
+      "text": "beacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015564,
+      "status": "candidate",
+      "text": "beacon light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009204,
+      "status": "candidate",
+      "text": "flagship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003572,
+      "status": "candidate",
+      "text": "headlight"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lighthouse",
+      "sense_id": "lighthouse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19052,
+      "status": "candidate",
+      "text": "beacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2011,
+      "status": "candidate",
+      "text": "beacon light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pharos"
+    }
+  ],
+  "concept_id": "lighthouse",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lighthouse",
+  "observation_id": "6f391d50e61ee7eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "lighthouse",
+  "source_context_snippet": "lighthouse",
+  "source_file": ".github/workflows/lighthouse.yml",
+  "source_repo": "bookcars/bookcars.github.io",
+  "source_repo_description": "BookCars official landing page"
+}

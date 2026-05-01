@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ROCm/hipBLAS",
+      "target": "rocmsoftwareplatform/hipblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS",
+      "target": "rocm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:49:54.327861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop_deprecated",
+    "description": "[DEPRECATED] Moved to ROCm/rocm-libraries repo",
+    "fork": false,
+    "full_name": "ROCm/hipBLAS",
+    "html_url": "https://github.com/ROCm/hipBLAS",
+    "language": "C++",
+    "pushed_at": "2026-04-28T22:41:43Z",
+    "stargazers_count": 152,
+    "topics": [
+      "blas",
+      "cuda",
+      "hip",
+      "rocm"
+    ],
+    "updated_at": "2026-04-27T05:37:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocmsoftwareplatform/hipblas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    }
+  ]
+}

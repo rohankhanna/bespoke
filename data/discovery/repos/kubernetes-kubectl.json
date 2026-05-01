@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/kubectl",
+      "target": "k8s-sig-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/kubectl",
+      "target": "k8s-staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:00:27.664978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2105
+    },
+    {
+      "path": "go.mod",
+      "size": 4731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Issue tracker and mirror of kubectl code",
+    "fork": false,
+    "full_name": "kubernetes/kubectl",
+    "html_url": "https://github.com/kubernetes/kubectl",
+    "language": "Go",
+    "pushed_at": "2026-04-29T20:40:16Z",
+    "stargazers_count": 3262,
+    "topics": [
+      "k8s-sig-cli",
+      "k8s-staging"
+    ],
+    "updated_at": "2026-05-01T05:47:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-cli"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-staging"
+    }
+  ]
+}

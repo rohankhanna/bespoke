@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:03:29.849431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ECCV2016 - fine-grained photo aesthetics rating with interpretability",
+    "fork": false,
+    "full_name": "aimerykong/deepImageAestheticsAnalysis",
+    "html_url": "https://github.com/aimerykong/deepImageAestheticsAnalysis",
+    "language": "MATLAB",
+    "pushed_at": "2024-12-12T13:39:22Z",
+    "stargazers_count": 321,
+    "topics": [],
+    "updated_at": "2026-01-17T08:09:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

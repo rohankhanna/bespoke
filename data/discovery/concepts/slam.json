@@ -19,6 +19,30 @@
       "source_repo": "beehive-lab/kfusion-tornadovm",
       "status": "candidate-context",
       "text": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "MixVPR: Feature Mixing for Visual Place Recognition (WACV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate-context",
+      "text": "A fast and robust point cloud registration library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "beehive-lab/kfusion-tornadovm",
       "status": "candidate",
       "text": "A Java implementation of the Kinect Fusion application running on TornadoVM. It can run on existing datasets as well as in real-time with input frames from an attached RBG-d camera. Detailed explanation and performance evaluation can be found in the following [publication](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MIT-SPARK/TEASER-plusplus",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "beehive-lab/kfusion-tornadovm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/MixVPR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MIT-SPARK/TEASER-plusplus"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

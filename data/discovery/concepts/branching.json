@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "branching"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39783950,
+      "status": "candidate",
+      "text": "ramification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39758562,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39629295,
+      "status": "candidate",
+      "text": "forking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39495127,
+      "status": "candidate",
+      "text": "divergent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39494219,
+      "status": "candidate",
+      "text": "diverging"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18037,
+      "status": "candidate",
+      "text": "divergent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9055,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8040,
+      "status": "candidate",
+      "text": "ramification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4024,
+      "status": "candidate",
+      "text": "diverging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3026,
+      "status": "candidate",
+      "text": "branched"
+    }
+  ],
+  "canonical_name": "branching",
+  "concept_id": "branching",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "branching",
+      "sense_id": "branching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -31,6 +31,18 @@
       "source_repo": "jarro2783/cxxopts",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/argh",
+      "status": "candidate-context",
+      "text": "Rust derive-based argument parsing optimized for code size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/argh",
+      "status": "candidate-context",
+      "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jarro2783/cxxopts",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/argh",
+      "status": "candidate",
+      "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google/argh"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

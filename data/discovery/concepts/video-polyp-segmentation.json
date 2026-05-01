@@ -19,6 +19,18 @@
       "source_repo": "GewelsJI/VPS",
       "status": "candidate-context",
       "text": "[![license: mit](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GewelsJI/PNS-Net",
+      "status": "candidate-context",
+      "text": "2021-MICCAI-Progressively Normalized Self-Attention Network for Video Polyp Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/PNS-Net",
+      "status": "candidate-context",
+      "text": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "GewelsJI/VPS",
       "status": "candidate",
       "text": "[![license: mit](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GewelsJI/PNS-Net",
+      "status": "candidate",
+      "text": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "GewelsJI/VPS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GewelsJI/PNS-Net"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

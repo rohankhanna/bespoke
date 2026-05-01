@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmyolo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/playground",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "open-mmlab/mmpretrain",
@@ -211,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "open-mmlab/mmpretrain"
 }

@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Hale423/CenterPoint",
+      "target": "carkusl/centerpoint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Hale423/CenterPoint",
+      "target": "jinfagang/dcnv2_latest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hale423/CenterPoint",
+      "target": "3d-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hale423/CenterPoint",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hale423/CenterPoint",
+      "target": "export-onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hale423/CenterPoint",
+      "target": "object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hale423/CenterPoint",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:02:28.790794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9048
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TensorRT deployment for CenterPoint Lidar Detection Model. ",
+    "fork": false,
+    "full_name": "Hale423/CenterPoint",
+    "html_url": "https://github.com/Hale423/CenterPoint",
+    "language": "C++",
+    "pushed_at": "2023-02-16T02:25:44Z",
+    "stargazers_count": 328,
+    "topics": [
+      "3d-detection",
+      "deployment",
+      "export-onnx",
+      "object-tracking",
+      "tensorrt"
+    ],
+    "updated_at": "2026-04-09T09:42:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carkusl/centerpoint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jinfagang/dcnv2_latest",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-detection"
+    },
+    {
+      "context_snippet": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "export-onnx"
+    },
+    {
+      "context_snippet": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-tracking"
+    },
+    {
+      "context_snippet": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

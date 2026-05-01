@@ -1,0 +1,168 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "g-research/ahocorasick_rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "tmikus/ahocorasick_rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "dtolnay/rust-toolchain@e97e2d8cc328f1b50210efc529dca0028893a2d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "aho-corasick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "finite-state-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "substring-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BurntSushi/aho-corasick",
+      "target": "text-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:56:31.345795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5849
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast implementation of Aho-Corasick in Rust.",
+    "fork": false,
+    "full_name": "BurntSushi/aho-corasick",
+    "html_url": "https://github.com/BurntSushi/aho-corasick",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T20:54:23Z",
+    "stargazers_count": 1233,
+    "topics": [
+      "aho-corasick",
+      "finite-state-machine",
+      "search",
+      "substring-matching",
+      "text-processing"
+    ],
+    "updated_at": "2026-04-23T14:10:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-research/ahocorasick_rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmikus/ahocorasick_rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "aho-corasick",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aho-corasick"
+    },
+    {
+      "context_snippet": "aho-corasick",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finite-state-machine"
+    },
+    {
+      "context_snippet": "aho-corasick",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    },
+    {
+      "context_snippet": "aho-corasick",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "substring-matching"
+    },
+    {
+      "context_snippet": "aho-corasick",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-processing"
+    }
+  ]
+}

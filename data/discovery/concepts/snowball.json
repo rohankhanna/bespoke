@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "snowball"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "status": "candidate-context",
+      "text": "A rust implementation of some popular snowball stemming algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "status": "candidate-context",
+      "text": "This crate implements some stemmer algorithms found in the [snowball project](http://snowballstem.org/) which are compiled to rust using the rust-backend of the [snowball compiler](https://github.com/snowballstem/snowball)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "status": "candidate",
+      "text": "This crate implements some stemmer algorithms found in the [snowball project](http://snowballstem.org/) which are compiled to rust using the rust-backend of the [snowball compiler](https://github.com/snowballstem/snowball)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030375,
+      "status": "candidate",
+      "text": "abronia elliptica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030375,
+      "status": "candidate",
+      "text": "sweet sand verbena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030374,
+      "status": "candidate",
+      "text": "crystal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015499,
+      "status": "candidate",
+      "text": "ball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047583,
+      "status": "candidate",
+      "text": "snowball fight"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "sweet sand verbena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "abronia elliptica"
+    }
+  ],
+  "canonical_name": "snowball",
+  "concept_id": "snowball",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CurrySoftware/rust-stemmers"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snowball",
+      "sense_id": "snowball#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

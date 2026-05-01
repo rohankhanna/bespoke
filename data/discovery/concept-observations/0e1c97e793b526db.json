@@ -84,7 +84,7 @@
   "normalized_form": "publish-semver-tags-to-luarocks",
   "observation_id": "0e1c97e793b526db",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T18:36:26.757967+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Publish semver tags to LuaRocks",
   "source_context_snippet": "Publish semver tags to LuaRocks",
   "source_file": ".github/workflows/publish.yml",

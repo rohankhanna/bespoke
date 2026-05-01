@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vchitect/LaVie",
+      "target": "vchitect/seine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:18.690625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IJCV 2024] LaVie: High-Quality Video Generation with Cascaded Latent Diffusion Models",
+    "fork": false,
+    "full_name": "Vchitect/LaVie",
+    "html_url": "https://github.com/Vchitect/LaVie",
+    "language": "Python",
+    "pushed_at": "2024-11-13T03:02:48Z",
+    "stargazers_count": 951,
+    "topics": [],
+    "updated_at": "2026-04-23T16:25:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchitect/seine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

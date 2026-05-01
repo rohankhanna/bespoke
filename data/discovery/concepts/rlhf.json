@@ -211,6 +211,18 @@
       "source_repo": "YangLing0818/IterComp",
       "status": "candidate-context",
       "text": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "Trinity-RFT is a general-purpose, flexible and scalable framework designed for reinforcement fine-tuning (RFT) of large language models (LLM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u4e3b\u9875**](https://github.com/agentscope-ai/Trinity-RFT/blob/main/README_zh.md) | [**Tutorial**](https://agentscope-ai.github.io/Trinity-RFT/) | [**FAQ**](https://agentscope-ai.github.io/Trinity-RFT/en/main/tutorial/faq.html)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "YangLing0818/IterComp",
       "status": "candidate",
       "text": "This repository contains the official implementation of our [IterComp](https://arxiv.org/abs/2410.07171) (**ICLR 2025**)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/Trinity-RFT",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u4e3b\u9875**](https://github.com/agentscope-ai/Trinity-RFT/blob/main/README_zh.md) | [**Tutorial**](https://agentscope-ai.github.io/Trinity-RFT/) | [**FAQ**](https://agentscope-ai.github.io/Trinity-RFT/en/main/tutorial/faq.html)"
     }
   ],
   "candidate_related_terms": [],
@@ -490,11 +508,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/VisionReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentscope-ai/Trinity-RFT"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

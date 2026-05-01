@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amaralibey/Bag-of-Queries",
+      "target": "amaralibey/openvprlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amaralibey/Bag-of-Queries",
+      "target": "amaralibey/gsv-cities",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/Bag-of-Queries",
+      "target": "geo-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/Bag-of-Queries",
+      "target": "image-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amaralibey/Bag-of-Queries",
+      "target": "visual-place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:37:58.295690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BoQ: A Place is Worth a Bag of learnable Queries (CVPR 2024)",
+    "fork": false,
+    "full_name": "amaralibey/Bag-of-Queries",
+    "html_url": "https://github.com/amaralibey/Bag-of-Queries",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-03-16T20:39:43Z",
+    "stargazers_count": 178,
+    "topics": [
+      "geo-localization",
+      "image-localization",
+      "visual-place-recognition"
+    ],
+    "updated_at": "2026-04-29T01:27:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaralibey/gsv-cities",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amaralibey/openvprlab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udd95 **[Nov 2024]** [ArXiv paper](https://arxiv.org/abs/2405.07364 \"BoQ paper on ArXiv\") updated with DinoV2 performance (**Section 4.5**).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geo-localization"
+    },
+    {
+      "context_snippet": "\ud83c\udd95 **[Nov 2024]** [ArXiv paper](https://arxiv.org/abs/2405.07364 \"BoQ paper on ArXiv\") updated with DinoV2 performance (**Section 4.5**).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-localization"
+    },
+    {
+      "context_snippet": "\ud83c\udd95 **[Nov 2024]** [ArXiv paper](https://arxiv.org/abs/2405.07364 \"BoQ paper on ArXiv\") updated with DinoV2 performance (**Section 4.5**).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-place-recognition"
+    }
+  ]
+}

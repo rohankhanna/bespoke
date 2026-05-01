@@ -58,6 +58,18 @@
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
       "status": "candidate-context",
       "text": "Test Runner"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate-context",
+      "text": "Run your tests at the speed of thought"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate-context",
+      "text": "![CI workflow](https://github.com/vim-test/vim-test/actions/workflows/ci.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "bitsandbytes-foundation/bitsandbytes",
       "status": "candidate",
       "text": "Test Runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-test/vim-test",
+      "status": "candidate",
+      "text": "![CI workflow](https://github.com/vim-test/vim-test/actions/workflows/ci.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +247,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vim-test/vim-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

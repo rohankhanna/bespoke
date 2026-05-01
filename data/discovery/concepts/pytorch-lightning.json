@@ -103,6 +103,18 @@
       "source_repo": "kwea123/ngp_pl",
       "status": "candidate-context",
       "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate-context",
+      "text": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "kwea123/ngp_pl",
       "status": "candidate",
       "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kwea123/ngp_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

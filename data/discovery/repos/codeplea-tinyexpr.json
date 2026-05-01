@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:42:38.073174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tiny recursive descent expression parser, compiler, and evaluation engine for math expressions",
+    "fork": false,
+    "full_name": "codeplea/tinyexpr",
+    "html_url": "https://github.com/codeplea/tinyexpr",
+    "language": "C",
+    "pushed_at": "2025-12-12T13:47:05Z",
+    "stargazers_count": 1878,
+    "topics": [],
+    "updated_at": "2026-04-27T06:58:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

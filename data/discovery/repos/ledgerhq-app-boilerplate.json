@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_swap_tests.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_clusterfuzz_tests.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_codeql_checks.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_checks.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_lint.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coding_style_checks.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_doc_generation.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_generation.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_guidelines_enforcer.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines_enforcer.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_spell_check.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspellings_checks.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_python_checks.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_client_checks.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_app_release.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "ledgerhq/ragger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "ledgerhq/ledger-app-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_ragger_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_functional_tests.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_swap_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clusterfuzzlite.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_clusterfuzz_tests.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzzlite.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "ClusterFuzzLite fuzzing tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql_checks.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_codeql_checks.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql_checks.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coding_style_checks.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_lint.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation_generation.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_doc_generation.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation_generation.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "Generate project documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_guidelines_enforcer.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "Ensure compliance with Ledger guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/misspellings_checks.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_spell_check.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misspellings_checks.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "Misspellings checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_client_checks.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_python_checks.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_app_release.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "LedgerHQ/app-boilerplate",
+      "target": "GitHub release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:53:25.661567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9871
+    },
+    {
+      "path": ".github/workflows/build_and_functional_tests.yml",
+      "size": 2199
+    },
+    {
+      "path": ".github/workflows/clusterfuzzlite.yml",
+      "size": 368
+    },
+    {
+      "path": ".github/workflows/codeql_checks.yml",
+      "size": 445
+    },
+    {
+      "path": ".github/workflows/coding_style_checks.yml",
+      "size": 783
+    },
+    {
+      "path": ".github/workflows/documentation_generation.yml",
+      "size": 302
+    },
+    {
+      "path": ".github/workflows/guidelines_enforcer.yml",
+      "size": 708
+    },
+    {
+      "path": ".github/workflows/misspellings_checks.yml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/python_client_checks.yml",
+      "size": 661
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Boilerplate application for Ledger devices",
+    "fork": false,
+    "full_name": "LedgerHQ/app-boilerplate",
+    "html_url": "https://github.com/LedgerHQ/app-boilerplate",
+    "language": "C",
+    "pushed_at": "2026-04-28T12:21:18Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2026-04-27T08:15:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/ledger-app-workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/ragger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite fuzzing tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clusterfuzzlite.yml",
+      "term": "ClusterFuzzLite fuzzing tests"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql_checks.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Generate project documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation_generation.yml",
+      "term": "Generate project documentation"
+    },
+    {
+      "context_snippet": "Ensure compliance with Ledger guidelines",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/guidelines_enforcer.yml",
+      "term": "Ensure compliance with Ledger guidelines"
+    },
+    {
+      "context_snippet": "Misspellings checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/misspellings_checks.yml",
+      "term": "Misspellings checks"
+    },
+    {
+      "context_snippet": "GitHub release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "GitHub release"
+    }
+  ]
+}

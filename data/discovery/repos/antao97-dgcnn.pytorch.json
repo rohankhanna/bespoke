@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:02:19.214736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A PyTorch implementation of Dynamic Graph CNN for Learning on Point Clouds (DGCNN)",
+    "fork": false,
+    "full_name": "antao97/dgcnn.pytorch",
+    "html_url": "https://github.com/antao97/dgcnn.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-10-29T04:29:35Z",
+    "stargazers_count": 809,
+    "topics": [
+      "classification",
+      "point-cloud",
+      "pytorch",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-30T13:21:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[[\u4e2d\u6587\u7248]](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u7248]](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u7248]](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[[\u4e2d\u6587\u7248]](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

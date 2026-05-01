@@ -19,6 +19,18 @@
       "source_repo": "osmr/imgclsmob",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate-context",
+      "text": "Proper implementation of ResNet-s for CIFAR10/100 in pytorch that matches description of the original paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate-context",
+      "text": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "osmr/imgclsmob",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate",
+      "text": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "osmr/imgclsmob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

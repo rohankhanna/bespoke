@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "embedme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate-context",
+      "text": "Utility for embedding code snippets into markdown documents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate-context",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zakhenry/embedme",
+      "status": "candidate",
+      "text": "Simple utility to embed source files into markdown code blocks <sup>[why tho?](#why)</sup>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "embedme",
+  "concept_id": "embedme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zakhenry/embedme"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embedme",
+      "sense_id": "embedme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

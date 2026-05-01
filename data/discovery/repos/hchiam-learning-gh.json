@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-gh",
+      "target": "node-gh/gh",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:41:50.631522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning GitHub CLI",
+    "fork": false,
+    "full_name": "hchiam/learning-gh",
+    "html_url": "https://github.com/hchiam/learning-gh",
+    "language": null,
+    "pushed_at": "2026-03-24T22:42:44Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-24T22:42:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "node-gh/gh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pkg.pr.new stats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stackblitz-labs/pkg.pr.new",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6\ufe0f Continuous (Preview) Releases for your libraries! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stackblitz-labs/pkg.pr.new",
+      "status": "candidate-context",
+      "text": "pkg.pr.new stats"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stackblitz-labs/pkg.pr.new",
+      "status": "candidate",
+      "text": "pkg.pr.new stats"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "info"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "kos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "vitals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "bps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pkg.pr.new stats",
+  "concept_id": "pkg.pr.new-stats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "stackblitz-labs/pkg.pr.new"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pkg.pr.new stats",
+      "sense_id": "pkg.pr.new-stats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

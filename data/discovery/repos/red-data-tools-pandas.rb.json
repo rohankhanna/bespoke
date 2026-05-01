@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "red-data-tools/pandas.rb",
+      "target": "mrkn/pandas.rb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "red-data-tools/pandas.rb",
+      "target": "mrkn/pycall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "red-data-tools/pandas.rb",
+      "target": "mrkn/pandas.rb.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/pandas.rb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/pandas.rb",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "red-data-tools/pandas.rb",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:04:58.390606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1857
+    },
+    {
+      "path": "requirements.txt",
+      "size": 18
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pandas wrapper for Ruby",
+    "fork": false,
+    "full_name": "red-data-tools/pandas.rb",
+    "html_url": "https://github.com/red-data-tools/pandas.rb",
+    "language": "Ruby",
+    "pushed_at": "2023-08-29T17:26:06Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-02-22T02:45:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkn/pandas.rb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkn/pandas.rb.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkn/pycall",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

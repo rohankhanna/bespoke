@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Testrunner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozman/svgwrite",
+      "status": "candidate-context",
+      "text": "Python Package to write SVG files (UNMAINTAINED)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozman/svgwrite",
+      "status": "candidate-context",
+      "text": "Testrunner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozman/svgwrite",
+      "status": "candidate",
+      "text": "Testrunner"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Testrunner",
+  "concept_id": "testrunner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/testrunner.yml",
+      "source_repo": "mozman/svgwrite"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Testrunner",
+      "sense_id": "testrunner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

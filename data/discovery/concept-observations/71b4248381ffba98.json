@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MinImagen: A minimal implementation of the Imagen text-to-image model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19927193,
+      "status": "candidate",
+      "text": "microimage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19927192,
+      "status": "candidate",
+      "text": "photoimage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19927191,
+      "status": "candidate",
+      "text": "microimagery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19927190,
+      "status": "candidate",
+      "text": "gigapixel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19927189,
+      "status": "candidate",
+      "text": "glob"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imagen",
+      "sense_id": "imagen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "imagen",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imagen",
+  "observation_id": "71b4248381ffba98",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "imagen",
+  "source_context_snippet": "<br/>",
+  "source_file": null,
+  "source_repo": "AssemblyAI-Community/MinImagen",
+  "source_repo_description": "MinImagen: A minimal implementation of the Imagen text-to-image model"
+}

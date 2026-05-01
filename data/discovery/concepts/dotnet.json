@@ -952,6 +952,66 @@
       "source_repo": "adelarsq/falco_graphql_sample",
       "status": "candidate-context",
       "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate-context",
+      "text": "Master GitHub Copilot for C#/.NET development via this curriculum! Learn AI-driven paired programming, optimize your workflow, and write cleaner, faster code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate-context",
+      "text": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate-context",
+      "text": "A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate-context",
+      "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate-context",
+      "text": "Seamlessly map Results from CSharpFunctionalExtensions to HttpResults for cleaner, more fluent Web APIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate-context",
+      "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/wpf",
+      "status": "candidate-context",
+      "text": "WPF is a .NET Core UI framework for building Windows desktop applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/wpf",
+      "status": "candidate-context",
+      "text": "\ufeff# Windows Presentation Foundation (WPF)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "WPF Ribbon control like in Office"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1428,6 +1488,36 @@
       "source_repo": "adelarsq/falco_graphql_sample",
       "status": "candidate",
       "text": "[Falco](https://www.falcoframework.com/) is a toolkit for building secure, fast, functional-first and fault-tolerant web applications using [F#](https://fsharp.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "status": "candidate",
+      "text": "![Mastering GitHub Copilot for .NET / C# Developers](./images/GitHub%20101%20-%20Curriculum%20dotnet.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
+      "status": "candidate",
+      "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults",
+      "status": "candidate",
+      "text": "[![dotnet](https://img.shields.io/badge/platform-.NET-blue)](https://www.nuget.org/packages/CSharpFunctionalExtensions.HttpResults/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/wpf",
+      "status": "candidate",
+      "text": "\ufeff# Windows Presentation Foundation (WPF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentribbon/Fluent.Ribbon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2143,11 +2233,71 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "adelarsq/falco_graphql_sample"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "co-IT/CSharpFunctionalExtensions.HttpResults"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/wpf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluentribbon/Fluent.Ribbon"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

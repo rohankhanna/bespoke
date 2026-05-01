@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark",
+      "target": "descriptor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark",
+      "target": "evaluation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:45.762084+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset.",
+    "fork": false,
+    "full_name": "hpatches/hpatches-benchmark",
+    "html_url": "https://github.com/hpatches/hpatches-benchmark",
+    "language": "MATLAB",
+    "pushed_at": "2025-03-26T21:29:57Z",
+    "stargazers_count": 229,
+    "topics": [
+      "benchmark",
+      "dataset",
+      "descriptor",
+      "evaluation"
+    ],
+    "updated_at": "2026-03-12T00:04:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "descriptor"
+    },
+    {
+      "context_snippet": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    }
+  ]
+}

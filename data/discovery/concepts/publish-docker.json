@@ -56,6 +56,18 @@
       "source_repo": "excalidraw/excalidraw",
       "status": "candidate-context",
       "text": "Publish Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate-context",
+      "text": "PISA: Performant Indexes and Search for Academia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/pisa",
+      "status": "candidate-context",
+      "text": "Publish Docker"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "excalidraw/excalidraw",
+      "status": "candidate",
+      "text": "Publish Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/pisa",
       "status": "candidate",
       "text": "Publish Docker"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish-docker.yml",
       "source_repo": "excalidraw/excalidraw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "pisa-engine/pisa"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

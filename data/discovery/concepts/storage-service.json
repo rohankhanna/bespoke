@@ -19,6 +19,18 @@
       "source_repo": "csznet/tgState",
       "status": "candidate-context",
       "text": "tgState"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate-context",
+      "text": "Official s3cmd repo -- Command line tool for managing S3 compatible storage services (including Amazon S3 and CloudFront)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "csznet/tgState",
       "status": "candidate",
       "text": "tgState"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3tools/s3cmd",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/s3tools/s3cmd/actions/workflows/test.yml/badge.svg)](https://github.com/s3tools/s3cmd/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "csznet/tgState"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "s3tools/s3cmd"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

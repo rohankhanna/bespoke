@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting-workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "google/cameratrapai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "conservationtechlab/animl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "drivendataorg/zamba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "petervanlunteren/addaxai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting-workflow.yml",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting-workflow.yml",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow-macos.yml",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow-macos.yml",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow.yml",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-workflow.yml",
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "camera-traps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "cameratrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "cameratraps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "conservation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "ecology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "megadetector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector",
+      "target": "wildlife",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:54.924376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26192
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6623
+    },
+    {
+      "path": ".github/workflows/linting-workflow.yml",
+      "size": 751
+    },
+    {
+      "path": ".github/workflows/pytest-workflow-macos.yml",
+      "size": 976
+    },
+    {
+      "path": ".github/workflows/pytest-workflow.yml",
+      "size": 986
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MegaDetector is an AI model that helps conservation folks spend less time doing boring things with camera trap images.",
+    "fork": false,
+    "full_name": "agentmorris/MegaDetector",
+    "html_url": "https://github.com/agentmorris/MegaDetector",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-25T20:55:58Z",
+    "stargazers_count": 271,
+    "topics": [
+      "camera-traps",
+      "cameratrap",
+      "cameratraps",
+      "computer-vision",
+      "conservation",
+      "ecology",
+      "machine-learning",
+      "megadetector",
+      "wildlife"
+    ],
+    "updated_at": "2026-04-24T08:46:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conservationtechlab/animl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drivendataorg/zamba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/cameratrapai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petervanlunteren/addaxai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-traps"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cameratrap"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cameratraps"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conservation"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecology"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megadetector"
+    },
+    {
+      "context_snippet": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wildlife"
+    }
+  ]
+}

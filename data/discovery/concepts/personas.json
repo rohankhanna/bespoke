@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
       "status": "candidate-context",
       "text": "A collection of panel configurations and persona system prompts for [Rally](https://askrally.com) - a platform for creating virtual focus groups comprised of AI agents representing diverse perspectives."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "AI that sees your screen, listens to your conversations and tells you what to do"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
       "status": "candidate",
       "text": "A collection of panel configurations and persona system prompts for [Rally](https://askrally.com) - a platform for creating virtual focus groups comprised of AI agents representing diverse perspectives."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BasedHardware/omi",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BasedHardware/omi"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

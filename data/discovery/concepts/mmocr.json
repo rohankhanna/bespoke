@@ -31,6 +31,18 @@
       "source_repo": "yeungchenwa/OCR-SAM",
       "status": "candidate-context",
       "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mountchicken/Union14M",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Code base for Revisiting Scene Text Recognition: A Data Perspective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Union14M",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "yeungchenwa/OCR-SAM",
       "status": "candidate",
       "text": "gradio numpy openmim omegaconf==2.3.0 einops==0.6.0 transformers==4.27.3 pytorch-lightning==2.0.1.post0 diffusers==0.14.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mountchicken/Union14M",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "yeungchenwa/OCR-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Mountchicken/Union14M"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

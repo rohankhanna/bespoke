@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/Uni3D",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/Uni3D",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/Uni3D",
+      "target": "salesforce/ulip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/Uni3D",
+      "target": "colin97/openshape_code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Uni3D",
+      "target": "3d-representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Uni3D",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Uni3D",
+      "target": "vision-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:34.750991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7745
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR'24 Spotlight] Uni3D: 3D Visual Representation from BAAI",
+    "fork": false,
+    "full_name": "baaivision/Uni3D",
+    "html_url": "https://github.com/baaivision/Uni3D",
+    "language": "Python",
+    "pushed_at": "2026-01-12T08:39:36Z",
+    "stargazers_count": 667,
+    "topics": [
+      "3d-representation-learning",
+      "foundation-models",
+      "vision-transformers"
+    ],
+    "updated_at": "2026-04-26T12:46:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colin97/openshape_code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/ulip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-representation-learning"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformers"
+    }
+  ]
+}

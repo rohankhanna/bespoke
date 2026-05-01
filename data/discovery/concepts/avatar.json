@@ -19,6 +19,18 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate-context",
       "text": "[![@pixiv/three-vrm on npm](https://img.shields.io/npm/v/@pixiv/three-vrm)](https://www.npmjs.com/package/@pixiv/three-vrm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhengyiLuo/PHC",
+      "status": "candidate-context",
+      "text": "Official Implementation of the ICCV 2023 paper:  Perpetual Humanoid Control for Real-time Simulated Avatars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhengyiLuo/PHC",
+      "status": "candidate-context",
+      "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pixiv/three-vrm",
       "status": "candidate",
       "text": "[![@pixiv/three-vrm on npm](https://img.shields.io/npm/v/@pixiv/three-vrm)](https://www.npmjs.com/package/@pixiv/three-vrm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhengyiLuo/PHC",
+      "status": "candidate",
+      "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "pixiv/three-vrm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ZhengyiLuo/PHC"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

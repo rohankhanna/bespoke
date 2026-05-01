@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "dmbots/dm-j4310-2ec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "jeff-sjtu/hybrik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "toruowo/hato",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "LeCAR-Lab/human2humanoid",
+      "target": "zhengyiluo/smplsim",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "LeCAR-Lab/human2humanoid"
+}

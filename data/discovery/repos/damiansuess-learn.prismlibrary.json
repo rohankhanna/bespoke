@@ -1,0 +1,237 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "dryioc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "maui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prism-avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prismavalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "prismlibrary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "suess-labs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "suesslabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "uno-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin-forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xamarin-uwp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismLibrary",
+      "target": "xeno-innovations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:37.492970+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+    "fork": false,
+    "full_name": "DamianSuess/Learn.PrismLibrary",
+    "html_url": "https://github.com/DamianSuess/Learn.PrismLibrary",
+    "language": "C#",
+    "pushed_at": "2025-10-19T13:32:27Z",
+    "stargazers_count": 30,
+    "topics": [
+      "android",
+      "dryioc",
+      "maui",
+      "prism",
+      "prism-avalonia",
+      "prismavalonia",
+      "prismlibrary",
+      "suess-labs",
+      "suesslabs",
+      "uno",
+      "uno-platform",
+      "uwp",
+      "xamarin",
+      "xamarin-android",
+      "xamarin-forms",
+      "xamarin-uwp",
+      "xeno-innovations"
+    ],
+    "updated_at": "2026-04-17T14:08:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dryioc"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maui"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism-avalonia"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prismavalonia"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prismlibrary"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suess-labs"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suesslabs"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uno-platform"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-android"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-forms"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xamarin-uwp"
+    },
+    {
+      "context_snippet": "Learn Prism Library examples to teach you how to use Prism with MAUI, Prism.Avalonia, WPF, and Uno platforms. Brought to you by Suess Labs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xeno-innovations"
+    }
+  ]
+}

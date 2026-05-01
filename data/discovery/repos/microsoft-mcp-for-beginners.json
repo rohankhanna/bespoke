@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "microsoft/langchain-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "microsoft/security-101",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "microsoft/xr-development-for-beginners",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "javascript-applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "mcp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "mcp-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "modelcontextprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/mcp-for-beginners",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:55:02.230323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+    "fork": false,
+    "full_name": "microsoft/mcp-for-beginners",
+    "html_url": "https://github.com/microsoft/mcp-for-beginners",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-30T08:20:17Z",
+    "stargazers_count": 15983,
+    "topics": [
+      "csharp",
+      "java",
+      "javascript",
+      "javascript-applications",
+      "mcp",
+      "mcp-client",
+      "mcp-security",
+      "mcp-server",
+      "model",
+      "model-context-protocol",
+      "modelcontextprotocol",
+      "python",
+      "rust",
+      "typescript"
+    ],
+    "updated_at": "2026-05-01T08:43:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/langchain-for-beginners",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/mastering-github-copilot-for-dotnet-csharp-developers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/security-101",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/xr-development-for-beginners",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-applications"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-client"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-security"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelcontextprotocol"
+    },
+    {
+      "context_snippet": "![MCP-for-beginners](./images/mcp-beginners.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

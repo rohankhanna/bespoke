@@ -1,0 +1,269 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pisa-engine/pisa",
+      "target": "zhihu/rucene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pisa-engine/pisa",
+      "target": "ot/ds2i",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pisa-engine/pisa",
+      "target": "osirrc/pisa-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "Publish Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "pisa-engine/pisa",
+      "target": "Trunk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pisa-engine/pisa",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pisa-engine/pisa",
+      "target": "inverted-index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pisa-engine/pisa",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pisa-engine/pisa",
+      "target": "search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:50:15.659738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8315
+    },
+    {
+      "path": "Dockerfile",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/commit.yml",
+      "size": 2788
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 516
+    },
+    {
+      "path": ".github/workflows/trunk.yml",
+      "size": 1490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PISA: Performant Indexes and Search for Academia",
+    "fork": false,
+    "full_name": "pisa-engine/pisa",
+    "html_url": "https://github.com/pisa-engine/pisa",
+    "language": "C++",
+    "pushed_at": "2026-03-29T05:34:48Z",
+    "stargazers_count": 1049,
+    "topics": [
+      "information-retrieval",
+      "inverted-index",
+      "search",
+      "search-engine"
+    ],
+    "updated_at": "2026-04-27T02:56:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osirrc/pisa-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ot/ds2i",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhihu/rucene",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit.yml",
+      "term": "Commit"
+    },
+    {
+      "context_snippet": "Publish Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Publish Docker"
+    },
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Trunk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trunk.yml",
+      "term": "Trunk"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inverted-index"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://pisa-engine.github.io/images/logo250.png\" width=\"250px\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    }
+  ]
+}

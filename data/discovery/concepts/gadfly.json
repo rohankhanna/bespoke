@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "gadfly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "Crafty statistical graphics for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <img"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <img"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39877971,
+      "status": "candidate",
+      "text": "pest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39619880,
+      "status": "candidate",
+      "text": "blighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39565271,
+      "status": "candidate",
+      "text": "cuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952540,
+      "status": "candidate",
+      "text": "pesterer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29611800,
+      "status": "candidate",
+      "text": "redoubtable"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15032,
+      "status": "candidate",
+      "text": "cuss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9024,
+      "status": "candidate",
+      "text": "blighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "pesterer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pest"
+    }
+  ],
+  "canonical_name": "gadfly",
+  "concept_id": "gadfly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "GiovineItalia/Gadfly.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gadfly",
+      "sense_id": "gadfly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

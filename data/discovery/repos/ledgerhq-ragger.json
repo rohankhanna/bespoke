@@ -1,0 +1,413 @@
+{
+  "components": [
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-rebase.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "ledgerhq/ledgercomm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "ledgerhq/ledgerctl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "LedgerHQ/ledger-app-workflows/.github/workflows/reusable_pypi_deployment.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "Build, test and deploy Ragger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "Documentation generation & update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "Fast checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-rebase.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/force-rebase.yml",
+      "source_repo": "LedgerHQ/ragger",
+      "target": "Force rebased",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LedgerHQ/ragger",
+      "target": "ledger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LedgerHQ/ragger",
+      "target": "speculos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:53:30.596795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8053
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2483
+    },
+    {
+      "path": ".github/workflows/build_and_tests.yml",
+      "size": 4112
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1853
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1578
+    },
+    {
+      "path": ".github/workflows/fast-checks.yml",
+      "size": 1536
+    },
+    {
+      "path": ".github/workflows/force-rebase.yml",
+      "size": 999
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small wrapper around Speculos, LedgerWallet & LedgerComm to ease instrumentation",
+    "fork": false,
+    "full_name": "LedgerHQ/ragger",
+    "html_url": "https://github.com/LedgerHQ/ragger",
+    "language": "Python",
+    "pushed_at": "2026-04-29T13:07:39Z",
+    "stargazers_count": 11,
+    "topics": [
+      "ledger",
+      "python",
+      "speculos"
+    ],
+    "updated_at": "2026-04-29T10:11:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/ledgercomm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerhq/ledgerctl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build, test and deploy Ragger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_tests.yml",
+      "term": "Build, test and deploy Ragger"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Documentation generation & update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation generation & update"
+    },
+    {
+      "context_snippet": "Fast checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fast-checks.yml",
+      "term": "Fast checks"
+    },
+    {
+      "context_snippet": "Force rebased",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/force-rebase.yml",
+      "term": "Force rebased"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/LedgerHQ/ragger/branch/master/graph/badge.svg)](https://codecov.io/gh/LedgerHQ/ragger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ledger"
+    },
+    {
+      "context_snippet": "[![codecov](https://codecov.io/gh/LedgerHQ/ragger/branch/master/graph/badge.svg)](https://codecov.io/gh/LedgerHQ/ragger)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speculos"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:42:45.999989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "taichi-dev/community",
+    "html_url": "https://github.com/taichi-dev/community",
+    "language": null,
+    "pushed_at": "2023-03-02T06:58:23Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-04-12T14:05:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

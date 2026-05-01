@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webgl",
+      "sense_id": "webgl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webgl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webgl",
+  "observation_id": "1ad82adfcbb13b53",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "webgl",
+  "source_context_snippet": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)",
+  "source_file": null,
+  "source_repo": "mapbox/mapbox-gl-js",
+  "source_repo_description": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL"
+}

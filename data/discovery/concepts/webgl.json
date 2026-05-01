@@ -163,6 +163,30 @@
       "source_repo": "ecomfe/echarts-gl",
       "status": "candidate-context",
       "text": "ECharts-GL is an extension pack of [Apache ECharts](http://echarts.apache.org/), which providing 3D plots, globe visualization and WebGL acceleration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate-context",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. Click here for Live Demo: https://erichlof.github.io/THREE.js-PathTracing-Renderer/Geometry_Showcase.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate-context",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-js",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-js",
+      "status": "candidate-context",
+      "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "ecomfe/echarts-gl",
       "status": "candidate",
       "text": "ECharts-GL is an extension pack of [Apache ECharts](http://echarts.apache.org/), which providing 3D plots, globe visualization and WebGL acceleration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer",
+      "status": "candidate",
+      "text": "Real-time PathTracing with global illumination and progressive rendering, all on top of the Three.js WebGL framework. <br> <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-js",
+      "status": "candidate",
+      "text": "[<img width=\"300\" alt=\"Mapbox logo\" src=\"https://static-assets.mapbox.com/logos/mapbox-logo-black.png\">](https://www.mapbox.com/)"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +424,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ecomfe/echarts-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CesiumGS/cesium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "erichlof/THREE.js-PathTracing-Renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-js"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

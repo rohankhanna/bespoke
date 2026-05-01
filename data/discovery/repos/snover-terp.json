@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:45:53.763928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TER-plus Machine Translation metric.",
+    "fork": false,
+    "full_name": "snover/terp",
+    "html_url": "https://github.com/snover/terp",
+    "language": "Java",
+    "pushed_at": "2022-05-23T21:39:42Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-01-07T12:44:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

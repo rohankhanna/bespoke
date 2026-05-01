@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Rex-Omni",
+      "target": "open-set",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:39:55.415166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15247
+    },
+    {
+      "path": "requirements.txt",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR2026] Detect Anything via Next Point Prediction ",
+    "fork": false,
+    "full_name": "IDEA-Research/Rex-Omni",
+    "html_url": "https://github.com/IDEA-Research/Rex-Omni",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-22T02:59:06Z",
+    "stargazers_count": 1327,
+    "topics": [
+      "mllm",
+      "object-detection",
+      "open-set"
+    ],
+    "updated_at": "2026-04-30T03:18:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-set"
+    }
+  ]
+}

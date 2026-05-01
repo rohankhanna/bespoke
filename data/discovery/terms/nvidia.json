@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -201,6 +201,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "optiscaler/OptiScaler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nihui/realsr-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/optix_advanced_samples"
     }
   ],
   "term": "nvidia"

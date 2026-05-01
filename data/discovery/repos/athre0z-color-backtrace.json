@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "athre0z/color-backtrace",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "athre0z/color-backtrace",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:05:00.679950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4450
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Colorful panic backtraces for Rust",
+    "fork": false,
+    "full_name": "athre0z/color-backtrace",
+    "html_url": "https://github.com/athre0z/color-backtrace",
+    "language": "Rust",
+    "pushed_at": "2026-04-05T16:28:59Z",
+    "stargazers_count": 600,
+    "topics": [],
+    "updated_at": "2026-04-05T16:27:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

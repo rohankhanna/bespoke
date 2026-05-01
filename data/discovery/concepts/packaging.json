@@ -234,6 +234,30 @@
       "source_repo": "jellyfin/jellyfin-web",
       "status": "candidate-context",
       "text": "Packaging \ud83d\udce6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/pipenv",
+      "status": "candidate-context",
+      "text": " Python Development Workflow for Humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipenv",
+      "status": "candidate-context",
+      "text": "Pipenv: Python Development Workflow for Humans"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/setup-pixi",
+      "status": "candidate-context",
+      "text": "GitHub Action to set up pixi :octocat: \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/setup-pixi",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -350,6 +374,18 @@
       "source_repo": "jellyfin/jellyfin-web",
       "status": "candidate",
       "text": "Packaging \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/pipenv",
+      "status": "candidate",
+      "text": "Pipenv: Python Development Workflow for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/setup-pixi",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -572,11 +608,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/__package.yml",
       "source_repo": "jellyfin/jellyfin-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pypa/pipenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/setup-pixi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

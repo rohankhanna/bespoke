@@ -1,0 +1,12 @@
+{
+  "component": "RasaHQ/dependabot-batch-updater@f049cbb0bbd3754bcb5ab154a79f00cd780fc633",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-batch-updater.yml",
+      "source_repo": "RasaHQ/rasa"
+    }
+  ]
+}

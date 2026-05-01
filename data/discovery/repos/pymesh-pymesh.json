@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyMesh/PyMesh",
+      "target": "qnzhou/carve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyMesh/PyMesh",
+      "target": "gilbo/cork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PyMesh/PyMesh",
+      "target": "crawforddoran/quartet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "convex-hull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "geometry-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "mesh-boolean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "mesh-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "mesh-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyMesh/PyMesh",
+      "target": "outer-hull",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:19.223535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Geometry Processing Library for Python",
+    "fork": false,
+    "full_name": "PyMesh/PyMesh",
+    "html_url": "https://github.com/PyMesh/PyMesh",
+    "language": "C++",
+    "pushed_at": "2024-08-08T20:25:21Z",
+    "stargazers_count": 2034,
+    "topics": [
+      "3d",
+      "convex-hull",
+      "geometry",
+      "geometry-processing",
+      "graphics",
+      "mesh-boolean",
+      "mesh-cleanup",
+      "mesh-generation",
+      "outer-hull",
+      "python"
+    ],
+    "updated_at": "2026-04-30T18:33:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crawforddoran/quartet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gilbo/cork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qnzhou/carve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convex-hull"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-processing"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-boolean"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-cleanup"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-generation"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/PyMesh/PyMesh/tree/main.svg?style=svg)](https://circleci.com/gh/PyMesh/PyMesh/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outer-hull"
+    }
+  ]
+}

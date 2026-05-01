@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack",
+      "target": "mixed-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack",
+      "target": "quantized-neural-networks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:38.118864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models.",
+    "fork": false,
+    "full_name": "Zhen-Dong/BitPack",
+    "html_url": "https://github.com/Zhen-Dong/BitPack",
+    "language": "Python",
+    "pushed_at": "2023-02-07T23:45:45Z",
+    "stargazers_count": 58,
+    "topics": [
+      "memory",
+      "mixed-precision",
+      "model-compression",
+      "pytorch",
+      "quantization",
+      "quantized-neural-networks"
+    ],
+    "updated_at": "2026-04-07T04:07:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixed-precision"
+    },
+    {
+      "context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantized-neural-networks"
+    }
+  ]
+}

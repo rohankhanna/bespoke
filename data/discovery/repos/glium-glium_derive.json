@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "glium/glium_derive",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "glium/glium_derive",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:31.359193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 331
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Custom derive for glium Vertex",
+    "fork": false,
+    "full_name": "glium/glium_derive",
+    "html_url": "https://github.com/glium/glium_derive",
+    "language": "Rust",
+    "pushed_at": "2023-08-12T07:31:52Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-03-02T02:58:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "powerline/powerline",
-      "target": "vim-airline/vim-airline",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yaml",
       "source_repo": "powerline/powerline",
@@ -85,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "powerline/powerline"
 }

@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "target": "yuvalnirkin/face_video_segment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "target": "yuvalnirkin/find_face_landmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "target": "yuvalnirkin/face_swap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuvalNirkin/face_segmentation",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:11:32.227011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deep face segmentation in extremely hard conditions",
+    "fork": false,
+    "full_name": "YuvalNirkin/face_segmentation",
+    "html_url": "https://github.com/YuvalNirkin/face_segmentation",
+    "language": "C++",
+    "pushed_at": "2023-05-09T10:28:57Z",
+    "stargazers_count": 759,
+    "topics": [
+      "face",
+      "segmentation"
+    ],
+    "updated_at": "2026-03-12T07:47:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuvalnirkin/face_swap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuvalnirkin/face_video_segment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuvalnirkin/find_face_landmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](https://yuvalnirkin.github.io/assets/img/projects/face_segmentation/face_segmentation_teaser.jpg \"Samples\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "![alt text](https://yuvalnirkin.github.io/assets/img/projects/face_segmentation/face_segmentation_teaser.jpg \"Samples\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

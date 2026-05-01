@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "cli-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "command-line-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "command-line-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "inquirer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "prompt-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "pyinquirer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "python2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CITGuru/PyInquirer",
+      "target": "unix-command",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:20.383063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 13641
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Python module for common interactive command line user interfaces",
+    "fork": false,
+    "full_name": "CITGuru/PyInquirer",
+    "html_url": "https://github.com/CITGuru/PyInquirer",
+    "language": "Python",
+    "pushed_at": "2024-03-02T09:32:55Z",
+    "stargazers_count": 2001,
+    "topics": [
+      "cli",
+      "cli-app",
+      "cmd",
+      "command-line",
+      "command-line-app",
+      "command-line-interface",
+      "command-line-tool",
+      "inquirer",
+      "ipython",
+      "prompt-toolkit",
+      "pyinquirer",
+      "python",
+      "python2",
+      "python3",
+      "unix-command"
+    ],
+    "updated_at": "2026-04-29T18:12:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-app"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-app"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-interface"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inquirer"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-toolkit"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyinquirer"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python2"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "PythonInquirer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix-command"
+    }
+  ]
+}

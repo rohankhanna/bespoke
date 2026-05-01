@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aba122/Q-Hawkeye",
+      "target": "liuziyu77/visual-rft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aba122/Q-Hawkeye",
+      "target": "bytedance/q-insight",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:30.991123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4606
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aba122/Q-Hawkeye",
+    "html_url": "https://github.com/aba122/Q-Hawkeye",
+    "language": "Python",
+    "pushed_at": "2026-02-09T07:30:55Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-04-13T16:20:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/q-insight",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuziyu77/visual-rft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

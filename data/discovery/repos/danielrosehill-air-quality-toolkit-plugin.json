@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "melizeche/airelibre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "openair-project/openair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "akajiaku11/air-quality-prediction-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Air-Quality-Toolkit-Plugin",
+      "target": "openaq/awesome-air-quality",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:48:21.260239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "danielrosehill/Air-Quality-Toolkit-Plugin",
+    "html_url": "https://github.com/danielrosehill/Air-Quality-Toolkit-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-30T20:10:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T20:10:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akajiaku11/air-quality-prediction-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melizeche/airelibre",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openair-project/openair",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openaq/awesome-air-quality",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "aws/karpenter-provider-aws",
+      "target": "cloudpilot-ai/karpenter-provider-alibabacloud",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "azure/karpenter-provider-azure",
+      "target": "exoscale/karpenter-provider-exoscale",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "bizflycloud/karpenter-provider-bizflycloud",
+      "target": "cloudpilot-ai/karpenter-provider-gcp",
       "target_type": "repository"
     },
     {
@@ -204,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "kubernetes-sigs/karpenter"
 }

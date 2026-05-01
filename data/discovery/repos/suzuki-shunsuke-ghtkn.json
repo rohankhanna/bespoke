@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/go-autofix-action@2a159c8f21af356c29ee26d76821b5c15956c1d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/go-release-workflow/.github/workflows/release.yaml@b2ecf54e35aca9e9689e761f5bd6d1ad9542a8cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/watch-star-action@2b3d259ce2ea06d53270dfe33a66d5642c8010ca",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watch-star.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/go-test-full-workflow/.github/workflows/test.yaml@e442a17816baa8a940edc1544cc6e739d870e165",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "login/device",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "suzuki-shunsuke/go-autofix-action@2a159c8f21af356c29ee26d76821b5c15956c1d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "Check if all commits are signed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "suzuki-shunsuke/go-release-workflow/.github/workflows/release.yaml@b2ecf54e35aca9e9689e761f5bd6d1ad9542a8cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watch-star.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "suzuki-shunsuke/watch-star-action@2b3d259ce2ea06d53270dfe33a66d5642c8010ca",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watch-star.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "watch-star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_call_test.yaml",
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "suzuki-shunsuke/go-test-full-workflow/.github/workflows/test.yaml@e442a17816baa8a940edc1544cc6e739d870e165",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "suzuki-shunsuke/ghtkn",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:03:44.567951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23625
+    },
+    {
+      "path": "go.mod",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/actionlint.yaml",
+      "size": 373
+    },
+    {
+      "path": ".github/workflows/autofix.yaml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/check-commit-signing.yaml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/watch-star.yaml",
+      "size": 311
+    },
+    {
+      "path": ".github/workflows/workflow_call_integration_test.yaml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/workflow_call_test.yaml",
+      "size": 449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A CLI to create short-lived (8 hours) GitHub App User Access Token for secure local development",
+    "fork": false,
+    "full_name": "suzuki-shunsuke/ghtkn",
+    "html_url": "https://github.com/suzuki-shunsuke/ghtkn",
+    "language": "Go",
+    "pushed_at": "2026-05-01T08:12:35Z",
+    "stargazers_count": 107,
+    "topics": [
+      "cli",
+      "github",
+      "oss",
+      "security"
+    ],
+    "updated_at": "2026-05-01T08:12:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "login/device",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actionlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "term": "actionlint"
+    },
+    {
+      "context_snippet": "autofix.ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "term": "autofix.ci"
+    },
+    {
+      "context_snippet": "Check if all commits are signed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "term": "Check if all commits are signed"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "watch-star",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watch-star.yaml",
+      "term": "watch-star"
+    },
+    {
+      "context_snippet": "integration test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow_call_integration_test.yaml",
+      "term": "integration test"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghtkn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/suzuki-shunsuke/ghtkn)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

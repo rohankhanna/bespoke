@@ -55,6 +55,18 @@
       "source_repo": "kwea123/ngp_pl",
       "status": "candidate-context",
       "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvlab-columbia/zero123",
+      "status": "candidate-context",
+      "text": "Zero-1-to-3: Zero-shot One Image to 3D Object (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvlab-columbia/zero123",
+      "status": "candidate-context",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123-live)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "kwea123/ngp_pl",
       "status": "candidate",
       "text": "<!-- ### Update 2022 July 29th: GUI prototype is available now (see following video)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvlab-columbia/zero123",
+      "status": "candidate",
+      "text": "[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/cvlab/zero123-live)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kwea123/ngp_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cvlab-columbia/zero123"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

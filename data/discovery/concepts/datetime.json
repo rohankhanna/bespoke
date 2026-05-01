@@ -19,6 +19,18 @@
       "source_repo": "ijl/orjson",
       "status": "candidate-context",
       "text": "orjson is a fast, correct JSON library for Python. It"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akoumjian/datefinder",
+      "status": "candidate-context",
+      "text": "Find dates inside text using Python and get back datetime objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoumjian/datefinder",
+      "status": "candidate-context",
+      "text": "datefinder - extract dates from text"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ijl/orjson",
       "status": "candidate",
       "text": "orjson is a fast, correct JSON library for Python. It"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akoumjian/datefinder",
+      "status": "candidate",
+      "text": "datefinder - extract dates from text"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ijl/orjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "akoumjian/datefinder"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

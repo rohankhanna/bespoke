@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "conditions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gvergnaud/ts-pattern",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043595,
+      "status": "candidate",
+      "text": "specify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040215,
+      "status": "candidate",
+      "text": "qualify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037512,
+      "status": "candidate",
+      "text": "precondition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034214,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10034057,
+      "status": "candidate",
+      "text": "consideration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "conditions",
+  "concept_id": "conditions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conditions",
+      "sense_id": "conditions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "dryioc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "prism-avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "prismlibrary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "suesslabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "wsl2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "xeno-innovations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "xenoinc",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish"
+}

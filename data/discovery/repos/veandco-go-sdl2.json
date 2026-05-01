@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-old-versions-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-old-versions-build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-old-versions-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veandco/go-sdl2",
+      "target": "jupiterrider/purego-sdl3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veandco/go-sdl2",
+      "target": "libsdl-org/sdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veandco/go-sdl2",
+      "target": "libsdl-org/sdl_image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "veandco/go-sdl2",
+      "target": "golang/proposal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "test-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-old-versions-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-old-versions-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-old-versions-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-old-versions-build.yml",
+      "source_repo": "veandco/go-sdl2",
+      "target": "test-older-versions-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veandco/go-sdl2",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veandco/go-sdl2",
+      "target": "maintainer-wanted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "veandco/go-sdl2",
+      "target": "sdl2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:38.346546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15021
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 2480
+    },
+    {
+      "path": ".github/workflows/test-old-versions-build.yml",
+      "size": 1262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SDL2 binding for Go",
+    "fork": false,
+    "full_name": "veandco/go-sdl2",
+    "html_url": "https://github.com/veandco/go-sdl2",
+    "language": "C",
+    "pushed_at": "2025-02-20T04:55:37Z",
+    "stargazers_count": 2321,
+    "topics": [
+      "binding",
+      "go",
+      "maintainer-wanted",
+      "sdl2"
+    ],
+    "updated_at": "2026-04-23T20:03:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/proposal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupiterrider/purego-sdl3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libsdl-org/sdl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libsdl-org/sdl_image",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "test-build"
+    },
+    {
+      "context_snippet": "test-older-versions-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-old-versions-build.yml",
+      "term": "test-older-versions-build"
+    },
+    {
+      "context_snippet": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maintainer-wanted"
+    },
+    {
+      "context_snippet": "For SDL3, please check https://github.com/JupiterRider/purego-sdl3 which doesn't require cgo and uses codegen!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sdl2"
+    }
+  ]
+}

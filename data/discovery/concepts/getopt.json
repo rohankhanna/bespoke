@@ -19,6 +19,18 @@
       "source_repo": "adishavit/argh",
       "status": "candidate-context",
       "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate-context",
+      "text": "Minimalist pedantic command line parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adishavit/argh",
       "status": "candidate",
       "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "adishavit/argh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A game made for a school project, dedicated to my daughter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A game made for a school project, dedicated to my daughter."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A game made for a school project, dedicated to my daughter."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llamacpp",
+      "sense_id": "llamacpp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llamacpp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llamacpp",
+  "observation_id": "363aa20b6008ae04",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "llamacpp",
+  "source_context_snippet": "A game made for a school project, dedicated to my daughter.",
+  "source_file": null,
+  "source_repo": "MorganRO8/Lucys_Labyrinth",
+  "source_repo_description": "A game made for a school project, dedicated to my daughter."
+}

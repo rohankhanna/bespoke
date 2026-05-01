@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fast Forward"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate-context",
+      "text": "Buildkite configuration files for Base Julia CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate-context",
+      "text": "Fast Forward"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate",
+      "text": "Fast Forward"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038330,
+      "status": "candidate",
+      "text": "fast backward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038329,
+      "status": "candidate",
+      "text": "jump-cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038328,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038327,
+      "status": "candidate",
+      "text": "speedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038326,
+      "status": "candidate",
+      "text": "fast track"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fast Forward",
+  "concept_id": "fast-forward",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/fast_forward.yml",
+      "source_repo": "JuliaCI/julia-buildkite"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fast Forward",
+      "sense_id": "fast-forward#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

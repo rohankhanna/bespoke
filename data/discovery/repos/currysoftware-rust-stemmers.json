@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "target": "lise-henry/stemmer-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "target": "nlp-stemming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CurrySoftware/rust-stemmers",
+      "target": "snowball",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:50:12.726096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 999
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A rust implementation of some popular snowball stemming algorithms",
+    "fork": false,
+    "full_name": "CurrySoftware/rust-stemmers",
+    "html_url": "https://github.com/CurrySoftware/rust-stemmers",
+    "language": "Rust",
+    "pushed_at": "2024-04-27T21:45:49Z",
+    "stargazers_count": 135,
+    "topics": [
+      "information-retrieval",
+      "nlp-stemming",
+      "snowball"
+    ],
+    "updated_at": "2026-04-29T15:15:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lise-henry/stemmer-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This crate implements some stemmer algorithms found in the [snowball project](http://snowballstem.org/) which are compiled to rust using the rust-backend of the [snowball compiler](https://github.com/snowballstem/snowball).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "This crate implements some stemmer algorithms found in the [snowball project](http://snowballstem.org/) which are compiled to rust using the rust-backend of the [snowball compiler](https://github.com/snowballstem/snowball).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-stemming"
+    },
+    {
+      "context_snippet": "This crate implements some stemmer algorithms found in the [snowball project](http://snowballstem.org/) which are compiled to rust using the rust-backend of the [snowball compiler](https://github.com/snowballstem/snowball).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowball"
+    }
+  ]
+}

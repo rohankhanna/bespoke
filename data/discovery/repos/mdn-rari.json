@@ -1,0 +1,470 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@9a1d20035bdbcbc899baabe1e402e85bc33639bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@9e7fa8a12102821edf02ca5dbea1acd0f89a2696",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml"
+    },
+    {
+      "component": "google-github-actions/upload-cloud-storage@6397bd7208e18d13ba2619ee21b9873edc94427a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-content-run.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-content-run.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-content-run.yml"
+    },
+    {
+      "component": "mdn/workflows/.github/workflows/auto-merge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-upload-binaries.yml"
+    },
+    {
+      "component": "taiki-e/upload-rust-binary-action@f0d45ae91ee7b8ee928de7a9d04d893a08bcbec6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-upload-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@9a1d20035bdbcbc899baabe1e402e85bc33639bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@9e7fa8a12102821edf02ca5dbea1acd0f89a2696",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "dtolnay/rust-toolchain@9a1d20035bdbcbc899baabe1e402e85bc33639bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "mozilla-actions/sccache-action@9e7fa8a12102821edf02ca5dbea1acd0f89a2696",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/rari",
+      "target": "Build Reusable Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/rari",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/rari",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/rari",
+      "target": "google-github-actions/upload-cloud-storage@6397bd7208e18d13ba2619ee21b9873edc94427a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_deploy.yml",
+      "source_repo": "mdn/rari",
+      "target": "Deploy Reusable Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-content-run.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test-content-run.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test-content-run.yml",
+      "source_repo": "mdn/rari",
+      "target": "Run Reusable Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test-content.yml",
+      "source_repo": "mdn/rari",
+      "target": "Test Content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/rari",
+      "target": "mdn/workflows/.github/workflows/auto-merge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/rari",
+      "target": "auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-upload-binaries.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-upload-binaries.yml",
+      "source_repo": "mdn/rari",
+      "target": "taiki-e/upload-rust-binary-action@f0d45ae91ee7b8ee928de7a9d04d893a08bcbec6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-upload-binaries.yml",
+      "source_repo": "mdn/rari",
+      "target": "build-and-upload-binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "source_repo": "mdn/rari",
+      "target": "dtolnay/rust-toolchain@9a1d20035bdbcbc899baabe1e402e85bc33639bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "source_repo": "mdn/rari",
+      "target": "mozilla-actions/sccache-action@9e7fa8a12102821edf02ca5dbea1acd0f89a2696",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "source_repo": "mdn/rari",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "source_repo": "mdn/rari",
+      "target": "Build Content and Diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-review-companion.yml",
+      "source_repo": "mdn/rari",
+      "target": "Main Review Companion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/rari",
+      "target": "infra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:12:53.701360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1854
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3424
+    },
+    {
+      "path": ".github/workflows/_build.yml",
+      "size": 13586
+    },
+    {
+      "path": ".github/workflows/_deploy.yml",
+      "size": 2627
+    },
+    {
+      "path": ".github/workflows/_test-content-run.yml",
+      "size": 2511
+    },
+    {
+      "path": ".github/workflows/_test-content.yml",
+      "size": 1320
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/build-and-upload-binaries.yml",
+      "size": 1034
+    },
+    {
+      "path": ".github/workflows/build-content-and-diff.yml",
+      "size": 2991
+    },
+    {
+      "path": ".github/workflows/main-review-companion.yml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rari is a Rust-based build system that transforms markdown into structured JSON, powering MDN Web Docs content and translations since 2024.",
+    "fork": false,
+    "full_name": "mdn/rari",
+    "html_url": "https://github.com/mdn/rari",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T10:17:32Z",
+    "stargazers_count": 47,
+    "topics": [
+      "infra"
+    ],
+    "updated_at": "2026-05-01T10:17:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Reusable Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build.yml",
+      "term": "Build Reusable Workflow"
+    },
+    {
+      "context_snippet": "Deploy Reusable Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_deploy.yml",
+      "term": "Deploy Reusable Workflow"
+    },
+    {
+      "context_snippet": "Run Reusable Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test-content-run.yml",
+      "term": "Run Reusable Workflow"
+    },
+    {
+      "context_snippet": "Test Content",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test-content.yml",
+      "term": "Test Content"
+    },
+    {
+      "context_snippet": "auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "auto-merge"
+    },
+    {
+      "context_snippet": "build-and-upload-binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-upload-binaries.yml",
+      "term": "build-and-upload-binaries"
+    },
+    {
+      "context_snippet": "Build Content and Diff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-content-and-diff.yml",
+      "term": "Build Content and Diff"
+    },
+    {
+      "context_snippet": "Main Review Companion",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-review-companion.yml",
+      "term": "Main Review Companion"
+    },
+    {
+      "context_snippet": "> [!Warning]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infra"
+    }
+  ]
+}

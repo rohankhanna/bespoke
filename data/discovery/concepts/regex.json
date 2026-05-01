@@ -187,6 +187,18 @@
       "source_repo": "dlclark/regexp2",
       "status": "candidate-context",
       "text": "Regexp2 is a feature-rich RegExp engine for Go. It doesn't have constant time guarantees like the built-in `regexp` package, but it allows backtracking and is compatible with Perl5 and .NET. You'll likely be better off with the RE2 engine from the `regexp` package and should onl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/recap",
+      "status": "candidate-context",
+      "text": "deserialize typed structures from regex captures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/recap",
+      "status": "candidate-context",
+      "text": "> deserialize named capture groups into typesafe structs"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "dlclark/regexp2",
       "status": "candidate",
       "text": "Regexp2 is a feature-rich RegExp engine for Go. It doesn't have constant time guarantees like the built-in `regexp` package, but it allows backtracking and is compatible with Perl5 and .NET. You'll likely be better off with the RE2 engine from the `regexp` package and should onl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/recap",
+      "status": "candidate",
+      "text": "> deserialize named capture groups into typesafe structs"
     }
   ],
   "candidate_related_terms": [
@@ -538,11 +556,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "softprops/recap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "Deep-Symmetry/beat-link-trigger",
       "status": "candidate-context",
       "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "status": "candidate-context",
+      "text": "Java library for fetching and parsing rekordbox exports and track analysis files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "status": "candidate-context",
+      "text": "Create library jar"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Deep-Symmetry/beat-link-trigger",
       "status": "candidate",
       "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/275322-beat-link-trigger)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Symmetry/crate-digger",
+      "status": "candidate",
+      "text": "Create library jar"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/crate-digger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

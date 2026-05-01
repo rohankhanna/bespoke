@@ -4267,6 +4267,210 @@
       "source_repo": "archinetai/a-unet",
       "status": "candidate-context",
       "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "Joint Deep Matcher for Points and Lines \ud83d\uddbc\ufe0f\ud83d\udca5\ud83d\uddbc\ufe0f (ICCV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate-context",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate-context",
+      "text": "Documentation and tutorials for the Turing language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "H2O is an Open Source, Distributed, Fast & Scalable Machine Learning Platform: Deep Learning, Gradient Boosting (GBM) & XGBoost, Random Forest, Generalized Linear Modeling (GLM with Elastic Net), K-Means, PCA, Generalized Additive Models (GAM), RuleFit, Support Vector Machine (SVM), Stacked Ensembles, Automatic Machine Learning (AutoML), etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate-context",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "BertViz: Visualize Attention in Transformer Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "NIMA: Neural IMage Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate-context",
+      "text": "MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate-context",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "A lightweight library for PyTorch training tools and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate-context",
+      "text": "Open source lung ultrasound (LUS) data collection initiative for COVID-19."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate-context",
+      "text": "A neural network training interface based on PyTorch, with a focus on flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate-context",
+      "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Rasa Open Source</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "MegaDetector is an AI model that helps conservation folks spend less time doing boring things with camera trap images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate-context",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/hipBLASLt",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Moved to ROCm/rocm-libraries repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hipBLASLt",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlflow/mlflow",
+      "status": "candidate-context",
+      "text": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlflow/mlflow",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CHNFTQ/Capricorn",
+      "status": "candidate-context",
+      "text": "Capricorn: Enhancing Hi-C contact matrices for loop detection with a multi-view diffusion approach"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHNFTQ/Capricorn",
+      "status": "candidate-context",
+      "text": "The python implementation of Capricorn."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iver56/audiomentations",
+      "status": "candidate-context",
+      "text": "A Python library for audio data augmentation. Useful for making audio ML models work well in the real world, not just in the lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/audiomentations",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/circleci/project/github/iver56/audiomentations/main.svg)](https://circleci.com/gh/iver56/audiomentations)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate-context",
+      "text": "Asynchronous Distributed Hyperparameter Optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate-context",
+      "text": "*****"
     }
   ],
   "candidate_glosses": [
@@ -6399,6 +6603,108 @@
       "source_repo": "archinetai/a-unet",
       "status": "candidate",
       "text": "A toolbox that provides hackable building blocks for generic 1D/2D/3D UNets, in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/GlueStick",
+      "status": "candidate",
+      "text": "[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cvg/GlueStick/blob/main/gluestick_matching_demo.ipynb) [![arXiv](https://img.shields.io/badge/arXiv-2304.02008-b31b1b.svg?style=flat)](https://arxiv.org/abs/2304\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TuringLang/docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2oai/h2o-3",
+      "status": "candidate",
+      "text": "For any question not answered in this file or in [H2O-3 Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs), please use:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate",
+      "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RasaHQ/rasa",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Rasa Open Source</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentmorris/MegaDetector",
+      "status": "candidate",
+      "text": "<img src=\"images/md_logo_450px.png\" width=\"450\"/><br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate",
+      "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hipBLASLt",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlflow/mlflow",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CHNFTQ/Capricorn",
+      "status": "candidate",
+      "text": "The python implementation of Capricorn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/audiomentations",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/circleci/project/github/iver56/audiomentations/main.svg)](https://circleci.com/gh/iver56/audiomentations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Epistimio/orion",
+      "status": "candidate",
+      "text": "*****"
     }
   ],
   "candidate_related_terms": [],
@@ -9730,11 +10036,287 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "archinetai/a-unet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cvg/GlueStick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TuringLang/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "h2oai/h2o-3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jessevig/bertviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "truskovskiyk/nima.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zhijian-liu/torchpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RasaHQ/rasa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentmorris/MegaDetector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "CHNFTQ/Capricorn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "iver56/audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Epistimio/orion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

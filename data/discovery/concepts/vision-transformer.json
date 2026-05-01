@@ -391,6 +391,18 @@
       "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
       "status": "candidate-context",
       "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate-context",
+      "text": "This repository contains demos I made with the Transformers library by HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate-context",
+      "text": "Hi there!"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA",
       "status": "candidate",
       "text": "The official repo for [TGRS'22] \"Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate",
+      "text": "Hi there!"
     }
   ],
   "candidate_related_terms": [],
@@ -808,11 +826,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/Remote-Sensing-RVSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

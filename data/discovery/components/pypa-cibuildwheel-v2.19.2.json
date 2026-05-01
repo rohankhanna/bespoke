@@ -1,0 +1,12 @@
+{
+  "component": "pypa/cibuildwheel@v2.19.2",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "terrierteam/pyterrier_pisa"
+    }
+  ]
+}

@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.diff",
-      "target": "lewis6991/gitsigns.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "nvim-mini/mini.diff",
@@ -30,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T19:41:39.440182+00:00",
+  "fetched_at": "2026-05-01T12:57:16.307515+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -56,13 +49,7 @@
     ],
     "updated_at": "2026-04-30T08:45:26Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lewis6991/gitsigns.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-diff_readme.png?raw=true\" alt=\"mini.diff\" style=\"max-width:100%;border:solid 2px\"/> </p>",

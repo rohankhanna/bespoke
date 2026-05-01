@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jboss-javassist/javassist",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jboss-javassist/javassist",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "jboss-javassist/javassist",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jboss-javassist/javassist",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jboss-javassist/javassist",
+      "target": "java-bytecode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:56:20.740893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3037
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java bytecode engineering toolkit",
+    "fork": false,
+    "full_name": "jboss-javassist/javassist",
+    "html_url": "https://github.com/jboss-javassist/javassist",
+    "language": "Java",
+    "pushed_at": "2026-04-19T17:31:51Z",
+    "stargazers_count": 4226,
+    "topics": [
+      "java",
+      "java-bytecode"
+    ],
+    "updated_at": "2026-04-29T04:55:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "[![Java CI with Maven](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml/badge.svg)](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Java CI with Maven](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml/badge.svg)](https://github.com/jboss-javassist/javassist/actions/workflows/maven.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-bytecode"
+    }
+  ]
+}

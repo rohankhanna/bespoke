@@ -283,6 +283,30 @@
       "source_repo": "chrisjbryant/errant",
       "status": "candidate-context",
       "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate-context",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate-context",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlflow/mlflow",
+      "status": "candidate-context",
+      "text": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlflow/mlflow",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "chrisjbryant/errant",
       "status": "candidate",
       "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpatches/hpatches-benchmark",
+      "status": "candidate",
+      "text": "Python & Matlab code for local feature descriptor evaluation with the HPatches dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlflow/mlflow",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
     }
   ],
   "candidate_related_terms": [
@@ -631,11 +667,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chrisjbryant/errant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hpatches/hpatches-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create tag on hotfix branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "An open source payments switch written in Rust to make payments fast, reliable and affordable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate-context",
+      "text": "Create tag on hotfix branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juspay/hyperswitch",
+      "status": "candidate",
+      "text": "Create tag on hotfix branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31864,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31669,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31669,
+      "status": "candidate",
+      "text": "spring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "splash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22513,
+      "status": "candidate",
+      "text": "splashed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create tag on hotfix branch",
+  "concept_id": "create-tag-on-hotfix-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/create-hotfix-tag.yml",
+      "source_repo": "juspay/hyperswitch"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create tag on hotfix branch",
+      "sense_id": "create-tag-on-hotfix-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

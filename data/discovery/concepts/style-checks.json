@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Style Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/node-addon-api",
+      "status": "candidate-context",
+      "text": "Module for using Node-API from C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-addon-api",
+      "status": "candidate-context",
+      "text": "Style Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-addon-api",
+      "status": "candidate",
+      "text": "Style Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12759,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12457,
+      "status": "candidate",
+      "text": "veto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12327,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12327,
+      "status": "candidate",
+      "text": "stays"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12327,
+      "status": "candidate",
+      "text": "stick"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Style Checks",
+  "concept_id": "style-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "nodejs/node-addon-api"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Style Checks",
+      "sense_id": "style-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

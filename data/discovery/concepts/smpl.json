@@ -43,6 +43,30 @@
       "source_repo": "CalciferZh/SMPL",
       "status": "candidate-context",
       "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/VIBE",
+      "status": "candidate-context",
+      "text": "Official implementation of CVPR2020 paper \"VIBE: Video Inference for Human Body Pose and Shape Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/VIBE",
+      "status": "candidate-context",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1912.05656) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA) [![PWC](https://img.shields.io/end\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "status": "candidate-context",
+      "text": "C++ Implementation of SMPL: A Skinned Multi-Person Linear Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "status": "candidate-context",
+      "text": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "CalciferZh/SMPL",
       "status": "candidate",
       "text": "Numpy, TensorFlow and PyTorch implementation of SMPL model. For C++ implementation (with PyTorch), please see this [repo](https://github.com/YeeCY/SMPLpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/VIBE",
+      "status": "candidate",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1912.05656) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA) [![PWC](https://img.shields.io/end\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chongyi-zheng/SMPLpp",
+      "status": "candidate",
+      "text": "A C++ Implementation of SMPL - A Skinned Multi-Person Linear Model."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "CalciferZh/SMPL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/VIBE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

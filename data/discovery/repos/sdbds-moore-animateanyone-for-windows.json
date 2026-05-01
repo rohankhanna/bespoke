@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:34:25.721744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9936
+    },
+    {
+      "path": "requirements.txt",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "sdbds/Moore-AnimateAnyone-for-windows",
+    "html_url": "https://github.com/sdbds/Moore-AnimateAnyone-for-windows",
+    "language": "Python",
+    "pushed_at": "2024-01-19T09:46:06Z",
+    "stargazers_count": 66,
+    "topics": [],
+    "updated_at": "2026-04-16T04:02:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

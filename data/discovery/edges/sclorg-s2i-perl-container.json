@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "containers/libpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "sclorg/auto-merge-wrapper@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "Auto Merge On Demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "redhat-plumbers-in-action/download-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "sclorg/auto-merge-wrapper@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "Auto Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "sclorg/build-and-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "sclorg/ci-actions/.github/workflows/check-readme.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-tests.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "sclorg/ci-actions/.github/workflows/container-tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "redhat-plumbers-in-action/gather-pull-request-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-metadata.yml",
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "Gather Pull Request Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "fedora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "perl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "rhel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-perl-container",
+      "target": "source-to-image",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "sclorg/s2i-perl-container"
+}

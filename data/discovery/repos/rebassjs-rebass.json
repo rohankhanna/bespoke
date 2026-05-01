@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@testing-library/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-emotion",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-styled-components",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-test-renderer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "@babel/preset-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "@testing-library/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "jest-emotion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "jest-styled-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rebassjs/rebass",
+      "target": "react-test-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "design-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "emotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "grid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "layout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "react-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "rebass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "styled-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "styled-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass",
+      "target": "typography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:47:32.570949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3779
+    },
+    {
+      "path": "package.json",
+      "size": 1278
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":atom_symbol: React primitive UI components built with styled-system.",
+    "fork": false,
+    "full_name": "rebassjs/rebass",
+    "html_url": "https://github.com/rebassjs/rebass",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-27T03:42:53Z",
+    "stargazers_count": 7907,
+    "topics": [
+      "color",
+      "components",
+      "css",
+      "design-system",
+      "emotion",
+      "grid",
+      "javascript",
+      "layout",
+      "react",
+      "react-components",
+      "rebass",
+      "styled-components",
+      "styled-system",
+      "theme",
+      "typography",
+      "ui"
+    ],
+    "updated_at": "2026-04-21T17:06:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "components"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-system"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grid"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layout"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-components"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rebass"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-components"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-system"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    }
+  ]
+}

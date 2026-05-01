@@ -139,6 +139,18 @@
       "source_repo": "ai4co/rl4co",
       "status": "candidate-context",
       "text": "</br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/spear-tts-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Spear-TTS - multi-speaker text-to-speech attention network, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/spear-tts-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./spear-tts.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ai4co/rl4co",
       "status": "candidate",
       "text": "</br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/spear-tts-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./spear-tts.png\" width=\"450px\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -351,11 +369,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ai4co/rl4co"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/spear-tts-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

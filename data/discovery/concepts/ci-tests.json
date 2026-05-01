@@ -230,6 +230,30 @@
       "source_repo": "chipsalliance/fpga-interchange-schema",
       "status": "candidate-context",
       "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "status": "candidate-context",
+      "text": "Python interface to FPGA interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "status": "candidate-context",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/yamux",
+      "status": "candidate-context",
+      "text": "Golang connection multiplexing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/yamux",
+      "status": "candidate-context",
+      "text": "CI Tests"
     }
   ],
   "candidate_glosses": [
@@ -346,6 +370,18 @@
       "source_repo": "chipsalliance/fpga-interchange-schema",
       "status": "candidate",
       "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/yamux",
+      "status": "candidate",
+      "text": "CI Tests"
     }
   ],
   "candidate_related_terms": [
@@ -563,11 +599,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/python-fpga-interchange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hashicorp/yamux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/marker"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

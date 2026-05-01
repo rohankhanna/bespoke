@@ -487,6 +487,30 @@
       "source_repo": "optiscaler/OptiScaler",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/realsr-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "RealSR super resolution implemented with ncnn library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realsr-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/nihui/realsr-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/optix_advanced_samples",
+      "status": "candidate-context",
+      "text": "Set of advanced samples for the NVIDIA OptiX Ray Tracing Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/optix_advanced_samples",
+      "status": "candidate-context",
+      "text": "OptiX Advanced Samples"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +753,18 @@
       "source_repo": "optiscaler/OptiScaler",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realsr-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/nihui/realsr-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/optix_advanced_samples",
+      "status": "candidate",
+      "text": "OptiX Advanced Samples"
     }
   ],
   "candidate_related_terms": [
@@ -1072,11 +1108,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "optiscaler/OptiScaler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nihui/realsr-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/optix_advanced_samples"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

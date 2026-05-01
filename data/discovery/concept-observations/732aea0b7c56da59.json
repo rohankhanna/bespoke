@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sensible starting Prelude template."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protolude"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Protolude"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037038,
+      "status": "candidate",
+      "text": "secure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036619,
+      "status": "candidate",
+      "text": "safe and sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035031,
+      "status": "candidate",
+      "text": "safety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033312,
+      "status": "candidate",
+      "text": "risk-free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022900,
+      "status": "candidate",
+      "text": "dependable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "safe",
+      "sense_id": "safe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55063,
+      "status": "candidate",
+      "text": "good"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52038,
+      "status": "candidate",
+      "text": "innocuous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35045,
+      "status": "candidate",
+      "text": "secure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24068,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16031,
+      "status": "candidate",
+      "text": "dependable"
+    }
+  ],
+  "concept_id": "safe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "safe",
+  "observation_id": "732aea0b7c56da59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "safe",
+  "source_context_snippet": "Protolude",
+  "source_file": null,
+  "source_repo": "protolude/protolude",
+  "source_repo_description": "A sensible starting Prelude template."
+}

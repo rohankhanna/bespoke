@@ -84,7 +84,7 @@
   "normalized_form": "check-test-file-references",
   "observation_id": "881a1f4061a72dcb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Check Test File References",
   "source_context_snippet": "Check Test File References",
   "source_file": ".github/workflows/check-test-file-references.yml",

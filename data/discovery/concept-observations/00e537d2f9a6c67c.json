@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SCOPE-RL: A python library for offline reinforcement learning, off-policy evaluation, and selection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "offline-rl",
+      "sense_id": "offline-rl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "offline-rl",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "offline-rl",
+  "observation_id": "00e537d2f9a6c67c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "offline-rl",
+  "source_context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>",
+  "source_file": null,
+  "source_repo": "hakuhodo-technologies/scope-rl",
+  "source_repo_description": "SCOPE-RL: A python library for offline reinforcement learning, off-policy evaluation, and selection"
+}

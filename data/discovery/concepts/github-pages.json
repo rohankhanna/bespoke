@@ -626,6 +626,42 @@
       "source_repo": "nix-community/dream2nix",
       "status": "candidate-context",
       "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilk/eframe_template",
+      "status": "candidate-context",
+      "text": "The easy way to make a Rust app with a GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/eframe_template",
+      "status": "candidate-context",
+      "text": "Github Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "2d and 3d geometry for Computer Vision and Robotics "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate-context",
+      "text": "Github Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate-context",
+      "text": "Unified high-performance Python client for object and file stores."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -934,6 +970,24 @@
       "source_repo": "nix-community/dream2nix",
       "status": "candidate",
       "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilk/eframe_template",
+      "status": "candidate",
+      "text": "Github Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophus-vision/sophus-rs",
+      "status": "candidate",
+      "text": "Github Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/multi-storage-client",
+      "status": "candidate",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_related_terms": [
@@ -1415,11 +1469,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "emilk/eframe_template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "sophus-vision/sophus-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/.github_pages.yml",
+      "source_repo": "NVIDIA/multi-storage-client"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java binary serialization and cloning: fast, efficient, automatic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019610,
+      "status": "candidate",
+      "text": "copying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019363,
+      "status": "candidate",
+      "text": "replication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005071,
+      "status": "candidate",
+      "text": "photocopying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946441,
+      "status": "candidate",
+      "text": "isolation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861553,
+      "status": "candidate",
+      "text": "reproducing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloning",
+      "sense_id": "cloning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloning",
+  "observation_id": "e9f9313334602a10",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "cloning",
+  "source_context_snippet": "![KryoNet](https://raw.github.com/wiki/EsotericSoftware/kryo/images/logo.jpg)",
+  "source_file": null,
+  "source_repo": "EsotericSoftware/kryo",
+  "source_repo_description": "Java binary serialization and cloning: fast, efficient, automatic"
+}

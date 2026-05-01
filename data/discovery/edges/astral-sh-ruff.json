@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
+      "target": "godotengine/godot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astral-sh/ruff",
       "target": "encode/starlette",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
       "target": "altair-viz/altair",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "astral-sh/ruff",
-      "target": "delta-io/delta-rs",
       "target_type": "repository"
     },
     {
@@ -428,6 +428,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "astral-sh/ruff"
 }

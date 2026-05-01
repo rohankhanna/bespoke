@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "aymerick/raymond",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "cloudykit/jet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "a-h/templ",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "dracory/hb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slinso/goTemplateBenchmark",
+      "target": "template-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:44.135020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8967
+    },
+    {
+      "path": "go.mod",
+      "size": 1507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "comparing the performance of different template engines",
+    "fork": false,
+    "full_name": "slinso/goTemplateBenchmark",
+    "html_url": "https://github.com/slinso/goTemplateBenchmark",
+    "language": "Go",
+    "pushed_at": "2026-02-16T14:01:46Z",
+    "stargazers_count": 277,
+    "topics": [
+      "benchmark",
+      "golang",
+      "template-engine"
+    ],
+    "updated_at": "2026-02-26T16:21:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-h/templ",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aymerick/raymond",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudykit/jet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dracory/hb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "comparing the performance of different template engines",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "comparing the performance of different template engines",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "comparing the performance of different template engines",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-engine"
+    }
+  ]
+}

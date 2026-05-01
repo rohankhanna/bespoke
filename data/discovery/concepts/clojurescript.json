@@ -487,6 +487,30 @@
       "source_repo": "clojurephant/sample-clojurephant-cljs-app",
       "status": "candidate-context",
       "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/malli",
+      "status": "candidate-context",
+      "text": "High-performance data-driven data specification library for Clojure/Script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/malli",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojurephant/clojurephant-tooling",
+      "status": "candidate-context",
+      "text": "Clojure wrapper to the Gradle tooling API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/clojurephant-tooling",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +753,18 @@
       "source_repo": "clojurephant/sample-clojurephant-cljs-app",
       "status": "candidate",
       "text": "Sample project using [clojurephant](https://github.com/clojurephant) to build a ClojureScript app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/malli",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojurephant/clojurephant-tooling",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1114,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "clojurephant/sample-clojurephant-cljs-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "metosin/malli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "clojurephant/clojurephant-tooling"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

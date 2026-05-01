@@ -238,6 +238,18 @@
       "source_repo": "lewis6991/gitsigns.nvim",
       "status": "candidate-context",
       "text": "stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate-context",
+      "text": "Model-based design and verification for robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate-context",
+      "text": "stale"
     }
   ],
   "candidate_glosses": [
@@ -352,6 +364,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lewis6991/gitsigns.nvim",
+      "status": "candidate",
+      "text": "stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotLocomotion/drake",
       "status": "candidate",
       "text": "stale"
     }
@@ -571,11 +589,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/response.yml",
       "source_repo": "lewis6991/gitsigns.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "RobotLocomotion/drake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/query"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

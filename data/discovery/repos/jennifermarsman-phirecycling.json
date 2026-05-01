@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:11:09.734900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4250
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New scenario unlocked with Phi vision model to sort trash and recycling at scale",
+    "fork": false,
+    "full_name": "jennifermarsman/PhiRecycling",
+    "html_url": "https://github.com/jennifermarsman/PhiRecycling",
+    "language": "Python",
+    "pushed_at": "2024-08-05T15:29:11Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-01-13T02:39:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

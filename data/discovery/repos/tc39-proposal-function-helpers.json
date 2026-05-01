@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "js-choi/proposal-function-pipe-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "js-choi/proposal-function-un-this",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "js-choi/proposal-function-helpers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "js-choi/proposal-bind-this",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "callback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers",
+      "target": "tc39",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:21.119649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21017
+    },
+    {
+      "path": "package.json",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A withdrawn proposal for standardizing some useful, popular helper functions into JavaScript\u2019s Function object.",
+    "fork": false,
+    "full_name": "tc39/proposal-function-helpers",
+    "html_url": "https://github.com/tc39/proposal-function-helpers",
+    "language": "HTML",
+    "pushed_at": "2021-11-11T22:00:55Z",
+    "stargazers_count": 46,
+    "topics": [
+      "callback",
+      "function",
+      "functional-programming",
+      "javascript",
+      "tc39"
+    ],
+    "updated_at": "2025-10-27T16:12:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-bind-this",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-function-helpers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-function-pipe-flow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "js-choi/proposal-function-un-this",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "callback"
+    },
+    {
+      "context_snippet": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function"
+    },
+    {
+      "context_snippet": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tc39"
+    }
+  ]
+}

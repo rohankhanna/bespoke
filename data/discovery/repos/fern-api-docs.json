@@ -1,0 +1,516 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-docs-release.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devin-pr-assignee.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "fern-api/setup-fern-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v2.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "fern-api/setup-fern-cli@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-versions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-versions.yml"
+    },
+    {
+      "component": "peter-evans/enable-pull-request-automerge@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fern-api/docs",
+      "target": "errata-ai/microsoft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-docs-release.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-docs-release.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Auto-merge on Docs Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devin-pr-assignee.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-devin-pr-assignee.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Check Devin AI PR Assignee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "fern-api/docs",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Check Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fern-scribe.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fern-scribe.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Fern Scribe Documentation Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "fern-api/setup-fern-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "thollander/actions-comment-pull-request@v2.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Preview Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "fern-api/setup-fern-cli@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Publish Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Close stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml",
+      "source_repo": "fern-api/docs",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml",
+      "source_repo": "fern-api/docs",
+      "target": "peter-evans/enable-pull-request-automerge@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Update Self-Hosted Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-versions.yml",
+      "source_repo": "fern-api/docs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-versions.yml",
+      "source_repo": "fern-api/docs",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-versions.yml",
+      "source_repo": "fern-api/docs",
+      "target": "peter-evans/enable-pull-request-automerge@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-versions.yml",
+      "source_repo": "fern-api/docs",
+      "target": "Update Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs",
+      "target": "built-with-fern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fern-api/docs",
+      "target": "docs-as-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:00:54.969835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5791
+    },
+    {
+      "path": ".github/workflows/auto-merge-on-docs-release.yml",
+      "size": 1803
+    },
+    {
+      "path": ".github/workflows/check-devin-pr-assignee.yml",
+      "size": 3583
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "size": 45258
+    },
+    {
+      "path": ".github/workflows/fern-scribe.yml",
+      "size": 2985
+    },
+    {
+      "path": ".github/workflows/preview-docs.yml",
+      "size": 3110
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 452
+    },
+    {
+      "path": ".github/workflows/stale-bot.yml",
+      "size": 694
+    },
+    {
+      "path": ".github/workflows/update-self-hosted-changelog.yml",
+      "size": 2377
+    },
+    {
+      "path": ".github/workflows/update-versions.yml",
+      "size": 3855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The documentation for Fern (kind of meta, eh?)",
+    "fork": false,
+    "full_name": "fern-api/docs",
+    "html_url": "https://github.com/fern-api/docs",
+    "language": "MDX",
+    "pushed_at": "2026-05-01T13:35:47Z",
+    "stargazers_count": 6,
+    "topics": [
+      "built-with-fern",
+      "docs",
+      "docs-as-code"
+    ],
+    "updated_at": "2026-05-01T13:35:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/microsoft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-merge on Docs Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-on-docs-release.yml",
+      "term": "Auto-merge on Docs Release"
+    },
+    {
+      "context_snippet": "Check Devin AI PR Assignee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-devin-pr-assignee.yml",
+      "term": "Check Devin AI PR Assignee"
+    },
+    {
+      "context_snippet": "Check Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "term": "Check Links"
+    },
+    {
+      "context_snippet": "Fern Scribe Documentation Assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fern-scribe.yml",
+      "term": "Fern Scribe Documentation Assistant"
+    },
+    {
+      "context_snippet": "Preview Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "term": "Preview Docs"
+    },
+    {
+      "context_snippet": "Publish Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish Docs"
+    },
+    {
+      "context_snippet": "'Close stale PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "term": "Close stale PRs"
+    },
+    {
+      "context_snippet": "Update Self-Hosted Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-self-hosted-changelog.yml",
+      "term": "Update Self-Hosted Changelog"
+    },
+    {
+      "context_snippet": "Update Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-versions.yml",
+      "term": "Update Versions"
+    },
+    {
+      "context_snippet": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "built-with-fern"
+    },
+    {
+      "context_snippet": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "Welcome to the Fern documentation! This repository contains the source code for Fern's comprehensive documentation site, currently live at [buildwithfern.com/learn](https://buildwithfern.com/learn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs-as-code"
+    }
+  ]
+}

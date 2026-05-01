@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wileewang/TransPixeler",
+      "target": "wileewang/transpixar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wileewang/TransPixeler",
+      "target": "a-r-r-o-w/finetrainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wileewang/TransPixeler",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:02:07.666193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8063
+    },
+    {
+      "path": "requirements.txt",
+      "size": 193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVPR2025",
+    "fork": false,
+    "full_name": "wileewang/TransPixeler",
+    "html_url": "https://github.com/wileewang/TransPixeler",
+    "language": "Python",
+    "pushed_at": "2025-05-14T05:25:17Z",
+    "stargazers_count": 922,
+    "topics": [],
+    "updated_at": "2026-04-27T17:23:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-r-r-o-w/finetrainers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wileewang/transpixar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:53:46.282423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "just playing around",
+    "fork": false,
+    "full_name": "PragTob/elixir_playground",
+    "html_url": "https://github.com/PragTob/elixir_playground",
+    "language": "Elixir",
+    "pushed_at": "2025-07-17T06:48:18Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-07-17T06:48:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

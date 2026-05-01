@@ -427,6 +427,18 @@
       "source_repo": "qri-io/qri",
       "status": "candidate-context",
       "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmotz/trystero",
+      "status": "candidate-context",
+      "text": "\u2728\ud83e\udd1d\u2728 Build instant multiplayer webapps, no server required \u2014 Magic WebRTC matchmaking over BitTorrent, Nostr, MQTT, IPFS, Supabase, and Firebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmotz/trystero",
+      "status": "candidate-context",
+      "text": "**Build instant multiplayer web apps, no server required**"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "qri-io/qri",
       "status": "candidate",
       "text": "[![Qri](https://img.shields.io/badge/made%20by-qri-magenta.svg?style=flat-square)](https://qri.io) [![GoDoc](https://godoc.org/github.com/qri-io/qri?status.svg)](http://godoc.org/github.com/qri-io/qri) [![License](https://img.shields.io/github/license/qri-io/qri.svg?style=flat-s\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmotz/trystero",
+      "status": "candidate",
+      "text": "**Build instant multiplayer web apps, no server required**"
     }
   ],
   "candidate_related_terms": [
@@ -1096,11 +1114,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dmotz/trystero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/cid"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

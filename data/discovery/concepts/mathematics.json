@@ -91,6 +91,18 @@
       "source_repo": "zcash/pasta",
       "status": "candidate-context",
       "text": "Pallas/Vesta supporting evidence"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate-context",
+      "text": "MathVista: data, code, and evaluation for Mathematical Reasoning in Visual Contexts "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate-context",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "zcash/pasta",
       "status": "candidate",
       "text": "Pallas/Vesta supporting evidence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/MathVista",
+      "status": "candidate",
+      "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +253,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "zcash/pasta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lupantech/MathVista"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

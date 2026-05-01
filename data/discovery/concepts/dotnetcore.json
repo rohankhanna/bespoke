@@ -91,6 +91,18 @@
       "source_repo": "AvaloniaCommunity/Prism.Avalonia",
       "status": "candidate-context",
       "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botframework-sdk",
+      "status": "candidate-context",
+      "text": "Bot Framework provides the most comprehensive experience for building conversation applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-sdk",
+      "status": "candidate-context",
+      "text": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "AvaloniaCommunity/Prism.Avalonia",
       "status": "candidate",
       "text": "> ## Announcement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-sdk",
+      "status": "candidate",
+      "text": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "AvaloniaCommunity/Prism.Avalonia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

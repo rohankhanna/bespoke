@@ -94,6 +94,18 @@
       "source_repo": "bazel-contrib/rules_foreign_cc",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate-context",
+      "text": "Nix language server, based on nix libraries [maintainer=@inclyc,@takeokunn,@Aleksanaa] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate-context",
+      "text": "Meson"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "bazel-contrib/rules_foreign_cc",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/c28afbf846e2077715c753dda1f4b820cdcc46cc6cde16503c.svg?branch=main)](https://buildkite.com/bazel/rules-foreign-cc?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nixd",
+      "status": "candidate",
+      "text": "Meson"
     }
   ],
   "candidate_related_terms": [
@@ -231,11 +249,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_foreign_cc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nix-community/nixd"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

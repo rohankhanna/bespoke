@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987680,
+      "status": "candidate",
+      "text": "lip-synch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011052,
+      "status": "candidate",
+      "text": "lipsync"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011051,
+      "status": "candidate",
+      "text": "lipsynch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011049,
+      "status": "candidate",
+      "text": "lipread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20011048,
+      "status": "candidate",
+      "text": "lip-read"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lip-sync",
+      "sense_id": "lip-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "lip-synch"
+    }
+  ],
+  "concept_id": "lip-sync",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lip-sync",
+  "observation_id": "34e18cfefc1618f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "lip-sync",
+  "source_context_snippet": "<strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>",
+  "source_file": null,
+  "source_repo": "TMElyralab/MuseTalk",
+  "source_repo_description": "MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting"
+}

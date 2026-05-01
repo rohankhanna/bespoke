@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:37:32.185000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5744
+    },
+    {
+      "path": "go.mod",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Very simple compile daemon for Go",
+    "fork": false,
+    "full_name": "githubnemo/CompileDaemon",
+    "html_url": "https://github.com/githubnemo/CompileDaemon",
+    "language": "Go",
+    "pushed_at": "2025-01-20T15:29:48Z",
+    "stargazers_count": 1723,
+    "topics": [],
+    "updated_at": "2026-04-21T12:43:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

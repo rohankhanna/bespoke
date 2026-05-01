@@ -19,12 +19,30 @@
       "source_repo": "speechbrain/speechbrain",
       "status": "candidate-context",
       "text": "SpeechBrain pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechbrain/benchmarks",
+      "status": "candidate-context",
+      "text": "This repository contains the SpeechBrain Benchmarks "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/benchmarks",
+      "status": "candidate-context",
+      "text": "SpeechBrain pre-commit"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "speechbrain/speechbrain",
+      "status": "candidate",
+      "text": "SpeechBrain pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechbrain/benchmarks",
       "status": "candidate",
       "text": "SpeechBrain pre-commit"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "speechbrain/speechbrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "speechbrain/benchmarks"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

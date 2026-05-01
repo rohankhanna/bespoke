@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "tencent/hunyuancustom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "tencent/hunyuanvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "tencent-hunyuan/hunyuanvideo-avatar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "tencent/mimicmotion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "audio-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "image-to-video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "video-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:22.412599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17172
+    },
+    {
+      "path": "requirements.txt",
+      "size": 265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanCustom: A Multimodal-Driven Architecture for Customized Video Generation",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanCustom",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanCustom",
+    "language": "Python",
+    "pushed_at": "2025-10-15T06:54:23Z",
+    "stargazers_count": 1220,
+    "topics": [
+      "audio-driven",
+      "diffusion-models",
+      "image-to-video",
+      "image-to-video-generation",
+      "video-editing",
+      "video-generation"
+    ],
+    "updated_at": "2026-05-01T06:50:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuanvideo-avatar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuancustom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/hunyuanvideo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/mimicmotion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ## **HunyuanCustom** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-driven"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanCustom** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanCustom** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanCustom** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video-generation"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanCustom** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    },
+    {
+      "context_snippet": "<!-- ## **HunyuanCustom** -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

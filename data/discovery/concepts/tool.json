@@ -271,6 +271,30 @@
       "source_repo": "alexaandrov/stitchocker",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/alexaandrov/stitchocker/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lupantech/chameleon-llm",
+      "status": "candidate-context",
+      "text": "Codes for \"Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/chameleon-llm",
+      "status": "candidate-context",
+      "text": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "welldone-software/why-did-you-render",
+      "status": "candidate-context",
+      "text": "why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "welldone-software/why-did-you-render",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "alexaandrov/stitchocker",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/alexaandrov/stitchocker/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lupantech/chameleon-llm",
+      "status": "candidate",
+      "text": "![Science Problems](https://img.shields.io/badge/Task-Science_Problems-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "welldone-software/why-did-you-render",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -640,11 +676,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "alexaandrov/stitchocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lupantech/chameleon-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "welldone-software/why-did-you-render"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

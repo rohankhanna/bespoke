@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "weaviate/semantic-search-through-wikipedia-with-weaviate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "weaviate/biggraph-wikidata-search-with-weaviate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "vector-search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples",
+      "target": "weaviate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:49:23.783349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Weaviate vector database \u2013 examples",
+    "fork": false,
+    "full_name": "weaviate/weaviate-examples",
+    "html_url": "https://github.com/weaviate/weaviate-examples",
+    "language": "HTML",
+    "pushed_at": "2025-08-07T17:06:59Z",
+    "stargazers_count": 329,
+    "topics": [
+      "deep-learning",
+      "examples",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine",
+      "weaviate"
+    ],
+    "updated_at": "2026-04-01T11:53:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate/biggraph-wikidata-search-with-weaviate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weaviate/semantic-search-through-wikipedia-with-weaviate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    },
+    {
+      "context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search-engine"
+    },
+    {
+      "context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weaviate"
+    }
+  ]
+}

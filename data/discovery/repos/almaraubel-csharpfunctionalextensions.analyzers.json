@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "gittools/actions/gitversion/setup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "gittools/actions/gitversion/setup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "gittools/actions/gitversion/setup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "continuous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "gittools/actions/gitversion/setup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+      "target": "publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:59:09.818376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/continuous.yml",
+      "size": 1271
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code analyzers for CSharpFunctionalExtensions",
+    "fork": false,
+    "full_name": "AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+    "html_url": "https://github.com/AlmarAubel/CSharpFunctionalExtensions.Analyzers",
+    "language": "C#",
+    "pushed_at": "2024-07-03T09:22:07Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-12-01T08:49:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "continuous",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous.yml",
+      "term": "continuous"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    }
+  ]
+}

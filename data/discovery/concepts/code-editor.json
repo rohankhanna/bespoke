@@ -43,6 +43,18 @@
       "source_repo": "lite-xl/lite-xl",
       "status": "candidate-context",
       "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate-context",
+      "text": "A syntax highlighting, code folding text editor for Java Swing applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate-context",
+      "text": "![Java Build](https://github.com/bobbylight/RSyntaxTextArea/actions/workflows/gradle.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "lite-xl/lite-xl",
       "status": "candidate",
       "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bobbylight/RSyntaxTextArea",
+      "status": "candidate",
+      "text": "![Java Build](https://github.com/bobbylight/RSyntaxTextArea/actions/workflows/gradle.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lite-xl/lite-xl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bobbylight/RSyntaxTextArea"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

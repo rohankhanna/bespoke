@@ -84,7 +84,7 @@
   "normalized_form": "x25519-rust",
   "observation_id": "e87dfbc65f22acc9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "x25519 Rust",
   "source_context_snippet": "x25519 Rust",
   "source_file": ".github/workflows/x25519-dalek.yml",

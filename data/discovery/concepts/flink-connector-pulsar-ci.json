@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Flink Connector Pulsar CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/flink-connector-pulsar",
+      "status": "candidate-context",
+      "text": "Apache flink"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/flink-connector-pulsar",
+      "status": "candidate-context",
+      "text": "Flink Connector Pulsar CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/flink-connector-pulsar",
+      "status": "candidate",
+      "text": "Flink Connector Pulsar CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12235,
+      "status": "candidate",
+      "text": "pierre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12235,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11784,
+      "status": "candidate",
+      "text": "warsaw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11364,
+      "status": "candidate",
+      "text": "gouge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Flink Connector Pulsar CI",
+  "concept_id": "flink-connector-pulsar-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/push_pr.yml",
+      "source_repo": "apache/flink-connector-pulsar"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Flink Connector Pulsar CI",
+      "sense_id": "flink-connector-pulsar-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

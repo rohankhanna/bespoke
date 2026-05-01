@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "st-tech/zr-obp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "openai/spinningup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "off-policy-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "offline-rl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakuhodo-technologies/scope-rl",
+      "target": "risk-assessment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:41:57.612423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31720
+    },
+    {
+      "path": "requirements.txt",
+      "size": 193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SCOPE-RL: A python library for offline reinforcement learning, off-policy evaluation, and selection",
+    "fork": false,
+    "full_name": "hakuhodo-technologies/scope-rl",
+    "html_url": "https://github.com/hakuhodo-technologies/scope-rl",
+    "language": "Python",
+    "pushed_at": "2024-03-18T14:03:18Z",
+    "stargazers_count": 141,
+    "topics": [
+      "off-policy-evaluation",
+      "offline-rl",
+      "reinforcement-learning",
+      "research",
+      "risk-assessment"
+    ],
+    "updated_at": "2026-04-24T20:51:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/spinningup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "st-tech/zr-obp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "off-policy-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline-rl"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/hakuhodo-technologies/scope-rl/main/images/logo.png\" width=\"100%\"/></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "risk-assessment"
+    }
+  ]
+}

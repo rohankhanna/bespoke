@@ -1147,6 +1147,42 @@
       "source_repo": "Slicer/light-the-torch",
       "status": "candidate-context",
       "text": "[![BSD-3-Clause License](https://img.shields.io/github/license/Slicer/light-the-torch)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "status": "candidate-context",
+      "text": " a reimplementation of LiteFlowNet in PyTorch that matches the official Caffe version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/cuNSearch",
+      "status": "candidate-context",
+      "text": "A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/cuNSearch",
+      "status": "candidate-context",
+      "text": "A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius. Suitable for many applications, e.g. neighborhood search for SPH fluid simulations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/hipBLAS",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Moved to ROCm/rocm-libraries repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hipBLAS",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -1719,6 +1755,24 @@
       "source_repo": "Slicer/light-the-torch",
       "status": "candidate",
       "text": "[![BSD-3-Clause License](https://img.shields.io/github/license/Slicer/light-the-torch)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/cuNSearch",
+      "status": "candidate",
+      "text": "A C++/CUDA library to efficiently compute neighborhood information on the GPU for 3D point clouds within a fixed radius. Suitable for many applications, e.g. neighborhood search for SPH fluid simulations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/hipBLAS",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -2560,11 +2614,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Slicer/light-the-torch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-liteflownet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/cuNSearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

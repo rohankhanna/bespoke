@@ -84,7 +84,7 @@
   "normalized_form": "latest-changes",
   "observation_id": "970e491ef3bc1d64",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T00:37:16.824464+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Latest Changes",
   "source_context_snippet": "Latest Changes",
   "source_file": ".github/workflows/latest-changes.yml",

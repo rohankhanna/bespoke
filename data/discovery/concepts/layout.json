@@ -19,6 +19,18 @@
       "source_repo": "styled-system/styled-system",
       "status": "candidate-context",
       "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate-context",
+      "text": ":atom_symbol: React primitive UI components built with styled-system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate-context",
+      "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "styled-system/styled-system",
       "status": "candidate",
       "text": "<img src='https://styled-system.com/logo.svg' width='128' height='128' />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebassjs/rebass",
+      "status": "candidate",
+      "text": "<img src='https://rebassjs.org/logo.svg' width='128' height='128' />"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "styled-system/styled-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rebassjs/rebass"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

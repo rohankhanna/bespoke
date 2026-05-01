@@ -310,6 +310,42 @@
       "source_repo": "helmfile/helmfile",
       "status": "candidate-context",
       "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate-context",
+      "text": "A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "roboll/helmfile",
+      "status": "candidate-context",
+      "text": "Deploy Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboll/helmfile",
+      "status": "candidate-context",
+      "text": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "Helm Plugin - Install Helm Charts straight from Git repositories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate-context",
+      "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +498,24 @@
       "source_repo": "helmfile/helmfile",
       "status": "candidate",
       "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate",
+      "text": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "roboll/helmfile",
+      "status": "candidate",
+      "text": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aslafy-z/helm-git",
+      "status": "candidate",
+      "text": "![GitHub Actions](https://github.com/aslafy-z/helm-git/actions/workflows/release.yml/badge.svg?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -673,11 +727,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "helmfile/helmfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "roboll/helmfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aslafy-z/helm-git"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

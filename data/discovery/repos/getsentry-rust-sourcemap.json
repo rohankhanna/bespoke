@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@42dc69e1aa15d09112580998cf2ef0119e2e91ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@42dc69e1aa15d09112580998cf2ef0119e2e91ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@42dc69e1aa15d09112580998cf2ef0119e2e91ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@42dc69e1aa15d09112580998cf2ef0119e2e91ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@5d869da34e18e7287c1daad50e0b8ea0f506ce69",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "getsentry/action-prepare-release@c8e1c2009ab08259029170132c384f03c1064c0e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "Swatinem/rust-cache@42dc69e1aa15d09112580998cf2ef0119e2e91ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "actions/create-github-app-token@5d869da34e18e7287c1daad50e0b8ea0f506ce69",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "getsentry/action-prepare-release@c8e1c2009ab08259029170132c384f03c1064c0e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "Weekly CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/rust-sourcemap",
+      "target": "tag-production",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:41:09.084276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1164
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1084
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1825
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/weekly.yml",
+      "size": 661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library for rust that implements basic sourcemap handling",
+    "fork": false,
+    "full_name": "getsentry/rust-sourcemap",
+    "html_url": "https://github.com/getsentry/rust-sourcemap",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T04:01:23Z",
+    "stargazers_count": 246,
+    "topics": [
+      "tag-production"
+    ],
+    "updated_at": "2026-04-10T13:51:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Weekly CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly.yml",
+      "term": "Weekly CI"
+    },
+    {
+      "context_snippet": "This library implements basic processing of JavaScript sourcemaps.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tag-production"
+    }
+  ]
+}

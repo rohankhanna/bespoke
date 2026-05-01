@@ -523,6 +523,18 @@
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
       "status": "candidate-context",
       "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate-context",
+      "text": "Guard offers a policy-as-code domain-specific language (DSL) to write rules and validate JSON- and YAML-formatted data such as CloudFormation Templates, K8s configurations, and Terraform JSON plans/configurations against those rules. Take this survey to provide feedback about cfn-guard: https://amazonmr.au1.qualtrics.com/jfe/form/SV_bpyzpfoYGGuuUl0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate-context",
+      "text": "**Validate Cloud Environments with Policy-as-Code**"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
       "status": "candidate",
       "text": "Terraform module which creates multi-tenancy resources on Amazon EKS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cloudformation-guard",
+      "status": "candidate",
+      "text": "**Validate Cloud Environments with Policy-as-Code**"
     }
   ],
   "candidate_related_terms": [
@@ -1084,11 +1102,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-guard"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

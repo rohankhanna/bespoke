@@ -84,7 +84,7 @@
   "normalized_form": "kubernetes",
   "observation_id": "3cb9aab0917d8e60",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "kubernetes",
   "source_context_snippet": "[![Build Status](https://app.travis-ci.com/bitnami/kubecfg.svg?branch=main)](https://app.travis-ci.com/github/bitnami/kubecfg)",
   "source_file": null,

@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-pr-validation.yml",
       "source_repo": "apache/pulsar-client-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "chaoss/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-hardened.yaml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-rootless.yaml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "sysadminsmedia/homebox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sethvargo/ratchet"
     }
   ]
 }

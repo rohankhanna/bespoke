@@ -271,6 +271,18 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate-context",
       "text": "*Pandas on AWS*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/envy-store",
+      "status": "candidate-context",
+      "text": "\ud83c\udfea deserialize AWS Parameter Store values into type safe structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy-store",
+      "status": "candidate-context",
+      "text": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate",
       "text": "*Pandas on AWS*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy-store",
+      "status": "candidate",
+      "text": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs"
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +586,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aws/aws-sdk-pandas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "softprops/envy-store"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

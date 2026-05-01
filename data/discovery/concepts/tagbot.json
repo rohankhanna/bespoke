@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "TagBot"
+    "TagBot",
+    "tagbot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -685,6 +686,150 @@
       "source_repo": "Lyceum/LyceumBase.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate-context",
+      "text": "Simple development server with live-reload capability for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "Symbolic expressions, rewriting and simplification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "Unicode-based scientific plotting for working in the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate-context",
+      "text": "tagbot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "The Julia compiler frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "Crafty statistical graphics for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate-context",
+      "text": "Tutorials for doing scientific machine learning (SciML) and high-performance differential equation solving with open source software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "Powerful convenience for Julia visualizations and data analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate-context",
+      "text": "tagbot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate-context",
+      "text": "Internal format and rules for managing Bibliography in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate-context",
+      "text": "Parser for bibliographic formats, including BibTeX, in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate-context",
+      "text": "A black-box generator for static websites oriented toward academics and personal web-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGtk/Gtk4.jl",
+      "status": "candidate-context",
+      "text": "Julia package for Gtk4 using GObject introspection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGtk/Gtk4.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PyCall.jl",
+      "status": "candidate-context",
+      "text": "Package to call Python functions from the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyCall.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -1051,6 +1196,78 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Lyceum/LyceumBase.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/LiveServer.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/UnicodePlots.jl",
+      "status": "candidate",
+      "text": "tagbot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GiovineItalia/Gadfly.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/SciMLTutorials.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/Plots.jl",
+      "status": "candidate",
+      "text": "tagbot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibInternal.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/BibParser.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGtk/Gtk4.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PyCall.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -1432,11 +1649,89 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/tagbot.yml",
       "source_repo": "Lyceum/LyceumBase.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaSymbolics/SymbolicUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPlots/UnicodePlots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/JuliaSyntax.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "GiovineItalia/Gadfly.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/SciMLTutorials.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPlots/Plots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Humans-of-Julia/BibInternal.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Humans-of-Julia/BibParser.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Humans-of-Julia/StaticWebPages.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGtk/Gtk4.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPy/PyCall.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/github-ideas-and-frs",
+      "target": "danielrosehill/ideas-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/github-management-tools-index",
+      "target": "danielrosehill/israel-preparedness-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/home-assistant-index",
+      "target": "danielrosehill/israel-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/homebox-projects-index",
+      "target": "danielrosehill/jewish-related-index",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:58:22.638679+00:00",
+  "fetched_at": "2026-05-01T13:49:06.883566+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,22 +71,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/github-ideas-and-frs",
+      "full_name": "danielrosehill/ideas-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/github-management-tools-index",
+      "full_name": "danielrosehill/israel-preparedness-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/home-assistant-index",
+      "full_name": "danielrosehill/israel-projects-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/homebox-projects-index",
+      "full_name": "danielrosehill/jewish-related-index",
       "source_file": "README.md"
     }
   ],

@@ -19,6 +19,18 @@
       "source_repo": "appium/appium-mac2-driver",
       "status": "candidate-context",
       "text": "Appium Mac2 Driver"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hamcrest/OCHamcrest",
+      "status": "candidate-context",
+      "text": "Hamcrest for Objective-C: Powerful, combinable, extensible matchers for verification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hamcrest/OCHamcrest",
+      "status": "candidate-context",
+      "text": "![ochamcrest](http://hamcrest.org/images/logo.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "appium/appium-mac2-driver",
       "status": "candidate",
       "text": "Appium Mac2 Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hamcrest/OCHamcrest",
+      "status": "candidate",
+      "text": "![ochamcrest](http://hamcrest.org/images/logo.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "appium/appium-mac2-driver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hamcrest/OCHamcrest"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

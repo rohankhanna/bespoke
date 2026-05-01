@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "2021-MICCAI-Progressively Normalized Self-Attention Network for Video Polyp Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-object-segmentation",
+      "sense_id": "video-object-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-object-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-object-segmentation",
+  "observation_id": "3ac9d9689a3d7a65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "video-object-segmentation",
+  "source_context_snippet": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />",
+  "source_file": null,
+  "source_repo": "GewelsJI/PNS-Net",
+  "source_repo_description": "2021-MICCAI-Progressively Normalized Self-Attention Network for Video Polyp Segmentation"
+}

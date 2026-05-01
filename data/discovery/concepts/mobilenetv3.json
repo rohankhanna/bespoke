@@ -43,6 +43,18 @@
       "source_repo": "argusswift/YOLOv4-pytorch",
       "status": "candidate-context",
       "text": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "Robust realtime face and facial landmark tracking on CPU with Unity integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "argusswift/YOLOv4-pytorch",
       "status": "candidate",
       "text": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate",
+      "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +148,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

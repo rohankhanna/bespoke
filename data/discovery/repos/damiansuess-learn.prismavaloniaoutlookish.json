@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "dryioc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "prism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "prism-avalonia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "prismlibrary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "suesslabs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "wsl2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "xeno-innovations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+      "target": "xenoinc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:58:34.502562+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sample project using Prism.Avalonia with Prism's Modules",
+    "fork": false,
+    "full_name": "DamianSuess/Learn.PrismAvaloniaOutlookish",
+    "html_url": "https://github.com/DamianSuess/Learn.PrismAvaloniaOutlookish",
+    "language": "C#",
+    "pushed_at": "2025-05-31T15:18:14Z",
+    "stargazers_count": 39,
+    "topics": [
+      "csharp",
+      "dryioc",
+      "prism",
+      "prism-avalonia",
+      "prismlibrary",
+      "suesslabs",
+      "wsl2",
+      "xeno-innovations",
+      "xenoinc"
+    ],
+    "updated_at": "2026-03-17T12:35:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dryioc"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prism-avalonia"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prismlibrary"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suesslabs"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wsl2"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xeno-innovations"
+    },
+    {
+      "context_snippet": "Sample project using Prism.Avalonia with Prism's Modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xenoinc"
+    }
+  ]
+}

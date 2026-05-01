@@ -43,6 +43,18 @@
       "source_repo": "imfangs/langgraph4j-deep-researcher",
       "status": "candidate-context",
       "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate-context",
+      "text": "An ACP bridge to langraph4j and langchain4j"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate-context",
+      "text": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "imfangs/langgraph4j-deep-researcher",
       "status": "candidate",
       "text": "A deep research assistant based on the Langgraph4j framework with iterative deep research capabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
+      "status": "candidate",
+      "text": "[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OsgiliathEnterprise_acp-langgraph-langchain-bridge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=OsgiliathEnterprise_acp-langgraph-langchain-bridge)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "imfangs/langgraph4j-deep-researcher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Weaviate vector database \u2013 examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vector-search",
+      "sense_id": "vector-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vector-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vector-search",
+  "observation_id": "4c4a224710e16e03",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "vector-search",
+  "source_context_snippet": "List of examples and tutorials of how to use the Vector Search Engine",
+  "source_file": null,
+  "source_repo": "weaviate/weaviate-examples",
+  "source_repo_description": "Weaviate vector database \u2013 examples"
+}

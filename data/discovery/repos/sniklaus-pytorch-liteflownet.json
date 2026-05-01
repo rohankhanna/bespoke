@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "twhui/liteflownet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "sniklaus/pytorch-pwc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "sniklaus/pytorch-unflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "sniklaus/pytorch-spynet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:42.281696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3036
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " a reimplementation of LiteFlowNet in PyTorch that matches the official Caffe version",
+    "fork": false,
+    "full_name": "sniklaus/pytorch-liteflownet",
+    "html_url": "https://github.com/sniklaus/pytorch-liteflownet",
+    "language": "Python",
+    "pushed_at": "2025-01-06T01:02:47Z",
+    "stargazers_count": 431,
+    "topics": [
+      "cuda",
+      "cupy",
+      "deep-learning",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-26T08:20:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sniklaus/pytorch-pwc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sniklaus/pytorch-spynet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sniklaus/pytorch-unflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twhui/liteflownet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

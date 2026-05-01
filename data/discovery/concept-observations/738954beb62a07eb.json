@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035137,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035005,
+      "status": "candidate",
+      "text": "cartography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034631,
+      "status": "candidate",
+      "text": "mapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034186,
+      "status": "candidate",
+      "text": "cartographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031052,
+      "status": "candidate",
+      "text": "plan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chart",
+      "sense_id": "chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chart",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chart",
+  "observation_id": "738954beb62a07eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "chart",
+  "source_context_snippet": "Helmfile has moved home, this codebase is now effectively dead with all new development and bug fixes being done here https://github.com/helmfile/helmfile. Please do star the new repository!!! For more details see this issue https://github.com/roboll/helmfile/issues/1824",
+  "source_file": null,
+  "source_repo": "roboll/helmfile",
+  "source_repo_description": "Deploy Kubernetes Helm Charts"
+}

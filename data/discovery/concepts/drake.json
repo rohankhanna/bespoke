@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "drake"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate-context",
+      "text": "Model-based design and verification for robotics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate-context",
+      "text": "Model-Based Design and Verification for Robotics."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotLocomotion/drake",
+      "status": "candidate",
+      "text": "Model-Based Design and Verification for Robotics."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050601,
+      "status": "candidate",
+      "text": "pintail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050273,
+      "status": "candidate",
+      "text": "teal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906063,
+      "status": "candidate",
+      "text": "deli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19525966,
+      "status": "candidate",
+      "text": "honor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19490593,
+      "status": "candidate",
+      "text": "honour"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "drake",
+  "concept_id": "drake",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RobotLocomotion/drake"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drake",
+      "sense_id": "drake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

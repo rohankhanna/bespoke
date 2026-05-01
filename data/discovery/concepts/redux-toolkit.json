@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "redux-toolkit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "Clean and minimalist React Native template for a quick start with Redux and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "Official Redux templates for Vite, Create-React-App, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate-context",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rahsheen/react-native-template-redux-typescript",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-templates",
+      "status": "candidate",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "redux-toolkit",
+  "concept_id": "redux-toolkit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rahsheen/react-native-template-redux-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/redux-templates"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "redux-toolkit",
+      "sense_id": "redux-toolkit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

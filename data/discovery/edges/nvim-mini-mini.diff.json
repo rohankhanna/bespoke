@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.diff",
-      "target": "lewis6991/gitsigns.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "nvim-mini/mini.diff",
@@ -29,6 +22,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T18:36:26.757967+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "nvim-mini/mini.diff"
 }

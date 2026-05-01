@@ -142,6 +142,18 @@
       "source_repo": "cloudwego/hertz-examples",
       "status": "candidate-context",
       "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate-context",
+      "text": "A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "cloudwego/hertz-examples",
       "status": "candidate",
       "text": "English | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate",
+      "text": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -397,11 +415,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "test-cli-scripts",
   "observation_id": "915ec3df548c2f71",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Test CLI scripts",
   "source_context_snippet": "Test CLI scripts",
   "source_file": ".github/workflows/scripts.yml",

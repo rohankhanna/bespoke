@@ -84,7 +84,7 @@
   "normalized_form": "wiki---update-control-styles",
   "observation_id": "7ae56d877445f35e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Wiki - Update Control Styles",
   "source_context_snippet": "Wiki - Update Control Styles",
   "source_file": ".github/workflows/control_styles.yml",

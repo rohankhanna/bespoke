@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:05:01.096438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5421
+    },
+    {
+      "path": "requirements.txt",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for \"Multimodal Chain-of-Thought Reasoning in Language Models\" (stay tuned and more will be updated)",
+    "fork": false,
+    "full_name": "amazon-science/mm-cot",
+    "html_url": "https://github.com/amazon-science/mm-cot",
+    "language": "Python",
+    "pushed_at": "2024-06-12T13:50:10Z",
+    "stargazers_count": 3988,
+    "topics": [],
+    "updated_at": "2026-04-29T17:10:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

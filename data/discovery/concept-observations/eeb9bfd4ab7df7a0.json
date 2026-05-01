@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[DEPRECATED] Moved to ROCm/rocm-libraries repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "adorned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "beaded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "beady"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "bejeweled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 3,
+      "status": "candidate",
+      "text": "bejewelled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemm",
+      "sense_id": "gemm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemm",
+  "observation_id": "eeb9bfd4ab7df7a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "gemm",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "ROCm/hipBLASLt",
+  "source_repo_description": "[DEPRECATED] Moved to ROCm/rocm-libraries repo"
+}

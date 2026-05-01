@@ -127,6 +127,18 @@
       "source_repo": "lucagoslar/serde-envfile",
       "status": "candidate-context",
       "text": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/recap",
+      "status": "candidate-context",
+      "text": "deserialize typed structures from regex captures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/recap",
+      "status": "candidate-context",
+      "text": "> deserialize named capture groups into typesafe structs"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "lucagoslar/serde-envfile",
       "status": "candidate",
       "text": "Built ontop the [`dotenvy`](https://github.com/allan2/dotenvy) and [`envy`](https://github.com/softprops/envy) crates, `serde-envfile` supports both the serialization and the deserialization of environment variables from or to files (`from_file`, `to_file`), strings (`from_str`,\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/recap",
+      "status": "candidate",
+      "text": "> deserialize named capture groups into typesafe structs"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "lucagoslar/serde-envfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "softprops/recap"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

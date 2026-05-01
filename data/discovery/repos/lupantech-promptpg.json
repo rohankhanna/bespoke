@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/PromptPG",
+      "target": "allenai/unifiedqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lupantech/PromptPG",
+      "target": "microsoft/table-pretraining",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:07.454495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24190
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data and code for the ICLR 2023 paper \"Dynamic Prompt Learning via Policy Gradient for Semi-structured Mathematical Reasoning\".",
+    "fork": false,
+    "full_name": "lupantech/PromptPG",
+    "html_url": "https://github.com/lupantech/PromptPG",
+    "language": "Python",
+    "pushed_at": "2023-12-27T06:22:11Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-02-05T16:20:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/unifiedqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/table-pretraining",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

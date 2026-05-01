@@ -169,13 +169,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "astroautomata/SymbolicRegression.jl",
-      "target": "juliasymbolics/symbolicutils.jl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "astroautomata/SymbolicRegression.jl",
@@ -477,7 +470,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:12:09.755049+00:00",
+  "fetched_at": "2026-05-01T12:37:05.796270+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -545,11 +538,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "alan-turing-institute/mlj.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "juliasymbolics/symbolicutils.jl",
       "source_file": "README.md"
     },
     {

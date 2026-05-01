@@ -139,6 +139,18 @@
       "source_repo": "dask-contrib/dask-deltatable",
       "status": "candidate-context",
       "text": "Reading and writing to Delta Lake using Dask engine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/icebird",
+      "status": "candidate-context",
+      "text": "Icebird: JavaScript Iceberg Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/icebird",
+      "status": "candidate-context",
+      "text": "![Iceberg Icebird](icebird.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "dask-contrib/dask-deltatable",
       "status": "candidate",
       "text": "Reading and writing to Delta Lake using Dask engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/icebird",
+      "status": "candidate",
+      "text": "![Iceberg Icebird](icebird.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -330,11 +348,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dask-contrib/dask-deltatable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/icebird"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "assemblyai-examples/minimagen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "imagen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:52.891635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14628
+    },
+    {
+      "path": "requirements.txt",
+      "size": 784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MinImagen: A minimal implementation of the Imagen text-to-image model",
+    "fork": false,
+    "full_name": "AssemblyAI-Community/MinImagen",
+    "html_url": "https://github.com/AssemblyAI-Community/MinImagen",
+    "language": "Python",
+    "pushed_at": "2023-05-08T20:04:30Z",
+    "stargazers_count": 316,
+    "topics": [
+      "deep-learning",
+      "diffusion-models",
+      "imagen",
+      "pytorch",
+      "super-resolution",
+      "text-to-image"
+    ],
+    "updated_at": "2026-04-29T08:51:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "assemblyai-examples/minimagen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagen"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

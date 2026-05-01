@@ -1,0 +1,428 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/advice.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/advice.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "mlflow/mlflow",
+      "target": "pytest-dev/pytest-timeout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/advice.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/advice.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/advice.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "Advice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approval.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approval.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "Approval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "Auto-assign maintainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "mlflow/mlflow",
+      "target": "Auto Close PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "agentops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "ai-governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "apache-spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "llm-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "mlflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "model-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlflow/mlflow",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:05:55.539818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31933
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 18165
+    },
+    {
+      "path": ".github/workflows/advice.js",
+      "size": 6217
+    },
+    {
+      "path": ".github/workflows/advice.yml",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/approval.js",
+      "size": 3118
+    },
+    {
+      "path": ".github/workflows/approval.yml",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/auto-assign.js",
+      "size": 4985
+    },
+    {
+      "path": ".github/workflows/auto-assign.yml",
+      "size": 1072
+    },
+    {
+      "path": ".github/workflows/auto-close-pr.js",
+      "size": 8668
+    },
+    {
+      "path": ".github/workflows/auto-close-pr.yml",
+      "size": 938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+    "fork": false,
+    "full_name": "mlflow/mlflow",
+    "html_url": "https://github.com/mlflow/mlflow",
+    "language": "Python",
+    "pushed_at": "2026-05-01T12:05:15Z",
+    "stargazers_count": 25669,
+    "topics": [
+      "agentops",
+      "agents",
+      "ai",
+      "ai-governance",
+      "apache-spark",
+      "evaluation",
+      "langchain",
+      "llm-evaluation",
+      "llmops",
+      "machine-learning",
+      "ml",
+      "mlflow",
+      "mlops",
+      "model-management",
+      "observability",
+      "open-source",
+      "openai",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-05-01T14:03:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytest-dev/pytest-timeout",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Advice",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/advice.yml",
+      "term": "Advice"
+    },
+    {
+      "context_snippet": "Approval",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approval.yml",
+      "term": "Approval"
+    },
+    {
+      "context_snippet": "Auto-assign maintainer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "term": "Auto-assign maintainer"
+    },
+    {
+      "context_snippet": "Auto Close PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "term": "Auto Close PR"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentops"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-governance"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-spark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-evaluation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlflow"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-management"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\" style=\"border-bottom: none\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    }
+  ]
+}

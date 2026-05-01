@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:10:39.490606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Youtu-VL: Unleashing Visual Potential via Unified Vision-Language Supervision",
+    "fork": false,
+    "full_name": "TencentCloudADP/youtu-vl",
+    "html_url": "https://github.com/TencentCloudADP/youtu-vl",
+    "language": null,
+    "pushed_at": "2026-02-06T06:22:36Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-04-13T15:25:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

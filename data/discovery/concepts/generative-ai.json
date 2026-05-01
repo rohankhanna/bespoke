@@ -397,6 +397,30 @@
       "source_repo": "microsoft/generative-ai-with-javascript",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "status": "candidate-context",
+      "text": "Dolphin action for KDE Plasma to quickly invoke RMBG for background removal with support for two-pass and infinite-pass operation modes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "status": "candidate-context",
+      "text": "![alt text](banners/1.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Eyeline-Labs/CineScale",
+      "status": "candidate-context",
+      "text": "Code for CineScale, higher-resolution video generation based on Wan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eyeline-Labs/CineScale",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -595,6 +619,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/generative-ai-with-javascript",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Quick-RMBG",
+      "status": "candidate",
+      "text": "![alt text](banners/1.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Eyeline-Labs/CineScale",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -1024,11 +1060,53 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "microsoft/generative-ai-with-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Quick-RMBG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Eyeline-Labs/CineScale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

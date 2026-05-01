@@ -8,7 +8,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -196,6 +198,30 @@
       "source_repo": "mdn/yari",
       "status": "candidate-context",
       "text": "NPM Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/np",
+      "status": "candidate-context",
+      "text": "A better `npm publish`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/np",
+      "status": "candidate-context",
+      "text": "np \u2014 A better `npm publish`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "MDN's frontend since late 2025, built with Web Components, Lit, and SSR for a fast, clean documentation experience. Fred = /fr(ont)e(n)d/."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
+      "status": "candidate-context",
+      "text": "NPM Publish"
     }
   ],
   "candidate_glosses": [
@@ -292,6 +318,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mdn/yari",
+      "status": "candidate",
+      "text": "NPM Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/np",
+      "status": "candidate",
+      "text": "np \u2014 A better `npm publish`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/fred",
       "status": "candidate",
       "text": "NPM Publish"
     }
@@ -439,11 +477,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "mdn/yari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/np"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "facebookresearch/playtorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "mdn/fred"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple development server with live-reload capability for Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "live-server",
+      "sense_id": "live-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "live-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "live-server",
+  "observation_id": "fb1a0f9199c03b59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "live-server",
+  "source_context_snippet": "[![CI](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/JuliaDocs/LiveServer.jl/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "JuliaDocs/LiveServer.jl",
+  "source_repo_description": "Simple development server with live-reload capability for Julia."
+}

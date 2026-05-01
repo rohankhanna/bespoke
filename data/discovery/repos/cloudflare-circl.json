@@ -1,0 +1,476 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudflare/circl",
+      "target": "cloudflare/go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudflare/circl",
+      "target": "cloudflare/circl.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "CIRCL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/circl",
+      "target": "Semgrep OSS scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "circl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "csidh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "dilithium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "ed25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "ed448",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "elliptic-curves",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "fips203",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "fips204",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "hpke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "kyber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "ml-dsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "ml-kem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "post-quantum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/circl",
+      "target": "sidh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:12.391833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8265
+    },
+    {
+      "path": "go.mod",
+      "size": 155
+    },
+    {
+      "path": ".github/workflows/ci-actions.yml",
+      "size": 4002
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "size": 840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library",
+    "fork": false,
+    "full_name": "cloudflare/circl",
+    "html_url": "https://github.com/cloudflare/circl",
+    "language": "Go",
+    "pushed_at": "2026-04-24T23:22:59Z",
+    "stargazers_count": 1655,
+    "topics": [
+      "circl",
+      "cryptography",
+      "csidh",
+      "dilithium",
+      "ed25519",
+      "ed448",
+      "elliptic-curves",
+      "fips203",
+      "fips204",
+      "go",
+      "golang",
+      "hpke",
+      "kyber",
+      "ml-dsa",
+      "ml-kem",
+      "pki",
+      "post-quantum",
+      "sidh"
+    ],
+    "updated_at": "2026-05-01T11:42:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/circl.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIRCL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-actions.yml",
+      "term": "CIRCL"
+    },
+    {
+      "context_snippet": "Semgrep OSS scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "term": "Semgrep OSS scan"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circl"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csidh"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dilithium"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ed25519"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ed448"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elliptic-curves"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fips203"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fips204"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hpke"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kyber"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-dsa"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ml-kem"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-quantum"
+    },
+    {
+      "context_snippet": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sidh"
+    }
+  ]
+}

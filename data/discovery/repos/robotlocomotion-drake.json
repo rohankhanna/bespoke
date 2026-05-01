@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "RobotLocomotion/drake",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "RobotLocomotion/drake",
+      "target": "stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotLocomotion/drake",
+      "target": "drake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotLocomotion/drake",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:41:36.328619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 142
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Model-based design and verification for robotics.",
+    "fork": false,
+    "full_name": "RobotLocomotion/drake",
+    "html_url": "https://github.com/RobotLocomotion/drake",
+    "language": "C++",
+    "pushed_at": "2026-05-01T14:11:43Z",
+    "stargazers_count": 4014,
+    "topics": [
+      "drake",
+      "robotics"
+    ],
+    "updated_at": "2026-05-01T13:30:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "stale",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "stale"
+    },
+    {
+      "context_snippet": "Model-Based Design and Verification for Robotics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drake"
+    },
+    {
+      "context_snippet": "Model-Based Design and Verification for Robotics.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

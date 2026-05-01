@@ -5671,6 +5671,306 @@
       "source_repo": "speechbrain/speechbrain",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "Robust realtime face and facial landmark tracking on CPU with Unity integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool to efficiently save ultra-low precision/mixed-precision quantized models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate-context",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate-context",
+      "text": "Proper implementation of ResNet-s for CIFAR10/100 in pytorch that matches description of the original paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate-context",
+      "text": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/VIBE",
+      "status": "candidate-context",
+      "text": "Official implementation of CVPR2020 paper \"VIBE: Video Inference for Human Body Pose and Shape Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/VIBE",
+      "status": "candidate-context",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1912.05656) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA) [![PWC](https://img.shields.io/end\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/multi-person-tracker",
+      "status": "candidate-context",
+      "text": "Simple Multi Person Tracker implementation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/multi-person-tracker",
+      "status": "candidate-context",
+      "text": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate-context",
+      "text": "D2-Net: A Trainable CNN for Joint Description and Detection of Local Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "MixVPR: Feature Mixing for Visual Place Recognition (WACV 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "TinyNeuralNetwork is an efficient and easy-to-use deep learning model compression framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "Hardnet descriptor model - \"Working hard to know your neighbor's margins:  Local descriptor learning loss\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate-context",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate-context",
+      "text": "Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Dynamic Graph CNN for Learning on Point Clouds (DGCNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate-context",
+      "text": "[[\u4e2d\u6587\u7248]](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "V2AI/Det3D",
+      "status": "candidate-context",
+      "text": "World's first general purpose 3D object detection codebse."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "V2AI/Det3D",
+      "status": "candidate-context",
+      "text": "A general 3D Object Detection codebase in PyTorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "BertViz: Visualize Attention in Transformer Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "NIMA: Neural IMage Assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "status": "candidate-context",
+      "text": " a reimplementation of LiteFlowNet in PyTorch that matches the official Caffe version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "status": "candidate-context",
+      "text": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "A lightweight library for PyTorch training tools and utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate-context",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradyz/cross_view_transformers",
+      "status": "candidate-context",
+      "text": "Cross-view Transformers for real-time Map-view Semantic Segmentation (CVPR 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradyz/cross_view_transformers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"docs/assets/teaser.jpg\" width=\"65%\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate-context",
+      "text": "A neural network training interface based on PyTorch, with a focus on flexibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate-context",
+      "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashawkey/torch-ngp",
+      "status": "candidate-context",
+      "text": "A pytorch CUDA extension implementation of instant-ngp (sdf and nerf), with a GUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/torch-ngp",
+      "status": "candidate-context",
+      "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/nvdiffrec",
+      "status": "candidate-context",
+      "text": "Official code for the CVPR 2022 (oral) paper \"Extracting Triangular 3D Models, Materials, and Lighting From Images\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/nvdiffrec",
+      "status": "candidate-context",
+      "text": "![Teaser image](https://nvlabs.github.io/nvdiffrec/assets/system.JPG \"Teaser image\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate-context",
+      "text": "This repository contains demos I made with the Transformers library by HuggingFace."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate-context",
+      "text": "Hi there!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nahidalam/modnet_docker",
+      "status": "candidate-context",
+      "text": "Dockerized container for MODNet - a Real-Time Portrait Matting solution "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nahidalam/modnet_docker",
+      "status": "candidate-context",
+      "text": "[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/nahidalam)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate-context",
+      "text": "MinImagen: A minimal implementation of the Imagen text-to-image model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate-context",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yl4579/StyleTTS2",
+      "status": "candidate-context",
+      "text": "StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS2",
+      "status": "candidate-context",
+      "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shepnerd/inpainting_gmcnn",
+      "status": "candidate-context",
+      "text": "Image Inpainting via Generative Multi-column Convolutional Neural Networks, NeurIPS2018"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shepnerd/inpainting_gmcnn",
+      "status": "candidate-context",
+      "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
     }
   ],
   "candidate_glosses": [
@@ -8505,6 +8805,156 @@
       "source_repo": "speechbrain/speechbrain",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate",
+      "text": "![OSF.png](https://raw.githubusercontent.com/emilianavt/OpenSeeFace/master/Images/OSF.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhen-Dong/BitPack",
+      "status": "candidate",
+      "text": "BitPack is a practical tool that can efficiently save quantized neural network models with mixed bitwidth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akamaster/pytorch_resnet_cifar10",
+      "status": "candidate",
+      "text": "[Torchvision model zoo](https://github.com/pytorch/vision/tree/master/torchvision/models) provides number of implementations of various state-of-the-art architectures, however, most of them are defined and implemented for ImageNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/VIBE",
+      "status": "candidate",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1912.05656) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1dFfwxZ52MN86FA6uFNypMEdFShd2euQA) [![PWC](https://img.shields.io/end\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/multi-person-tracker",
+      "status": "candidate",
+      "text": "Simple and easy to use multi person tracker implementation. This project supports YOLOV3 & MaskRCNN as detector and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate",
+      "text": "This repository contains the implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/MixVPR",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/mixvpr-feature-mixing-for-visual-place/visual-place-recognition-on-mapillary-test)](https://paperswithcode.com/sota/visual-place-recognition-on-mapillary-test?p=mixvpr-feature-mixing-for-visual-plac\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DagnyT/hardnet",
+      "status": "candidate",
+      "text": "HardNet model implementation in PyTorch for NIPS 2017 paper [\"Working hard to know your neighbor's margins: Local descriptor learning loss\"](https://arxiv.org/abs/1705.10872)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/CasMVSNet_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [Cascade Cost Volume for High-Resolution Multi-View Stereo and Stereo Matching](https://arxiv.org/pdf/1912.06378.pdf) using [pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antao97/dgcnn.pytorch",
+      "status": "candidate",
+      "text": "[[\u4e2d\u6587\u7248]](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "V2AI/Det3D",
+      "status": "candidate",
+      "text": "A general 3D Object Detection codebase in PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jessevig/bertviz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "truskovskiyk/nima.pytorch",
+      "status": "candidate",
+      "text": "PyTorch implementation of [Neural IMage Assessment](https://arxiv.org/abs/1709.05424) by Hossein Talebi and Peyman Milanfar. You can learn more from [this post at Google Research Blog](https://research.googleblog.com/2017/12/introducing-nima-neural-image-assessment.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/pytorch-liteflownet",
+      "status": "candidate",
+      "text": "This is a personal reimplementation of LiteFlowNet [1] using PyTorch. Should you be making use of this work, please cite the paper accordingly. Also, make sure to adhere to the <a href=\"https://github.com/twhui/LiteFlowNet#license-and-citation\">licensing terms</a> of the authors\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/tnt",
+      "status": "candidate",
+      "text": "TNT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradyz/cross_view_transformers",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"docs/assets/teaser.jpg\" width=\"65%\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhijian-liu/torchpack",
+      "status": "candidate",
+      "text": "Torchpack is a neural network training interface based on PyTorch, with a focus on flexibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashawkey/torch-ngp",
+      "status": "candidate",
+      "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/nvdiffrec",
+      "status": "candidate",
+      "text": "![Teaser image](https://nvlabs.github.io/nvdiffrec/assets/system.JPG \"Teaser image\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NielsRogge/Transformers-Tutorials",
+      "status": "candidate",
+      "text": "Hi there!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nahidalam/modnet_docker",
+      "status": "candidate",
+      "text": "[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-black.png)](https://www.buymeacoffee.com/nahidalam)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyAI-Community/MinImagen",
+      "status": "candidate",
+      "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yl4579/StyleTTS2",
+      "status": "candidate",
+      "text": "> In this paper, we present StyleTTS 2, a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis. StyleTTS 2 differs from its predecessor by modeling styles as a latent rand\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shepnerd/inpainting_gmcnn",
+      "status": "candidate",
+      "text": "by [Yi Wang](https://shepnerd.github.io/), [Xin Tao](http://www.xtao.website), [Xiaojuan Qi](https://xjqi.github.io), [Xiaoyong Shen](http://xiaoyongshen.me/), [Jiaya Jia](http://www.cse.cuhk.edu.hk/leojia/)."
     }
   ],
   "candidate_related_terms": [
@@ -12706,11 +13156,407 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "speechbrain/speechbrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "emilianavt/OpenSeeFace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Zhen-Dong/BitPack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "akamaster/pytorch_resnet_cifar10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/VIBE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/multi-person-tracker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/MixVPR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DagnyT/hardnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/CasMVSNet_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "antao97/dgcnn.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/mmf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jessevig/bertviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "truskovskiyk/nima.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/pytorch-liteflownet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "bradyz/cross_view_transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "zhijian-liu/torchpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "state-spaces/s4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ashawkey/torch-ngp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/nvdiffrec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "NielsRogge/Transformers-Tutorials"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nahidalam/modnet_docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "yl4579/StyleTTS2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "shepnerd/inpainting_gmcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

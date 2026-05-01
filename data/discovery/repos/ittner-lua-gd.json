@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:02:52.890000+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lua bindings to the LibGD",
+    "fork": false,
+    "full_name": "ittner/lua-gd",
+    "html_url": "https://github.com/ittner/lua-gd",
+    "language": "C",
+    "pushed_at": "2024-05-08T13:39:17Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-22T08:50:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

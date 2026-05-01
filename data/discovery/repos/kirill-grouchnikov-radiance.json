@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "kirill-grouchnikov/ephemeral",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "look-and-feel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kirill-grouchnikov/radiance",
+      "target": "swing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:49:28.203577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "sunshine",
+    "description": "Building modern, elegant and fast Swing applications",
+    "fork": false,
+    "full_name": "kirill-grouchnikov/radiance",
+    "html_url": "https://github.com/kirill-grouchnikov/radiance",
+    "language": "Java",
+    "pushed_at": "2026-05-01T02:27:22Z",
+    "stargazers_count": 893,
+    "topics": [
+      "animation",
+      "components",
+      "cross-platform",
+      "desktop",
+      "icons",
+      "kotlin",
+      "look-and-feel",
+      "svg",
+      "swing"
+    ],
+    "updated_at": "2026-05-01T02:27:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kirill-grouchnikov/ephemeral",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "components"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "look-and-feel"
+    },
+    {
+      "context_snippet": "**Radiance** is a collection of libraries for writing modern, elegant and fast Swing applications based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swing"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GitYCC/g2pW",
+      "target": "mozillazg/pypinyin-g2pw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GitYCC/g2pW",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GitYCC/g2pW",
+      "target": "chinese",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:13:22.013196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3704
+    },
+    {
+      "path": "requirements.txt",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chinese Mandarin Grapheme-to-Phoneme Converter. \u4e2d\u6587\u8f49\u6ce8\u97f3\u6216\u62fc\u97f3 (INTERSPEECH 2022)",
+    "fork": false,
+    "full_name": "GitYCC/g2pW",
+    "html_url": "https://github.com/GitYCC/g2pW",
+    "language": "Python",
+    "pushed_at": "2025-06-21T07:17:44Z",
+    "stargazers_count": 394,
+    "topics": [
+      "bert",
+      "chinese",
+      "g2p",
+      "tts"
+    ],
+    "updated_at": "2026-04-27T14:48:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/pypinyin-g2pw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[![Downloads](https://pepy.tech/badge/g2pw)](https://pepy.tech/project/g2pw) [![license](https://img.shields.io/badge/license-Apache%202.0-red)](https://github.com/GitYCC/g2pW/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    }
+  ]
+}

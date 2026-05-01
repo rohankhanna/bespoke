@@ -45,6 +45,18 @@
       "source_repo": "google-deepmind/meltingpot",
       "status": "candidate-context",
       "text": "test-examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulumi/examples",
+      "status": "candidate-context",
+      "text": "Infrastructure, containers, and serverless apps to AWS, Azure, GCP, and Kubernetes... all deployed with Pulumi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/examples",
+      "status": "candidate-context",
+      "text": "Test examples"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "google-deepmind/meltingpot",
       "status": "candidate",
       "text": "test-examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulumi/examples",
+      "status": "candidate",
+      "text": "Test examples"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/test-examples.yml",
       "source_repo": "google-deepmind/meltingpot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-examples.yml",
+      "source_repo": "pulumi/examples"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

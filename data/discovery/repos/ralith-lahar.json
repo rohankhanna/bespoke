@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:44:40.686933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 736
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Async-oriented Vulkan helpers",
+    "fork": false,
+    "full_name": "Ralith/lahar",
+    "html_url": "https://github.com/Ralith/lahar",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T23:41:34Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-30T23:41:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

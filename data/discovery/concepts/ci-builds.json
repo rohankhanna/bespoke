@@ -19,12 +19,30 @@
       "source_repo": "prashnts/pybloomfiltermmap3",
       "status": "candidate-context",
       "text": "CI Builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jackielii/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Open-source keyboard firmware for Atmel AVR and Arm USB families"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackielii/qmk_firmware",
+      "status": "candidate-context",
+      "text": "CI Builds"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "prashnts/pybloomfiltermmap3",
+      "status": "candidate",
+      "text": "CI Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jackielii/qmk_firmware",
       "status": "candidate",
       "text": "CI Builds"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/python-app.yml",
       "source_repo": "prashnts/pybloomfiltermmap3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci_builds.yml",
+      "source_repo": "jackielii/qmk_firmware"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

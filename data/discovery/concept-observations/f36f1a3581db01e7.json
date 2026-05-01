@@ -84,7 +84,7 @@
   "normalized_form": "icon-update",
   "observation_id": "f36f1a3581db01e7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Icon Update",
   "source_context_snippet": "Icon Update",
   "source_file": ".github/workflows/icon_update.yml",

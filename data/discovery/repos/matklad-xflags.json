@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "matklad/xflags",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "matklad/xflags",
+      "target": "Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:44:55.339960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1028
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 279
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "matklad/xflags",
+    "html_url": "https://github.com/matklad/xflags",
+    "language": "Rust",
+    "pushed_at": "2024-10-31T08:14:28Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-30T21:04:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

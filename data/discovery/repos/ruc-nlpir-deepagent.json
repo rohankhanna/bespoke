@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "rapidapi/toolbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "ruc-nlpir/arpo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "ruc-nlpir/hira",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUC-NLPIR/DeepAgent",
+      "target": "ruc-nlpir/search-o1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:10:24.540506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23551
+    },
+    {
+      "path": "requirements.txt",
+      "size": 295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[WWW\u201826 Oral\ud83d\udd25] DeepAgent: A General Reasoning Agent with Scalable Toolsets",
+    "fork": false,
+    "full_name": "RUC-NLPIR/DeepAgent",
+    "html_url": "https://github.com/RUC-NLPIR/DeepAgent",
+    "language": "Python",
+    "pushed_at": "2026-04-13T07:24:32Z",
+    "stargazers_count": 1076,
+    "topics": [],
+    "updated_at": "2026-05-01T04:48:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rapidapi/toolbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruc-nlpir/arpo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruc-nlpir/hira",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruc-nlpir/search-o1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

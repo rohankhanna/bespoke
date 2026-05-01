@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/bottom-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:45:03.754521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8669
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for bottom.",
+    "fork": false,
+    "full_name": "conda-forge/bottom-feedstock",
+    "html_url": "https://github.com/conda-forge/bottom-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T05:06:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T05:06:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

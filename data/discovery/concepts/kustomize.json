@@ -43,6 +43,18 @@
       "source_repo": "helmfile/helmfile",
       "status": "candidate-context",
       "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate-context",
+      "text": "A GitOps workflow example for multi-env deployments with Flux, Kustomize and Helm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "helmfile/helmfile",
       "status": "candidate",
       "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux2-kustomize-helm-example",
+      "status": "candidate",
+      "text": "[![test](https://github.com/fluxcd/flux2-kustomize-helm-example/workflows/test/badge.svg)](https://github.com/fluxcd/flux2-kustomize-helm-example/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "helmfile/helmfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "fluxcd/flux2-kustomize-helm-example"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

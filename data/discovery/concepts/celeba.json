@@ -19,6 +19,18 @@
       "source_repo": "switchablenorms/CelebAMask-HQ",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LynnHo/HD-CelebA-Cropper",
+      "status": "candidate-context",
+      "text": "To obtain high resolution face images from CelebA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LynnHo/HD-CelebA-Cropper",
+      "status": "candidate-context",
+      "text": "[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset provides an aligned set `img_align_celeba.zip`. However, the size of each aligned image is **218x178**, so the faces cropped from such images would be even smaller!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "switchablenorms/CelebAMask-HQ",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LynnHo/HD-CelebA-Cropper",
+      "status": "candidate",
+      "text": "[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset provides an aligned set `img_align_celeba.zip`. However, the size of each aligned image is **218x178**, so the faces cropped from such images would be even smaller!"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "switchablenorms/CelebAMask-HQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "LynnHo/HD-CelebA-Cropper"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

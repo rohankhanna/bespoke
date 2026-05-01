@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "document-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "file-sharing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "file-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "knowledge-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haiwen/seafile",
+      "target": "wiki",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:51.517130+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+    "fork": false,
+    "full_name": "haiwen/seafile",
+    "html_url": "https://github.com/haiwen/seafile",
+    "language": "C",
+    "pushed_at": "2026-04-16T02:22:19Z",
+    "stargazers_count": 14646,
+    "topics": [
+      "cloud-storage",
+      "document-management",
+      "file-sharing",
+      "file-sync",
+      "knowledge-management",
+      "markdown",
+      "wiki"
+    ],
+    "updated_at": "2026-05-01T13:36:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-storage"
+    },
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-management"
+    },
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-sharing"
+    },
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-sync"
+    },
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-management"
+    },
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wiki"
+    }
+  ]
+}

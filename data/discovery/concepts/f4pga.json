@@ -13,6 +13,18 @@
       "source_repo": "chipsalliance/fpga-interchange-schema",
       "status": "candidate-context",
       "text": "This repository contains the capnp schema for the FPGA interchange."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "status": "candidate-context",
+      "text": "Python interface to FPGA interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "status": "candidate-context",
+      "text": "This python module is designed to read and write FPGA interchange files, and"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +33,12 @@
       "source_repo": "chipsalliance/fpga-interchange-schema",
       "status": "candidate",
       "text": "This repository contains the capnp schema for the FPGA interchange."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "status": "candidate",
+      "text": "This python module is designed to read and write FPGA interchange files, and"
     }
   ],
   "candidate_related_terms": [],
@@ -34,11 +52,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "chipsalliance/fpga-interchange-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chipsalliance/python-fpga-interchange"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "detect-agent",
   "observation_id": "4e54d49716b25c04",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Detect Agent",
   "source_context_snippet": "Detect Agent",
   "source_file": ".github/workflows/detect-agent.yml",

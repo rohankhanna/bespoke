@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "docker-hub-push"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate-context",
+      "text": "A static analysis security vulnerability scanner for Ruby on Rails applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate-context",
+      "text": "docker-hub-push"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "presidentbeef/brakeman",
+      "status": "candidate",
+      "text": "docker-hub-push"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "docker-hub-push",
+  "concept_id": "docker-hub-push",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docker-hub-push.yml",
+      "source_repo": "presidentbeef/brakeman"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker-hub-push",
+      "sense_id": "docker-hub-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

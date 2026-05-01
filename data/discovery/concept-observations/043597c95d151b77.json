@@ -84,7 +84,7 @@
   "normalized_form": "backward-compatibility-check",
   "observation_id": "043597c95d151b77",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "Backward Compatibility Check",
   "source_context_snippet": "Backward Compatibility Check",
   "source_file": ".github/workflows/backward-compat.yml",

@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "humbletim/setup-vulkan-sdk@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-virustotal@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "gpuopen-effects/fidelityfx-fsr2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "microsoft/setup-msbuild@v1.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "humbletim/setup-vulkan-sdk@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "crazy-max/ghaction-virustotal@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "PotatoOfDoom/CyberFSR2",
+      "target": "MSBuild",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:07:51.417212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2836
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "FidelityFx Super Resolution 2.0 for Cyberpunk",
+    "fork": false,
+    "full_name": "PotatoOfDoom/CyberFSR2",
+    "html_url": "https://github.com/PotatoOfDoom/CyberFSR2",
+    "language": "C++",
+    "pushed_at": "2023-09-05T20:34:07Z",
+    "stargazers_count": 619,
+    "topics": [],
+    "updated_at": "2026-04-23T12:27:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpuopen-effects/fidelityfx-fsr2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MSBuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "MSBuild"
+    }
+  ]
+}

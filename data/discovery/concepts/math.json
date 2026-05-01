@@ -127,6 +127,54 @@
       "source_repo": "safwank/Numerix",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "Tensor algebra abstract type interoperability setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "Tangent bundle, vector space  and Submanifold definition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate-context",
+      "text": "Symbolic parser for Julia language term rewriting using REDUCE algebra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d Search-o1: Agentic Search-Enhanced Large Reasoning Models [EMNLP 2025]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "safwank/Numerix",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/safwank/Numerix.svg?branch=master)](https://travis-ci.org/safwank/Numerix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/Reduce.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/Search-o1",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> \ud83d\udd0d Search-o1: Agentic Search-Enhanced</br> Large Reasoning Models</a></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -307,11 +379,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "safwank/Numerix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/DirectSum.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/Reduce.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/Search-o1"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hailiang-wang/llm-get-started",
+      "target": "ollama",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:45:28.282561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get started with LLMs.",
+    "fork": false,
+    "full_name": "hailiang-wang/llm-get-started",
+    "html_url": "https://github.com/hailiang-wang/llm-get-started",
+    "language": "Python",
+    "pushed_at": "2026-03-06T08:46:54Z",
+    "stargazers_count": 4,
+    "topics": [
+      "ai",
+      "llm",
+      "ollama"
+    ],
+    "updated_at": "2026-04-07T01:59:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Get started with LLMs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    }
+  ]
+}

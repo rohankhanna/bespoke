@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Yet Another Nerdtree In Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Yet Another Nerdtree In Lua"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Yet Another Nerdtree In Lua"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fileexplorer",
+      "sense_id": "fileexplorer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fileexplorer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fileexplorer",
+  "observation_id": "749575f9571fa39b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "fileexplorer",
+  "source_context_snippet": "Yet Another Nerdtree In Lua",
+  "source_file": null,
+  "source_repo": "Xuyuanp/yanil",
+  "source_repo_description": "Yet Another Nerdtree In Lua"
+}

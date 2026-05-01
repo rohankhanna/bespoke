@@ -823,6 +823,30 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate-context",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/realsr-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "RealSR super resolution implemented with ncnn library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realsr-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/nihui/realsr-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries, and tests for Vulkan shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries and tests for shader compilation."
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1257,18 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/realsr-ncnn-vulkan",
+      "status": "candidate",
+      "text": "![CI](https://github.com/nihui/realsr-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate",
+      "text": "A collection of tools, libraries and tests for shader compilation."
     }
   ],
   "candidate_related_terms": [
@@ -1711,11 +1747,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nihui/realsr-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

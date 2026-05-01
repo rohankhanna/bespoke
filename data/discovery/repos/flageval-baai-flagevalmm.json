@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flageval-baai/FlagEvalMM",
+      "target": "flageval-baai/lrm-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "flageval-baai/FlagEvalMM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "flageval-baai/FlagEvalMM",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:38:25.874217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2571
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Flexible Framework for Comprehensive Multimodal Model Evaluation",
+    "fork": false,
+    "full_name": "flageval-baai/FlagEvalMM",
+    "html_url": "https://github.com/flageval-baai/FlagEvalMM",
+    "language": "Python",
+    "pushed_at": "2026-04-21T07:40:02Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-28T21:54:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flageval-baai/lrm-eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

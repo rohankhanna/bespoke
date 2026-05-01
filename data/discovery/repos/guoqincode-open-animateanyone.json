@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:34:24.695421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial Implementation of Animate Anyone",
+    "fork": false,
+    "full_name": "guoqincode/Open-AnimateAnyone",
+    "html_url": "https://github.com/guoqincode/Open-AnimateAnyone",
+    "language": "Python",
+    "pushed_at": "2024-07-09T16:58:35Z",
+    "stargazers_count": 2927,
+    "topics": [],
+    "updated_at": "2026-04-27T08:10:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -43,6 +43,18 @@
       "source_repo": "akabe/ocaml-jupyter",
       "status": "candidate-context",
       "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate-context",
+      "text": "Jupyterlab Extensions for the Impatient"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate-context",
+      "text": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "akabe/ocaml-jupyter",
       "status": "candidate",
       "text": "[![Jupyter protocol][protocol-img]][protocol] [![License][license-img]][license] [![CI](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml/badge.svg)](https://github.com/akabe/ocaml-jupyter/actions/workflows/ci.yaml) [![Sponsor](https://img.shields.io/static/v1?lab\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MMesch/labextension_tutorial",
+      "status": "candidate",
+      "text": "**Development is now happening in https://github.com/jtpio/jupyterlab-extension-examples with the following roadmap**:"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "akabe/ocaml-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "MMesch/labextension_tutorial"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

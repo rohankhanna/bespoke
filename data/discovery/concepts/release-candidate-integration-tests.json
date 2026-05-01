@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Candidate Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Deci-AI/super-gradients",
+      "status": "candidate-context",
+      "text": "Easily train or fine-tune SOTA computer vision models with one open source training library. The home of Yolo-NAS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deci-AI/super-gradients",
+      "status": "candidate-context",
+      "text": "'Release Candidate Integration Tests'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deci-AI/super-gradients",
+      "status": "candidate",
+      "text": "'Release Candidate Integration Tests'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27182,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27182,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27099,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27099,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26758,
+      "status": "candidate",
+      "text": "battleship"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Candidate Integration Tests",
+  "concept_id": "release-candidate-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/integration_tests_rc.yaml",
+      "source_repo": "Deci-AI/super-gradients"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Candidate Integration Tests",
+      "sense_id": "release-candidate-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

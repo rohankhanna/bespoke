@@ -1,0 +1,40 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thinca/vim-qfreplace",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:02:14.547587+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Perform the replacement in quickfix.",
+    "fork": false,
+    "full_name": "thinca/vim-qfreplace",
+    "html_url": "https://github.com/thinca/vim-qfreplace",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-14T01:13:10Z",
+    "stargazers_count": 165,
+    "topics": [
+      "plugin",
+      "vim"
+    ],
+    "updated_at": "2026-04-11T07:33:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Perform the replacement in quickfix.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "jawah/niquests",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "CIRCL: Cloudflare Interoperable Reusable Cryptographic Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate-context",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +63,12 @@
       "source_repo": "jawah/niquests",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/circl",
+      "status": "candidate",
+      "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "jawah/niquests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cloudflare/circl"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

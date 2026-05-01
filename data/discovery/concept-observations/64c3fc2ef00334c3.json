@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Vite plugin for injecting <link rel='preload'> "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29702469,
+      "status": "candidate",
+      "text": "hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932981,
+      "status": "candidate",
+      "text": "foreload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932980,
+      "status": "candidate",
+      "text": "preinstall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932979,
+      "status": "candidate",
+      "text": "precache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19932978,
+      "status": "candidate",
+      "text": "prefetch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preload",
+      "sense_id": "preload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preload",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preload",
+  "observation_id": "64c3fc2ef00334c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "preload",
+  "source_context_snippet": "> This package [will not receive anymore update](https://github.com/Applelo/vite-plugin-inject-preload/issues/21). You can switch to [unplugin-inject-preload](https://github.com/Applelo/unplugin-inject-preload).",
+  "source_file": null,
+  "source_repo": "Applelo/vite-plugin-inject-preload",
+  "source_repo_description": "A Vite plugin for injecting <link rel='preload'> "
+}

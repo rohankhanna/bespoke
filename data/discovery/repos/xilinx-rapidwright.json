@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-git-submodules.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tabs.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c6ffacdf2fce00e8222e3a373b87ec805a04bc46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-results.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-git-submodules.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-git-submodules.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "Submodule refs on origin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "Check License Header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-tabs.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-tabs.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "Check For Tab Characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-results.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "EnricoMi/publish-unit-test-result-action@c6ffacdf2fce00e8222e3a373b87ec805a04bc46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-test-results.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "Publish Unit Test Results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml",
+      "source_repo": "Xilinx/RapidWright",
+      "target": "Test RapidWright Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/RapidWright",
+      "target": "fpga",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/RapidWright",
+      "target": "rapidwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/RapidWright",
+      "target": "vivado",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xilinx/RapidWright",
+      "target": "xilinx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:40:04.856504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2481
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1675
+    },
+    {
+      "path": ".github/workflows/check-git-submodules.yml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/check-license-header.yml",
+      "size": 190
+    },
+    {
+      "path": ".github/workflows/check-tabs.yml",
+      "size": 190
+    },
+    {
+      "path": ".github/workflows/publish-test-results.yml",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/test-rapidwright-wrapper.yml",
+      "size": 1140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build Customized FPGA Implementations for Vivado",
+    "fork": false,
+    "full_name": "Xilinx/RapidWright",
+    "html_url": "https://github.com/Xilinx/RapidWright",
+    "language": "Java",
+    "pushed_at": "2026-04-29T22:42:44Z",
+    "stargazers_count": 370,
+    "topics": [
+      "fpga",
+      "rapidwright",
+      "vivado",
+      "xilinx"
+    ],
+    "updated_at": "2026-04-29T22:41:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Submodule refs on origin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-git-submodules.yml",
+      "term": "Submodule refs on origin"
+    },
+    {
+      "context_snippet": "Check License Header",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-header.yml",
+      "term": "Check License Header"
+    },
+    {
+      "context_snippet": "Check For Tab Characters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-tabs.yml",
+      "term": "Check For Tab Characters"
+    },
+    {
+      "context_snippet": "Publish Unit Test Results",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-test-results.yml",
+      "term": "Publish Unit Test Results"
+    },
+    {
+      "context_snippet": "Test RapidWright Wrapper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-rapidwright-wrapper.yml",
+      "term": "Test RapidWright Wrapper"
+    },
+    {
+      "context_snippet": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fpga"
+    },
+    {
+      "context_snippet": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rapidwright"
+    },
+    {
+      "context_snippet": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vivado"
+    },
+    {
+      "context_snippet": "Try RapidWright in your browser: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/clavin-xlnx/RapidWright-binder/python3-no-docker?labpath=HelloWorld.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xilinx"
+    }
+  ]
+}

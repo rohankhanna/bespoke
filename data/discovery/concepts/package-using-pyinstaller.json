@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package using PyInstaller"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "Robust realtime face and facial landmark tracking on CPU with Unity integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate-context",
+      "text": "Package using PyInstaller"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emilianavt/OpenSeeFace",
+      "status": "candidate",
+      "text": "Package using PyInstaller"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12121,
+      "status": "candidate",
+      "text": "application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12121,
+      "status": "candidate",
+      "text": "bolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12121,
+      "status": "candidate",
+      "text": "bow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12121,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12121,
+      "status": "candidate",
+      "text": "help"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package using PyInstaller",
+  "concept_id": "package-using-pyinstaller",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/create-binaries.yaml",
+      "source_repo": "emilianavt/OpenSeeFace"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package using PyInstaller",
+      "sense_id": "package-using-pyinstaller#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

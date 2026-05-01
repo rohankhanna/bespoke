@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ethernet Library for Arduino"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Report Size Deltas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Report Size Deltas"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22497,
+      "status": "candidate",
+      "text": "barometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22440,
+      "status": "candidate",
+      "text": "contrasted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22440,
+      "status": "candidate",
+      "text": "contrasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "asin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14426,
+      "status": "candidate",
+      "text": "compare"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Report Size Deltas",
+      "sense_id": "report-size-deltas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "report-size-deltas",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "report-size-deltas",
+  "observation_id": "1ec132234b101ffc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "Report Size Deltas",
+  "source_context_snippet": "Report Size Deltas",
+  "source_file": ".github/workflows/report-size-deltas.yml",
+  "source_repo": "arduino-libraries/Ethernet",
+  "source_repo_description": "Ethernet Library for Arduino"
+}

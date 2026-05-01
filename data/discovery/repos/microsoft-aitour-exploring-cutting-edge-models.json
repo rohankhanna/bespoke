@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_add_to_project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/aitour-exploring-cutting-edge-models",
+      "target": "microsoft/promptflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_add_to_project.yml",
+      "source_repo": "microsoft/aitour-exploring-cutting-edge-models",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:11:11.711595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27137
+    },
+    {
+      "path": ".github/workflows/auto_add_to_project.yml",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/aitour-exploring-cutting-edge-models",
+    "html_url": "https://github.com/microsoft/aitour-exploring-cutting-edge-models",
+    "language": "C++",
+    "pushed_at": "2026-04-30T19:29:08Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-21T20:45:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/promptflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

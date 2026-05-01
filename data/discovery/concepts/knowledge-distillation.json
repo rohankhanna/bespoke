@@ -139,6 +139,30 @@
       "source_repo": "Zzh-tju/Rotated-LD",
       "status": "candidate-context",
       "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "status": "candidate-context",
+      "text": "Official pytorch Code for CVPR2019 paper \"Fast Human Pose Estimation\" https://arxiv.org/abs/1811.05419"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "status": "candidate-context",
+      "text": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleClas",
+      "status": "candidate-context",
+      "text": "A treasure chest for visual classification and recognition powered by PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleClas",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "Zzh-tju/Rotated-LD",
       "status": "candidate",
       "text": "Analysis of LD in ZhiHu: [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f (LD, CVPR 2022)](https://zhuanlan.zhihu.com/p/474955539) and [\u76ee\u6807\u68c0\u6d4b-\u5b9a\u4f4d\u84b8\u998f\u7eed\u96c6\u2014\u2014logit\u84b8\u998f\u4e0efeature\u84b8\u998f\u4e4b\u4e89](https://zhuanlan.zhihu.com/p/498119752)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch",
+      "status": "candidate",
+      "text": "This is an official pytorch implementation of [*Fast Human Pose Estimation*](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Fast_Human_Pose_Estimation_CVPR_2019_paper.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleClas",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +340,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ilovepose/fast-human-pose-estimation.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

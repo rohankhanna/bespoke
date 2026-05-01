@@ -234,7 +234,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:30:16.101593+00:00",
+  "fetched_at": "2026-05-01T14:07:03.788000+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -270,7 +270,7 @@
     "full_name": "Lightning-AI/litgpt",
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
-    "pushed_at": "2026-04-25T05:36:05Z",
+    "pushed_at": "2026-05-01T12:01:13Z",
     "stargazers_count": 13332,
     "topics": [
       "ai",

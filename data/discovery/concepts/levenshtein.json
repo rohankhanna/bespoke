@@ -19,6 +19,18 @@
       "source_repo": "belambert/edit-distance",
       "status": "candidate-context",
       "text": "edit_distance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate-context",
+      "text": "Rapid fuzzy string matching in Python using various string metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "belambert/edit-distance",
       "status": "candidate",
       "text": "edit_distance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidfuzz/RapidFuzz",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "belambert/edit-distance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rapidfuzz/RapidFuzz"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

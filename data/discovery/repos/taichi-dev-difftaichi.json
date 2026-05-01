@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "yuanming-hu/public_files",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "yuanming-hu/taichi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "yuanming-hu/difftaichi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "differentiable-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi",
+      "target": "taichi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:46.921339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5611
+    },
+    {
+      "path": "requirements.txt",
+      "size": 77
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "10 differentiable physical simulators built with Taichi differentiable programming (DiffTaichi, ICLR 2020)",
+    "fork": false,
+    "full_name": "taichi-dev/difftaichi",
+    "html_url": "https://github.com/taichi-dev/difftaichi",
+    "language": null,
+    "pushed_at": "2023-11-01T09:01:54Z",
+    "stargazers_count": 2728,
+    "topics": [
+      "differentiable-programming",
+      "gpu",
+      "graphics",
+      "robotics",
+      "simulation",
+      "taichi"
+    ],
+    "updated_at": "2026-04-30T19:10:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanming-hu/difftaichi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanming-hu/public_files",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanming-hu/taichi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-programming"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taichi"
+    }
+  ]
+}

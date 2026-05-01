@@ -310,6 +310,30 @@
       "source_repo": "roboflow/inference",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hale423/CenterPoint",
+      "status": "candidate-context",
+      "text": "TensorRT deployment for CenterPoint Lidar Detection Model. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hale423/CenterPoint",
+      "status": "candidate-context",
+      "text": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate-context",
+      "text": "A production-ready runtime framework for agent apps with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, full-stack observability, and broad framework compatibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-runtime",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -460,6 +484,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "roboflow/inference",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hale423/CenterPoint",
+      "status": "candidate",
+      "text": "The project implement CenterPoint by TensorRT, where CenterPoint is an 3D object detection model using center points in the bird eye view."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/agentscope-runtime",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -661,11 +697,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "roboflow/inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Hale423/CenterPoint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "agentscope-ai/agentscope-runtime"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -307,6 +307,18 @@
       "source_repo": "jamiebuilds/babel-handbook",
       "status": "candidate-context",
       "text": "Written by [Jamie Kyle](https://jamie.build/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "status": "candidate-context",
+      "text": "the minimal grammar, high performance JavaScript pattern matching implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "status": "candidate-context",
+      "text": "babel-plugin-proposal-pattern-matching"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "jamiebuilds/babel-handbook",
       "status": "candidate",
       "text": "Written by [Jamie Kyle](https://jamie.build/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching",
+      "status": "candidate",
+      "text": "babel-plugin-proposal-pattern-matching"
     }
   ],
   "candidate_related_terms": [
@@ -732,11 +750,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jamiebuilds/babel-handbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "iptop/babel-plugin-proposal-pattern-matching"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jamiebuilds/babel-handbook"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

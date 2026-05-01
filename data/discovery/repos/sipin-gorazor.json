@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sipin/gorazor",
+      "target": "jpoles1/gopherbadger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sipin/gorazor",
+      "target": "sipin/gosublime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sipin/gorazor",
+      "target": "kirbysayshi/vash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sipin/gorazor",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sipin/gorazor",
+      "target": "template-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:42.717717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12878
+    },
+    {
+      "path": "go.mod",
+      "size": 150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Razor view engine for go",
+    "fork": false,
+    "full_name": "sipin/gorazor",
+    "html_url": "https://github.com/sipin/gorazor",
+    "language": "Go",
+    "pushed_at": "2025-10-28T01:53:40Z",
+    "stargazers_count": 882,
+    "topics": [
+      "fast",
+      "go",
+      "template-engine"
+    ],
+    "updated_at": "2026-04-07T13:53:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpoles1/gopherbadger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kirbysayshi/vash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sipin/gosublime",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/sipin/gorazor?v=1)](https://goreportcard.com/report/github.com/sipin/gorazor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/sipin/gorazor?v=1)](https://goreportcard.com/report/github.com/sipin/gorazor)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-engine"
+    }
+  ]
+}

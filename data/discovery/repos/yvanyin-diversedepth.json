@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "feihuzhang/ganet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "depth-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "generalization-on-diverse-scenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YvanYin/DiverseDepth",
+      "target": "single-image-depth-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:58:46.061486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The code and data of DiverseDepth",
+    "fork": false,
+    "full_name": "YvanYin/DiverseDepth",
+    "html_url": "https://github.com/YvanYin/DiverseDepth",
+    "language": "Python",
+    "pushed_at": "2022-07-26T02:23:57Z",
+    "stargazers_count": 226,
+    "topics": [
+      "dataset",
+      "depth-estimation",
+      "depth-prediction",
+      "generalization-on-diverse-scenes",
+      "monocular-depth-estimation",
+      "single-image-depth-prediction"
+    ],
+    "updated_at": "2025-09-09T15:58:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feihuzhang/ganet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    },
+    {
+      "context_snippet": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalization-on-diverse-scenes"
+    },
+    {
+      "context_snippet": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This project aims to improve the generalization ability of the monocular depth estimation method on diverse scenes. We propose a learning method and a diverse dataset, termed DiverseDepth, to solve this problem. The [DiverseDepth](https://arxiv.org/abs/2002.00569) contents have \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-depth-prediction"
+    }
+  ]
+}

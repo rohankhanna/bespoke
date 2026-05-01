@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:47:11.971919+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 882
+    },
+    {
+      "path": "Dockerfile",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Live OWL Documentation Environment, to convert OWL ontologies into HTML human-readable pages.",
+    "fork": false,
+    "full_name": "essepuntato/LODE",
+    "html_url": "https://github.com/essepuntato/LODE",
+    "language": "XSLT",
+    "pushed_at": "2024-02-08T09:32:39Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2026-01-04T09:11:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

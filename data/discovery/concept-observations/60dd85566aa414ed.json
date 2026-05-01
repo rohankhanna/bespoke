@@ -84,7 +84,7 @@
   "normalized_form": "integration-tests",
   "observation_id": "60dd85566aa414ed",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "\ud83e\uddea Integration Tests",
   "source_context_snippet": "\ud83e\uddea Integration Tests",
   "source_file": ".github/workflows/integration-tests.yaml",

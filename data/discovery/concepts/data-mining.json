@@ -55,6 +55,30 @@
       "source_repo": "padreati/rapaio",
       "status": "candidate-context",
       "text": "<table style=\"border: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "GrimoireLab: platform for software development analytics and insights"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate-context",
+      "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "gensim \u2013 Topic Modelling in Python"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "padreati/rapaio",
       "status": "candidate",
       "text": "<table style=\"border: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab",
+      "status": "candidate",
+      "text": "[![grimoirelab-showcase](https://user-images.githubusercontent.com/25265451/84442403-30dcce80-ac5b-11ea-9f5b-60266d875ebd.png \"GrimoireLab | CHAOSS Bitergia Analytics\")](https://chaoss.biterg.io/app/kibana#/dashboard/Overview)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate",
+      "text": "gensim \u2013 Topic Modelling in Python"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "lightgbm-org/LightGBM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

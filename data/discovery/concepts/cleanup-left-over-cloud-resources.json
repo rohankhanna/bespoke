@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup Left Over Cloud Resources"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "\ud83e\udd7c\ud83e\uddec\ud83e\uddea\ud83d\udd2c\ud83e\uddeb\ud83e\udda0 - Continuously tests Prisma Client with various operating systems, frameworks, platforms, databases and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate-context",
+      "text": "Cleanup Left Over Cloud Resources"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prisma/ecosystem-tests",
+      "status": "candidate",
+      "text": "Cleanup Left Over Cloud Resources"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56995,
+      "status": "candidate",
+      "text": "overcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47765,
+      "status": "candidate",
+      "text": "remainder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44827,
+      "status": "candidate",
+      "text": "shadow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44441,
+      "status": "candidate",
+      "text": "darken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44427,
+      "status": "candidate",
+      "text": "obscure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup Left Over Cloud Resources",
+  "concept_id": "cleanup-left-over-cloud-resources",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/cleanup-clouds.yaml",
+      "source_repo": "prisma/ecosystem-tests"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Left Over Cloud Resources",
+      "sense_id": "cleanup-left-over-cloud-resources#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PointsCoder/ONCE_Benchmark",
+      "target": "cvmi-lab/st3d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:02:33.900990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4366
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "One Million Scenes for Autonomous Driving",
+    "fork": false,
+    "full_name": "PointsCoder/ONCE_Benchmark",
+    "html_url": "https://github.com/PointsCoder/ONCE_Benchmark",
+    "language": "Python",
+    "pushed_at": "2022-07-08T13:12:31Z",
+    "stargazers_count": 180,
+    "topics": [],
+    "updated_at": "2026-04-18T15:17:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvmi-lab/st3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

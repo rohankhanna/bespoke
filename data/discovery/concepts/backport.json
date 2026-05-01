@@ -334,6 +334,30 @@
       "source_repo": "gravitational/teleport",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Argo CD RBAC Management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate-context",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate-context",
+      "text": "Buildkite configuration files for Base Julia CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/julia-buildkite",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -496,6 +520,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gravitational/teleport",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-rbac-operator",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/julia-buildkite",
       "status": "candidate",
       "text": "Backport"
     }
@@ -721,11 +757,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/backport.yaml",
       "source_repo": "gravitational/teleport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "argoproj-labs/argocd-rbac-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "JuliaCI/julia-buildkite"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

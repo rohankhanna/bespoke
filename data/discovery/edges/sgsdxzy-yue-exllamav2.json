@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgsdxzy/YuE-exllamav2",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgsdxzy/YuE-exllamav2",
+      "target": "sdbds/yue-for-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgsdxzy/YuE-exllamav2",
+      "target": "wrongprotocol/yue-exllamav2-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgsdxzy/YuE-exllamav2",
+      "target": "nomadkaraoke/python-audio-separator",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "sgsdxzy/YuE-exllamav2"
+}

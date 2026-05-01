@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:04:30.044946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10527
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "mmdetection",
+    "description": "[CVPR2023] This is an official mmdet implementation of paper \"DETRs with Hybrid Matching\".",
+    "fork": false,
+    "full_name": "HDETR/H-Deformable-DETR-mmdet",
+    "html_url": "https://github.com/HDETR/H-Deformable-DETR-mmdet",
+    "language": "Python",
+    "pushed_at": "2023-01-14T13:20:43Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-02-10T14:32:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

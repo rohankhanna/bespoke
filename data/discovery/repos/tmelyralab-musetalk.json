@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseTalk",
+      "target": "chaojie/comfyui-musetalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseTalk",
+      "target": "btbn/ffmpeg-builds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseTalk",
+      "target": "isaaconline/whisper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TMElyralab/MuseTalk",
+      "target": "mrzzm/hdtf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseTalk",
+      "target": "lip-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TMElyralab/MuseTalk",
+      "target": "virtualhumans",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:34:28.168271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22660
+    },
+    {
+      "path": "requirements.txt",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MuseTalk: Real-Time High Quality Lip Synchorization with Latent Space Inpainting",
+    "fork": false,
+    "full_name": "TMElyralab/MuseTalk",
+    "html_url": "https://github.com/TMElyralab/MuseTalk",
+    "language": "Python",
+    "pushed_at": "2025-09-26T05:44:17Z",
+    "stargazers_count": 5670,
+    "topics": [
+      "lip-sync",
+      "virtualhumans"
+    ],
+    "updated_at": "2026-05-01T08:41:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "btbn/ffmpeg-builds",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaojie/comfyui-musetalk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isaaconline/whisper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrzzm/hdtf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lip-sync"
+    },
+    {
+      "context_snippet": "<strong>MuseTalk: Real-Time High-Fidelity Video Dubbing via Spatio-Temporal Sampling</strong>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualhumans"
+    }
+  ]
+}

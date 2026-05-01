@@ -55,6 +55,42 @@
       "source_repo": "BrianPugh/cyclopts",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "  A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "**This library is considered feature-complete by its creator. It will still"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate-context",
+      "text": "Minimalist pedantic command line parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/argh",
+      "status": "candidate-context",
+      "text": "Rust derive-based argument parsing optimized for code size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/argh",
+      "status": "candidate-context",
+      "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "BrianPugh/cyclopts",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate",
+      "text": "**This library is considered feature-complete by its creator. It will still"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blyxxyz/lexopt",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/lexopt.svg)](https://crates.io/crates/lexopt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/argh",
+      "status": "candidate",
+      "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +172,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "clap-rs/clap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Taywee/args"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "blyxxyz/lexopt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google/argh"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

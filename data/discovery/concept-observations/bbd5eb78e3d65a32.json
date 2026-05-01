@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for securing CI/CD workflows with version pinning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![ratchet logo](docs/ratchet.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![ratchet logo](docs/ratchet.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044495,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044475,
+      "status": "candidate",
+      "text": "dependance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39822853,
+      "status": "candidate",
+      "text": "addiction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044546,
+      "status": "candidate",
+      "text": "dependent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044479,
+      "status": "candidate",
+      "text": "dependant"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dependency",
+      "sense_id": "dependency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5049,
+      "status": "candidate",
+      "text": "addiction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5041,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "dependance"
+    }
+  ],
+  "concept_id": "dependency",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency",
+  "observation_id": "bbd5eb78e3d65a32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "dependency",
+  "source_context_snippet": "![ratchet logo](docs/ratchet.png)",
+  "source_file": null,
+  "source_repo": "sethvargo/ratchet",
+  "source_repo_description": "A tool for securing CI/CD workflows with version pinning."
+}

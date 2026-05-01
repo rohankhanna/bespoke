@@ -1,12 +1,17 @@
 {
   "component": "coactions/setup-xvfb@v1",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-vscode-main.yml",
       "source_repo": "Myriad-Dreamin/tinymist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "reduxjs/redux-devtools"
     }
   ]
 }

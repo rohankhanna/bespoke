@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Implementation of the ICCV 2023 paper:  Perpetual Humanoid Control for Real-time Simulated Avatars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29779129,
+      "status": "candidate",
+      "text": "incarnation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29761974,
+      "status": "candidate",
+      "text": "embodiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19854468,
+      "status": "candidate",
+      "text": "personification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017219,
+      "status": "candidate",
+      "text": "awatar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017218,
+      "status": "candidate",
+      "text": "vaishnava"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "avatar",
+      "sense_id": "avatar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15033,
+      "status": "candidate",
+      "text": "embodiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "incarnation"
+    }
+  ],
+  "concept_id": "avatar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "avatar",
+  "observation_id": "44fe23c0bc953786",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "avatar",
+  "source_context_snippet": "Official Implementation of the ICCV 2023 paper: Perpetual Humanoid Control for Real-time Simulated Avatars",
+  "source_file": null,
+  "source_repo": "ZhengyiLuo/PHC",
+  "source_repo_description": "Official Implementation of the ICCV 2023 paper:  Perpetual Humanoid Control for Real-time Simulated Avatars"
+}

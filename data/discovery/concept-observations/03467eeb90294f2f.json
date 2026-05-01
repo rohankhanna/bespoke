@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reliable UDP Transmission Optimizer based on KCP: Enhancing network efficiency in poor connectivity environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forward-error-correction",
+      "sense_id": "forward-error-correction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "forward-error-correction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "forward-error-correction",
+  "observation_id": "03467eeb90294f2f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "forward-error-correction",
+  "source_context_snippet": "This repository is for protocol research purposes only. All tools have been removed to prevent misuse.",
+  "source_file": null,
+  "source_repo": "xtaci/kcptun",
+  "source_repo_description": "Reliable UDP Transmission Optimizer based on KCP: Enhancing network efficiency in poor connectivity environments."
+}

@@ -274,6 +274,42 @@
       "source_repo": "brentyi/dfgo",
       "status": "candidate-context",
       "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/fannypack",
+      "status": "candidate-context",
+      "text": "Tools for training PyTorch models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/fannypack",
+      "status": "candidate-context",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jax-ekf",
+      "status": "candidate-context",
+      "text": "Generic EKF, with support for non-Euclidean manifolds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jax-ekf",
+      "status": "candidate-context",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brentyi/jax_dataclasses",
+      "status": "candidate-context",
+      "text": "Pytrees + dataclasses \u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jax_dataclasses",
+      "status": "candidate-context",
+      "text": "mypy"
     }
   ],
   "candidate_glosses": [
@@ -406,6 +442,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "brentyi/dfgo",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/fannypack",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jax-ekf",
+      "status": "candidate",
+      "text": "mypy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brentyi/jax_dataclasses",
       "status": "candidate",
       "text": "mypy"
     }
@@ -655,11 +709,41 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "brentyi/dfgo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/fannypack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/jax-ekf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "brentyi/jax_dataclasses"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

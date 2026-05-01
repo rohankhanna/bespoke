@@ -199,6 +199,30 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate-context",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate-context",
+      "text": "A simple, fast and versatile Datalog database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"datalevin logo\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate-context",
+      "text": "Weaviate vector database \u2013 examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate-context",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "weaviate/weaviate",
       "status": "candidate",
       "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social)](https://github.com/weaviate/weaviate)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datalevin/datalevin",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"datalevin logo\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/weaviate-examples",
+      "status": "candidate",
+      "text": "List of examples and tutorials of how to use the Vector Search Engine"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +514,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

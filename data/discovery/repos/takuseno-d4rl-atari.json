@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "rail-berkeley/d4rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "data-driven-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "takuseno/d4rl-atari",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:02.164546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3979
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    },
+    {
+      "path": ".github/workflows/format_check.yml",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Datasets for data-driven deep reinforcement learning with Atari (wrapper for datasets released by Google)",
+    "fork": false,
+    "full_name": "takuseno/d4rl-atari",
+    "html_url": "https://github.com/takuseno/d4rl-atari",
+    "language": "Python",
+    "pushed_at": "2024-08-30T23:55:03Z",
+    "stargazers_count": 127,
+    "topics": [
+      "data-driven-reinforcement-learning",
+      "dataset",
+      "deep-reinforcement-learning"
+    ],
+    "updated_at": "2026-03-25T01:18:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rail-berkeley/d4rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "term": "format check"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-driven-reinforcement-learning"
+    },
+    {
+      "context_snippet": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "![format check](https://github.com/takuseno/d4rl-atari/workflows/format%20check/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "type-system"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "Tensor algebra abstract type interoperability setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "Tangent bundle, vector space  and Submanifold definition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "type-system",
+  "concept_id": "type-system",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/DirectSum.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "type-system",
+      "sense_id": "type-system#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

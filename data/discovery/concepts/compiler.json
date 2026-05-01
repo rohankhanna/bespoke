@@ -703,6 +703,42 @@
       "source_repo": "parcel-bundler/lightningcss",
       "status": "candidate-context",
       "text": "An extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "The Julia compiler frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries, and tests for Vulkan shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries and tests for shader compilation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate-context",
+      "text": "Write components once, run everywhere. Compiles to React, Vue, Qwik, Solid, Angular, Svelte, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate-context",
+      "text": "@builder.io/mitosis-repo"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1089,24 @@
       "source_repo": "parcel-bundler/lightningcss",
       "status": "candidate",
       "text": "An extremely fast CSS parser, transformer, and minifier written in Rust. Use it with [Parcel](https://parceljs.org), as a standalone library or CLI, or via a plugin with any other tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/JuliaSyntax.jl",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate",
+      "text": "A collection of tools, libraries and tests for shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuilderIO/mitosis",
+      "status": "candidate",
+      "text": "@builder.io/mitosis-repo"
     }
   ],
   "candidate_related_terms": [
@@ -1525,11 +1579,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/JuliaSyntax.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "BuilderIO/mitosis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

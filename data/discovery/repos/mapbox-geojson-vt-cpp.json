@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:54:34.394302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Port to C++ of JS GeoJSON-VT for slicing GeoJSON into vector tiles on the fly",
+    "fork": false,
+    "full_name": "mapbox/geojson-vt-cpp",
+    "html_url": "https://github.com/mapbox/geojson-vt-cpp",
+    "language": "C++",
+    "pushed_at": "2024-08-13T12:36:40Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-03-25T15:36:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

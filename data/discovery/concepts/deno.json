@@ -256,6 +256,18 @@
       "source_repo": "kysely-org/kysely",
       "status": "candidate-context",
       "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Deno SDK \ud83e\udd95"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
     }
   ],
   "candidate_glosses": [
@@ -390,6 +402,12 @@
       "source_repo": "kysely-org/kysely",
       "status": "candidate",
       "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-deno",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **DEPRECATED**: This SDK is deprecated. Please use the [Appwrite Node.js SDK](https://github.com/appwrite/sdk-for-node/) with Deno instead."
     }
   ],
   "candidate_related_terms": [
@@ -571,11 +589,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-deno"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

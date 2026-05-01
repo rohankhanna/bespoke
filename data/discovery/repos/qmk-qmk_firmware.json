@@ -1,0 +1,569 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml"
+    },
+    {
+      "component": "jakejarvis/s3-sync-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml"
+    },
+    {
+      "component": "zvecr/automatic-approve-action@safe_files",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml"
+    },
+    {
+      "component": "anothrNick/github-tag-action@1.66.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml"
+    },
+    {
+      "component": "jakejarvis/s3-sync-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml"
+    },
+    {
+      "component": "jakejarvis/s3-sync-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "jakejarvis/s3-sync-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Update API Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "zvecr/automatic-approve-action@safe_files",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Automatic Approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "anothrNick/github-tag-action@1.66.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Essential files modified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Bootstrap Script Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "jakejarvis/s3-sync-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "CI Build Major Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "CI Build Major Branch Keymap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "CLI CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_docs.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_docs.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Generate Develop Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_update.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_update.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Update develop after master merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "atmel-avr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "clueboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "ergodox-ez",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "keyboard-firmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "keyboard-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "olkb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:51:46.394104+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 136
+    },
+    {
+      "path": ".github/workflows/api.yml",
+      "size": 1248
+    },
+    {
+      "path": ".github/workflows/auto_approve.yml",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/auto_tag.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/bootstrap_testing.yml",
+      "size": 9813
+    },
+    {
+      "path": ".github/workflows/ci_build_major_branch.yml",
+      "size": 4972
+    },
+    {
+      "path": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "size": 6580
+    },
+    {
+      "path": ".github/workflows/cli.yml",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/develop_docs.yml",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/develop_update.yml",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-source keyboard firmware for Atmel AVR and Arm USB families",
+    "fork": false,
+    "full_name": "qmk/qmk_firmware",
+    "html_url": "https://github.com/qmk/qmk_firmware",
+    "language": "C",
+    "pushed_at": "2026-04-30T23:28:34Z",
+    "stargazers_count": 20320,
+    "topics": [
+      "atmel-avr",
+      "c",
+      "c-plus-plus",
+      "clueboard",
+      "ergodox-ez",
+      "keyboard-firmware",
+      "keyboard-support",
+      "olkb",
+      "qmk"
+    ],
+    "updated_at": "2026-05-01T06:41:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update API Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yml",
+      "term": "Update API Data"
+    },
+    {
+      "context_snippet": "Automatic Approve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "term": "Automatic Approve"
+    },
+    {
+      "context_snippet": "Essential files modified",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "term": "Essential files modified"
+    },
+    {
+      "context_snippet": "Bootstrap Script Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "term": "Bootstrap Script Testing"
+    },
+    {
+      "context_snippet": "CI Build Major Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "term": "CI Build Major Branch"
+    },
+    {
+      "context_snippet": "CI Build Major Branch Keymap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "term": "CI Build Major Branch Keymap"
+    },
+    {
+      "context_snippet": "CLI CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "term": "CLI CI"
+    },
+    {
+      "context_snippet": "Generate Develop Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_docs.yml",
+      "term": "Generate Develop Docs"
+    },
+    {
+      "context_snippet": "Update develop after master merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_update.yml",
+      "term": "Update develop after master merge"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atmel-avr"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clueboard"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ergodox-ez"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-firmware"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-support"
+    },
+    {
+      "context_snippet": "# Python requirements # platformdirs argcomplete colorama dotty-dict hid hjson jsonschema>=4 milc>=1.9.0 pygments pyserial pyusb pillow",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "olkb"
+    }
+  ]
+}

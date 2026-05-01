@@ -1,0 +1,12 @@
+{
+  "component": "zvecr/automatic-approve-action@safe_files",
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "qmk/qmk_firmware"
+    }
+  ]
+}

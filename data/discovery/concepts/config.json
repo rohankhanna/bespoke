@@ -178,6 +178,18 @@
       "source_repo": "juharris/dotnet-OptionsProvider",
       "status": "candidate-context",
       "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "softprops/envy-store",
+      "status": "candidate-context",
+      "text": "\ud83c\udfea deserialize AWS Parameter Store values into type safe structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy-store",
+      "status": "candidate-context",
+      "text": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "juharris/dotnet-OptionsProvider",
       "status": "candidate",
       "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "softprops/envy-store",
+      "status": "candidate",
+      "text": "> \ud83c\udfea deserialize [AWS Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) values into typesafe structs"
     }
   ],
   "candidate_related_terms": [
@@ -415,11 +433,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "juharris/dotnet-OptionsProvider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "softprops/envy-store"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "boxlite-ai/boxlite"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

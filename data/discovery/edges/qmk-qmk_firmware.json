@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "jakejarvis/s3-sync-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Update API Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "zvecr/automatic-approve-action@safe_files",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Automatic Approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "anothrNick/github-tag-action@1.66.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_tag.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Essential files modified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bootstrap_testing.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Bootstrap Script Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "jakejarvis/s3-sync-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_major_branch.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "CI Build Major Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_major_branch_keymap.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "CI Build Major Branch Keymap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "CLI CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_docs.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_docs.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Generate Develop Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/develop_update.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/develop_update.yml",
+      "source_repo": "qmk/qmk_firmware",
+      "target": "Update develop after master merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "atmel-avr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "clueboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "ergodox-ez",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "keyboard-firmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "keyboard-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qmk/qmk_firmware",
+      "target": "olkb",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "qmk/qmk_firmware"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:51:05.360842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pattern designer in Clojure and Quil",
+    "fork": false,
+    "full_name": "interstar/Patterning",
+    "html_url": "https://github.com/interstar/Patterning",
+    "language": "Clojure",
+    "pushed_at": "2023-07-21T20:35:01Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2023-07-21T20:33:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

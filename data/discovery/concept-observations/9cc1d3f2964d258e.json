@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modern React UI library \ud83d\udc85\ud83d\udc69\u200d\ud83c\udfa4\ud83c\udf6d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880237,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29750656,
+      "status": "candidate",
+      "text": "startup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29745289,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29712440,
+      "status": "candidate",
+      "text": "method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29669294,
+      "status": "candidate",
+      "text": "bootable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bootstrap",
+      "sense_id": "bootstrap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bootstrap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bootstrap",
+  "observation_id": "9cc1d3f2964d258e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "bootstrap",
+  "source_context_snippet": "> **Warning** This project is deprecated and no longer maintained.",
+  "source_file": null,
+  "source_repo": "smooth-code/smooth-ui",
+  "source_repo_description": "Modern React UI library \ud83d\udc85\ud83d\udc69\u200d\ud83c\udfa4\ud83c\udf6d"
+}

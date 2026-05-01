@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java library and command-line application for converting Apache Spark ML pipelines to PMML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "maven"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "maven"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995650,
+      "status": "candidate",
+      "text": "adept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993536,
+      "status": "candidate",
+      "text": "genius"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991455,
+      "status": "candidate",
+      "text": "hotshot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990931,
+      "status": "candidate",
+      "text": "wiz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982067,
+      "status": "candidate",
+      "text": "wizard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "maven",
+      "sense_id": "maven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 70043,
+      "status": "candidate",
+      "text": "adept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37041,
+      "status": "candidate",
+      "text": "virtuoso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27047,
+      "status": "candidate",
+      "text": "sensation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26078,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21043,
+      "status": "candidate",
+      "text": "genius"
+    }
+  ],
+  "concept_id": "maven",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maven",
+  "observation_id": "b81d74a50aa3c7e7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "maven",
+  "source_context_snippet": "maven",
+  "source_file": ".github/workflows/maven.yml",
+  "source_repo": "jpmml/jpmml-sparkml",
+  "source_repo_description": "Java library and command-line application for converting Apache Spark ML pipelines to PMML"
+}

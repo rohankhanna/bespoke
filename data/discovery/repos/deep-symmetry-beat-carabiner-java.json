@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    },
+    {
+      "component": "Xotl/cool-github-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "deep-symmetry/beat-carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "deep-symmetry/carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "deep-symmetry/lib-carabiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "Xotl/cool-github-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "source_repo": "Deep-Symmetry/beat-carabiner-java",
+      "target": "Create library jar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:49:11.828701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6370
+    },
+    {
+      "path": ".github/workflows/jar.yml",
+      "size": 3371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal tempo bridge between Pioneer Pro DJ Link and Ableton Link in Java.",
+    "fork": false,
+    "full_name": "Deep-Symmetry/beat-carabiner-java",
+    "html_url": "https://github.com/Deep-Symmetry/beat-carabiner-java",
+    "language": "Java",
+    "pushed_at": "2024-07-08T12:31:50Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-05-08T09:54:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/beat-carabiner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/carabiner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-symmetry/lib-carabiner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create library jar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar.yml",
+      "term": "Create library jar"
+    }
+  ]
+}

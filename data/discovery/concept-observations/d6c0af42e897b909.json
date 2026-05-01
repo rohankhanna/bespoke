@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Redux templates for Vite, Create-React-App, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "redux-toolkit",
+      "sense_id": "redux-toolkit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "redux-toolkit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "redux-toolkit",
+  "observation_id": "d6c0af42e897b909",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "redux-toolkit",
+  "source_context_snippet": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more.",
+  "source_file": null,
+  "source_repo": "reduxjs/redux-templates",
+  "source_repo_description": "Official Redux templates for Vite, Create-React-App, and more"
+}

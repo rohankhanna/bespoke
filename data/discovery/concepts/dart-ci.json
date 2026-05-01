@@ -91,6 +91,18 @@
       "source_repo": "dart-lang/pub",
       "status": "candidate-context",
       "text": "Dart CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-archive/ffigen",
+      "status": "candidate-context",
+      "text": "FFI binding generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-archive/ffigen",
+      "status": "candidate-context",
+      "text": "Dart CI"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/pub",
+      "status": "candidate",
+      "text": "Dart CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-archive/ffigen",
       "status": "candidate",
       "text": "Dart CI"
     }
@@ -232,11 +250,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "dart-lang/pub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/test-package.yml",
+      "source_repo": "dart-archive/ffigen"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

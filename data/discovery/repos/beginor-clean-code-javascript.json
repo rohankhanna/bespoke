@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beginor/clean-code-javascript",
+      "target": "danielstjules/buddy.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beginor/clean-code-javascript",
+      "target": "fesnt/clean-code-javascript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beginor/clean-code-javascript",
+      "target": "alivebao/clean-code-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "beginor/clean-code-javascript",
+      "target": "boryamogila/clean-code-javascript-ru",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:48:47.357103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":bathtub: Clean Code concepts adapted for JavaScript",
+    "fork": true,
+    "full_name": "beginor/clean-code-javascript",
+    "html_url": "https://github.com/beginor/clean-code-javascript",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-08T03:06:50Z",
+    "stargazers_count": 911,
+    "topics": [],
+    "updated_at": "2026-04-30T16:05:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alivebao/clean-code-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boryamogila/clean-code-javascript-ru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielstjules/buddy.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fesnt/clean-code-javascript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "serverless-python-requirements",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tnc-ca-geo/animl-email-relay",
+      "target": "unitedincome/serverless-python-requirements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tnc-ca-geo/animl-email-relay",
+      "target": "nathanielrindlaub/serverless-python-requirements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tnc-ca-geo/animl-email-relay",
+      "target": "tnc-ca-geo/exif-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tnc-ca-geo/animl-email-relay",
+      "target": "tnc-ca-geo/animl-ingest-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tnc-ca-geo/animl-email-relay",
+      "target": "serverless-python-requirements",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:45:02.656823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4698
+    },
+    {
+      "path": "Dockerfile",
+      "size": 583
+    },
+    {
+      "path": "package.json",
+      "size": 78
+    },
+    {
+      "path": "requirements.txt",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lambda service for extracting camera trap images from email attachments",
+    "fork": false,
+    "full_name": "tnc-ca-geo/animl-email-relay",
+    "html_url": "https://github.com/tnc-ca-geo/animl-email-relay",
+    "language": "Python",
+    "pushed_at": "2025-07-04T21:39:31Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-16T05:37:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nathanielrindlaub/serverless-python-requirements",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tnc-ca-geo/animl-ingest-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tnc-ca-geo/exif-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitedincome/serverless-python-requirements",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

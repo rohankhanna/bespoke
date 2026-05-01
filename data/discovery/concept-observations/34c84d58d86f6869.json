@@ -48,7 +48,7 @@
   "normalized_form": "cbindgen",
   "observation_id": "34c84d58d86f6869",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "cbindgen",
   "source_context_snippet": "cbindgen",
   "source_file": ".github/workflows/cbindgen.yml",

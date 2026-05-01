@@ -31,6 +31,30 @@
       "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
       "status": "candidate-context",
       "text": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "Tensor algebra abstract type interoperability setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate-context",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "Tangent bundle, vector space  and Submanifold definition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
       "status": "candidate",
       "text": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/AbstractTensors.jl",
+      "status": "candidate",
+      "text": "*Tensor algebra abstract type interoperability with vector bundle parameter*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chakravala/DirectSum.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/AbstractTensors.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "chakravala/DirectSum.jl"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

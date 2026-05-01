@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "valyala/fasttemplate",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "valyala/fasttemplate",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "valyala/fasttemplate",
+      "target": "placeholder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "valyala/fasttemplate",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:47:45.736693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2931
+    },
+    {
+      "path": "go.mod",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple and fast template engine for Go",
+    "fork": false,
+    "full_name": "valyala/fasttemplate",
+    "html_url": "https://github.com/valyala/fasttemplate",
+    "language": "Go",
+    "pushed_at": "2023-08-28T10:30:11Z",
+    "stargazers_count": 909,
+    "topics": [
+      "fast",
+      "go",
+      "golang",
+      "placeholder",
+      "template"
+    ],
+    "updated_at": "2026-04-10T09:28:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "fasttemplate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "fasttemplate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "fasttemplate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "placeholder"
+    },
+    {
+      "context_snippet": "fasttemplate",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

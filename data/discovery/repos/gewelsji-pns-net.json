@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GewelsJI/PNS-Net",
+      "target": "pytorch/tnt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GewelsJI/PNS-Net",
+      "target": "guyuchao/pyramidcsa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/PNS-Net",
+      "target": "colonoscopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/PNS-Net",
+      "target": "polyp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/PNS-Net",
+      "target": "video-object-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GewelsJI/PNS-Net",
+      "target": "video-polyp-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:05:22.044402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "2021-MICCAI-Progressively Normalized Self-Attention Network for Video Polyp Segmentation",
+    "fork": false,
+    "full_name": "GewelsJI/PNS-Net",
+    "html_url": "https://github.com/GewelsJI/PNS-Net",
+    "language": "Python",
+    "pushed_at": "2023-10-04T04:18:29Z",
+    "stargazers_count": 121,
+    "topics": [
+      "colonoscopy",
+      "polyp",
+      "video-object-segmentation",
+      "video-polyp-segmentation"
+    ],
+    "updated_at": "2026-04-27T11:25:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guyuchao/pyramidcsa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/tnt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colonoscopy"
+    },
+    {
+      "context_snippet": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyp"
+    },
+    {
+      "context_snippet": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-object-segmentation"
+    },
+    {
+      "context_snippet": "<img src=\"./imgs/VideoPresentation-min.gif\" width=\"100%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-polyp-segmentation"
+    }
+  ]
+}

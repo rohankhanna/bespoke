@@ -518,7 +518,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T07:24:25.918948+00:00",
+  "fetched_at": "2026-05-01T15:02:59.037339+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -559,7 +559,7 @@
     "html_url": "https://github.com/ratatui/ratatui",
     "language": "Rust",
     "pushed_at": "2026-04-27T21:29:30Z",
-    "stargazers_count": 20139,
+    "stargazers_count": 20141,
     "topics": [
       "cli",
       "ratatui",
@@ -569,7 +569,7 @@
       "tui",
       "widgets"
     ],
-    "updated_at": "2026-05-01T06:49:11Z"
+    "updated_at": "2026-05-01T12:52:49Z"
   },
   "repo_links": [],
   "terms": [

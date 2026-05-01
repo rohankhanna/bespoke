@@ -84,7 +84,7 @@
   "normalized_form": "build-backend-container-images-pr-filtered",
   "observation_id": "0ef9feb7d7c97cb4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
   "observed_text": "build backend container images (PR-filtered)",
   "source_context_snippet": "'build backend container images (PR-filtered)'",
   "source_file": ".github/workflows/backend_pr.yml",

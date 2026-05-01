@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mingyuliutw/UNIT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mingyuliutw/UNIT",
+      "target": "image-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mingyuliutw/UNIT",
+      "target": "pix2pix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:01:28.069003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3133
+    },
+    {
+      "path": "Dockerfile",
+      "size": 825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unsupervised Image-to-Image Translation",
+    "fork": false,
+    "full_name": "mingyuliutw/UNIT",
+    "html_url": "https://github.com/mingyuliutw/UNIT",
+    "language": "Python",
+    "pushed_at": "2021-09-02T20:38:43Z",
+    "stargazers_count": 2029,
+    "topics": [
+      "deep-learning",
+      "gan",
+      "image-translation",
+      "pix2pix"
+    ],
+    "updated_at": "2026-04-25T16:23:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-translation"
+    },
+    {
+      "context_snippet": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    }
+  ]
+}

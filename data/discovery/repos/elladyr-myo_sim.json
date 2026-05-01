@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elladyr/myo_sim",
+      "target": "facebookresearch/myosuite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:42:06.663419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Musculoskeletal Models in MuJoCo",
+    "fork": true,
+    "full_name": "elladyr/myo_sim",
+    "html_url": "https://github.com/elladyr/myo_sim",
+    "language": "Python",
+    "pushed_at": "2025-07-10T03:51:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-10T03:17:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/myosuite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

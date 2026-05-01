@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "microbundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "microbundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "branching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "conditions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "exhaustive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "pattern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "pattern-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gvergnaud/ts-pattern",
+      "target": "type-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:47:13.437427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50555
+    },
+    {
+      "path": "package.json",
+      "size": 2344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfa8 The exhaustive Pattern Matching library for TypeScript, with smart type inference.",
+    "fork": false,
+    "full_name": "gvergnaud/ts-pattern",
+    "html_url": "https://github.com/gvergnaud/ts-pattern",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-24T23:32:29Z",
+    "stargazers_count": 14967,
+    "topics": [
+      "branching",
+      "conditions",
+      "exhaustive",
+      "inference",
+      "javascript",
+      "matching",
+      "pattern",
+      "pattern-matching",
+      "ts",
+      "type-inference",
+      "typescript"
+    ],
+    "updated_at": "2026-05-01T02:34:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "branching"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conditions"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exhaustive"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern-matching"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TS-Pattern</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-inference"
+    }
+  ]
+}

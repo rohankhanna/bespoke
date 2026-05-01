@@ -91,6 +91,18 @@
       "source_repo": "getsentry/.github",
       "status": "candidate-context",
       "text": "# .github"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsentry/rust-sourcemap",
+      "status": "candidate-context",
+      "text": "A library for rust that implements basic sourcemap handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/rust-sourcemap",
+      "status": "candidate-context",
+      "text": "This library implements basic processing of JavaScript sourcemaps."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "getsentry/.github",
       "status": "candidate",
       "text": "# .github"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsentry/rust-sourcemap",
+      "status": "candidate",
+      "text": "This library implements basic processing of JavaScript sourcemaps."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "getsentry/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "getsentry/rust-sourcemap"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

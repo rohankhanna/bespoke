@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "namepllet/HandOccNet",
+      "target": "stevenlsw/semi-hand-object",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "namepllet/HandOccNet",
+      "target": "jongchan/attention-module",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:06.698732+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Offical pytorch implementation of \"HandOccNet: Occlusion-Robust 3D Hand Mesh Estimation Network\", CVPR 2022.",
+    "fork": false,
+    "full_name": "namepllet/HandOccNet",
+    "html_url": "https://github.com/namepllet/HandOccNet",
+    "language": "Python",
+    "pushed_at": "2024-07-15T01:30:19Z",
+    "stargazers_count": 171,
+    "topics": [],
+    "updated_at": "2026-03-13T11:58:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jongchan/attention-module",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevenlsw/semi-hand-object",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

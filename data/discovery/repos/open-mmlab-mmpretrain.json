@@ -73,20 +73,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmyolo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/playground",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "open-mmlab/mmpretrain",
@@ -283,7 +269,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T20:47:03.762252+00:00",
+  "fetched_at": "2026-05-01T14:05:51.057248+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -320,7 +306,7 @@
     "html_url": "https://github.com/open-mmlab/mmpretrain",
     "language": "Python",
     "pushed_at": "2024-11-01T06:27:36Z",
-    "stargazers_count": 3843,
+    "stargazers_count": 3842,
     "topics": [
       "beit",
       "clip",
@@ -340,20 +326,9 @@
       "swin-transformer",
       "vision-transformer"
     ],
-    "updated_at": "2026-04-27T08:21:27Z"
+    "updated_at": "2026-04-30T18:39:19Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmyolo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/playground",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "lint",

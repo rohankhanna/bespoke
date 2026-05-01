@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v6",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -552,6 +552,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "optiscaler/OptiScaler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/enforce_branch_name.yml",
+      "source_repo": "emilk/egui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plugin-stat.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugin-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-theme-entry.yml",
+      "source_repo": "obsidianmd/obsidian-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "stackblitz-labs/pkg.pr.new"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/entellegence_issues.yml",
+      "source_repo": "BasedHardware/omi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chhoumann/quickadd"
     }
   ]
 }

@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-reserved.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-reserved.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-reserved.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melange-re/melange",
+      "target": "melange-re/melange-opam-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melange-re/melange",
+      "target": "rescript-lang/rescript-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-reserved.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-reserved.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-reserved.yml",
+      "source_repo": "melange-re/melange",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-reserved.yml",
+      "source_repo": "melange-re/melange",
+      "target": "Auto-update reserved keywords",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "Nix Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam-build.yml",
+      "source_repo": "melange-re/melange",
+      "target": "Opam Pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:51:39.895676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6545
+    },
+    {
+      "path": ".github/workflows/auto-update-reserved.yml",
+      "size": 3099
+    },
+    {
+      "path": ".github/workflows/nix-build.yml",
+      "size": 823
+    },
+    {
+      "path": ".github/workflows/opam-build.yml",
+      "size": 2777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A mixture of tooling combined to produce JavaScript from OCaml & Reason",
+    "fork": false,
+    "full_name": "melange-re/melange",
+    "html_url": "https://github.com/melange-re/melange",
+    "language": "OCaml",
+    "pushed_at": "2026-04-27T07:27:53Z",
+    "stargazers_count": 972,
+    "topics": [],
+    "updated_at": "2026-04-26T20:50:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melange-re/melange-opam-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rescript-lang/rescript-compiler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-update reserved keywords",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-reserved.yml",
+      "term": "Auto-update reserved keywords"
+    },
+    {
+      "context_snippet": "Nix Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "term": "Nix Pipeline"
+    },
+    {
+      "context_snippet": "Opam Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam-build.yml",
+      "term": "Opam Pipeline"
+    }
+  ]
+}

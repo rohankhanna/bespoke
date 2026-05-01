@@ -19,6 +19,18 @@
       "source_repo": "navidrome/navidrome",
       "status": "candidate-context",
       "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlwaysNur/bookbank",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa7 The audiobook and podcast media server solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlwaysNur/bookbank",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Bookbank</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "navidrome/navidrome",
       "status": "candidate",
       "text": "<a href=\"https://www.navidrome.org\"><img src=\"resources/logo-192x192.png\" alt=\"Navidrome logo\" title=\"navidrome\" align=\"right\" height=\"60px\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlwaysNur/bookbank",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Bookbank</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "navidrome/navidrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "AlwaysNur/bookbank"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -188,20 +188,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodejs/node-gyp",
-      "target": "nodejs/gyp-next",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodejs/node-gyp",
-      "target": "microsoft/vssetup.powershell",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "nodejs/node-gyp",
@@ -468,7 +454,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:25:35.896813+00:00",
+  "fetched_at": "2026-05-01T12:53:41.480568+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -504,8 +490,8 @@
     "full_name": "nodejs/node-gyp",
     "html_url": "https://github.com/nodejs/node-gyp",
     "language": "Python",
-    "pushed_at": "2026-04-22T13:25:08Z",
-    "stargazers_count": 10592,
+    "pushed_at": "2026-04-25T16:40:40Z",
+    "stargazers_count": 10606,
     "topics": [
       "gyp",
       "node",
@@ -513,20 +499,9 @@
       "node-gyp",
       "nodejs"
     ],
-    "updated_at": "2026-04-23T00:03:18Z"
+    "updated_at": "2026-05-01T07:37:51Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/vssetup.powershell",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodejs/gyp-next",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "release-please",

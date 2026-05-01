@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "My personal website and blog made with Franklin.jl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26759375,
+      "status": "candidate",
+      "text": "demille"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26756980,
+      "status": "candidate",
+      "text": "ladd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26755378,
+      "status": "candidate",
+      "text": "zucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25094628,
+      "status": "candidate",
+      "text": "benjamin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24983650,
+      "status": "candidate",
+      "text": "squire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "franklin",
+      "sense_id": "franklin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "franklin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "franklin",
+  "observation_id": "a39a17f853037542",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "franklin",
+  "source_context_snippet": "This is my personal portfolio and blog site. This also serves on the GitHub pages domain",
+  "source_file": null,
+  "source_repo": "abhishalya/abhishalya.github.io",
+  "source_repo_description": "My personal website and blog made with Franklin.jl."
+}

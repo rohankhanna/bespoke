@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tipi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "justusc/findtbb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "tipi-deps/example-mapmap_cpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tipi.yml",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tipi.yml",
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "tipi.build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "dynamic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "feedback-vertex-set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "markov-random-field",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "massively-parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "simd-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dthuerck/mapmap_cpu",
+      "target": "vectorization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:50.006395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8995
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/tipi.yml",
+      "size": 654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high-performance general-purpose MRF MAP solver, heavily exploiting SIMD instructions.",
+    "fork": false,
+    "full_name": "dthuerck/mapmap_cpu",
+    "html_url": "https://github.com/dthuerck/mapmap_cpu",
+    "language": "C++",
+    "pushed_at": "2025-11-29T07:35:21Z",
+    "stargazers_count": 107,
+    "topics": [
+      "algorithm",
+      "computer-vision",
+      "dynamic-programming",
+      "feedback-vertex-set",
+      "markov-random-field",
+      "massively-parallel",
+      "mrf",
+      "simd",
+      "simd-programming",
+      "vectorization"
+    ],
+    "updated_at": "2026-03-18T07:27:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justusc/findtbb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tipi-deps/example-mapmap_cpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'build'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "tipi.build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tipi.yml",
+      "term": "tipi.build"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-programming"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feedback-vertex-set"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markov-random-field"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "massively-parallel"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-programming"
+    },
+    {
+      "context_snippet": "mapMAP MRF MAP Solver [![Build Status](https://github.com/dthuerck/mapmap_cpu/actions/workflows/master.yml/badge.svg)](https://github.com/dthuerck/mapmap_cpu/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectorization"
+    }
+  ]
+}

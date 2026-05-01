@@ -110,7 +110,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/nbb",
-      "target": "filipesilva/obsidian-babashka",
+      "target": "logseq/nbb-logseq",
       "target_type": "repository"
     },
     {
@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:20:44.310275+00:00",
+  "fetched_at": "2026-05-01T12:50:01.951667+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -311,12 +311,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "filipesilva/obsidian-babashka",
+      "full_name": "logseq/graph-validator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "logseq/graph-validator",
+      "full_name": "logseq/nbb-logseq",
       "source_file": "README.md"
     }
   ],

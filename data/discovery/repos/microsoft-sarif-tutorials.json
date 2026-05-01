@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/sarif-tutorials",
+      "target": "sarif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/sarif-tutorials",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/sarif-tutorials",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:03:04.339911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "User-friendly documentation for the SARIF file format.",
+    "fork": false,
+    "full_name": "microsoft/sarif-tutorials",
+    "html_url": "https://github.com/microsoft/sarif-tutorials",
+    "language": null,
+    "pushed_at": "2023-12-15T13:54:50Z",
+    "stargazers_count": 349,
+    "topics": [
+      "sarif",
+      "static-analysis",
+      "tutorial"
+    ],
+    "updated_at": "2026-04-26T00:48:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "SARIF, the Static Analysis Results Interchange Format, defines a standard format for the output of static analysis tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sarif"
+    },
+    {
+      "context_snippet": "SARIF, the Static Analysis Results Interchange Format, defines a standard format for the output of static analysis tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "SARIF, the Static Analysis Results Interchange Format, defines a standard format for the output of static analysis tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

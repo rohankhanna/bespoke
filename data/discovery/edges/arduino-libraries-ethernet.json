@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "arduino/arduino-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-arduino.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Check Arduino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "arduino/compile-sketches@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile-examples.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Compile Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "arduino/report-size-deltas@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/report-size-deltas.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Report Size Deltas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Spell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "carlosperate/download-file-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yml",
+      "source_repo": "arduino-libraries/Ethernet",
+      "target": "Sync Labels",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "source_repo": "arduino-libraries/Ethernet"
+}

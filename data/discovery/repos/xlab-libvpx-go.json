@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlab/libvpx-go",
+      "target": "rg3/youtube-dl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlab/libvpx-go",
+      "target": "vurtun/nuklear",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlab/libvpx-go",
+      "target": "ebml-go/ebml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlab/libvpx-go",
+      "target": "ebml-go/webm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:44:41.151649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package vpx provides Go bindings for libvpx-1.6.0, the WebM Project VP8/VP9 codec implementation.",
+    "fork": false,
+    "full_name": "xlab/libvpx-go",
+    "html_url": "https://github.com/xlab/libvpx-go",
+    "language": "C",
+    "pushed_at": "2022-02-03T23:38:24Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2025-02-05T03:30:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebml-go/ebml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ebml-go/webm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rg3/youtube-dl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vurtun/nuklear",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

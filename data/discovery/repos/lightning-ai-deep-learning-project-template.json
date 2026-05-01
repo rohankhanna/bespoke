@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Lightning-AI/deep-learning-project-template",
-      "target": "yourgithubname/deep-learning-project-template",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-testing.yml",
       "source_repo": "Lightning-AI/deep-learning-project-template",
@@ -60,7 +53,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:22:52.731629+00:00",
+  "fetched_at": "2026-05-01T12:53:47.084038+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,11 +86,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "pytorchlightning/deep-learning-project-template",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yourgithubname/deep-learning-project-template",
       "source_file": "README.md"
     }
   ],

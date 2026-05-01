@@ -5,12 +5,106 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate-context",
+      "text": "Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate-context",
+      "text": "unstable"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplecov-ruby/simplecov",
+      "status": "candidate",
+      "text": "unstable"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839987,
+      "status": "candidate",
+      "text": "labile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839916,
+      "status": "candidate",
+      "text": "irresolute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39837859,
+      "status": "candidate",
+      "text": "wonky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39837226,
+      "status": "candidate",
+      "text": "cranky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39836246,
+      "status": "candidate",
+      "text": "uneasy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 95076,
+      "status": "candidate",
+      "text": "tender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60037,
+      "status": "candidate",
+      "text": "precarious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57057,
+      "status": "candidate",
+      "text": "volatile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57034,
+      "status": "candidate",
+      "text": "uneasy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28029,
+      "status": "candidate",
+      "text": "irresolute"
+    }
+  ],
   "canonical_name": "unstable",
   "concept_id": "unstable",
   "definition_status": "unresolved",
@@ -20,12 +114,20 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/unstable.yml",
+      "source_repo": "simplecov-ruby/simplecov"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

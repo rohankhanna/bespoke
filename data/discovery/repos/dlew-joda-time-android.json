@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dlew/joda-time-android",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dlew/joda-time-android",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dlew/joda-time-android",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dlew/joda-time-android",
+      "target": "Android CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T15:04:48.768362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4127
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Joda-Time library with Android specialization",
+    "fork": false,
+    "full_name": "dlew/joda-time-android",
+    "html_url": "https://github.com/dlew/joda-time-android",
+    "language": "Java",
+    "pushed_at": "2026-04-29T22:50:38Z",
+    "stargazers_count": 2620,
+    "topics": [],
+    "updated_at": "2026-04-30T16:49:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Android CI"
+    }
+  ]
+}

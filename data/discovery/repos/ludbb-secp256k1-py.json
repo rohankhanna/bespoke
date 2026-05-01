@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ludbb/secp256k1-py",
+      "target": "bitcoin/secp256k1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:53:22.318712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python FFI bindings for secp256k1 :dizzy:",
+    "fork": false,
+    "full_name": "ludbb/secp256k1-py",
+    "html_url": "https://github.com/ludbb/secp256k1-py",
+    "language": "Python",
+    "pushed_at": "2026-04-13T16:44:04Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-02-16T06:35:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitcoin/secp256k1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

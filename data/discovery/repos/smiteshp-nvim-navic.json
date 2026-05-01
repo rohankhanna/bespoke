@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "smiteshp/nvim-navbuddy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "feline-nvim/feline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "glepnir/galaxyline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "document-symbols",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SmiteshP/nvim-navic",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:01:44.307217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple winbar/statusline plugin that shows your current code context",
+    "fork": false,
+    "full_name": "SmiteshP/nvim-navic",
+    "html_url": "https://github.com/SmiteshP/nvim-navic",
+    "language": "Lua",
+    "pushed_at": "2025-12-29T16:08:52Z",
+    "stargazers_count": 1652,
+    "topics": [
+      "document-symbols",
+      "language-server-protocol",
+      "lsp",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-05-01T09:36:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feline-nvim/feline.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glepnir/galaxyline.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smiteshp/nvim-navbuddy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A simple statusline/winbar component that uses LSP to show your current code context.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-symbols"
+    },
+    {
+      "context_snippet": "A simple statusline/winbar component that uses LSP to show your current code context.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "A simple statusline/winbar component that uses LSP to show your current code context.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "A simple statusline/winbar component that uses LSP to show your current code context.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "A simple statusline/winbar component that uses LSP to show your current code context.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "A simple statusline/winbar component that uses LSP to show your current code context.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

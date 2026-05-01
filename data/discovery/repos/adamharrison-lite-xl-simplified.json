@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "target": "adamharrison/lite-xl-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "target": "adamharrison/lite-xl-plugin-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "target": "scps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamharrison/lite-xl-simplified",
+      "target": "scps3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:55:45.002597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6147
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lite XL with a simplified build process and file structure.",
+    "fork": false,
+    "full_name": "adamharrison/lite-xl-simplified",
+    "html_url": "https://github.com/adamharrison/lite-xl-simplified",
+    "language": "Lua",
+    "pushed_at": "2023-04-22T22:59:41Z",
+    "stargazers_count": 17,
+    "topics": [
+      "scps",
+      "scps3"
+    ],
+    "updated_at": "2025-12-06T16:53:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamharrison/lite-xl-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamharrison/lite-xl-plugin-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps"
+    },
+    {
+      "context_snippet": "A lightweight text editor written in Lua, adapted from [lite-xl]. Makes it easier to build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scps3"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CUT3R/CUT3R",
+      "target": "apple/arkitscenes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CUT3R/CUT3R",
+      "target": "fabiotosi92/smd-nets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CUT3R/CUT3R",
+      "target": "facebookresearch/cop3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CUT3R/CUT3R",
+      "target": "dl3dv-10k/dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:04:09.496132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8070
+    },
+    {
+      "path": "requirements.txt",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of Continuous 3D Perception Model with Persistent State",
+    "fork": false,
+    "full_name": "CUT3R/CUT3R",
+    "html_url": "https://github.com/CUT3R/CUT3R",
+    "language": "Python",
+    "pushed_at": "2025-08-27T15:30:07Z",
+    "stargazers_count": 1406,
+    "topics": [],
+    "updated_at": "2026-04-30T06:01:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/arkitscenes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dl3dv-10k/dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabiotosi92/smd-nets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/cop3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

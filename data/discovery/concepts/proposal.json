@@ -163,6 +163,18 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate-context",
       "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "status": "candidate-context",
+      "text": "Old specification for Hack pipes in JavaScript. Please go to the new specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "status": "candidate-context",
+      "text": "ECMAScript Proposal. J. S. Choi, 2021."
     }
   ],
   "candidate_glosses": [
@@ -249,6 +261,12 @@
       "source_repo": "tc39/proposal-pipeline-operator",
       "status": "candidate",
       "text": "* **Stage**: 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-hack-pipes",
+      "status": "candidate",
+      "text": "ECMAScript Proposal. J. S. Choi, 2021."
     }
   ],
   "candidate_related_terms": [
@@ -440,11 +458,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "tc39/proposal-pipeline-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-hack-pipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-source-phase-imports"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

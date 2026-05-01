@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T14:47:10.974602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1729
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python ctypes wrapper for libsodium",
+    "fork": false,
+    "full_name": "saltstack/libnacl",
+    "html_url": "https://github.com/saltstack/libnacl",
+    "language": "Python",
+    "pushed_at": "2026-01-13T23:41:02Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-04-24T14:31:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

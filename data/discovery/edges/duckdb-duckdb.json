@@ -23,34 +23,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "actions/setup-python@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "actions/upload-artifact@v7",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/BundleStaticLibs.yml",
-      "source_repo": "duckdb/duckdb",
-      "target": "Bundle Static Libraries",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml",
       "source_repo": "duckdb/duckdb",
       "target": "actions/checkout@v6",
@@ -183,6 +155,41 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Extensions.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Extensions (all platforms)",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "duckdb/duckdb",
@@ -211,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "duckdb/duckdb"
 }

@@ -19,6 +19,30 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate-context",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate-context",
+      "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate-context",
+      "text": "Modern React UI library \ud83d\udc85\ud83d\udc69\u200d\ud83c\udfa4\ud83c\udf6d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate-context",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mui/material-ui",
+      "status": "candidate",
+      "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smooth-code/smooth-ui",
+      "status": "candidate",
+      "text": "> **Warning** This project is deprecated and no longer maintained."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "marmelab/react-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "smooth-code/smooth-ui"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

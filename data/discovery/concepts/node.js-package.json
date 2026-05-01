@@ -79,6 +79,30 @@
       "source_repo": "aksakalli/gtop",
       "status": "candidate-context",
       "text": "Node.js Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "Generate a browserslist-stats.json file using data from your Plausible Analytics instance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate-context",
+      "text": "Node.js Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "styleguidist/react-docgen-typescript",
+      "status": "candidate-context",
+      "text": "A simple parser for react properties defined in typescript instead of propTypes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-docgen-typescript",
+      "status": "candidate-context",
+      "text": "Node.js Package"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +139,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aksakalli/gtop",
+      "status": "candidate",
+      "text": "Node.js Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "browserslist/browserslist-plausible",
+      "status": "candidate",
+      "text": "Node.js Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "styleguidist/react-docgen-typescript",
       "status": "candidate",
       "text": "Node.js Package"
     }
@@ -196,11 +232,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "aksakalli/gtop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "browserslist/browserslist-plausible"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "styleguidist/react-docgen-typescript"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

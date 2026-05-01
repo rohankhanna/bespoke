@@ -19,6 +19,18 @@
       "source_repo": "mrash/fwknop",
       "status": "candidate-context",
       "text": "fwknop implements an authorization scheme known as Single Packet Authorization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "8 Lessons, Kick-start Your Cybersecurity Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/github/license/microsoft/Security-101)](https://github.com/microsoft/Security-101/blob/main/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mrash/fwknop",
       "status": "candidate",
       "text": "fwknop implements an authorization scheme known as Single Packet Authorization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Security-101",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/microsoft/Security-101)](https://github.com/microsoft/Security-101/blob/main/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mrash/fwknop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Security-101"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

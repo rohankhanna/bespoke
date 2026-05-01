@@ -211,6 +211,18 @@
       "source_repo": "SafetyCulture/grpc-web-devtools",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nilbuild/githunt",
+      "status": "candidate-context",
+      "text": "Hunt the most starred projects on any date on GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nilbuild/githunt",
+      "status": "candidate-context",
+      "text": "githunt-react"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "SafetyCulture/grpc-web-devtools",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nilbuild/githunt",
+      "status": "candidate",
+      "text": "githunt-react"
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +562,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nilbuild/githunt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

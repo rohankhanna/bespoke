@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and test the operator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate-context",
+      "text": "A Kubernetes operator for managing Argo CD clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate-context",
+      "text": "Build and test the operator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj-labs/argocd-operator",
+      "status": "candidate",
+      "text": "Build and test the operator"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18153,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "bodybuilder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "found"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and test the operator",
+  "concept_id": "build-and-test-the-operator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/ci-build.yaml",
+      "source_repo": "argoproj-labs/argocd-operator"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and test the operator",
+      "sense_id": "build-and-test-the-operator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

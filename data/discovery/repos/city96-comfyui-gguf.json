@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "city96/ComfyUI-GGUF",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:40:53.611016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3225
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 419
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GGUF Quantization support for native ComfyUI models",
+    "fork": false,
+    "full_name": "city96/ComfyUI-GGUF",
+    "html_url": "https://github.com/city96/ComfyUI-GGUF",
+    "language": "Python",
+    "pushed_at": "2026-01-12T13:02:18Z",
+    "stargazers_count": 3577,
+    "topics": [],
+    "updated_at": "2026-05-01T14:27:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

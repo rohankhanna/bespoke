@@ -23,34 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/beat-link-trigger",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/beat-carabiner-java",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/electro",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Deep-Symmetry/beat-link",
-      "target": "deep-symmetry/crate-digger",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/jar.yml",
       "source_repo": "Deep-Symmetry/beat-link",
@@ -121,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:20:27.497237+00:00",
+  "fetched_at": "2026-05-01T12:49:39.096177+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -152,28 +124,7 @@
     ],
     "updated_at": "2026-04-19T01:19:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deep-symmetry/beat-carabiner-java",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deep-symmetry/beat-link-trigger",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deep-symmetry/crate-digger",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "deep-symmetry/electro",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Create library jar",

@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xuyuanp/yanil",
+      "target": "xuyuanp/vimrc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xuyuanp/yanil",
+      "target": "kyazdani42/nvim-tree.lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Xuyuanp/yanil",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/yanil",
+      "target": "fileexplorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/yanil",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xuyuanp/yanil",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:55:02.385961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 813
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet Another Nerdtree In Lua",
+    "fork": false,
+    "full_name": "Xuyuanp/yanil",
+    "html_url": "https://github.com/Xuyuanp/yanil",
+    "language": "Lua",
+    "pushed_at": "2026-01-15T07:02:50Z",
+    "stargazers_count": 98,
+    "topics": [
+      "fileexplorer",
+      "git",
+      "neovim",
+      "plugin"
+    ],
+    "updated_at": "2025-07-16T12:07:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyazdani42/nvim-tree.lua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuyuanp/vimrc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Yet Another Nerdtree In Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fileexplorer"
+    },
+    {
+      "context_snippet": "Yet Another Nerdtree In Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Yet Another Nerdtree In Lua",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

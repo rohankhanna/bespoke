@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TencentCloudADP/youtu-agent",
-      "target": "tencentcloudadp/youtu-tip",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TencentCloudADP/youtu-agent",
       "target": "sunnynexus/webthinker",
       "target_type": "repository"
     },
@@ -19,13 +12,6 @@
       "source_file": "README.md",
       "source_repo": "TencentCloudADP/youtu-agent",
       "target": "tencent/youtu-agent",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "TencentCloudADP/youtu-agent",
-      "target": "csjgg/ags-cookbook",
       "target_type": "repository"
     },
     {
@@ -113,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-01T12:32:24.464365+00:00",
   "source_repo": "TencentCloudADP/youtu-agent"
 }

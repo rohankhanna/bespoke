@@ -55,6 +55,30 @@
       "source_repo": "naver/kapture",
       "status": "candidate-context",
       "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate-context",
+      "text": "D2-Net: A Trainable CNN for Joint Description and Detection of Local Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "GSV-Cities: a large-scale dataset for visual place recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate-context",
+      "text": "Official repo for *Neurocomputing 2022* paper"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "naver/kapture",
       "status": "candidate",
       "text": "[build-system] requires = [\"setuptools\", \"setuptools-scm\"] build-backend = \"setuptools.build_meta\" [project] name = \"kapture\" description = \"Kapture is a pivot file format and Python toolkit for SfM and sensor-acquired data.\" readme = \"README.md\" version=\"1.1.12\" dependencies = \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mihaidusmanu/d2-net",
+      "status": "candidate",
+      "text": "This repository contains the implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amaralibey/gsv-cities",
+      "status": "candidate",
+      "text": "Official repo for *Neurocomputing 2022* paper"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "naver/kapture"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mihaidusmanu/d2-net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "amaralibey/gsv-cities"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

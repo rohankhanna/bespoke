@@ -43,6 +43,42 @@
       "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
       "status": "candidate-context",
       "text": "![alt text](./cover.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "MaskedFace-Net is a dataset of human faces with a correctly and incorrectly worn mask based on the dataset Flickr-Faces-HQ (FFHQ). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate-context",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "We are building an open database of COVID-19 cases with chest X-ray or CT images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate-context",
+      "text": "Project Summary: To build a public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias ([MERS](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome), [SARS](https://en.wikipedia.org/w\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate-context",
+      "text": "Open source lung ultrasound (LUS) data collection initiative for COVID-19."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "HzFu/COVID19_imaging_AI_paper_list",
       "status": "candidate",
       "text": "![alt text](./cover.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cabani/MaskedFace-Net",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/github/stars/cabani/MaskedFace-Net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ieee8023/covid-chestxray-dataset",
+      "status": "candidate",
+      "text": "Project Summary: To build a public open dataset of chest X-ray and CT images of patients which are positive or suspected of COVID-19 or other viral and bacterial pneumonias ([MERS](https://en.wikipedia.org/wiki/Middle_East_respiratory_syndrome), [SARS](https://en.wikipedia.org/w\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jannisborn/covid19_ultrasound",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/jannisborn/covid19_pocus_ultrasound/workflows/Node.js%20CI/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "HzFu/COVID19_imaging_AI_paper_list"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "cabani/MaskedFace-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "ieee8023/covid-chestxray-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

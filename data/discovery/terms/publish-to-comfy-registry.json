@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -206,6 +206,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "lldacing/ComfyUI_Patches_ll"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chengzeyi/Comfy-WaveSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chflame163/ComfyUI_LayerStyle"
     }
   ],
   "term": "Publish to Comfy registry"

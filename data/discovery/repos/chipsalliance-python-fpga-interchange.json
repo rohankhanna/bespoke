@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "target": "symbiflow/python-fpga-interchange",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "target": "litghost/rapidyaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "target": "CI tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chipsalliance/python-fpga-interchange",
+      "target": "f4pga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T13:40:02.129152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2253
+    },
+    {
+      "path": "requirements.txt",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1406
+    },
+    {
+      "path": ".github/workflows/format.sh",
+      "size": 95
+    },
+    {
+      "path": ".github/workflows/test.sh",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/testarch_device.sh",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python interface to FPGA interchange format",
+    "fork": false,
+    "full_name": "chipsalliance/python-fpga-interchange",
+    "html_url": "https://github.com/chipsalliance/python-fpga-interchange",
+    "language": "Python",
+    "pushed_at": "2022-10-19T13:35:35Z",
+    "stargazers_count": 41,
+    "topics": [
+      "f4pga"
+    ],
+    "updated_at": "2024-08-14T22:02:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "litghost/rapidyaml",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "symbiflow/python-fpga-interchange",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI tests"
+    },
+    {
+      "context_snippet": "This python module is designed to read and write FPGA interchange files, and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "f4pga"
+    }
+  ]
+}

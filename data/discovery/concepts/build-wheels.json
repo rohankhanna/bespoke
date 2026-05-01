@@ -519,6 +519,30 @@
       "source_repo": "cjlin1/libsvm",
       "status": "candidate-context",
       "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Topic Modelling for Humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate-context",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "status": "candidate-context",
+      "text": "A combination of Oobabooga's fork and the main cuda branch of GPTQ-for-LLaMa in a package format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "status": "candidate-context",
+      "text": "Build Wheels"
     }
   ],
   "candidate_glosses": [
@@ -779,6 +803,18 @@
       "source_repo": "cjlin1/libsvm",
       "status": "candidate",
       "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "piskvorky/gensim",
+      "status": "candidate",
+      "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA",
+      "status": "candidate",
+      "text": "Build Wheels"
     }
   ],
   "candidate_related_terms": [
@@ -1152,11 +1188,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/wheel.yml",
       "source_repo": "cjlin1/libsvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "boxlite-ai/boxlite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "jllllll/GPTQ-for-LLaMa-CUDA"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1042,6 +1042,42 @@
       "source_repo": "realsenseai/librealsense",
       "status": "candidate-context",
       "text": "build_lrs_ROS2_package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "  A simple header-only C++ argument parser library. Supposed to be flexible and powerful, and attempts to be compatible with the functionality of the Python standard argparse library (though not necessarily the API)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate-context",
+      "text": "**This library is considered feature-complete by its creator. It will still"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/libplist",
+      "status": "candidate-context",
+      "text": "A library to handle Apple Property List format in binary or XML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libplist",
+      "status": "candidate-context",
+      "text": "*A small portable C library to handle Apple Property List files in binary, XML,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "A low-level, lightweight protocol buffers implementation in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate-context",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1560,6 +1596,24 @@
       "source_repo": "realsenseai/librealsense",
       "status": "candidate",
       "text": "build_lrs_ROS2_package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taywee/args",
+      "status": "candidate",
+      "text": "**This library is considered feature-complete by its creator. It will still"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/libplist",
+      "status": "candidate",
+      "text": "*A small portable C library to handle Apple Property List files in binary, XML,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pbf",
+      "status": "candidate",
+      "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -2212,11 +2266,47 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "realsenseai/librealsense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "Taywee/args"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "libimobiledevice/libplist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/pbf"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Develop Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Open-source keyboard firmware for Atmel AVR and Arm USB families"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate-context",
+      "text": "Generate Develop Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qmk/qmk_firmware",
+      "status": "candidate",
+      "text": "Generate Develop Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26204,
+      "status": "candidate",
+      "text": "inbreeding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21973,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21816,
+      "status": "candidate",
+      "text": "bergson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21816,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21816,
+      "status": "candidate",
+      "text": "dupleix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Develop Docs",
+  "concept_id": "generate-develop-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/develop_docs.yml",
+      "source_repo": "qmk/qmk_firmware"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Develop Docs",
+      "sense_id": "generate-develop-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

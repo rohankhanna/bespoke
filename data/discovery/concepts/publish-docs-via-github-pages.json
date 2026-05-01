@@ -115,6 +115,30 @@
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
       "status": "candidate-context",
       "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate-context",
+      "text": "Install and run applications packaged with conda in isolated environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate-context",
+      "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iver56/audiomentations",
+      "status": "candidate-context",
+      "text": "A Python library for audio data augmentation. Useful for making audio ML models work well in the real world, not just in the lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/audiomentations",
+      "status": "candidate-context",
+      "text": "Publish docs via GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +193,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons",
+      "status": "candidate",
+      "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mariusvniekerk/condax",
+      "status": "candidate",
+      "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iver56/audiomentations",
       "status": "candidate",
       "text": "Publish docs via GitHub Pages"
     }
@@ -316,11 +352,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish-docs.yaml",
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-addons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mariusvniekerk/condax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "iver56/audiomentations"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T12:51:07.029004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 77
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Quil / Processing wrapper for Patterning",
+    "fork": false,
+    "full_name": "interstar/Patterning-Quil",
+    "html_url": "https://github.com/interstar/Patterning-Quil",
+    "language": "Clojure",
+    "pushed_at": "2024-10-21T15:08:46Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-10-21T15:08:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

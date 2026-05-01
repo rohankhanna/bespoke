@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anvoynov/GANLatentDiscovery",
+      "target": "ptrblck/prog_gans_pytorch_inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anvoynov/GANLatentDiscovery",
+      "target": "ajbrock/biggan-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anvoynov/GANLatentDiscovery",
+      "target": "milesial/pytorch-unet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-01T12:36:46.916816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3086
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The authors official implementation of Unsupervised Discovery of Interpretable Directions in the GAN Latent Space",
+    "fork": false,
+    "full_name": "anvoynov/GANLatentDiscovery",
+    "html_url": "https://github.com/anvoynov/GANLatentDiscovery",
+    "language": "Python",
+    "pushed_at": "2023-10-03T22:35:26Z",
+    "stargazers_count": 428,
+    "topics": [],
+    "updated_at": "2026-01-23T14:04:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajbrock/biggan-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milesial/pytorch-unet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptrblck/prog_gans_pytorch_inference",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

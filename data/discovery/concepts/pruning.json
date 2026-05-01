@@ -91,6 +91,18 @@
       "source_repo": "VITA-Group/Random_Pruning",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "TinyNeuralNetwork is an efficient and easy-to-use deep learning model compression framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate-context",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "VITA-Group/Random_Pruning",
       "status": "candidate",
       "text": "<img src=\"https://github.com/Shiweiliuiiiiiii/Random_Pruning/blob/main/depth_cf10-1.png\" width=\"800\" height=\"400\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/TinyNeuralNetwork",
+      "status": "candidate",
+      "text": "[\u7b80\u4f53\u4e2d\u6587](README_zh-CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "VITA-Group/Random_Pruning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/TinyNeuralNetwork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/Random_Pruning"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

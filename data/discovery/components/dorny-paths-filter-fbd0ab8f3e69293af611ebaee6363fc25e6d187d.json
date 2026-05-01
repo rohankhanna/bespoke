@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -337,6 +337,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-check_redirects.yml",
       "source_repo": "mdn/translated-content"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "angular/angular-cli"
     }
   ]
 }

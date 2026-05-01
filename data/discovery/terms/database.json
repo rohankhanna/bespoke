@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -531,6 +531,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "amilajack/compat-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hyparam/squirreling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbl-dart/cbl-dart"
     }
   ],
   "term": "database"

@@ -1,7 +1,7 @@
 {
   "component": "ahmadnassri/action-dependabot-auto-merge@v2",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot_auto_merge.yml",
       "source_repo": "hchiam/learning-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/learning-webrtc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/convenience"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "mdn/interactive-examples"
     }
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "run DROID-SLAM with Metric3D to improve monocular performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metric-depth-estimation",
+      "sense_id": "metric-depth-estimation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "metric-depth-estimation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "metric-depth-estimation",
+  "observation_id": "a43bb4adf0c7382c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_text": "metric-depth-estimation",
+  "source_context_snippet": "torch == 2.0.1 torchvision == 0.15.2 numpy == 1.26.1 opencv-python gdown py3_wget tqdm psutil # droid slam torch-scatter open3d tensorboard scipy matplotlib pyyaml evo # metric3d xformers == 0.0.21 mmengine mmcv timm html4vision plyfile",
+  "source_file": null,
+  "source_repo": "Jianxff/droid_metric",
+  "source_repo_description": "run DROID-SLAM with Metric3D to improve monocular performance"
+}

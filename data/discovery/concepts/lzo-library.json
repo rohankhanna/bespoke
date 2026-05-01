@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lzo-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jd-boyd/python-lzo",
+      "status": "candidate-context",
+      "text": "Python bindings for the LZO data compression library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-boyd/python-lzo",
+      "status": "candidate-context",
+      "text": "[![Build and tests](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml/badge.svg)](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-boyd/python-lzo",
+      "status": "candidate",
+      "text": "[![Build and tests](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml/badge.svg)](https://github.com/jd-boyd/python-lzo/actions/workflows/wheels.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lzo-library",
+  "concept_id": "lzo-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "jd-boyd/python-lzo"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lzo-library",
+      "sense_id": "lzo-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

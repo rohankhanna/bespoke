@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D",
+      "target": "nvlabs/nvdiffrec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gorilla-Lab-SCUT/Fantasia3D",
+      "target": "text-to-3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:07:31.296048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24926
+    },
+    {
+      "path": "requirements.txt",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(ICCV 2023) official repository for \"Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation\"",
+    "fork": false,
+    "full_name": "Gorilla-Lab-SCUT/Fantasia3D",
+    "html_url": "https://github.com/Gorilla-Lab-SCUT/Fantasia3D",
+    "language": "Python",
+    "pushed_at": "2024-05-29T04:38:19Z",
+    "stargazers_count": 778,
+    "topics": [
+      "aigc",
+      "text-to-3d"
+    ],
+    "updated_at": "2026-04-23T02:34:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/nvdiffrec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-3d"
+    }
+  ]
+}

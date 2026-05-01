@@ -115,6 +115,18 @@
       "source_repo": "knightcrawler25/GLSL-PathTracer",
       "status": "candidate-context",
       "text": "GLSL-PathTracer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries, and tests for Vulkan shader compilation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate-context",
+      "text": "A collection of tools, libraries and tests for shader compilation."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "knightcrawler25/GLSL-PathTracer",
       "status": "candidate",
       "text": "GLSL-PathTracer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/shaderc",
+      "status": "candidate",
+      "text": "A collection of tools, libraries and tests for shader compilation."
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +256,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "knightcrawler25/GLSL-PathTracer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "google/shaderc"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-01T13:45:48.629087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2652
+    },
+    {
+      "path": "Dockerfile",
+      "size": 66
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create Dockerfiles using an embedded DSL in Haskell",
+    "fork": false,
+    "full_name": "hadolint/dockerfile-creator",
+    "html_url": "https://github.com/hadolint/dockerfile-creator",
+    "language": "Haskell",
+    "pushed_at": "2021-07-02T10:38:36Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-01-17T14:06:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

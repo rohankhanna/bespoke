@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lpiccinelli-eth/UniDepth",
+      "target": "depth-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-01T14:03:43.696817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12096
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 618
+    },
+    {
+      "path": "requirements.txt",
+      "size": 280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Universal Monocular Metric Depth Estimation",
+    "fork": false,
+    "full_name": "lpiccinelli-eth/UniDepth",
+    "html_url": "https://github.com/lpiccinelli-eth/UniDepth",
+    "language": "Python",
+    "pushed_at": "2025-05-18T21:52:52Z",
+    "stargazers_count": 1180,
+    "topics": [
+      "3d-reconstruction",
+      "computer-vision",
+      "depth-estimation"
+    ],
+    "updated_at": "2026-04-29T06:35:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/UniDepthV2%20arXiv-2502.20110-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2502.20110)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    }
+  ]
+}

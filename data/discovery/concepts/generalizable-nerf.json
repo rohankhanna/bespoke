@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "generalizable-nerf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2023] Official code of \"One-2-3-45: Any Single Image to 3D Mesh in 45 Seconds without Per-Shape Optimization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "One-2-3-45/One-2-3-45",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "generalizable-nerf",
+  "concept_id": "generalizable-nerf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-01T12:32:24.464365+00:00",
+      "source_file": null,
+      "source_repo": "One-2-3-45/One-2-3-45"
+    }
+  ],
+  "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generalizable-nerf",
+      "sense_id": "generalizable-nerf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}
